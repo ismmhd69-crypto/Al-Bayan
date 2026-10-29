@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0336",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:24:17.291Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "50b33e61-14ec-4fc1-b167-d07f21306953",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:779",
+      "reference": "Sahih Muslim, hadith 779, book 6, باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "title": "باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ بَرَّادٍ الأَشْعَرِيُّ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ بُرَيْدٍ، عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَثَلُ الْبَيْتِ الَّذِي يُذْكَرُ اللَّهُ فِيهِ وَالْبَيْتِ الَّذِي لاَ يُذْكَرُ اللَّهُ فِيهِ مَثَلُ الْحَىِّ وَالْمَيِّتِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "417042f32ca2bf57685000e7e981809e9aaaf5c2ec3f0fc71642ada4029f1f74",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Barrad al-Ash‘ari et Muhammad ibn al-‘Ala’ nous ont rapporté. Tous deux ont dit : Abu Usama nous a rapporté, d’après Burayd, d’après Abu Burda, d’après Abu Musa, d’après le Prophète ﷺ, qui a dit : « La maison où Allah est invoqué et celle où Allah n’est pas invoqué sont comparables au vivant et au mort. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9c10376-4168-4544-82f6-ff0128ac54cf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:780",
+      "reference": "Sahih Muslim, hadith 780, book 6, باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "title": "باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ عَبْدِ الرَّحْمَنِ الْقَارِيُّ - عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَجْعَلُوا بُيُوتَكُمْ مَقَابِرَ إِنَّ الشَّيْطَانَ يَنْفِرُ مِنَ الْبَيْتِ الَّذِي تُقْرَأُ فِيهِ سُورَةُ الْبَقَرَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "111ad6ea777ac6671e738ac1e360a0b19b200ad576e34cc6a37f738660d45d14",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Ya‘qub — c’est-à-dire Ibn ‘Abd al-Rahman al-Qari — nous a rapporté, d’après Suhayl, d’après son père, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Ne faites pas de vos maisons des tombes. Satan fuit la maison où l’on récite la sourate al-Baqara. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7e19e8a4-ea6f-47c1-b265-e9eeae4bc206",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:781a",
+      "reference": "Sahih Muslim, hadith 781 a, book 6, باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "title": "باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ سَعِيدٍ، حَدَّثَنَا سَالِمٌ أَبُو النَّضْرِ، مَوْلَى عُمَرَ بْنِ عُبَيْدِ اللَّهِ عَنْ بُسْرِ بْنِ سَعِيدٍ، عَنْ زَيْدِ بْنِ ثَابِتٍ، قَالَ احْتَجَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم حُجَيْرَةً بِخَصَفَةٍ أَوْ حَصِيرٍ فَخَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي فِيهَا - قَالَ - فَتَتَبَّعَ إِلَيْهِ رِجَالٌ وَجَاءُوا يُصَلُّونَ بِصَلاَتِهِ - قَالَ - ثُمَّ جَاءُوا لَيْلَةً فَحَضَرُوا وَأَبْطَأَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْهُمْ - قَالَ - فَلَمْ يَخْرُجْ إِلَيْهِمْ فَرَفَعُوا أَصْوَاتَهُمْ وَحَصَبُوا الْبَابَ فَخَرَجَ إِلَيْهِمْ رَسُولُ اللَّهِ صلى الله عليه وسلم مُغْضَبًا‏ فَقَالَ لَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا زَالَ بِكُمْ صَنِيعُكُمْ حَتَّى ظَنَنْتُ أَنَّهُ سَيُكْتَبُ عَلَيْكُمْ فَعَلَيْكُمْ بِالصَّلاَةِ فِي بُيُوتِكُمْ فَإِنَّ خَيْرَ صَلاَةِ الْمَرْءِ فِي بَيْتِهِ إِلاَّ الصَّلاَةَ الْمَكْتُوبَةَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "50827e5f3e93de32e69e63b5396eec2cd84871a1164cc727e4aa2460feedb0eb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : ‘Abd Allah ibn Sa‘id nous a rapporté : Salim Abu al-Nadr, affranchi de ‘Umar ibn ‘Ubayd Allah, nous a rapporté, d’après Busayr ibn Sa‘id, d’après Zayd ibn Thabit. Il dit : Le Messager d’Allah ﷺ s’était aménagé un petit espace clos avec une natte de feuilles de palmier — ou une natte — puis il en sortit et se mit à y prier. Des hommes le suivirent et vinrent prier comme lui. Une nuit, ils vinrent et attendirent, mais le Messager d’Allah ﷺ tarda à les rejoindre. Comme il ne sortait pas, ils élevèrent la voix et jetèrent des cailloux contre la porte. Le Messager d’Allah ﷺ sortit alors vers eux, en colère, et leur dit : « Votre insistance a persisté au point que j’ai pensé que cette prière vous serait prescrite. Accomplissez donc vos prières chez vous, car la meilleure prière d’une personne chez elle est celle qui n’est pas prescrite [en assemblée]. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b8876e7b-1d25-4c12-a1bb-b8a21ce9b5ed",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:781b",
+      "reference": "Sahih Muslim, hadith 781 b, book 6, باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "title": "باب اسْتِحْبَابِ صَلاَةِ النَّافِلَةِ فِي بَيْتِهِ وَجَوَازِهَا فِي الْمَسْجِدِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا مُوسَى بْنُ عُقْبَةَ، قَالَ سَمِعْتُ أَبَا النَّضْرِ، عَنْ بُسْرِ بْنِ سَعِيدٍ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم اتَّخَذَ حُجْرَةً فِي الْمَسْجِدِ مِنْ حَصِيرٍ فَصَلَّى رَسُولُ اللَّهِ صلى الله عليه وسلم فِيهَا لَيَالِيَ حَتَّى اجْتَمَعَ إِلَيْهِ نَاسٌ ‏.‏ فَذَكَرَ نَحْوَهُ وَزَادَ فِيهِ ‏\"‏ وَلَوْ كُتِبَ عَلَيْكُمْ مَا قُمْتُمْ بِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ca94a630190aada3630fc29d80082f1abadad33368bd5852c13a2036904b8849",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5887003-ce96-47cb-a59c-32f3d0a4d58a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:782a",
+      "reference": "Sahih Muslim, hadith 782 a, book 6, باب فَضِيلَةِ الْعَمَلِ الدَّائِمِ مِنْ قِيَامِ اللَّيْلِ وَغَيْرِهِ ‏",
+      "title": "باب فَضِيلَةِ الْعَمَلِ الدَّائِمِ مِنْ قِيَامِ اللَّيْلِ وَغَيْرِهِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الْوَهَّابِ، - يَعْنِي الثَّقَفِيَّ - حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ، عَنْ أَبِي سَلَمَةَ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ كَانَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم حَصِيرٌ وَكَانَ يُحَجِّرُهُ مِنَ اللَّيْلِ فَيُصَلِّي فِيهِ فَجَعَلَ النَّاسُ يُصَلُّونَ بِصَلاَتِهِ وَيَبْسُطُهُ بِالنَّهَارِ فَثَابُوا ذَاتَ لَيْلَةٍ فَقَالَ ‏\"‏ يَا أَيُّهَا النَّاسُ عَلَيْكُمْ مِنَ الأَعْمَالِ مَا تُطِيقُونَ فَإِنَّ اللَّهَ لاَ يَمَلُّ حَتَّى تَمَلُّوا وَإِنَّ أَحَبَّ الأَعْمَالِ إِلَى اللَّهِ مَا دُووِمَ عَلَيْهِ وَإِنْ قَلَّ ‏\"‏ ‏.‏ وَكَانَ آلُ مُحَمَّدٍ صلى الله عليه وسلم إِذَا عَمِلُوا عَمَلاً أَثْبَتُوهُ ‏.‏",
+      "source_hash_sha256": "4963de3a5cbd0c6c4fbaa5124af2806b5eaa64a32cdfdc542f2012652c4f1495",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : ‘Abd al-Wahhab — c’est-à-dire al-Thaqafi — nous a rapporté, d’après ‘Ubayd Allah, d’après Sa‘id ibn Abi Sa‘id, d’après Abu Salama, d’après ‘A’isha. Elle dit : Le Messager d’Allah ﷺ avait une natte. La nuit, il en délimitait un espace et y priait. Les gens se mirent à prier comme lui. Le jour, il étendait la natte. Une nuit, ils vinrent en nombre. Il dit alors : « Ô gens, accomplissez les œuvres dont vous êtes capables, car Allah ne se lasse pas jusqu’à ce que vous vous lassiez. Les œuvres les plus aimées d’Allah sont celles que l’on accomplit avec constance, même si elles sont peu nombreuses. » La famille de Muhammad ﷺ, lorsqu’elle entreprenait une œuvre, s’y tenait avec constance.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3ba916d0-9969-437a-b533-6bc075fc5e55",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:782b",
+      "reference": "Sahih Muslim, hadith 782 b, book 6, باب فَضِيلَةِ الْعَمَلِ الدَّائِمِ مِنْ قِيَامِ اللَّيْلِ وَغَيْرِهِ ‏",
+      "title": "باب فَضِيلَةِ الْعَمَلِ الدَّائِمِ مِنْ قِيَامِ اللَّيْلِ وَغَيْرِهِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، أَنَّهُ سَمِعَ أَبَا سَلَمَةَ، يُحَدِّثُ عَنْ عَائِشَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم سُئِلَ أَىُّ الْعَمَلِ أَحَبُّ إِلَى اللَّهِ قَالَ ‏\"‏ أَدْوَمُهُ وَإِنْ قَلَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1fb53647de6cce4e90ad0b85baf74954df1f39851215e665ea231fe11a12312f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Sa‘d ibn Ibrahim, qui avait entendu Abu Salama transmettre d’après ‘A’isha que le Messager d’Allah ﷺ fut interrogé : « Quelle œuvre est la plus aimée d’Allah ? » Il répondit : « Celle qui est la plus constante, même si elle est peu nombreuse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b8876e7b-1d25-4c12-a1bb-b8a21ce9b5ed",
+      "reason": "La source rapporte seulement une version semblable au récit précédent et ajoute une phrase, sans reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité d’un texte intégral vérifié."
+    }
+  ]
+}
