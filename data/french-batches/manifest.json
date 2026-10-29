@@ -15532,6 +15532,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-711",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-711.json",
+      "sourceIds": ["8757c76c-9018-4996-86fb-e04adebe0e43", "ed91890c-401c-4203-99c3-a43a05ad3b56", "e3142b7d-4ca6-4a85-a937-a7c9542eb422", "e08a7d16-0dd1-4571-adf4-ec3dcfd53195", "381d883d-c78b-48a6-b713-43458db23b3e", "6fc287bf-0158-47e0-894b-55599fab4596"],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Two Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; four Quran-quote records remain blank pending approved attributed French Quran translations",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15728,6 +15743,31 @@
       "scope": "Sahih al-Bukhari 3972: direct quotation of Quran 53:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 53:1. It remains blank in FR-LIB-HAD-BUKHARI-710 until an approved, attributed French Quran translation is confirmed."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-3976-QURAN-7-44",
+      "scope": "Sahih al-Bukhari 3976: direct repetition of Quran 7:44 wording",
+      "status": "blocked",
+      "reason": "The report directly repeats Quran 7:44 wording. It remains blank in FR-LIB-HAD-BUKHARI-711 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3977-QURAN-14-28",
+      "scope": "Sahih al-Bukhari 3977: direct quotation of Quran 14:28",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 14:28. It remains blank in FR-LIB-HAD-BUKHARI-711 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3978-QURAN-27-80-35-22",
+      "scope": "Sahih al-Bukhari 3978: direct quotations of Quran 27:80 and 35:22",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 27:80 and 35:22. It remains blank in FR-LIB-HAD-BUKHARI-711 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3980-QURAN-7-44-27-80",
+      "scope": "Sahih al-Bukhari 3980: direct quotations of Quran 7:44 and 27:80",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 7:44 and 27:80. It remains blank in FR-LIB-HAD-BUKHARI-711 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3524,
