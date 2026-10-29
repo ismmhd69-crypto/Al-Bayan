@@ -5616,3 +5616,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1094 saves six private French drafts about measured speech, gentleness, generosity, and good character.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,045 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 759. Total local hadith rows not drafted: 9,584, including held records.
+
+### 2026-10-29: Bukhari 6036–6041
+
+- FR-LIB-HAD-BUKHARI-1095 saves six private French drafts about generosity, good character, service to family, love of Allah, and faith.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,051 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 759. Total local hadith rows not drafted: 9,578, including held records.
