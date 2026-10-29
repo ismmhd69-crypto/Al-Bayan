@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 1172,
+    "hadithBukhariDrafted": 1648,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 1172,
+    "hadithLocalDrafted": 1648,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 13457,
-    "hadithNeedsMo": 61,
+    "hadithLocalRemaining": 12980,
+    "hadithNeedsMo": 97,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -7522,6 +7522,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1803 held for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-311",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-311.json",
+      "sourceIds": [
+        "cb5f08be-2966-4946-8f17-b6c1b0ffce75",
+        "f5d17603-dde1-472f-a1e4-a07f5a01907c",
+        "4681a41b-fc48-470b-a60a-4c6097d703e9",
+        "539905b9-e211-48df-9c58-15854a940c6b",
+        "0920e052-b584-487e-badc-6c84fd5bdab9",
+        "174319ae-563e-425f-a849-208100ce5992"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed; Bukhari 1808 fragment translated without added context",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts; no Quran quotation hold required"
     }
   ],
   "blockers": [
