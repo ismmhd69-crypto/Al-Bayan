@@ -1514,3 +1514,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-316` saves six private French drafts for Bukhari 1834–1839. The drafts retain the complete narrator chains, the alternate transmission details and clothing variants in 1838, and the specific conditions and exceptions in each report.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,675 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 100. Total local hadith rows not drafted: 12,954, including held records.
+### 2026-10-29: Bukhari 1840–1845 source review
+
+- `FR-LIB-HAD-BUKHARI-317` saves six private French drafts for Bukhari 1840–1845. They retain the disagreement about washing the head, the separate reports on clothing in ihram, the conditions on footgear, the treaty wording, and the location-specific miqat instructions.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,681 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 100. Total local hadith rows not drafted: 12,948, including held records.
