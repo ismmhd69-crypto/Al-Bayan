@@ -15095,6 +15095,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-685",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-685.json",
+      "sourceIds": [
+        "4f2f1e8b-dc01-4431-af4e-26eead240255",
+        "d0bdb22f-9aed-42ca-a7f5-fd09135031a9",
+        "f5d23af3-598b-4165-a63f-74d709751577",
+        "520215e9-7f73-4dda-812b-e0b33b5fde3f",
+        "2d576b58-5821-4f51-a190-aa2b76aad03e",
+        "71db3c77-c99d-41c8-a967-599b0a952915"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata, five private drafts and one unclear-wording hold passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -15206,8 +15227,15 @@
     "scope": "Sahih al-Bukhari 3689: appended phrase من نبي ولا محدث",
     "status": "blocked",
     "reason": "The local record appends this incomplete phrase after the report without enough context to establish its intended meaning or attribution. The full record remains blank in FR-LIB-HAD-BUKHARI-652 pending confirmation."
-  }  ],
-  "hadithBukhariDrafted": 3439,
-  "hadithLocalDrafted": 3439,
-  "hadithLocalRemaining": 11218
+    },
+    {
+      "id": "HADITH-BUKHARI-3866-JINNI-POEM",
+      "scope": "Sahih al-Bukhari 3866: pre-Islamic rhyming passage attributed to a jinni",
+      "status": "blocked",
+      "reason": "The local Arabic passage contains obscure rhymed wording whose exact sense is not confirmed. The full report remains blank in FR-LIB-HAD-BUKHARI-685 pending clarification."
+    }
+  ],
+  "hadithBukhariDrafted": 3444,
+  "hadithLocalDrafted": 3444,
+  "hadithLocalRemaining": 11213
 }
