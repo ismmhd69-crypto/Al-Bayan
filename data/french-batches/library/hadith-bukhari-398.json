@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-398",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:40:35.638Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "08d42a64-4f8f-413c-bbeb-dab9e97c7f47",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2312",
+      "reference": "Sahih al-Bukhari, hadith 2312, book 40, باب إِذَا بَاعَ الْوَكِيلُ شَيْئًا فَاسِدًا فَبَيْعُهُ مَرْدُودٌ",
+      "title": "باب إِذَا بَاعَ الْوَكِيلُ شَيْئًا فَاسِدًا فَبَيْعُهُ مَرْدُودٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، حَدَّثَنَا يَحْيَى بْنُ صَالِحٍ، حَدَّثَنَا مُعَاوِيَةُ ـ هُوَ ابْنُ سَلاَّمٍ ـ عَنْ يَحْيَى، قَالَ سَمِعْتُ عُقْبَةَ بْنَ عَبْدِ الْغَافِرِ، أَنَّهُ سَمِعَ أَبَا سَعِيدٍ الْخُدْرِيَّ ـ رضى الله عنه ـ قَالَ جَاءَ بِلاَلٌ إِلَى النَّبِيِّ صلى الله عليه وسلم بِتَمْرٍ بَرْنِيٍّ فَقَالَ لَهُ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مِنْ أَيْنَ هَذَا ‏\"‏‏.‏ قَالَ بِلاَلٌ كَانَ عِنْدَنَا تَمْرٌ رَدِيٌّ، فَبِعْتُ مِنْهُ صَاعَيْنِ بِصَاعٍ، لِنُطْعِمَ النَّبِيَّ صلى الله عليه وسلم فَقَالَ النَّبِيُّ صلى الله عليه وسلم عِنْدَ ذَلِكَ ‏\"‏ أَوَّهْ أَوَّهْ عَيْنُ الرِّبَا عَيْنُ الرِّبَا، لاَ تَفْعَلْ، وَلَكِنْ إِذَا أَرَدْتَ أَنْ تَشْتَرِيَ فَبِعِ التَّمْرَ بِبَيْعٍ آخَرَ ثُمَّ اشْتَرِهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "ae795a733e138cfba7e4a7745f374cc56b43ccd0de282812dbf8693d16ebc1f8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ishâq, Yahyâ ibn Sâlih, Mu‘âwiya ibn Sallâm, Yahyâ, ‘Uqba ibn ‘Abd al-Ghâfir et Abû Sa‘îd al-Khudrî.\n\nBilâl apporta au Prophète des dattes de qualité supérieure. Le Prophète lui demanda : « D’où viennent celles-ci ? » Bilâl répondit : « Nous avions des dattes de qualité médiocre. J’en ai échangé deux sâ‘ contre un sâ‘ afin de pouvoir nourrir le Prophète. » Le Prophète s’exclama : « Ah ! Ah ! C’est cela même l’usure, c’est cela même l’usure. Ne fais pas cela. Si tu veux en acheter, vends les dattes contre une autre marchandise, puis achète-en. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3b49e9d1-180f-4639-9676-f33d9e526fe7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2313",
+      "reference": "Sahih al-Bukhari, hadith 2313, book 40, باب الْوَكَالَةِ فِي الْوَقْفِ وَنَفَقَتِهِ، وَأَنْ يُطْعِمَ صَدِيقًا لَهُ وَيَأْكُلَ بِالْمَعْرُوفِ",
+      "title": "باب الْوَكَالَةِ فِي الْوَقْفِ وَنَفَقَتِهِ، وَأَنْ يُطْعِمَ صَدِيقًا لَهُ وَيَأْكُلَ بِالْمَعْرُوفِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، قَالَ فِي صَدَقَةِ عُمَرَ ـ رضى الله عنه ـ لَيْسَ عَلَى الْوَلِيِّ جُنَاحٌ أَنْ يَأْكُلَ وَيُؤْكِلَ صَدِيقًا ‏{‏لَهُ‏}‏ غَيْرَ مُتَأَثِّلٍ مَالاً، فَكَانَ ابْنُ عُمَرَ هُوَ يَلِي صَدَقَةَ عُمَرَ يُهْدِي لِلنَّاسِ مِنْ أَهْلِ مَكَّةَ، كَانَ يَنْزِلُ عَلَيْهِمْ‏.‏",
+      "source_hash_sha256": "fd78026dda42fd003d2eff894804f5cf699f1fd550ecfc6c29cf32ee5f559815",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Qutayba ibn Sa‘îd, Sufyân et ‘Amr.\n\nAu sujet de l’aumône constituée par ‘Umar, ‘Amr dit : Le responsable n’est pas fautif s’il en mange et en donne à manger à un ami, sans chercher à accumuler des biens. Ibn ‘Umar était chargé de l’aumône d’‘Umar et offrait des présents aux habitants de La Mecque chez qui il séjournait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c4039394-8777-4742-a664-33013dba220e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2314",
+      "reference": "Sahih al-Bukhari, hadith 2314, 2315, book 40, باب الْوَكَالَةِ فِي الْحُدُودِ",
+      "title": "باب الْوَكَالَةِ فِي الْحُدُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، أَخْبَرَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ عَبْدِ اللَّهِ ، عَنْ زَيْدِ بْنِ خَالِدٍ، وَأَبِي، هُرَيْرَةَ رضى الله عنهما عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ وَاغْدُ يَا أُنَيْسُ إِلَى امْرَأَةِ هَذَا، فَإِنِ اعْتَرَفَتْ فَارْجُمْهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "507f8f927c1c871c0d7c6b881763149c27386ec1d2be9bfa224b3a8d336b1cea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû al-Walîd, al-Layth, Ibn Shihâb, ‘Ubayd Allâh ibn ‘Abd Allâh, Zayd ibn Khâlid et Abû Hurayra.\n\nLe Prophète dit : « Pars demain, Unays, auprès de la femme de cet homme. Si elle reconnaît les faits, applique-lui la lapidation. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cb59bcfe-455a-4e52-bfe6-6fb7b3259787",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2316",
+      "reference": "Sahih al-Bukhari, hadith 2316, book 40, باب الْوَكَالَةِ فِي الْحُدُودِ",
+      "title": "باب الْوَكَالَةِ فِي الْحُدُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ سَلاَمٍ، أَخْبَرَنَا عَبْدُ الْوَهَّابِ الثَّقَفِيُّ، عَنْ أَيُّوبَ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ عُقْبَةَ بْنِ الْحَارِثِ، قَالَ جِيءَ بِالنُّعَيْمَانِ أَوِ ابْنِ النُّعَيْمَانِ شَارِبًا، فَأَمَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَنْ كَانَ فِي الْبَيْتِ أَنْ يَضْرِبُوا قَالَ فَكُنْتُ أَنَا فِيمَنْ ضَرَبَهُ، فَضَرَبْنَاهُ بِالنِّعَالِ وَالْجَرِيدِ‏.‏",
+      "source_hash_sha256": "c844b161d1320ef3e04346fbe64b89c5266142084eab9b547dc15a73bf9e710a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ibn Sallâm, ‘Abd al-Wahhâb al-Thaqafî, Ayyûb, Ibn Abî Mulayka et ‘Uqba ibn al-Hârith.\n\nOn amena al-Nu‘aymân, ou le fils d’al-Nu‘aymân, qui avait bu. Le Messager d’Allah ordonna aux personnes présentes dans la maison de le frapper. J’étais parmi ceux qui le frappèrent avec des sandales et des branches de palmier.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f713ae26-4715-4cfe-aff0-b8a21c982930",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2317",
+      "reference": "Sahih al-Bukhari, hadith 2317, book 40, باب الْوَكَالَةِ فِي الْبُدْنِ وَتَعَاهُدِهَا",
+      "title": "باب الْوَكَالَةِ فِي الْبُدْنِ وَتَعَاهُدِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرِ بْنِ حَزْمٍ، عَنْ عَمْرَةَ بِنْتِ عَبْدِ الرَّحْمَنِ، أَنَّهَا أَخْبَرَتْهُ قَالَتْ، عَائِشَةُ ـ رضى الله عنها ـ أَنَا فَتَلْتُ، قَلاَئِدَ هَدْىِ رَسُولِ اللَّهِ صلى الله عليه وسلم بِيَدَىَّ، ثُمَّ قَلَّدَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم بِيَدَيْهِ، ثُمَّ بَعَثَ بِهَا مَعَ أَبِي، فَلَمْ يَحْرُمْ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم شَىْءٌ أَحَلَّهُ اللَّهُ لَهُ حَتَّى نُحِرَ الْهَدْىُ‏.‏",
+      "source_hash_sha256": "e1504b5787b5bd88d8ebe476cbfba72526a2e19247179ebab122a7f62af8b918",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ismâ‘îl ibn ‘Abd Allâh, Mâlik, ‘Abd Allâh ibn Abî Bakr ibn Hazm et ‘Amra bint ‘Abd al-Rahmân, d’après ‘Â’isha.\n\n‘Â’isha rapporte : Je tressai de mes mains les guirlandes destinées aux offrandes du Messager d’Allah. Le Messager d’Allah les plaça ensuite de ses mains autour des animaux et les envoya avec mon père. Rien de ce qu’Allah lui avait rendu licite ne lui fut interdit jusqu’à ce que l’offrande soit sacrifiée.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ff84f989-b018-4838-9e7f-c2a34858eb6e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2318",
+      "reference": "Sahih al-Bukhari, hadith 2318, book 40, بَابُ إِذَا قَالَ الرَّجُلُ لِوَكِيلِهِ ضَعْهُ حَيْثُ أَرَاكَ اللَّهُ. وَقَالَ الْوَكِيلُ قَدْ سَمِعْتُ مَا قُلْتَ",
+      "title": "بَابُ إِذَا قَالَ الرَّجُلُ لِوَكِيلِهِ ضَعْهُ حَيْثُ أَرَاكَ اللَّهُ. وَقَالَ الْوَكِيلُ قَدْ سَمِعْتُ مَا قُلْتَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ إِسْحَاقَ بْنِ عَبْدِ اللَّهِ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ ـ رضى الله عنه ـ يَقُولُ كَانَ أَبُو طَلْحَةَ أَكْثَرَ الأَنْصَارِ بِالْمَدِينَةِ مَالاً، وَكَانَ أَحَبَّ أَمْوَالِهِ إِلَيْهِ بِيْرُ حَاءَ وَكَانَتْ مُسْتَقْبِلَةَ الْمَسْجِدَ، وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدْخُلُهَا وَيَشْرَبُ مِنْ مَاءٍ فِيهَا طَيِّبٍ فَلَمَّا نَزَلَتْ ‏[quran sura=\"3\" aya_start=\"92\" aya_end=\"92\"]{‏لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ‏}‏ قَامَ أَبُو طَلْحَةَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ، إِنَّ اللَّهَ تَعَالَى يَقُولُ فِي كِتَابِهِ ‏[quran sura=\"3\" aya_start=\"92\" aya_end=\"92\"]{‏لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ‏}‏ وَإِنَّ أَحَبَّ أَمْوَالِي إِلَىَّ بِيْرُ حَاءَ، وَإِنَّهَا صَدَقَةٌ لِلَّهِ أَرْجُو بِرَّهَا وَذُخْرَهَا عِنْدَ اللَّهِ فَضَعْهَا يَا رَسُولَ اللَّهِ حَيْثُ شِئْتَ، فَقَالَ ‏\"‏ بَخٍ، ذَلِكَ مَالٌ رَائِحٌ، ذَلِكَ مَالٌ رَائِحٌ‏.‏ قَدْ سَمِعْتُ مَا قُلْتَ فِيهَا، وَأَرَى أَنْ تَجْعَلَهَا فِي الأَقْرَبِينَ ‏\"‏‏.‏ قَالَ أَفْعَلُ يَا رَسُولَ اللَّهِ‏.‏ فَقَسَمَهَا أَبُو طَلْحَةَ فِي أَقَارِبِهِ وَبَنِي عَمِّهِ‏.‏ تَابَعَهُ إِسْمَاعِيلُ عَنْ مَالِكٍ‏.‏ وَقَالَ رَوْحٌ عَنْ مَالِكٍ رَابِحٌ‏.‏",
+      "source_hash_sha256": "d686ab198eafccde6627525aa56c1372db7c16edca29c25ba9d8c18d0355a89b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ff84f989-b018-4838-9e7f-c2a34858eb6e",
+      "reason": "This report directly quotes Quran 3:92. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

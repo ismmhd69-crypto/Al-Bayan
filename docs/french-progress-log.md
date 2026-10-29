@@ -1901,3 +1901,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-397` records Bukhari 2311 as Needs Mo. The report directly quotes Quran 2:255 (Ayat al-Kursi); its full French text remains blank pending an approved, attributed French Quran translation.
 - The single-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,099 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 122. Total local hadith rows not drafted: 12,530, including held records.
+
+### 2026-10-29: Bukhari 2312–2318 source review
+
+- `FR-LIB-HAD-BUKHARI-398` saves five private French drafts for Bukhari 2312–2317. Bukhari 2318 directly quotes Quran 3:92; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,104 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 123. Total local hadith rows not drafted: 12,525, including held records.
