@@ -8306,3 +8306,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0236 saves five private French drafts about the prostrations performed to make up for forgetfulness or uncertainty in prayer. Muslim 571b gives only a short cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 950 Muslim drafts, 7,286 total hadith drafts, 7,343 remaining, and 450 Needs Mo items.
+
+### 2026-10-29: Muslim 572b–572g
+
+- FR-LIB-HAD-MUSLIM-0237 contains six variant-only entries with alternate wording for the instruction to seek what is correct when uncertain in prayer. None repeats the full report, so all six remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 950 Muslim and 7,286 overall, with 7,343 remaining and 456 Needs Mo items.
