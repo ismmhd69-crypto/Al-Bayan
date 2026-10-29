@@ -9556,3 +9556,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0485 saves four private French drafts about fasting while traveling and on the Day of ‘Arafa. Muslim 1121c and 1121d provide only variants tied to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1123b–1125b
+
+- FR-LIB-HAD-MUSLIM-0486 saves three private French drafts about fasting on ‘Arafa and ‘Ashura. Muslim 1123b, 1123c, and 1125b only provide variants tied to earlier reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.

@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0486",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:35:12.539Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "700e4de1-6ec2-4bcb-99cf-a71a8aa940ba",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1123b",
+      "reference": "Sahih Muslim, hadith 1123 b, book 13, باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "title": "باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي عُمَرَ، عَنْ سُفْيَانَ، عَنْ أَبِي النَّضْرِ، بِهَذَا الإِسْنَادِ ‏.‏ وَلَمْ يَذْكُرْ وَهُوَ وَاقِفٌ عَلَى بَعِيرِهِ ‏.‏ وَقَالَ عَنْ عُمَيْرٍ مَوْلَى أُمِّ الْفَضْلِ ‏.‏",
+      "source_hash_sha256": "3261bf628965e5c9d9effa9e6284a2a7f479d73362b8c70111dbfdbe0cf9e755",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ebcf441e-ca74-423d-904a-7cf6d8125de9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1123c",
+      "reference": "Sahih Muslim, hadith 1123 c, book 13, باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "title": "باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ سُفْيَانَ، عَنْ سَالِمٍ أَبِي، النَّضْرِ بِهَذَا الإِسْنَادِ نَحْوَ حَدِيثِ ابْنِ عُيَيْنَةَ وَقَالَ عَنْ عُمَيْرٍ، مَوْلَى أُمِّ الْفَضْلِ ‏.‏",
+      "source_hash_sha256": "62e6704fa60275c829389e579801c4c4f64b4c8b8d7edf1214f471c9b1727d00",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b23db09d-9a15-4969-91c8-4c3cbb04ff33",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1123d",
+      "reference": "Sahih Muslim, hadith 1123 d, book 13, باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "title": "باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، أَنَّ أَبَا النَّضْرِ، حَدَّثَهُ أَنَّ عُمَيْرًا مَوْلَى ابْنِ عَبَّاسٍ - رضى الله عنهما - حَدَّثَهُ أَنَّهُ، سَمِعَ أُمَّ الْفَضْلِ، - رضى الله عنها - تَقُولُ شَكَّ نَاسٌ مِنْ أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي صِيَامِ يَوْمِ عَرَفَةَ وَنَحْنُ بِهَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَأَرْسَلْتُ إِلَيْهِ بِقَعْبٍ فِيهِ لَبَنٌ وَهُوَ بِعَرَفَةَ فَشَرِبَهُ ‏.‏",
+      "source_hash_sha256": "cec55b47850a389780260987d9f39cc6f4ad22965446470bf67dbc17279efc8a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli m’a rapporté : Ibn Wahb nous a rapporté : ‘Amr m’a informé qu’Abu al-Nadr lui avait rapporté qu’‘Umayr, affranchi d’Ibn ‘Abbas, qu’Allah les agrée tous deux, lui avait rapporté avoir entendu Umm al-Fadl, qu’Allah l’agrée, dire : certains compagnons du Messager d’Allah ﷺ doutaient du jeûne du jour de ‘Arafa alors que nous nous y trouvions avec le Messager d’Allah ﷺ. Je lui envoyai une grande coupe de lait alors qu’il se tenait à ‘Arafa, et il en but.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6cbb3bdb-f4b5-416a-9788-148689f73128",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1124",
+      "reference": "Sahih Muslim, hadith 1124, book 13, باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "title": "باب اسْتِحْبَابِ الْفِطْرِ لِلْحَاجِّ بِعَرَفَاتٍ يَوْمَ عَرَفَةَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، عَنْ بُكَيْرِ بْنِ، الأَشَجِّ عَنْ كُرَيْبٍ، مَوْلَى ابْنِ عَبَّاسٍ - رضى الله عنهما - عَنْ مَيْمُونَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم أَنَّهَا قَالَتْ إِنَّ النَّاسَ شَكُّوا فِي صِيَامِ رَسُولِ اللَّهِ صلى الله عليه وسلم يَوْمَ عَرَفَةَ فَأَرْسَلَتْ إِلَيْهِ مَيْمُونَةُ بِحِلاَبِ اللَّبَنِ وَهُوَ وَاقِفٌ فِي الْمَوْقِفِ فَشَرِبَ مِنْهُ وَالنَّاسُ يَنْظُرُونَ إِلَيْهِ ‏.‏",
+      "source_hash_sha256": "e4e7ed27ed93f720e2646f1cfa5f428d5d17b16d9ea525af6431f70d1d6eab40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli m’a rapporté : Ibn Wahb nous a rapporté : ‘Amr m’a informé, d’après Bukayr ibn al-Ashajj, d’après Kurayb, affranchi d’Ibn ‘Abbas, qu’Allah les agrée tous deux, d’après Maymuna, épouse du Prophète ﷺ, qui a dit : les gens doutaient que le Messager d’Allah ﷺ jeûnât le jour de ‘Arafa. Maymuna lui envoya du lait alors qu’il se tenait sur le lieu du rassemblement, et il en but sous les yeux des gens.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "22065969-5e79-48eb-b202-ef086c247b97",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1125a",
+      "reference": "Sahih Muslim, hadith 1125 a, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، - رضى الله عنها - قَالَتْ كَانَتْ قُرَيْشٌ تَصُومُ عَاشُورَاءَ فِي الْجَاهِلِيَّةِ وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَصُومُهُ فَلَمَّا هَاجَرَ إِلَى الْمَدِينَةِ صَامَهُ وَأَمَرَ بِصِيَامِهِ فَلَمَّا فُرِضَ شَهْرُ رَمَضَانَ قَالَ ‏\"‏ مَنْ شَاءَ صَامَهُ وَمَنْ شَاءَ تَرَكَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e6b28432779f77e29256b7aa673318fb861efdc49351b9a29ea7bb482ca1938b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Jarir nous a rapporté, d’après Hisham ibn ‘Urwa, d’après son père, d’après ‘Aisha, qu’Allah l’agrée, qui a dit : à l’époque préislamique, les Qurayshites jeûnaient le jour de ‘Ashura, et le Messager d’Allah ﷺ jeûnait également ce jour-là. Lorsqu’il émigra à Médine, il le jeûna et ordonna de le jeûner. Quand le jeûne du mois de Ramadan devint obligatoire, il dit : « Que celui qui le souhaite jeûne ce jour, et que celui qui le souhaite le délaisse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bbd48401-4a80-4bb0-adee-2a82a9863c05",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1125b",
+      "reference": "Sahih Muslim, hadith 1125 b, book 13, باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "title": "باب صَوْمِ يَوْمِ عَاشُورَاءَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا ابْنُ نُمَيْرٍ، عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ فِي أَوَّلِ الْحَدِيثِ وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَصُومُهُ ‏.‏ وَقَالَ فِي آخِرِ الْحَدِيثِ وَتَرَكَ عَاشُورَاءَ فَمَنْ شَاءَ صَامَهُ وَمَنْ شَاءَ تَرَكَهُ ‏.‏ وَلَمْ يَجْعَلْهُ مِنْ قَوْلِ النَّبِيِّ صلى الله عليه وسلم كَرِوَايَةِ جَرِيرٍ ‏.‏",
+      "source_hash_sha256": "351cf5486da75a82e6bb0606152ed2ac3578e7bc6add31065d04ffa5b829c798",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "700e4de1-6ec2-4bcb-99cf-a71a8aa940ba",
+      "reason": "La source renvoie au rapport précédent et ne fournit que des variantes de chaîne ou de formulation sans reproduire le récit complet. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    },
+    {
+      "source_id": "ebcf441e-ca74-423d-904a-7cf6d8125de9",
+      "reason": "La source renvoie au rapport précédent et ne fournit que des variantes de chaîne ou de formulation sans reproduire le récit complet. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    },
+    {
+      "source_id": "bbd48401-4a80-4bb0-adee-2a82a9863c05",
+      "reason": "La source renvoie au rapport précédent et ne fournit que des variantes de chaîne ou de formulation sans reproduire le récit complet. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    }
+  ]
+}
