@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-1274",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:33:56.805Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ece44348-041d-442e-8368-36ad4eb70bc7",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6966",
+      "reference": "Sahih al-Bukhari, hadith 6966, book 90, باب إِذَا غَصَبَ جَارِيَةً فَزَعَمَ أَنَّهَا مَاتَتْ",
+      "title": "باب إِذَا غَصَبَ جَارِيَةً فَزَعَمَ أَنَّهَا مَاتَتْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَبْدِ اللَّهِ بْنِ دِينَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لِكُلِّ غَادِرٍ لِوَاءٌ يَوْمَ الْقِيَامَةِ يُعْرَفُ بِهِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f5279803d6f5f1d240f6db53b8c1c6f1b75c93a20d89cdf4281927dae17a55bb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Nu‘aym nous a rapporté : Sufyân nous a rapporté, d’après ‘Abd Allah ibn Dînâr, d’après ‘Abd Allah ibn ‘Umar — qu’Allah les agrée tous deux —, d’après le Prophète ﷺ, qui a dit : « Au Jour de la Résurrection, chaque traître portera un étendard par lequel il sera reconnu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ea514277-8b1f-4724-a811-7c93928ee753",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6967",
+      "reference": "Sahih al-Bukhari, hadith 6967, book 90, كتاب الحيل",
+      "title": "كتاب الحيل",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، عَنْ سُفْيَانَ، عَنْ هِشَامٍ، عَنْ عُرْوَةَ، عَنْ زَيْنَبَ ابْنَةِ أُمِّ سَلَمَةَ، عَنْ أُمِّ سَلَمَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا أَنَا بَشَرٌ، وَإِنَّكُمْ تَخْتَصِمُونَ، وَلَعَلَّ بَعْضَكُمْ أَنْ يَكُونَ أَلْحَنَ بِحُجَّتِهِ مِنْ بَعْضٍ، وَأَقْضِيَ لَهُ عَلَى نَحْوِ مَا أَسْمَعُ، فَمَنْ قَضَيْتُ لَهُ مِنْ حَقِّ أَخِيهِ شَيْئًا، فَلاَ يَأْخُذْ، فَإِنَّمَا أَقْطَعُ لَهُ قِطْعَةً مِنَ النَّارِ ‏\"‏‏.‏",
+      "source_hash_sha256": "843d05340739fdd70369626fb91d2fececc3a44bfcf8232c9395e38860a5ba97",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Kathîr nous a rapporté, d’après Sufyân, d’après Hishâm, d’après ‘Urwa, d’après Zaynab, fille d’Umm Salama, d’après Umm Salama, d’après le Prophète ﷺ, qui a dit : « Je ne suis qu’un être humain. Vous portez vos différends devant moi, et il se peut que l’un de vous soit plus éloquent que l’autre dans son argumentation. Je juge selon ce que j’entends. Si j’attribue à l’un de vous une part du droit de son frère, qu’il ne la prenne pas : je ne lui attribue alors qu’une part du Feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bfd36164-5202-4494-8c57-673a13356895",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6968",
+      "reference": "Sahih al-Bukhari, hadith 6968, book 90, باب فِي النِّكَاحِ",
+      "title": "باب فِي النِّكَاحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هِشَامٌ، حَدَّثَنَا يَحْيَى بْنُ أَبِي كَثِيرٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تُنْكَحُ الْبِكْرُ حَتَّى تُسْتَأْذَنَ، وَلاَ الثَّيِّبُ حَتَّى تُسْتَأْمَرَ ‏\"‏‏.‏ فَقِيلَ يَا رَسُولَ اللَّهِ كَيْفَ إِذْنُهَا قَالَ ‏\"‏ إِذَا سَكَتَتْ ‏\"‏‏.‏ وَقَالَ بَعْضُ النَّاسِ إِنْ لَمْ تُسْتَأْذَنِ الْبِكْرُ وَلَمْ تَزَوَّجْ‏.‏ فَاحْتَالَ رَجُلٌ فَأَقَامَ شَاهِدَىْ زُورٍ أَنَّهُ تَزَوَّجَهَا بِرِضَاهَا، فَأَثْبَتَ الْقَاضِي نِكَاحَهَا، وَالزَّوْجُ يَعْلَمُ أَنَّ الشَّهَادَةَ بَاطِلَةٌ، فَلاَ بَأْسَ أَنْ يَطَأَهَا، وَهْوَ تَزْوِيجٌ صَحِيحٌ‏.‏",
+      "source_hash_sha256": "8909a3e5d705977b5a33b8ef27aa9c650b8dd9f202e32e4e10780f0e120fb056",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muslim ibn Ibrâhîm nous a rapporté : Hishâm nous a rapporté : Yahyâ ibn Abî Kathîr nous a rapporté, d’après Abû Salama, d’après Abû Hurayra, d’après le Prophète ﷺ, qui a dit : « On ne marie pas une vierge avant de lui avoir demandé son autorisation, ni une femme déjà mariée avant d’avoir sollicité son accord. » On demanda : « Messager d’Allah, comment donne-t-elle son autorisation ? » Il répondit : « Si elle garde le silence. » Certains ont dit : « Si une vierge n’a pas été consultée et n’a pas encore été mariée, un homme peut user d’un stratagème et faire comparaître deux faux témoins attestant qu’il l’a épousée avec son consentement. Si le juge confirme son mariage, alors que le mari sait que le témoignage est faux, il ne lui est pas interdit d’avoir des rapports avec elle : le mariage est valide. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "92674a19-43eb-4865-adf4-2f151c63f5ad",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6969",
+      "reference": "Sahih al-Bukhari, hadith 6969, book 90, باب فِي النِّكَاحِ",
+      "title": "باب فِي النِّكَاحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ الْقَاسِمِ، أَنَّ امْرَأَةً، مِنْ وَلَدِ جَعْفَرٍ تَخَوَّفَتْ أَنْ يُزَوِّجَهَا وَلِيُّهَا وَهْىَ كَارِهَةٌ فَأَرْسَلَتْ إِلَى شَيْخَيْنِ مِنَ الأَنْصَارِ عَبْدِ الرَّحْمَنِ وَمُجَمِّعٍ ابْنَىْ جَارِيَةَ قَالاَ فَلاَ تَخْشَيْنَ، فَإِنَّ خَنْسَاءَ بِنْتَ خِذَامٍ أَنْكَحَهَا أَبُوهَا وَهْىَ كَارِهَةٌ، فَرَدَّ النَّبِيُّ صلى الله عليه وسلم ذَلِكَ‏.‏ قَالَ سُفْيَانُ وَأَمَّا عَبْدُ الرَّحْمَنِ فَسَمِعْتُهُ يَقُولُ عَنْ أَبِيهِ إِنَّ خَنْسَاءَ‏.‏",
+      "source_hash_sha256": "446b547b8b4cc76f199bfea7be8759de50c240ffa77c38460b09ddcd9c47e96f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8fea29da-03e2-4690-bb92-385c38e1b02f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6970",
+      "reference": "Sahih al-Bukhari, hadith 6970, book 90, باب فِي النِّكَاحِ",
+      "title": "باب فِي النِّكَاحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا شَيْبَانُ، عَنْ يَحْيَى، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لاَ تُنْكَحُ الأَيِّمُ حَتَّى تُسْتَأْمَرَ، وَلاَ تُنْكَحُ الْبِكْرُ حَتَّى تُسْتَأْذَنَ ‏\"‏‏.‏ قَالُوا كَيْفَ إِذْنُهَا قَالَ ‏\"‏ أَنْ تَسْكُتَ ‏\"‏‏.‏ وَقَالَ بَعْضُ النَّاسِ إِنِ احْتَالَ إِنْسَانٌ بِشَاهِدَىْ زُورٍ عَلَى تَزْوِيجِ امْرَأَةٍ ثَيِّبٍ بِأَمْرِهَا، فَأَثْبَتَ الْقَاضِي نِكَاحَهَا إِيَّاهُ، وَالزَّوْجُ يَعْلَمُ أَنَّهُ لَمْ يَتَزَوَّجْهَا قَطُّ، فَإِنَّهُ يَسَعُهُ هَذَا النِّكَاحُ، وَلاَ بَأْسَ بِالْمُقَامِ لَهُ مَعَهَا‏.‏",
+      "source_hash_sha256": "3793cfcc1d357088020fa3b0d440f9f4545a940ec94b6bd7b860e03ce4b80aec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Nu‘aym nous a rapporté : Shaybân nous a rapporté, d’après Yahyâ, d’après Abû Salama, d’après Abû Hurayra, qui a dit : Le Messager d’Allah ﷺ a dit : « On ne marie pas une femme déjà mariée avant d’avoir sollicité son accord, ni une vierge avant de lui avoir demandé son autorisation. » Ils demandèrent : « Comment donne-t-elle son autorisation ? » Il répondit : « En gardant le silence. » Certains ont dit : « Si un homme désire une esclave jeune, orpheline ou vierge, qu’elle refuse et qu’il use d’un stratagème en faisant comparaître deux faux témoins attestant qu’il l’a épousée avec son accord, puis que l’orpheline devienne satisfaite, et que le juge accepte ce faux témoignage, bien que le mari sache qu’il est mensonger, alors les rapports avec elle lui sont permis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7cdcf4e2-cee6-4fc3-972c-a4dc1b9780e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6971",
+      "reference": "Sahih al-Bukhari, hadith 6971, book 90, باب فِي النِّكَاحِ",
+      "title": "باب فِي النِّكَاحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو عَاصِمٍ، عَنِ ابْنِ جُرَيْجٍ، عَنِ ابْنِ أَبِي مُلَيْكَةَ، عَنْ ذَكْوَانَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْبِكْرُ تُسْتَأْذَنُ ‏\"‏‏.‏ قُلْتُ إِنَّ الْبِكْرَ تَسْتَحْيِي قَالَ ‏\"‏ إِذْنُهَا صُمَاتُهَا ‏\"‏‏.‏ وَقَالَ بَعْضُ النَّاسِ إِنْ هَوِيَ رَجُلٌ جَارِيَةً يَتِيمَةً أَوْ بِكْرًا، فَأَبَتْ فَاحْتَالَ فَجَاءَ بِشَاهِدَىْ زُورٍ عَلَى أَنَّهُ تَزَوَّجَهَا، فَأَدْرَكَتْ فَرَضِيَتِ الْيَتِيمَةُ، فَقَبِلَ الْقَاضِي شَهَادَةَ الزُّورِ، وَالزَّوْجُ يَعْلَمُ بِبُطْلاَنِ ذَلِكَ، حَلَّ لَهُ الْوَطْءُ‏.‏",
+      "source_hash_sha256": "b59165c99733fa5e9927be0c989ec54137fba31b4d675f8d21d1e191cf6683d0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû ‘Âsim nous a rapporté, d’après Ibn Jurayj, d’après Ibn Abî Mulayka, d’après Dhakwân, d’après ‘Â’isha — qu’Allah l’agrée —, qui a dit : Le Messager d’Allah ﷺ a dit : « On demande son autorisation à la vierge. » Je dis : « La vierge éprouve de la pudeur. » Il répondit : « Son silence vaut consentement. » Certains ont dit : « Si un homme désire une jeune esclave orpheline ou une vierge et qu’elle refuse, il peut user d’un stratagème en faisant comparaître deux faux témoins attestant qu’il l’a épousée. Si l’orpheline atteint la puberté et donne son accord, et que le juge accepte le faux témoignage alors que le mari sait qu’il est invalide, les rapports sexuels lui sont permis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "92674a19-43eb-4865-adf4-2f151c63f5ad",
+      "reason": "The source text ends mid-sentence with إن خنساء after introducing an alternate narration route. Keep the complete report blank until the source is complete."
+    }
+  ]
+}

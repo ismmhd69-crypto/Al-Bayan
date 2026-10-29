@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5852,
+    "hadithBukhariDrafted": 5857,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5852,
+    "hadithLocalDrafted": 5857,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8777,
-    "hadithNeedsMo": 840,
+    "hadithLocalRemaining": 8772,
+    "hadithNeedsMo": 841,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26923,6 +26923,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1274",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1274.json",
+      "sourceIds": [
+        "ece44348-041d-442e-8368-36ad4eb70bc7",
+        "ea514277-8b1f-4724-a811-7c93928ee753",
+        "bfd36164-5202-4494-8c57-673a13356895",
+        "92674a19-43eb-4865-adf4-2f151c63f5ad",
+        "8fea29da-03e2-4690-bb92-385c38e1b02f",
+        "7cdcf4e2-cee6-4fc3-972c-a4dc1b9780e6"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held blank because the source ends mid-sentence. All source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -30351,11 +30372,17 @@
       "scope": "Sahih al-Bukhari 6965: direct quotations of Quran 4:3 and 4:127",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:3 and 4:127. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6969-TRUNCATED-ROUTE",
+      "scope": "Sahih al-Bukhari 6969: alternate narrator route cuts off after إن خنساء",
+      "status": "blocked",
+      "reason": "The source text ends mid-sentence with إن خنساء after introducing an alternate narration route. Keep the complete report blank until the source is complete."
     }
   ],
-  "hadithBukhariDrafted": 5852,
-  "hadithLocalDrafted": 5852,
-  "hadithLocalRemaining": 8777,
+  "hadithBukhariDrafted": 5857,
+  "hadithLocalDrafted": 5857,
+  "hadithLocalRemaining": 8772,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30926,6 +30953,12 @@
       "scope": "Sahih al-Bukhari 6965: direct quotations of Quran 4:3 and 4:127",
       "status": "blocked",
       "reason": "The report directly quotes Quran 4:3 and 4:127. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6969-TRUNCATED-ROUTE",
+      "scope": "Sahih al-Bukhari 6969: alternate narrator route cuts off after إن خنساء",
+      "status": "blocked",
+      "reason": "The source text ends mid-sentence with إن خنساء after introducing an alternate narration route. Keep the complete report blank until the source is complete."
     }
   ]
 }
