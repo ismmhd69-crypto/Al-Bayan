@@ -1526,3 +1526,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-319` saves five private French drafts for Bukhari 1852 and 1854–1857. Bukhari 1853 remains blank under Needs Mo because the exported Arabic record stops after “a woman” before the report begins. No neighboring wording was used to fill the gap.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the reason-specific hold. No database writes or publication occurred. Bukhari local drafts: 1,691 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 102. Total local hadith rows not drafted: 12,938, including held records.
+### 2026-10-29: Bukhari 1858–1863 source review
+
+- `FR-LIB-HAD-BUKHARI-320` saves six private French drafts for Bukhari 1858–1863. They preserve the narrator chains, the alternate wording about Ibn ‘Abbâs’s dispatch in 1862, and the two alternate transmission paths in 1863. Its final chain has no accompanying hadith text in the source, so none was supplied.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,697 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 102. Total local hadith rows not drafted: 12,932, including held records.
