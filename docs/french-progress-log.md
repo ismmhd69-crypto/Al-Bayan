@@ -9766,3 +9766,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0527 saves three private French drafts about Ka‘b ibn ‘Ujra’s head lice and the alternatives given to him. Muslim 1201b is an incomplete cross-reference; 1201c–d directly quote Quran 2:196. All three remain fully blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1201g–1202d
+
+- FR-LIB-HAD-MUSLIM-0528 saves four private French drafts about Ka‘b ibn ‘Ujra’s compensation and reports about cupping while in consecration. Muslim 1201g–h directly quote Quran 2:196; both remain fully blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.

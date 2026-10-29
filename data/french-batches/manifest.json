@@ -39923,6 +39923,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0528",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0528.json",
+      "sourceIds": [
+        "fa494f1c-8342-4046-8d9c-1646d0cae283",
+        "d4e4e0d9-b75e-44f0-b80a-6e0833cf9a39",
+        "5e25ef9e-32d6-4191-87bd-a375dd175ae3",
+        "62a9cbc1-438b-4780-ab91-c7806b8fa453",
+        "77435101-9a39-4b19-8f2a-03f337fed82a",
+        "b3ba6aa2-ad83-40ea-b944-3c71d1154228"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six records passed focused validation; Arabic originals and hashes, IDs, private unpublished AI-draft state, rights flags, and single-item long-text rule passed; Muslim 1201g–h held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44230,8 +44251,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8423,
-  "hadithLocalRemaining": 6206,
+  "hadithLocalDrafted": 8427,
+  "hadithLocalRemaining": 6202,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -47523,10 +47544,20 @@
       "source_id": "ee0c2424-0e89-4a78-bbc5-5c2e0663629b",
       "reason": "La source cite directement le Coran 2:196. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
       "status": "blocked"
+    },
+    {
+      "source_id": "fa494f1c-8342-4046-8d9c-1646d0cae283",
+      "reason": "La source cite directement le Coran 2:196. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d4e4e0d9-b75e-44f0-b80a-6e0833cf9a39",
+      "reason": "La source cite directement le Coran 2:196. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2087,
+  "hadithMuslimDrafted": 2091,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 951
+  "hadithNeedsMo": 953
 }
