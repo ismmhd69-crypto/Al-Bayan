@@ -9996,3 +9996,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0573 saves five private French drafts about the stoning rites and the Prophet’s farewell pilgrimage. Muslim 1296e only gives a chain cross-reference and a location detail, without the report itself; it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1299a–1301b
+
+- FR-LIB-HAD-MUSLIM-0574 saves five private French drafts about the size and timing of the pebbles, odd-numbered rites, and shaving or shortening hair. Muslim 1299c is an incomplete variant and remains blank under Needs Mo.
+- The exporter deferred long source 522deaf7-d1e2-48eb-8a7c-7e7e4e615ae3 for isolated handling in the next batch. All six exported source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

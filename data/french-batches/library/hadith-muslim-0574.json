@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0574",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:14:11.988Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a2e6bc0a-d2f9-4d9a-952a-983c9d1bc38a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1299a",
+      "reference": "Sahih Muslim, hadith 1299 a, book 15, باب اسْتِحْبَابِ كَوْنِ حَصَى الْجِمَارِ بِقَدْرِ حَصَى الْخَذْفِ ‏",
+      "title": "باب اسْتِحْبَابِ كَوْنِ حَصَى الْجِمَارِ بِقَدْرِ حَصَى الْخَذْفِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالَ ابْنُ حَاتِمٍ حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنَا أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم رَمَى الْجَمْرَةَ بِمِثْلِ حَصَى الْخَذْفِ ‏.‏",
+      "source_hash_sha256": "56bd1573c1c08c354d7a0387e48ee765446bcec41af5a57db973ea4e8fa4ae52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim et Abd ibn Humayd m'ont rapporté. Ibn Hatim a dit : Muhammad ibn Bakr nous a rapporté : Ibn Jurayj nous a informés : Abu al-Zubayr nous a informés avoir entendu Jabir ibn Abdullah dire : J'ai vu le Prophète ﷺ lapider la stèle avec des cailloux de la taille de ceux que l'on lance entre deux doigts.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "53efda47-e25a-4bf9-8376-d8135f767899",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1299b",
+      "reference": "Sahih Muslim, hadith 1299 b, book 15, باب بَيَانِ وَقْتِ اسْتِحْبَابِ الرَّمْىِ ‏",
+      "title": "باب بَيَانِ وَقْتِ اسْتِحْبَابِ الرَّمْىِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، وَابْنُ، إِدْرِيسَ عَنِ ابْنِ، جُرَيْجٍ عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ رَمَى رَسُولُ اللَّهِ صلى الله عليه وسلم الْجَمْرَةَ يَوْمَ النَّحْرِ ضُحًى وَأَمَّا بَعْدُ فَإِذَا زَالَتِ الشَّمْسُ ‏.‏",
+      "source_hash_sha256": "0a96201be60fb662bd66f66fd1319b4db463ecd9255f5930644af28f8bdb7516",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu Khalid al-Ahmar et Ibn Idris nous ont rapporté, d'après Ibn Jurayj, d'après Abu al-Zubayr, d'après Jabir, qui a dit : Le Messager d'Allah ﷺ lapida la stèle le jour du Sacrifice dans la matinée ; les jours suivants, il le faisait après le déclin du soleil.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b6611d65-dfed-4ff2-906a-a7a0189c3def",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1299c",
+      "reference": "Sahih Muslim, hadith 1299 c, book 15, باب بَيَانِ وَقْتِ اسْتِحْبَابِ الرَّمْىِ ‏",
+      "title": "باب بَيَانِ وَقْتِ اسْتِحْبَابِ الرَّمْىِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَلِيُّ بْنُ خَشْرَمٍ، أَخْبَرَنَا عِيسَى، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ كَانَ النَّبِيُّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "e302ead4c3ef0afe0fd2880f3671cbb006016bfc9424f546d36b2c005f6965e8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source renvoie au récit précédent (« semblable ») sans en reprendre le contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "6336588d-6725-4917-bc36-9fb8edf8a84a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1300",
+      "reference": "Sahih Muslim, hadith 1300, book 15, باب بَيَانِ أَنَّ حَصَى الْجِمَارِ سَبْعٌ ‏",
+      "title": "باب بَيَانِ أَنَّ حَصَى الْجِمَارِ سَبْعٌ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، حَدَّثَنَا مَعْقِلٌ، - وَهُوَ ابْنُ عُبَيْدِ اللَّهِ الْجَزَرِيُّ - عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الاِسْتِجْمَارُ تَوٌّ وَرَمْىُ الْجِمَارِ تَوٌّ وَالسَّعْىُ بَيْنَ الصَّفَا وَالْمَرْوَةِ تَوٌّ وَالطَّوَافُ تَوٌّ وَإِذَا اسْتَجْمَرَ أَحَدُكُمْ فَلْيَسْتَجْمِرْ بِتَوٍّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d4cf39e37ecaea00be7657af6df2dfc1e973795e3983aa399d39925d0559dfea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Salama ibn Shabib m'a rapporté : al-Hasan ibn Ayan nous a rapporté : Maqil — qui est Ibn Ubayd Allah al-Jazari — nous a rapporté, d'après Abu al-Zubayr, d'après Jabir, qui a dit : Le Messager d'Allah ﷺ a dit : « Le nettoyage à l'aide de pierres se fait en nombre impair, le lancer des pierres sur les stèles se fait en nombre impair, le parcours entre Safa et Marwa se fait en nombre impair et la circumambulation se fait en nombre impair. Si l'un de vous se nettoie à l'aide de pierres, qu'il en utilise un nombre impair. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1d04bd8a-bf13-4603-a429-a5995b77ed70",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1301a",
+      "reference": "Sahih Muslim, hadith 1301 a, book 15, باب تَفْضِيلِ الْحَلْقِ عَلَى التَّقْصِيرِ وَجَوَازِ التَّقْصِيرِ ‏‏",
+      "title": "باب تَفْضِيلِ الْحَلْقِ عَلَى التَّقْصِيرِ وَجَوَازِ التَّقْصِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَمُحَمَّدُ بْنُ رُمْحٍ، قَالاَ أَخْبَرَنَا اللَّيْثُ، ح وَحَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا لَيْثٌ، عَنْ نَافِعٍ، أَنَّ عَبْدَ اللَّهِ، قَالَ حَلَقَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَحَلَقَ طَائِفَةٌ مِنْ أَصْحَابِهِ وَقَصَّرَ بَعْضُهُمْ ‏.‏ قَالَ عَبْدُ اللَّهِ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ رَحِمَ اللَّهُ الْمُحَلِّقِينَ - مَرَّةً أَوْ مَرَّتَيْنِ ثُمَّ قَالَ - وَالْمُقَصِّرِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1dc919eee4011234450c98cdb6d08f4f4955678aee4d4a4254a39e4b5736ec5b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya et Muhammad ibn Rumh nous ont rapporté : tous deux ont dit qu'al-Layth nous avait informés. Et Qutayba nous a rapporté : Layth nous a rapporté, d'après Nafi, selon lequel Abdullah a dit : Le Messager d'Allah ﷺ se rasa la tête ; certains de ses compagnons se rasèrent également et d'autres raccourcirent leurs cheveux. Abdullah a dit : Le Messager d'Allah ﷺ dit : « Qu'Allah fasse miséricorde à ceux qui se rasent la tête » — une ou deux fois — puis il ajouta : « ainsi qu'à ceux qui raccourcissent leurs cheveux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c0bbb5c0-6968-4704-acfc-c6d5023285a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1301b",
+      "reference": "Sahih Muslim, hadith 1301 b, book 15, باب تَفْضِيلِ الْحَلْقِ عَلَى التَّقْصِيرِ وَجَوَازِ التَّقْصِيرِ ‏‏",
+      "title": "باب تَفْضِيلِ الْحَلْقِ عَلَى التَّقْصِيرِ وَجَوَازِ التَّقْصِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ اللَّهُمَّ ارْحَمِ الْمُحَلِّقِينَ ‏\"‏ ‏.‏ قَالُوا وَالْمُقَصِّرِينَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ اللَّهُمَّ ارْحَمِ الْمُحَلِّقِينَ ‏\"‏ ‏.‏ قَالُوا وَالْمُقَصِّرِينَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ وَالْمُقَصِّرِينَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "44925d6c8ca69b60848e0e49077c5f85fbaea8a91d02bd31fe4553afdb014778",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : J'ai lu devant Malik, d'après Nafi, d'après Abdullah ibn Umar, selon lequel le Messager d'Allah ﷺ dit : « Ô Allah, fais miséricorde à ceux qui se rasent la tête. » Ils dirent : « Et à ceux qui raccourcissent leurs cheveux, ô Messager d'Allah ? » Il dit : « Ô Allah, fais miséricorde à ceux qui se rasent la tête. » Ils dirent : « Et à ceux qui raccourcissent leurs cheveux, ô Messager d'Allah ? » Il dit : « Et à ceux qui raccourcissent leurs cheveux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "b6611d65-dfed-4ff2-906a-a7a0189c3def",
+      "reason": "La source renvoie au récit précédent (« semblable ») sans en reprendre le contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
