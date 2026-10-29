@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:27:08.955Z",
+  "lastReconciled": "2026-10-29T14:27:32.000Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 384,
+    "hadithMuslimDrafted": 387,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6720,
-    "hadithDatabaseMissing": 7909,
-    "hadithLocalRemaining": 7909,
-    "hadithNeedsMo": 226,
+    "hadithLocalDrafted": 6723,
+    "hadithDatabaseMissing": 7906,
+    "hadithLocalRemaining": 7906,
+    "hadithNeedsMo": 229,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31021,6 +31021,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0097",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0097.json",
+      "sourceIds": [
+        "bd0b9ad4-ed8d-42eb-b298-bf826bce2f09",
+        "2733be93-c84b-4eaa-a83a-0f18b80a7b73",
+        "869d4676-d1c8-4cbf-988b-b67c75065058",
+        "760b29a2-4692-43ee-9561-2bb533b0cfc7",
+        "731e5218-68f7-4fe0-b176-a746408d7b57",
+        "17ce9219-80df-45f3-bbd3-aa4c99074867"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; three source-only variants held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35235,11 +35256,29 @@
       "scope": "Sahih Muslim 194 b: direct Quran quotations",
       "status": "blocked",
       "reason": "Ce récit reprend directement plusieurs paroles coraniques, notamment « Ceci est mon Seigneur », « C’est le plus grand d’entre eux qui l’a fait » et « Je suis malade ». Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-200B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 200b: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-200C-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 200c: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-200D-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 200d: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6720,
-  "hadithLocalRemaining": 7909,
+  "hadithLocalDrafted": 6723,
+  "hadithLocalRemaining": 7906,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36596,10 +36635,28 @@
       "scope": "Sahih Muslim 194 b: direct Quran quotations",
       "status": "blocked",
       "reason": "Ce récit reprend directement plusieurs paroles coraniques, notamment « Ceci est mon Seigneur », « C’est le plus grand d’entre eux qui l’a fait » et « Je suis malade ». Garder l’intégralité de la traduction française en attente jusqu’à confirmation de traductions françaises approuvées, attribuées et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-200B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 200b: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-200C-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 200c: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "id": "HADITH-MUSLIM-200D-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 200d: incomplete source passage",
+      "status": "blocked",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
-  "hadithMuslimDrafted": 384,
-  "hadithDatabaseMissing": 7909,
+  "hadithMuslimDrafted": 387,
+  "hadithDatabaseMissing": 7906,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 226
+  "hadithNeedsMo": 229
 }

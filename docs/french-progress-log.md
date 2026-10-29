@@ -7588,3 +7588,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0096 saves 6 private French drafts on the prophets’ invocations, preserving the variants about the promised intercession and its stated eligibility.
 - All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 380 of 7,366. Hadith Needs Mo: 226. Total local hadith rows not drafted: 7,913, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 199c–201
+
+- FR-LIB-HAD-MUSLIM-0097 saves 3 private French drafts. Hadiths 200b, 200c and 200d contain only transmission chains or references to another report, with no complete text; they remain blank under Needs Mo.
+- All 6 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 383 of 7,366. Hadith Needs Mo: 229. Total local hadith rows not drafted: 7,910, including held records. No database writes or publication occurred.

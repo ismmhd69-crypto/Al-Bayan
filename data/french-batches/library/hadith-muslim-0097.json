@@ -1,0 +1,178 @@
+{
+  "batch_id": "HADITH-MUSLIM-0097",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:27:11.049Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bd0b9ad4-ed8d-42eb-b298-bf826bce2f09",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:199c",
+      "reference": "Sahih Muslim, hadith 199 c, book 1, باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "title": "باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ مُحَمَّدٍ، - وَهُوَ ابْنُ زِيَادٍ - قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لِكُلِّ نَبِيٍّ دَعْوَةٌ دَعَا بِهَا فِي أُمَّتِهِ فَاسْتُجِيبَ لَهُ وَإِنِّي أُرِيدُ إِنْ شَاءَ اللَّهُ أَنْ أُؤَخِّرَ دَعْوَتِي شَفَاعَةً لأُمَّتِي يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8dc6b61b9e28ad068a1d790cc42945cc057417c73d6283a5da6de4a0a850e5f1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allah ibn Mu‘adh al-‘Anbari nous a rapporté, d’après son père, d’après Shu‘ba, d’après Muhammad — c’est-à-dire Ibn Ziyad —, qui a dit : J’ai entendu Abu Hurayra dire que le Messager de Dieu ﷺ a dit : « Chaque prophète a une invocation qu’il a formulée en faveur de sa communauté et qui a été exaucée. Si Dieu le veut, je souhaite différer la mienne afin qu’elle soit une intercession en faveur de ma communauté au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2733be93-c84b-4eaa-a83a-0f18b80a7b73",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:200a",
+      "reference": "Sahih Muslim, hadith 200 a, book 1, باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "title": "باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ حَدَّثَانَا - وَاللَّفْظُ، لأَبِي غَسَّانَ - قَالُوا حَدَّثَنَا مُعَاذٌ، - يَعْنُونَ ابْنَ هِشَامٍ - قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لِكُلِّ نَبِيٍّ دَعْوَةٌ دَعَاهَا لأُمَّتِهِ وَإِنِّي اخْتَبَأْتُ دَعْوَتِي شَفَاعَةً لأُمَّتِي يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bc5a3e584ddc4ad7cc387c94a1983a07204811c46f0f4cdda42c2c7701439324",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Ghassan al-Misma‘i, Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté — la formulation étant celle d’Abu Ghassan —. Ils ont dit : « Mu‘adh, c’est-à-dire Ibn Hisham, nous a rapporté ; mon père m’a rapporté, d’après Qatada. Anas ibn Malik nous a rapporté que le Prophète de Dieu ﷺ a dit : “Chaque prophète a une invocation qu’il a formulée en faveur de sa communauté. Pour ma part, j’ai gardé la mienne comme intercession en faveur de ma communauté au Jour de la Résurrection.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "869d4676-d1c8-4cbf-988b-b67c75065058",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:200b",
+      "reference": "Sahih Muslim, hadith 200 b, book 1, باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "title": "باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، وَابْنُ أَبِي خَلَفٍ، قَالاَ حَدَّثَنَا رَوْحٌ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ ح",
+      "source_hash_sha256": "8796777771f907235b2b30c9e7b204588c05f1cae4844217ae2418f9f4b5b861",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "760b29a2-4692-43ee-9561-2bb533b0cfc7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:200c",
+      "reference": "Sahih Muslim, hadith 200 c, book 1, باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "title": "باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا وَكِيعٌ، ح وَحَدَّثَنِيهِ إِبْرَاهِيمُ بْنُ سَعِيدٍ الْجَوْهَرِيُّ، حَدَّثَنَا أَبُو أُسَامَةَ، جَمِيعًا عَنْ مِسْعَرٍ، عَنْ قَتَادَةَ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّ فِي، حَدِيثِ وَكِيعٍ قَالَ قَالَ ‏\"‏ أُعْطِيَ ‏\"‏ ‏.‏ وَفِي حَدِيثِ أَبِي أُسَامَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "8a69ae8e9870598781e22c7ee6c8f6b4687c77bd3e31d84229e1dc2f9d4facd4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "731e5218-68f7-4fe0-b176-a746408d7b57",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:200d",
+      "reference": "Sahih Muslim, hadith 200 d, book 1, باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "title": "باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، حَدَّثَنَا الْمُعْتَمِرُ، عَنْ أَبِيهِ، عَنْ أَنَسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ فَذَكَرَ نَحْوَ حَدِيثِ قَتَادَةَ عَنْ أَنَسٍ ‏.‏",
+      "source_hash_sha256": "07ca12c3748dcae81d7e646a3531adb4ee90bfe69614fcaaf380c79afba59cef",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "17ce9219-80df-45f3-bbd3-aa4c99074867",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:201",
+      "reference": "Sahih Muslim, hadith 201, book 1, باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "title": "باب اخْتِبَاءِ النَّبِيِّ صلى الله عليه وسلم دَعْوَةَ الشَّفَاعَةِ لأُمَّتِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ أَحْمَدَ بْنِ أَبِي خَلَفٍ، حَدَّثَنَا رَوْحٌ، حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏\"‏ لِكُلِّ نَبِيٍّ دَعْوَةٌ قَدْ دَعَا بِهَا فِي أُمَّتِهِ وَخَبَأْتُ دَعْوَتِي شَفَاعَةً لأُمَّتِي يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d683633b72a86fb53c4cdbfd5be1f465894f30b1766ef123a2b080680c35a577",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Ahmad ibn Abi Khalaf nous a rapporté, d’après Ruh, d’après Ibn Jurayj, qui a dit : Abu al-Zubayr m’a rapporté avoir entendu Jabir ibn ‘Abd Allah rapporter du Prophète ﷺ qu’il a dit : « Chaque prophète a une invocation qu’il a formulée en faveur de sa communauté. Pour ma part, j’ai gardé la mienne comme intercession en faveur de ma communauté au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "869d4676-d1c8-4cbf-988b-b67c75065058",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "760b29a2-4692-43ee-9561-2bb533b0cfc7",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    },
+    {
+      "source_id": "731e5218-68f7-4fe0-b176-a746408d7b57",
+      "reason": "La source arabe contient seulement une chaîne de transmission ou une mention de variante, sans rapporter le texte du hadith auquel elle renvoie. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
+    }
+  ]
+}
