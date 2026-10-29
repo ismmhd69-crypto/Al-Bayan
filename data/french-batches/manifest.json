@@ -36302,6 +36302,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0352",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0352.json",
+      "sourceIds": [
+        "b8455814-7dc3-44e6-a026-1afc8478985b",
+        "4a3765e8-729a-40e7-b76b-b4163e746b2b",
+        "c2018667-28fb-43e5-9ac1-6340621c3843",
+        "d4e5e132-42c1-491f-aee1-d1d8ad18b78c",
+        "6f394475-508b-4893-a765-8df488ac9f36",
+        "d16db1be-c635-41aa-b5be-3d31095108a1"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; three direct Quran quotations and two incomplete variants held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40609,8 +40630,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7734,
-  "hadithLocalRemaining": 6895,
+  "hadithLocalDrafted": 7735,
+  "hadithLocalRemaining": 6894,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43149,10 +43170,40 @@
       "scope": "Sahih Muslim 823A: direct Quran quotation",
       "status": "blocked",
       "reason": "La source cite directement un fragment du Coran (sourate 54, verset 17). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0352-823B-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 823B: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement un fragment du Coran (sourate 54, verset 17). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0352-824A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 824A: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement des passages du Coran (sourate 92 et variantes de récitation). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0352-824B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 824B: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au récit précédent et n’en donne qu’un résumé sans reprendre son contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0352-824C-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 824C: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La source cite directement des passages du Coran (sourate 92). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "id": "HADITH-MUSLIM-0352-824D-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 824D: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source renvoie au récit antérieur sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1398,
+  "hadithMuslimDrafted": 1399,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 659
+  "hadithNeedsMo": 664
 }
