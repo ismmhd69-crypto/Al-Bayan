@@ -16769,6 +16769,28 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-783",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-783.json",
+  "sourceIds": [
+    "74815642-ea33-4b77-b94d-aef6e5f3aa2a",
+    "ba2b68ce-1700-4b74-b947-794b3462ae55",
+    "39044b35-a320-4d48-9e7f-f1f88c195105",
+    "c3c1a175-ca2f-4b07-96d4-35508bbdc6c7",
+    "53ce15e9-43e5-4863-82a6-8ffbb3e8bd9d",
+    "cfcb6996-2f42-4884-b137-b405c797e8b8"
+  ],
+  "translated": 5,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -17260,8 +17282,16 @@
   "status": "blocked",
   "reason": "The report directly quotes Quran 110:1–3. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-780 until an approved, attributed French Quran translation is confirmed."
 }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4314-UNCLEAR-CHRONOLOGY",
+  "scope": "Sahih al-Bukhari 4314: unclear chronology of the hand injury and participation at Hunayn",
+  "status": "blocked",
+  "reason": "The report says the hand injury occurred at Hunayn, then the response to whether he witnessed Hunayn is قبل ذلك (before that). The chronology is unclear, so the complete report remains blank in FR-LIB-HAD-BUKHARI-783 pending clarification."
+}
   ],
-  "hadithBukhariDrafted": 3806,
-  "hadithLocalDrafted": 3806,
-  "hadithLocalRemaining": 10851
+  "hadithBukhariDrafted": 3811,
+  "hadithLocalDrafted": 3811,
+  "hadithLocalRemaining": 10846
 }

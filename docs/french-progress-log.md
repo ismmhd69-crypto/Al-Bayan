@@ -3826,3 +3826,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-782` saves six private French drafts about emigration after the conquest and the sanctity of Mecca.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,806 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 314. Total local hadith rows not drafted: 10,851, including held records.
+
+### 2026-10-29: Bukhari 4314–4320
+
+- `FR-LIB-HAD-BUKHARI-783` saves five private French drafts. Hadith 4314 remains blank because its wording conflicts on whether the hand injury occurred before or during Hunayn; the hold is recorded for Mo.
+- All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,811 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 315. Total local hadith rows not drafted: 10,846, including held records.
