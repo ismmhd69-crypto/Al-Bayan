@@ -11494,3 +11494,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1866b-1869b
 
 - FR-LIB-HAD-MUSLIM-0883 saves six private French drafts about the pledge of women, pledges of obedience, age, and travel with a Quran. Both reported ages and the variant wording are preserved. These entries mention the Quran but do not quote a verse. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1869c-1871a
+
+- FR-LIB-HAD-MUSLIM-0884 saves five private French drafts about travel with the Quran and horse racing, including a distinct warning phrase and an added report about a race. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No Quran verse is quoted. No database write or publication occurred.
