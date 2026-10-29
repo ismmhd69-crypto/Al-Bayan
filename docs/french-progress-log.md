@@ -9931,3 +9931,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0560 saves five private French drafts about brisk walking during tawaf and movement between Safa and Marwa. Muslim 1264b is an abbreviated variant and remains blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1266a–1268a
+
+- FR-LIB-HAD-MUSLIM-0561 saves six private French drafts covering the reports about brisk walking during tawaf and touching the two Yemeni corners. All six source reports are complete; no direct Quran quotation or incomplete variant was found.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
