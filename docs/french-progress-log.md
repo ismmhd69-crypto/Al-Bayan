@@ -10211,3 +10211,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0616 saves five private French drafts about the future abandonment of Medina, the garden between the Prophet’s house and minbar, and the return from Tabuk.
 - All five source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1392b (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0617 isolates the 2,156-character report and saves one private French draft about the journey to Tabuk, the wind warning, the return to Medina, and the Ansar neighborhoods. The ten awsuq estimate, route events, names, and order are retained.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
