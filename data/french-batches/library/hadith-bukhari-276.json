@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-276",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T04:44:17.487Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "82552cd2-9152-4901-82fe-e001311a627c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1587",
+      "reference": "Sahih al-Bukhari, hadith 1587, book 25, باب فَضْلِ الْحَرَمِ",
+      "title": "باب فَضْلِ الْحَرَمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا جَرِيرُ بْنُ عَبْدِ الْحَمِيدِ، عَنْ مَنْصُورٍ، عَنْ مُجَاهِدٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمَ فَتْحِ مَكَّةَ ‏\"‏ إِنَّ هَذَا الْبَلَدَ حَرَّمَهُ اللَّهُ، لاَ يُعْضَدُ شَوْكُهُ، وَلاَ يُنَفَّرُ صَيْدُهُ، وَلاَ يَلْتَقِطُ لُقَطَتَهُ إِلاَّ مَنْ عَرَّفَهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "3fcb83ec2f127e1c81ac8e3061a8f85709df08ed460fb03e081d01b469592d4c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Abd Allah nous a rapporté : Jarir ibn Abd al-Hamid nous a rapporté, d’après Mansur, d’après Mujahid, d’après Tawus, d’après Ibn Abbas, qu’Allah les agrée, qui dit : Le Messager d’Allah ﷺ déclara le jour de la conquête de La Mecque : « Allah a rendu cette cité sacrée. On ne coupe pas ses épineux, on n’effarouche pas son gibier et nul ne ramasse un objet perdu qui s’y trouve, sauf celui qui le fera connaître publiquement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb1b6347-2462-4022-b812-4550ff1e2b76",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1588",
+      "reference": "Sahih al-Bukhari, hadith 1588, book 25, باب تَوْرِيثِ دُورِ مَكَّةَ وَبَيْعِهَا وَشِرَائِهَا",
+      "title": "باب تَوْرِيثِ دُورِ مَكَّةَ وَبَيْعِهَا وَشِرَائِهَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَصْبَغُ، قَالَ أَخْبَرَنِي ابْنُ وَهْبٍ، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، عَنْ عَلِيِّ بْنِ حُسَيْنٍ، عَنْ عَمْرِو بْنِ عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ ـ رضى الله عنهما ـ أَنَّهُ قَالَ يَا رَسُولَ اللَّهِ، أَيْنَ تَنْزِلُ فِي دَارِكَ بِمَكَّةَ‏.‏ فَقَالَ ‏\"‏ وَهَلْ تَرَكَ عَقِيلٌ مِنْ رِبَاعٍ أَوْ دُورٍ ‏\"‏‏.‏ وَكَانَ عَقِيلٌ وَرِثَ أَبَا طَالِبٍ هُوَ وَطَالِبٌ وَلَمْ يَرِثْهُ جَعْفَرٌ وَلاَ عَلِيٌّ ـ رضى الله عنهما ـ شَيْئًا لأَنَّهُمَا كَانَا مُسْلِمَيْنِ، وَكَانَ عَقِيلٌ وَطَالِبٌ كَافِرَيْنِ، فَكَانَ عُمَرُ بْنُ الْخَطَّابِ ـ رضى الله عنه ـ يَقُولُ لاَ يَرِثُ الْمُؤْمِنُ الْكَافِرَ‏.‏ قَالَ ابْنُ شِهَابٍ وَكَانُوا يَتَأَوَّلُونَ قَوْلَ اللَّهِ تَعَالَى ‏[quran sura=\"8\" aya_start=\"72\" aya_end=\"72\"]{‏إِنَّ الَّذِينَ آمَنُوا وَهَاجَرُوا وَجَاهَدُوا بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ فِي سَبِيلِ اللَّهِ وَالَّذِينَ آوَوْا وَنَصَرُوا أُولَئِكَ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ‏}‏ الآيَةَ‏.‏",
+      "source_hash_sha256": "13ef2623897a76f5a53f50dcf78207e7fcb0dc10e703e5c82495bb7c3581251f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "efcccbe5-b346-476d-bdc3-4a8ceb9ce040",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1589",
+      "reference": "Sahih al-Bukhari, hadith 1589, book 25, باب نُزُولِ النَّبِيِّ صلى الله عليه وسلم مَكَّةَ",
+      "title": "باب نُزُولِ النَّبِيِّ صلى الله عليه وسلم مَكَّةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ، أَنَّ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم حِينَ أَرَادَ قُدُومَ مَكَّةَ ‏\"‏ مَنْزِلُنَا غَدًا إِنْ شَاءَ اللَّهُ بِخَيْفِ بَنِي كِنَانَةَ حَيْثُ تَقَاسَمُوا عَلَى الْكُفْرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "e00a394fe5049cde09c5c16328a966d59115dfc70c43cf41527d099d2cbf73c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Yaman nous a rapporté : Shu‘ayb nous a informés, d’après al-Zuhri, qui dit : Abu Salama m’a rapporté qu’Abu Hurayra, qu’Allah l’agrée, dit : Lorsque le Messager d’Allah ﷺ voulut arriver à La Mecque, il dit : « Notre halte demain, si Allah le veut, sera à Khayf des Banu Kinana, là où ils se sont alliés dans la mécréance. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "da76ae30-1810-4555-86dc-015116ec16bf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1590",
+      "reference": "Sahih al-Bukhari, hadith 1590, book 25, باب نُزُولِ النَّبِيِّ صلى الله عليه وسلم مَكَّةَ",
+      "title": "باب نُزُولِ النَّبِيِّ صلى الله عليه وسلم مَكَّةَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحُمَيْدِيُّ، حَدَّثَنَا الْوَلِيدُ، حَدَّثَنَا الأَوْزَاعِيُّ، قَالَ حَدَّثَنِي الزُّهْرِيُّ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم مِنَ الْغَدِ يَوْمَ النَّحْرِ وَهُوَ بِمِنًى ‏\"‏ نَحْنُ نَازِلُونَ غَدًا بِخَيْفِ بَنِي كِنَانَةَ حَيْثُ تَقَاسَمُوا عَلَى الْكُفْرِ ‏\"‏‏.‏ يَعْنِي ذَلِكَ الْمُحَصَّبَ، وَذَلِكَ أَنَّ قُرَيْشًا وَكِنَانَةَ تَحَالَفَتْ عَلَى بَنِي هَاشِمٍ وَبَنِي عَبْدِ الْمُطَّلِبِ، أَوْ بَنِي الْمُطَّلِبِ أَنْ لاَ يُنَاكِحُوهُمْ، وَلاَ يُبَايِعُوهُمْ حَتَّى يُسْلِمُوا إِلَيْهِمُ النَّبِيَّ صلى الله عليه وسلم‏.‏ وَقَالَ سَلاَمَةُ عَنْ عُقَيْلٍ وَيَحْيَى بْنُ الضَّحَّاكِ عَنِ الأَوْزَاعِيِّ أَخْبَرَنِي ابْنُ شِهَابٍ وَقَالاَ بَنِي هَاشِمٍ وَبَنِي الْمُطَّلِبِ‏.‏ قَالَ أَبُو عَبْدِ اللَّهِ بَنِي الْمُطَّلِبِ أَشْبَهُ‏.‏",
+      "source_hash_sha256": "04494a203c0b8fe4adf972fffe46abaa718e5953d984022656c4ff1d239a7368",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Humaydi nous a rapporté : al-Walid nous a rapporté : al-Awza‘i nous a rapporté. Il dit : al-Zuhri m’a rapporté, d’après Abu Salama, d’après Abu Hurayra, qu’Allah l’agrée : Le Prophète ﷺ dit, le lendemain du jour du Sacrifice alors qu’il se trouvait à Mina : « Demain, nous descendrons à Khayf des Banu Kinana, là où ils se sont alliés dans la mécréance. » Il s’agit d’al-Muhassab. Quraysh et Kinana s’étaient alliés contre les Banu Hashim et les Banu Abd al-Muttalib — ou les Banu al-Muttalib — pour ne pas contracter de mariage avec eux ni commercer avec eux jusqu’à ce qu’ils leur livrent le Prophète ﷺ. Salama rapporte, d’après Uqayl, et Yahya ibn al-Dahhak rapporte, d’après al-Awza‘i, qui nous a informés que les deux ont dit : « les Banu Hashim et les Banu al-Muttalib ». Abu Abd Allah dit : « La version “Banu al-Muttalib” est plus vraisemblable. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ac0b28b1-ce61-420b-b496-2225f5600fbe",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1591",
+      "reference": "Sahih al-Bukhari, hadith 1591, book 25, بَابُ قَوْلِ اللَّهِ تَعَالَى: {جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ قِيَامًا لِلنَّاسِ وَالشَّهْرَ الْحَرَامَ وَالْهَدْيَ وَالْقَلاَئِدَ ذَلِكَ لِتَعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ مَا فِي السَّمَوَاتِ وَمَا فِي الأَرْضِ وَأَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ قِيَامًا لِلنَّاسِ وَالشَّهْرَ الْحَرَامَ وَالْهَدْيَ وَالْقَلاَئِدَ ذَلِكَ لِتَعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ مَا فِي السَّمَوَاتِ وَمَا فِي الأَرْضِ وَأَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا زِيَادُ بْنُ سَعْدٍ، عَنِ الزُّهْرِيِّ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ يُخَرِّبُ الْكَعْبَةَ ذُو السُّوَيْقَتَيْنِ مِنَ الْحَبَشَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "5ca04ac2444a67e65ba550f2efa6b0c03c9e814f77de416342ecd5367453a20c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ali ibn Abd Allah nous a rapporté : Sufyan nous a rapporté : Ziyad ibn Sa‘d nous a rapporté, d’après al-Zuhri, d’après Sa‘id ibn al-Musayyib, d’après Abu Hurayra, qu’Allah l’agrée, d’après le Prophète ﷺ, qui dit : « Un homme aux jambes grêles, originaire d’Abyssinie, détruira la Kaaba. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b8fb1fb8-beb1-4982-8f4a-13a4c1b8a952",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1592",
+      "reference": "Sahih al-Bukhari, hadith 1592, book 25, بَابُ قَوْلِ اللَّهِ تَعَالَى: {جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ قِيَامًا لِلنَّاسِ وَالشَّهْرَ الْحَرَامَ وَالْهَدْيَ وَالْقَلاَئِدَ ذَلِكَ لِتَعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ مَا فِي السَّمَوَاتِ وَمَا فِي الأَرْضِ وَأَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ قِيَامًا لِلنَّاسِ وَالشَّهْرَ الْحَرَامَ وَالْهَدْيَ وَالْقَلاَئِدَ ذَلِكَ لِتَعْلَمُوا أَنَّ اللَّهَ يَعْلَمُ مَا فِي السَّمَوَاتِ وَمَا فِي الأَرْضِ وَأَنَّ اللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ‏.‏ وَحَدَّثَنِي مُحَمَّدُ بْنُ مُقَاتِلٍ، قَالَ أَخْبَرَنِي عَبْدُ اللَّهِ ـ هُوَ ابْنُ الْمُبَارَكِ ـ قَالَ أَخْبَرَنَا مُحَمَّدُ بْنُ أَبِي حَفْصَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانُوا يَصُومُونَ عَاشُورَاءَ قَبْلَ أَنْ يُفْرَضَ رَمَضَانُ، وَكَانَ يَوْمًا تُسْتَرُ فِيهِ الْكَعْبَةُ، فَلَمَّا فَرَضَ اللَّهُ رَمَضَانَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْ شَاءَ أَنْ يَصُومَهُ فَلْيَصُمْهُ، وَمَنْ شَاءَ أَنْ يَتْرُكَهُ فَلْيَتْرُكْهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "b705f59c6f99fa6dcd80de3291eaf918aae214ae12add37d8018286dbcc49566",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Bukayr nous a rapporté : al-Layth nous a rapporté, d’après Uqayl, d’après Ibn Shihab, d’après Urwa, d’après Aïcha, qu’Allah l’agrée. Muhammad ibn Muqatil m’a également rapporté : Abd Allah — il s’agit d’Ibn al-Mubarak — m’a informé : Muhammad ibn Abi Hafsa nous a rapporté, d’après al-Zuhri, d’après Urwa, d’après Aïcha, qu’Allah l’agrée, qui dit : « Avant que le jeûne de Ramadan ne devienne obligatoire, ils jeûnaient le jour d’Achoura. C’était aussi le jour où la Kaaba était recouverte. Lorsque Allah rendit le jeûne de Ramadan obligatoire, le Messager d’Allah ﷺ dit : “Que celui qui veut jeûner ce jour le fasse, et que celui qui veut le laisser le laisse.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "fb1b6347-2462-4022-b812-4550ff1e2b76",
+      "reason": "This report includes a direct quotation of Quran 8:72. Keep it blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
