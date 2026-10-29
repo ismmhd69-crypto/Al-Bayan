@@ -10086,3 +10086,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0591 isolates the 2,657-character report and saves one private French draft about Ibn al-Zubayr’s rebuilding of the Kaaba. The source includes variant wording about his aim toward the people of al-Sham; both alternatives are retained.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred. The exporter reports the next long source, 01b101f1-2259-497a-aed8-63e96221e963, for later isolated handling.
+
+### 2026-10-29: Muslim 1333g–1334
+
+- FR-LIB-HAD-MUSLIM-0592 saves five private French drafts about the Kaaba’s construction and pilgrimage on behalf of an elderly parent. Muslim 1333h contains only a chain and cross-reference to the previous report, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
