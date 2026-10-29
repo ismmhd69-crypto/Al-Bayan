@@ -11538,3 +11538,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1894-1896d
 
 - FR-LIB-HAD-MUSLIM-0894 saves five private French drafts about equipping a fighter and caring for a fighter’s family. The specific reward phrases and shared-reward conditions are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1897a-1899
+
+- FR-LIB-HAD-MUSLIM-0895 saves three private French drafts about the rights of a combatant’s family and martyrdom. The chain-only variant and two reports quoting Quran 4:95 remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.

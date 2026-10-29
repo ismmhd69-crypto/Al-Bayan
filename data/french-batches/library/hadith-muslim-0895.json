@@ -1,0 +1,178 @@
+{
+  "batch_id": "HADITH-MUSLIM-0895",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:17:08.528Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d3a32748-4672-49ec-b31c-b0cc5ac46020",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1897a",
+      "reference": "Sahih Muslim, hadith 1897 a, book 33, باب حُرْمَةِ نِسَاءِ الْمُجَاهِدِينَ وَإِثْمِ مَنْ خَانَهُمْ فِيهِنَّ ‏‏",
+      "title": "باب حُرْمَةِ نِسَاءِ الْمُجَاهِدِينَ وَإِثْمِ مَنْ خَانَهُمْ فِيهِنَّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنْ سُلَيْمَانَ بْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ حُرْمَةُ نِسَاءِ الْمُجَاهِدِينَ عَلَى الْقَاعِدِينَ كَحُرْمَةِ أُمَّهَاتِهِمْ وَمَا مِنْ رَجُلٍ مِنَ الْقَاعِدِينَ يَخْلُفُ رَجُلاً مِنَ الْمُجَاهِدِينَ فى أَهْلِهِ فَيَخُونُهُ فِيهِمْ إِلاَّ وُقِفَ لَهُ يَوْمَ الْقِيَامَةِ فَيَأْخُذُ مِنْ عَمَلِهِ مَا شَاءَ فَمَا ظَنُّكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ace9553ce2460d1d29108ab5abcdd022bcd18951e3adfdbae2cff34227143572",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Wakî‘ nous a rapporté, d’après Sufyân, d’après ‘Alqama ibn Marthad, d’après Sulaymân ibn Burayda, d’après son père, qui a dit : Le Messager d’Allah a dit : « Pour ceux qui restent au foyer, l’inviolabilité des épouses des combattants est comme celle de leurs propres mères. Tout homme parmi ceux qui restent au foyer et qui remplace un combattant auprès de sa famille en les trahissant sera arrêté pour lui au Jour de la Résurrection. Le combattant prendra alors de ses bonnes œuvres ce qu’il voudra. Que pensez-vous donc ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0426d40f-d731-421c-9183-f60332008c1d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1897b",
+      "reference": "Sahih Muslim, hadith 1897 b, book 33, باب حُرْمَةِ نِسَاءِ الْمُجَاهِدِينَ وَإِثْمِ مَنْ خَانَهُمْ فِيهِنَّ ‏‏",
+      "title": "باب حُرْمَةِ نِسَاءِ الْمُجَاهِدِينَ وَإِثْمِ مَنْ خَانَهُمْ فِيهِنَّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا مِسْعَرٌ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، عَنِ ابْنِ بُرَيْدَةَ، عَنْ أَبِيهِ، قَالَ قَالَ - يَعْنِي النَّبِيَّ صلى الله عليه وسلم ‏.‏ بِمَعْنَى حَدِيثِ الثَّوْرِيِّ ‏.‏",
+      "source_hash_sha256": "a541fc61f078a03c051dfb162297914d99323a08f240a5d6da84b96a99d70f65",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f5b0bfda-1ca5-4e29-a893-426009fce380",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1897c",
+      "reference": "Sahih Muslim, hadith 1897 c, book 33, باب حُرْمَةِ نِسَاءِ الْمُجَاهِدِينَ وَإِثْمِ مَنْ خَانَهُمْ فِيهِنَّ ‏‏",
+      "title": "باب حُرْمَةِ نِسَاءِ الْمُجَاهِدِينَ وَإِثْمِ مَنْ خَانَهُمْ فِيهِنَّ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا سُفْيَانُ، عَنْ قَعْنَبٍ، عَنْ عَلْقَمَةَ بْنِ مَرْثَدٍ، بِهَذَا الإِسْنَادِ ‏\"‏ فَقَالَ فَخُذْ مِنْ حَسَنَاتِهِ مَا شِئْتَ ‏\"‏ ‏.‏ فَالْتَفَتَ إِلَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ فَمَا ظَنُّكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bf491679561b4b07272696ea2e36d63a859b7451b56548cbda938f0a534c903e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘îd ibn Mansûr nous l’a rapporté : Sufyân nous a rapporté, d’après Qa‘nab, d’après ‘Alqama ibn Marthad, avec cette même chaîne. Il dit : « Prends de ses bonnes œuvres autant que tu le souhaites. » Le Messager d’Allah se tourna vers nous et dit : « Que pensez-vous donc ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c629b7a-fa44-4625-89bb-bccca7e7c66b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1898a",
+      "reference": "Sahih Muslim, hadith 1898 a, book 33, باب سُقُوطِ فَرْضِ الْجِهَادِ عَنِ الْمَعْذُورِينَ، ‏‏",
+      "title": "باب سُقُوطِ فَرْضِ الْجِهَادِ عَنِ الْمَعْذُورِينَ، ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، أَنَّهُ سَمِعَ الْبَرَاءَ، يَقُولُ فِي هَذِهِ الآيَةِ لاَ يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ وَالْمُجَاهِدُونَ فِي سَبِيلِ اللَّهِ فَأَمَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم زَيْدًا فَجَاءَ بِكَتِفٍ يَكْتُبُهَا فَشَكَا إِلَيْهِ ابْنُ أُمِّ مَكْتُومٍ ضَرَارَتَهُ فَنَزَلَتْ ‏[quran sura=\"4\" aya_start=\"95\" aya_end=\"95\"]{‏ لاَ يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ غَيْرُ أُولِي الضَّرَرِ‏}‏ قَالَ شُعْبَةُ وَأَخْبَرَنِي سَعْدُ بْنُ إِبْرَاهِيمَ عَنْ رَجُلٍ عَنْ زَيْدِ بْنِ ثَابِتٍ فِي هَذِهِ الآيَةِ لاَ يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ بِمِثْلِ حَدِيثِ الْبَرَاءِ وَقَالَ ابْنُ بَشَّارٍ فِي رِوَايَتِهِ سَعْدُ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ رَجُلٍ عَنْ زَيْدِ بْنِ ثَابِتٍ ‏.‏",
+      "source_hash_sha256": "1274aee3a307237f29baea1c69fd174ce3d081a89648a85e68a44862e09b4ee9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_citation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8387e7ad-daf9-4bd1-b43a-1a04f4e74d8d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1898b",
+      "reference": "Sahih Muslim, hadith 1898 b, book 33, باب سُقُوطِ فَرْضِ الْجِهَادِ عَنِ الْمَعْذُورِينَ، ‏‏",
+      "title": "باب سُقُوطِ فَرْضِ الْجِهَادِ عَنِ الْمَعْذُورِينَ، ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ بِشْرٍ، عَنْ مِسْعَرٍ، حَدَّثَنِي أَبُو إِسْحَاقَ، عَنِ الْبَرَاءِ، قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"4\" aya_start=\"95\" aya_end=\"95\"]{‏ لاَ يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ‏}‏ كَلَّمَهُ ابْنُ أُمِّ مَكْتُومٍ فَنَزَلَتْ ‏[quran sura=\"4\" aya_start=\"95\" aya_end=\"95\"]{‏ غَيْرُ أُولِي الضَّرَرِ‏}‏",
+      "source_hash_sha256": "1b580f1b8543a682f63051f5e1c5138d53c276d0e057bbf47f1a106bcddac548",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_citation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c14b9c52-224c-4efc-b2dc-0a8d9f79f21e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1899",
+      "reference": "Sahih Muslim, hadith 1899, book 33, باب ثُبُوتِ الْجَنَّةِ لِلشَّهِيدِ ‏‏",
+      "title": "باب ثُبُوتِ الْجَنَّةِ لِلشَّهِيدِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، وَسُوَيْدُ بْنُ سَعِيدٍ، - وَاللَّفْظُ لِسَعِيدٍ - أَخْبَرَنَا سُفْيَانُ، عَنْ عَمْرٍو، سَمِعَ جَابِرًا، يَقُولُ قَالَ رَجُلٌ أَيْنَ أَنَا يَا، رَسُولَ اللَّهِ إِنْ قُتِلْتُ قَالَ ‏\"‏ فِي الْجَنَّةِ ‏\"‏ ‏.‏ فَأَلْقَى تَمَرَاتٍ كُنَّ فِي يَدِهِ ثُمَّ قَاتَلَ حَتَّى قُتِلَ ‏.‏ وَفِي حَدِيثِ سُوَيْدٍ قَالَ رَجُلٌ لِلنَّبِيِّ صلى الله عليه وسلم يَوْمَ أُحُدٍ ‏.‏",
+      "source_hash_sha256": "963008b01d38d61a1d5a3f9b040adbd19b4d8bbc86649066feba11aea27fcb19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘îd ibn ‘Amr al-Ash‘athî et Suwayd ibn Sa‘îd nous ont rapporté — et la formulation est celle de Sa‘îd. Sufyân nous a informés, d’après ‘Amr, qui a entendu Jâbir dire : Un homme demanda : « Où serai-je, Messager d’Allah, si je suis tué ? » Il répondit : « Au Paradis. » L’homme jeta les dattes qu’il tenait dans sa main, puis combattit jusqu’à être tué. Dans la transmission de Suwayd, il est dit qu’un homme posa cette question au Prophète le jour d’Uhud.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0426d40f-d731-421c-9183-f60332008c1d",
+      "url": "https://sunnah.com/muslim:1897b",
+      "reason": "Cette entrée rapporte seulement une autre chaîne et indique que le hadith est dans le même sens que celui de Sufyân, sans variante de contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7c629b7a-fa44-4625-89bb-bccca7e7c66b",
+      "url": "https://sunnah.com/muslim:1898a",
+      "reason": "Le récit cite des fragments du Coran, 4:95. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "8387e7ad-daf9-4bd1-b43a-1a04f4e74d8d",
+      "url": "https://sunnah.com/muslim:1898b",
+      "reason": "Le récit cite des fragments du Coran, 4:95. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
+    }
+  ]
+}
