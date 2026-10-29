@@ -7618,3 +7618,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0102 saves 4 private French drafts about the seventy thousand and their qualities, preserving the alternate number in hadith 219.
 - All 4 source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 396 of 7,366. Hadith Needs Mo: 241. Total local hadith rows not drafted: 7,897, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 220a
+
+- FR-LIB-HAD-MUSLIM-0103 saves one private French draft for the long report in Muslim 220a. The full transmission narrative and the later description of the seventy thousand are retained. The Arabic original is 2,074 characters, so it is isolated as a single-item batch.
+- The focused validator passed, including the source hash and private, unpublished draft flags. No database write or publication occurred.
+- Count reconciliation: the manifest at this checkpoint listed 403 Muslim drafts (6,739 total; 7,890 remaining), while the previous progress-log entry reported 396 (6,732 total; 7,897 remaining). This batch advances the manifest count to 404 Muslim drafts, 6,740 total, and 7,889 remaining. The earlier seven-record difference remains unexplained and is flagged for final source recount; no prior log entry was rewritten.

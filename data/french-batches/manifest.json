@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:29:47.525Z",
+  "lastReconciled": "2026-10-29T14:31:32.080Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 403,
+    "hadithMuslimDrafted": 404,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6739,
-    "hadithDatabaseMissing": 7890,
-    "hadithLocalRemaining": 7890,
+    "hadithLocalDrafted": 6740,
+    "hadithDatabaseMissing": 7889,
+    "hadithLocalRemaining": 7889,
     "hadithNeedsMo": 241,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -31145,6 +31145,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0103",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0103.json",
+      "sourceIds": [
+        "4c64ba79-4066-47c2-9a4f-8e56ef20ce7b"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35452,8 +35468,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6739,
-  "hadithLocalRemaining": 7890,
+  "hadithLocalDrafted": 6740,
+  "hadithLocalRemaining": 7889,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36902,8 +36918,8 @@
       "reason": "La source arabe ne contient que la chaîne de transmission et renvoie au hadith d’al-Rabi‘ sans en rapporter le texte. Garder la traduction française en attente jusqu’à ce qu’un texte complet et vérifié soit disponible."
     }
   ],
-  "hadithMuslimDrafted": 403,
-  "hadithDatabaseMissing": 7890,
+  "hadithMuslimDrafted": 404,
+  "hadithDatabaseMissing": 7889,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 241
 }
