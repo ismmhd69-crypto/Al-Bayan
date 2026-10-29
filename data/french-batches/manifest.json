@@ -17247,6 +17247,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-795",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-795.json",
+      "sourceIds": [
+        "65fa3bad-f8e2-45ad-9b28-16ed50f051d1",
+        "62df44ed-23e6-483d-bec9-e346878c77fe",
+        "c5e5e6d2-bd19-479b-b92f-b10b8da5aeaa",
+        "42d8d087-04e6-475c-811d-613dd2fcc34d",
+        "1b0be9e5-4886-455a-8a4e-33831b3f6e4b",
+        "9cdbb17d-d6a4-47fa-95c2-159f157b832a"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17747,9 +17768,15 @@
       "scope": "Sahih al-Bukhari 4393: source ends mid-poetic line",
       "status": "blocked",
       "reason": "The source ends in the middle of a poetic line, at نجت, without the rest of the wording. The complete report remains blank in FR-LIB-HAD-BUKHARI-794 pending confirmation of the full source text."
+    },
+    {
+      "id": "HADITH-BUKHARI-4396-QURAN-22-33",
+      "scope": "Sahih al-Bukhari 4396: direct quotation of Quran 22:33",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 22:33. The complete record remains blank in FR-LIB-HAD-BUKHARI-795 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3870,
-  "hadithLocalDrafted": 3870,
-  "hadithLocalRemaining": 10787
+  "hadithBukhariDrafted": 3875,
+  "hadithLocalDrafted": 3875,
+  "hadithLocalRemaining": 10782
 }
