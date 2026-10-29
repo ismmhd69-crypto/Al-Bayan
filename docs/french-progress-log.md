@@ -11346,3 +11346,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1781a-1783b
 
 - FR-LIB-HAD-MUSLIM-0846 saves four private French drafts: two reports about the conquest of Mecca and two accounts of the al-Hudaybiya treaty. The two variants that quote or directly refer to Quranic wording remain entirely blank under Needs Mo pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1783c-1785d
+
+- FR-LIB-HAD-MUSLIM-0847 saves six private French drafts about the al-Hudaybiya treaty and its later recollection at Siffîn. The treaty terms, dialogue, and transmission differences are preserved. No direct Quran quotation appears in these entries. No database write or publication occurred.
