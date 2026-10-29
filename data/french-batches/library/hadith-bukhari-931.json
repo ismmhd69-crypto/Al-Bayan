@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-931",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:54:16.680Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5e3a6d96-ffdf-4d83-8e67-a88a73fc94b0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5096",
+      "reference": "Sahih al-Bukhari, hadith 5096, book 67, باب مَا يُتَّقَى مِنْ شُؤْمِ الْمَرْأَةِ",
+      "title": "باب مَا يُتَّقَى مِنْ شُؤْمِ الْمَرْأَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، عَنْ سُلَيْمَانَ التَّيْمِيِّ، قَالَ سَمِعْتُ أَبَا عُثْمَانَ النَّهْدِيَّ، عَنْ أُسَامَةَ بْنِ زَيْدٍ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ مَا تَرَكْتُ بَعْدِي فِتْنَةً أَضَرَّ عَلَى الرِّجَالِ مِنَ النِّسَاءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "ec4fceb8efc1b6da822e13dc836e2e12c2e1b8a22b422c1e2d73192749db00d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Usâma ibn Zayd rapporte que le Prophète (paix et bénédictions sur lui) a dit : « Je ne laisse après moi aucune épreuve plus nuisible aux hommes que les femmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1e54150c-b39a-4544-a555-bbce0421b441",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5097",
+      "reference": "Sahih al-Bukhari, hadith 5097, book 67, باب الْحُرَّةِ تَحْتَ الْعَبْدِ",
+      "title": "باب الْحُرَّةِ تَحْتَ الْعَبْدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ رَبِيعَةَ بْنِ أَبِي عَبْدِ الرَّحْمَنِ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ فِي بَرِيرَةَ ثَلاَثُ سُنَنٍ عَتَقَتْ فَخُيِّرَتْ، وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏ وَدَخَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَبُرْمَةٌ عَلَى النَّارِ، فَقُرِّبَ إِلَيْهِ خُبْزٌ وَأُدْمٌ مِنْ أُدْمِ الْبَيْتِ فَقَالَ ‏\"‏ لَمْ أَرَ الْبُرْمَةَ ‏\"‏‏.‏ فَقِيلَ لَحْمٌ تُصُدِّقَ عَلَى بَرِيرَةَ، وَأَنْتَ لاَ تَأْكُلُ الصَّدَقَةَ قَالَ ‏\"‏ هُوَ عَلَيْهَا صَدَقَةٌ، وَلَنَا هَدِيَّةٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "4d91d77c6436086c62b57fd6a0bfd70b9a67cf1149837789a70052dab0440dd7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte qu’il y eut trois enseignements tirés de l’histoire de Barîra : elle fut affranchie et eut le choix ; le Messager d’Allah dit : « Le droit d’alliance revient à celui qui affranchit. » Le Messager d’Allah entra alors qu’une marmite était sur le feu. On lui apporta du pain et un condiment du foyer. Il demanda : « Je ne vois pas la marmite. » On lui répondit : « C’est de la viande donnée en aumône à Barîra ; tu ne manges pas l’aumône. » Il dit : « Pour elle, c’est une aumône ; pour nous, c’est un cadeau. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ace05046-8cf0-4ed8-83ba-bd1458141b59",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5098",
+      "reference": "Sahih al-Bukhari, hadith 5098, book 67, باب لاَ يَتَزَوَّجُ أَكْثَرَ مِنْ أَرْبَعٍ",
+      "title": "باب لاَ يَتَزَوَّجُ أَكْثَرَ مِنْ أَرْبَعٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا عَبْدَةُ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، [quran sura=\"4\" aya_start=\"3\" aya_end=\"3\"]‏{‏وَإِنْ خِفْتُمْ أَنْ لاَ، تُقْسِطُوا فِي الْيَتَامَى‏}‏‏.‏ قَالَتِ الْيَتِيمَةُ تَكُونُ عِنْدَ الرَّجُلِ وَهْوَ وَلِيُّهَا، فَيَتَزَوَّجُهَا عَلَى مَالِهَا، وَيُسِيءُ صُحْبَتَهَا، وَلاَ يَعْدِلُ فِي مَالِهَا، فَلْيَتَزَوَّجْ مَا طَابَ لَهُ مِنَ النِّسَاءِ سِوَاهَا مَثْنَى وَثُلاَثَ وَرُبَاعَ‏.‏",
+      "source_hash_sha256": "baaba7936749215f458f00706d57a83ef52e3ea1ede61325f81cc558e1221fa4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "efca57fd-bedb-4867-9b23-77f4b7a4c8fe",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5099",
+      "reference": "Sahih al-Bukhari, hadith 5099, book 67, بَابُ: {وَأُمَّهَاتُكُمُ اللاَّتِي أَرْضَعْنَكُمْ}",
+      "title": "بَابُ: {وَأُمَّهَاتُكُمُ اللاَّتِي أَرْضَعْنَكُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ عَمْرَةَ بِنْتِ عَبْدِ الرَّحْمَنِ، أَنَّ عَائِشَةَ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم أَخْبَرَتْهَا أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ عِنْدَهَا، وَأَنَّهَا سَمِعَتْ صَوْتَ رَجُلٍ يَسْتَأْذِنُ فِي بَيْتِ حَفْصَةَ، قَالَتْ فَقُلْتُ يَا رَسُولَ اللَّهِ هَذَا رَجُلٌ يَسْتَأْذِنُ فِي بَيْتِكَ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أُرَاهُ فُلاَنًا ‏\"‏‏.‏ لِعَمِّ حَفْصَةَ مِنَ الرَّضَاعَةِ‏.‏ قَالَتْ عَائِشَةُ لَوْ كَانَ فُلاَنٌ حَيًّا، لِعَمِّهَا مِنَ الرَّضَاعَةِ دَخَلَ عَلَىَّ فَقَالَ ‏\"‏ نَعَمِ الرَّضَاعَةُ تُحَرِّمُ مَا تُحَرِّمُ الْوِلاَدَةُ ‏\"‏‏.‏",
+      "source_hash_sha256": "d78e5780e34795e3aeef26255ba4065c0cc7282391c18181aa474dc9a31a9b01",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha, épouse du Prophète, rapporte qu’un homme demanda la permission d’entrer chez Hafsa. Elle dit au Prophète : « Un homme demande à entrer chez toi. » Il répondit : « Je crois que c’est untel », l’oncle de lait de Hafsa. ʿÂ’isha dit : « Si untel, mon oncle de lait, était encore vivant, il pourrait entrer chez moi ? » Il répondit : « Les liens de parenté établis par l’allaitement interdisent ce que ceux du sang interdisent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1264e131-be3d-4bf4-b1eb-e91c9fc560e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5100",
+      "reference": "Sahih al-Bukhari, hadith 5100, book 67, بَابُ: {وَأُمَّهَاتُكُمُ اللاَّتِي أَرْضَعْنَكُمْ}",
+      "title": "بَابُ: {وَأُمَّهَاتُكُمُ اللاَّتِي أَرْضَعْنَكُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، عَنْ جَابِرِ بْنِ زَيْدٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قِيلَ لِلنَّبِيِّ صلى الله عليه وسلم أَلاَ تَزَوَّجُ ابْنَةَ حَمْزَةَ قَالَ ‏\"‏ إِنَّهَا ابْنَةُ أَخِي مِنَ الرَّضَاعَةِ ‏\"‏‏.‏ وَقَالَ بِشْرُ بْنُ عُمَرَ حَدَّثَنَا شُعْبَةُ سَمِعْتُ قَتَادَةَ سَمِعْتُ جَابِرَ بْنَ زَيْدٍ مِثْلَهُ‏.‏",
+      "source_hash_sha256": "b7c55ee9bbbaa6b059b33862c38c064910d72acdf684bbd35a6bce3e3abdd20a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs rapporte que l’on demanda au Prophète : « N’épouseras-tu pas la fille de Hamza ? » Il répondit : « C’est la fille de mon frère de lait. » Bishr ibn ʿUmar rapporte également ce récit de Shuʿba, qui le tenait de Qatâda et Jâbir ibn Zayd.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d0271e62-06b9-4f3e-b56d-d821836c846d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5101",
+      "reference": "Sahih al-Bukhari, hadith 5101, book 67, بَابُ: {وَأُمَّهَاتُكُمُ اللاَّتِي أَرْضَعْنَكُمْ}",
+      "title": "بَابُ: {وَأُمَّهَاتُكُمُ اللاَّتِي أَرْضَعْنَكُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَكَمُ بْنُ نَافِعٍ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ زَيْنَبَ ابْنَةَ أَبِي سَلَمَةَ، أَخْبَرَتْهُ أَنَّ أُمَّ حَبِيبَةَ بِنْتَ أَبِي سُفْيَانَ أَخْبَرَتْهَا أَنَّهَا، قَالَتْ يَا رَسُولَ اللَّهِ انْكِحْ أُخْتِي بِنْتَ أَبِي سُفْيَانَ فَقَالَ ‏\"‏ أَوَتُحِبِّينَ ذَلِكَ ‏\"‏‏.‏ فَقُلْتُ نَعَمْ، لَسْتُ لَكَ بِمُخْلِيَةٍ، وَأَحَبُّ مَنْ شَارَكَنِي فِي خَيْرٍ أُخْتِي‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّ ذَلِكَ لاَ يَحِلُّ لِي ‏\"‏‏.‏ قُلْتُ فَإِنَّا نُحَدَّثُ أَنَّكَ تُرِيدُ أَنْ تَنْكِحَ بِنْتَ أَبِي سَلَمَةَ‏.‏ قَالَ ‏\"‏ بِنْتَ أُمِّ سَلَمَةَ ‏\"‏‏.‏ قُلْتُ نَعَمْ‏.‏ فَقَالَ ‏\"‏ لَوْ أَنَّهَا لَمْ تَكُنْ رَبِيبَتِي فِي حَجْرِي مَا حَلَّتْ لِي إِنَّهَا لاَبْنَةُ أَخِي مِنَ الرَّضَاعَةِ، أَرْضَعَتْنِي وَأَبَا سَلَمَةَ ثُوَيْبَةُ فَلاَ تَعْرِضْنَ عَلَىَّ بَنَاتِكُنَّ وَلاَ أَخَوَاتِكُنَّ ‏\"‏‏.‏ قَالَ عُرْوَةُ وَثُوَيْبَةُ مَوْلاَةٌ لأَبِي لَهَبٍ كَانَ أَبُو لَهَبٍ أَعْتَقَهَا فَأَرْضَعَتِ النَّبِيَّ صلى الله عليه وسلم فَلَمَّا مَاتَ أَبُو لَهَبٍ أُرِيَهُ بَعْضُ أَهْلِهِ بِشَرِّ حِيبَةٍ قَالَ لَهُ مَاذَا لَقِيتَ قَالَ أَبُو لَهَبٍ لَمْ أَلْقَ بَعْدَكُمْ غَيْرَ أَنِّي سُقِيتُ فِي هَذِهِ بِعَتَاقَتِي ثُوَيْبَةَ‏.‏",
+      "source_hash_sha256": "96afc1e4fd0c4641c7a02923ce113438e02f736c82e369b1cb8f95dc20c1566f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zaynab bint Abî Salama rapporte qu’Umm Habîba bint Abî Sufyân dit : « Ô Messager d’Allah, épouse ma sœur, la fille d’Abû Sufyân. » Il demanda : « Le souhaites-tu vraiment ? » Elle répondit : « Oui. Je ne suis pas ta seule épouse, et j’aimerais que ma sœur partage avec moi ce bien. » Le Prophète dit : « Cela ne m’est pas permis. » Elle dit : « On raconte que tu veux épouser la fille d’Abû Salama. » Il précisa : « La fille d’Umm Salama ? » Elle répondit oui. Il dit : « Même si elle n’avait pas été ma belle-fille élevée dans mon foyer, elle ne me serait pas permise, car elle est ma nièce de lait : Thuwayba nous a allaités, Abû Salama et moi. Ne me proposez donc ni vos filles ni vos sœurs. » ʿUrwa ajouta que Thuwayba avait appartenu à Abû Lahab, qui l’avait affranchie, puis elle avait allaité le Prophète. Après la mort d’Abû Lahab, l’un de ses proches le vit dans un mauvais état et lui demanda ce qu’il avait trouvé. Abû Lahab répondit : « Depuis que je vous ai quittés, je n’ai reçu que ceci : on m’a donné à boire à cause de l’affranchissement de Thuwayba. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ace05046-8cf0-4ed8-83ba-bd1458141b59",
+      "url": "https://sunnah.com/bukhari:5098",
+      "reason": "Le rapport cite directement Quran 4:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-931, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}

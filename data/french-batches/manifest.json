@@ -19978,6 +19978,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-931",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-931.json",
+      "sourceIds": [
+        "5e3a6d96-ffdf-4d83-8e67-a88a73fc94b0",
+        "1e54150c-b39a-4544-a555-bbce0421b441",
+        "ace05046-8cf0-4ed8-83ba-bd1458141b59",
+        "efca57fd-bedb-4867-9b23-77f4b7a4c8fe",
+        "1264e131-be3d-4bf4-b1eb-e91c9fc560e6",
+        "d0271e62-06b9-4f3e-b56d-d821836c846d"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22766,6 +22787,12 @@
       "reason": "The report directly quotes Quran 4:3 and 4:127. Keep the complete translation blank pending an approved, attributed French Quran translation."
     },
     {
+      "id": "HADITH-BUKHARI-5098-QURAN-4-3",
+      "scope": "Sahih al-Bukhari 5098: direct Quran quotation from 4:3",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:3. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22814,7 +22841,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4165,
-  "hadithLocalDrafted": 4165,
-  "hadithLocalRemaining": 10502
+  "hadithBukhariDrafted": 4170,
+  "hadithLocalDrafted": 4170,
+  "hadithLocalRemaining": 10497
 }
