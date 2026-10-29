@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1170",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:32:48.724Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "967b723d-1a2d-4f6f-80e5-e7be272267eb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2526b",
+      "reference": "Sahih Muslim, hadith 2526 b, book 44, باب خِيَارِ النَّاسِ ‏‏",
+      "title": "باب خِيَارِ النَّاسِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، ح وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا الْمُغِيرَةُ بْنُ عَبْدِ الرَّحْمَنِ الْحِزَامِيُّ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَجِدُونَ النَّاسَ مَعَادِنَ ‏\"‏ ‏.‏ بِمِثْلِ حَدِيثِ الزُّهْرِيِّ غَيْرَ أَنَّ فِي حَدِيثِ أَبِي زُرْعَةَ وَالأَعْرَجِ ‏\"‏ تَجِدُونَ مِنْ خَيْرِ النَّاسِ فِي هَذَا الشَّأْنِ أَشَدَّهُمْ لَهُ كَرَاهِيَةً حَتَّى يَقَعَ فِيهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bd8ccedea257a51bcd6a56c7efedc1f3db3339e34fb37d9a4c9d4aee43d9c390",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Vous trouverez que les gens sont comme des filons. » Le récit est semblable à celui d’al-Zuhrī, mais la version d’Abū Zurʿa et d’al-Aʿraj précise : « Vous trouverez parmi les meilleurs, dans cette affaire, ceux qui la détestent le plus jusqu’à ce qu’ils s’y engagent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3160303e-d40c-41ae-b0aa-ac77493223ee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2526c",
+      "reference": "Sahih Muslim, hadith 2526 c, book 45, باب ذَمِّ ذِي الْوَجْهَيْنِ وَتَحْرِيمِ فِعْلِهِ ‏‏",
+      "title": "باب ذَمِّ ذِي الْوَجْهَيْنِ وَتَحْرِيمِ فِعْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ مِنْ شَرِّ النَّاسِ ذَا الْوَجْهَيْنِ الَّذِي يَأْتِي هَؤُلاَءِ بِوَجْهٍ وَهَؤُلاَءِ بِوَجْهٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "90614dcc3164c06ccf38eb7f177364527d6ed3a18da46d39697f419fa866b89e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Parmi les pires des gens se trouve celui qui a deux visages : il vient à ceux-ci avec un visage et à ceux-là avec un autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f2fe624f-eee4-45a9-8a68-9a9e79864fbe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2526d",
+      "reference": "Sahih Muslim, hadith 2526 d, book 45, باب ذَمِّ ذِي الْوَجْهَيْنِ وَتَحْرِيمِ فِعْلِهِ ‏‏",
+      "title": "باب ذَمِّ ذِي الْوَجْهَيْنِ وَتَحْرِيمِ فِعْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ عِرَاكِ بْنِ مَالِكٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ شَرَّ النَّاسِ ذُو الْوَجْهَيْنِ الَّذِي يَأْتِي هَؤُلاَءِ بِوَجْهٍ وَهَؤُلاَءِ بِوَجْهٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "150cb5a0f2f09619c682dfe4b2765a718815b5fa557210459eb63ccaf73e2f9c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte avoir entendu le Messager d’Allah ﷺ dire : « Le pire des gens est celui qui a deux visages : il vient à ceux-ci avec un visage et à ceux-là avec un autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3abf88a7-479e-4707-9e05-70afc158308c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2526e",
+      "reference": "Sahih Muslim, hadith 2526 e, book 45, باب ذَمِّ ذِي الْوَجْهَيْنِ وَتَحْرِيمِ فِعْلِهِ ‏‏",
+      "title": "باب ذَمِّ ذِي الْوَجْهَيْنِ وَتَحْرِيمِ فِعْلِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنِي ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، حَدَّثَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم ح وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَجِدُونَ مِنْ شَرِّ النَّاسِ ذَا الْوَجْهَيْنِ الَّذِي يَأْتِي هَؤُلاَءِ بِوَجْهٍ وَهَؤُلاَءِ بِوَجْهٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "544021619e8db5d18844dd534e410602458dc1a29152a23fed1783d99b4f523e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Les meilleures femmes à être montées sur des chameaux — l’un des deux transmetteurs a dit : “les femmes vertueuses de Quraysh”, et l’autre : “les femmes de Quraysh” — sont celles qui se montrent les plus tendres envers un orphelin pendant son enfance et les plus attentives aux biens de leur époux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e8f593d-a460-49bb-a052-1d3f924c252b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2527a",
+      "reference": "Sahih Muslim, hadith 2527 a, book 44, باب مِنْ فَضَائِلِ نِسَاءِ قُرَيْشٍ ‏‏",
+      "title": "باب مِنْ فَضَائِلِ نِسَاءِ قُرَيْشٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، وَعَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَيْرُ نِسَاءٍ رَكِبْنَ الإِبِلَ - قَالَ أَحَدُهُمَا صَالِحُ نِسَاءِ قُرَيْشٍ ‏.‏ وَقَالَ الآخَرُ نِسَاءُ قُرَيْشٍ - أَحْنَاهُ عَلَى يَتِيمٍ فِي صِغَرِهِ وَأَرْعَاهُ عَلَى زَوْجٍ فِي ذَاتِ يَدِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8db1e4626463365f11a78a6368cac296b5f15ea215d9ed49d813ce32f2013477",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Les meilleures femmes à être montées sur des chameaux — l’un des deux transmetteurs a dit : “les femmes vertueuses de Quraysh”, et l’autre : “les femmes de Quraysh” — sont celles qui se montrent les plus tendres envers un orphelin pendant son enfance et les plus attentives aux biens de leur époux. »"
+    },
+    {
+      "source_id": "ffaaf53a-76a1-4bf6-95a9-69291c8a0cf9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2527b",
+      "reference": "Sahih Muslim, hadith 2527 b, book 44, باب مِنْ فَضَائِلِ نِسَاءِ قُرَيْشٍ ‏‏",
+      "title": "باب مِنْ فَضَائِلِ نِسَاءِ قُرَيْشٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، يَبْلُغُ بِهِ النَّبِيَّ صلى الله عليه وسلم وَابْنُ طَاوُسٍ عَنْ أَبِيهِ يَبْلُغُ بِهِ النَّبِيَّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ أَرْعَاهُ عَلَى وَلَدٍ فِي صِغَرِهِ ‏\"‏ ‏.‏ وَلَمْ يَقُلْ يَتِيمٍ ‏.‏",
+      "source_hash_sha256": "47097318b5b683060cd574be742c75233a7db31c622a5e611ef786f480ca3c70",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ffaaf53a-76a1-4bf6-95a9-69291c8a0cf9",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent en précisant une variante (« enfant » au lieu d’« orphelin »). Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
