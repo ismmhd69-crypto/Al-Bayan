@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5610,
+    "hadithBukhariDrafted": 5614,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5610,
+    "hadithLocalDrafted": 5614,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9019,
-    "hadithNeedsMo": 806,
+    "hadithLocalRemaining": 9015,
+    "hadithNeedsMo": 808,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25867,6 +25867,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1222",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1222.json",
+      "sourceIds": [
+        "b88d57e2-7083-4bf2-a8ea-666a99016b74",
+        "5be00c77-a708-4c1c-abf8-c681581a8640",
+        "81aca0ac-7cd1-41a1-95a2-1e5ede4b5f78",
+        "6a8a59bb-9ab8-4106-9b74-c83d6fce65a1",
+        "f64402bc-d7b6-4640-ba31-38bb0ebc9169",
+        "95a718de-4180-4889-b5f7-85102a4c13e5"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; one report held for unclear wording and one for a direct Quran quotation. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29091,11 +29112,23 @@
       "scope": "Sahih al-Bukhari 6659: direct quotation of Quran 3:77",
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6662-UNCLEAR-VERB",
+      "scope": "Sahih al-Bukhari 6662: unclear verb فاستعذر in a brief excerpt",
+      "status": "blocked",
+      "reason": "The excerpt uses فاستعذر in the slander incident, but its precise meaning and function cannot be established safely from this brief record. Keep it blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6663-QURAN-2-225",
+      "scope": "Sahih al-Bukhari 6663: direct quotation of Quran 2:225",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:225. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5610,
-  "hadithLocalDrafted": 5610,
-  "hadithLocalRemaining": 9019,
+  "hadithBukhariDrafted": 5614,
+  "hadithLocalDrafted": 5614,
+  "hadithLocalRemaining": 9015,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29462,6 +29495,18 @@
       "scope": "Sahih al-Bukhari 6659: direct quotation of Quran 3:77",
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6662-UNCLEAR-VERB",
+      "scope": "Sahih al-Bukhari 6662: unclear verb فاستعذر in a brief excerpt",
+      "status": "blocked",
+      "reason": "The excerpt uses فاستعذر in the slander incident, but its precise meaning and function cannot be established safely from this brief record. Keep it blank until clarified."
+    },
+    {
+      "id": "HADITH-BUKHARI-6663-QURAN-2-225",
+      "scope": "Sahih al-Bukhari 6663: direct quotation of Quran 2:225",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 2:225. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
