@@ -11902,3 +11902,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2077a-2078c
 
 - FR-LIB-HAD-MUSLIM-0985 saves five complete private French drafts about safflower-dyed clothing, gold, and recitation during prayer. One entry that only gives transmission details remains blank with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2078d-2079b
+
+- FR-LIB-HAD-MUSLIM-0986 saves four complete private French drafts about rings, garments, and saddle coverings. Two entries that refer back to full reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
