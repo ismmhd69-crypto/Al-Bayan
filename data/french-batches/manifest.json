@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 636,
+    "hadithMuslimDrafted": 640,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6972,
+    "hadithLocalDrafted": 6976,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7657,
-    "hadithNeedsMo": 301,
+    "hadithLocalRemaining": 7653,
+    "hadithNeedsMo": 303,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43113,6 +43113,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "blocked"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0686",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0686.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; two incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -51942,6 +51955,16 @@
     {
       "source_id": "e50cc6af-cf20-4f6a-adf1-781a1d2a5556",
       "reason": "Cette source isolée de 2 118 caractères contient une citation explicite du Coran, sourate 24, verset 6. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "baf924e6-0e7d-4c62-be25-b94dfdbc5dca",
+      "reason": "Cette entrée renvoie au rapport précédent (« selon la même version ») sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "3c6bc1ca-aaaa-4b1e-bb1e-b1e3b2fed620",
+      "reason": "Cette entrée renvoie au rapport précédent (« selon la même version ») sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],
