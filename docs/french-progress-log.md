@@ -1476,3 +1476,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-308` saves six private French drafts for Bukhari 1784–1789. They preserve the reports on Aïcha’s ‘umra and the variation in the rites, including the garment and scent details in the al-Ji‘rana account. No Quran quotation required a hold. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,633 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 94. Total local hadith rows not drafted: 12,995, including held records.
+
+### 2026-10-29: Bukhari 1790–1797 source review
+
+- `FR-LIB-HAD-BUKHARI-309` saves four private French drafts for Bukhari 1791, 1795–1797. Bukhari 1790 and 1793 remain blank and are recorded under Needs Mo because they directly quote Quran 2:158 and 33:21; no approved, attributed French Quran translation is configured. No source record for 1792 or 1794 was present in this exporter batch.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran holds. No database writes or publication occurred. Bukhari local drafts: 1,637 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 96. Total local hadith rows not drafted: 12,991, including held records.
