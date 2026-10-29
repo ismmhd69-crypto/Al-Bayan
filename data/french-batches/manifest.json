@@ -16659,6 +16659,28 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-778",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-778.json",
+  "sourceIds": [
+    "8d1462bd-1762-4801-bbbc-656ab92976ab",
+    "fcf96d54-7161-4f17-90ca-97eb5c9c90ae",
+    "68708720-0836-4ec7-8716-580a877363aa",
+    "e09720c2-0a07-4c1f-9b76-f4a7bfcca4a4",
+    "fe79ec98-44ab-416d-864d-af64a870151d",
+    "22241a42-1fef-475e-95b3-4da243ec239e"
+  ],
+  "translated": 5,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -17134,8 +17156,16 @@
   "status": "blocked",
   "reason": "The report directly quotes Quran 60:1. It also includes divine speech matching the wording اعملوا ما شئتم from Quran 41:40. The complete record remains blank in FR-LIB-HAD-BUKHARI-775 pending an approved, attributed French Quran translation."
 }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4287-QURAN-17-81",
+  "scope": "Sahih al-Bukhari 4287: direct quotation of Quran 17:81",
+  "status": "blocked",
+  "reason": "The report directly quotes Quran 17:81 in the wording جاء الحق وزهق الباطل. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-778 until an approved, attributed French Quran translation is confirmed."
+}
   ],
-  "hadithBukhariDrafted": 3778,
-  "hadithLocalDrafted": 3778,
-  "hadithLocalRemaining": 10879
+  "hadithBukhariDrafted": 3783,
+  "hadithLocalDrafted": 3783,
+  "hadithLocalRemaining": 10874
 }

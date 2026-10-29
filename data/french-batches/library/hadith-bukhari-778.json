@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-BUKHARI-778",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:45:58.756Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8d1462bd-1762-4801-bbbc-656ab92976ab",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4281",
+      "reference": "Sahih al-Bukhari, hadith 4281, book 64, باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "title": "باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنْ مُعَاوِيَةَ بْنِ قُرَّةَ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ مُغَفَّلٍ، يَقُولُ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَوْمَ فَتْحِ مَكَّةَ عَلَى نَاقَتِهِ، وَهْوَ يَقْرَأُ سُورَةَ الْفَتْحِ يُرَجِّعُ، وَقَالَ لَوْلاَ أَنْ يَجْتَمِعَ النَّاسُ حَوْلِي لَرَجَّعْتُ كَمَا رَجَّعَ‏.‏",
+      "source_hash_sha256": "a04c732ac00e2a221632f05f7980f0fe31f02cf1aa5797e49da2f4a72dedb326",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbdallâh ibn Mughaffal rapporte : « Le jour de la conquête de La Mecque, je vis le Messager de Dieu sur sa chamelle réciter la sourate al-Fath en répétant sa récitation. Il dit que, si les gens ne s’étaient pas rassemblés autour de lui, il aurait répété sa récitation comme il le faisait alors. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fcf96d54-7161-4f17-90ca-97eb5c9c90ae",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4282",
+      "reference": "Sahih al-Bukhari, hadith 4282, 4283, book 64, باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "title": "باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ عَبْدِ الرَّحْمَنِ، حَدَّثَنَا سَعْدَانُ بْنُ يَحْيَى، حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي حَفْصَةَ، عَنِ الزُّهْرِيِّ، عَنْ عَلِيِّ بْنِ حُسَيْنٍ، عَنْ عَمْرِو بْنِ عُثْمَانَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ، أَنَّهُ قَالَ زَمَنَ الْفَتْحِ يَا رَسُولَ اللَّهِ، أَيْنَ تَنْزِلُ غَدًا قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ وَهَلْ تَرَكَ لَنَا عَقِيلٌ مِنْ مَنْزِلٍ ‏\"‏‏.‏ ثُمَّ قَالَ ‏\"‏ لاَ يَرِثُ الْمُؤْمِنُ الْكَافِرَ، وَلاَ يَرِثُ الْكَافِرُ الْمُؤْمِنَ ‏\"‏‏.‏ قِيلَ لِلزُّهْرِيِّ وَمَنْ وَرِثَ أَبَا طَالِبٍ قَالَ وَرِثَهُ عَقِيلٌ وَطَالِبٌ‏.‏ قَالَ مَعْمَرٌ عَنِ الزُّهْرِيِّ أَيْنَ تَنْزِلُ غَدًا‏.‏ فِي حَجَّتِهِ، وَلَمْ يَقُلْ يُونُسُ حَجَّتِهِ وَلاَ زَمَنَ الْفَتْحِ‏.‏",
+      "source_hash_sha256": "2f4f8455bc72be5e13efeb2ab5867e20babb39cfe82647db0af352e90759a78d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Usâma ibn Zayd rapporte qu’au moment de la conquête, il demanda au Messager de Dieu où ils logeraient le lendemain. Le Prophète répondit qu’ʿAqîl ne leur avait laissé aucune maison. Il ajouta que le croyant n’hérite pas de l’incroyant et que l’incroyant n’hérite pas du croyant. On demanda à az-Zuhrî qui avait hérité d’Abû Tâlib. Il répondit qu’ʿAqîl et Tâlib en avaient hérité. Maʿmar rapporte, d’après az-Zuhrî, la question sur le lieu où ils logeraient le lendemain pendant le pèlerinage du Prophète ; Yûnus ne précise ni qu’il s’agissait de son pèlerinage ni que c’était au moment de la conquête.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "68708720-0836-4ec7-8716-580a877363aa",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4284",
+      "reference": "Sahih al-Bukhari, hadith 4284, book 64, باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "title": "باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْيَمَانِ، حَدَّثَنَا شُعَيْبٌ، حَدَّثَنَا أَبُو الزِّنَادِ، عَنْ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، رضى الله عنه قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَنْزِلُنَا ـ إِنْ شَاءَ اللَّهُ، إِذَا فَتَحَ اللَّهُ ـ الْخَيْفُ، حَيْثُ تَقَاسَمُوا عَلَى الْكُفْرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "bc98108a7d49f6888bc5ec081ad8c1a0a7e62e517dcc53733cb5ec01c7c082c2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que le Messager de Dieu dit que, si Dieu leur accordait la conquête, leur lieu de halte serait al-Khayf, là où les gens avaient pris un engagement collectif en faveur de l’incroyance.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e09720c2-0a07-4c1f-9b76-f4a7bfcca4a4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4285",
+      "reference": "Sahih al-Bukhari, hadith 4285, book 64, باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "title": "باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا إِبْرَاهِيمُ بْنُ سَعْدٍ، أَخْبَرَنَا ابْنُ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم حِينَ أَرَادَ حُنَيْنًا ‏\"‏ مَنْزِلُنَا غَدًا إِنْ شَاءَ اللَّهُ بِخَيْفِ بَنِي كِنَانَةَ، حَيْثُ تَقَاسَمُوا عَلَى الْكُفْرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "eafacb812448cb94955b29ca2b843f75e51292c4cdf31c8643c33e5b0b46dc67",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Hurayra rapporte que, lorsqu’il se prépara à la bataille de Hunayn, le Messager de Dieu annonça que leur lieu de halte, le lendemain et si Dieu le voulait, serait à al-Khayf des Banû Kinâna, là où ils avaient pris un engagement collectif en faveur de l’incroyance.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe79ec98-44ab-416d-864d-af64a870151d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4286",
+      "reference": "Sahih al-Bukhari, hadith 4286, book 64, باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "title": "باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ قَزَعَةَ، حَدَّثَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم دَخَلَ مَكَّةَ يَوْمَ الْفَتْحِ وَعَلَى رَأْسِهِ الْمِغْفَرُ، فَلَمَّا نَزَعَهُ جَاءَ رَجُلٌ فَقَالَ ابْنُ خَطَلٍ مُتَعَلِّقٌ بِأَسْتَارِ الْكَعْبَةِ‏.‏ فَقَالَ ‏\"‏ اقْتُلْهُ ‏\"‏ قَالَ مَالِكٌ وَلَمْ يَكُنِ النَّبِيُّ صلى الله عليه وسلم فِيمَا نُرَى وَاللَّهُ أَعْلَمُ يَوْمَئِذٍ مُحْرِمًا‏.‏",
+      "source_hash_sha256": "ccaf0dbe3d20c9712ae1a21333d272445c4d22ab0f31a7ffa66b1eff1073f5ce",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte : « Le jour de la conquête, le Prophète entra à La Mecque en portant un casque. Lorsqu’il le retira, un homme vint lui dire qu’Ibn Khatal s’accrochait aux rideaux de la Kaʿba. Le Prophète ordonna de le tuer. » Mâlik ajoute qu’à son avis, et Dieu sait mieux, le Prophète n’était pas en état de sacralisation ce jour-là.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "22241a42-1fef-475e-95b3-4da243ec239e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4287",
+      "reference": "Sahih al-Bukhari, hadith 4287, book 64, باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "title": "باب أَيْنَ رَكَزَ النَّبِيُّ صلى الله عليه وسلم الرَّايَةَ يَوْمَ الْفَتْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا صَدَقَةُ بْنُ الْفَضْلِ، أَخْبَرَنَا ابْنُ عُيَيْنَةَ، عَنِ ابْنِ أَبِي نَجِيحٍ، عَنْ مُجَاهِدٍ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ دَخَلَ النَّبِيُّ صلى الله عليه وسلم مَكَّةَ يَوْمَ الْفَتْحِ وَحَوْلَ الْبَيْتِ سِتُّونَ وَثَلاَثُمِائَةِ نُصُبٍ، فَجَعَلَ يَطْعُنُهَا بِعُودٍ فِي يَدِهِ وَيَقُولُ ‏\"‏ جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ، جَاءَ الْحَقُّ، وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ ‏\"‏‏.‏",
+      "source_hash_sha256": "15353790935cfcdc5ed18450d29bc6ae1b71c6d304a2bcc255ab3a28ac9453fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "reason": "The report directly quotes Quran 17:81 in the wording جاء الحق وزهق الباطل. The complete hadith remains blank pending an approved, attributed French Quran translation.",
+      "source_id": "22241a42-1fef-475e-95b3-4da243ec239e",
+      "url": "https://sunnah.com/bukhari:4287"
+    }
+  ]
+}
