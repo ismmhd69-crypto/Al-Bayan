@@ -7457,3 +7457,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0070 saves 2 private French drafts, preserving the chain and variant details.
 - Both source hashes are retained and the focused validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 318 of 7,366. Hadith Needs Mo: 206. Total local hadith rows not drafted: 7,975, including held records. No database writes or publication occurred.
+
+### 2026-10-29: Muslim 162a
+
+- FR-LIB-HAD-MUSLIM-0071 exports the 4,845-character hadith as a single-item batch. It directly quotes Quran 19:57, so the entire French translation remains blank and is recorded under Needs Mo.
+- The source hash and focused validation are retained. Draft counts are unchanged: Bukhari 6,336, Muslim 318, total 6,654; 7,975 hadith rows remain undrafted. Hadith Needs Mo: 207. No database writes or publication occurred.

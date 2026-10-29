@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:17:00.887Z",
+  "lastReconciled": "2026-10-29T14:17:14.796Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6654,
     "hadithDatabaseMissing": 7975,
     "hadithLocalRemaining": 7975,
-    "hadithNeedsMo": 206,
+    "hadithNeedsMo": 207,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30545,6 +30545,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0071",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0071.json",
+      "sourceIds": [
+        "38482c35-fa4c-47b1-ac52-530f79272367"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; long hadith held blank because it directly quotes Quran 19:57",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -34639,6 +34655,12 @@
       "scope": "Sahih Muslim 161d: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement les versets 74:1–4 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-162A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 162 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit de 4 845 caractères cite directement le verset 19:57 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
@@ -35880,10 +35902,16 @@
       "scope": "Sahih Muslim 161d: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement les versets 74:1–4 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-162A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 162 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit de 4 845 caractères cite directement le verset 19:57 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 318,
   "hadithDatabaseMissing": 7975,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 206
+  "hadithNeedsMo": 207
 }
