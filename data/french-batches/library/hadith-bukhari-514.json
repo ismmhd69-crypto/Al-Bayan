@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-514",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:28:47.137Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3f31712d-e501-4463-b36e-5b7693438628",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2987",
+      "reference": "Sahih al-Bukhari, hadith 2987, book 56, باب الرِّدْفِ عَلَى الْحِمَارِ",
+      "title": "باب الرِّدْفِ عَلَى الْحِمَارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا أَبُو صَفْوَانَ، عَنْ يُونُسَ بْنِ يَزِيدَ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، عَنْ أُسَامَةَ بْنِ زَيْدٍ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَكِبَ عَلَى حِمَارٍ، عَلَى إِكَافٍ عَلَيْهِ قَطِيفَةٌ، وَأَرْدَفَ أُسَامَةَ وَرَاءَهُ‏.‏",
+      "source_hash_sha256": "f9105d6848478ab3a86f3a3e0bf0d8e099e2e88f7d2278ad1779efda5c192755",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Qutayba, Abû Safwân, Yûnus ibn Yazîd, Ibn Shihâb, ‘Urwa et Usâma ibn Zayd.\n\nLe Messager d’Allah monta un âne muni d’un bât recouvert d’un tissu de velours. Il prit Usâma ibn Zayd en croupe derrière lui.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "05607da2-75dc-4d50-8bf1-7a052053f4bf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2988",
+      "reference": "Sahih al-Bukhari, hadith 2988, book 56, باب الرِّدْفِ عَلَى الْحِمَارِ",
+      "title": "باب الرِّدْفِ عَلَى الْحِمَارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، قَالَ يُونُسُ أَخْبَرَنِي نَافِعٌ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَقْبَلَ يَوْمَ الْفَتْحِ مِنْ أَعْلَى مَكَّةَ عَلَى رَاحِلَتِهِ، مُرْدِفًا أُسَامَةَ بْنَ زَيْدٍ وَمَعَهُ بِلاَلٌ وَمَعَهُ عُثْمَانُ بْنُ طَلْحَةَ مِنَ الْحَجَبَةِ، حَتَّى أَنَاخَ فِي الْمَسْجِدِ، فَأَمَرَهُ أَنْ يَأْتِيَ بِمِفْتَاحِ الْبَيْتِ، فَفَتَحَ وَدَخَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَمَعَهُ أُسَامَةُ وَبِلاَلٌ وَعُثْمَانُ، فَمَكَثَ فِيهَا نَهَارًا طَوِيلاً ثُمَّ خَرَجَ، فَاسْتَبَقَ النَّاسُ، وَكَانَ عَبْدُ اللَّهِ بْنُ عُمَرَ أَوَّلَ مَنْ دَخَلَ، فَوَجَدَ بِلاَلاً وَرَاءَ الْبَابِ قَائِمًا، فَسَأَلَهُ أَيْنَ صَلَّى رَسُولُ اللَّهِ صلى الله عليه وسلم فَأَشَارَ لَهُ إِلَى الْمَكَانِ الَّذِي صَلَّى فِيهِ، قَالَ عَبْدُ اللَّهِ فَنَسِيتُ أَنْ أَسْأَلَهُ كَمْ صَلَّى مِنْ سَجْدَةٍ",
+      "source_hash_sha256": "1f29ec08f87b3598534668c588091ac57858ef8b08253de55f6d0733ef1e48b0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Bukayr, al-Layth, Yûnus, Nâfi‘ et ‘Abd Allâh ibn ‘Umar.\n\nLe jour de la Conquête, le Messager d’Allah arriva par les hauteurs de la Mecque sur sa monture, avec Usâma ibn Zayd derrière lui. Bilâl et ‘Uthmân ibn Talha, l’un des gardiens de la Ka‘ba, l’accompagnaient. Il mit pied à terre dans la mosquée et demanda qu’on lui apporte la clé de la Ka‘ba. Il entra avec Usâma, Bilâl et ‘Uthmân, et y demeura une bonne partie de la journée. Lorsqu’il sortit, les gens se précipitèrent. ‘Abd Allâh ibn ‘Umar fut le premier à entrer. Il trouva Bilâl debout derrière la porte et lui demanda où le Messager d’Allah avait prié. Bilâl lui indiqua l’endroit. ‘Abd Allâh dit : « J’oubliai de lui demander combien de prosternations il avait accomplies. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4184a7f8-df64-4388-b1e2-304b639f9643",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2989",
+      "reference": "Sahih al-Bukhari, hadith 2989, book 56, باب مَنْ أَخَذَ بِالرِّكَابِ وَنَحْوِهِ",
+      "title": "باب مَنْ أَخَذَ بِالرِّكَابِ وَنَحْوِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ، يَعْدِلُ بَيْنَ الاِثْنَيْنِ صَدَقَةٌ، وَيُعِينُ الرَّجُلَ عَلَى دَابَّتِهِ، فَيَحْمِلُ عَلَيْهَا، أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَكُلُّ خَطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَيُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "53d4696c1a52ba607a962cfdc78f209f26cef103429a2101b7bd50e59885c4cf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ishâq, ‘Abd al-Razzâq, Ma‘mar, Hammâm et Abû Hurayra.\n\nLe Messager d’Allah a dit : « Chaque jour où le soleil se lève, une aumône est due pour chacune des articulations de l’être humain. Réconcilier deux personnes est une aumône. Aider quelqu’un avec sa monture, en l’aidant à y monter ou en y chargeant ses affaires, est une aumône. Une bonne parole est une aumône. Chaque pas que l’on fait vers la prière est une aumône. Retirer un obstacle du chemin est une aumône. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "554102cc-9b87-4c8b-8964-897ee2a229e0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2990",
+      "reference": "Sahih al-Bukhari, hadith 2990, book 56, باب السَّفَرِ بِالْمَصَاحِفِ إِلَى أَرْضِ الْعَدُوِّ",
+      "title": "باب السَّفَرِ بِالْمَصَاحِفِ إِلَى أَرْضِ الْعَدُوِّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ نَافِعٍ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى أَنْ يُسَافَرَ بِالْقُرْآنِ إِلَى أَرْضِ الْعَدُوِّ‏.‏",
+      "source_hash_sha256": "f95afda3dfc52eecc4001e254da9c754c5c731a6b7876a3b554d1f8b05e34f76",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Maslama, Mâlik, Nâfi‘ et ‘Abd Allâh ibn ‘Umar.\n\nLe Messager d’Allah interdit d’emporter le Coran en voyage vers le territoire ennemi.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "357a9c61-bd81-40c7-8584-d362de7c6686",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2991",
+      "reference": "Sahih al-Bukhari, hadith 2991, book 56, باب التَّكْبِيرِ عِنْدَ الْحَرْبِ",
+      "title": "باب التَّكْبِيرِ عِنْدَ الْحَرْبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ أَيُّوبَ، عَنْ مُحَمَّدٍ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ صَبَّحَ النَّبِيُّ صلى الله عليه وسلم خَيْبَرَ وَقَدْ خَرَجُوا بِالْمَسَاحِي عَلَى أَعْنَاقِهِمْ، فَلَمَّا رَأَوْهُ قَالُوا هَذَا مُحَمَّدٌ وَالْخَمِيسُ، مُحَمَّدٌ وَالْخَمِيسُ‏.‏ فَلَجَئُوا إِلَى الْحِصْنِ، فَرَفَعَ النَّبِيُّ صلى الله عليه وسلم يَدَيْهِ وَقَالَ ‏\"‏ اللَّهُ أَكْبَرُ، خَرِبَتْ خَيْبَرُ، إِنَّا إِذَا نَزَلْنَا بِسَاحَةِ قَوْمٍ فَسَاءَ صَبَاحُ الْمُنْذَرِينَ ‏\"‏‏.‏ وَأَصَبْنَا حُمُرًا فَطَبَخْنَاهَا، فَنَادَى مُنَادِي النَّبِيِّ صلى الله عليه وسلم إِنَّ اللَّهَ وَرَسُولَهُ يَنْهَيَانِكُمْ عَنْ لُحُومِ الْحُمُرِ، فَأُكْفِئَتِ الْقُدُورُ بِمَا فِيهَا‏.‏ تَابَعَهُ عَلِيٌّ عَنْ سُفْيَانَ رَفَعَ النَّبِيُّ صلى الله عليه وسلم يَدَيْهِ‏.‏",
+      "source_hash_sha256": "1990247f98180c6a6e2bdf96ce05bc9e35b286fad8d6468a7153f7a31cf29217",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d03c4e56-c666-4255-a548-59fd184976eb",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2992",
+      "reference": "Sahih al-Bukhari, hadith 2992, book 56, باب مَا يُكْرَهُ مِنْ رَفْعِ الصَّوْتِ فِي التَّكْبِيرِ",
+      "title": "باب مَا يُكْرَهُ مِنْ رَفْعِ الصَّوْتِ فِي التَّكْبِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ عَاصِمٍ، عَنْ أَبِي عُثْمَانَ، عَنْ أَبِي مُوسَى الأَشْعَرِيِّ ـ رضى الله عنه ـ قَالَ كُنَّا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم، فَكُنَّا إِذَا أَشْرَفْنَا عَلَى وَادٍ هَلَّلْنَا وَكَبَّرْنَا ارْتَفَعَتْ أَصْوَاتُنَا، فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ يَا أَيُّهَا النَّاسُ، ارْبَعُوا عَلَى أَنْفُسِكُمْ، فَإِنَّكُمْ لاَ تَدْعُونَ أَصَمَّ وَلاَ غَائِبًا، إِنَّهُ مَعَكُمْ، إِنَّهُ سَمِيعٌ قَرِيبٌ، تَبَارَكَ اسْمُهُ وَتَعَالَى جَدُّهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "1e60f4b3464cf6eb65e6e32b9dba7eb2675a19844298c9b57ff9d2be62dea5aa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn Yûsuf, Sufyân, ‘Âsim, Abû ‘Uthmân et Abû Mûsâ al-Ash‘arî.\n\nAbû Mûsâ dit : « Lorsque nous étions avec le Messager d’Allah et arrivions en haut d’une vallée, nous proclamions l’unicité et la grandeur d’Allah à voix haute. Le Prophète nous dit : “Ô gens, ménagez-vous. Vous n’invoquez ni un sourd ni quelqu’un d’absent. Il est avec vous ; Il entend tout et Il est proche. Béni soit Son nom et exaltée soit Sa grandeur.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "357a9c61-bd81-40c7-8584-d362de7c6686",
+      "reason": "This report quotes Quran 37:177 in the Prophet’s statement. Keep the full hadith blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

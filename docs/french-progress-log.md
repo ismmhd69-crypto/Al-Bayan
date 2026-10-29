@@ -2481,3 +2481,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-513` saves six private French drafts about travel food, shared provisions, a sea creature cast ashore, and ‘Â’isha’s additional ‘umra.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,688 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 11,967, including held records.
+
+### 2026-10-29: Bukhari 2987–2992 source review
+
+- `FR-LIB-HAD-BUKHARI-514` saves five private French drafts about travel, the Conquest of Mecca, everyday charity, carrying the Quran and prayer during a journey. Bukhari 2991 quotes Quran 37:177, so its full translation remains blank pending an approved, attributed French Quran translation.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran quotation hold. No database writes or publication occurred. Bukhari local drafts: 2,693 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,962, including held records.
