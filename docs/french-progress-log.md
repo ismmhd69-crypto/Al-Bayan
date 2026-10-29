@@ -3606,3 +3606,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-738` saves one private French draft of the report about ʿÂsim ibn Thâbit, Khubayb and Zayd. The poem is translated conservatively in the account.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,617 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 289. Total local hadith rows not drafted: 11,040 including held records.
+
+### 2026-10-29: Bukhari 4087–4092
+
+- `FR-LIB-HAD-BUKHARI-739` saves four private French drafts. Hadiths 4090 and 4091 remain blank because they include wording described as Quran recitation, later abrogated; both holds are recorded for Mo.
+- All six records passed the focused validator, including both private holds. No database writes or publication occurred. Bukhari local drafts: 3,621 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 291. Total local hadith rows not drafted: 11,036, including held records.

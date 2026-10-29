@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 289,
+    "hadithNeedsMo": 291,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -15952,6 +15952,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-739",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-739.json",
+      "sourceIds": ["6d08da1b-b18e-4325-a1d8-705b36ca8b03", "286d47b7-87ef-4a97-95b2-5d08898cfc3c", "78adbe28-d312-4b1e-bbc3-2ff1d1ed1c3f", "e0beec03-fa11-4c44-bd25-0cc5c66e3c40", "c1785103-540a-4ffc-8eb5-9bcb92b3f85c", "b49e83f4-e477-4455-974e-d254730abe3d"],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16267,8 +16282,21 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:172. It remains blank in FR-LIB-HAD-BUKHARI-736 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4090-ABROGATED-QURAN-RECITATION",
+      "scope": "Sahih al-Bukhari 4090: wording of a passage described as Quran recitation, later abrogated",
+      "status": "blocked",
+      "reason": "The report includes wording of a passage described as Quran recitation, though its recitation was later abrogated. It remains blank in FR-LIB-HAD-BUKHARI-739 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4091-ABROGATED-QURAN-RECITATION",
+      "scope": "Sahih al-Bukhari 4091: wording of a passage described as Quran recitation, later abrogated",
+      "status": "blocked",
+      "reason": "The report includes wording of a passage described as Quran recitation, though its recitation was later abrogated. It remains blank in FR-LIB-HAD-BUKHARI-739 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3617,
-  "hadithLocalDrafted": 3617,
-  "hadithLocalRemaining": 11040
+  "hadithBukhariDrafted": 3621,
+  "hadithLocalDrafted": 3621,
+  "hadithLocalRemaining": 11036
 }
