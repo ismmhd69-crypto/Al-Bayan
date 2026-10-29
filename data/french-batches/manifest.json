@@ -16485,6 +16485,23 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-769",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-769.json",
+  "sourceIds": [
+    "9ab4b467-036c-48e1-8c04-478b8ae5e6ed"
+  ],
+  "translated": 1,
+  "inserted": 0,
+  "preserved": 0,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft"
+}
   ],
   "blockers": [
     {
@@ -16945,7 +16962,7 @@
   "id": "HADITH-BUKHARI-4239-UNCLEAR-POETRY"
 }
   ],
-  "hadithBukhariDrafted": 3750,
-  "hadithLocalDrafted": 3750,
-  "hadithLocalRemaining": 10907
+  "hadithBukhariDrafted": 3751,
+  "hadithLocalDrafted": 3751,
+  "hadithLocalRemaining": 10906
 }

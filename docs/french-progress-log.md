@@ -3756,3 +3756,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-768` saves six private French drafts about the opening of Khaybar, dates, cultivation and a poisoned sheep.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,750 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,907, including held records.
+
+### 2026-10-29: Bukhari 4250
+
+- `FR-LIB-HAD-BUKHARI-769` saves one private French draft about the Prophet’s appointment of Usâma and the criticism of his command.
+- The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,751 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,906, including held records.
