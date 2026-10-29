@@ -2531,3 +2531,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-523` saves the complete 2,426-character Bukhari 3039 report about Uhud, the archers’ post, and the calls exchanged after the battle. The exporter found one eligible record, and it passed the single-item long-source validator.
 - No database writes or publication occurred. Bukhari local drafts: 2,737 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,918, including held records.
+
+### 2026-10-29: Bukhari 3040–3044 source review
+
+- `FR-LIB-HAD-BUKHARI-524` saves five private French drafts about the horse at Medina, the stolen milk camels, Hunayn, the judgment on Banû Qurayza and Ibn Khatal. The full report about recovering the camels was translated in full.
+- All five records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,742 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,915, including held records.
