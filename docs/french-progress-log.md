@@ -9671,3 +9671,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0508 saves six private French drafts about seeking Laylat al-Qadr in the last ten nights, especially the last seven and odd-numbered nights. All six sources provide complete report text.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1165g–1167d
+
+- FR-LIB-HAD-MUSLIM-0509 saves five private French drafts about seeking Laylat al-Qadr and the Prophet’s Ramadan retreat. Muslim 1167b summarizes an earlier report and supplies only a few variants; it remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
