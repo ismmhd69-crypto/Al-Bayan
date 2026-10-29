@@ -20670,6 +20670,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-965",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-965.json",
+      "sourceIds": [
+        "d1f2b16a-d37d-4dec-8878-f20d23566f98",
+        "0f71056e-9b2f-4f9b-add4-27bb6059e5ee",
+        "6f9ab00d-5b54-42c4-b241-47d0b2285fa8",
+        "4bba0bbe-b381-4f92-8e85-7ed5e8316811",
+        "160b9a51-0385-4049-92e9-91f2785f932e",
+        "f2f0c895-a091-43f4-991e-a73d5c55017a"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -23624,9 +23645,15 @@
       "scope": "Sahih al-Bukhari 5277: excerpt only says the hadith was mentioned",
       "status": "blocked",
       "reason": "The source excerpt omits the actual report. Keep the translation blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-5288-QURAN-60-10",
+      "scope": "Sahih al-Bukhari 5288: direct Quran quotation from 60:10",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 60:10. Keep the complete translation blank pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 4328,
-  "hadithLocalDrafted": 4328,
-  "hadithLocalRemaining": 10339
+  "hadithBukhariDrafted": 4333,
+  "hadithLocalDrafted": 4333,
+  "hadithLocalRemaining": 10334
 }

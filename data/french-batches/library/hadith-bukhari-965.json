@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-965",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:06:50.639Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d1f2b16a-d37d-4dec-8878-f20d23566f98",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5284",
+      "reference": "Sahih al-Bukhari, hadith 5284, book 68, كتاب الطلاق",
+      "title": "كتاب الطلاق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ رَجَاءٍ، أَخْبَرَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنْ إِبْرَاهِيمَ، عَنِ الأَسْوَدِ، أَنَّ عَائِشَةَ، أَرَادَتْ أَنْ تَشْتَرِيَ، بَرِيرَةَ، فَأَبَى مَوَالِيهَا إِلاَّ أَنْ يَشْتَرِطُوا الْوَلاَءَ، فَذَكَرَتْ لِلنَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ اشْتَرِيهَا وَأَعْتِقِيهَا، فَإِنَّمَا الْوَلاَءُ لِمَنْ أَعْتَقَ ‏\"‏‏.‏ وَأُتِيَ النَّبِيُّ صلى الله عليه وسلم بِلَحْمٍ فَقِيلَ إِنَّ هَذَا مَا تُصُدِّقَ عَلَى بَرِيرَةَ، فَقَالَ ‏\"‏ هُوَ لَهَا صَدَقَةٌ، وَلَنَا هَدِيَّةٌ ‏\"‏‏. حَدَّثَنَا آدَمُ حَدَّثَنَا شُعْبَةُ وَزَادَ فَخُيِّرَتْ مِنْ زَوْجِهَا‏.‏",
+      "source_hash_sha256": "e41eef61e865d9c312aa1bc51d2ecfd98145494136ade87707efde3fcd378a40",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Aswad rapporte que ʿÂ’isha voulut acheter Barîra. Ses anciens maîtres refusèrent, sauf si le droit d’alliance leur était réservé. Elle en parla au Prophète, qui lui dit : « Achète-la et affranchis-la : le droit d’alliance revient à celui qui affranchit. » On apporta ensuite de la viande au Prophète. On lui dit : « C’est ce qui a été donné en aumône à Barîra. » Il répondit : « Pour elle, c’est une aumône, mais pour nous, c’est un cadeau. » D’après une autre transmission de Shuʿba, Barîra reçut le choix concernant son mari.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0f71056e-9b2f-4f9b-add4-27bb6059e5ee",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5285",
+      "reference": "Sahih al-Bukhari, hadith 5285, book 68, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَلاَ تَنْكِحُوا الْمُشْرِكَاتِ حَتَّى يُؤْمِنَّ وَلأَمَةٌ مُؤْمِنَةٌ خَيْرٌ مِنْ مُشْرِكَةٍ وَلَوْ أَعْجَبَتْكُمْ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَلاَ تَنْكِحُوا الْمُشْرِكَاتِ حَتَّى يُؤْمِنَّ وَلأَمَةٌ مُؤْمِنَةٌ خَيْرٌ مِنْ مُشْرِكَةٍ وَلَوْ أَعْجَبَتْكُمْ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا لَيْثٌ، عَنْ نَافِعٍ، أَنَّ ابْنَ عُمَرَ، كَانَ إِذَا سُئِلَ عَنْ نِكَاحِ النَّصْرَانِيَّةِ، وَالْيَهُودِيَّةِ، قَالَ إِنَّ اللَّهَ حَرَّمَ الْمُشْرِكَاتِ عَلَى الْمُؤْمِنِينَ، وَلاَ أَعْلَمُ مِنَ الإِشْرَاكِ شَيْئًا أَكْبَرَ مِنْ أَنْ تَقُولَ الْمَرْأَةُ رَبُّهَا عِيسَى، وَهْوَ عَبْدٌ مِنْ عِبَادِ اللَّهِ‏.‏",
+      "source_hash_sha256": "506f3eba341213789eea63e82fb31aa4934d1fa08dae514a3e891b52116478a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Lorsque Ibn ʿUmar était interrogé au sujet du mariage avec une chrétienne ou une juive, il disait : « Allah a interdit aux croyants les femmes associatrices. Je ne connais pas d’associationnisme plus grave que celui d’une femme qui dit que son seigneur est Jésus, alors qu’il est un serviteur parmi les serviteurs d’Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6f9ab00d-5b54-42c4-b241-47d0b2285fa8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5286",
+      "reference": "Sahih al-Bukhari, hadith 5286, book 68, باب نِكَاحِ مَنْ أَسْلَمَ مِنَ الْمُشْرِكَاتِ وَعِدَّتِهِنَّ",
+      "title": "باب نِكَاحِ مَنْ أَسْلَمَ مِنَ الْمُشْرِكَاتِ وَعِدَّتِهِنَّ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامٌ، عَنِ ابْنِ جُرَيْجٍ، وَقَالَ، عَطَاءٌ عَنِ ابْنِ عَبَّاسٍ، كَانَ الْمُشْرِكُونَ عَلَى مَنْزِلَتَيْنِ مِنَ النَّبِيِّ صلى الله عليه وسلم وَالْمُؤْمِنِينَ، كَانُوا مُشْرِكِي أَهْلِ حَرْبٍ يُقَاتِلُهُمْ وَيُقَاتِلُونَهُ، وَمُشْرِكِي أَهْلِ عَهْدٍ لاَ يُقَاتِلُهُمْ وَلاَ يُقَاتِلُونَهُ، وَكَانَ إِذَا هَاجَرَتِ امْرَأَةٌ مِنْ أَهْلِ الْحَرْبِ لَمْ تُخْطَبْ حَتَّى تَحِيضَ وَتَطْهُرَ، فَإِذَا طَهُرَتْ حَلَّ لَهَا النِّكَاحُ، فَإِنْ هَاجَرَ زَوْجُهَا قَبْلَ أَنْ تَنْكِحَ رُدَّتْ إِلَيْهِ، وَإِنْ هَاجَرَ عَبْدٌ مِنْهُمْ أَوْ أَمَةٌ فَهُمَا حُرَّانِ وَلَهُمَا مَا لِلْمُهَاجِرِينَ‏.‏ ثُمَّ ذَكَرَ مِنْ أَهْلِ الْعَهْدِ مِثْلَ حَدِيثِ مُجَاهِدٍ وَإِنْ هَاجَرَ عَبْدٌ أَوْ أَمَةٌ لِلْمُشْرِكِينَ أَهْلِ الْعَهْدِ لَمْ يُرَدُّوا، وَرُدَّتْ أَثْمَانُهُمْ‏.‏",
+      "source_hash_sha256": "59e50ad7e1489bea848d2b905ea9393b263dc1a79663e4c867df0169d6587c67",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbâs rapporte que les associateurs se répartissaient en deux catégories vis-à-vis du Prophète et des croyants : ceux qui étaient en guerre, contre lesquels le Prophète combattait et qui le combattaient, et ceux qui étaient liés par un pacte, que le Prophète ne combattait pas et qui ne le combattaient pas. Lorsqu’une femme de la catégorie en guerre émigrait, on ne la demandait pas en mariage avant qu’elle ait eu ses règles puis soit redevenue pure. Une fois pure, elle pouvait se marier. Si son mari émigrait avant qu’elle se marie, elle lui était rendue. Si un esclave ou une esclave de ces gens émigrait, tous deux devenaient libres et obtenaient ce que recevaient les émigrants. Le récit mentionne ensuite, au sujet des gens liés par un pacte, un récit semblable à celui de Mujâhid : si un esclave ou une esclave des associateurs liés par un pacte émigrait, on ne les renvoyait pas, mais on rendait leur prix à leurs anciens maîtres.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4bba0bbe-b381-4f92-8e85-7ed5e8316811",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5287",
+      "reference": "Sahih al-Bukhari, hadith 5287, book 68, باب نِكَاحِ مَنْ أَسْلَمَ مِنَ الْمُشْرِكَاتِ وَعِدَّتِهِنَّ",
+      "title": "باب نِكَاحِ مَنْ أَسْلَمَ مِنَ الْمُشْرِكَاتِ وَعِدَّتِهِنَّ",
+      "source_published": true,
+      "text_original": "وَقَالَ عَطَاءٌ عَنِ ابْنِ عَبَّاسٍ، كَانَتْ قَرِيبَةُ بِنْتُ أَبِي أُمَيَّةَ عِنْدَ عُمَرَ بْنِ الْخَطَّابِ فَطَلَّقَهَا، فَتَزَوَّجَهَا مُعَاوِيَةُ بْنُ أَبِي سُفْيَانَ، وَكَانَتْ أُمُّ الْحَكَمِ ابْنَةُ أَبِي سُفْيَانَ تَحْتَ عِيَاضِ بْنِ غَنْمٍ الْفِهْرِيِّ فَطَلَّقَهَا، فَتَزَوَّجَهَا عَبْدُ اللَّهِ بْنُ عُثْمَانَ الثَّقَفِيُّ‏.‏",
+      "source_hash_sha256": "830125d66150d81b67ab9e647e0c027937eba5d6612ca9e369b08dadf608d182",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAtâ’ rapporte, d’après Ibn ʿAbbâs, que Qarîba bint Abî Umayya était mariée à ʿUmar ibn al-Khattâb. Il divorça d’elle, puis Muʿâwiya ibn Abî Sufyân l’épousa. Umm al-Hakam, fille d’Abû Sufyân, était mariée à ʿIyâd ibn Ghanm al-Fihrî. Il divorça d’elle, puis ʿAbd Allâh ibn ʿUthmân ath-Thaqafî l’épousa.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "160b9a51-0385-4049-92e9-91f2785f932e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5288",
+      "reference": "Sahih al-Bukhari, hadith 5288, book 68, باب إِذَا أَسْلَمَتِ الْمُشْرِكَةُ أَوِ النَّصْرَانِيَّةُ تَحْتَ الذِّمِّيِّ أَوِ الْحَرْبِيِّ‏.‏",
+      "title": "باب إِذَا أَسْلَمَتِ الْمُشْرِكَةُ أَوِ النَّصْرَانِيَّةُ تَحْتَ الذِّمِّيِّ أَوِ الْحَرْبِيِّ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ،‏.‏ وَقَالَ إِبْرَاهِيمُ بْنُ الْمُنْذِرِ حَدَّثَنِي ابْنُ وَهْبٍ، حَدَّثَنِي يُونُسُ، قَالَ ابْنُ شِهَابٍ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ زَوْجَ النَّبِيِّ صلى الله عليه وسلم قَالَتْ كَانَتِ الْمُؤْمِنَاتُ إِذَا هَاجَرْنَ إِلَى النَّبِيِّ صلى الله عليه وسلم يَمْتَحِنُهُنَّ بِقَوْلِ اللَّهِ تَعَالَى ‏[quran sura=\"60\" aya_start=\"10\" aya_end=\"10\"]{‏يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا جَاءَكُمُ الْمُؤْمِنَاتُ مُهَاجِرَاتٍ فَامْتَحِنُوهُنَّ‏}‏ إِلَى آخِرِ الآيَةِ قَالَتْ عَائِشَةُ فَمَنْ أَقَرَّ بِهَذَا الشَّرْطِ مِنَ الْمُؤْمِنَاتِ فَقَدْ أَقَرَّ بِالْمِحْنَةِ، فَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا أَقْرَرْنَ بِذَلِكَ مِنْ قَوْلِهِنَّ قَالَ لَهُنَّ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ انْطَلِقْنَ فَقَدْ بَايَعْتُكُنَّ ‏\"‏، لاَ وَاللَّهِ مَا مَسَّتْ يَدُ رَسُولِ اللَّهِ صلى الله عليه وسلم يَدَ امْرَأَةٍ قَطُّ، غَيْرَ أَنَّهُ بَايَعَهُنَّ بِالْكَلاَمِ، وَاللَّهِ مَا أَخَذَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى النِّسَاءِ إِلاَّ بِمَا أَمَرَهُ اللَّهُ يَقُولُ لَهُنَّ إِذَا أَخَذَ عَلَيْهِنَّ ‏\"‏ قَدْ بَايَعْتُكُنَّ ‏\"‏‏.‏ كَلاَمًا‏.‏",
+      "source_hash_sha256": "208bff6dece9b3b53520dc7dd710eaff48d9f915bcc5789e8b18145cfc69cf98",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f2f0c895-a091-43f4-991e-a73d5c55017a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5289",
+      "reference": "Sahih al-Bukhari, hadith 5289, book 68, بَابُ قَوْلِ اللَّهِ تَعَالَى: {لِلَّذِينَ يُؤْلُونَ مِنْ نِسَائِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ} إِلَى قَوْلِهِ: {سَمِيعٌ عَلِيمٌ} {فَإِنْ فَاءُوا} رَجَعُوا",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {لِلَّذِينَ يُؤْلُونَ مِنْ نِسَائِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ} إِلَى قَوْلِهِ: {سَمِيعٌ عَلِيمٌ} {فَإِنْ فَاءُوا} رَجَعُوا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، عَنْ أَخِيهِ، عَنْ سُلَيْمَانَ، عَنْ حُمَيْدٍ الطَّوِيلِ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ، يَقُولُ آلَى رَسُولُ اللَّهِ صلى الله عليه وسلم مِنْ نِسَائِهِ، وَكَانَتِ انْفَكَّتْ رِجْلُهُ فَأَقَامَ فِي مَشْرُبَةٍ لَهُ تِسْعًا وَعِشْرِينَ، ثُمَّ نَزَلَ فَقَالُوا يَا رَسُولَ اللَّهِ آلَيْتَ شَهْرًا‏.‏ فَقَالَ ‏\"‏ الشَّهْرُ تِسْعٌ وَعِشْرُونَ ‏\"‏‏.‏",
+      "source_hash_sha256": "778fcf220ae775c547f10e7d32c9f2b6f7812e9cb38db1b9dec7ecfae4a4832b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte que le Messager d’Allah avait fait le serment de s’abstenir de ses épouses. Comme sa jambe était blessée, il séjourna vingt-neuf nuits dans une chambre en hauteur qui lui appartenait. Puis il en descendit. On lui dit : « Messager d’Allah, tu avais pourtant juré de t’abstenir pendant un mois. » Il répondit : « Le mois compte vingt-neuf jours. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "160b9a51-0385-4049-92e9-91f2785f932e",
+      "reason": "This report directly quotes Quran 60:10. Keep the French translation blank pending an approved, attributed French Quran translation."
+    }
+  ]
+}
