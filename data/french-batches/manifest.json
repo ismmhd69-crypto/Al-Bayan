@@ -36384,6 +36384,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0356",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0356.json",
+      "sourceIds": [
+        "39f8e679-eab5-4d13-88fe-7c547de1ee50"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; long source processed alone",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40691,8 +40707,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7747,
-  "hadithLocalRemaining": 6882,
+  "hadithLocalDrafted": 7748,
+  "hadithLocalRemaining": 6881,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43287,7 +43303,7 @@
       "reason": "La source indique que le Messager d’Allah ﷺ a prié avec eux la prière de l’après-midi, puis renvoie simplement au récit précédent sans reprendre son contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1411,
+  "hadithMuslimDrafted": 1412,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 668
