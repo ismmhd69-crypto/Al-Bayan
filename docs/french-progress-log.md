@@ -996,3 +996,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-204` saves six private French drafts for the combined Bukhari 1172–1173 record and Bukhari 1174–1178. They preserve the repeated narration variants, the reported prayer counts and times, and the individual attributions.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,088 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,541, including held records.
+### 2026-10-29: Bukhari 1179–1184 source review
+
+- `FR-LIB-HAD-BUKHARI-205` saves five private French drafts for Bukhari 1179–1184. The exporter returned five eligible records while continuing to defer one long source for its individual batch. These drafts preserve the reports about the morning prayer, the pre-noon and pre-dawn prayers, and prayer before sunset.
+- The five-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,093 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,536, including held records.
