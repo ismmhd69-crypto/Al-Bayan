@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6972,
     "hadithDatabaseMissing": 7665,
     "hadithLocalRemaining": 7657,
-    "hadithNeedsMo": 300,
+    "hadithNeedsMo": 301,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43100,6 +43100,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "blocked"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0685",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0685.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "isolated 2,118-character source contains an explicit Quran quotation; held entirely blank under Needs Mo; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -51924,6 +51937,11 @@
     {
       "source_id": "ffcf1a46-14bf-4091-aba1-4b0a590c670e",
       "reason": "Cette entrée renvoie au récit précédent (« rapporte le récit dans une version semblable ») et ne reproduit que quelques ajouts, sans donner le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "e50cc6af-cf20-4f6a-adf1-781a1d2a5556",
+      "reason": "Cette source isolée de 2 118 caractères contient une citation explicite du Coran, sourate 24, verset 6. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
     }
   ],
