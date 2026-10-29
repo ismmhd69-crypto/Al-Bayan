@@ -1,0 +1,167 @@
+{
+  "batch_id": "HADITH-BUKHARI-1105",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:03:31.139Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d491d2b1-4ef7-4fb8-b83b-69f4472704e2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6076",
+      "reference": "Sahih al-Bukhari, hadith 6076, book 78, باب الْهِجْرَةِ",
+      "title": "باب الْهِجْرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَبَاغَضُوا، وَلاَ تَحَاسَدُوا، وَلاَ تَدَابَرُوا، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا، وَلاَ يَحِلُّ لِمُسْلِمٍ أَنْ يَهْجُرَ أَخَاهُ فَوْقَ ثَلاَثِ لَيَالٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "c57c48587c468e4b652f5b280e327e9c74e24fabb46fcac54b0f309ec11b99d4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Yûsuf nous a rapporté : Mâlik nous a informés, d’après Ibn Shihâb, d’après Anas ibn Mâlik, que le Messager d’Allah ﷺ a dit : « Ne vous haïssez pas, ne vous enviez pas, ne vous détournez pas les uns des autres. Soyez des serviteurs d’Allah et des frères. Il n’est pas permis à un musulman de délaisser son frère plus de trois nuits. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "242e77b3-0522-448e-a715-b3c25d365bea",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6077",
+      "reference": "Sahih al-Bukhari, hadith 6077, book 78, باب الْهِجْرَةِ",
+      "title": "باب الْهِجْرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ عَطَاءِ بْنِ يَزِيدَ اللَّيْثِيِّ، عَنْ أَبِي أَيُّوبَ الأَنْصَارِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَحِلُّ لِرَجُلٍ أَنْ يَهْجُرَ أَخَاهُ فَوْقَ ثَلاَثِ لَيَالٍ، يَلْتَقِيَانِ فَيُعْرِضُ هَذَا وَيُعْرِضُ هَذَا، وَخَيْرُهُمَا الَّذِي يَبْدَأُ بِالسَّلاَمِ ‏\"‏‏.‏",
+      "source_hash_sha256": "99c17eaaa56dbdc6e878dd6e5310cce8c8be4608dbde1c5c65ab6d7e896365a3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Yûsuf nous a rapporté : Mâlik nous a informés, d’après Ibn Shihâb, d’après ‘Atâ’ ibn Yazîd al-Laythî, d’après Abû Ayyûb al-Ansârî, que le Messager d’Allah ﷺ a dit : « Il n’est pas permis à un homme de délaisser son frère plus de trois nuits : lorsqu’ils se rencontrent, chacun se détourne de l’autre. Le meilleur des deux est celui qui salue le premier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ecb76b0e-1ed1-470f-b31d-43e3e66d17bd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6078",
+      "reference": "Sahih al-Bukhari, hadith 6078, book 78, باب مَا يَجُوزُ مِنَ الْهِجْرَانِ لِمَنْ عَصَى",
+      "title": "باب مَا يَجُوزُ مِنَ الْهِجْرَانِ لِمَنْ عَصَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدٌ، أَخْبَرَنَا عَبْدَةُ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنِّي لأَعْرِفُ غَضَبَكِ وَرِضَاكِ ‏\"‏‏.‏ قَالَتْ قُلْتُ وَكَيْفَ تَعْرِفُ ذَاكَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ إِنَّكِ إِذَا كُنْتِ رَاضِيَةً قُلْتِ بَلَى وَرَبِّ مُحَمَّدٍ‏.‏ وَإِذَا كُنْتِ سَاخِطَةً قُلْتِ لاَ وَرَبِّ إِبْرَاهِيمَ ‏\"‏‏.‏ قَالَتْ قُلْتُ أَجَلْ لَسْتُ أُهَاجِرُ إِلاَّ اسْمَكَ‏.‏",
+      "source_hash_sha256": "21e4e0b374c6a4a50f339b7a2eb2789f8c892ffe4597d4e7b99f707f644401ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_unclear_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La clôture « لست أهاجر إلا اسمك » contient un jeu de mots dont le sens ne peut pas être établi avec certitude à partir de cet extrait."
+    },
+    {
+      "source_id": "ad9584f5-f022-42ea-b4d9-c91288437d6a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6079",
+      "reference": "Sahih al-Bukhari, hadith 6079, book 78, باب هَلْ يَزُورُ صَاحِبَهُ كُلَّ يَوْمٍ أَوْ بُكْرَةً وَعَشِيًّا",
+      "title": "باب هَلْ يَزُورُ صَاحِبَهُ كُلَّ يَوْمٍ أَوْ بُكْرَةً وَعَشِيًّا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ، أَخْبَرَنَا هِشَامٌ، عَنْ مَعْمَرٍ،‏.‏ وَقَالَ اللَّيْثُ حَدَّثَنِي عُقَيْلٌ، قَالَ ابْنُ شِهَابٍ فَأَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ عَائِشَةَ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم قَالَتْ لَمْ أَعْقِلْ أَبَوَىَّ إِلاَّ وَهُمَا يَدِينَانِ الدِّينَ، وَلَمْ يَمُرَّ عَلَيْهِمَا يَوْمٌ إِلاَّ يَأْتِينَا فِيهِ رَسُولُ اللَّهِ صلى الله عليه وسلم طَرَفَىِ النَّهَارِ بُكْرَةً وَعَشِيَّةً، فَبَيْنَمَا نَحْنُ جُلُوسٌ فِي بَيْتِ أَبِي بَكْرٍ فِي نَحْرِ الظَّهِيرَةِ قَالَ قَائِلٌ هَذَا رَسُولُ اللَّهِ صلى الله عليه وسلم فِي سَاعَةٍ لَمْ يَكُنْ يَأْتِينَا فِيهَا‏.‏ قَالَ أَبُو بَكْرٍ مَا جَاءَ بِهِ فِي هَذِهِ السَّاعَةِ إِلاَّ أَمْرٌ‏.‏ قَالَ ‏\"‏ إِنِّي قَدْ أُذِنَ لِي بِالْخُرُوجِ ‏\"‏‏.‏",
+      "source_hash_sha256": "368805a36dc0b6c47256b33883a1ba02e726438d5e6e9f34402bbb95abdd9215",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibrâhîm nous a rapporté : Hishâm nous a informés, d’après Ma‘mar. Al-Layth a dit : ‘Uqayl m’a rapporté : Ibn Shihâb a dit : ‘Urwa ibn az-Zubayr m’a informé qu’‘Â’isha, épouse du Prophète ﷺ, avait dit : « Je ne me souviens pas de mes parents autrement que pratiquant la religion, et aucun jour ne passait sans que le Messager d’Allah ﷺ ne vienne nous voir aux deux extrémités de la journée, le matin et le soir. Un jour, alors que nous étions assis dans la maison d’Abû Bakr au milieu de la journée, quelqu’un dit : “Voici le Messager d’Allah ﷺ, à une heure où il ne venait pas nous voir.” Abû Bakr dit : “Il ne vient à cette heure que pour une affaire.” Le Prophète ﷺ dit : “J’ai reçu la permission de partir.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b69d3d2f-cfd2-43f8-b912-288bcc16a515",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6080",
+      "reference": "Sahih al-Bukhari, hadith 6080, book 78, باب الزِّيَارَةِ وَمَنْ زَارَ قَوْمًا فَطَعِمَ عِنْدَهُمْ",
+      "title": "باب الزِّيَارَةِ وَمَنْ زَارَ قَوْمًا فَطَعِمَ عِنْدَهُمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ سَلاَمٍ، أَخْبَرَنَا عَبْدُ الْوَهَّابِ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ أَنَسِ بْنِ سِيرِينَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم زَارَ أَهْلَ بَيْتٍ فِي الأَنْصَارِ فَطَعِمَ عِنْدَهُمْ طَعَامًا، فَلَمَّا أَرَادَ أَنْ يَخْرُجَ أَمَرَ بِمَكَانٍ مِنَ الْبَيْتِ، فَنُضِحَ لَهُ عَلَى بِسَاطٍ، فَصَلَّى عَلَيْهِ، وَدَعَا لَهُمْ‏.‏",
+      "source_hash_sha256": "918a370208519605dd698e8d925e7998f5eb9774c236044f95ba8159081bbb01",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Salâm nous a rapporté : ‘Abd al-Wahhâb nous a informés, d’après Khâlid al-Hadhdhâ’, d’après Anas ibn Sîrîn, d’après Anas ibn Mâlik (qu’Allah l’agrée), qui a dit : « Le Messager d’Allah ﷺ rendit visite à une famille parmi les Ansâr et mangea chez eux. Lorsqu’il voulut partir, il demanda qu’un endroit de la maison soit aspergé d’eau sur un tapis. Il y pria et invoqua Allah en faveur de cette famille. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "78af0417-cad4-43d7-b740-dd7a3ba91d23",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6081",
+      "reference": "Sahih al-Bukhari, hadith 6081, book 78, باب مَنْ تَجَمَّلَ لِلْوُفُودِ",
+      "title": "باب مَنْ تَجَمَّلَ لِلْوُفُودِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا عَبْدُ الصَّمَدِ، قَالَ حَدَّثَنِي أَبِي قَالَ، حَدَّثَنِي يَحْيَى بْنُ أَبِي إِسْحَاقَ، قَالَ قَالَ لِي سَالِمُ بْنُ عَبْدِ اللَّهِ مَا الإِسْتَبْرَقُ قُلْتُ مَا غَلُظَ مِنَ الدِّيبَاجِ وَخَشُنَ مِنْهُ‏.‏ قَالَ سَمِعْتُ عَبْدَ اللَّهِ يَقُولُ رَأَى عُمَرُ عَلَى رَجُلٍ حُلَّةً مِنْ إِسْتَبْرَقٍ فَأَتَى بِهَا النَّبِيَّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ اشْتَرِ هَذِهِ فَالْبَسْهَا لِوَفْدِ النَّاسِ إِذَا قَدِمُوا عَلَيْكَ‏.‏ فَقَالَ ‏\"‏ إِنَّمَا يَلْبَسُ الْحَرِيرَ مَنْ لاَ خَلاَقَ لَهُ ‏\"‏‏.‏ فَمَضَى فِي ذَلِكَ مَا مَضَى، ثُمَّ إِنَّ النَّبِيَّ صلى الله عليه وسلم بَعَثَ إِلَيْهِ بِحُلَّةٍ فَأَتَى بِهَا النَّبِيَّ صلى الله عليه وسلم فَقَالَ بَعَثْتَ إِلَىَّ بِهَذِهِ، وَقَدْ قُلْتَ فِي مِثْلِهَا مَا قُلْتَ قَالَ ‏\"‏ إِنَّمَا بَعَثْتُ إِلَيْكَ لِتُصِيبَ بِهَا مَالاً ‏\"‏‏.‏ فَكَانَ ابْنُ عُمَرَ يَكْرَهُ الْعَلَمَ فِي الثَّوْبِ لِهَذَا الْحَدِيثِ‏.‏",
+      "source_hash_sha256": "023987b2b3798c9182baeffff2470a8995a8449327ca28ffd7db6b508d1e3ace",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Muhammad nous a rapporté : ‘Abd as-Samad nous a rapporté : mon père m’a rapporté : Yahyâ ibn Abî Ishâq m’a rapporté. Sâlim ibn ‘Abd Allâh m’a demandé : « Qu’est-ce que l’istabraq ? » Je répondis : « C’est une étoffe de brocart épaisse et grossière. » Il dit : J’ai entendu ‘Abd Allâh dire : « ‘Umar vit un homme porter un habit de brocart. Il l’apporta au Prophète ﷺ et dit : “Ô Messager d’Allah, achète cet habit et porte-le lorsque des délégations viennent te voir.” Il répondit : “Seul celui qui n’aura aucune part [dans l’au-delà] porte la soie.” Après quelque temps, le Prophète ﷺ lui envoya un habit. ‘Umar l’apporta au Prophète ﷺ et dit : “Tu m’as envoyé cet habit alors que tu as dit à propos d’un habit semblable ce que tu as dit.” Il répondit : “Je te l’ai envoyé pour que tu en tires un profit matériel.” » Pour cette raison, Ibn ‘Umar désapprouvait les motifs décoratifs sur les vêtements.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ecb76b0e-1ed1-470f-b31d-43e3e66d17bd",
+      "url": "https://sunnah.com/bukhari:6078",
+      "reason": "La clôture « لست أهاجر إلا اسمك » contient un jeu de mots dont le sens ne peut pas être établi avec certitude à partir de cet extrait."
+    }
+  ]
+}

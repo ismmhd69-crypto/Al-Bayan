@@ -5666,3 +5666,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1104 saves one private French draft for the long account of ‘Â’isha and Ibn az-Zubayr. It was handled as a one-record batch.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,079 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 763. Total local hadith rows not drafted: 9,550, including held records.
+
+### 2026-10-29: Bukhari 6076–6081
+
+- FR-LIB-HAD-BUKHARI-1105 saves five private French drafts about strained relations, visiting, and dress. Bukhari 6078 is held blank because its closing phrase is unclear wordplay.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 5,084 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 764. Total local hadith rows not drafted: 9,545, including held records.

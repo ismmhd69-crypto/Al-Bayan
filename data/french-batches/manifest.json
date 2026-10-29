@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5079,
+    "hadithBukhariDrafted": 5084,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5079,
+    "hadithLocalDrafted": 5084,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9550,
-    "hadithNeedsMo": 763,
+    "hadithLocalRemaining": 9545,
+    "hadithNeedsMo": 764,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23539,6 +23539,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1105",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1105.json",
+      "sourceIds": [
+        "d491d2b1-4ef7-4fb8-b83b-69f4472704e2",
+        "242e77b3-0522-448e-a715-b3c25d365bea",
+        "ecb76b0e-1ed1-470f-b31d-43e3e66d17bd",
+        "ad9584f5-f022-42ea-b4d9-c91288437d6a",
+        "b69d3d2f-cfd2-43f8-b912-288bcc16a515",
+        "78af0417-cad4-43d7-b740-dd7a3ba91d23"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; Bukhari 6078 held blank because its closing phrase is unclear. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26589,6 +26610,12 @@
       "scope": "Sahih al-Bukhari 6068: variant begins with shorthand بهذا",
       "status": "blocked",
       "reason": "The exported variant refers back with بهذا and does not provide its full chain in this record. Keep the item blank in FR-LIB-HAD-BUKHARI-1102 rather than copying a neighboring chain."
+    },
+    {
+      "id": "HADITH-BUKHARI-6078-UNCLEAR-WORDPLAY",
+      "scope": "Sahih al-Bukhari 6078: closing phrase أهاجر إلا اسمك",
+      "status": "blocked",
+      "reason": "The closing phrase is wordplay and its intended meaning is unclear from the exported excerpt. Keep the whole item blank in FR-LIB-HAD-BUKHARI-1105 until clarified."
     }
   ],
   "hadithBukhariDrafted": 4523,
@@ -26708,6 +26735,12 @@
       "scope": "Sahih al-Bukhari 6068: variant begins with shorthand بهذا",
       "status": "blocked",
       "reason": "The exported variant refers back with بهذا and does not provide its full chain in this record. Keep the item blank in FR-LIB-HAD-BUKHARI-1102 rather than copying a neighboring chain."
+    },
+    {
+      "id": "HADITH-BUKHARI-6078-UNCLEAR-WORDPLAY",
+      "scope": "Sahih al-Bukhari 6078: closing phrase أهاجر إلا اسمك",
+      "status": "blocked",
+      "reason": "The closing phrase is wordplay and its intended meaning is unclear from the exported excerpt. Keep the whole item blank in FR-LIB-HAD-BUKHARI-1105 until clarified."
     }
   ]
 }
