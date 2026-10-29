@@ -1406,3 +1406,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-294` saves six private French drafts for Bukhari 1696–1701. They preserve the reports on garlanding and marking the sacrificial animals and the differing accounts of what became prohibited. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,551 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 92. Total local hadith rows not drafted: 13,077, including held records.
+
+### 2026-10-29: Bukhari 1702–1707 source review
+
+- `FR-LIB-HAD-BUKHARI-295` saves six private French drafts for Bukhari 1702–1707. They preserve the reports on preparing the sacrificial animals and the instructions concerning their use and distribution. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,557 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 92. Total local hadith rows not drafted: 13,071, including held records.
