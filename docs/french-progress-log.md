@@ -11482,3 +11482,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1856h-1859b
 
 - FR-LIB-HAD-MUSLIM-0880 saves four private French drafts about the pledge at al-Hudaybiya, including reported counts of 1,300 and 1,400. Two chain-only cross-references remain blank under Needs Mo with specific reasons. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1859c-1863a
+
+- FR-LIB-HAD-MUSLIM-0881 saves five private French drafts about the pledge, life in the desert, and migration. The report describing a pledge “on death” is preserved as written. One chain-only cross-reference remains blank under Needs Mo with a specific reason. No Quran verse is quoted. No database write or publication occurred.

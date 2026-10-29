@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0881",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:12:33.747Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7479909d-c5dc-47cc-8e08-54f81d811063",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1859c",
+      "reference": "Sahih Muslim, hadith 1859 c, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَجَّاجُ بْنُ الشَّاعِرِ، وَمُحَمَّدُ بْنُ رَافِعٍ، قَالاَ حَدَّثَنَا شَبَابَةُ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِيهِ، قَالَ لَقَدْ رَأَيْتُ الشَّجَرَةَ ثُمَّ أَتَيْتُهَا بَعْدُ فَلَمْ أَعْرِفْهَا.",
+      "source_hash_sha256": "3e9987ae4a97f79734c0ef289cb0e27b46985acf47c606733812f016788a5b21",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hajjâj ibn ash-Shâ‘ir et Muhammad ibn Râfi‘ m’ont rapporté : Shabâba nous a rapporté : Shu‘ba nous a rapporté, d’après Qatâda, d’après Sa‘îd ibn al-Musayyib, d’après son père, qui a dit : J’ai vu l’arbre, puis je suis revenu plus tard à cet endroit et je ne l’ai pas reconnu.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55ad8c31-0a58-48bd-a57f-373cc0f7012f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1860a",
+      "reference": "Sahih Muslim, hadith 1860 a, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَاتِمٌ، - يَعْنِي ابْنَ إِسْمَاعِيلَ - عَنْ يَزِيدَ بْنِ أَبِي، عُبَيْدٍ مَوْلَى سَلَمَةَ بْنِ الأَكْوَعِ قَالَ قُلْتُ لِسَلَمَةَ عَلَى أَىِّ شَىْءٍ بَايَعْتُمْ رَسُولَ اللَّهِ صلى الله عليه وسلم يَوْمَ الْحُدَيْبِيَةِ قَالَ عَلَى الْمَوْتِ ‏.‏",
+      "source_hash_sha256": "c366dbf033dede2009a03e15a86c267b5c7109ef1e29622811cf41c69df5663c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Hâtim — c’est-à-dire Ibn Ismâ‘îl — nous a rapporté, d’après Yazîd ibn Abî ‘Ubayd, le client de Salama ibn al-Akwa‘. J’ai demandé à Salama : « Sur quoi avez-vous prêté allégeance au Messager d’Allah le jour d’al-Hudaybiya ? » Il répondit : « Sur la mort. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "35677c6d-b2ce-43e1-80c8-b52d90604ffb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1860b",
+      "reference": "Sahih Muslim, hadith 1860 b, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا حَمَّادُ بْنُ مَسْعَدَةَ، حَدَّثَنَا يَزِيدُ، عَنْ سَلَمَةَ، بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "40cb2d416d7bb1f8697a43d9d47005934f09175f6fa8faf4cf0c6219a9cd1a3c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9fcd06d1-8e5a-4b63-93fc-46d53a6253b7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1861",
+      "reference": "Sahih Muslim, hadith 1861, book 33, باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "title": "باب اسْتِحْبَابِ مُبَايَعَةِ الإِمَامِ الْجَيْشَ عِنْدَ إِرَادَةِ الْقِتَالِ وَبَيَانِ بَيْعَةِ الرِّضْوَانِ تَحْتَ الشَّجَرَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الْمَخْزُومِيُّ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا عَمْرُو بْنُ، يَحْيَى عَنْ عَبَّادِ بْنِ تَمِيمٍ، عَنْ عَبْدِ اللَّهِ بْنِ زَيْدٍ، قَالَ أَتَاهُ آتٍ فَقَالَ هَذَاكَ ابْنُ حَنْظَلَةَ يُبَايِعُ النَّاسَ فَقَالَ عَلَى مَاذَا قَالَ عَلَى الْمَوْتِ قَالَ لاَ أُبَايِعُ عَلَى هَذَا أَحَدًا بَعْدَ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "08e1f700600c3d04ce8cbe4258156c4b08386ac958a20cb50eee41fa6cad5ef4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm nous a informés : al-Makhzûmî nous a rapporté : Wuhayb nous a rapporté : ‘Amr ibn Yahyâ nous a rapporté, d’après ‘Abbâd ibn Tamîm, d’après ‘Abd Allâh ibn Zayd, qui a dit : Quelqu’un vint le trouver et lui dit : « Voici Ibn Hanzala qui fait prêter allégeance aux gens. » Il demanda : « Sur quoi ? » On lui répondit : « Sur la mort. » Il dit : « Après le Messager d’Allah, je ne prêterai à personne une allégeance de cette nature. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bfddf069-3022-43bb-a415-cf2012337b2a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1862",
+      "reference": "Sahih Muslim, hadith 1862, book 33, باب تَحْرِيمِ رُجُوعِ الْمُهَاجِرِ إِلَى اسْتِيطَانِ وَطَنِهِ ‏‏",
+      "title": "باب تَحْرِيمِ رُجُوعِ الْمُهَاجِرِ إِلَى اسْتِيطَانِ وَطَنِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَاتِمٌ، - يَعْنِي ابْنَ إِسْمَاعِيلَ - عَنْ يَزِيدَ بْنِ أَبِي، عُبَيْدٍ عَنْ سَلَمَةَ بْنِ الأَكْوَعِ، أَنَّهُ دَخَلَ عَلَى الْحَجَّاجِ فَقَالَ يَا ابْنَ الأَكْوَعِ ارْتَدَدْتَ عَلَى عَقِبَيْكَ تَعَرَّبْتَ قَالَ لاَ وَلَكِنْ رَسُولُ اللَّهِ صلى الله عليه وسلم أَذِنَ لِي فِي الْبَدْوِ ‏.‏",
+      "source_hash_sha256": "df1f19edaacf929222a34b7c2930c2c8d5b9056e40fd8091366270db08303ac9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Hâtim — c’est-à-dire Ibn Ismâ‘îl — nous a rapporté, d’après Yazîd ibn Abî ‘Ubayd, d’après Salama ibn al-Akwa‘, qui entra chez al-Hajjâj. Celui-ci lui dit : « Ô Ibn al-Akwa‘, es-tu revenu sur tes pas et redevenu bédouin ? » Il répondit : « Non. Le Messager d’Allah m’a autorisé à vivre dans le désert. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "438619cd-e517-477f-a63c-9104d91cbcca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1863a",
+      "reference": "Sahih Muslim, hadith 1863 a, book 33, باب الْمُبَايَعَةِ بَعْدَ فَتْحِ مَكَّةَ عَلَى الإِسْلاَمِ وَالْجِهَادِ وَالْخَيْرِ وَبَيَانِ مَعْنَى: «لاَ هِجْرَةَ بَعْدَ الْفَتْحِ»",
+      "title": "باب الْمُبَايَعَةِ بَعْدَ فَتْحِ مَكَّةَ عَلَى الإِسْلاَمِ وَالْجِهَادِ وَالْخَيْرِ وَبَيَانِ مَعْنَى: «لاَ هِجْرَةَ بَعْدَ الْفَتْحِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الصَّبَّاحِ أَبُو جَعْفَرٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ زَكَرِيَّاءَ، عَنْ عَاصِمٍ الأَحْوَلِ، عَنْ أَبِي عُثْمَانَ النَّهْدِيِّ، حَدَّثَنِي مُجَاشِعُ بْنُ مَسْعُودٍ السُّلَمِيُّ، قَالَ أَتَيْتُ النَّبِيَّ صلى الله عليه وسلم أُبَايِعُهُ عَلَى الْهِجْرَةِ فَقَالَ ‏\"‏ إِنَّ الْهِجْرَةَ قَدْ مَضَتْ لأَهْلِهَا وَلَكِنْ عَلَى الإِسْلاَمِ وَالْجِهَادِ وَالْخَيْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ecbc627c00db5a7aa2a10f90c199a56fd54a627f1f6ee4d7bab26efb0e084f39",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn as-Sabbâh Abû Ja‘far nous a rapporté : Ismâ‘îl ibn Zakariyyâ nous a rapporté, d’après ‘Âsim al-Ahwal, d’après Abû ‘Uthmân an-Nahdî. Mujâshi‘ ibn Mas‘ûd as-Sulamî m’a rapporté : Je suis venu voir le Prophète pour lui prêter allégeance au sujet de l’émigration. Il dit : « L’émigration est désormais passée pour ceux qui l’ont accomplie ; mais tu peux t’engager pour l’islam, le combat et le bien. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "35677c6d-b2ce-43e1-80c8-b52d90604ffb",
+      "url": "https://sunnah.com/muslim:1860b",
+      "reason": "Cette entrée donne uniquement une autre chaîne de transmission et indique que le récit reprend le précédent, sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
