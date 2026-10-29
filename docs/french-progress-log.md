@@ -1181,3 +1181,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-249` saves six private French drafts for Bukhari 1430–1435. They preserve the reports about distributing charity, women giving jewelry on the festival day, and Hudhayfa’s discussion with Umar about tribulation. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,311 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,318, including held records.
+
+### 2026-10-29: Bukhari 1436–1441 source review
+
+- `FR-LIB-HAD-BUKHARI-250` saves six private French drafts for Bukhari 1436–1441. They preserve the report on good deeds before Islam, the repeated narrations on household charity, and the wording variant about the entrusted storekeeper. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,317 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 75. Total local hadith rows not drafted: 13,312, including held records.
