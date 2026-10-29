@@ -12639,3 +12639,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2543a-2544
 
 - FR-LIB-HAD-MUSLIM-1178 saves three complete reports as private French drafts. No database write or publication occurred.
+
+### 2026-10-30: Muslim 2545
+
+- FR-LIB-HAD-MUSLIM-1179 saves one complete long report as a private French draft. The source is isolated in a single-item batch. No database write or publication occurred.
