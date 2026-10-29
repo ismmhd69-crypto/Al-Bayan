@@ -11782,3 +11782,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2025a-2027c
 
 - FR-LIB-HAD-MUSLIM-0955 saves six private French drafts covering reports against drinking while standing and reports of drinking Zamzam while standing. The different narrations are preserved. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2027d-2029a
+
+- FR-LIB-HAD-MUSLIM-0956 saves four complete private French drafts about drinking Zamzam, breathing while drinking, and serving drinks from the right. Two entries that only refer back to earlier reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
