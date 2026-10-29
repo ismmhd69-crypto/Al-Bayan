@@ -18557,6 +18557,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-861",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-861.json",
+      "sourceIds": [
+        "64325864-1054-41eb-b77f-ef608e37af94"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -20089,6 +20105,12 @@
       "scope": "Sahih al-Bukhari 4726: very long report with direct Quran 18:60 quotation",
       "status": "blocked",
       "reason": "Hadith 4726 est un rapport très long et cite directement Quran 18:60. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-860, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4727-QURAN-18-MULTIPLE",
+      "scope": "Sahih al-Bukhari 4727: very long report with multiple direct Quran quotations from Surah 18",
+      "status": "blocked",
+      "reason": "Hadith 4727 est un rapport très long qui cite directement plusieurs versets de Sourate 18, notamment 18:62, 18:14, 18:71 et 18:74-77. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-861, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4017,
