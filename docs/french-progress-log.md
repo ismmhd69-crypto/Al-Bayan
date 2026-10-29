@@ -9061,3 +9061,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0386 saves one private French draft about the eclipse prayer and what the Prophet ﷺ was shown. Muslim 903b only summarizes a previous report and remains blank under Needs Mo.
 - Both source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1526 Muslim drafts, 7862 total hadith drafts, 6767 remaining, and 724 Needs Mo items.
+
+### 2026-10-29: Muslim 904c (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0387 saves one private French draft of the full eclipse report on the day Ibrahim died. Its Arabic source is 2498 characters, so it was kept alone in this batch.
+- The source hash and variant wording are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1527 Muslim drafts, 7863 total hadith drafts, 6766 remaining, and 724 Needs Mo items.
