@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5743,
+    "hadithBukhariDrafted": 5749,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5743,
+    "hadithLocalDrafted": 5749,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8886,
+    "hadithLocalRemaining": 8880,
     "hadithNeedsMo": 829,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26443,6 +26443,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1250",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1250.json",
+      "sourceIds": [
+        "bca84df2-8324-4fcb-bcc3-2c04888830c0",
+        "05a63012-b8c0-48ec-8359-dce29368e683",
+        "64265b7a-63d2-4907-be8f-1f98e1311beb",
+        "90ccb0e5-113e-470d-a11c-0276583c81e2",
+        "c5a01912-45db-440b-a5a4-879e4796b5ea",
+        "d40166bd-8ed1-414d-bf64-3cf61cb87925"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six complete French drafts, preserving the report variants and the narrator’s stated uncertainty. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -29807,9 +29828,9 @@
       "reason": "The report’s terms تحميم الوجه and التجبية describe a practice attributed to the rabbis, but their precise meaning cannot be established safely from this excerpt. Keep the complete translation blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 5743,
-  "hadithLocalDrafted": 5743,
-  "hadithLocalRemaining": 8886,
+  "hadithBukhariDrafted": 5749,
+  "hadithLocalDrafted": 5749,
+  "hadithLocalRemaining": 8880,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
