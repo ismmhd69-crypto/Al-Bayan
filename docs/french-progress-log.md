@@ -9081,3 +9081,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0390 saves four private French drafts on eclipse prayer and remembrance. Muslim 911c and 913c only refer back to previous reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1540 Muslim drafts, 7876 total hadith drafts, 6753 remaining, and 729 Needs Mo items.
+
+### 2026-10-29: Muslim 915–918b
+
+- FR-LIB-HAD-MUSLIM-0391 saves five private French drafts on solar eclipses and words to say during bereavement. Muslim 916b contains only alternate chains and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1545 Muslim drafts, 7881 total hadith drafts, 6748 remaining, and 730 Needs Mo items.
