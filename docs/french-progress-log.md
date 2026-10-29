@@ -724,3 +724,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-136` saves six private French drafts for Bukhari 754–759. They retain the account of the Prophet ﷺ signaling the congregation to finish prayer, the full sequence of the inquiry into Sa‘d’s leadership and the accusation against him, and the prayer instructions in the report about the man told to repeat his prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 708 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 33. Total local hadith rows not drafted: 13,921, including held records.
+### 2026-10-29: Bukhari 760–765 source review
+
+- `FR-LIB-HAD-BUKHARI-137` saves five private French drafts for Bukhari 760–762 and 764–765. Bukhari 763 remains blank under Needs Mo because it quotes Quran 77:1 and no approved, attributed French Quran translation is available.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 713 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 34. Total local hadith rows not drafted: 13,916, including held records.
