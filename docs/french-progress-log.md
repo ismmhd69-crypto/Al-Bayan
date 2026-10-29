@@ -2056,3 +2056,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-428` saves six private French drafts for Bukhari 2481–2486, covering a broken serving dish, Jurayj, food on an expedition, shared provisions, and the Ash‘arites’ mutual support.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,250 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 137. Total local hadith rows not drafted: 12,379, including held records.
+
+### 2026-10-29: Bukhari 2487–2492 source review
+
+- `FR-LIB-HAD-BUKHARI-429` saves six private French drafts for Bukhari 2487–2492, covering joint ownership and charity, emergency slaughter, etiquette for sharing dates, and partial emancipation.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,256 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 137. Total local hadith rows not drafted: 12,373, including held records.
