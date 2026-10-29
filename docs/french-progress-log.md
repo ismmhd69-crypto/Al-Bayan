@@ -5892,3 +5892,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1152 saves five private French drafts. Bukhari 6266 remains blank because the phrase عبد العصا and its chain need source confirmation.
 - The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,248 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 770. Total local hadith rows not drafted: 9,379, including held records.
+
+### 2026-10-29: Bukhari 6268–6273 — one held
+
+- FR-LIB-HAD-BUKHARI-1153 saves five private French drafts. Bukhari 6271 remains blank because it directly quotes Quran 33:53 and 33:11; it awaits approved, attributed French Quran wording and permission to use it.
+- The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,253 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 771. Total local hadith rows not drafted: 9,374, including held records.

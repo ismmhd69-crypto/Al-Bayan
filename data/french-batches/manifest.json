@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5248,
+    "hadithBukhariDrafted": 5253,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5248,
+    "hadithLocalDrafted": 5253,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9379,
-    "hadithNeedsMo": 770,
+    "hadithLocalRemaining": 9374,
+    "hadithNeedsMo": 771,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -24447,6 +24447,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1153",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1153.json",
+      "sourceIds": [
+        "8b9d363d-dec5-4360-ae37-59e94c6c5471",
+        "7aa947be-8550-4f99-872f-a271feb3267b",
+        "e3f168b6-9bd0-4046-8169-25df76a8ef58",
+        "24e83b64-30ad-4fcc-9a01-9035cfc315b1",
+        "14cf9b0b-f598-4cce-bb8c-cf4f88979864",
+        "fd7aa139-3635-438d-8715-e3171d90d70b"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6271 was held blank because it directly quotes Quran 33:53 and 33:11. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -27670,6 +27691,12 @@
       "scope": "Sahih al-Bukhari 6266 phrase عبد العصا and unusual chain",
       "status": "blocked",
       "reason": "The report contains an unclear phrase عبد العصا and an unusual chain. Keep the complete item blank until the source wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-6271-QURAN-33-53-33-11",
+      "scope": "Sahih al-Bukhari 6271 direct quotations of Quran 33:53 and 33:11",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 33:53 and 33:11. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
