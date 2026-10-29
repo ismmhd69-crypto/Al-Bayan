@@ -1,0 +1,38 @@
+{
+  "language": "fr",
+  "scope": "private-local-only",
+  "lastReconciled": "2026-10-29",
+  "publicActivationAllowed": false,
+  "schemaChangesAllowed": false,
+  "inventory": {
+    "sourceInventory": "data/french-batches/source-inventory.json",
+    "hadithSources": 14629,
+    "fatwaSources": 7388,
+    "otherSourceKinds": 0,
+    "existingFrenchRows": 0,
+    "missingFrenchRows": 22017,
+    "website": {
+      "newToIslamLessons": 32,
+      "hardQuestionsArticles": 21,
+      "preparedAnswers": 44,
+      "existingFrenchAssets": 0
+    }
+  },
+  "statusDefinitions": {
+    "missing": "No French translation exists.",
+    "draftSaved": "A French AI draft exists and is unpublished.",
+    "structurallyValidated": "IDs, required fields, references, numbers, placeholders, and formatting checks passed.",
+    "humanReviewed": "A named qualified human reviewer actually checked the French wording.",
+    "published": "The translation is explicitly published. French publication is out of scope.",
+    "blocked": "Cannot safely proceed under current constraints; reason is recorded in the progress log."
+  },
+  "batches": [],
+  "blockers": [
+    {
+      "id": "DB-FR-LANG-CHECK",
+      "scope": "all Supabase source translations",
+      "status": "blocked",
+      "reason": "The live public.source_translations.lang constraint only accepts ar, en, and de. Adding fr requires a schema change, which is explicitly prohibited. No French database rows have been written."
+    }
+  ]
+}
