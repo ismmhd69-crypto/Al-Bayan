@@ -43958,6 +43958,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0751",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0751.json",
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "two complete reports without Quran quotations translated as private drafts; one cross-reference held blank and three Quran-quotation items held entirely blank; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48265,8 +48278,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9151,
-  "hadithLocalRemaining": 5478,
+  "hadithLocalDrafted": 9153,
+  "hadithLocalRemaining": 5476,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53313,10 +53326,30 @@
       "source_id": "c2363bb0-fade-456c-a529-b0620bece7f4",
       "reason": "Cette entrée donne une chaîne de transmission puis renvoie au récit précédent sans reproduire son contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "1119b128-5e2c-4c5d-8add-efcb67fc15c4",
+      "reason": "Cette entrée donne uniquement une chaîne de transmission et renvoie aux récits précédents sans reproduire leur contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "da67bece-75c2-4fab-b456-e1f7d23a8bd0",
+      "reason": "Le texte source contient une citation coranique. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6065ad55-6e95-467d-9247-91b068e1b8d2",
+      "reason": "Le texte source contient une citation coranique. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "5dd22ac2-a3a6-4735-99d8-e006e06b1c7e",
+      "reason": "Le texte source contient une citation coranique. Garder toute la traduction française de cette entrée vide jusqu’à validation d’une traduction coranique française attribuée et autorisée.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2815,
+  "hadithMuslimDrafted": 2817,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1234
+  "hadithNeedsMo": 1238
 }

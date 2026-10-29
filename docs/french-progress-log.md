@@ -10881,3 +10881,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0750 saves five private French drafts about land disputes, public roads and inheritance. Muslim 1612b only refers to the preceding narration and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1615c–1616d
+
+- FR-LIB-HAD-MUSLIM-0751 saves two private French drafts about inheritance shares and a visit to Jabir. Muslim 1615d only refers to earlier reports. Muslim 1616a, 1616b and 1616d contain Quran quotations, so their entire French entries remain blank pending an approved, attributed translation and rights.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
