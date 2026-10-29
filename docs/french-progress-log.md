@@ -7698,3 +7698,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0116 saves five private French drafts on grooming practices and the fitra, preserving the variant wording and the narrator’s uncertainty about the tenth practice.
 - Muslim 261b gives only a transmission chain and a reference to similar wording. It remains blank under Needs Mo rather than being filled from 261a.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 470 Muslim drafts, 6,806 total hadith drafts, 7,823 remaining, and 253 Needs Mo items.
+
+### 2026-10-29: Muslim 262a–266a
+
+- FR-LIB-HAD-MUSLIM-0117 saves six private French drafts on toilet etiquette, preserving the chains, prohibitions, and the differing reports about direction.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 476 Muslim drafts, 6,812 total hadith drafts, 7,817 remaining, and 253 Needs Mo items.
