@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1335",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:41:15.991Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "12bf3ec1-5093-4050-a997-257aca67275c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2945a",
+      "reference": "Sahih Muslim, hadith 2945 a, book 54, باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "title": "باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، قَالَ قَالَ ابْنُ جُرَيْجٍ حَدَّثَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ أَخْبَرَتْنِي أُمُّ شَرِيكٍ، أَنَّهَا سَمِعَتِ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لَيَفِرَّنَّ النَّاسُ مِنَ الدَّجَّالِ فِي الْجِبَالِ ‏\"‏ ‏.‏ قَالَتْ أُمُّ شَرِيكٍ يَا رَسُولَ اللَّهِ فَأَيْنَ الْعَرَبُ يَوْمَئِذٍ قَالَ ‏\"‏ هُمْ قَلِيلٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "06b5718132bc15ccfa51d99ed35b1888e06dc07631ceba5f49769ada22e918dd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Les gens fuiront l’Antéchrist dans les montagnes. Umm Sharik demanda : « Messager d’Allah, où seront alors les Arabes ? » Il répondit : « Ils seront peu nombreux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "496eb166-90e1-4134-8f7d-0c6fd92bb461",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2945b",
+      "reference": "Sahih Muslim, hadith 2945 b, book 54, باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "title": "باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ بَشَّارٍ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا أَبُو عَاصِمٍ، عَنِ ابْنِ جُرَيْجٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "ce017dee608e61ad8cf93975a0e5ead079562dd7ecca2080562030015feb365f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1a0066f5-10c3-4ba0-b5de-891eeff6a330",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2946a",
+      "reference": "Sahih Muslim, hadith 2946 a, book 54, باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "title": "باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا أَحْمَدُ بْنُ إِسْحَاقَ الْحَضْرَمِيُّ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ الْمُخْتَارِ - حَدَّثَنَا أَيُّوبُ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ رَهْطٍ، مِنْهُمْ أَبُو الدَّهْمَاءِ وَأَبُو قَتَادَةَ قَالُوا كُنَّا نَمُرُّ عَلَى هِشَامِ بْنِ عَامِرٍ نَأْتِي عِمْرَانَ بْنَ حُصَيْنٍ فَقَالَ ذَاتَ يَوْمٍ إِنَّكُمْ لَتُجَاوِزُونِي إِلَى رِجَالٍ مَا كَانُوا بِأَحْضَرَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم مِنِّي وَلاَ أَعْلَمَ بِحَدِيثِهِ مِنِّي سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَا بَيْنَ خَلْقِ آدَمَ إِلَى قِيَامِ السَّاعَةِ خَلْقٌ أَكْبَرُ مِنَ الدَّجَّالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "beb43ceb1c792d7357ff3df973c690452011f095d96e561c40f6f866edf11ce6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hisham ibn Amir nous dit un jour : « Vous passez devant moi pour aller voir des hommes qui n’étaient pas plus proches du Messager d’Allah ﷺ que moi, et qui ne connaissaient pas mieux ses paroles. J’ai entendu le Messager d’Allah ﷺ dire : “Entre la création d’Adam et l’avènement de l’Heure, aucune créature ne sera plus grande que l’Antéchrist.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4d94bebe-88f5-4f9f-99f1-3b96e7a7e4fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2946b",
+      "reference": "Sahih Muslim, hadith 2946 b, book 54, باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "title": "باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ جَعْفَرٍ الرَّقِّيُّ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ عَمْرٍو، عَنْ أَيُّوبَ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ ثَلاَثَةِ، رَهْطٍ مِنْ قَوْمِهِ فِيهِمْ أَبُو قَتَادَةَ قَالُوا كُنَّا نَمُرُّ عَلَى هِشَامِ بْنِ عَامِرٍ إِلَى عِمْرَانَ بْنِ حُصَيْنٍ ‏.‏ بِمِثْلِ حَدِيثِ عَبْدِ الْعَزِيزِ بْنِ مُخْتَارٍ غَيْرَ أَنَّهُ قَالَ ‏\"‏ أَمْرٌ أَكْبَرُ مِنَ الدَّجَّالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4155596a634c93a1db6e1cc7222e950b8d6bc84a55737cb2019d5249a4181d41",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "78499b39-bf73-4d66-ac7a-56bbf3e7ce2e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2947a",
+      "reference": "Sahih Muslim, hadith 2947 a, book 54, باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "title": "باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ بَادِرُوا بِالأَعْمَالِ سِتًّا طُلُوعَ الشَّمْسِ مِنْ مَغْرِبِهَا أَوِ الدُّخَانَ أَوِ الدَّجَّالَ أَوِ الدَّابَّةَ أَوْ خَاصَّةَ أَحَدِكُمْ أَوْ أَمْرَ الْعَامَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "57cc8e6c92ba632355cfa90d4c1b4bc8491dff562df7b94c457d53f0e2bf695f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Hâtez-vous d’accomplir les œuvres avant l’arrivée de six événements : le soleil qui se lèvera à l’ouest, la fumée, l’Antéchrist, la Bête, l’échéance propre à chacun de vous, ou l’événement qui touchera l’ensemble des gens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b08b70d4-3ee0-4bd9-8882-9de0869ef1b3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2947b",
+      "reference": "Sahih Muslim, hadith 2947 b, book 54, باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "title": "باب فِي بَقِيَّةٍ مِنْ أَحَادِيثِ الدَّجَّالِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أُمَيَّةُ بْنُ بِسْطَامَ الْعَيْشِيُّ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنِ الْحَسَنِ، عَنْ زِيَادِ بْنِ رِيَاحٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ بَادِرُوا بِالأَعْمَالِ سِتًّا الدَّجَّالَ وَالدُّخَانَ وَدَابَّةَ الأَرْضِ وَطُلُوعَ الشَّمْسِ مِنْ مَغْرِبِهَا وَأَمْرَ الْعَامَّةِ وَخُوَيِّصَةَ أَحَدِكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "99738ac221c9679c7dd5bf7a2cf6d9072b38bab2cd255cbe96ba07da7bc0bd19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète ﷺ dit : « Hâtez-vous d’accomplir les œuvres avant six événements : l’Antéchrist, la fumée, la Bête de la terre, le soleil qui se lèvera à l’ouest, l’événement qui touchera tous les gens, et l’échéance personnelle de chacun. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "496eb166-90e1-4134-8f7d-0c6fd92bb461",
+      "status": "blocked",
+      "reason": "Cette entrée ne contient que la chaîne de transmission et renvoie à la version précédente sans reproduire le récit. Garder la traduction française vide jusqu’à validation du texte complet."
+    },
+    {
+      "source_id": "4d94bebe-88f5-4f9f-99f1-3b96e7a7e4fa",
+      "status": "blocked",
+      "reason": "Cette variante renvoie à la version précédente et ne rapporte qu’un changement de formulation, sans texte complet. Garder la traduction française vide jusqu’à validation du récit entier."
+    }
+  ]
+}
