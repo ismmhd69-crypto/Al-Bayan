@@ -11151,3 +11151,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0804 saves three private French drafts about a postpartum variant and reports on the punishment for drinking wine. The two cross-reference-only variants remain blank under Needs Mo. Muslim 1706e also remains blank because its Arabic source contains a fused phrase that prevents reliable reading.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1707a-1709b
+
+- FR-LIB-HAD-MUSLIM-0805 saves four private French drafts, including the full account involving al-Walid and Uthman, Ali's report, the ten-strike limit report, and the pledge report. Muslim 1707c is chain-only, and 1709b contains a Quran quotation; both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
