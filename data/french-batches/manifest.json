@@ -16642,6 +16642,23 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-777",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-777.json",
+  "sourceIds": [
+    "988c97b1-6552-4b27-9081-e3dc051bde11"
+  ],
+  "translated": 1,
+  "inserted": 0,
+  "preserved": 0,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft"
+}
   ],
   "blockers": [
     {
@@ -17118,7 +17135,7 @@
   "reason": "The report directly quotes Quran 60:1. It also includes divine speech matching the wording اعملوا ما شئتم from Quran 41:40. The complete record remains blank in FR-LIB-HAD-BUKHARI-775 pending an approved, attributed French Quran translation."
 }
   ],
-  "hadithBukhariDrafted": 3777,
-  "hadithLocalDrafted": 3777,
-  "hadithLocalRemaining": 10880
+  "hadithBukhariDrafted": 3778,
+  "hadithLocalDrafted": 3778,
+  "hadithLocalRemaining": 10879
 }

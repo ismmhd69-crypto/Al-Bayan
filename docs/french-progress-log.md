@@ -3796,3 +3796,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-776` saves five private French drafts about the conquest of Mecca during Ramadan and fasting while travelling.
 - All five records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,777 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 312. Total local hadith rows not drafted: 10,880, including held records.
+
+### 2026-10-29: Bukhari 4280
+
+- `FR-LIB-HAD-BUKHARI-777` saves one private French draft of the march into Mecca during the conquest.
+- The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,778 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 312. Total local hadith rows not drafted: 10,879, including held records.
