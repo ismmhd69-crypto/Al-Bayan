@@ -66,11 +66,11 @@
     "hadithLocalDrafted": 11295,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 3334,
-    "hadithNeedsMo": 2807,
+    "hadithNeedsMo": 2809,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14090,
-    "hadithSourcesNotYetExported": 539
+    "hadithSourcesProcessed": 14092,
+    "hadithSourcesNotYetExported": 537
   },
   "batches": [
     {
@@ -51058,6 +51058,26 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "Needs Mo: Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1267",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1267.json",
+      "sourceIds": [
+        "13874d6c-1365-454e-8f7e-5c92691f11ea",
+        "6d53e21a-961f-4fc5-830d-a24bed5b1f38"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 2,
+      "failed": 0,
+      "remaining": 3334,
+      "validation": "Both entries are incomplete variants of the long Kaʿb ibn Mālik report and remain blank under Needs Mo. Focused validator and git diff check passed. No translations inserted or published.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: incomplete variants"
     }
   ],
   "blockers": [

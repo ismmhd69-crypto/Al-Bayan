@@ -13148,3 +13148,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1266 contains one long report about Kaʿb ibn Mālik. It was kept blank under Needs Mo because it includes several Quran quotations and the authorized French wording and attributions are not confirmed.
 - The focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0; French drafts saved: 0. No database writes or publication.
 - Recounted local hadith artifacts: 6,336 Bukhari and 4,959 Muslim drafts (11,295 total); 2,807 held Needs Mo; 14,090 sources represented; 539 not yet exported. Local hadith records without French drafts: 3,334. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 2769c–d, batch 1267
+
+- Batch FR-LIB-HAD-MUSLIM-1267 contains two incomplete variants of the long Kaʿb ibn Mālik report. Both remain blank under Needs Mo because they refer to the preceding report instead of reproducing it.
+- Focused validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0; French drafts saved: 0.
+- Recounted local hadith artifacts: 6,336 Bukhari and 4,959 Muslim drafts (11,295 total); 2,809 held Needs Mo; 14,092 sources represented; 537 not yet exported. Local hadith records without French drafts: 3,334. All 14,629 remain missing from the live French table.
