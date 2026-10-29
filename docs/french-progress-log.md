@@ -1986,3 +1986,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-414` saves six private French drafts for Bukhari 2407–2412, covering the no-deception condition in sales, prohibited conduct, responsibility, recitation differences, and accounts about the prophets Moses and Muhammad.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,183 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 12,446, including held records.
+
+### 2026-10-29: Bukhari 2413–2419 source review
+
+- `FR-LIB-HAD-BUKHARI-415` saves five private French drafts for Bukhari 2413–2415 and 2418–2419. Bukhari 2416 directly quotes Quran 3:77; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,188 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 131. Total local hadith rows not drafted: 12,441, including held records.
