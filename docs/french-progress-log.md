@@ -7669,3 +7669,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0111 saves six private French drafts on washing the feet completely during ablution. The narration chains, report variants and warning about unwashed heels are preserved.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 445 Muslim drafts, 6,781 total hadith drafts, 7,848 remaining, and 248 Needs Mo items.
+
+### 2026-10-29: Muslim 243–247a
+
+- FR-LIB-HAD-MUSLIM-0112 saves six private French drafts on ablution and its expiation of sins, including the imagery of luminous marks from ablution.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 451 Muslim drafts, 6,787 total hadith drafts, 7,842 remaining, and 248 Needs Mo items.
