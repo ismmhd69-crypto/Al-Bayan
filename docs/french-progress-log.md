@@ -8584,3 +8584,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0291 saves four private French drafts about shortened prayers during travel. Muslim 692b and 693b give only incomplete variant reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,156 Muslim drafts, 7,492 total hadith drafts, 7,137 remaining, and 549 Needs Mo items.
+
+### 2026-10-29: Muslim 693c–694d
+
+- FR-LIB-HAD-MUSLIM-0292 saves three private French drafts about prayer shortening at Mina. Muslim 693c, 693d and 694b, 694d are incomplete variant reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,159 Muslim drafts, 7,495 total hadith drafts, 7,134 remaining, and 552 Needs Mo items.
