@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4558,
+    "hadithBukhariDrafted": 4563,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4558,
+    "hadithLocalDrafted": 4563,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 10071,
-    "hadithNeedsMo": 726,
+    "hadithLocalRemaining": 10066,
+    "hadithNeedsMo": 727,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -21538,6 +21538,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1007",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1007.json",
+      "sourceIds": [
+        "8b576281-347b-42b5-9ef0-f9c1189c6a37",
+        "3a677381-a1c0-4461-905b-9acd9de85a8a",
+        "c80f022d-d16d-4cff-9bad-67ad5bc4edf3",
+        "45e8936f-0823-466e-8e4f-625b33265d8d",
+        "7abdc2b4-6054-497a-96c4-eb4fe3c66dc4",
+        "59e897ee-7c25-4aad-9633-9d57ae3b4901"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five drafts passed; one report containing a direct Quran quotation is held for Mo; all Arabic hashes and private unpublished states passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with Needs Mo"
     }
   ],
   "blockers": [
@@ -24546,6 +24567,12 @@
       "scope": "Sahih al-Bukhari 5509 opening phrase اعجل أو أرن",
       "status": "blocked",
       "reason": "The exported Arabic opening phrase is unclear. The full report remains blank in FR-LIB-HAD-BUKHARI-1004 until its wording is confirmed; no legal ruling has been inferred."
+    },
+    {
+      "id": "HADITH-BUKHARI-5529-QURAN-QUOTE",
+      "scope": "Sahih al-Bukhari 5529 direct quotation of Quran 6:145",
+      "status": "blocked",
+      "reason": "The hadith quotes Quran 6:145 directly. Keep the complete report blank until an approved attributed French Quran translation and permitted use are confirmed."
     }
   ],
   "hadithBukhariDrafted": 4523,
