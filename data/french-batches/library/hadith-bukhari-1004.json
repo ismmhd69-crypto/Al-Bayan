@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-1004",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:21:11.560Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "12502e41-49a9-4419-9b81-a40c8a1c310f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5506",
+      "reference": "Sahih al-Bukhari, hadith 5506, book 72, باب لاَ يُذَكَّى بِالسِّنِّ وَالْعَظْمِ وَالظُّفُرِ",
+      "title": "باب لاَ يُذَكَّى بِالسِّنِّ وَالْعَظْمِ وَالظُّفُرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ، حَدَّثَنَا سُفْيَانُ، عَنْ أَبِيهِ، عَنْ عَبَايَةَ بْنِ رِفَاعَةَ، عَنْ رَافِعِ بْنِ خَدِيجٍ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ كُلْ ـ يَعْنِي ـ مَا أَنْهَرَ الدَّمَ إِلاَّ السِّنَّ وَالظُّفُرَ ‏\"‏‏.‏",
+      "source_hash_sha256": "578664758e516621214d83bc734545fefb22d23b77df1d5625d1b2cdc2714f91",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qabîsa nous a rapporté : Sufyân nous a rapporté, d’après son père, d’après ʿAbâya ibn Rifâʿa, d’après Râfiʿ ibn Khadîj, qui dit : Le Prophète a dit : « Mange ce qui fait couler le sang, à l’exception de la dent et de l’ongle. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5f9fce66-2686-4432-854d-53f96ba0afe5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5507",
+      "reference": "Sahih al-Bukhari, hadith 5507, book 72, باب ذَبِيحَةِ الأَعْرَابِ وَنَحْوِهِمْ",
+      "title": "باب ذَبِيحَةِ الأَعْرَابِ وَنَحْوِهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ، حَدَّثَنَا أُسَامَةُ بْنُ حَفْصٍ الْمَدَنِيُّ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّ قَوْمًا، قَالُوا لِلنَّبِيِّ صلى الله عليه وسلم إِنَّ قَوْمًا يَأْتُونَا بِاللَّحْمِ لاَ نَدْرِي أَذُكِرَ اسْمُ اللَّهِ عَلَيْهِ أَمْ لاَ فَقَالَ ‏\"‏ سَمُّوا عَلَيْهِ أَنْتُمْ وَكُلُوهُ ‏\"‏‏.‏ قَالَتْ وَكَانُوا حَدِيثِي عَهْدٍ بِالْكُفْرِ‏.‏ تَابَعَهُ عَلِيٌّ عَنِ الدَّرَاوَرْدِيِّ‏.‏ وَتَابَعَهُ أَبُو خَالِدٍ وَالطُّفَاوِيُّ‏.‏",
+      "source_hash_sha256": "18427078abbe84b4d61b90aa008b5c1879ffed26e34d1c3b0fe4941d34b146bb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ʿUbayd Allâh nous a rapporté : Usâma ibn Hafs al-Madanî nous a rapporté, d’après Hishâm ibn ʿUrwa, d’après son père, d’après ʿÂʾisha (qu’Allah l’agrée), qui dit : « Des gens demandèrent au Prophète : “Des personnes nous apportent de la viande, et nous ne savons pas si le nom d’Allah a été prononcé dessus ou non.” Il répondit : “Prononcez vous-mêmes le nom d’Allah dessus, puis mangez-la.” » ʿÂʾisha ajouta : « Ils venaient tout juste de sortir de la mécréance. » ʿAlî rapporte la même chose, d’après al-Darâwardî. Abû Khâlid et al-Tufâwî rapportent également la même chose.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "77287035-1b67-4962-a2ac-634ec220d048",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5508",
+      "reference": "Sahih al-Bukhari, hadith 5508, book 72, باب ذَبَائِحِ أَهْلِ الْكِتَابِ وَشُحُومِهَا مِنْ أَهْلِ الْحَرْبِ وَغَيْرِهِمْ",
+      "title": "باب ذَبَائِحِ أَهْلِ الْكِتَابِ وَشُحُومِهَا مِنْ أَهْلِ الْحَرْبِ وَغَيْرِهِمْ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ عَبْدِ اللَّهِ بْنِ مُغَفَّلٍ ـ رضى الله عنه ـ قَالَ كُنَّا مُحَاصِرِينَ قَصْرَ خَيْبَرَ، فَرَمَى إِنْسَانٌ بِجِرَابٍ فِيهِ شَحْمٌ، فَنَزَوْتُ لآخُذَهُ، فَالْتَفَتُّ فَإِذَا النَّبِيُّ صلى الله عليه وسلم فَاسْتَحْيَيْتُ مِنْهُ‏.",
+      "source_hash_sha256": "25f96cc1d616bfeed4ec06d35e92e594c760d28d0f1367f93235499824d20943",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû al-Walîd nous a rapporté : Shuʿba nous a rapporté, d’après Humayd ibn Hilâl, d’après ʿAbd Allâh ibn Mughaffal (qu’Allah l’agrée), qui dit : « Nous assiégions la forteresse de Khaybar lorsqu’un homme lança une outre contenant de la graisse. Je me précipitai pour la prendre. En me retournant, j’aperçus le Prophète et j’eus honte devant lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a311f773-3a45-4307-b15a-dbb820726b46",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5509",
+      "reference": "Sahih al-Bukhari, hadith 5509, book 72, باب مَا نَدَّ مِنَ الْبَهَائِمِ فَهْوَ بِمَنْزِلَةِ الْوَحْشِ",
+      "title": "باب مَا نَدَّ مِنَ الْبَهَائِمِ فَهْوَ بِمَنْزِلَةِ الْوَحْشِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَلِيٍّ، حَدَّثَنَا يَحْيَى، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا أَبِي، عَنْ عَبَايَةَ بْنِ رِفَاعَةَ بْنِ رَافِعِ بْنِ خَدِيجٍ، عَنْ رَافِعِ بْنِ خَدِيجٍ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ إِنَّا لاَقُو الْعَدُوِّ غَدًا، وَلَيْسَتْ مَعَنَا مُدًى فَقَالَ ‏\"‏ اعْجَلْ أَوْ أَرِنْ مَا أَنْهَرَ الدَّمَ وَذُكِرَ اسْمُ اللَّهِ فَكُلْ، لَيْسَ السِّنَّ وَالظُّفُرَ، وَسَأُحَدِّثُكَ، أَمَّا السِّنُّ فَعَظْمٌ، وَأَمَّا الظُّفُرُ فَمُدَى الْحَبَشَةِ ‏\"‏‏.‏ وَأَصَبْنَا نَهْبَ إِبِلٍ وَغَنَمٍ فَنَدَّ مِنْهَا بَعِيرٌ، فَرَمَاهُ رَجُلٌ بِسَهْمٍ فَحَبَسَهُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ لِهَذِهِ الإِبِلِ أَوَابِدَ كَأَوَابِدِ الْوَحْشِ، فَإِذَا غَلَبَكُمْ مِنْهَا شَىْءٌ، فَافْعَلُوا بِهِ هَكَذَا ‏\"‏‏.‏",
+      "source_hash_sha256": "9f68174aa4e9cb31f574e0860bbd93da5bb59afa58ca4fcf43cb08ae56b9bece",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_wording_review",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "486e8ba3-fd7a-4e27-b709-1d0abab6477c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5510",
+      "reference": "Sahih al-Bukhari, hadith 5510, book 72, باب النَّحْرِ وَالذَّبْحِ",
+      "title": "باب النَّحْرِ وَالذَّبْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا خَلاَّدُ بْنُ يَحْيَى، حَدَّثَنَا سُفْيَانُ، عَنْ هِشَامِ بْنِ عُرْوَةَ، قَالَ أَخْبَرَتْنِي فَاطِمَةُ بِنْتُ الْمُنْذِرِ، امْرَأَتِي عَنْ أَسْمَاءَ بِنْتِ أَبِي بَكْرٍ ـ رضى الله عنهما ـ قَالَتْ نَحَرْنَا عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم فَرَسًا فَأَكَلْنَاهُ‏.‏",
+      "source_hash_sha256": "452e02ebd9cede7d66c29a262cb3eee41a6c719ad9fb0ddf3fd78210712b655a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Khallâd ibn Yahyâ nous a rapporté : Sufyân nous a rapporté, d’après Hishâm ibn ʿUrwa, qui dit : mon épouse Fâtima bint al-Mundhir m’a rapporté, d’après Asmâʾ bint Abî Bakr (qu’Allah les agrée tous deux) : « À l’époque du Prophète, nous égorgeâmes un cheval et le mangeâmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4aec6603-c96e-46b0-8309-5590e75b6ce4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5511",
+      "reference": "Sahih al-Bukhari, hadith 5511, book 72, باب النَّحْرِ وَالذَّبْحِ",
+      "title": "باب النَّحْرِ وَالذَّبْحِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، سَمِعَ عَبْدَةَ، عَنْ هِشَامٍ، عَنْ فَاطِمَةَ، عَنْ أَسْمَاءَ، قَالَتْ ذَبَحْنَا عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَرَسًا وَنَحْنُ بِالْمَدِينَةِ فَأَكَلْنَاهُ‏.‏",
+      "source_hash_sha256": "30345ce813a0f621e251aca65be86867d3fc907b4b6afb3cfd3e0e92d62dad27",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq nous a rapporté : il a entendu ʿAbda rapporter, d’après Hishâm, d’après Fâtima, d’après Asmâʾ, qui dit : « À l’époque du Messager d’Allah, alors que nous étions à Médine, nous égorgeâmes un cheval et le mangeâmes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a311f773-3a45-4307-b15a-dbb820726b46",
+      "reason": "The source opening phrase « اعجل أو أرن » is unclear in the exported Arabic. Hold the whole report until the wording is confirmed; do not infer a ruling."
+    }
+  ]
+}

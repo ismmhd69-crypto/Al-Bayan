@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4541,
+    "hadithBukhariDrafted": 4546,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4541,
+    "hadithLocalDrafted": 4546,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 10088,
-    "hadithNeedsMo": 725,
+    "hadithLocalRemaining": 10083,
+    "hadithNeedsMo": 726,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -21475,6 +21475,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1004",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1004.json",
+      "sourceIds": [
+        "12502e41-49a9-4419-9b81-a40c8a1c310f",
+        "5f9fce66-2686-4432-854d-53f96ba0afe5",
+        "77287035-1b67-4962-a2ac-634ec220d048",
+        "a311f773-3a45-4307-b15a-dbb820726b46",
+        "486e8ba3-fd7a-4e27-b709-1d0abab6477c",
+        "4aec6603-c96e-46b0-8309-5590e75b6ce4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five drafts passed; one unclear source opening is held for Mo; all Arabic hashes and private unpublished states passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with Needs Mo"
     }
   ],
   "blockers": [
@@ -24477,6 +24498,12 @@
       "scope": "Sahih al-Bukhari 5470b: source only says the previous hadith was continued",
       "status": "blocked",
       "reason": "The excerpt omits the actual report and only notes that the previous hadith was carried forward. Keep the translation blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-5509-OPENING-WORDING",
+      "scope": "Sahih al-Bukhari 5509 opening phrase اعجل أو أرن",
+      "status": "blocked",
+      "reason": "The exported Arabic opening phrase is unclear. The full report remains blank in FR-LIB-HAD-BUKHARI-1004 until its wording is confirmed; no legal ruling has been inferred."
     }
   ],
   "hadithBukhariDrafted": 4523,
