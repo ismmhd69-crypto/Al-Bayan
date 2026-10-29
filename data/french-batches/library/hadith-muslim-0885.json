@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0885",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:13:57.993Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "21f4bdd3-73da-454c-8279-94a0fdcb2e13",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1872a",
+      "reference": "Sahih Muslim, hadith 1872 a, book 33, باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "title": "باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، وَصَالِحُ بْنُ حَاتِمِ بْنِ وَرْدَانَ، جَمِيعًا عَنْ يَزِيدَ، - قَالَ الْجَهْضَمِيُّ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، - حَدَّثَنَا يُونُسُ بْنُ عُبَيْدٍ، عَنْ عَمْرِو بْنِ سَعِيدٍ، عَنْ أَبِي زُرْعَةَ بْنِ عَمْرِو بْنِ جَرِيرٍ، عَنْ جَرِيرِ بْنِ عَبْدِ اللَّهِ، قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَلْوِي نَاصِيَةَ فَرَسٍ بِإِصْبَعِهِ وَهُوَ يَقُولُ ‏\"‏ الْخَيْلُ مَعْقُودٌ بِنَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ الأَجْرُ وَالْغَنِيمَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "22c4ebd7a307acb4c4747a9da83e9b5fdd2a8479240ff5a153b8b485544f0871",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nasr ibn ‘Alî al-Jahdamî et Sâlih ibn Hâtim ibn Wardân nous ont rapporté, tous deux d’après Yazîd. Al-Jahdamî a dit : Yazîd ibn Zuray‘ nous a rapporté : Yûnus ibn ‘Ubayd nous a rapporté, d’après ‘Amr ibn Sa‘îd, d’après Abû Zur‘a ibn ‘Amr ibn Jarîr, d’après Jarîr ibn ‘Abd Allâh, qui a dit : J’ai vu le Messager d’Allah saisir de son doigt la touffe de crins du front d’un cheval en disant : « Le bien restera attaché aux crinières des chevaux jusqu’au Jour de la Résurrection : récompense et butin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cc36a93a-6084-4024-89ea-649a31524566",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1872b",
+      "reference": "Sahih Muslim, hadith 1872 b, book 33, باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "title": "باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ، أَبِي شَيْبَةَ حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، كِلاَهُمَا عَنْ يُونُسَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "19fdbbaa79c564786526242872118b62226acbee796902fe1586c462bac31e2f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "438d007d-3d0b-4864-854a-b4b1f1fa3a3c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1873a",
+      "reference": "Sahih Muslim, hadith 1873 a, book 33, باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "title": "باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا زَكَرِيَّاءُ، عَنْ عَامِرٍ، عَنْ عُرْوَةَ الْبَارِقِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْخَيْلُ مَعْقُودٌ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ الأَجْرُ وَالْمَغْنَمُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "09560ec64c7f2f4a16b64835f7dd46a394fdd0f3b8f94ce223e4291d726f8986",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allâh ibn Numayr nous a rapporté : mon père nous a rapporté : Zakariyyâ nous a rapporté, d’après ‘Âmir, d’après ‘Urwa al-Bâriqî, qui a dit : Le Messager d’Allah a dit : « Le bien restera attaché aux crinières des chevaux jusqu’au Jour de la Résurrection : récompense et butin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c9f037b5-42ce-4f53-a562-36f3cd4c8ec3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1873b",
+      "reference": "Sahih Muslim, hadith 1873 b, book 33, باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "title": "باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ فُضَيْلٍ، وَابْنُ، إِدْرِيسَ عَنْ حُصَيْنٍ، عَنِ الشَّعْبِيِّ، عَنْ عُرْوَةَ الْبَارِقِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ الْخَيْرُ مَعْقُوصٌ بِنَوَاصِي الْخَيْلِ ‏\"‏ ‏.‏ قَالَ فَقِيلَ لَهُ يَا رَسُولَ اللَّهِ بِمَ ذَاكَ قَالَ ‏\"‏ الأَجْرُ وَالْمَغْنَمُ إِلَى يَوْمِ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f5f480862d737a3422d2c780c930795dc6e2d4d17e101d27bb1099ef7eabb16e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Ibn Fudayl et Ibn Idrîs nous ont rapporté, d’après Husayn, d’après ash-Sha‘bî, d’après ‘Urwa al-Bâriqî, qui a dit : Le Messager d’Allah a dit : « Le bien est attaché aux crinières des chevaux. » On lui demanda : « En quoi cela consiste-t-il, Messager d’Allah ? » Il répondit : « La récompense et le butin jusqu’au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6fbe78a9-105b-4147-9652-0222694e79d6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1873c",
+      "reference": "Sahih Muslim, hadith 1873 c, book 33, باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "title": "باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، عَنْ حُصَيْنٍ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ عُرْوَةُ بْنُ الْجَعْدِ ‏.‏",
+      "source_hash_sha256": "04debf8edf2b786ac565f63d41f805fc64aaf9330caa6f3cda46a8739909673e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm nous l’a rapporté : Jarîr nous a informés, d’après Husayn, avec cette même chaîne. Toutefois, il a dit : « ‘Urwa ibn al-Ja‘d. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3959dfa0-942d-4ea3-b343-8199315f7ae6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1873d",
+      "reference": "Sahih Muslim, hadith 1873 d, book 33, باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "title": "باب الْخَيْلُ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَخَلَفُ بْنُ هِشَامٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ جَمِيعًا عَنْ أَبِي، الأَحْوَصِ ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَابْنُ أَبِي عُمَرَ، كِلاَهُمَا عَنْ سُفْيَانَ، جَمِيعًا عَنْ شَبِيبِ بْنِ غَرْقَدَةَ، عَنْ عُرْوَةَ الْبَارِقِيِّ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ وَلَمْ يَذْكُرِ الأَجْرَ وَالْمَغْنَمَ ‏.‏ وَفِي حَدِيثِ سُفْيَانَ سَمِعَ عُرْوَةَ الْبَارِقِيَّ سَمِعَ النَّبِيَّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "30b4c20de791ad3094067c4c91999f993051b35fab563ddff7165570694a45fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ, Khalaf ibn Hishâm et Abû Bakr ibn Abî Shayba nous ont rapporté, tous d’après Abû al-Ahwâs. [H] Ishâq ibn Ibrâhîm et Ibn Abî ‘Umar nous ont rapporté tous deux d’après Sufyân. Tous rapportent d’après Shabîb ibn Gharqada, d’après ‘Urwa al-Bâriqî, d’après le Prophète. Cette transmission ne mentionne ni récompense ni butin. Dans celle de Sufyân, il est dit qu’‘Urwa al-Bâriqî a entendu le Prophète.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "cc36a93a-6084-4024-89ea-649a31524566",
+      "url": "https://sunnah.com/muslim:1872b",
+      "reason": "Cette entrée énumère uniquement d’autres chaînes de transmission et indique que le récit est semblable au précédent, sans variante de contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
