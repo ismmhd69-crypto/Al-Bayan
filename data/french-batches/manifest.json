@@ -19768,6 +19768,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-921",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-921.json",
+      "sourceIds": [
+        "019b72f8-96f7-4095-805f-32b9fa1de514",
+        "60fca4e5-e9f4-4473-9201-e3533aeb8206",
+        "12841fed-e7bc-443c-904d-6017b03e152b",
+        "2853b2ae-821e-4ac9-9fb3-ca9fa3c54995",
+        "aec810a3-2d85-4a76-8d75-cf7625bc7c7c",
+        "7b6bb687-57d8-4fb1-86e9-43d58e21338a"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22484,6 +22505,12 @@
       "reason": "The source excerpt only says that this is the same report as a previous narration and contains no report text. Keep it blank until a complete source is available."
     },
     {
+      "id": "HADITH-BUKHARI-5037B-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5037b: isolated transmission remark without the complete report",
+      "status": "blocked",
+      "reason": "The source excerpt is a detached transmission note referring to verses omitted from an unspecified surah. Keep it blank until a complete report is available."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22532,7 +22559,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4119,
-  "hadithLocalDrafted": 4119,
-  "hadithLocalRemaining": 10548
+  "hadithBukhariDrafted": 4124,
+  "hadithLocalDrafted": 4124,
+  "hadithLocalRemaining": 10543
 }
