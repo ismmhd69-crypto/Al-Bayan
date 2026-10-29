@@ -15697,6 +15697,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-722",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-722.json",
+      "sourceIds": ["244388e8-4a82-4a85-a5db-a7f824f2f8cc", "6d0b8418-9acf-442d-bd59-db489ef6235f", "2b30162c-2a1c-4277-872f-5284be53a828", "761398c5-f449-4b1e-879b-092a1bfa5303", "756f0c7a-627f-4ad0-99d4-7824ba9dd829", "f28f35de-bcfc-4096-a519-9f4f9d128016"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; Quran-quote record remains blank pending approved attributed French Quran translation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15945,6 +15960,13 @@
       "scope": "Sahih al-Bukhari 4009: record ends before the report continues",
       "status": "blocked",
       "reason": "The local source record ends after saying ʿItbân ibn Mâlik came to the Messenger of God, without the rest of the report. The full record remains blank in FR-LIB-HAD-BUKHARI-719 pending confirmation of the complete source text."
+    }
+,
+    {
+      "id": "HADITH-BUKHARI-4026-QURAN-7-44",
+      "scope": "Sahih al-Bukhari 4026: direct quotation of Quran 7:44",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 7:44. It remains blank in FR-LIB-HAD-BUKHARI-722 until an approved, attributed French Quran translation is confirmed."
     }
   ],
   "hadithBukhariDrafted": 3524,

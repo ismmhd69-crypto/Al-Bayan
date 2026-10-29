@@ -3521,3 +3521,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-721` saves six private French drafts about Badr, the early community and related reports.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,569 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 279. Total local hadith rows not drafted: 11,088, including held records.
+
+### 2026-10-29: Bukhari 4024–4029
+
+- `FR-LIB-HAD-BUKHARI-722` saves five private French drafts. Hadith 4026 remains blank because it directly quotes Quran 7:44 and no approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including the Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,574 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 280. Total local hadith rows not drafted: 11,083, including held records.
