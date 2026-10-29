@@ -11394,3 +11394,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1807a
 
 - FR-LIB-HAD-MUSLIM-0858 records the very long report about al-Hudaybiya and later events as a Needs Mo hold because it contains a Quran quotation from 48:24. The entire French entry remains blank pending an attributed and authorized French Quran translation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1807b-1812a
+
+- FR-LIB-HAD-MUSLIM-0859 saves four private French drafts about women accompanying expeditions, service at Uhud, and questions addressed to Ibn ‘Abbâs. The Quran-quoting entry and chain-only cross-reference remain entirely blank under Needs Mo with specific reasons. No database write or publication occurred.

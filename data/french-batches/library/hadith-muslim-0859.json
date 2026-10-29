@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0859",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:03:11.167Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "db85048f-e916-4601-a745-96a7a4a5b48a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1807b",
+      "reference": "Sahih Muslim, hadith 1807 b, book 32, باب غَزْوَةِ ذِي قَرَدٍ وَغَيْرِهَا ‏‏",
+      "title": "باب غَزْوَةِ ذِي قَرَدٍ وَغَيْرِهَا ‏‏",
+      "source_published": true,
+      "text_original": "قَالَ إِبْرَاهِيمُ حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، عَنْ عِكْرِمَةَ، بْنِ عَمَّارٍ بِهَذَا الْحَدِيثِ بِطُولِهِ ‏.‏ وَحَدَّثَنَا أَحْمَدُ بْنُ يُوسُفَ الأَزْدِيُّ السُّلَمِيُّ، حَدَّثَنَا النَّضْرُ بْنُ مُحَمَّدٍ، عَنْ عِكْرِمَةَ بْنِ، عَمَّارٍ بِهَذَا ‏.‏",
+      "source_hash_sha256": "275d3c55fa807682f84dcff7ee148c5603f63be3091795d5bde55cd5f4e62f5a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only_cross_reference",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0b52158c-efee-47c5-994e-f800f58e246b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1808",
+      "reference": "Sahih Muslim, hadith 1808, book 32, باب قَوْلِ اللَّهِ تَعَالَى: {وَهُوَ الَّذِي كَفَّ أَيْدِيَهُمْ عَنْكُمْ} الآيَةَ:",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى: {وَهُوَ الَّذِي كَفَّ أَيْدِيَهُمْ عَنْكُمْ} الآيَةَ:",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرُو بْنُ مُحَمَّدٍ النَّاقِدُ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ ثَمَانِينَ، رَجُلاً مِنْ أَهْلِ مَكَّةَ هَبَطُوا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مِنْ جَبَلِ التَّنْعِيمِ مُتَسَلِّحِينَ يُرِيدُونَ غِرَّةَ النَّبِيِّ صلى الله عليه وسلم وَأَصْحَابِهِ فَأَخَذَهُمْ سَلَمًا فَاسْتَحْيَاهُمْ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"48\" aya_start=\"24\" aya_end=\"24\"]{‏ وَهُوَ الَّذِي كَفَّ أَيْدِيَهُمْ عَنْكُمْ وَأَيْدِيَكُمْ عَنْهُمْ بِبَطْنِ مَكَّةَ مِنْ بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ‏}‏",
+      "source_hash_sha256": "47dfa8b2423b8423a62ba1c2ec4f48afe5adb3232e2e9d7d6b70e74681f8a824",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "04480799-13ca-4f8b-8b20-bf52eed48f32",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1809a",
+      "reference": "Sahih Muslim, hadith 1809 a, b, book 32, باب غَزْوَةِ النِّسَاءِ مَعَ الرِّجَالِ ‏‏",
+      "title": "باب غَزْوَةِ النِّسَاءِ مَعَ الرِّجَالِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَنَسٍ، أَنَّ أُمَّ سُلَيْمٍ، اتَّخَذَتْ يَوْمَ حُنَيْنٍ خِنْجَرًا فَكَانَ مَعَهَا فَرَآهَا أَبُو طَلْحَةَ فَقَالَ يَا رَسُولَ اللَّهِ هَذِهِ أُمُّ سُلَيْمٍ مَعَهَا خَنْجَرٌ فَقَالَ لَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا هَذَا الْخَنْجَرُ ‏\"‏ ‏.‏ قَالَتِ اتَّخَذْتُهُ إِنْ دَنَا مِنِّي أَحَدٌ مِنَ الْمُشْرِكِينَ بَقَرْتُ بِهِ بَطْنَهُ ‏.‏ فَجَعَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَضْحَكُ قَالَتْ يَا رَسُولَ اللَّهِ اقْتُلْ مَنْ بَعْدَنَا مِنَ الطُّلَقَاءِ انْهَزَمُوا بِكَ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَا أُمَّ سُلَيْمٍ إِنَّ اللَّهَ قَدْ كَفَى وَأَحْسَنَ ‏\"‏ ‏.‏ وَحَدَّثَنِيهِ مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، أَخْبَرَنَا إِسْحَاقُ بْنُ، عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ عَنْ أَنَسِ بْنِ مَالِكٍ، فِي قِصَّةِ أُمِّ سُلَيْمٍ عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَ حَدِيثِ ثَابِتٍ ‏.‏",
+      "source_hash_sha256": "4c4cd63b1a7b2816b7017d70e51ea1fbc0cb0837dcd7ffd10e40ceff5bdc2a9d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Yazîd ibn Hârûn nous a rapporté : Hammâd ibn Salama nous a informés, d’après Thâbit, d’après Anas : Le jour de Hunayn, Umm Sulaym avait pris un poignard et le portait avec elle. Abû Talha la vit et dit : « Ô Messager d’Allah, voici Umm Sulaym qui porte un poignard. » Le Messager d’Allah lui demanda : « Pourquoi as-tu pris ce poignard ? » Elle répondit : « Je l’ai pris pour éventrer quiconque parmi les polythéistes s’approcherait de moi. » Le Messager d’Allah se mit à rire. Elle dit : « Ô Messager d’Allah, tue ceux des affranchis qui sont derrière nous : ils t’ont abandonné dans leur fuite. » Le Messager d’Allah répondit : « Ô Umm Sulaym, Allah a suffi et a bien agi. » Muhammad ibn Hâtim nous a également rapporté : Bahz nous a rapporté : Hammâd ibn Salama nous a rapporté : Ishâq ibn ‘Abd Allah ibn Abî Talha nous a informés, d’après Anas ibn Mâlik, au sujet de l’histoire d’Umm Sulaym, d’après le Prophète, un récit semblable à celui de Thâbit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "294419d3-b43f-4c40-a9af-426747c5ba55",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1810",
+      "reference": "Sahih Muslim, hadith 1810, book 32, باب غَزْوَةِ النِّسَاءِ مَعَ الرِّجَالِ ‏‏",
+      "title": "باب غَزْوَةِ النِّسَاءِ مَعَ الرِّجَالِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، عَنْ ثَابِتٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَغْزُو بِأُمِّ سُلَيْمٍ وَنِسْوَةٍ مِنَ الأَنْصَارِ مَعَهُ إِذَا غَزَا فَيَسْقِينَ الْمَاءَ وَيُدَاوِينَ الْجَرْحَى ‏.‏",
+      "source_hash_sha256": "e3b16926bf59fcbe361dfc137be19627f3bfef5464e5b629c8f42b59d5ed639e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ nous a rapporté : Ja‘far ibn Sulaymân nous a informés, d’après Thâbit, d’après Anas ibn Mâlik, qui a dit : Lorsque le Messager d’Allah partait en expédition, Umm Sulaym et des femmes des Ansâr l’accompagnaient. Elles donnaient de l’eau à boire et soignaient les blessés.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ce6f087f-ecfc-4303-994a-db9a56a61a49",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1811",
+      "reference": "Sahih Muslim, hadith 1811, book 32, باب غَزْوَةِ النِّسَاءِ مَعَ الرِّجَالِ ‏‏",
+      "title": "باب غَزْوَةِ النِّسَاءِ مَعَ الرِّجَالِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَمْرٍو، - وَهُوَ أَبُو مَعْمَرٍ الْمِنْقَرِيُّ - حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - وَهُوَ ابْنُ صُهَيْبٍ - عَنْ أَنَسِ، بْنِ مَالِكٍ قَالَ لَمَّا كَانَ يَوْمُ أُحُدٍ انْهَزَمَ نَاسٌ مِنَ النَّاسِ عَنِ النَّبِيِّ صلى الله عليه وسلم وَأَبُو طَلْحَةَ بَيْنَ يَدَىِ النَّبِيِّ صلى الله عليه وسلم مُجَوِّبٌ عَلَيْهِ بِحَجَفَةٍ - قَالَ - وَكَانَ أَبُو طَلْحَةَ رَجُلاً رَامِيًا شَدِيدَ النَّزْعِ وَكَسَرَ يَوْمَئِذٍ قَوْسَيْنِ أَوْ ثَلاَثًا - قَالَ - فَكَانَ الرَّجُلُ يَمُرُّ مَعَهُ الْجَعْبَةُ مِنَ النَّبْلِ فَيَقُولُ انْثُرْهَا لأَبِي طَلْحَةَ ‏.‏ قَالَ وَيُشْرِفُ نَبِيُّ اللَّهِ صلى الله عليه وسلم يَنْظُرُ إِلَى الْقَوْمِ فَيَقُولُ أَبُو طَلْحَةَ يَا نَبِيَّ اللَّهِ بِأَبِي أَنْتَ وَأُمِّي لاَ تُشْرِفْ لاَ يُصِبْكَ سَهْمٌ مِنْ سِهَامِ الْقَوْمِ نَحْرِي دُونَ نَحْرِكَ قَالَ وَلَقَدْ رَأَيْتُ عَائِشَةَ بِنْتَ أَبِي بَكْرٍ وَأُمَّ سُلَيْمٍ وَإِنَّهُمَا لَمُشَمِّرَتَانِ أَرَى خَدَمَ سُوقِهِمَا تَنْقُلاَنِ الْقِرَبَ عَلَى مُتُونِهِمَا ثُمَّ تُفْرِغَانِهِ فِي أَفْوَاهِهِمْ ثُمَّ تَرْجِعَانِ فَتَمْلآنِهَا ثُمَّ تَجِيئَانِ تُفْرِغَانِهِ فِي أَفْوَاهِ الْقَوْمِ وَلَقَدْ وَقَعَ السَّيْفُ مِنْ يَدَىْ أَبِي طَلْحَةَ إِمَّا مَرَّتَيْنِ وَإِمَّا ثَلاَثًا مِنَ النُّعَاسِ ‏.‏",
+      "source_hash_sha256": "66f06edd8be39c194e60002bd171b0dff1c4d91eb89648ccca81e94fe3c12db6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn ‘Abd al-Rahmân al-Dârimî nous a rapporté : ‘Abd Allah ibn ‘Amr — Abû Ma‘mar al-Minqarî — nous a rapporté : ‘Abd al-Wârith nous a rapporté : ‘Abd al-‘Azîz — Ibn Suhayb — nous a rapporté, d’après Anas ibn Mâlik, qui a dit : Le jour d’Uhud, des gens s’enfuirent en abandonnant le Prophète. Abû Talha se tenait devant le Prophète, le protégeant avec son bouclier. Abû Talha était un excellent archer qui bandait fortement son arc ; ce jour-là, il en brisa deux ou trois. Chaque fois qu’un homme passait avec un carquois de flèches, il disait : « Verse-les devant Abû Talha. » Le Prophète se penchait pour regarder les gens. Abû Talha lui disait : « Que mon père et ma mère soient ta rançon, ô Prophète d’Allah ! Ne te penche pas, de peur qu’une flèche ennemie ne t’atteigne. Ma poitrine protège la tienne. » J’ai vu ‘Â’isha, fille d’Abû Bakr, et Umm Sulaym, les vêtements retroussés au point que je voyais leurs bracelets de cheville. Elles portaient les outres d’eau sur leur dos, les vidaient dans la bouche des combattants, puis retournaient les remplir et revenaient les leur verser dans la bouche. L’épée d’Abû Talha lui échappa des mains deux ou trois fois parce qu’il somnolait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1abfd78e-4666-4417-8d26-118c069c5844",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1812a",
+      "reference": "Sahih Muslim, hadith 1812 a, book 32, باب النِّسَاءُ الْغَازِيَاتُ يُرْضَخُ لَهُنَّ وَلاَ يُسْهَمُ وَالنَّهْىُ عَنْ قَتْلِ صِبْيَانِ أَهْلِ الْحَرْبِ",
+      "title": "باب النِّسَاءُ الْغَازِيَاتُ يُرْضَخُ لَهُنَّ وَلاَ يُسْهَمُ وَالنَّهْىُ عَنْ قَتْلِ صِبْيَانِ أَهْلِ الْحَرْبِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا سُلَيْمَانُ، - يَعْنِي ابْنَ بِلاَلٍ - عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ يَزِيدَ بْنِ هُرْمُزَ، أَنَّ نَجْدَةَ، كَتَبَ إِلَى ابْنِ عَبَّاسٍ يَسْأَلُهُ عَنْ خَمْسِ، خِلاَلٍ ‏.‏ فَقَالَ ابْنُ عَبَّاسٍ لَوْلاَ أَنْ أَكْتُمَ، عِلْمًا مَا كَتَبْتُ إِلَيْهِ ‏.‏ كَتَبَ إِلَيْهِ نَجْدَةُ أَمَّا بَعْدُ فَأَخْبِرْنِي هَلْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَغْزُو بِالنِّسَاءِ وَهَلْ كَانَ يَضْرِبُ لَهُنَّ بِسَهْمٍ وَهَلْ كَانَ يَقْتُلُ الصِّبْيَانَ وَمَتَى يَنْقَضِي يُتْمُ الْيَتِيمِ وَعَنِ الْخُمْسِ لِمَنْ هُوَ فَكَتَبَ إِلَيْهِ ابْنُ عَبَّاسٍ كَتَبْتَ تَسْأَلُنِي هَلْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَغْزُو بِالنِّسَاءِ وَقَدْ كَانَ يَغْزُو بِهِنَّ فَيُدَاوِينَ الْجَرْحَى وَيُحْذَيْنَ مِنَ الْغَنِيمَةِ وَأَمَّا بِسَهْمٍ فَلَمْ يَضْرِبْ لَهُنَّ وَإِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم لَمْ يَكُنْ يَقْتُلُ الصِّبْيَانَ فَلاَ تَقْتُلِ الصِّبْيَانَ وَكَتَبْتَ تَسْأَلُنِي مَتَى يَنْقَضِي يُتْمُ الْيَتِيمِ فَلَعَمْرِي إِنَّ الرَّجُلَ لَتَنْبُتُ لِحْيَتُهُ وَإِنَّهُ لَضَعِيفُ الأَخْذِ لِنَفْسِهِ ضَعِيفُ الْعَطَاءِ مِنْهَا فَإِذَا أَخَذَ لِنَفْسِهِ مِنْ صَالِحِ مَا يَأْخُذُ النَّاسُ فَقَدْ ذَهَبَ عَنْهُ الْيُتْمُ وَكَتَبْتَ تَسْأَلُنِي عَنِ الْخُمْسِ لِمَنْ هُوَ وَإِنَّا كُنَّا نَقُولُ هُوَ لَنَا ‏.‏ فَأَبَى عَلَيْنَا قَوْمُنَا ذَاكَ ‏.‏",
+      "source_hash_sha256": "86faa47e315045ede3a14d88c35a11c94784935fbcb89c9e78564abeaf9eb3af",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Maslama ibn Qa‘nab nous a rapporté : Sulaymân — c’est-à-dire Ibn Bilâl — nous a rapporté, d’après Ja‘far ibn Muhammad, d’après son père, d’après Yazîd ibn Hurmuz : Najda écrivit à Ibn ‘Abbâs pour l’interroger sur cinq points. Ibn ‘Abbâs dit : « Si je ne craignais pas de dissimuler un savoir, je ne lui aurais pas écrit. » Najda lui écrivit : « Pour commencer, informe-moi : le Messager d’Allah partait-il en expédition avec des femmes ? Leur attribuait-il une part du butin ? Tuait-il les enfants ? Quand l’orphelin cesse-t-il d’être orphelin ? À qui revient le cinquième ? » Ibn ‘Abbâs lui écrivit : « Tu me demandes si le Messager d’Allah partait en expédition avec des femmes. Oui, il les emmenait ; elles soignaient les blessés et recevaient un don prélevé sur le butin. Il ne leur attribuait pas une part déterminée. Le Messager d’Allah ne tuait pas les enfants ; ne tue donc pas les enfants. Tu me demandes quand l’orphelin cesse d’être orphelin. Par ma vie, un homme peut voir pousser sa barbe tout en étant encore incapable de bien gérer ses affaires et de donner de ses biens. Lorsqu’il commence à gérer ses affaires comme les gens le font justement, l’orphelinat prend fin pour lui. Tu me demandes à qui revient le cinquième. Nous disions qu’il nous revenait, mais notre peuple nous l’a refusé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "db85048f-e916-4601-a745-96a7a4a5b48a",
+      "reason": "Cette entrée donne deux chaînes de transmission et indique uniquement que la première rapporte le long récit précédent dans son intégralité, sans reproduire de contenu distinct. Garder la traduction française vide jusqu’à validation d’une source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "0b52158c-efee-47c5-994e-f800f58e246b",
+      "reason": "Cette entrée cite le verset coranique 48:24. Garder toute la traduction française vide jusqu’à validation d’une traduction française du Coran attribuée et autorisée.",
+      "status": "blocked"
+    }
+  ]
+}
