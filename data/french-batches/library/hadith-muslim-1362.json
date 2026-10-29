@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-MUSLIM-1362",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:51:21.815Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "0edf5cc9-9a00-4962-8fae-77ac6b0be3a7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3029b",
+      "reference": "Sahih Muslim, hadith 3029 b, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ}",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو كَامِلٍ الْجَحْدَرِيُّ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرٍ، أَنَّ جَارِيَةً، لِعَبْدِ اللَّهِ بْنِ أُبَىٍّ ابْنِ سَلُولَ يُقَالُ لَهَا مُسَيْكَةُ وَأُخْرَى يُقَالُ لَهَا أُمَيْمَةُ فَكَانَ يُكْرِهُهُمَا عَلَى الزِّنَى فَشَكَتَا ذَلِكَ إِلَى النَّبِيِّ صلى الله عليه وسلم فَأَنْزَلَ اللَّهُ ‏[quran sura=\"24\" aya_start=\"33\" aya_end=\"33\"]{‏ وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ‏}‏ إِلَى قَوْلِهِ ‏{‏ غَفُورٌ رَحِيمٌ‏}‏",
+      "source_hash_sha256": "9135b8f7d7712595db241d8e234af98bac5446272b30af9a3718c7f1613985be",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fe78e47e-6f91-4395-8c53-6ec3ac36e3d0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3030a",
+      "reference": "Sahih Muslim, hadith 3030 a, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمْ الْوَسِيلَةَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمْ الْوَسِيلَةَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ، فِي قَوْلِهِ عَزَّ وَجَلَّ ‏[quran sura=\"17\" aya_start=\"57\" aya_end=\"57\"]{‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمُ الْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ‏}‏ قَالَ كَانَ نَفَرٌ مِنَ الْجِنِّ أَسْلَمُوا وَكَانُوا يُعْبَدُونَ فَبَقِيَ الَّذِينَ كَانُوا يَعْبُدُونَ عَلَى عِبَادَتِهِمْ وَقَدْ أَسْلَمَ النَّفَرُ مِنَ الْجِنِّ ‏.‏",
+      "source_hash_sha256": "b0f941e2ba35f42b591988ce64761cd403c8e2287d04141c24e008139211ba01",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9999183d-d74c-4f41-b571-b0915510a6ee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3030b",
+      "reference": "Sahih Muslim, hadith 3030 b, c, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمْ الْوَسِيلَةَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمْ الْوَسِيلَةَ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ الْعَبْدِيُّ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ، ‏[quran sura=\"17\" aya_start=\"57\" aya_end=\"57\"]{‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمُ الْوَسِيلَةَ‏}‏ قَالَ كَانَ نَفَرٌ مِنَ الإِنْسِ يَعْبُدُونَ نَفَرًا مِنَ الْجِنِّ فَأَسْلَمَ النَّفَرُ مِنَ الْجِنِّ ‏.‏ وَاسْتَمْسَكَ الإِنْسُ بِعِبَادَتِهِمْ فَنَزَلَتْ ‏[quran sura=\"17\" aya_start=\"57\" aya_end=\"57\"]{‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمُ الْوَسِيلَةَ‏}‏ وَحَدَّثَنِيهِ بِشْرُ بْنُ خَالِدٍ، أَخْبَرَنَا مُحَمَّدٌ، - يَعْنِي ابْنَ جَعْفَرٍ - عَنْ شُعْبَةَ، عَنْ سُلَيْمَانَ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "7116b2bd5f1d83f3e92f81930617fe613bc5acc04f9a867c0364e2107c2bf0c9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b831cef0-caa0-41bd-93df-adebee4c8ad0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3030d",
+      "reference": "Sahih Muslim, hadith 3030 d, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمْ الْوَسِيلَةَ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمْ الْوَسِيلَةَ}",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنِي أَبِي، حَدَّثَنَا حُسَيْنٌ، عَنْ قَتَادَةَ، عَنْ عَبْدِ اللَّهِ بْنِ مَعْبَدٍ الزِّمَّانِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عُتْبَةَ، عَنْ عَبْدِ اللَّهِ بْنِ، مَسْعُودٍ ‏[quran sura=\"17\" aya_start=\"57\" aya_end=\"57\"]{‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمُ الْوَسِيلَةَ‏}‏ قَالَ نَزَلَتْ فِي نَفَرٍ مِنَ الْعَرَبِ كَانُوا يَعْبُدُونَ نَفَرًا مِنَ الْجِنِّ فَأَسْلَمَ الْجِنِّيُّونَ وَالإِنْسُ الَّذِينَ كَانُوا يَعْبُدُونَهُمْ لاَ يَشْعُرُونَ فَنَزَلَتْ ‏[quran sura=\"17\" aya_start=\"57\" aya_end=\"57\"]{‏ أُولَئِكَ الَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَى رَبِّهِمُ الْوَسِيلَةَ‏}‏",
+      "source_hash_sha256": "3cc4393b15238c3e46446c6ad1d20ea364c2284ff73422da043da661d3de8ec0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5c730f3d-96fa-4a0f-862e-84e5e2090068",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3031",
+      "reference": "Sahih Muslim, hadith 3031, book 56, باب فِي سُورَةِ بَرَاءَةَ وَالأَنْفَالِ وَالْحَشْرِ",
+      "title": "باب فِي سُورَةِ بَرَاءَةَ وَالأَنْفَالِ وَالْحَشْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُطِيعٍ، حَدَّثَنَا هُشَيْمٌ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، قَالَ قُلْتُ لاِبْنِ عَبَّاسٍ سُورَةُ التَّوْبَةِ قَالَ آلتَّوْبَةِ قَالَ بَلْ هِيَ الْفَاضِحَةُ مَا زَالَتْ تَنْزِلُ وَمِنْهُمْ وَمِنْهُمْ ‏.‏ حَتَّى ظَنُّوا أَنْ لاَ يَبْقَى مِنَّا أَحَدٌ إِلاَّ ذُكِرَ فِيهَا ‏.‏ قَالَ قُلْتُ سُورَةُ الأَنْفَالِ قَالَ تِلْكَ سُورَةُ بَدْرٍ ‏.‏ قَالَ قُلْتُ فَالْحَشْرُ قَالَ نَزَلَتْ فِي بَنِي النَّضِيرِ ‏.‏",
+      "source_hash_sha256": "bc342270c4e101a7003b46010a2dbd4a74e3e41af914a1090bec5d843e3bf534",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿîd ibn Jubayr dit : Je demandai à Ibn ʿAbbâs : « La sourate du Repentir ? » Il répondit : « Le Repentir ? Non, c’est la Révélatrice. Elle ne cessait de faire descendre les paroles “parmi eux, parmi eux”, au point qu’ils pensèrent qu’aucun de nous ne resterait sans y être mentionné. » Je demandai : « Et la sourate du Butin ? » Il répondit : « C’est la sourate de Badr. » Je demandai : « Et la sourate du Rassemblement ? » Il répondit : « Elle a été révélée au sujet des Banû al-Nadîr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9611dd98-819b-4c7e-8f5f-460df4fb8220",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3032a",
+      "reference": "Sahih Muslim, hadith 3032 a, book 56, باب فِي نُزُولِ تَحْرِيمِ الْخَمْرِ",
+      "title": "باب فِي نُزُولِ تَحْرِيمِ الْخَمْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنْ أَبِي حَيَّانَ، عَنِ الشَّعْبِيِّ، عَنِ ابْنِ عُمَرَ، قَالَ خَطَبَ عُمَرُ عَلَى مِنْبَرِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَحَمِدَ اللَّهَ وَأَثْنَى عَلَيْهِ ثُمَّ قَالَ أَمَّا بَعْدُ أَلاَ وَإِنَّ الْخَمْرَ نَزَلَ تَحْرِيمُهَا يَوْمَ نَزَلَ وَهْىَ مِنْ خَمْسَةِ أَشْيَاءَ مِنَ الْحِنْطَةِ وَالشَّعِيرِ وَالتَّمْرِ وَالزَّبِيبِ وَالْعَسَلِ ‏.‏ وَالْخَمْرُ مَا خَامَرَ الْعَقْلَ وَثَلاَثَةُ أَشْيَاءَ وَدِدْتُ أَيُّهَا النَّاسُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ عَهِدَ إِلَيْنَا فِيهَا الْجَدُّ وَالْكَلاَلَةُ وَأَبْوَابٌ مِنْ أَبْوَابِ الرِّبَا ‏.‏",
+      "source_hash_sha256": "e8796891cf9257af5a3adca1ed3be94896600cbcc18b860c828ba47bc80eede2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allâh ibn ʿUmar rapporte que ʿUmar prononça un sermon sur la chaire du Messager d’Allah ﷺ. Après avoir loué Allah et Lui avoir rendu grâce, il dit : « Ensuite, sachez que l’interdiction du vin a été révélée alors que le vin était préparé à partir de cinq choses : le blé, l’orge, les dattes, les raisins secs et le miel. Le vin, c’est ce qui trouble la raison. Il y a trois questions sur lesquelles j’aurais souhaité que le Messager d’Allah ﷺ nous laisse des instructions : la part successorale du grand-père, le cas de la succession sans ascendants ni descendants directs, et certains aspects de l’usure. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0edf5cc9-9a00-4962-8fae-77ac6b0be3a7",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 24:33 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "fe78e47e-6f91-4395-8c53-6ec3ac36e3d0",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 17:57 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "9999183d-d74c-4f41-b571-b0915510a6ee",
+      "status": "blocked",
+      "reason": "Le récit intègre deux citations du verset 17:57 du Coran. La formulation française autorisée et l’attribution de ces citations doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "b831cef0-caa0-41bd-93df-adebee4c8ad0",
+      "status": "blocked",
+      "reason": "Le récit intègre deux citations du verset 17:57 du Coran. La formulation française autorisée et l’attribution de ces citations doivent être confirmées avant de traduire le rapport."
+    }
+  ]
+}

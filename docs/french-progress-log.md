@@ -13718,3 +13718,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Batch FR-LIB-HAD-MUSLIM-1361 contains six reports. Five contain Quran quotations; one contains only transmission and variant details without the full report. All six remain blank under Needs Mo pending authorized Quran wording or complete-text confirmation.
 - Focused French hadith validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. No private local drafts were added in this batch.
 - Reconciled saved records: 6335 Bukhari and 5260 Muslim drafts (11595 total); 3000 held Needs Mo; 14594 sources represented; 35 not yet exported. Local records without French drafts: 3034. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Muslim 3029b-3032a, batch 1362
+
+- Batch FR-LIB-HAD-MUSLIM-1362 contains six reports. Two complete reports without Quran quotations are translated. Four reports containing Quran quotations remain blank under Needs Mo pending authorized French wording and attribution.
+- Focused French hadith validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Two private local drafts saved.
+- Reconciled saved records: 6335 Bukhari and 5262 Muslim drafts (11597 total); 3004 held Needs Mo; 14600 sources represented; 29 not yet exported. Local records without French drafts: 3032. All 14,629 remain missing from the live French table.
