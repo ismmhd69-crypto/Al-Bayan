@@ -1,0 +1,69 @@
+{
+  "batch_id": "HADITH-MUSLIM-1341",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:43:09.007Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9d441e1f-fe3f-4108-bed4-679a395130f8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2963b",
+      "reference": "Sahih Muslim, hadith 2963 b, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ أَبِي الزِّنَادِ سَوَاءً ‏.‏",
+      "source_hash_sha256": "845ec1b7e59f7ac10206dce618e7f6446cd67a3f96d25357c43b0cc492faa4d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c5f47fac-d501-4707-aea5-50cf23514db2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2963c",
+      "reference": "Sahih Muslim, hadith 2963 c, book 55, كتاب الزهد والرقائق",
+      "title": "كتاب الزهد والرقائق",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبُو مُعَاوِيَةَ، وَوَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ انْظُرُوا إِلَى مَنْ أَسْفَلَ مِنْكُمْ وَلاَ تَنْظُرُوا إِلَى مَنْ هُوَ فَوْقَكُمْ فَهُوَ أَجْدَرُ أَنْ لاَ تَزْدَرُوا نِعْمَةَ اللَّهِ ‏\"‏ ‏.‏ قَالَ أَبُو مُعَاوِيَةَ ‏\"‏ عَلَيْكُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "149a0c011cd0d1e89a9d85e775885e6446b3b5690880f3b64c293a2ff7ddeb25",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Regardez ceux qui sont en dessous de vous et ne regardez pas ceux qui sont au-dessus de vous. Vous serez ainsi moins enclins à déprécier la faveur qu’Allah vous a accordée. » Abu Muawiya rapporte la variante : « qui vous a été accordée ». ",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "9d441e1f-fe3f-4108-bed4-679a395130f8",
+      "status": "blocked",
+      "reason": "Cette entrée indique seulement qu’elle transmet le même récit que la version précédente, sans en reproduire le texte. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
