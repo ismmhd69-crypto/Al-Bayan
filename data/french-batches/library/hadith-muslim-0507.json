@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0507",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:43:16.636Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "e5a5169f-9e50-4420-91ac-38b50c0c10df",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1163a",
+      "reference": "Sahih Muslim, hadith 1163 a, book 13, باب فَضْلِ صَوْمِ الْمُحَرَّمِ ‏",
+      "title": "باب فَضْلِ صَوْمِ الْمُحَرَّمِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، الْحِمْيَرِيِّ عَنْ أَبِي هُرَيْرَةَ، - رضى الله عنه - قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَفْضَلُ الصِّيَامِ بَعْدَ رَمَضَانَ شَهْرُ اللَّهِ الْمُحَرَّمُ وَأَفْضَلُ الصَّلاَةِ بَعْدَ الْفَرِيضَةِ صَلاَةُ اللَّيْلِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "1c65e619049ccec2b25302002893d2e5b3e6008759e63d6fd17eb6787b50f2ee",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id m’a rapporté : Abu ‘Awana nous a rapporté, d’après Abu Bishr, d’après Humayd ibn ‘Abd al-Rahman al-Himyari, d’après Abu Hurayra, qu’Allah l’agrée, qui a dit : le Messager d’Allah ﷺ a dit : « Le meilleur jeûne après le Ramadan est le jeûne du mois d’Allah, al-Muharram. Et la meilleure prière après la prière obligatoire est la prière nocturne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "86432e32-c024-4c50-a0ec-3197ad2dfff6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1163b",
+      "reference": "Sahih Muslim, hadith 1163 b, book 13, باب فَضْلِ صَوْمِ الْمُحَرَّمِ ‏",
+      "title": "باب فَضْلِ صَوْمِ الْمُحَرَّمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عَبْدِ الْمَلِكِ بْنِ عُمَيْرٍ، عَنْ مُحَمَّدِ بْنِ، الْمُنْتَشِرِ عَنْ حُمَيْدِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، - رضى الله عنه - يَرْفَعُهُ قَالَ سُئِلَ أَىُّ الصَّلاَةِ أَفْضَلُ بَعْدَ الْمَكْتُوبَةِ وَأَىُّ الصِّيَامِ أَفْضَلُ بَعْدَ شَهْرِ رَمَضَانَ فَقَالَ ‏\"‏ أَفْضَلُ الصَّلاَةِ بَعْدَ الصَّلاَةِ الْمَكْتُوبَةِ الصَّلاَةُ فِي جَوْفِ اللَّيْلِ وَأَفْضَلُ الصِّيَامِ بَعْدَ شَهْرِ رَمَضَانَ صِيَامُ شَهْرِ اللَّهِ الْمُحَرَّمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5cde1f91f12a4420ef7b4ecdc8397db1729efeac5dabecfe3d21c8d834ff4569",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m’a rapporté : Jarir nous a rapporté, d’après ‘Abd al-Malik ibn ‘Umayr, d’après Muhammad ibn al-Muntashir, d’après Humayd ibn ‘Abd al-Rahman, d’après Abu Hurayra, qu’Allah l’agrée, qui rapporte ces paroles du Prophète ﷺ : on lui demanda quelle était la meilleure prière après la prière obligatoire et quel était le meilleur jeûne après le mois de Ramadan. Il répondit : « La meilleure prière après la prière obligatoire est celle accomplie au cœur de la nuit, et le meilleur jeûne après le mois de Ramadan est le jeûne du mois d’Allah, al-Muharram. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed04b8da-441d-4932-93b8-06c2a779a6b0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1163c",
+      "reference": "Sahih Muslim, hadith 1163 c, book 13, باب فَضْلِ صَوْمِ الْمُحَرَّمِ ‏",
+      "title": "باب فَضْلِ صَوْمِ الْمُحَرَّمِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا حُسَيْنُ بْنُ عَلِيٍّ، عَنْ زَائِدَةَ، عَنْ عَبْدِ الْمَلِكِ، بْنِ عُمَيْرٍ بِهَذَا الإِسْنَادِ فِي ذِكْرِ الصِّيَامِ عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "5f269af9cc5265f595c4f16159c50550e9cefb3299fc105ff61b61ae6dc8c13e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a8200841-b58f-45b9-9e29-d4b468e5db0a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1164a",
+      "reference": "Sahih Muslim, hadith 1164 a, book 13, باب اسْتِحْبَابِ صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ اتِّبَاعًا لِرَمَضَانَ ‏",
+      "title": "باب اسْتِحْبَابِ صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ اتِّبَاعًا لِرَمَضَانَ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَعَلِيُّ بْنُ حُجْرٍ، جَمِيعًا عَنْ إِسْمَاعِيلَ، - قَالَ ابْنُ أَيُّوبَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ جَعْفَرٍ، - أَخْبَرَنِي سَعْدُ بْنُ سَعِيدِ بْنِ قَيْسٍ، عَنْ عُمَرَ، بْنِ ثَابِتِ بْنِ الْحَارِثِ الْخَزْرَجِيِّ عَنْ أَبِي أَيُّوبَ الأَنْصَارِيِّ، - رضى الله عنه - أَنَّهُ حَدَّثَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ صَامَ رَمَضَانَ ثُمَّ أَتْبَعَهُ سِتًّا مِنْ شَوَّالٍ كَانَ كَصِيَامِ الدَّهْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8c72327a0b5485f41e3535000313ca379208206f7fafdfa65aed67ed5b5d1d11",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub, Qutayba ibn Sa‘id et ‘Ali ibn Hujr nous ont rapporté, tous d’après Isma‘il. Ibn Ayyub dit : Isma‘il ibn Ja‘far nous a rapporté : Sa‘d ibn Sa‘id ibn Qays m’a informé, d’après ‘Umar ibn Thabit ibn al-Harith al-Khazraji, d’après Abu Ayyub al-Ansari, qu’Allah l’agrée, qui lui avait rapporté que le Messager d’Allah ﷺ a dit : « Celui qui jeûne le Ramadan puis le fait suivre de six jours de Shawwal, c’est comme s’il avait jeûné toute l’année. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0fe79b91-4cb9-4224-a218-32f985ed3691",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1164b",
+      "reference": "Sahih Muslim, hadith 1164 b, book 13, باب اسْتِحْبَابِ صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ اتِّبَاعًا لِرَمَضَانَ ‏",
+      "title": "باب اسْتِحْبَابِ صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ اتِّبَاعًا لِرَمَضَانَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا سَعْدُ بْنُ سَعِيدٍ، أَخُو يَحْيَى بْنِ سَعِيدٍ أَخْبَرَنَا عُمَرُ بْنُ ثَابِتٍ، أَخْبَرَنَا أَبُو أَيُّوبَ الأَنْصَارِيُّ، - رضى الله عنه - قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏.‏ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "b9b485f1d4ebf51c4b74ae547e8134bdb0a47f77a563073145606d7e8ac54a64",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eedd25ac-b22b-4c32-a7dd-a4512df54fbf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1164c",
+      "reference": "Sahih Muslim, hadith 1164 c, book 13, باب اسْتِحْبَابِ صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ اتِّبَاعًا لِرَمَضَانَ ‏",
+      "title": "باب اسْتِحْبَابِ صَوْمِ سِتَّةِ أَيَّامٍ مِنْ شَوَّالٍ اتِّبَاعًا لِرَمَضَانَ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، عَنْ سَعْدِ بْنِ سَعِيدٍ، قَالَ سَمِعْتُ عُمَرَ بْنَ ثَابِتٍ، قَالَ سَمِعْتُ أَبَا أَيُّوبَ، - رضى الله عنه - يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "674755a528d85c31e13e1c58e32f53ae52fdf4e0a3d0c7bf2f5ac7c7938ab96a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ed04b8da-441d-4932-93b8-06c2a779a6b0",
+      "reason": "La source renvoie au récit précédent (« semblable ») et ne reproduit pas le texte complet. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    },
+    {
+      "source_id": "0fe79b91-4cb9-4224-a218-32f985ed3691",
+      "reason": "La source renvoie au récit précédent (« semblable ») et ne reproduit pas le texte complet. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    },
+    {
+      "source_id": "eedd25ac-b22b-4c32-a7dd-a4512df54fbf",
+      "reason": "La source renvoie au récit précédent (« semblable ») et ne reproduit pas le texte complet. Garder la traduction française vide jusqu’à disponibilité du contenu intégral correspondant."
+    }
+  ]
+}

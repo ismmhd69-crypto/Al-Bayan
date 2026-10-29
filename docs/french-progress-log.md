@@ -9661,3 +9661,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0506 saves three private French drafts about fasting patterns and the merits of Monday, ‘Arafat, and ‘Ashura. Muslim 1161e and 1162c–d provide only transmission or variant details without the complete report; they remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1163a–1164c
+
+- FR-LIB-HAD-MUSLIM-0507 saves three private French drafts about night prayer, fasting in al-Muharram, and six days of Shawwal. Muslim 1163c and 1164b–c only refer to earlier reports and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
