@@ -11898,3 +11898,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2075b-2076e
 
 - FR-LIB-HAD-MUSLIM-0984 saves three complete private French drafts about the limited permission to wear silk for irritation or illness. Three entries that only refer back to full reports remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2077a-2078c
+
+- FR-LIB-HAD-MUSLIM-0985 saves five complete private French drafts about safflower-dyed clothing, gold, and recitation during prayer. One entry that only gives transmission details remains blank with a specific Needs Mo reason. No database write or publication occurred.
