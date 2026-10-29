@@ -18636,6 +18636,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-865",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-865.json",
+      "sourceIds": [
+        "f5ddff5d-c96d-4255-acc0-68c1e21af338",
+        "7e089bf0-5273-4575-92fc-381cc36dad69",
+        "e196c077-f139-4b62-b5d2-b458bcb4bdc1",
+        "1867c8f3-fa6b-40a2-9e99-2cec22c51572"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -20258,9 +20277,21 @@
       "scope": "Sahih al-Bukhari 4744: direct Quran quotation from 22:19",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 22:19. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-864, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4747-QURAN-24-6-24-9",
+      "scope": "Sahih al-Bukhari 4747: direct Quran quotation from 24:6, 24:9",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 24:6, 24:9. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-865, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4749-QURAN-24-11",
+      "scope": "Sahih al-Bukhari 4749: direct Quran quotation from 24:11",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 24:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-865, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4021,
-  "hadithLocalDrafted": 4021,
-  "hadithLocalRemaining": 10646
+  "hadithBukhariDrafted": 4023,
+  "hadithLocalDrafted": 4023,
+  "hadithLocalRemaining": 10644
 }
