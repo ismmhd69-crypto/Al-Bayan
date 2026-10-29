@@ -1594,3 +1594,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-336` saves six private French drafts for Bukhari 1957–1962. It preserves the uncertainty about whether the fast was made up in 1959 and the alternate wording about continuous fasting in 1961.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,779 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,850, including held records.
+### 2026-10-29: Bukhari 1963–1968 source review
+
+- `FR-LIB-HAD-BUKHARI-337` saves six private French drafts for Bukhari 1963–1968. It retains the different accounts about continuous fasting, the compiler’s wording note in 1964, and the full account of Salman and Abu al-Darda’ in 1968.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,785 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,844, including held records.
