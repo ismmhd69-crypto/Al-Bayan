@@ -2456,3 +2456,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-508` saves six private French drafts about preparing for Tabûk, the usual travel day, prayers on the road, the Hajj journey and fasting in Ramadan while travelling.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,658 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 11,997, including held records.
+
+### 2026-10-29: Bukhari 2954–2960 source review
+
+- `FR-LIB-HAD-BUKHARI-509` saves six private French drafts about a corrected order, obedience, leadership, the pledge under the tree and the events of al-Harra.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,664 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 171. Total local hadith rows not drafted: 11,991, including held records.
