@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T21:51:48.832Z",
+  "lastReconciled": "2026-10-29T21:52:53.754Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -59,14 +59,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4769,
+    "hadithMuslimDrafted": 4772,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11105,
+    "hadithLocalDrafted": 11108,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3524,
-    "hadithNeedsMo": 2711,
+    "hadithLocalRemaining": 3521,
+    "hadithNeedsMo": 2714,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden."
   },
@@ -49816,6 +49816,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1214",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1214.json",
+      "sourceIds": [
+        "70598cde-8b48-42f4-82f5-cedea183bf2d",
+        "3c90f0cb-8641-4390-a97a-05a657b7b57a",
+        "8de23536-45b1-4237-96c3-6242ce7861ec",
+        "81e708d6-d5d9-4945-a053-c5c5128ee2c8",
+        "01f43b75-728f-40a0-8c99-9a4f1159e499",
+        "8c114a3e-c58b-4649-94c6-c2a05d6d1d9c"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 3,
+      "failed": 0,
+      "remaining": 3521,
+      "validation": "Three complete reports translated and reread against Arabic, preserving their chains and separate wording. Three reference or transmission-only variants held blank. Source IDs and hashes, private unpublished state, rights metadata, focused validator, and git diff check passed. No insert attempted because the live schema and rights block it.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -54123,8 +54147,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 11105,
-  "hadithLocalRemaining": 3524,
+  "hadithLocalDrafted": 11108,
+  "hadithLocalRemaining": 3521,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -60154,13 +60178,31 @@
       "scope": "Sahih Muslim 2637b; source ID d3f67970-88c6-467c-8645-758335230c70",
       "status": "blocked",
       "reason": "This entry contains several transmission chains and notes that one version omits the passage about hatred, but does not include the complete report text."
+    },
+    {
+      "id": "HADITH-MUSLIM-2639E-REFERENCE-VARIANT",
+      "scope": "Sahih Muslim 2639e; source ID 8de23536-45b1-4237-96c3-6242ce7861ec",
+      "reason": "This entry provides a transmission chain and says that the report omits a quoted phrase and what follows, but does not reproduce the complete report.",
+      "status": "blocked"
+    },
+    {
+      "id": "HADITH-MUSLIM-2639G-REFERENCE-VARIANT",
+      "scope": "Sahih Muslim 2639g; source ID 01f43b75-728f-40a0-8c99-9a4f1159e499",
+      "reason": "This entry contains only a transmission chain followed by a reference to a similar report, without reproducing its text.",
+      "status": "blocked"
+    },
+    {
+      "id": "HADITH-MUSLIM-2639H-REFERENCE-VARIANT",
+      "scope": "Sahih Muslim 2639h; source ID 8c114a3e-c58b-4649-94c6-c2a05d6d1d9c",
+      "reason": "This entry contains transmission chains and says they carry this report, but does not reproduce the report text.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 4769,
+  "hadithMuslimDrafted": 4772,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 2711,
+  "hadithNeedsMo": 2714,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 13816,
-  "hadithSourcesNotYetExported": 813
+  "hadithSourcesProcessed": 13822,
+  "hadithSourcesNotYetExported": 807
 }
