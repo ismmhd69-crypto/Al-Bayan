@@ -10051,3 +10051,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0584 saves six private French drafts about preparing and sending the sacrificial animals. All six source reports are complete.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1321m–1323a
+
+- FR-LIB-HAD-MUSLIM-0585 saves four private French drafts about the sacrificial animals sent ahead and riding a sacrificial camel. Muslim 1321n and 1322b contain only cross-references or an incomplete opening and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

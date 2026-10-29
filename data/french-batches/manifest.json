@@ -41102,6 +41102,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0585",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0585.json",
+      "sourceIds": [
+        "9949847f-248c-4603-8453-103ac4ba88e2",
+        "a15fe54a-116c-43f7-b70e-fffe47ea48e3",
+        "b9e15c21-aab5-4445-9eca-d75218311c48",
+        "8c469a22-371b-4bf6-b54e-3bd6285c5845",
+        "80029d80-d6f0-43ac-b59c-ff2e4a94df3f",
+        "dcba81b7-66d3-48c2-9176-6136ef3fcc3b"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45409,8 +45430,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8668,
-  "hadithLocalRemaining": 5961,
+  "hadithLocalDrafted": 8672,
+  "hadithLocalRemaining": 5957,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49102,10 +49123,20 @@
       "source_id": "0eb84a9f-b27e-4327-bee7-d1a521824901",
       "reason": "La source ne donne que la chaîne de transmission et renvoie au récit précédent (« semblable »), sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "a15fe54a-116c-43f7-b70e-fffe47ea48e3",
+      "reason": "La source ne fournit que la chaîne de transmission et renvoie au récit précédent (« semblable »), sans reprendre son contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "8c469a22-371b-4bf6-b54e-3bd6285c5845",
+      "reason": "La source ne donne que la chaîne de transmission et le début (« un homme menait un chameau sacrificiel muni de sa guirlande »), puis renvoie à la version précédente sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte complet.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2332,
+  "hadithMuslimDrafted": 2336,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1031
+  "hadithNeedsMo": 1033
 }
