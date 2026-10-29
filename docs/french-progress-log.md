@@ -756,3 +756,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-144` saves five private French drafts for Bukhari 801–805. It preserves the similar durations of prayer positions, Malik ibn al-Huwayrith’s demonstration, Abu Hurayra’s takbir sequence, the named supplication and the narrator variants about the Prophet’s injury.
 - The five-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 747 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,882, including held records.
+### 2026-10-29: Bukhari 806 source review
+
+- `FR-LIB-HAD-BUKHARI-145` saves a private French draft of Bukhari 806 as a single-record artifact because its Arabic source is over 2,000 characters. The full report’s stages, dialogue, actions and Abu Saïd/Abu Hurayra wording difference are retained.
+- The artifact passed the focused validator for Arabic hash, ID, rights metadata, private unpublished state and the single-record long-text rule. No database write or publication occurred. Bukhari local drafts: 748 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 41. Total local hadith rows not drafted: 13,881, including held records.
