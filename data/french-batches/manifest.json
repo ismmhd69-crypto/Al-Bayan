@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5912,
+    "hadithBukhariDrafted": 5918,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5912,
+    "hadithLocalDrafted": 5918,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8717,
+    "hadithLocalRemaining": 8711,
     "hadithNeedsMo": 845,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -27168,6 +27168,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1286",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1286.json",
+      "sourceIds": [
+        "a19f38b9-dba4-4f3f-bb79-7ef96460f656",
+        "6d446c99-8e24-45a7-a61b-cbe7608f881d",
+        "d1b3a017-2455-4399-a360-c77a665bdc21",
+        "795daed1-3bb7-4b93-847a-1bbb091879c5",
+        "b4db8912-085d-482f-8383-eb4860879d71",
+        "e5d6b3e7-6e25-443e-a6ed-13c75d3de4d4"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Six complete French drafts preserving uncertainty markers, distinct dream accounts, attributions and wording. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -30628,9 +30649,9 @@
       "reason": "The source ends after introducing Ibn ‘Abbâs’s answer about the dream reported from the Messenger of Allah; the report itself is absent. Keep this record blank rather than filling it from a neighboring source."
     }
   ],
-  "hadithBukhariDrafted": 5912,
-  "hadithLocalDrafted": 5912,
-  "hadithLocalRemaining": 8717,
+  "hadithBukhariDrafted": 5918,
+  "hadithLocalDrafted": 5918,
+  "hadithLocalRemaining": 8711,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
