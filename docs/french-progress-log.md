@@ -3081,3 +3081,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-633` saves six private French drafts about the coming trials and signs of prophethood.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,217 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 233. Total local hadith rows not drafted: 11,440, including held records.
+
+### 2026-10-29: Bukhari 3608–3613
+
+- `FR-LIB-HAD-BUKHARI-634` saves six private French drafts about signs of the Hour, religious trials and patience under persecution.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,223 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 233. Total local hadith rows not drafted: 11,434, including held records.
