@@ -1,0 +1,175 @@
+{
+  "batch_id": "HADITH-MUSLIM-1286",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:23:02.025Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ba425787-5e99-4e8f-a3f0-6d3f4aca3acf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2817a",
+      "reference": "Sahih Muslim, hadith 2817 a, book 52, باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "b5015a0ec56d2593efa0bb04146c7be9e74145cac101d553031abd8236ef06bf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "95ddcd7e-4c6b-46b2-9028-f1f906e7fcda",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2817b",
+      "reference": "Sahih Muslim, hadith 2817 b, book 52, باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، بِالإِسْنَادَيْنِ جَمِيعًا كَرِوَايَةِ ابْنِ نُمَيْرٍ ‏.‏",
+      "source_hash_sha256": "026841512f6dc18139d9565fac2c482ea0a6742c5d8c1670d6192d22e7220580",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "68e6742f-6fe2-4a68-b06f-851c42fadb5b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2817c",
+      "reference": "Sahih Muslim, hadith 2817 c, book 52, باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، حَدَّثَنَا مَعْقِلٌ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ لاَ يُدْخِلُ أَحَدًا مِنْكُمْ عَمَلُهُ الْجَنَّةَ وَلاَ يُجِيرُهُ مِنَ النَّارِ وَلاَ أَنَا إِلاَّ بِرَحْمَةٍ مِنَ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2ab436c095126769533125bd4acd88ac643eb4eecfd77fc7eaeee2b213481043",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Salama ibn Shabīb nous a rapporté : al-Ḥasan ibn Aʿyan nous a rapporté : Maʿqil nous a rapporté, d’après Abū al-Zubayr, d’après Jābir, qui a dit : J’ai entendu le Prophète ﷺ dire : « Aucun de vous n’entrera au Paradis par ses œuvres, et celles-ci ne le protégeront pas du Feu. Pas même moi : seule la miséricorde d’Allah me le permettra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "df4726fa-8274-4668-b624-660bdd342e7b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2818a",
+      "reference": "Sahih Muslim, hadith 2818 a, book 52, باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عَبْدُ الْعَزِيزِ بْنُ مُحَمَّدٍ، أَخْبَرَنَا مُوسَى بْنُ، عُقْبَةَ ح وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا بَهْزٌ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا مُوسَى، بْنُ عُقْبَةَ قَالَ سَمِعْتُ أَبَا سَلَمَةَ بْنَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ، يُحَدِّثُ عَنْ عَائِشَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم أَنَّهَا كَانَتْ تَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ سَدِّدُوا وَقَارِبُوا وَأَبْشِرُوا فَإِنَّهُ لَنْ يُدْخِلَ الْجَنَّةَ أَحَدًا عَمَلُهُ ‏\"‏ ‏.‏ قَالُوا وَلاَ أَنْتَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ وَلاَ أَنَا إِلاَّ أَنْ يَتَغَمَّدَنِيَ اللَّهُ مِنْهُ بِرَحْمَةٍ وَاعْلَمُوا أَنَّ أَحَبَّ الْعَمَلِ إِلَى اللَّهِ أَدْوَمُهُ وَإِنْ قَلَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ad991ccdee9f045d32e6fc1a7c254a3f84138ea90dacf981c8e020bf8aa3b3e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Ibrāhīm nous a rapporté : ʿAbd al-ʿAzīz ibn Muḥammad nous a informés, d’après Mūsā ibn ʿUqba. Muḥammad ibn Ḥātim m’a également rapporté — et sa formulation est retenue — : Bahz nous a rapporté : Wuhayb nous a rapporté : Mūsā ibn ʿUqba nous a rapporté : J’ai entendu Abū Salama ibn ʿAbd al-Raḥmān ibn ʿAwf rapporter, d’après ʿĀʾisha, épouse du Prophète ﷺ, qu’elle disait : Le Messager d’Allah ﷺ a dit : « Recherchez la justesse et rapprochez-vous-en. Recevez la bonne nouvelle : nul n’entrera au Paradis par ses œuvres. » Ils demandèrent : « Pas même toi, ô Messager d’Allah ? » Il répondit : « Pas même moi, sauf si Allah me couvre de Sa miséricorde. Sachez que l’œuvre la plus aimée d’Allah est celle que l’on accomplit avec constance, même si elle est peu abondante. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "acc07ae2-98ff-4975-a180-ffe0440be19c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2818b",
+      "reference": "Sahih Muslim, hadith 2818 b, book 52, باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "title": "باب لَنْ يَدْخُلَ أَحَدٌ الْجَنَّةَ بِعَمَلِهِ بَلْ بِرَحْمَةِ اللَّهِ تَعَالَى ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ حَسَنٌ الْحُلْوَانِيُّ، حَدَّثَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، بْنُ الْمُطَّلِبِ عَنْ مُوسَى بْنِ عُقْبَةَ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ ‏\"‏ وَأَبْشِرُوا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6fb93eda564596c6677a7074b146df9e07d78a5380542fdcf0c9f5f33735b405",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "46c38e1e-cc73-4d49-a8cb-76628557aad5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2819a",
+      "reference": "Sahih Muslim, hadith 2819 a, book 52, باب إِكْثَارِ الأَعْمَالِ وَالاِجْتِهَادِ فِي الْعِبَادَةِ ‏‏",
+      "title": "باب إِكْثَارِ الأَعْمَالِ وَالاِجْتِهَادِ فِي الْعِبَادَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ زِيَادِ بْنِ عِلاَقَةَ، عَنِ الْمُغِيرَةِ بْنِ، شُعْبَةَ أَنَّ النَّبِيَّ صلى الله عليه وسلم صَلَّى حَتَّى انْتَفَخَتْ قَدَمَاهُ فَقِيلَ لَهُ أَتَكَلَّفُ هَذَا وَقَدْ غَفَرَ اللَّهُ لَكَ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ فَقَالَ ‏\"‏ أَفَلاَ أَكُونُ عَبْدًا شَكُورًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e8a4d81776c158fc303a7af9f74b5e4ea91d88bd7953c7163c16e89f377bdde7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : Abū ʿAwāna nous a rapporté, d’après Ziyād ibn ʿIlāqa, d’après al-Mughīra ibn Shuʿba, que le Prophète ﷺ pria jusqu’à ce que ses pieds enflent. On lui dit : « T’imposes-tu cela alors qu’Allah t’a pardonné tes fautes passées et futures ? » Il répondit : « Ne serais-je donc pas un serviteur reconnaissant ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ba425787-5e99-4e8f-a3f0-6d3f4aca3acf",
+      "reason": "Cette entrée dit seulement que le récit précédent a été transmis par une autre chaîne, sans reprendre son texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "95ddcd7e-4c6b-46b2-9028-f1f906e7fcda",
+      "reason": "Cette entrée renvoie aux deux chaînes précédentes sans reproduire le récit. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "acc07ae2-98ff-4975-a180-ffe0440be19c",
+      "reason": "Cette entrée renvoie au récit précédent et précise seulement que la formule « recevez la bonne nouvelle » y est omise. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
