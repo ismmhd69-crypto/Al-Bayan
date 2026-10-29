@@ -9186,3 +9186,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0411 saves four private French drafts containing funeral supplications and the prayer over a woman who died in childbirth. Muslim 963c and 964b contain incomplete transmission variants and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1620 Muslim drafts, 7956 total hadith drafts, 6673 remaining, and 767 Needs Mo items.
+
+### 2026-10-29: Muslim 965a–969a
+
+- FR-LIB-HAD-MUSLIM-0412 saves six private French drafts about Ibn al-Dahdah’s funeral, burial practices and graves.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1626 Muslim drafts, 7962 total hadith drafts, 6667 remaining, and 767 Needs Mo items.
