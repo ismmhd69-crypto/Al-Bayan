@@ -8696,3 +8696,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0313 saves three private French drafts about voluntary dawn and daily prayers. Muslim 727b quotes Quran passages directly; 727c and 728d are incomplete cross-references. All three remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1248 Muslim drafts, 7584 total hadith drafts, 7045 remaining, and 589 Needs Mo items.
+
+### 2026-10-29: Muslim 729–730e
+
+- FR-LIB-HAD-MUSLIM-0314 saves five private French drafts about regular prayers and praying voluntary prayers seated or standing. Muslim 730c is truncated and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1253 Muslim drafts, 7589 total hadith drafts, 7040 remaining, and 590 Needs Mo items.

@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0314",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:14:41.904Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "87d1188f-dfde-4c0c-b92e-998416ef7339",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:729",
+      "reference": "Sahih Muslim, hadith 729, book 6, باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "title": "باب فَضْلِ السُّنَنِ الرَّاتِبَةِ قَبْلَ الْفَرَائِضِ وَبَعْدَهُنَّ وَبَيَانِ عَدَدِهِنَّ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ - عَنْ عُبَيْدِ اللَّهِ، قَالَ أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم قَبْلَ الظُّهْرِ سَجْدَتَيْنِ وَبَعْدَهَا سَجْدَتَيْنِ وَبَعْدَ الْمَغْرِبِ سَجْدَتَيْنِ وَبَعْدَ الْعِشَاءِ سَجْدَتَيْنِ وَبَعْدَ الْجُمُعَةِ سَجْدَتَيْنِ فَأَمَّا الْمَغْرِبُ وَالْعِشَاءُ وَالْجُمُعَةُ فَصَلَّيْتُ مَعَ النَّبِيِّ صلى الله عليه وسلم فِي بَيْتِهِ ‏.‏",
+      "source_hash_sha256": "94d2dd0eb08692dbdb76f4fac03fd09bf7fc705b3d19df516e0abdca28d04973",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et ‘Ubayd Allah ibn Sa‘id m’ont rapporté : Yahya — Ibn Sa‘id — nous a rapporté, d’après ‘Ubayd Allah, qui dit : Nafi‘ m’a informé, d’après Ibn ‘Umar. Et Abu Bakr ibn Abi Shayba nous a rapporté : Abu Usama nous a rapporté : ‘Ubayd Allah nous a rapporté, d’après Nafi‘, d’après Ibn ‘Umar. Il dit : « J’ai prié avec le Messager d’Allah ﷺ deux unités avant la prière de midi, deux après, deux après celle du coucher du soleil, deux après celle de la nuit et deux après la prière du vendredi. Pour celles du coucher du soleil, de la nuit et du vendredi, je les ai priées avec le Prophète ﷺ chez lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed2c1a55-66d2-454d-8b96-132eea39de24",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:730a",
+      "reference": "Sahih Muslim, hadith 730 a, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا هُشَيْمٌ، عَنْ خَالِدٍ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، قَالَ سَأَلْتُ عَائِشَةَ عَنْ صَلاَةِ، رَسُولِ اللَّهِ صلى الله عليه وسلم عَنْ تَطَوُّعِهِ فَقَالَتْ كَانَ يُصَلِّي فِي بَيْتِي قَبْلَ الظُّهْرِ أَرْبَعًا ثُمَّ يَخْرُجُ فَيُصَلِّي بِالنَّاسِ ثُمَّ يَدْخُلُ فَيُصَلِّي رَكْعَتَيْنِ وَكَانَ يُصَلِّي بِالنَّاسِ الْمَغْرِبَ ثُمَّ يَدْخُلُ فَيُصَلِّي رَكْعَتَيْنِ وَيُصَلِّي بِالنَّاسِ الْعِشَاءَ وَيَدْخُلُ بَيْتِي فَيُصَلِّي رَكْعَتَيْنِ وَكَانَ يُصَلِّي مِنَ اللَّيْلِ تِسْعَ رَكَعَاتٍ فِيهِنَّ الْوِتْرُ وَكَانَ يُصَلِّي لَيْلاً طَوِيلاً قَائِمًا وَلَيْلاً طَوِيلاً قَاعِدًا وَكَانَ إِذَا قَرَأَ وَهُوَ قَائِمٌ رَكَعَ وَسَجَدَ وَهُوَ قَائِمٌ وَإِذَا قَرَأَ قَاعِدًا رَكَعَ وَسَجَدَ وَهُوَ قَاعِدٌ وَكَانَ إِذَا طَلَعَ الْفَجْرُ صَلَّى رَكْعَتَيْنِ ‏.‏",
+      "source_hash_sha256": "2d26ac4bc3b83cee51c2a4fa0dba6459fc97fa0166e1206b7a8c169611fe9a10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Hushaym nous a informés, d’après Khalid, d’après ‘Abd Allah ibn Shaqiq. Il dit : « J’ai interrogé ‘A’isha au sujet de la prière du Messager d’Allah ﷺ et de ses prières surérogatoires. Elle répondit : “Il accomplissait chez moi quatre unités avant la prière de midi, puis sortait prier avec les gens. Ensuite, il rentrait et accomplissait deux unités. Il priait la prière du coucher du soleil avec les gens, puis rentrait et accomplissait deux unités. Il priait la prière de la nuit avec les gens, puis entrait chez moi et accomplissait deux unités. La nuit, il accomplissait neuf unités, dont le witr. Il lui arrivait de prier longtemps debout et longtemps assis. Lorsqu’il récitait debout, il s’inclinait et se prosternait debout ; lorsqu’il récitait assis, il s’inclinait et se prosternait assis. À l’apparition de l’aube, il accomplissait deux unités.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0b3eb7f2-4f27-4860-9f04-591de0f054b9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:730b",
+      "reference": "Sahih Muslim, hadith 730 b, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا حَمَّادٌ، عَنْ بُدَيْلٍ، وَأَيُّوبَ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي لَيْلاً طَوِيلاً فَإِذَا صَلَّى قَائِمًا رَكَعَ قَائِمًا وَإِذَا صَلَّى قَاعِدًا رَكَعَ قَاعِدًا ‏.‏",
+      "source_hash_sha256": "c6e4769ace8f86a803c66c1c3532c74b03feb0ea15774d8bbdf83a2ef0e1400e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté : Hammad nous a rapporté, d’après Budayl et Ayyub, d’après ‘Abd Allah ibn Shaqiq, d’après ‘A’isha. Elle dit : « Le Messager d’Allah ﷺ priait longtemps la nuit. Lorsqu’il priait debout, il s’inclinait debout ; lorsqu’il priait assis, il s’inclinait assis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f684495b-c1eb-4eda-abc7-1b981dc50477",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:730c",
+      "reference": "Sahih Muslim, hadith 730 c, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ بُدَيْلٍ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، قَالَ كُنْتُ شَاكِيًا بِفَارِسَ فَكُنْتُ أُصَلِّي قَاعِدًا فَسَأَلْتُ عَنْ ذَلِكَ عَائِشَةَ فَقَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصَلِّي لَيْلاً طَوِيلاً قَائِمًا ‏.‏ فَذَكَرَ الْحَدِيثَ ‏.‏",
+      "source_hash_sha256": "c9f9f1cc19b8fbe12b90e587fe8eaa033723c4df66e4a6a9d080572dad04f801",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fcf71be9-9d1e-41d2-9259-ab6e9ccbd593",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:730d",
+      "reference": "Sahih Muslim, hadith 730 d, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُعَاذُ بْنُ مُعَاذٍ، عَنْ حُمَيْدٍ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ الْعُقَيْلِيِّ، قَالَ سَأَلْتُ عَائِشَةَ عَنْ صَلاَةِ، رَسُولِ اللَّهِ صلى الله عليه وسلم بِاللَّيْلِ فَقَالَتْ كَانَ يُصَلِّي لَيْلاً طَوِيلاً قَائِمًا وَلَيْلاً طَوِيلاً قَاعِدًا وَكَانَ إِذَا قَرَأَ قَائِمًا رَكَعَ قَائِمًا وَإِذَا قَرَأَ قَاعِدًا رَكَعَ قَاعِدًا ‏.‏",
+      "source_hash_sha256": "586a4ffbbe3242ca32aa0184f8400141906c1427d7444bc78d2cc70fe0cdab18",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Mu‘adh ibn Mu‘adh nous a rapporté, d’après Humayd, d’après ‘Abd Allah ibn Shaqiq al-‘Uqayli. Il dit : « J’ai interrogé ‘A’isha au sujet de la prière nocturne du Messager d’Allah ﷺ. Elle répondit : “Il priait longtemps debout et longtemps assis. Lorsqu’il récitait debout, il s’inclinait debout ; lorsqu’il récitait assis, il s’inclinait assis.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7bf33f0f-e1da-4eba-8fc9-cc88787a7629",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:730e",
+      "reference": "Sahih Muslim, hadith 730 e, book 6, باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "title": "باب جَوَازِ النَّافِلَةِ قَائِمًا وَقَاعِدًا وَفِعْلِ بَعْضِ الرَّكْعَةِ قَائِمًا وَبَعْضِهَا قَاعِدًا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، عَنْ هِشَامِ بْنِ حَسَّانَ، عَنْ مُحَمَّدِ بْنِ سِيرِينَ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ الْعُقَيْلِيِّ، قَالَ سَأَلْنَا عَائِشَةَ عَنْ صَلاَةِ، رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُكْثِرُ الصَّلاَةَ قَائِمًا وَقَاعِدًا فَإِذَا افْتَتَحَ الصَّلاَةَ قَائِمًا رَكَعَ قَائِمًا وَإِذَا افْتَتَحَ الصَّلاَةَ قَاعِدًا رَكَعَ قَاعِدًا ‏.‏",
+      "source_hash_sha256": "37ecf2adae3f76348f23213c5dfcdf5299f39fc5c1c875b60fa3dc35f8846395",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Abu Mu‘awiya nous a informés, d’après Hisham ibn Hassan, d’après Muhammad ibn Sirin, d’après ‘Abd Allah ibn Shaqiq al-‘Uqayli. Il dit : « Nous avons interrogé ‘A’isha au sujet de la prière du Messager d’Allah ﷺ. Elle répondit : “Le Messager d’Allah ﷺ priait souvent debout et assis. Lorsqu’il commençait la prière debout, il s’inclinait debout ; lorsqu’il la commençait assis, il s’inclinait assis.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f684495b-c1eb-4eda-abc7-1b981dc50477",
+      "reason": "La source ne donne que le début du récit de ‘A’isha puis indique que la suite de la narration a été rapportée, sans la reproduire. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    }
+  ]
+}
