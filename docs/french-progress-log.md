@@ -9191,3 +9191,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0412 saves six private French drafts about Ibn al-Dahdah’s funeral, burial practices and graves.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1626 Muslim drafts, 7962 total hadith drafts, 6667 remaining, and 767 Needs Mo items.
+
+### 2026-10-29: Muslim 970a–972a
+
+- FR-LIB-HAD-MUSLIM-0413 saves four private French drafts on the treatment of graves. Muslim 970b and 971b are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1630 Muslim drafts, 7966 total hadith drafts, 6663 remaining, and 769 Needs Mo items.
