@@ -7686,3 +7686,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0114 saves five private French drafts on prayer and the siwak.
 - Muslim 251b records only the transmission chain and wording differences from the prior report. It remains blank under Needs Mo rather than being filled from the previous text.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 461 Muslim drafts, 6,797 total hadith drafts, 7,832 remaining, and 250 Needs Mo items.
+
+### 2026-10-29: Muslim 255b–258
+
+- FR-LIB-HAD-MUSLIM-0115 saves four private French drafts on the siwak and natural practices.
+- Muslim 255b contains a chain and cross-reference without the report text; 256 directly quotes Quran 3:190–191. Both full translations remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 465 Muslim drafts, 6,801 total hadith drafts, 7,828 remaining, and 252 Needs Mo items.
