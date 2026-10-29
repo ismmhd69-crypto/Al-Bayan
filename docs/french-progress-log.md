@@ -11211,3 +11211,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0816 saves five private French drafts on advice to expedition leaders, gentle communication, cooperation, and refusing appointments sought out of ambition. The specific omission in 1733b is preserved. Muslim 1731d only supplies a chain for the earlier report and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1733d-1735a
+
+- FR-LIB-HAD-MUSLIM-0817 saves six private French drafts: the complete report on appointment-seeking and the Yemen mission, three distinct Yemen/drink reports, the concise instruction to facilitate, and the banner raised for treachery. Chains, source variants, qualifications, and the report’s explicit wording are retained.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
