@@ -11071,3 +11071,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0788 saves five private French drafts about injuries caused while defending oneself from a bite. Muslim 1673b contains only a chain and a cross-reference, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1674d–1676d
+
+- FR-LIB-HAD-MUSLIM-0789 saves three private French drafts about compensation for injury and the stated exceptions concerning a Muslim’s life. Muslim 1674d, 1676b and 1676d contain only cross-references or a wording omission, so they remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
