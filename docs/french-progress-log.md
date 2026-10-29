@@ -7072,3 +7072,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1376 saves 4 private French drafts. Hadith 7521 directly quotes Quran 41:22, and hadith 7522 is cut off mid-sentence in the Arabic export; both remain blank under Needs Mo. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,309 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 157. Total local hadith rows not drafted: 8,320, including held records.
+
+### 2026-10-29: Bukhari 7524–7529
+
+- FR-LIB-HAD-BUKHARI-1377 saves 3 private French drafts. Hadith 7524, 7525 and 7526 directly quote Quranic verses; their complete translations remain blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,312 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 160. Total local hadith rows not drafted: 8,317, including held records.
