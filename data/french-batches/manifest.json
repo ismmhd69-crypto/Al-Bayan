@@ -48326,6 +48326,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1103",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1103.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "one long complete report with embedded Quran quotations left blank with a specific Needs Mo reason; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -58361,10 +58374,15 @@
       "source_id": "aa996623-f0ac-4b95-baac-e32021e1bddf",
       "reason": "Cette entrée ne reprend pas le récit lui-même et renvoie uniquement à la version précédente. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "94b09ba4-bdc0-4b30-991a-c34628ac45ad",
+      "reason": "Ce long récit contient deux citations coraniques intégrées. Garder la traduction française vide jusqu’à vérification des traductions coraniques autorisées et de leur attribution.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 3526,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1472
+  "hadithNeedsMo": 1473
 }
