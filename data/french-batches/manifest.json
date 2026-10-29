@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 110,
+    "hadithNeedsMo": 113,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -15832,6 +15832,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-731",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-731.json",
+      "sourceIds": ["59440a8d-342f-435f-8bb7-fb875b63de15", "f4117de7-599e-4067-a40d-de81c50a0741", "49a9cbf5-b90b-42a3-8d40-b751bce73d97", "030895e7-4dc2-4a64-ad9a-335114a2ca98", "ff61efe9-078c-4e5c-8b61-b1569fe92eaa", "60d71cc4-0e2e-4bc9-9632-251898a53436"],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16108,8 +16123,27 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 59:6. It remains blank in FR-LIB-HAD-BUKHARI-724 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4049-QURAN-33-23",
+      "scope": "Sahih al-Bukhari 4049: direct quotation of Quran 33:23",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 33:23. It remains blank in FR-LIB-HAD-BUKHARI-731 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4050-QURAN-4-88",
+      "scope": "Sahih al-Bukhari 4050: direct quotation of Quran 4:88",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:88. It remains blank in FR-LIB-HAD-BUKHARI-731 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-4051-QURAN-3-122",
+      "scope": "Sahih al-Bukhari 4051: direct quotation of Quran 3:122",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:122. It remains blank in FR-LIB-HAD-BUKHARI-731 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3534,
-  "hadithLocalDrafted": 3534,
-  "hadithLocalRemaining": 11123
+  "hadithBukhariDrafted": 3537,
+  "hadithLocalDrafted": 3537,
+  "hadithLocalRemaining": 11120
 }

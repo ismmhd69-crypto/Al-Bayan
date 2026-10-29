@@ -3566,3 +3566,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-730` saves six private French drafts covering reports from Uhud, including the transmission variants in the account of the archers and the burial of Musʿab ibn ʿUmayr.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,586 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,072, including held records.
+
+### 2026-10-29: Bukhari 4048–4053
+
+- `FR-LIB-HAD-BUKHARI-731` saves three private French drafts. Hadiths 4049, 4050 and 4051 remain blank because they directly quote Quran 33:23, 4:88 and 3:122; each hold is recorded for Mo.
+- All six records passed the focused validator, including the three private holds. No database writes or publication occurred. Bukhari local drafts: 3,589 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 286. Total local hadith rows not drafted: 11,074, including held records.
