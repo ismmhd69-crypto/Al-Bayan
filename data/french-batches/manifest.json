@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:16:02.233Z",
+  "lastReconciled": "2026-10-29T14:16:21.609Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6650,
     "hadithDatabaseMissing": 7979,
     "hadithLocalRemaining": 7979,
-    "hadithNeedsMo": 201,
+    "hadithNeedsMo": 202,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30491,6 +30491,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0068",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0068.json",
+      "sourceIds": [
+        "75d48fd6-5fc3-4940-874c-49ea0bd65f7c"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; long hadith held blank because it directly quotes Quran 96:1–5",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -34555,6 +34571,12 @@
       "scope": "Sahih Muslim 159 d: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 36:38 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-160A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 160 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce long récit cite directement les versets 96:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
@@ -35766,10 +35788,16 @@
       "scope": "Sahih Muslim 159 d: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 36:38 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-160A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 160 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce long récit cite directement les versets 96:1–5 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithMuslimDrafted": 314,
   "hadithDatabaseMissing": 7979,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 201
+  "hadithNeedsMo": 202
 }
