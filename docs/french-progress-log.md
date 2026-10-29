@@ -11181,3 +11181,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0810 saves four private French drafts on judicial reasoning, judging while angry, and rejected innovations. The additional attribution note in 1716b is retained. Muslim 1716c and 1717b only refer to earlier reports and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1718b-1722a
+
+- FR-LIB-HAD-MUSLIM-0811 saves five private French drafts, including the testamentary property question, testimony before being asked, the dispute over a child, the buried-gold account, and the lost-property guidance. Muslim 1720b only gives alternate chains for the preceding report and remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

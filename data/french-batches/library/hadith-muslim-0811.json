@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0811",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T19:41:57.849Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "792ee45e-f406-4773-8bb2-ab1636f3be25",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1718b",
+      "reference": "Sahih Muslim, hadith 1718 b, book 30, باب نَقْضِ الأَحْكَامِ الْبَاطِلَةِ وَرَدِّ مُحْدَثَاتِ الأُمُورِ ‏‏",
+      "title": "باب نَقْضِ الأَحْكَامِ الْبَاطِلَةِ وَرَدِّ مُحْدَثَاتِ الأُمُورِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، جَمِيعًا عَنْ أَبِي عَامِرٍ، قَالَ عَبْدٌ حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَمْرٍو، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ جَعْفَرٍ الزُّهْرِيُّ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، قَالَ سَأَلْتُ الْقَاسِمَ بْنَ مُحَمَّدٍ عَنْ رَجُلٍ، لَهُ ثَلاَثَةُ مَسَاكِنَ فَأَوْصَى بِثُلُثِ كُلِّ مَسْكَنٍ مِنْهَا قَالَ يُجْمَعُ ذَلِكَ كُلُّهُ فِي مَسْكَنٍ وَاحِدٍ ثُمَّ قَالَ أَخْبَرَتْنِي عَائِشَةُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ عَمِلَ عَمَلاً لَيْسَ عَلَيْهِ أَمْرُنَا فَهُوَ رَدٌّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7d452c3ea61ba4a01dff471ee4b89caea54bb32846286df3a3524e323e116e60",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim et Abd ibn Humayd nous ont rapporté, tous deux d'après Abu Amir. Abd a dit : Abd al-Malik ibn Amr nous a rapporté : Abd Allah ibn Ja'far az-Zuhri nous a rapporté, d'après Sa'd ibn Ibrahim, qui a dit : « J'ai interrogé al-Qasim ibn Muhammad au sujet d'un homme qui possédait trois maisons et avait légué le tiers de chacune. Il répondit : “Tout cela sera réuni dans une seule maison.” Puis il dit : “A'isha m'a informé que le Messager d'Allah ﷺ a dit : ‘Quiconque accomplit un acte qui n'est pas conforme à notre voie, cet acte est rejeté.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "964a4d35-8791-42bd-b5fc-bb2637aa54a5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1719",
+      "reference": "Sahih Muslim, hadith 1719, book 30, باب بَيَانِ خَيْرِ الشُّهُودِ ‏‏",
+      "title": "باب بَيَانِ خَيْرِ الشُّهُودِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي بَكْرٍ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرِو بْنِ عُثْمَانَ، عَنِ ابْنِ أَبِي عَمْرَةَ الأَنْصَارِيِّ، عَنْ زَيْدِ بْنِ خَالِدٍ، الْجُهَنِيِّ أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ أَلاَ أُخْبِرُكُمْ بِخَيْرِ الشُّهَدَاءِ الَّذِي يَأْتِي بِشَهَادَتِهِ قَبْلَ أَنْ يُسْأَلَهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f9057c158e5e39d1ecf894b5b2fb04f496149de6794ddaeb7a37f971eb923212",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j'ai lu à Malik, d'après Abd Allah ibn Abi Bakr, d'après son père, d'après Abd Allah ibn Amr ibn Uthman, d'après Ibn Abi Amra al-Ansari, d'après Zayd ibn Khalid al-Juhani, selon lequel le Prophète ﷺ a dit : « Voulez-vous que je vous indique le meilleur des témoins ? C'est celui qui apporte son témoignage avant qu'on le lui demande. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "abe9768e-8898-4bbd-8f2d-510dce12baa7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1720a",
+      "reference": "Sahih Muslim, hadith 1720 a, book 30, باب بَيَانِ اخْتِلاَفِ الْمُجْتَهِدِينَ ‏‏",
+      "title": "باب بَيَانِ اخْتِلاَفِ الْمُجْتَهِدِينَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنِي شَبَابَةُ، حَدَّثَنِي وَرْقَاءُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ بَيْنَمَا امْرَأَتَانِ مَعَهُمَا ابْنَاهُمَا جَاءَ الذِّئْبُ فَذَهَبَ بِابْنِ إِحْدَاهُمَا ‏.‏ فَقَالَتْ هَذِهِ لِصَاحِبَتِهَا إِنَّمَا ذَهَبَ بِابْنِكِ أَنْتِ ‏.‏ وَقَالَتِ الأُخْرَى إِنَّمَا ذَهَبَ بِابْنِكِ ‏.‏ فَتَحَاكَمَتَا إِلَى دَاوُدَ فَقَضَى بِهِ لِلْكُبْرَى فَخَرَجَتَا عَلَى سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِمَا السَّلاَمُ فَأَخْبَرَتَاهُ فَقَالَ ائْتُونِي بِالسِّكِّينِ أَشُقُّهُ بَيْنَكُمَا ‏.‏ فَقَالَتِ الصُّغْرَى لاَ يَرْحَمُكَ اللَّهُ هُوَ ابْنُهَا ‏.‏ فَقَضَى بِهِ لِلصُّغْرَى ‏\"‏ ‏.‏ قَالَ قَالَ أَبُو هُرَيْرَةَ وَاللَّهِ إِنْ سَمِعْتُ بِالسِّكِّينِ قَطُّ إِلاَّ يَوْمَئِذٍ مَا كُنَّا نَقُولُ إِلاَّ الْمُدْيَةَ ‏.‏",
+      "source_hash_sha256": "4a6d1dca52f3bcb591846ff2a542dc344973e3d906222cf8e7f715023163d256",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb m'a rapporté : Shababa m'a rapporté : Warqa m'a rapporté, d'après Abu az-Zinad, d'après al-A'raj, d'après Abu Hurayra, d'après le Prophète ﷺ, qui a dit : « Alors que deux femmes étaient avec leurs deux fils, un loup survint et emporta le fils de l'une d'elles. L'une dit à l'autre : “C'est ton fils qu'il a emporté.” L'autre répondit : “C'est ton fils qu'il a emporté.” Elles soumirent leur différend à Dawud, qui attribua l'enfant à l'aînée. Elles se rendirent ensuite auprès de Sulayman ibn Dawud — que la paix soit sur eux deux — et lui racontèrent l'affaire. Il dit : “Apportez-moi un couteau, je vais le partager entre vous.” La plus jeune dit : “Non ! Qu'Allah te fasse miséricorde, c'est son fils à elle !” Sulayman attribua alors l'enfant à la plus jeune. » Abu Hurayra ajouta : « Par Allah, je n'avais jamais entendu le mot “sikkîn” [couteau] avant ce jour-là ; nous n'employions que le mot “mudyah”. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f6b515cb-c474-4366-a63f-36d912269061",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1720b",
+      "reference": "Sahih Muslim, hadith 1720 b, book 30, باب بَيَانِ اخْتِلاَفِ الْمُجْتَهِدِينَ ‏‏",
+      "title": "باب بَيَانِ اخْتِلاَفِ الْمُجْتَهِدِينَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنِي حَفْصٌ، - يَعْنِي ابْنَ مَيْسَرَةَ الصَّنْعَانِيَّ - عَنْ مُوسَى بْنِ عُقْبَةَ، ح وَحَدَّثَنَا أُمَيَّةُ بْنُ بِسْطَامَ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، حَدَّثَنَا رَوْحٌ، - وَهُوَ ابْنُ الْقَاسِمِ - عَنْ مُحَمَّدِ بْنِ عَجْلاَنَ، جَمِيعًا عَنْ أَبِي الزِّنَادِ، بِهَذَا الإِسْنَادِ مِثْلَ مَعْنَى حَدِيثِ وَرْقَاءَ ‏.‏",
+      "source_hash_sha256": "0fed0622c85e741e7cff86c8fba35afe9188f5825c2394840cccc038507ce4d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4c6e7e98-b443-4e6a-95a5-1f57056acd1b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1721",
+      "reference": "Sahih Muslim, hadith 1721, book 30, باب اسْتِحْبَابِ إِصْلاَحِ الْحَاكِمِ بَيْنَ الْخَصْمَيْنِ ‏‏",
+      "title": "باب اسْتِحْبَابِ إِصْلاَحِ الْحَاكِمِ بَيْنَ الْخَصْمَيْنِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اشْتَرَى رَجُلٌ مِنْ رَجُلٍ عَقَارًا لَهُ فَوَجَدَ الرَّجُلُ الَّذِي اشْتَرَى الْعَقَارَ فِي عَقَارِهِ جَرَّةً فِيهَا ذَهَبٌ فَقَالَ لَهُ الَّذِي اشْتَرَى الْعَقَارَ خُذْ ذَهَبَكَ مِنِّي إِنَّمَا اشْتَرَيْتُ مِنْكَ الأَرْضَ وَلَمْ أَبْتَعْ مِنْكَ الذَّهَبَ ‏.‏ فَقَالَ الَّذِي شَرَى الأَرْضَ إِنَّمَا بِعْتُكَ الأَرْضَ وَمَا فِيهَا - قَالَ - فَتَحَاكَمَا إِلَى رَجُلٍ فَقَالَ الَّذِي تَحَاكَمَا إِلَيْهِ أَلَكُمَا وَلَدٌ فَقَالَ أَحَدُهُمَا لِي غُلاَمٌ وَقَالَ الآخَرُ لِي جَارِيَةٌ ‏.‏ قَالَ أَنْكِحُوا الْغُلاَمَ الْجَارِيَةَ وَأَنْفِقُوا عَلَى أَنْفُسِكُمَا مِنْهُ وَتَصَدَّقَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2446285a53df9c1187347eb4043818756dbb08618e22749cf28e43e90e3a2a98",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi nous a rapporté : Abd ar-Razzaq nous a rapporté : Ma'mar nous a rapporté, d'après Hammam ibn Munabbih, qui a dit : « Voici ce qu'Abu Hurayra nous a rapporté du Messager d'Allah ﷺ. Parmi ces récits, il y a celui-ci : “Un homme acheta un bien immobilier à un autre. L'acheteur y trouva une jarre contenant de l'or et dit au vendeur : ‘Reprends ton or ; je t'ai acheté le terrain, pas l'or.’ Le vendeur dit : ‘Je t'ai vendu le terrain et tout ce qu'il contient.’ Ils portèrent leur différend devant un homme. Celui-ci leur demanda : ‘Avez-vous des enfants ?’ L'un répondit : ‘J'ai un garçon.’ L'autre dit : ‘J'ai une fille.’ Il leur dit : ‘Mariez le garçon et la fille, dépensez-en pour vous-mêmes et faites-en l'aumône.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e94618f-4c1a-4d40-a811-d27f04aebe1b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1722a",
+      "reference": "Sahih Muslim, hadith 1722 a, book 31, كتاب اللقطة",
+      "title": "كتاب اللقطة",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى التَّمِيمِيُّ، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ رَبِيعَةَ بْنِ أَبِي عَبْدِ، الرَّحْمَنِ عَنْ يَزِيدَ، مَوْلَى الْمُنْبَعِثِ عَنْ زَيْدِ بْنِ خَالِدٍ الْجُهَنِيِّ، أَنَّهُ قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَسَأَلَهُ عَنِ اللُّقَطَةِ فَقَالَ ‏\"‏ اعْرِفْ عِفَاصَهَا وَوِكَاءَهَا ثُمَّ عَرِّفْهَا سَنَةً فَإِنْ جَاءَ صَاحِبُهَا وَإِلاَّ فَشَأْنَكَ بِهَا ‏\"‏ ‏.‏ قَالَ فَضَالَّةُ الْغَنَمِ قَالَ ‏\"‏ لَكَ أَوْ لأَخِيكَ أَوْ لِلذِّئْبِ ‏\"‏ ‏.‏ قَالَ فَضَالَّةُ الإِبِلِ قَالَ ‏\"‏ مَا لَكَ وَلَهَا مَعَهَا سِقَاؤُهَا وَحِذَاؤُهَا تَرِدُ الْمَاءَ وَتَأْكُلُ الشَّجَرَ حَتَّى يَلْقَاهَا رَبُّهَا ‏\"‏ ‏.‏ قَالَ يَحْيَى أَحْسِبُ قَرَأْتُ عِفَاصَهَا",
+      "source_hash_sha256": "c0b13fac584b5123a614d7570462705858aad1e9d7ecf96fa00aec01bee87960",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya at-Tamimi nous a rapporté : j'ai lu à Malik, d'après Rabi'a ibn Abi Abd ar-Rahman, d'après Yazid, l'affranchi d'al-Munba'ith, d'après Zayd ibn Khalid al-Juhani, qui a dit : « Un homme vint trouver le Prophète ﷺ et l'interrogea au sujet d'un objet trouvé. Il lui dit : “Repère bien son contenant et son lien, puis annonce sa découverte pendant un an. Si son propriétaire se présente, rends-le-lui ; sinon, fais-en ce que tu veux.” L'homme demanda : “Et une chèvre égarée ?” Il répondit : “Elle est à toi, à ton frère ou au loup.” Il demanda : “Et un chameau égaré ?” Il répondit : “Ne t'en occupe pas : il a avec lui son réservoir d'eau et ses sabots ; il se rend aux points d'eau et mange les arbres jusqu'à ce que son maître le retrouve.” » Yahya dit : « Je crois avoir lu : “son contenant”. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f6b515cb-c474-4366-a63f-36d912269061",
+      "reason": "Cette entrée donne uniquement des variantes de transmission et renvoie au récit précédent sans en reproduire le contenu ni signaler une différence précise. Garder la traduction française vide jusqu'à validation de la source complète.",
+      "status": "blocked"
+    }
+  ]
+}
