@@ -1,0 +1,111 @@
+{
+  "batch_id": "HADITH-BUKHARI-981",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:12:13.075Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "5bf2931c-a895-4144-b2b6-d35cf40ab9da",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5377",
+      "reference": "Sahih al-Bukhari, hadith 5377, book 70, باب الأَكْلِ مِمَّا يَلِيهِ",
+      "title": "باب الأَكْلِ مِمَّا يَلِيهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، قَالَ حَدَّثَنِي مُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ مُحَمَّدِ بْنِ عَمْرِو بْنِ حَلْحَلَةَ الدِّيلِيِّ، عَنْ وَهْبِ بْنِ كَيْسَانَ أَبِي نُعَيْمٍ، عَنْ عُمَرَ بْنِ أَبِي سَلَمَةَ ـ وَهْوَ ابْنُ أُمِّ سَلَمَةَ ـ زَوْجِ النَّبِيِّ صلى الله عليه وسلم قَالَ أَكَلْتُ يَوْمًا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم طَعَامًا فَجَعَلْتُ آكُلُ مِنْ نَوَاحِي الصَّحْفَةِ فَقَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كُلْ مِمَّا يَلِيكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "860efbb1aab99d6052d4ea23a32b2e6b00aa0d162768813573cb46d7f8182b0a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUmar ibn Abî Salama — le fils d’Umm Salama, épouse du Prophète — rapporte : « Un jour, je mangeais avec le Messager d’Allah. Je prenais de la nourriture sur les différents côtés du plat. Le Messager d’Allah me dit : “Mange devant toi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d98710ef-d3b9-497a-8f1a-859051565787",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5378",
+      "reference": "Sahih al-Bukhari, hadith 5378, book 70, باب الأَكْلِ مِمَّا يَلِيهِ",
+      "title": "باب الأَكْلِ مِمَّا يَلِيهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ وَهْبِ بْنِ كَيْسَانَ أَبِي نُعَيْمٍ، قَالَ أُتِيَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِطَعَامٍ وَمَعَهُ رَبِيبُهُ عُمَرُ بْنُ أَبِي سَلَمَةَ فَقَالَ ‏\"‏ سَمِّ اللَّهَ، وَكُلْ مِمَّا يَلِيكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "7cc864a9713375dc7d6d50afbb6abe789b1b25c0819d93ae1b821fe9739f2341",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "On apporta un repas au Messager d’Allah, qui était accompagné de son beau-fils ʿUmar ibn Abî Salama. Il lui dit : « Prononce le nom d’Allah et mange devant toi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "71f14c47-f230-45d1-9d97-9df57a330eec",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5379",
+      "reference": "Sahih al-Bukhari, hadith 5379, book 70, باب مَنْ تَتَبَّعَ حَوَالَىِ الْقَصْعَةِ مَعَ صَاحِبِهِ، إِذَا لَمْ يَعْرِفْ مِنْهُ كَرَاهِيَةً",
+      "title": "باب مَنْ تَتَبَّعَ حَوَالَىِ الْقَصْعَةِ مَعَ صَاحِبِهِ، إِذَا لَمْ يَعْرِفْ مِنْهُ كَرَاهِيَةً",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، عَنْ مَالِكٍ، عَنْ إِسْحَاقَ بْنِ أَبِي طَلْحَةَ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ، يَقُولُ إِنَّ خَيَّاطًا دَعَا رَسُولَ اللَّهِ صلى الله عليه وسلم لِطَعَامٍ صَنَعَهُ ـ قَالَ أَنَسٌ ـ فَذَهَبْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَرَأَيْتُهُ يَتَتَبَّعُ الدُّبَّاءَ مِنْ حَوَالَىِ الْقَصْعَةِ ـ قَالَ ـ فَلَمْ أَزَلْ أُحِبُّ الدُّبَّاءَ مِنْ يَوْمِئِذٍ‏.‏",
+      "source_hash_sha256": "dbf8adf6c10e88a99e1cfa334c6fe68b527a67fe404a5625f85816642ca0d23c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte qu’un tailleur invita le Messager d’Allah à un repas qu’il avait préparé. Anas dit : « J’accompagnai le Messager d’Allah et le vis chercher les morceaux de courge tout autour du plat. Depuis ce jour, je n’ai cessé d’aimer la courge. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "699656a1-0f13-4638-aa3c-7e8e57c5e628",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5380",
+      "reference": "Sahih al-Bukhari, hadith 5380, book 70, باب التَّيَمُّنِ فِي الأَكْلِ وَغَيْرِهِ",
+      "title": "باب التَّيَمُّنِ فِي الأَكْلِ وَغَيْرِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا شُعْبَةُ، عَنْ أَشْعَثَ، عَنْ أَبِيهِ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ كَانَ النَّبِيُّ صلى الله عليه وسلم يُحِبُّ التَّيَمُّنَ مَا اسْتَطَاعَ فِي طُهُورِهِ وَتَنَعُّلِهِ وَتَرَجُّلِهِ‏.‏ وَكَانَ قَالَ بِوَاسِطٍ قَبْلَ هَذَا فِي شَأْنِهِ كُلِّهِ‏.‏",
+      "source_hash_sha256": "5429741454fe4deb0084e45b1ff5b2c53beeb634de87d04de48adc3459268d1d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha rapporte que, dans la mesure du possible, le Prophète aimait commencer par la droite lorsqu’il faisait ses ablutions, mettait ses chaussures ou se coiffait. Un transmetteur ajoute qu’il faisait ainsi en toute chose.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
