@@ -1,0 +1,111 @@
+{
+  "batch_id": "HADITH-MUSLIM-0102",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:29:30.720Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a671e6bd-11da-4dc4-9513-feb03fa90afb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:217",
+      "reference": "Sahih Muslim, hadith 217, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي حَيْوَةُ، قَالَ حَدَّثَنِي أَبُو يُونُسَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَدْخُلُ الْجَنَّةَ مِنْ أُمَّتِي سَبْعُونَ أَلْفًا زُمْرَةٌ وَاحِدَةٌ مِنْهُمْ عَلَى صُورَةِ الْقَمَرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "30096d4d0007d610079d95f51bfe067d783c29651d82b870ae0bb9b2de0d6d53",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harmala ibn Yahya nous a rapporté, d’après ‘Abd Allah ibn Wahb, qui a dit : Haywa m’a rapporté, qui a dit : Abu Yunus m’a rapporté, d’après Abu Hurayra, que le Messager de Dieu ﷺ a dit : « Un seul groupe de soixante-dix mille personnes de ma communauté entrera au Paradis ; ils auront l’apparence de la lune. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e50b362d-044a-44c2-84e3-ae8727cf03fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:218a",
+      "reference": "Sahih Muslim, hadith 218 a, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ خَلَفٍ الْبَاهِلِيُّ، حَدَّثَنَا الْمُعْتَمِرُ، عَنْ هِشَامِ بْنِ حَسَّانَ، عَنْ مُحَمَّدٍ، - يَعْنِي ابْنَ سِيرِينَ - قَالَ حَدَّثَنِي عِمْرَانُ، قَالَ قَالَ نَبِيُّ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَدْخُلُ الْجَنَّةَ مِنْ أُمَّتِي سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ ‏\"‏ ‏.‏ قَالُوا وَمَنْ هُمْ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ هُمُ الَّذِينَ لاَ يَكْتَوُونَ وَلاَ يَسْتَرْقُونَ وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ ‏\"‏ ‏.‏ فَقَامَ عُكَّاشَةُ فَقَالَ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ ‏.‏ قَالَ ‏\"‏ أَنْتَ مِنْهُمْ ‏\"‏ ‏.‏ قَالَ فَقَامَ رَجُلٌ فَقَالَ يَا نَبِيَّ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ ‏.‏ قَالَ ‏\"‏ سَبَقَكَ بِهَا عُكَّاشَةُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ac3698bc1fda1a26884afb549aad6ae7abec48a835532dbcd6aa16d02dac0626",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Khalaf al-Bahili nous a rapporté, d’après al-Mu‘tamir, d’après Hisham ibn Hassan, d’après Muhammad — c’est-à-dire Ibn Sirin —, qui a dit : ‘Imran m’a rapporté que le Prophète de Dieu ﷺ a dit : « Soixante-dix mille personnes de ma communauté entreront au Paradis sans rendre de comptes. » Ils demandèrent : « Qui sont-ils, Messager de Dieu ? » Il répondit : « Ce sont ceux qui ne se font pas cautériser, ne demandent pas qu’on leur récite des formules de guérison et s’en remettent à leur Seigneur. » ‘Ukkasha se leva et dit : « Demande à Dieu de faire que je sois parmi eux. » Il répondit : « Tu es parmi eux. » Un homme se leva ensuite et dit : « Prophète de Dieu, demande à Dieu de faire que je sois parmi eux. » Il répondit : « ‘Ukkasha t’a devancé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "23562c0f-76b7-4080-a06e-69ec876cf383",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:218b",
+      "reference": "Sahih Muslim, hadith 218 b, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنَا حَاجِبُ بْنُ عُمَرَ أَبُو خُشَيْنَةَ الثَّقَفِيُّ، حَدَّثَنَا الْحَكَمُ بْنُ الأَعْرَجِ، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ يَدْخُلُ الْجَنَّةَ مِنْ أُمَّتِي سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ ‏\"‏ ‏.‏ قَالُوا مَنْ هُمْ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ هُمُ الَّذِينَ لاَ يَسْتَرْقُونَ وَلاَ يَتَطَيَّرُونَ وَلاَ يَكْتَوُونَ وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ac0dca11383e77000c71562c71b6a10dd20e446f236a312c591f93f64ba12e33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté, d’après ‘Abd al-Samad ibn ‘Abd al-Warith, d’après Hajib ibn ‘Umar Abu Khushayna al-Thaqafi, d’après al-Hakam ibn al-A‘raj, d’après ‘Imran ibn Husayn, que le Messager de Dieu ﷺ a dit : « Soixante-dix mille personnes de ma communauté entreront au Paradis sans rendre de comptes. » On demanda : « Qui sont-ils, Messager de Dieu ? » Il répondit : « Ce sont ceux qui ne demandent pas qu’on leur récite des formules de guérison, ne consultent pas les présages, ne se font pas cautériser et s’en remettent à leur Seigneur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2e7ee44c-344a-4dcb-8009-52d4e12fb17b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:219",
+      "reference": "Sahih Muslim, hadith 219, book 1, باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "title": "باب الدَّلِيلِ عَلَى دُخُولِ طَوَائِفَ مِنَ الْمُسْلِمِينَ الْجَنَّةَ بِغَيْرِ حِسَابٍ وَلاَ عَذَابٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ أَبِي حَازِمٍ - عَنْ أَبِي حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيَدْخُلَنَّ الْجَنَّةَ مِنْ أُمَّتِي سَبْعُونَ أَلْفًا أَوْ سَبْعُمِائَةِ أَلْفٍ - لاَ يَدْرِي أَبُو حَازِمٍ أَيَّهُمَا قَالَ - مُتَمَاسِكُونَ آخِذٌ بَعْضُهُمْ بَعْضًا لاَ يَدْخُلُ أَوَّلُهُمْ حَتَّى يَدْخُلَ آخِرُهُمْ وُجُوهُهُمْ عَلَى صُورَةِ الْقَمَرِ لَيْلَةَ الْبَدْرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "819d148d4541d353474ccfac8707628c86e5b5df30e4f280dbd60672ed36534b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté, d’après ‘Abd al-‘Aziz — c’est-à-dire Ibn Abi Hazim —, d’après son père, d’après Sahl ibn Sa‘d, que le Messager de Dieu ﷺ a dit : « Soixante-dix mille — ou sept cent mille, Abu Hazim ne savait pas lequel des deux nombres il avait entendu — de ma communauté entreront assurément au Paradis, se tenant ensemble et se tenant les uns aux autres. Le premier d’entre eux n’y entrera pas avant que le dernier y entre. Leurs visages auront l’apparence de la lune la nuit de pleine lune. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
