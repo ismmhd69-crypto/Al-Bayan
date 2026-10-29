@@ -9666,3 +9666,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0507 saves three private French drafts about night prayer, fasting in al-Muharram, and six days of Shawwal. Muslim 1163c and 1164b–c only refer to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1165a–1165f
+
+- FR-LIB-HAD-MUSLIM-0508 saves six private French drafts about seeking Laylat al-Qadr in the last ten nights, especially the last seven and odd-numbered nights. All six sources provide complete report text.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
