@@ -6500,3 +6500,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1264 isolates one 4,780-character report on qasâma (collective oaths). It remains blank because several procedural phrases could change the legal meaning. No database writes or publication occurred.
 - The source hash is retained and the focused batch validator passed. Bukhari local drafts remain 5,807 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 835. Total local hadith rows not drafted: 8,822, including held records.
+
+
+### 2026-10-29: Bukhari 6900–6905
+
+- FR-LIB-HAD-BUKHARI-1265 saves six private French drafts, preserving the separate narrator wording and rulings. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,813 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 835. Total local hadith rows not drafted: 8,816, including held records.
