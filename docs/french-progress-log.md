@@ -10526,3 +10526,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0679 saves five private French drafts preserving Aisha’s criticism of Fatima bint Qays’s report and the counter-reports. Muslim 1480s only gives an opening detail and refers to the previous report, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1483–1485b
+
+- FR-LIB-HAD-MUSLIM-0680 saves three private French drafts about a divorced woman harvesting dates and the waiting period for a pregnant widow. Muslim 1485b only gives a variant of a preceding report and remains blank under Needs Mo.
+- All four source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
