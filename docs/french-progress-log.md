@@ -2331,3 +2331,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-483` saves three private French drafts for Bukhari 2802–2804. Bukhari 2801 remains blank because it preserves a Quranic recitation said to have been abrogated; 2805 and 2807 remain blank because they directly quote Quran 33:23. All three need approved, attributed French Quran wording. The source export contained no Bukhari 2806 record.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 2,514 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 163. Total local hadith rows not drafted: 12,143, including held records.
+
+### 2026-10-29: Bukhari 2808–2813 source review
+
+- `FR-LIB-HAD-BUKHARI-484` saves six private French drafts for Bukhari 2808–2813, covering a convert’s martyrdom, the Firdaws, intentions in combat, and events at the Battle of the Trench.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,520 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 163. Total local hadith rows not drafted: 12,137, including held records.
