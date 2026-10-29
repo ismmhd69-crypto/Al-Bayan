@@ -5364,3 +5364,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1046 saves five private French drafts. Hadith 5765 remains blank because a phrase about undoing the spell is corrupted or unclear in the export; it is flagged for Mo. The other reports retain their transmitted chains and variants.
 - The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,799 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 748. Total local hadith rows not drafted: 9,830, including held records.
+
+
+### 2026-10-29: Bukhari 5767–5772
+
+- FR-LIB-HAD-BUKHARI-1047 saves six private French drafts. Variant wording on the quantity of dates and the retained second plague-related report are preserved.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,805 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 748. Total local hadith rows not drafted: 9,824, including held records.
