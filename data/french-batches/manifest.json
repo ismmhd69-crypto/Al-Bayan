@@ -10547,6 +10547,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-458",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-458.json",
+      "sourceIds": [
+        "fb45f5b3-f5bd-4e0b-9636-91175b2595d4"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hash, ID, URL, reference, rights, private unpublished hold and single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "one Needs Mo hold for embedded Quran quotation"
     }
   ],
   "blockers": [
@@ -10625,5 +10641,5 @@
   ],
   "hadithBukhariDrafted": 2413,
   "hadithLocalDrafted": 2413,
-  "hadithLocalRemaining": 12216
+  "hadithLocalRemaining": 12217
 }
