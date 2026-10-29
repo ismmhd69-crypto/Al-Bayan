@@ -7,7 +7,7 @@ import type {
   HadithGradeInfo,
   PaginatedHadiths,
 } from "./types";
-import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
+import { cleanHadithDisplayText, cleanHadithTitle } from "@/lib/hadith/display";
 import { acceptableGrade } from "@/lib/sources/hadith-rules";
 
 const API_BASE = "https://api.sunnah.com/v1";
@@ -156,9 +156,9 @@ export async function getCollection(id: string): Promise<HadithCollectionSummary
   return {
     id: colId,
     name: colId,
-    nameEnglish: enInfo?.title ?? (colId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim"),
-    nameArabic: arInfo?.title ?? (colId === "bukhari" ? "صحيح البخاري" : "صحيح مسلم"),
-    shortIntro: enInfo?.shortIntro ?? "",
+    nameEnglish: cleanHadithTitle(enInfo?.title ?? (colId === "bukhari" ? "Sahih al-Bukhari" : "Sahih Muslim")),
+    nameArabic: cleanHadithTitle(arInfo?.title ?? (colId === "bukhari" ? "صحيح البخاري" : "صحيح مسلم")),
+    shortIntro: cleanHadithTitle(enInfo?.shortIntro ?? ""),
     totalBooks,
     totalHadith: typeof data.totalHadith === "number" ? data.totalHadith : null,
     totalAvailableHadith: typeof data.totalAvailableHadith === "number" ? data.totalAvailableHadith : null,
@@ -266,8 +266,8 @@ export async function getCollectionBooks(collection: HadithCollectionId): Promis
       const bookNum = String(b.bookNumber).trim();
       return {
         bookNumber: bookNum,
-        nameEnglish: en.trim(),
-        nameArabic: ar.trim(),
+        nameEnglish: cleanHadithTitle(en.trim()),
+        nameArabic: cleanHadithTitle(ar.trim()),
         hadithStartNumber: typeof b.hadithStartNumber === "number" ? b.hadithStartNumber : null,
         hadithEndNumber: typeof b.hadithEndNumber === "number" ? b.hadithEndNumber : null,
         numberOfHadith: typeof b.numberOfHadith === "number" ? b.numberOfHadith : null,
@@ -327,15 +327,6 @@ interface ApiHadithsListResponse {
   limit?: number;
   previous?: number | null;
   next?: number | null;
-}
-
-function cleanHtmlText(html: string): string {
-  const text = html
-    .replace(/<\/?p[^>]*>/gi, "\n")
-    .replace(/<br\s*\/?>/gi, "\n")
-    .replace(/\n\s*\n/g, "\n\n")
-    .trim();
-  return cleanHadithMarkup(text);
 }
 
 /** Validates verified provider grade labels using exact supported rules. */
@@ -405,7 +396,7 @@ export function isEligibleHadith(item: ApiHadithItem, collection: HadithCollecti
   // Bukhari chapter headings (tarjamah al-bab) that lack musnad narration are excluded
   // Evidence-backed check: rejects headings starting with باب or chapter without arbitrary length cutoffs
   if (collection === "bukhari") {
-    const cleanAr = cleanHtmlText(arabicBody).trim();
+    const cleanAr = cleanHadithDisplayText(arabicBody).trim();
     if (/^(?:باب(?:\s|:|$)|chapter\b)/i.test(cleanAr)) {
       return false;
     }
@@ -464,9 +455,9 @@ export function parseRawHadithItem(
   const rawArabic = arEntry?.body?.trim();
   if (!rawArabic) return null;
 
-  const arabicText = cleanHtmlText(rawArabic);
+  const arabicText = cleanHadithDisplayText(rawArabic);
   const rawEnglish = enEntry?.body?.trim();
-  const englishText = rawEnglish ? cleanHtmlText(rawEnglish) : null;
+  const englishText = rawEnglish ? cleanHadithDisplayText(rawEnglish) : null;
 
   const displayNum = formatDisplayReference(rawNum);
   const bookNum = String(item.bookNumber ?? "1").trim();
@@ -498,8 +489,8 @@ export function parseRawHadithItem(
     displayNumber: displayNum,
     arabicText,
     englishText,
-    chapterTitleEnglish: enEntry?.chapterTitle?.trim() || undefined,
-    chapterTitleArabic: arEntry?.chapterTitle?.trim() || undefined,
+    chapterTitleEnglish: enEntry?.chapterTitle ? cleanHadithDisplayText(enEntry.chapterTitle).trim() || undefined : undefined,
+    chapterTitleArabic: arEntry?.chapterTitle ? cleanHadithDisplayText(arEntry.chapterTitle).trim() || undefined : undefined,
     grades,
     url: `https://sunnah.com/${collection}:${displayNum}`,
   };

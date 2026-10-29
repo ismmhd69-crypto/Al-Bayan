@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, Check, ChevronLeft, ChevronRight, Copy, ExternalLink, ShieldCheck } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { HadithCollectionSummary, HadithDetail } from "@/lib/hadith/types";
+import { HadithDisplayText } from "./HadithDisplayText";
 
 interface HadithReaderProps {
   lang: Locale;
@@ -123,12 +124,12 @@ export function HadithReader({
           >
             {(hadith.bookNameEnglish || hadith.bookNameArabic) && (
               <div style={{ fontWeight: 600, color: "var(--ink)", marginBlockEnd: "4px" }}>
-                {dict.book} {hadith.bookNumber}: {lang === "ar" ? hadith.bookNameArabic || hadith.bookNameEnglish : hadith.bookNameEnglish || hadith.bookNameArabic}
+                {dict.book} {hadith.bookNumber}: <HadithDisplayText text={lang === "ar" ? hadith.bookNameArabic || hadith.bookNameEnglish || "" : hadith.bookNameEnglish || hadith.bookNameArabic || ""} />
               </div>
             )}
             {(hadith.chapterTitleArabic || hadith.chapterTitleEnglish) && (
               <div style={{ fontStyle: "italic", fontSize: "var(--fs-xs)" }}>
-                {dict.chapter}: {lang === "ar" ? hadith.chapterTitleArabic || hadith.chapterTitleEnglish : hadith.chapterTitleEnglish || hadith.chapterTitleArabic}
+                {dict.chapter}: <HadithDisplayText text={lang === "ar" ? hadith.chapterTitleArabic || hadith.chapterTitleEnglish || "" : hadith.chapterTitleEnglish || hadith.chapterTitleArabic || ""} />
               </div>
             )}
           </div>
@@ -142,7 +143,7 @@ export function HadithReader({
           translate="no"
           style={{ fontSize: "1.35rem", padding: "16px 20px" }}
         >
-          {hadith.arabicText}
+          <HadithDisplayText text={hadith.arabicText} />
         </div>
 
         {/* Translation block for non-Arabic interfaces */}
@@ -150,7 +151,7 @@ export function HadithReader({
           <div className="hadith-text-en" lang="en" dir="ltr" style={{ marginBlockStart: "20px" }}>
             {lang === "en" && hadith.englishText ? (
               <p style={{ margin: 0, whiteSpace: "pre-line", fontSize: "1.0625rem", lineHeight: "1.75" }}>
-                {hadith.englishText}
+                <HadithDisplayText text={hadith.englishText} />
               </p>
             ) : (
               <span className="hadith-text-unavailable">
