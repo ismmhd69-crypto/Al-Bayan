@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6053,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8576,
-    "hadithNeedsMo": 851,
+    "hadithNeedsMo": 852,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -27726,6 +27726,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1313",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1313.json",
+      "sourceIds": [
+        "76a7ed34-0f39-44ca-a1f9-dcd14726d64a"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "needsMo": 1,
+      "validation": "isolated long report; direct Quran 9:128 quotation; complete translation left blank under Needs Mo; focused validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "held pending approved attributed Quran translation"
     }
   ],
   "blockers": [
@@ -31220,6 +31237,12 @@
       "scope": "Sahih al-Bukhari 7183: direct quotation of Quran 3:77",
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7191-QURAN-9-128",
+      "scope": "Sahih al-Bukhari 7191: long report about compiling the Quran, directly quoting Quran 9:128",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 9:128. Keep the entire French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ],
   "hadithBukhariDrafted": 6053,
@@ -31861,6 +31884,12 @@
       "scope": "Sahih al-Bukhari 7183: direct quotation of Quran 3:77",
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-7191-QURAN-9-128",
+      "scope": "Sahih al-Bukhari 7191: long report about compiling the Quran, directly quoting Quran 9:128",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 9:128. Keep the entire French translation blank pending confirmation of an approved, attributed French Quran translation and permitted use."
     }
   ]
 }
