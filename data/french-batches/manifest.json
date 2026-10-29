@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:07:50.134Z",
+  "lastReconciled": "2026-10-29T14:08:12.460Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 226,
+    "hadithMuslimDrafted": 230,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6562,
-    "hadithDatabaseMissing": 8067,
-    "hadithLocalRemaining": 8067,
-    "hadithNeedsMo": 185,
+    "hadithLocalDrafted": 6566,
+    "hadithDatabaseMissing": 8063,
+    "hadithLocalRemaining": 8063,
+    "hadithNeedsMo": 187,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30102,6 +30102,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0049",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0049.json",
+      "sourceIds": [
+        "bff7482d-4149-4ac9-8336-919308b7c240",
+        "943a9579-5287-443b-9dbf-e96cd9ad76d9",
+        "d744b6d6-8740-4e52-aa27-d0cf505f145a",
+        "b85f4052-4ac4-45b1-b9c5-c6a4b9c6dd21",
+        "e8d1a695-0a70-4c62-aa13-90630604df7b",
+        "7d9fcbb4-e5be-4928-8701-3b3ad081c04d"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotations retained in Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34070,11 +34091,23 @@
       "scope": "Sahih Muslim 119 c: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 49:2 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-122-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 122: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-124A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 124 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6562,
-  "hadithLocalRemaining": 8067,
+  "hadithLocalDrafted": 6566,
+  "hadithLocalRemaining": 8063,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35185,10 +35218,22 @@
       "scope": "Sahih Muslim 119 c: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 49:2 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-122-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 122: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-124A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 124 a: direct Quran quotation",
+      "status": "blocked",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 226,
-  "hadithDatabaseMissing": 8067,
+  "hadithMuslimDrafted": 230,
+  "hadithDatabaseMissing": 8063,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 185
+  "hadithNeedsMo": 187
 }

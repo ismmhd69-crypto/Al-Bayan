@@ -7347,3 +7347,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0048 saves the deferred long report of ‘Amr ibn al-‘As as a private French draft in its own single-item batch. No database writes or publication occurred.
 - The source hash is retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 226 of 7,366. Hadith Needs Mo: 185. Total local hadith rows not drafted: 8,067, including held records.
+
+### 2026-10-29: Muslim 122–124a
+
+- FR-LIB-HAD-MUSLIM-0049 saves 4 private French drafts. Hadith 122 directly quotes Quran 25:68 and 39:53, and 124a quotes Quran 6:82; their full translations remain blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 230 of 7,366. Hadith Needs Mo: 187. Total local hadith rows not drafted: 8,063, including held records.

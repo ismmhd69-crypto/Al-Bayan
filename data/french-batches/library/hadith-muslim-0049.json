@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0049",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:07:51.867Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bff7482d-4149-4ac9-8336-919308b7c240",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:122",
+      "reference": "Sahih Muslim, hadith 122, book 1, باب كَوْنِ الإِسْلاَمِ يَهْدِمُ مَا قَبْلَهُ وَكَذَا الْهِجْرَةُ وَالْحَجُّ ‏‏",
+      "title": "باب كَوْنِ الإِسْلاَمِ يَهْدِمُ مَا قَبْلَهُ وَكَذَا الْهِجْرَةُ وَالْحَجُّ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمِ بْنِ مَيْمُونٍ، وَإِبْرَاهِيمُ بْنُ دِينَارٍ، - وَاللَّفْظُ لإِبْرَاهِيمَ - قَالاَ حَدَّثَنَا حَجَّاجٌ، - وَهُوَ ابْنُ مُحَمَّدٍ - عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي يَعْلَى بْنُ مُسْلِمٍ، أَنَّهُ سَمِعَ سَعِيدَ بْنَ جُبَيْرٍ، يُحَدِّثُ عَنِ ابْنِ عَبَّاسٍ، أَنَّ نَاسًا، مِنْ أَهْلِ الشِّرْكِ قَتَلُوا فَأَكْثَرُوا وَزَنَوْا فَأَكْثَرُوا ثُمَّ أَتَوْا مُحَمَّدًا صلى الله عليه وسلم فَقَالُوا إِنَّ الَّذِي تَقُولُ وَتَدْعُو لَحَسَنٌ وَلَوْ تُخْبِرُنَا أَنَّ لِمَا عَمِلْنَا كَفَّارَةً فَنَزَلَ ‏[quran sura=\"25\" aya_start=\"68\" aya_end=\"68\"]{‏ وَالَّذِينَ لاَ يَدْعُونَ مَعَ اللَّهِ إِلَهًا آخَرَ وَلاَ يَقْتُلُونَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ وَلاَ يَزْنُونَ وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ أَثَامًا‏}‏ وَنَزَلَ [quran sura=\"39\" aya_start=\"53\" aya_end=\"53\"]‏{‏ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَى أَنْفُسِهِمْ لاَ تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ‏{‏ ‏.‏",
+      "source_hash_sha256": "3be5aa82b0a93d8af3fdf3a865509786caa85b35e8f79d0ed37be2372f12db77",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "943a9579-5287-443b-9dbf-e96cd9ad76d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:123a",
+      "reference": "Sahih Muslim, hadith 123 a, book 1, باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "title": "باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ حَكِيمَ بْنَ حِزَامٍ، أَخْبَرَهُ أَنَّهُ، قَالَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَرَأَيْتَ أُمُورًا كُنْتُ أَتَحَنَّثُ بِهَا فِي الْجَاهِلِيَّةِ هَلْ لِي فِيهَا مِنْ شَىْءٍ فَقَالَ لَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَسْلَمْتَ عَلَى مَا أَسْلَفْتَ مِنْ خَيْرٍ ‏\"‏ ‏.‏ وَالتَّحَنُّثُ التَّعَبُّدُ ‏.‏",
+      "source_hash_sha256": "fb03c6b838ea95e3b0c6b722bfb5c51bf2584ca4e5628ed44092eda857cd02b5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hakim ibn Hizam demanda au Messager de Dieu : « Que dis-tu des bonnes œuvres que j’accomplissais à l’époque préislamique ? M’en sera-t-il accordé quelque chose ? » Le Messager de Dieu lui répondit : « Tu as embrassé l’islam avec les bonnes œuvres que tu avais accomplies auparavant. » Le terme employé pour ces œuvres désigne une forme de dévotion.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d744b6d6-8740-4e52-aa27-d0cf505f145a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:123b",
+      "reference": "Sahih Muslim, hadith 123 b, book 1, باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "title": "باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا حَسَنٌ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، - قَالَ الْحُلْوَانِيُّ حَدَّثَنَا وَقَالَ عَبْدٌ، حَدَّثَنِي - يَعْقُوبُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ - حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ، أَنَّ حَكِيمَ بْنَ حِزَامٍ، أَخْبَرَهُ أَنَّهُ، قَالَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَىْ رَسُولَ اللَّهِ أَرَأَيْتَ أُمُورًا كُنْتُ أَتَحَنَّثُ بِهَا فِي الْجَاهِلِيَّةِ مِنْ صَدَقَةٍ أَوْ عَتَاقَةٍ أَوْ صِلَةِ رَحِمٍ أَفِيهَا أَجْرٌ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَسْلَمْتَ عَلَى مَا أَسْلَفْتَ مِنْ خَيْرٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "19df6c41b28b508c53fc218e8505e273d0a3eb30dbe3d932107431ad28284845",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hakim ibn Hizam demanda : « Messager de Dieu, que dis-tu des œuvres que j’accomplissais à l’époque préislamique — aumône, affranchissement d’esclaves ou maintien des liens de parenté ? En aurai-je une récompense ? » Le Messager de Dieu répondit : « Tu as embrassé l’islam avec les bonnes œuvres que tu avais accomplies auparavant. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b85f4052-4ac4-45b1-b9c5-c6a4b9c6dd21",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:123c",
+      "reference": "Sahih Muslim, hadith 123 c, book 1, باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "title": "باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ حَكِيمِ بْنِ حِزَامٍ، قَالَ قُلْتُ يَا رَسُولَ اللَّهِ أَشْيَاءَ كُنْتُ أَفْعَلُهَا فِي الْجَاهِلِيَّةِ - قَالَ هِشَامٌ يَعْنِي أَتَبَرَّرُ بِهَا - فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَسْلَمْتَ عَلَى مَا أَسْلَفْتَ لَكَ مِنَ الْخَيْرِ ‏\"‏ ‏.‏ قُلْتُ فَوَاللَّهِ لاَ أَدَعُ شَيْئًا صَنَعْتُهُ فِي الْجَاهِلِيَّةِ إِلاَّ فَعَلْتُ فِي الإِسْلاَمِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "e8159016af759b161c33e86fc0d15c943167b6e29458820d9caa17f3f10d7905",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hakim ibn Hizam demanda au Messager de Dieu ce qu’il adviendrait des bonnes actions qu’il faisait à l’époque préislamique. Le Prophète répondit : « Tu as embrassé l’islam avec les bonnes œuvres que tu avais accomplies auparavant. » Hakim dit : « Par Dieu, je ne laisserai aucune bonne œuvre que j’accomplissais à l’époque préislamique sans en accomplir une semblable en islam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e8d1a695-0a70-4c62-aa13-90630604df7b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:123d",
+      "reference": "Sahih Muslim, hadith 123 d, book 1, باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "title": "باب بَيَانِ حُكْمِ عَمَلِ الْكَافِرِ إِذَا أَسْلَمَ بَعْدَهُ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، أَنَّ حَكِيمَ بْنَ حِزَامٍ، أَعْتَقَ فِي الْجَاهِلِيَّةِ مِائَةَ رَقَبَةٍ وَحَمَلَ عَلَى مِائَةِ بَعِيرٍ ثُمَّ أَعْتَقَ فِي الإِسْلاَمِ مِائَةَ رَقَبَةٍ وَحَمَلَ عَلَى مِائَةِ بَعِيرٍ ثُمَّ أَتَى النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ نَحْوَ حَدِيثِهِمْ ‏.‏",
+      "source_hash_sha256": "fb1bf9e049219309d221cd69e0b7b2f7a15188c4d8b4cf1e03002ad75539fd7f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "À l’époque préislamique, Hakim ibn Hizam avait affranchi cent esclaves et fourni des montures à cent hommes. Après avoir embrassé l’islam, il affranchit encore cent esclaves et fournit des montures à cent hommes. Il vint ensuite trouver le Prophète et lui rapporta une histoire semblable.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7d9fcbb4-e5be-4928-8701-3b3ad081c04d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:124a",
+      "reference": "Sahih Muslim, hadith 124 a, book 1, باب صِدْقِ الإِيمَانِ وَإِخْلاَصِهِ ‏‏",
+      "title": "باب صِدْقِ الإِيمَانِ وَإِخْلاَصِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ، وَأَبُو مُعَاوِيَةَ وَوَكِيعٌ عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ، قَالَ لَمَّا نَزَلَتْ ‏[quran sura=\"6\" aya_start=\"82\" aya_end=\"82\"]{‏ الَّذِينَ آمَنُوا وَلَمْ يَلْبِسُوا إِيمَانَهُمْ بِظُلْمٍ‏}‏ شَقَّ ذَلِكَ عَلَى أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم وَقَالُوا أَيُّنَا لاَ يَظْلِمُ نَفْسَهُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَيْسَ هُوَ كَمَا تَظُنُّونَ إِنَّمَا هُوَ كَمَا قَالَ لُقْمَانُ لاِبْنِهِ ‏{‏",
+      "source_hash_sha256": "a5d6f8c6b037b843421998e7440be92a72ebee78139330c152685a0c05b48b2d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "bff7482d-4149-4ac9-8336-919308b7c240",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "7d9fcbb4-e5be-4928-8701-3b3ad081c04d",
+      "reason": "Ce récit cite directement un ou plusieurs versets du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
