@@ -2752,6 +2752,20 @@
       "status": "five private drafts; Bukhari 1342 held for embedded Quran quotation"
     },
     {
+      "id": "FR-LIB-HAD-BUKHARI-233",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-233.json",
+      "sourceIds": ["f83d254c-cae1-4360-b52a-b78f97df0304", "768b510e-0ddd-4f1e-a415-93eb15d86ac3", "2de57d6c-5335-4d5b-869b-5981ebf2825a", "ffe85db7-6e65-4c3b-a171-11a2bf421120", "920023fc-38df-494e-8421-09d96f52bd47", "572c39cb-88c2-424c-81e3-0429bb3bbfbc"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights, complete chains and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
+    },
+    {
       "id": "FR-LIB-HAD-BUKHARI-203",
       "contentType": "hadith",
       "language": "fr",

@@ -1108,3 +1108,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-232` saves five private French drafts for Bukhari 1340–1345. Bukhari 1342 remains blank and is recorded under Needs Mo because its explanatory source note quotes a Quranic word and no approved, attributed French Quran translation is configured.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,237 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 63. Total local hadith rows not drafted: 13,392, including held records.
+### 2026-10-29: Bukhari 1346–1352 source review
+
+- `FR-LIB-HAD-BUKHARI-233` saves six private French drafts for Bukhari 1346–1352, including the combined 1347/1348 report. They preserve the burial instructions for Uhud’s martyrs, the exception for idhkhir in Mecca, and the accounts of shared graves.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,243 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 63. Total local hadith rows not drafted: 13,386, including held records.
