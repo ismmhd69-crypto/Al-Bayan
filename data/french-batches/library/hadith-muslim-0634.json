@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0634",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:34:00.461Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9b6072a1-57d6-4119-b839-ce44a3b58727",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1414",
+      "reference": "Sahih Muslim, hadith 1414, book 16, باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "title": "باب تَحْرِيمِ الْخِطْبَةِ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَأْذَنَ أَوْ يَتْرُكَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنِ اللَّيْثِ، وَغَيْرِهِ، عَنْ يَزِيدَ بْنِ، أَبِي حَبِيبٍ عَنْ عَبْدِ الرَّحْمَنِ بْنِ شُمَاسَةَ، أَنَّهُ سَمِعَ عُقْبَةَ بْنَ عَامِرٍ، عَلَى الْمِنْبَرِ يَقُولُ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْمُؤْمِنُ أَخُو الْمُؤْمِنِ فَلاَ يَحِلُّ لِلْمُؤْمِنِ أَنْ يَبْتَاعَ عَلَى بَيْعِ أَخِيهِ وَلاَ يَخْطُبَ عَلَى خِطْبَةِ أَخِيهِ حَتَّى يَذَرَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9f37608de681bc9925e12c9ca828e455263b6e248ad69e0006f2fd2e95b32caf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Uqba ibn Amir rapporte avoir entendu le Messager d’Allah ﷺ dire, alors qu’il était sur le minbar : « Le croyant est le frère du croyant. Il n’est donc pas permis à un croyant de surenchérir sur l’achat de son frère ni de faire une demande en mariage par-dessus celle de son frère, jusqu’à ce qu’il renonce. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a5be42fc-956b-4eae-a54b-6d3bcc51ab7f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1415a",
+      "reference": "Sahih Muslim, hadith 1415 a, book 16, باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "title": "باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الشِّغَارِ ‏.‏ وَالشِّغَارُ أَنْ يُزَوِّجَ الرَّجُلُ ابْنَتَهُ عَلَى أَنْ يُزَوِّجَهُ ابْنَتَهُ وَلَيْسَ بَيْنَهُمَا صَدَاقٌ ‏.‏",
+      "source_hash_sha256": "77f83b2cbdcbedc492c449bc8e923a87224da8094662000617ee986d9078e8bb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Messager d’Allah ﷺ interdit le mariage dit shighar. Le shighar consiste pour un homme à marier sa fille à un autre homme à condition que celui-ci lui marie sa fille, sans qu’aucune dot ne soit versée entre eux.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3a7eee30-d7d2-4b7c-94ba-d69b820c748f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1415b",
+      "reference": "Sahih Muslim, hadith 1415 b, book 16, باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "title": "باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَعُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالُوا حَدَّثَنَا يَحْيَى، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏.‏ بِمِثْلِهِ غَيْرَ أَنَّ فِي حَدِيثِ عُبَيْدِ اللَّهِ قَالَ قُلْتُ لِنَافِعٍ مَا الشِّغَارُ.",
+      "source_hash_sha256": "15d772073d14016873758f69fec1d15dac1fe1b89c9fd21789733569f9059b77",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dbddd48d-7e35-4ee2-9ba7-6e359645dfd7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1415c",
+      "reference": "Sahih Muslim, hadith 1415 c, book 16, باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "title": "باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ عَبْدِ الرَّحْمَنِ السَّرَّاجِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الشِّغَارِ ‏.‏",
+      "source_hash_sha256": "08fdd73ebfdfc386b4330f07d18907da02c1024bff9979d6a4d0ea2cd58f8c19",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Messager d’Allah ﷺ interdit le mariage shighar.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6caa9f81-834a-4890-a5a9-f83fac889310",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1415d",
+      "reference": "Sahih Muslim, hadith 1415 d, book 16, باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "title": "باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ شِغَارَ فِي الإِسْلاَمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c69d7c1f5cd56fac153d22ff166a633eb9fb1dc592166475b2101c5dde047a2e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Umar rapporte que le Prophète ﷺ a dit : « Il n’y a pas de mariage shighar en islam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bab5eadd-9ea6-4458-af6d-e9970b383361",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1416a",
+      "reference": "Sahih Muslim, hadith 1416 a, book 16, باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "title": "باب تَحْرِيمِ نِكَاحِ الشِّغَارِ وَبُطْلاَنِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ نُمَيْرٍ، وَأَبُو أُسَامَةَ عَنْ عُبَيْدِ اللَّهِ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الشِّغَارِ ‏.‏ زَادَ ابْنُ نُمَيْرٍ وَالشِّغَارُ أَنْ يَقُولَ الرَّجُلُ لِلرَّجُلِ زَوِّجْنِي ابْنَتَكَ وَأُزَوِّجُكَ ابْنَتِي أَوْ زَوِّجْنِي أُخْتَكَ وَأُزَوِّجُكَ أُخْتِي ‏.‏",
+      "source_hash_sha256": "61d98143b2613e172d11c2fdceec4c023cc1a2da6bec45dda5b1d7c7370d1798",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Hurayra rapporte que le Messager d’Allah ﷺ interdit le mariage shighar. Ibn Numayr ajoute que le shighar consiste pour un homme à dire à un autre : « Marie-moi ta fille et je te marierai ma fille », ou : « Marie-moi ta sœur et je te marierai ma sœur. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "3a7eee30-d7d2-4b7c-94ba-d69b820c748f",
+      "reason": "Cette entrée ne reproduit pas le récit complet et renvoie à la version précédente (« بِمِثْلِهِ »), avec une question supplémentaire au transmetteur. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}

@@ -10296,3 +10296,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0633 saves five private French drafts about sales and marriage proposals, including rules against fake bidding and interfering with another person’s sale or proposal. Muslim 1413c only refers to the previous report and gives a wording variation, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1414–1416a
+
+- FR-LIB-HAD-MUSLIM-0634 saves five private French drafts about not undercutting another believer and the prohibition of shighar, a reciprocal marriage arrangement without a dowry. Muslim 1415b contains only a cross-reference and a follow-up question, so it remains blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
