@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5136,
+    "hadithBukhariDrafted": 5137,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5136,
+    "hadithLocalDrafted": 5137,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9493,
+    "hadithLocalRemaining": 9492,
     "hadithNeedsMo": 765,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -23886,6 +23886,22 @@
       "inserted": 0,
       "preserved": 0,
       "validation": "The long variant was handled as a one-record batch; Arabic original and hash, ID, reference, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1124",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1124.json",
+      "sourceIds": [
+        "1acbf558-1c1a-4578-9b02-1169c46cb6c5"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "The long legal report was handled as a one-record batch; Arabic original and hash, ID, reference, rights and private unpublished state passed",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
