@@ -8031,3 +8031,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0181 saves five private French drafts about following the imam, keeping the gaze low during prayer, and forming prayer rows. Muslim 427c only gives a wording variant of a previous report and remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 738 Muslim drafts, 7,074 total hadith drafts, 7,555 remaining, and 355 Needs Mo items.
+
+### 2026-10-29: Muslim 430b–432c
+
+- FR-LIB-HAD-MUSLIM-0182 saves four private French drafts about the closing salutation and arranging the prayer rows. Muslim 430b and 432b contain only cross-references to earlier reports, so both remain blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 742 Muslim drafts, 7,078 total hadith drafts, 7,551 remaining, and 357 Needs Mo items.
