@@ -1,0 +1,111 @@
+{
+  "batch_id": "HADITH-MUSLIM-0006",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:47:49.455Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cf00a71c-7c94-4a6e-9ce3-ad0c33fb80a3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:17d",
+      "reference": "Sahih Muslim, hadith 17 d, book 36, باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "title": "باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا عَبَّادُ بْنُ عَبَّادٍ، عَنْ أَبِي جَمْرَةَ، عَنِ ابْنِ عَبَّاسٍ، ح وَحَدَّثَنَا خَلَفُ بْنُ هِشَامٍ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ أَبِي جَمْرَةَ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ قَدِمَ وَفْدُ عَبْدِ الْقَيْسِ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ أَنْهَاكُمْ عَنِ الدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَالْمُقَيَّرِ ‏\"‏ ‏.‏ وَفِي حَدِيثِ حَمَّادٍ جَعَلَ - مَكَانَ الْمُقَيَّرِ - الْمُزَفَّتِ ‏.‏",
+      "source_hash_sha256": "3da11e071c2e243ed3eeeccb3f43619f9462585b733ccf3655a4e1fa17757935",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit à la délégation de ʿAbd al-Qays : « Je vous interdis les récipients suivants pour préparer des boissons : la gourde évidée, la jarre verte, le tronc creusé et le récipient enduit de poix. » Dans la version de Hammad, « le récipient enduit de poix » remplace « le récipient goudronné ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5abdde43-b375-4c4a-88e4-b09ebde240d8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:17e",
+      "reference": "Sahih Muslim, hadith 17 e, book 36, باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "title": "باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الشَّيْبَانِيِّ، عَنْ حَبِيبٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الدُّبَّاءِ وَالْحَنْتَمِ وَالْمُزَفَّتِ وَالنَّقِيرِ ‏.‏",
+      "source_hash_sha256": "70d12041062211668b777b05954172306c5c805ec3a0c9af4d7d101193f971d7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbas rapporte que le Messager d’Allah ﷺ interdit la préparation de boissons dans la gourde évidée, la jarre verte, le récipient enduit de poix et le tronc creusé.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7ce2c6e2-dd15-4c3f-aaed-8bef6c5ef3ab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:17f",
+      "reference": "Sahih Muslim, hadith 17 f, book 36, باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "title": "باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا مُحَمَّدُ بْنُ فُضَيْلٍ، عَنْ حَبِيبِ بْنِ أَبِي عَمْرَةَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الدُّبَّاءِ وَالْحَنْتَمِ وَالْمُزَفَّتِ وَالنَّقِيرِ وَأَنْ يُخْلَطَ الْبَلَحُ بِالزَّهْوِ ‏.‏",
+      "source_hash_sha256": "8f8ad9b4d3cf99c7a09994c30de0c318634aa235bebb9a771791952ebdfcc6e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbas rapporte que le Messager d’Allah ﷺ interdit la préparation de boissons dans la gourde évidée, la jarre verte, le récipient enduit de poix et le tronc creusé, ainsi que le mélange de dattes encore vertes et de dattes mûres.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b9cd95bd-5d7e-470f-8443-7ef63ba310d4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:17g",
+      "reference": "Sahih Muslim, hadith 17 g, book 36, باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "title": "باب النَّهْيِ عَنْ الاِنْتِبَاذِ فِي الْمُزَفَّتِ وَالدُّبَّاءِ وَالْحَنْتَمِ وَالنَّقِيرِ وَبَيَانِ أَنَّهُ مَنْسُوخٌ وَأَنَّهُ الْيَوْمَ حَلاَلٌ مَا لَمْ يَصِرْ مُسْكِرًا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، عَنْ شُعْبَةَ، عَنْ يَحْيَى الْبَهْرَانِيِّ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ يَحْيَى بْنِ أَبِي، عُمَرَ عَنِ ابْنِ عَبَّاسٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الدُّبَّاءِ وَالنَّقِيرِ وَالْمُزَفَّتِ ‏.‏",
+      "source_hash_sha256": "55c08c905b8f06276e68780c0f6a1b8d4d774ab1cf7a5eb4c4c654f025e9b5ab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn ʿAbbas rapporte que le Messager d’Allah ﷺ interdit la préparation de boissons dans la gourde évidée, le tronc creusé et le récipient enduit de poix.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

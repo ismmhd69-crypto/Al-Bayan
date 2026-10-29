@@ -7132,3 +7132,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0005 saves 6 private French drafts covering variants of the five pillars and the ʿAbd al-Qays delegation, including the vessel-name and chain variants. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 23 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,270, including held records.
+
+### 2026-10-29: Muslim 17d–17g
+
+- FR-LIB-HAD-MUSLIM-0006 saves 4 private French drafts preserving variants in the named vessel types and the additional prohibition on mixing two stages of dates. No database writes or publication occurred.
+- All 4 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 27 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,266, including held records.
