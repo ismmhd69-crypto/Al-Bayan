@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0897",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:17:48.444Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ad324528-56bd-4eb5-b462-7574db148ae4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1904c",
+      "reference": "Sahih Muslim, hadith 1904 c, book 33, باب مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللَّهِ ‏‏",
+      "title": "باب مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا الأَعْمَشُ، عَنْ شَقِيقٍ، عَنْ أَبِي مُوسَى، قَالَ أَتَيْنَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَقُلْنَا يَا رَسُولَ اللَّهِ الرَّجُلُ يُقَاتِلُ مِنَّا شَجَاعَةً ‏.‏ فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "d0be397ce3c6a2db27ac2fa2faa72183d72b4cb8074fa25856e8322be2b8d7cf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm nous l’a rapporté : ‘Îsâ ibn Yûnus nous a informés : al-A‘mash nous a rapporté, d’après Shaqîq, d’après Abû Mûsâ, qui a dit : Nous vînmes trouver le Messager d’Allah et lui dîmes : « Messager d’Allah, un homme parmi nous combat par bravoure. » Il rapporta un récit semblable.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7fc09d91-0ab2-40f9-9ba7-a94cc0525501",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1904d",
+      "reference": "Sahih Muslim, hadith 1904 d, book 33, باب مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللَّهِ ‏‏",
+      "title": "باب مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللَّهِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ أَبِي وَائِلٍ، عَنْ أَبِي، مُوسَى الأَشْعَرِيِّ أَنَّ رَجُلاً، سَأَلَ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنِ الْقِتَالِ فِي سَبِيلِ اللَّهِ عَزَّ وَجَلَّ فَقَالَ الرَّجُلُ يُقَاتِلُ غَضَبًا وَيُقَاتِلُ حَمِيَّةً قَالَ فَرَفَعَ رَأْسَهُ إِلَيْهِ - وَمَا رَفَعَ رَأْسَهُ إِلَيْهِ إِلاَّ أَنَّهُ كَانَ قَائِمًا - فَقَالَ ‏\"‏ مَنْ قَاتَلَ لِتَكُونَ كَلِمَةُ اللَّهِ هِيَ الْعُلْيَا فَهُوَ فِي سَبِيلِ اللَّهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5b36638cd899a99314049a110e6e062a63c4ee59159f62494f4221b43b68461c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm nous a rapporté : Jarîr nous a informés, d’après Mansûr, d’après Abû Wâ’il, d’après Abû Mûsâ al-Ash‘arî, qu’un homme avait interrogé le Messager d’Allah au sujet du combat dans la voie d’Allah, Puissant et Majestueux. L’homme dit : « Un homme combat par colère, et un autre par esprit de clan. » Le Prophète leva la tête vers lui — il ne l’avait levée que parce qu’il était debout — et répondit : « Celui qui combat pour que la parole d’Allah soit la plus élevée combat dans la voie d’Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "84f8e6bb-f5c6-402f-9b4f-2945448bc2eb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1905a",
+      "reference": "Sahih Muslim, hadith 1905 a, book 33, باب مَنَ قَاتَلَ لِلرِّيَاءِ وَالسُّمْعَةِ اسْتَحَقَّ النَّارَ ‏‏",
+      "title": "باب مَنَ قَاتَلَ لِلرِّيَاءِ وَالسُّمْعَةِ اسْتَحَقَّ النَّارَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، حَدَّثَنَا ابْنُ جُرَيْجٍ، حَدَّثَنِي يُونُسُ بْنُ يُوسُفَ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، قَالَ تَفَرَّقَ النَّاسُ عَنْ أَبِي هُرَيْرَةَ، فَقَالَ لَهُ نَاتِلُ أَهْلِ الشَّامِ أَيُّهَا الشَّيْخُ حَدِّثْنَا حَدِيثًا سَمِعْتَهُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ نَعَمْ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ إِنَّ أَوَّلَ النَّاسِ يُقْضَى يَوْمَ الْقِيَامَةِ عَلَيْهِ رَجُلٌ اسْتُشْهِدَ فَأُتِيَ بِهِ فَعَرَّفَهُ نِعَمَهُ فَعَرَفَهَا قَالَ فَمَا عَمِلْتَ فِيهَا قَالَ قَاتَلْتُ فِيكَ حَتَّى اسْتُشْهِدْتُ ‏.‏ قَالَ كَذَبْتَ وَلَكِنَّكَ قَاتَلْتَ لأَنْ يُقَالَ جَرِيءٌ ‏.‏ فَقَدْ قِيلَ ‏.‏ ثُمَّ أُمِرَ بِهِ فَسُحِبَ عَلَى وَجْهِهِ حَتَّى أُلْقِيَ فِي النَّارِ وَرَجُلٌ تَعَلَّمَ الْعِلْمَ وَعَلَّمَهُ وَقَرَأَ الْقُرْآنَ فَأُتِيَ بِهِ فَعَرَّفَهُ نِعَمَهُ فَعَرَفَهَا قَالَ فَمَا عَمِلْتَ فِيهَا قَالَ تَعَلَّمْتُ الْعِلْمَ وَعَلَّمْتُهُ وَقَرَأْتُ فِيكَ الْقُرْآنَ ‏.‏ قَالَ كَذَبْتَ وَلَكِنَّكَ تَعَلَّمْتَ الْعِلْمَ لِيُقَالَ عَالِمٌ ‏.‏ وَقَرَأْتَ الْقُرْآنَ لِيُقَالَ هُوَ قَارِئٌ ‏.‏ فَقَدْ قِيلَ ثُمَّ أُمِرَ بِهِ فَسُحِبَ عَلَى وَجْهِهِ حَتَّى أُلْقِيَ فِي النَّارِ ‏.‏ وَرَجُلٌ وَسَّعَ اللَّهُ عَلَيْهِ وَأَعْطَاهُ مِنْ أَصْنَافِ الْمَالِ كُلِّهِ فَأُتِيَ بِهِ فَعَرَّفَهُ نِعَمَهُ فَعَرَفَهَا قَالَ فَمَا عَمِلْتَ فِيهَا قَالَ مَا تَرَكْتُ مِنْ سَبِيلٍ تُحِبُّ أَنْ يُنْفَقَ فِيهَا إِلاَّ أَنْفَقْتُ فِيهَا لَكَ قَالَ كَذَبْتَ وَلَكِنَّكَ فَعَلْتَ لِيُقَالَ هُوَ جَوَادٌ ‏.‏ فَقَدْ قِيلَ ثُمَّ أُمِرَ بِهِ فَسُحِبَ عَلَى وَجْهِهِ ثُمَّ أُلْقِيَ فِي النَّارِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "69650bb76c08fc657c21e8634b7d8351e1006db3ea63dfc7d592aaf98f684b33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Habîb al-Hârithî nous a rapporté : Khâlid ibn al-Hârith nous a rapporté : Ibn Jurayj nous a rapporté : Yûnus ibn Yûsuf m’a rapporté, d’après Sulaymân ibn Yasâr, qui a dit : Les gens s’étaient dispersés autour d’Abû Hurayra. Nâtel, l’homme du Shâm, lui dit : « Cheikh, rapporte-nous un hadith que tu as entendu du Messager d’Allah. » Il répondit : Oui, j’ai entendu le Messager d’Allah dire : « Le premier homme dont le cas sera jugé au Jour de la Résurrection sera un homme mort en martyr. On l’amènera et Allah lui rappellera Ses bienfaits, qu’il reconnaîtra. Allah demandera : “Qu’en as-tu fait ?” Il répondra : “J’ai combattu pour Toi jusqu’à être tué en martyr.” Allah dira : “Tu mens. Tu as combattu pour qu’on dise : ‘Il est courageux’, et cela a été dit.” Il sera alors ordonné de le traîner sur son visage jusqu’à ce qu’il soit jeté dans le Feu. Puis on amènera un homme qui a appris la science, l’a enseignée et a récité le Coran. Allah lui rappellera Ses bienfaits, qu’il reconnaîtra, puis demandera : “Qu’en as-tu fait ?” Il répondra : “J’ai appris la science, je l’ai enseignée et j’ai récité le Coran pour Toi.” Allah dira : “Tu mens. Tu as appris la science pour qu’on dise : ‘C’est un savant’, et tu as récité le Coran pour qu’on dise : ‘C’est un lecteur.’ Cela a été dit.” Il sera alors ordonné de le traîner sur son visage jusqu’à ce qu’il soit jeté dans le Feu. Enfin, on amènera un homme à qui Allah a accordé de l’aisance et donné toutes sortes de biens. Allah lui rappellera Ses bienfaits, qu’il reconnaîtra, puis demandera : “Qu’en as-tu fait ?” Il répondra : “Je n’ai laissé aucune voie où Tu aimes que l’on dépense sans y dépenser pour Toi.” Allah dira : “Tu mens. Tu as agi ainsi pour qu’on dise : ‘C’est un homme généreux’, et cela a été dit.” Il sera alors ordonné de le traîner sur son visage puis de le jeter dans le Feu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2750fc3b-bff8-435c-9831-dae5b52b6105",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1905b",
+      "reference": "Sahih Muslim, hadith 1905 b, book 33, باب مَنَ قَاتَلَ لِلرِّيَاءِ وَالسُّمْعَةِ اسْتَحَقَّ النَّارَ ‏‏",
+      "title": "باب مَنَ قَاتَلَ لِلرِّيَاءِ وَالسُّمْعَةِ اسْتَحَقَّ النَّارَ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَلِيُّ بْنُ خَشْرَمٍ، أَخْبَرَنَا الْحَجَّاجُ، - يَعْنِي ابْنَ مُحَمَّدٍ - عَنِ ابْنِ جُرَيْجٍ، حَدَّثَنِي يُونُسُ بْنُ يُوسُفَ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، قَالَ تَفَرَّجَ النَّاسُ عَنْ أَبِي هُرَيْرَةَ، فَقَالَ لَهُ نَاتِلُ الشَّامِ وَاقْتَصَّ الْحَدِيثَ بِمِثْلِ حَدِيثِ خَالِدِ بْنِ الْحَارِثِ ‏.‏",
+      "source_hash_sha256": "98e78d05b04b6c4cc5f75400ce444f2ab29677a1f0786ac60fe8183282fa2da3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5713cb1b-7cf0-4e89-b220-f01934630540",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1906a",
+      "reference": "Sahih Muslim, hadith 1906 a, book 33, باب بَيَانِ قَدْرِ ثَوَابِ مَنْ غَزَا فَغَنِمَ وَمَنْ لَمْ يَغْنَمْ ‏‏",
+      "title": "باب بَيَانِ قَدْرِ ثَوَابِ مَنْ غَزَا فَغَنِمَ وَمَنْ لَمْ يَغْنَمْ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يَزِيدَ أَبُو عَبْدِ الرَّحْمَنِ، حَدَّثَنَا حَيْوَةُ بْنُ، شُرَيْحٍ عَنْ أَبِي هَانِئٍ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ الْحُبُلِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَا مِنْ غَازِيَةٍ تَغْزُو فِي سَبِيلِ اللَّهِ فَيُصِيبُونَ الْغَنِيمَةَ إِلاَّ تَعَجَّلُوا ثُلُثَىْ أَجْرِهِمْ مِنَ الآخِرَةِ وَيَبْقَى لَهُمُ الثُّلُثُ وَإِنْ لَمْ يُصِيبُوا غَنِيمَةً تَمَّ لَهُمْ أَجْرُهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "37c20f54e9512da28df54770810615c49a06f930a80a4b6d00f9b2a850d6e5bf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd ibn Humayd nous a rapporté : ‘Abd Allâh ibn Yazîd Abû ‘Abd ar-Rahmân nous a rapporté : Haywa ibn Shurayh nous a rapporté, d’après Abû Hâni’, d’après Abû ‘Abd ar-Rahmân al-Hubulî, d’après ‘Abd Allâh ibn ‘Amr, que le Messager d’Allah a dit : « Toute troupe qui combat dans la voie d’Allah et obtient du butin reçoit par avance les deux tiers de sa récompense dans l’au-delà ; il lui en reste un tiers. Si elle n’obtient pas de butin, sa récompense lui est pleinement accordée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "48c2ed8f-ac79-407b-9bf6-90a50e6765f7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1906b",
+      "reference": "Sahih Muslim, hadith 1906 b, book 33, باب بَيَانِ قَدْرِ ثَوَابِ مَنْ غَزَا فَغَنِمَ وَمَنْ لَمْ يَغْنَمْ ‏‏",
+      "title": "باب بَيَانِ قَدْرِ ثَوَابِ مَنْ غَزَا فَغَنِمَ وَمَنْ لَمْ يَغْنَمْ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ سَهْلٍ التَّمِيمِيُّ، حَدَّثَنَا ابْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا نَافِعُ بْنُ يَزِيدَ، حَدَّثَنِي أَبُو هَانِئٍ، حَدَّثَنِي أَبُو عَبْدِ الرَّحْمَنِ الْحُبُلِيُّ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ غَازِيَةٍ أَوْ سَرِيَّةٍ تَغْزُو فَتَغْنَمُ وَتَسْلَمُ إِلاَّ كَانُوا قَدْ تَعَجَّلُوا ثُلُثَىْ أُجُورِهِمْ وَمَا مِنْ غَازِيَةٍ أَوْ سَرِيَّةٍ تُخْفِقُ وَتُصَابُ إِلاَّ تَمَّ أُجُورُهُمْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a0a47bca14f15a2cadaa5cee85d2b7be6cf49961ceb4c846bd319f477cafe13e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Sahl at-Tamîmî m’a rapporté : Ibn Abî Maryam nous a rapporté : Nâfi‘ ibn Yazîd nous a informés : Abû Hâni’ m’a rapporté : Abû ‘Abd ar-Rahmân al-Hubulî m’a rapporté, d’après ‘Abd Allâh ibn ‘Amr, qui a dit : Le Messager d’Allah a dit : « Toute armée ou tout détachement qui combat, obtient du butin et revient sain et sauf a reçu par avance les deux tiers de sa récompense. Toute armée ou tout détachement qui échoue et subit des pertes reçoit sa récompense en entier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2750fc3b-bff8-435c-9831-dae5b52b6105",
+      "url": "https://sunnah.com/muslim:1905b",
+      "reason": "Cette entrée donne uniquement une autre chaîne de transmission puis indique que le récit reprend celui de Khâlid ibn al-Hârith, sans variante de contenu ou de formulation. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}

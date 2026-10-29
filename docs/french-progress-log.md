@@ -11546,3 +11546,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1900-1904b
 
 - FR-LIB-HAD-MUSLIM-0896 saves four private French drafts about martyrdom and the purpose of fighting. Two reports remain entirely blank under Needs Mo: one quotes Quran 33:23, and one uses wording matching Quran 3:133 without an explicit citation. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1904c-1906b
+
+- FR-LIB-HAD-MUSLIM-0897 saves five private French drafts about fighting for Allah’s cause, intention, and reward. The three cases judged for showing off retain their full, distinct conditions. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
