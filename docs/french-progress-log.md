@@ -11646,3 +11646,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1961i-1963
 
 - FR-LIB-HAD-MUSLIM-0921 saves six private French drafts about sacrifice timing, exemptions, and the required age of sacrificial animals. The reports’ differing wording and uncertainty are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1964-1966b
+
+- FR-LIB-HAD-MUSLIM-0922 saves five private French drafts about sacrifice procedure and distribution, including the Prophet’s own sacrifice. One referential entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.

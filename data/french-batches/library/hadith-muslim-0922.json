@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0922",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:26:22.041Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "700617bc-fc0a-4419-9d4e-2e3d71955009",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1964",
+      "reference": "Sahih Muslim, hadith 1964, book 35, باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "title": "باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ صَلَّى بِنَا النَّبِيُّ صلى الله عليه وسلم يَوْمَ النَّحْرِ بِالْمَدِينَةِ فَتَقَدَّمَ رِجَالٌ فَنَحَرُوا وَظَنُّوا أَنَّ النَّبِيَّ صلى الله عليه وسلم قَدْ نَحَرَ فَأَمَرَ النَّبِيُّ صلى الله عليه وسلم مَنْ كَانَ نَحَرَ قَبْلَهُ أَنْ يُعِيدَ بِنَحْرٍ آخَرَ وَلاَ يَنْحَرُوا حَتَّى يَنْحَرَ النَّبِيُّ صلى الله عليه وسلم ‏.‏",
+      "source_hash_sha256": "24eaedbee80ac5f2ec9532817bf70488ff1556f7ef36e6f6605fe19aed8edd7b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hâtim m’a rapporté : Muhammad ibn Bakr nous a rapporté : Ibn Jurayj nous a informés : Abû al-Zubayr m’a informé avoir entendu Jâbir ibn ‘Abd Allâh dire : Le Prophète dirigea notre prière à Médine le jour du Sacrifice. Des hommes s’avancèrent et sacrifièrent, pensant que le Prophète avait déjà sacrifié. Le Prophète ordonna à ceux qui avaient sacrifié avant lui de recommencer avec une autre bête et leur interdit de sacrifier avant qu’il n’ait lui-même sacrifié.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "80e992c3-4ca8-4805-8e0e-1f8d94aa09e5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1965a",
+      "reference": "Sahih Muslim, hadith 1965 a, book 35, باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "title": "باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ أَبِي الْخَيْرِ، عَنْ عُقْبَةَ بْنِ عَامِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَعْطَاهُ غَنَمًا يَقْسِمُهَا عَلَى أَصْحَابِهِ ضَحَايَا فَبَقِيَ عَتُودٌ فَذَكَرَهُ لِرَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ ضَحِّ بِهِ أَنْتَ ‏\"‏ ‏.‏ قَالَ قُتَيْبَةُ عَلَى صَحَابَتِهِ ‏.‏",
+      "source_hash_sha256": "19686371a214fbb4700b53760adb63440bba94419e1fd51bda275821867523d8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘î nous a rapporté : Layth nous a rapporté. Muhammad ibn Rumh nous a également rapporté : al-Layth nous a informés, d’après Yazîd ibn Abî Habîb, d’après Abû al-Khayr, d’après ‘Uqba ibn ‘Âmir, qui a dit : Le Messager d’Allah me donna des moutons à répartir entre ses compagnons pour leurs sacrifices. Il en resta un jeune bouc. J’en informai le Messager d’Allah et il dit : « Sacrifie-le toi-même. » Qutayba a dit : « À répartir entre ses compagnons. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "de276c46-5b3e-49fc-9f8b-7239a86588d9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1965b",
+      "reference": "Sahih Muslim, hadith 1965 b, book 35, باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "title": "باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ هِشَامٍ الدَّسْتَوَائِيِّ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، عَنْ بَعْجَةَ الْجُهَنِيِّ، عَنْ عُقْبَةَ بْنِ عَامِرٍ الْجُهَنِيِّ، قَالَ قَسَمَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِينَا ضَحَايَا فَأَصَابَنِي جَذَعٌ فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّهُ أَصَابَنِي جَذَعٌ ‏.‏ فَقَالَ ‏\"‏ ضَحِّ بِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d540410293c79cd52bbc1ff68b10542bde687a009ac38c1e27ed8e840c7e50e8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Yazîd ibn Hârûn nous a rapporté, d’après Hishâm al-Dastawâ’î, d’après Yahyâ ibn Abî Kathîr, d’après Ba‘ja al-Juhanî, d’après ‘Uqba ibn ‘Âmir al-Juhanî, qui a dit : « Le Messager d’Allah répartit les bêtes sacrificielles entre nous. J’en reçus un jeune animal et je dis : “Messager d’Allah, j’ai reçu un jeune animal.” Il répondit : “Sacrifie-le.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "023b4700-6f80-4c52-8122-c0806cd21a82",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1965c",
+      "reference": "Sahih Muslim, hadith 1965 c, book 35, باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "title": "باب سِنِّ الأُضْحِيَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، حَدَّثَنَا يَحْيَى، - يَعْنِي ابْنَ حَسَّانَ - أَخْبَرَنَا مُعَاوِيَةُ، - وَهُوَ ابْنُ سَلاَّمٍ - حَدَّثَنِي يَحْيَى بْنُ أَبِي كَثِيرٍ، أَخْبَرَنِي بَعْجَةُ بْنُ عَبْدِ، اللَّهِ أَنَّ عُقْبَةَ بْنَ عَامِرٍ الْجُهَنِيَّ، أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَسَمَ ضَحَايَا بَيْنَ أَصْحَابِهِ ‏.‏ بِمِثْلِ مَعْنَاهُ ‏.‏",
+      "source_hash_sha256": "60317d13a58dec615b6cfb4ae1644d25d1fee035dc93715e0306bee218612254",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d083816e-8a56-4057-9ede-768cae0752e3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1966a",
+      "reference": "Sahih Muslim, hadith 1966 a, book 35, باب اسْتِحْبَابِ الضَّحِيَّةِ وَذَبْحِهَا مُبَاشَرَةً بِلاَ تَوْكِيلٍ وَالتَّسْمِيَةِ وَالتَّكْبِيرِ ‏‏",
+      "title": "باب اسْتِحْبَابِ الضَّحِيَّةِ وَذَبْحِهَا مُبَاشَرَةً بِلاَ تَوْكِيلٍ وَالتَّسْمِيَةِ وَالتَّكْبِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ ضَحَّى النَّبِيُّ صلى الله عليه وسلم بِكَبْشَيْنِ أَمْلَحَيْنِ أَقْرَنَيْنِ ذَبَحَهُمَا بِيَدِهِ وَسَمَّى وَكَبَّرَ وَوَضَعَ رِجْلَهُ عَلَى صِفَاحِهِمَا ‏.‏",
+      "source_hash_sha256": "f17013498a5a0e2b9793476e782e7f37fd3b7da051df760209b18f71a9c4accf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘îd nous a rapporté : Abû ‘Awâna nous a rapporté, d’après Qatâda, d’après Anas, qui a dit : « Le Prophète sacrifia deux béliers blancs mêlés de noir et munis de cornes. Il les égorgea de sa main, prononça le nom d’Allah et proclama Sa grandeur, en posant son pied sur leurs flancs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7ac0d65a-1564-41e7-adcb-473d27cc3a6c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1966b",
+      "reference": "Sahih Muslim, hadith 1966 b, book 35, باب اسْتِحْبَابِ الضَّحِيَّةِ وَذَبْحِهَا مُبَاشَرَةً بِلاَ تَوْكِيلٍ وَالتَّسْمِيَةِ وَالتَّكْبِيرِ ‏‏",
+      "title": "باب اسْتِحْبَابِ الضَّحِيَّةِ وَذَبْحِهَا مُبَاشَرَةً بِلاَ تَوْكِيلٍ وَالتَّسْمِيَةِ وَالتَّكْبِيرِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا وَكِيعٌ، عَنْ شُعْبَةَ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ ضَحَّى رَسُولُ اللَّهِ صلى الله عليه وسلم بِكَبْشَيْنِ أَمْلَحَيْنِ أَقْرَنَيْنِ قَالَ وَرَأَيْتُهُ يَذْبَحُهُمَا بِيَدِهِ وَرَأَيْتُهُ وَاضِعًا قَدَمَهُ عَلَى صِفَاحِهِمَا قَالَ وَسَمَّى وَكَبَّرَ ‏.‏",
+      "source_hash_sha256": "df9c855c889f7b2d358e6137187ea0a8df0479b513f5e5c27c65a3aebfc00201",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahyâ ibn Yahyâ nous a rapporté : Wakî‘ nous a informés, d’après Shu‘ba, d’après Qatâda, d’après Anas, qui a dit : « Le Messager d’Allah sacrifia deux béliers blancs mêlés de noir et munis de cornes. Je l’ai vu les égorger de sa main et poser son pied sur leurs flancs. » Il prononça le nom d’Allah et proclama Sa grandeur.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "023b4700-6f80-4c52-8122-c0806cd21a82",
+      "url": "https://sunnah.com/muslim:1965c",
+      "reason": "Cette entrée renvoie au récit précédent en reprenant seulement sa chaîne et son sens général, sans variante distincte du contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
