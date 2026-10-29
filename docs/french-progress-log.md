@@ -11221,3 +11221,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0818 saves five private French drafts preserving the complete and shortened wording variants about the banner of a traitor, including the explicit omission in one transmission. Muslim 1735b supplies only transmission chains and a cross-reference to the preceding report, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1737-1741
+
+- FR-LIB-HAD-MUSLIM-0819 saves six private French drafts: four distinct reports about the banner of a traitor, two reports stating that war is a stratagem, and the instruction not to wish for an encounter with the enemy and to remain patient if one occurs. Distinctive wording, chains, names, and narrator qualifications are preserved.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
