@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:17:32.225Z",
+  "lastReconciled": "2026-10-29T14:18:28.664Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 320,
+    "hadithMuslimDrafted": 321,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6656,
-    "hadithDatabaseMissing": 7973,
-    "hadithLocalRemaining": 7973,
+    "hadithLocalDrafted": 6657,
+    "hadithDatabaseMissing": 7972,
+    "hadithLocalRemaining": 7972,
     "hadithNeedsMo": 207,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -30578,6 +30578,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0073",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0073.json",
+      "sourceIds": [
+        "d5bfe844-7822-451e-bccb-f8e79f1a49e0"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; single-item long-text rule passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34681,8 +34697,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6656,
-  "hadithLocalRemaining": 7973,
+  "hadithLocalDrafted": 6657,
+  "hadithLocalRemaining": 7972,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35927,8 +35943,8 @@
       "reason": "Ce récit de 4 845 caractères cite directement le verset 19:57 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 320,
-  "hadithDatabaseMissing": 7973,
+  "hadithMuslimDrafted": 321,
+  "hadithDatabaseMissing": 7972,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 207
 }
