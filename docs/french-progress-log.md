@@ -8401,3 +8401,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0255 saves four private French drafts about catching a prayer before its time ends and the five prayer times taught by Jibril. Muslim 608b and 608d contain only incomplete cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,015 Muslim drafts, 7,351 total hadith drafts, 7,278 remaining, and 491 Needs Mo items.
+
+### 2026-10-29: Muslim 611a–612b
+
+- FR-LIB-HAD-MUSLIM-0256 saves six private French drafts about the time of the Asr prayer and the time ranges for the five daily prayers.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,021 Muslim drafts, 7,357 total hadith drafts, 7,272 remaining, and 491 Needs Mo items.
