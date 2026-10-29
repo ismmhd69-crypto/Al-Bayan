@@ -1,0 +1,184 @@
+{
+  "batch_id": "HADITH-MUSLIM-0905",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:21:13.063Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "19c4b415-2c46-4f99-9ee7-342077a907e4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1929d",
+      "reference": "Sahih Muslim, hadith 1929 d, book 34, باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "title": "باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، حَدَّثَنَا ابْنُ عُلَيَّةَ، قَالَ وَأَخْبَرَنِي شُعْبَةُ، عَنْ عَبْدِ اللَّهِ بْنِ، أَبِي السَّفَرِ قَالَ سَمِعْتُ الشَّعْبِيَّ، يَقُولُ سَمِعْتُ عَدِيَّ بْنَ حَاتِمٍ، يَقُولُ سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنِ الْمِعْرَاضِ ‏.‏ فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "22e64f37028de65ba4a89b90c8e809f05fe1fad3db3649fc043a69b2aa4a679f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "445877d1-2c0c-4e37-8df2-9b97b5f223bd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1929e",
+      "reference": "Sahih Muslim, hadith 1929 e, book 34, باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "title": "باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ الْعَبْدِيُّ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ، أَبِي السَّفَرِ وَعَنْ نَاسٍ، ذَكَرَ شُعْبَةُ عَنِ الشَّعْبِيِّ، قَالَ سَمِعْتُ عَدِيَّ بْنَ حَاتِمٍ، قَالَ سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنِ الْمِعْرَاضِ ‏.‏ بِمِثْلِ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "7fff7d82bd9a59de59e0692ccf81247a33e9b6806c0449d36202b2c67ab5253e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4d1c3b09-18d4-41dc-9bab-54f1ada99e7a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1929f",
+      "reference": "Sahih Muslim, hadith 1929 f, book 34, باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "title": "باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا زَكَرِيَّاءُ، عَنْ عَامِرٍ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم عَنْ صَيْدِ الْمِعْرَاضِ فَقَالَ ‏\"‏ مَا أَصَابَ بِحَدِّهِ فَكُلْهُ وَمَا أَصَابَ بِعَرْضِهِ فَهُوَ وَقِيذٌ ‏\"‏ ‏.‏ وَسَأَلْتُهُ عَنْ صَيْدِ الْكَلْبِ فَقَالَ ‏\"‏ مَا أَمْسَكَ عَلَيْكَ وَلَمْ يَأْكُلْ مِنْهُ فَكُلْهُ فَإِنَّ ذَكَاتَهُ أَخْذُهُ فَإِنْ وَجَدْتَ عِنْدَهُ كَلْبًا آخَرَ فَخَشِيتَ أَنْ يَكُونَ أَخَذَهُ مَعَهُ وَقَدْ قَتَلَهُ فَلاَ تَأْكُلْ إِنَّمَا ذَكَرْتَ اسْمَ اللَّهِ عَلَى كَلْبِكَ وَلَمْ تَذْكُرْهُ عَلَى غَيْرِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a4de296b5100c9cf5d3e85ff009eb458d1f2551871b0a83c35ae3daa0da17057",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn ‘Abd Allâh ibn Numayr nous a rapporté : Mon père nous a rapporté : Zakariyyâ nous a rapporté, d’après ‘Âmir, d’après ‘Adî ibn Hâtim, qui a dit : J’ai interrogé le Messager d’Allah au sujet du gibier atteint par le bâton de chasse. Il répondit : « Celui que sa pointe atteint, mange-le ; celui qu’il frappe de côté est une bête assommée. » Je l’ai également interrogé au sujet du gibier pris par un chien. Il répondit : « Ce que ton chien retient pour toi sans en manger, mange-le, car son abattage rituel consiste à le saisir. Si tu trouves un autre chien auprès de lui et crains qu’il ait participé à la capture et tué le gibier, ne le mange pas : tu as prononcé le nom d’Allah sur ton chien, mais pas sur l’autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ebee6711-8152-4c8b-9b44-587f9b7133d3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1929g",
+      "reference": "Sahih Muslim, hadith 1929 g, book 34, باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "title": "باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عِيسَى بْنُ يُونُسَ، حَدَّثَنَا زَكَرِيَّاءُ بْنُ أَبِي، زَائِدَةَ بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "2d5f25ad3a0c4d228d77ea21ac8791f7c04828dedd1c159d8d93a527fdb70f77",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6125f373-e754-4eda-acb0-ce0ca844c0dd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1929h",
+      "reference": "Sahih Muslim, hadith 1929 h, book 34, باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "title": "باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْوَلِيدِ بْنِ عَبْدِ الْحَمِيدِ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سَعِيدِ بْنِ مَسْرُوقٍ، حَدَّثَنَا الشَّعْبِيُّ، قَالَ سَمِعْتُ عَدِيَّ بْنَ حَاتِمٍ، - وَكَانَ لَنَا جَارًا وَدَخِيلاً وَرَبِيطًا بِالنَّهْرَيْنِ - أَنَّهُ سَأَلَ النَّبِيَّ صلى الله عليه وسلم قَالَ أُرْسِلُ كَلْبِي فَأَجِدُ مَعَ كَلْبِي كَلْبًا قَدْ أَخَذَ لاَ أَدْرِي أَيُّهُمَا أَخَذَ ‏.‏ قَالَ ‏\"‏ فَلاَ تَأْكُلْ فَإِنَّمَا سَمَّيْتَ عَلَى كَلْبِكَ وَلَمْ تُسَمِّ عَلَى غَيْرِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "df3c7b289782ca05d4019c35fca45941df588fa35141f066aa3863c379eb05ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Walîd ibn ‘Abd al-Hamîd nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Sa‘îd ibn Masrûq, qui nous a rapporté : Al-Sha‘bî a dit : J’ai entendu ‘Adî ibn Hâtim — qui était notre voisin, notre allié et notre protégé dans les deux régions fluviales — dire qu’il avait interrogé le Prophète : « J’envoie mon chien et je trouve avec lui un autre chien qui a attrapé le gibier ; j’ignore lequel des deux l’a attrapé. » Il répondit : « Ne le mange pas : tu as prononcé le nom d’Allah sur ton chien, mais pas sur l’autre. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "03766e87-8113-47a1-92cc-313690ae6492",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1929i",
+      "reference": "Sahih Muslim, hadith 1929 i, book 34, باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "title": "باب الصَّيْدِ بِالْكِلاَبِ الْمُعَلَّمَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْوَلِيدِ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنِ الْحَكَمِ، عَنِ الشَّعْبِيِّ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "5cd6c32cf326faab330ba18de19f07f6c7ff8db1f57efefd2520bf114a9f8a64",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_referential_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "19c4b415-2c46-4f99-9ee7-342077a907e4",
+      "url": "https://sunnah.com/muslim:1929d",
+      "reason": "Cette entrée renvoie simplement au même récit sur le bâton de chasse sans en reproduire le contenu complet ni signaler une variante précise. Garder la traduction française vide jusqu’à validation du texte complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "445877d1-2c0c-4e37-8df2-9b97b5f223bd",
+      "url": "https://sunnah.com/muslim:1929e",
+      "reason": "Cette entrée renvoie simplement au même récit sur le bâton de chasse sans en reproduire le contenu complet ni signaler une variante précise. Garder la traduction française vide jusqu’à validation du texte complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ebee6711-8152-4c8b-9b44-587f9b7133d3",
+      "url": "https://sunnah.com/muslim:1929g",
+      "reason": "Cette entrée ne contient que la chaîne de transmission du récit précédent, sans son contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "03766e87-8113-47a1-92cc-313690ae6492",
+      "url": "https://sunnah.com/muslim:1929i",
+      "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu et sans signaler de variante distincte. Garder la traduction française vide jusqu’à validation du texte complet.",
+      "status": "blocked"
+    }
+  ]
+}

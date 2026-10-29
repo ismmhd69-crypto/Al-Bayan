@@ -11578,3 +11578,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1927-1929c
 
 - FR-LIB-HAD-MUSLIM-0904 saves six private French drafts about returning from travel, visiting family, and hunting with trained dogs or a hunting shaft. The distinct “did not enter” wording and the hunting rulings are preserved. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1929d-1929i
+
+- FR-LIB-HAD-MUSLIM-0905 saves two private French drafts about hunting with a shaft and trained dogs. Four entries that only refer to another report or provide a chain remain blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
