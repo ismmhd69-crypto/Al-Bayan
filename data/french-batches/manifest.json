@@ -49972,6 +49972,30 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1221",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1221.json",
+      "sourceIds": [
+        "b81cc65c-b162-43e4-a0d6-4b8c6d8b6937",
+        "e9cd8f8c-6900-4627-874c-e3360bb6e56b",
+        "726a561b-fc22-4a74-9d5b-035f6a58b8c8",
+        "79ff574d-9f85-4c64-acaf-bc5ae20c0258",
+        "ab5d7a74-de85-4475-bc10-24d2ad33b78f",
+        "e4b7798b-fdf0-4b59-9dc6-7253e88e4c55"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 3,
+      "failed": 0,
+      "remaining": 3502,
+      "validation": "Three complete Adam and Moses reports translated and reread against Arabic. One truncated source and two reference-only variants held. Focused validator and git diff check passed. Private local drafts only; no database insertion.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -54279,8 +54303,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 11124,
-  "hadithLocalRemaining": 3505,
+  "hadithLocalDrafted": 11127,
+  "hadithLocalRemaining": 3502,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -60342,11 +60366,11 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 4788,
+  "hadithMuslimDrafted": 4791,
   "hadithDatabaseMissing": 14629,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 2722,
+  "hadithNeedsMo": 2725,
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
-  "hadithSourcesProcessed": 13846,
-  "hadithSourcesNotYetExported": 783
+  "hadithSourcesProcessed": 13852,
+  "hadithSourcesNotYetExported": 777
 }
