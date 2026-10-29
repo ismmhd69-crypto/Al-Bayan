@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-MUSLIM-0193",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:23:31.858Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7a1a41e0-400b-46c1-8b6b-5ca81fb9651f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:463a",
+      "reference": "Sahih Muslim, hadith 463 a, book 4, باب الْقِرَاءَةِ فِي الصُّبْحِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الصُّبْحِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ مُحَمَّدِ بْنِ جُبَيْرِ بْنِ مُطْعِمٍ، عَنْ أَبِيهِ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقْرَأُ بِالطُّورِ فِي الْمَغْرِبِ ‏.‏",
+      "source_hash_sha256": "5da4948b03a793e98855ba547383deb45a1668f67f56ee9ac22ef6d8e303a9bc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya a dit : J’ai lu à Malik, d’après Ibn Shihab, d’après Muhammad ibn Jubayr ibn Mut‘im, d’après son père, qui dit : « J’ai entendu le Messager d’Allah ﷺ réciter la sourate At-Tur pendant la prière du coucher du soleil. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0b96a235-77b3-4805-980d-36d202b37160",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:463b",
+      "reference": "Sahih Muslim, hadith 463 b, book 4, باب الْقِرَاءَةِ فِي الصُّبْحِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الصُّبْحِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالاَ حَدَّثَنَا سُفْيَانُ، ح قَالَ وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، ح قَالَ وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، كُلُّهُمْ عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "a52febe1606cd033f3a281c8613b273cc56acf7204cdb1f3bc96485bc0676939",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "71621a51-4e7b-433d-8793-4615fd17afea",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:464a",
+      "reference": "Sahih Muslim, hadith 464 a, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ عَدِيٍّ، قَالَ سَمِعْتُ الْبَرَاءَ، يُحَدِّثُ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ كَانَ فِي سَفَرٍ فَصَلَّى الْعِشَاءَ الآخِرَةَ فَقَرَأَ فِي إِحْدَى الرَّكْعَتَيْنِ ‏[quran sura=\"95\" aya_start=\"1\" aya_end=\"1\"]{‏ وَالتِّينِ وَالزَّيْتُونِ‏}‏",
+      "source_hash_sha256": "b4f45b54ea56a2fa01f37afea8e8e890e9d8f9dc014c1f9d32515f6bc7d22f3d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b079cf38-7923-488e-9967-160fee2adb11",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:464b",
+      "reference": "Sahih Muslim, hadith 464 b, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ يَحْيَى، - وَهُوَ ابْنُ سَعِيدٍ - عَنْ عَدِيِّ بْنِ ثَابِتٍ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، أَنَّهُ قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم الْعِشَاءَ فَقَرَأَ بِالتِّينِ وَالزَّيْتُونِ ‏.‏",
+      "source_hash_sha256": "95b7bddd4d6326c635908c9522f75a03c0c42f783b89b426d87cdfac91153bbd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9a0cbd0-e4e1-4a75-a224-8a19b4e3c3a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:464c",
+      "reference": "Sahih Muslim, hadith 464 c, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا مِسْعَرٌ، عَنْ عَدِيِّ بْنِ ثَابِتٍ، قَالَ سَمِعْتُ الْبَرَاءَ بْنَ عَازِبٍ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم قَرَأَ فِي الْعِشَاءِ بِالتِّينِ وَالزَّيْتُونِ ‏.‏ فَمَا سَمِعْتُ أَحَدًا أَحْسَنَ صَوْتًا مِنْهُ ‏.‏",
+      "source_hash_sha256": "557a5f4d8d099f02f46caa5d6c3647e669108091def6ea0fcad3672b42fde255",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a269c9cc-b6be-4daf-8795-b99bcad68d18",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:465a",
+      "reference": "Sahih Muslim, hadith 465 a, book 4, باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "title": "باب الْقِرَاءَةِ فِي الْعِشَاءِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ عَبَّادٍ، حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ جَابِرٍ، قَالَ كَانَ مُعَاذٌ يُصَلِّي مَعَ النَّبِيِّ صلى الله عليه وسلم ثُمَّ يَأْتِي فَيَؤُمُّ قَوْمَهُ فَصَلَّى لَيْلَةً مَعَ النَّبِيِّ صلى الله عليه وسلم الْعِشَاءَ ثُمَّ أَتَى قَوْمَهُ فَأَمَّهُمْ فَافْتَتَحَ بِسُورَةِ الْبَقَرَةِ فَانْحَرَفَ رَجُلٌ فَسَلَّمَ ثُمَّ صَلَّى وَحْدَهُ وَانْصَرَفَ فَقَالُوا لَهُ أَنَافَقْتَ يَا فُلاَنُ قَالَ لاَ وَاللَّهِ وَلآتِيَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم فَلأُخْبِرَنَّهُ ‏.‏ فَأَتَى رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ إِنَّا أَصْحَابُ نَوَاضِحَ نَعْمَلُ بِالنَّهَارِ وَإِنَّ مُعَاذًا صَلَّى مَعَكَ الْعِشَاءَ ثُمَّ أَتَى فَافْتَتَحَ بِسُورَةِ الْبَقَرَةِ ‏.‏ فَأَقْبَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَى مُعَاذٍ فَقَالَ ‏\"‏ يَا مُعَاذُ أَفَتَّانٌ أَنْتَ اقْرَأْ بِكَذَا وَاقْرَأْ بِكَذَا ‏\"‏ ‏.‏ قَالَ سُفْيَانُ فَقُلْتُ لِعَمْرٍو إِنَّ أَبَا الزُّبَيْرِ حَدَّثَنَا عَنْ جَابِرٍ أَنَّهُ قَالَ ‏\"‏ اقْرَأْ وَالشَّمْسِ وَضُحَاهَا ‏.‏ وَالضُّحَى ‏.‏ وَاللَّيْلِ إِذَا يَغْشَى ‏.‏ وَسَبِّحِ اسْمَ رَبِّكَ الأَعْلَى ‏\"‏ ‏.‏ فَقَالَ عَمْرٌو نَحْوَ هَذَا ‏.‏",
+      "source_hash_sha256": "54fc8d7820c701d4269d0cabf4693c229fbc86be1dfebb53c9536d15523055b9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0b96a235-77b3-4805-980d-36d202b37160",
+      "reason": "La source ne donne que les chaînes de transmission et renvoie à la version précédente sans reprendre le texte du récit. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "71621a51-4e7b-433d-8793-4615fd17afea",
+      "reason": "La source cite directement le verset 95:1 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "b079cf38-7923-488e-9967-160fee2adb11",
+      "reason": "La source cite directement les mots d’ouverture du verset 95:1 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "f9a0cbd0-e4e1-4a75-a224-8a19b4e3c3a4",
+      "reason": "La source cite directement les mots d’ouverture du verset 95:1 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "a269c9cc-b6be-4daf-8795-b99bcad68d18",
+      "reason": "La source cite directement plusieurs fragments de versets coraniques dans la recommandation de récitations. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
