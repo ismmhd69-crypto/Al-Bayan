@@ -12578,3 +12578,6 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2499-2501
 
 - FR-LIB-HAD-MUSLIM-1161 saves three complete reports as private French drafts. No database write or publication occurred.
+### 2026-10-30: Muslim 2502-2503
+
+- FR-LIB-HAD-MUSLIM-1162 saves the complete report of the ship migrants and the two migrations as a private French draft. No database write or publication occurred.
