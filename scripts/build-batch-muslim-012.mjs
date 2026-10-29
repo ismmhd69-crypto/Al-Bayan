@@ -1,0 +1,154 @@
+import fs from 'fs';
+import { validateGerman } from './validate-german-text.mjs';
+
+const batch = JSON.parse(fs.readFileSync('data/german-batches/hadith-inputs/muslim-batch-012.json', 'utf8'));
+
+const translations = {
+  // 1: 39afe6f6-26fd-4eba-a1be-2c19433e0c6e
+  "39afe6f6-26fd-4eba-a1be-2c19433e0c6e":
+    "Qutaybah ibn Sa‘id berichtete uns: Layth berichtete uns. (Zweiter Übertragungsweg:) Und Muhammad ibn Rumh berichtete mir: Al-Layth teilte uns mit, von Nafi‘, von ‘Abdullah (Ibn ‘Umar, möge Allah mit beiden zufrieden sein), der sagte: Der Gesandte Allahs (Friede sei auf ihm) untersagte al-Muzabanah: dass man die Früchte seines Gartens, falls es Palmen sind, gegen abgemessene getrocknete Datteln verkauft; und falls es Weinstöcke sind, dass man sie gegen abgemessene Rosinen verkauft; und falls es Getreide ist, dass man es gegen ein Hohlmaß an Getreidekorn verkauft. Er untersagte dies alles. Und in der Überlieferung von Qutaybah heißt es: „...oder falls es Getreide ist...“",
+
+  // 2: 0d95147a-56a1-4cec-bd43-048c95fafc5d
+  "0d95147a-56a1-4cec-bd43-048c95fafc5d":
+    "Und Abu at-Tahir berichtete es mir: Ibn Wahb teilte uns mit: Yunus berichtete mir. (Zweiter Übertragungsweg:) Und Ibn Rafi‘ berichtete es uns: Ibn Abi Fudayk berichtete uns: Ad-Dahhak teilte mir mit. (Dritter Übertragungsweg:) Und Suwayd ibn Sa‘id berichtete es mir: Hafs ibn Maysarah berichtete uns: Musa ibn ‘Uqbah berichtete mir; alle von Nafi‘ mit dieser Überlieferungskette, ähnlich ihrem Hadith.",
+
+  // 3: 0878bb0f-608a-4ac1-9298-26835a0d40f3
+  "0878bb0f-608a-4ac1-9298-26835a0d40f3":
+    "Yahya ibn Yahya berichtete uns, er sagte: Ich las Malik vor, von Nafi‘, von Ibn ‘Umar (möge Allah mit beiden zufrieden sein), dass der Gesandte Allahs (Friede sei auf ihm) sagte: „Wer Palmen verkauft, nachdem sie bestäubt worden sind, so gebühren ihre Früchte dem Verkäufer, es sei denn, der Käufer bedingt sie sich aus.“",
+
+  // 4: 3667671b-e334-45da-a0bf-53db8ebc650d
+  "3667671b-e334-45da-a0bf-53db8ebc650d":
+    "Muhammad ibn al-Muthanna berichtete uns: Yahya ibn Sa‘id berichtete uns. (Zweiter Übertragungsweg:) Und Ibn Numayr berichtete uns: Mein Vater berichtete uns; beide von ‘Ubaydullah. (Dritter Übertragungsweg:) Und Abu Bakr ibn Abi Schaybah berichtete uns – und der Wortlaut stammt von ihm –: Muhammad ibn Bischr berichtete uns: ‘Ubaydullah berichtete uns, von Nafi‘, von Ibn ‘Umar (möge Allah mit beiden zufrieden sein), dass der Gesandte Allahs (Friede sei auf ihm) sagte: „Welche Palmen auch immer an ihren Stämmen gekauft werden, nachdem sie bestäubt worden sind, so gebührt ihre Frucht demjenigen, der sie bestäubt hat, es sei denn, derjenige, der sie gekauft hat, bedingt sie sich aus.“",
+
+  // 5: 27486ddb-3161-4874-a570-92d490860bbe
+  "27486ddb-3161-4874-a570-92d490860bbe":
+    "Und Qutaybah ibn Sa‘id berichtete uns: Layth berichtete uns. (Zweiter Übertragungsweg:) Und Ibn Rumh berichtete uns: Al-Layth teilte uns mit, von Nafi‘, von Ibn ‘Umar (möge Allah mit beiden zufrieden sein), dass der Prophet (Friede sei auf ihm) sagte: „Welcher Mann auch immer Palmen bestäubt und danach ihre Stämme verkauft, so gebührt demjenigen, der sie bestäubt hat, die Frucht der Palmen, es sei denn, der Käufer bedingt sie sich aus.“",
+
+  // 6: 60df5296-0589-4676-b9e3-a1daf409e14c
+  "60df5296-0589-4676-b9e3-a1daf409e14c":
+    "Und Abu ar-Rabi‘ sowie Abu Kamil berichteten es uns, beide sagten: Hammad berichtete uns. (Zweiter Übertragungsweg:) Und Zuhayr ibn Harb berichtete es mir: Isma‘il berichtete uns; beide von Ayyub, von Nafi‘ mit dieser Überlieferungskette ein Ähnliches.",
+
+  // 7: d5dc2383-b722-475c-b7ea-0c00c376bf00
+  "d5dc2383-b722-475c-b7ea-0c00c376bf00":
+    "Yahya ibn Yahya und Muhammad ibn Rumh berichteten uns, beide sagten: Al-Layth teilte uns mit. (Zweiter Übertragungsweg:) Und Qutaybah ibn Sa‘id berichtete uns: Layth berichtete uns, von Ibn Schihab, von Salim ibn ‘Abdullah ibn ‘Umar, von ‘Abdullah ibn ‘Umar (möge Allah mit beiden zufrieden sein), der sagte: Ich hörte den Gesandten Allahs (Friede sei auf ihm) sagen: „Wer Palmen kauft, nachdem sie bestäubt worden sind, so gehört ihre Frucht demjenigen, der sie verkauft hat, es sei denn, der Käufer bedingt sie sich aus. Und wer einen Sklaven kauft, so gehört dessen Vermögen demjenigen, der ihn verkauft hat, es sei denn, der Käufer bedingt es sich aus.“",
+
+  // 8: 4f4f8f19-be74-463e-98b4-cf657f2476ed
+  "4f4f8f19-be74-463e-98b4-cf657f2476ed":
+    "Und Yahya ibn Yahya, Abu Bakr ibn Abi Schaybah und Zuhayr ibn Harb berichteten es uns – Yahya sagte: teilte uns mit, und die beiden anderen sagten: berichtete uns –: Sufyan ibn ‘Uyaynah berichtete uns, von az-Zuhri mit dieser Überlieferungskette ein Gleiches.",
+
+  // 9: ee5a3c1f-c58a-4c77-a78c-cf3ac775c0c6
+  "ee5a3c1f-c58a-4c77-a78c-cf3ac775c0c6":
+    "Und Harmalah ibn Yahya berichtete mir: Ibn Wahb teilte uns mit: Yunus teilte mir mit, von Ibn Schihab: Salim ibn ‘Abdullah ibn ‘Umar berichtete mir, dass sein Vater (möge Allah mit ihm zufrieden sein) sagte: Ich hörte den Gesandten Allahs (Friede sei auf ihm) ein Gleiches sagen.",
+
+  // 10: 8249d6a6-8752-4b37-9c4b-0e52a01069bf
+  "8249d6a6-8752-4b37-9c4b-0e52a01069bf":
+    "Hasan ibn ‘Ali al-Hulwani berichtete uns: Abu Tawbah berichtete uns: Mu‘awiyah berichtete uns, von Yahya ibn Abi Kathir, von Abu Salamah ibn ‘Abdirrahman, von Abu Hurayrah (möge Allah mit ihm zufrieden sein), der sagte: Der Gesandte Allahs (Friede sei auf ihm) sagte: „Wer Land besitzt, soll es selbst bebauen oder es seinem Bruder überlassen; weigert er sich jedoch, so soll er sein Land behalten.“",
+
+  // 11: aa0ce5f5-c4b0-4f1a-92a8-6d5ea8343b7e
+  "aa0ce5f5-c4b0-4f1a-92a8-6d5ea8343b7e":
+    "Qutaybah ibn Sa‘id berichtete uns: Ya‘qub – gemeint ist Ibn ‘Abdirrahman al-Qari – berichtete uns, von Suhayl ibn Abi Salih, von seinem Vater, von Abu Hurayrah (möge Allah mit ihm zufrieden sein), der sagte: Der Gesandte Allahs (Friede sei auf ihm) untersagte al-Muhaqalah und al-Muzabanah.",
+
+  // 12: 155dfef6-a59e-460e-adf1-6586e6300d4c
+  "155dfef6-a59e-460e-adf1-6586e6300d4c":
+    "Und Abu at-Tahir berichtete mir: Ibn Wahb teilte uns mit: Malik ibn Anas teilte mir mit, von Dawud ibn al-Husayn, dass Abu Sufyan, der Freigelassene von Ibn Abi Ahmad, ihm berichtete, dass er Abu Sa‘id al-Khudri (möge Allah mit ihm zufrieden sein) sagen hörte: Der Gesandte Allahs (Friede sei auf ihm) untersagte al-Muzabanah und al-Muhaqalah. Al-Muzabanah ist der Kauf von Früchten an den Wipfeln der Palmen, und al-Muhaqalah ist die Verpachtung von Land.",
+
+  // 13: c6654b70-20dc-4ef5-8dc7-149c2c3ae423
+  "c6654b70-20dc-4ef5-8dc7-149c2c3ae423":
+    "Yahya ibn Yahya und Abu ar-Rabi‘ al-‘Ataki berichteten uns – Abu ar-Rabi‘ sagte: berichtete uns, und Yahya sagte: teilte uns mit –: Hammad ibn Zayd berichtete uns, von ‘Amr, der sagte: Ich hörte Ibn ‘Umar (möge Allah mit beiden zufrieden sein) sagen: Wir sahen in der Teilpacht (al-Khibr) kein Bedenken, bis zum vergangenen Jahr, als Rafi‘ behauptete, dass der Prophet Allahs (Friede sei auf ihm) sie untersagt habe.",
+
+  // 14: ddbb44d9-9f20-4b19-81c3-00c48a2e39cc
+  "ddbb44d9-9f20-4b19-81c3-00c48a2e39cc":
+    "Und Abu Bakr ibn Abi Schaybah berichtete uns: Sufyan berichtete uns. (Zweiter Übertragungsweg:) Und ‘Ali ibn Hudschr sowie Ibrahim ibn Dinar berichteten mir, beide sagten: Isma‘il – und er ist Ibn ‘Ulayyah – berichtete uns, von Ayyub. (Dritter Übertragungsweg:) Und Ishaq ibn Ibrahim berichtete uns: Waki‘ teilte uns mit: Sufyan berichtete uns; alle von ‘Amr ibn Dinar mit dieser Überlieferungskette ein Gleiches, und im Hadith von Ibn ‘Uyaynah fügte er hinzu: „Da gaben wir es seinetwegen auf.“",
+
+  // 15: 53dcbd8e-d22f-4904-bd0a-1bd8465c8dd8
+  "53dcbd8e-d22f-4904-bd0a-1bd8465c8dd8":
+    "Und ‘Ali ibn Hudschr berichtete mir: Isma‘il berichtete uns, von Ayyub, von Abu al-Khalil, von Mudschahid, der sagte: Ibn ‘Umar (möge Allah mit beiden zufrieden sein) sagte: „Wahrhaftig, Rafi‘ hat uns den Nutzen unseres Landes verwehrt.“",
+
+  // 16: 267bbd1c-7832-4efc-b382-6b3c7ce8ec12
+  "267bbd1c-7832-4efc-b382-6b3c7ce8ec12":
+    "Und Yahya ibn Yahya berichtete uns: Yazid ibn Zuray‘ teilte uns mit, von Ayyub, von Nafi‘, dass Ibn ‘Umar (möge Allah mit beiden zufrieden sein) seine Ländereien zur Zeit des Gesandten Allahs (Friede sei auf ihm), während der Herrschaft von Abu Bakr, ‘Umar und ‘Uthman sowie zu Beginn des Kalifats von Mu‘awiyah zu verpachten pflegte, bis ihm gegen Ende des Kalifats von Mu‘awiyah zu Ohren kam, dass Rafi‘ ibn Khadidsch diesbezüglich ein Verbot vom Propheten (Friede sei auf ihm) überlieferte. Da ging er zu ihm hinein, und ich war bei ihm, und befragte ihn. Rafi‘ sagte: „Der Gesandte Allahs (Friede sei auf ihm) pflegte die Verpachtung von landwirtschaftlichen Nutzflächen zu verbieten.“ Daraufhin gab Ibn ‘Umar dies danach auf; und wenn er später danach gefragt wurde, sagte er: „Rafi‘ ibn Khadidsch behauptete, dass der Gesandte Allahs (Friede sei auf ihm) dies verboten habe.“",
+
+  // 17: 3babf4ab-9ed1-4a75-9107-bc4f252a93bf
+  "3babf4ab-9ed1-4a75-9107-bc4f252a93bf":
+    "Und Abu ar-Rabi‘ sowie Abu Kamil berichteten uns, beide sagten: Hammad berichtete uns. (Zweiter Übertragungsweg:) Und ‘Ali ibn Hudschr berichtete mir: Isma‘il berichtete uns; beide von Ayyub mit dieser Überlieferungskette ein Gleiches, und im Hadith von Ibn ‘Ulayyah fügte er hinzu: Er sagte: Daraufhin gab Ibn ‘Umar dies danach auf und verpachtete es fortan nicht mehr.",
+
+  // 18: 435239f0-1984-4002-a73b-6e2871aad280
+  "435239f0-1984-4002-a73b-6e2871aad280":
+    "Und Ibn Numayr berichtete uns: Mein Vater berichtete uns: ‘Ubaydullah berichtete uns, von Nafi‘, der sagte: Ich ging mit Ibn ‘Umar zu Rafi‘ ibn Khadidsch, bis er zu ihm am al-Balat kam, und dieser teilte ihm mit, dass der Gesandte Allahs (Friede sei auf ihm) die Verpachtung landwirtschaftlicher Nutzflächen untersagte.",
+
+  // 19: 0720264f-89bb-4bae-974d-6e99ffe61557
+  "0720264f-89bb-4bae-974d-6e99ffe61557":
+    "Und Ibn Abi Khalaf sowie Hadschdschadsch ibn asch-Scha‘ir berichteten mir, beide sagten: Zakariyya’ ibn ‘Adi berichtete uns: ‘Ubaydullah ibn ‘Amr teilte uns mit, von Zayd, von al-Hakam, von Nafi‘, von Ibn ‘Umar (möge Allah mit beiden zufrieden sein), dass er zu Rafi‘ ging und diesen Hadith vom Propheten (Friede sei auf ihm) erwähnte.",
+
+  // 20: 8617236c-13b2-47fb-bf64-32d39829f158
+  "8617236c-13b2-47fb-bf64-32d39829f158":
+    "Muhammad ibn al-Muthanna berichtete uns: Husayn – gemeint ist Ibn Hasan ibn Yasar – berichtete uns: Ibn ‘Awn berichtete uns, von Nafi‘, dass Ibn ‘Umar (möge Allah mit beiden zufrieden sein) Land zu verpachten pflegte. Er sagte: Da wurde ihm ein Hadith von Rafi‘ ibn Khadidsch übermittelt. Er sagte: Da nahm er mich mit sich zu ihm. Er sagte: Da erwähnte Rafi‘ von einigen seiner Onkel väterlicherseits, worin diese vom Propheten (Friede sei auf ihm) erwähnten, dass er die Verpachtung von Land verboten habe. Er sagte: Da gab Ibn ‘Umar es auf und verpachtete es nicht mehr.",
+
+  // 21: c80d6a18-f2a3-4214-a230-320532fd9153
+  "c80d6a18-f2a3-4214-a230-320532fd9153":
+    "Und Muhammad ibn Hatim berichtete es mir: Yazid ibn Harun berichtete uns: Ibn ‘Awn berichtete uns mit dieser Überlieferungskette und sagte: Da berichtete er ihm von einigen seiner Onkel väterlicherseits, vom Propheten (Friede sei auf ihm).",
+
+  // 22: 38f1ed2f-bce7-4c6f-9d00-470d0602969b
+  "38f1ed2f-bce7-4c6f-9d00-470d0602969b":
+    "Und ‘Abdulmalik ibn Schu‘ayb ibn al-Layth ibn Sa‘d berichtete mir: Mein Vater berichtete mir, von meinem Großvater: ‘Uqayl ibn Khalid berichtete mir, von Ibn Schihab, dass er sagte: Salim ibn ‘Abdullah teilte mir mit, dass ‘Abdullah ibn ‘Umar (möge Allah mit beiden zufrieden sein) seine Ländereien zu verpachten pflegte, bis ihm zu Ohren kam, dass Rafi‘ ibn Khadidsch al-Ansari die Verpachtung von Land verbot. Da traf ‘Abdullah ihn und sagte: „O Ibn Khadidsch, was überlieferst du vom Gesandten Allahs (Friede sei auf ihm) bezüglich der Verpachtung von Land?“ Rafi‘ ibn Khadidsch sagte zu ‘Abdullah: „Ich hörte meine beiden Onkel – und beide hatten an Badr teilgenommen –, wie sie den Bewohnern des Hauses berichteten, dass der Gesandte Allahs (Friede sei auf ihm) die Verpachtung von Land untersagte.“ ‘Abdullah sagte: „Ich wusste wohl, dass zur Zeit des Gesandten Allahs (Friede sei auf ihm) Land verpachtet wurde.“ Doch dann fürchtete ‘Abdullah, dass der Gesandte Allahs (Friede sei auf ihm) diesbezüglich etwas Neues bestimmt haben könnte, wovon er nichts gewusst hatte; so gab er die Verpachtung von Land auf.",
+
+  // 23: 35776497-5f57-4b8b-8c1e-e76f2ca50e2e
+  "35776497-5f57-4b8b-8c1e-e76f2ca50e2e":
+    "Yahya ibn Yahya berichtete uns, er sagte: Ich las Malik vor, von Rabi‘ah ibn Abi ‘Abdirrahman, von Hanthalah ibn Qays, dass er Rafi‘ ibn Khadidsch nach der Verpachtung von Land befragte. Er sagte: „Der Gesandte Allahs (Friede sei auf ihm) untersagte die Verpachtung von Land.“ Da fragte ich: „Auch gegen Gold und Silbermünzen?“ Er antwortete: „Was Gold und Silbermünzen betrifft, so besteht darin kein Bedenken.“",
+
+  // 24: f5c30141-c371-4947-bf2e-49217edc7b07
+  "f5c30141-c371-4947-bf2e-49217edc7b07":
+    "Ishaq berichtete uns: ‘Isa ibn Yunus teilte uns mit: Al-Awza‘i berichtete uns, von Rabi‘ah ibn Abi ‘Abdirrahman: Hanthalah ibn Qays al-Ansari berichtete mir, er sagte: Ich befragte Rafi‘ ibn Khadidsch über die Verpachtung von Land gegen Gold und Silbermünzen. Da sagte er: „Darin besteht kein Bedenken. Die Leute pflegten zur Zeit des Propheten (Friede sei auf ihm) lediglich gegen die an den Wasserläufen und Ausflüssen der Bewässerungsgräben wachsenden Pflanzen sowie bestimmte Teile des Getreides zu verpachten; so ging das eine zugrunde und das andere blieb unversehrt, oder dieses blieb unversehrt und jenes ging zugrunde. Und die Leute hatten keine andere Pacht als diese, weshalb sie untersagt wurde. Was jedoch eine bekannte, garantierte Gegenleistung betrifft, so besteht darin keinerlei Bedenken.“",
+
+  // 25: 8332d624-a2d6-4dca-869b-34f5306ae252
+  "8332d624-a2d6-4dca-869b-34f5306ae252":
+    "‘Amr an-Naqid berichtete uns: Sufyan ibn ‘Uyaynah berichtete uns, von Yahya ibn Sa‘id, von Hanthalah az-Zuraqi, dass er Rafi‘ ibn Khadidsch sagen hörte: Wir waren unter den Ansar diejenigen mit den meisten Feldern. Er sagte: Wir pflegten das Land unter der Bedingung zu verpachten, dass dieser Teil uns und jener Teil ihnen gehört; da brachte manchmal dieser Teil Ertrag und jener Teil keinen Ertrag. Da untersagte er uns dies; was jedoch Silbermünzen betrifft, so untersagte er es uns nicht.",
+
+  // 26: 6e5beb69-8680-4d02-8d2c-61a76ba23dee
+  "6e5beb69-8680-4d02-8d2c-61a76ba23dee":
+    "Abu ar-Rabi‘ berichtete uns: Hammad berichtete uns. (Zweiter Übertragungsweg:) Und Ibn al-Muthanna berichtete uns: Yazid ibn Harun berichtete uns; beide von Yahya ibn Sa‘id mit dieser Überlieferungskette ein Ähnliches.",
+
+  // 27: c7b81cac-24fb-452f-8f24-37debf0756f4
+  "c7b81cac-24fb-452f-8f24-37debf0756f4":
+    "Und ‘Ali ibn Hudschr as-Sa‘di sowie Ya‘qub ibn Ibrahim berichteten mir, beide sagten: Isma‘il – und er ist Ibn ‘Ulayyah – berichtete uns, von Ayyub, von Ya‘la ibn Hakim, von Sulayman ibn Yasar, von Rafi‘ ibn Khadidsch, der sagte: Wir pflegten zur Zeit des Gesandten Allahs (Friede sei auf ihm) Landbau auf Teilpacht (Muhaqalah) zu betreiben, indem wir das Land für ein Drittel, ein Viertel oder eine namentlich bestimmte Menge an Nahrungsmitteln verpachteten. Da kam eines Tages ein Mann von meinen Onkeln väterlicherseits zu uns und sagte: Der Gesandte Allahs (Friede sei auf ihm) hat uns eine Sache untersagt, die uns nützlich war; doch der Gehorsam gegenüber Allah und Seinem Gesandten ist noch nützlicher für uns: Er hat uns untersagt, Muhaqalah mit Land zu betreiben, indem wir es für ein Drittel, ein Viertel oder eine bestimmte Menge an Nahrungsmitteln verpachten; und er befahl dem Eigentümer des Landes, es selbst zu bebauen oder es einen anderen bebauen zu lassen, und er missbilligte dessen Verpachtung und was darüber hinausgeht.",
+
+  // 28: 1026f957-6cef-40b4-85a5-d360a9bd3f01
+  "1026f957-6cef-40b4-85a5-d360a9bd3f01":
+    "Und Yahya ibn Yahya berichtete es uns: Hammad ibn Zayd teilte uns mit, von Ayyub, der sagte: Ya‘la ibn Hakim schrieb mir, er sagte: Ich hörte Sulayman ibn Yasar von Rafi‘ ibn Khadidsch überliefern, der sagte: Wir pflegten Muhaqalah mit Land zu betreiben, indem wir es für ein Drittel und ein Viertel verpachteten. Dann erwähnte er ein Gleiches wie im Hadith von Ibn ‘Ulayyah.",
+
+  // 29: ee340286-3ddb-423e-baf9-3c842c5ccc17
+  "ee340286-3ddb-423e-baf9-3c842c5ccc17":
+    "Und Yahya ibn Habib berichtete uns: Khalid ibn al-Harith berichtete uns. (Zweiter Übertragungsweg:) Und ‘Amr ibn ‘Ali berichtete uns: ‘Abdul’a‘la berichtete uns. (Dritter Übertragungsweg:) Und Ishaq ibn Ibrahim berichtete uns: ‘Abdah teilte uns mit; alle von Ibn Abi ‘Arubah, von Ya‘la ibn Hakim mit dieser Überlieferungskette ein Gleiches.",
+
+  // 30: 0435af27-862b-47e3-94c9-e043c10aec08
+  "0435af27-862b-47e3-94c9-e043c10aec08":
+    "Und Abu at-Tahir berichtete es mir: Ibn Wahb teilte uns mit: Dscharir ibn Hazim teilte mir mit, von Ya‘la ibn Hakim mit dieser Überlieferungskette, von Rafi‘ ibn Khadidsch, vom Propheten (Friede sei auf ihm), und er sagte nicht: „von einigen seiner Onkel väterlicherseits“."
+};
+
+let errorsCount = 0;
+const output = [];
+
+for (let i = 0; i < batch.length; i++) {
+  const item = batch[i];
+  const de = translations[item.id];
+  if (!de) {
+    console.error(`Missing translation for item ${i + 1} (${item.id})`);
+    errorsCount++;
+    continue;
+  }
+  const errs = validateGerman(item, de);
+  if (errs.length > 0) {
+    console.error(`Validation errors on item ${i + 1} (${item.id}):`, errs);
+    errorsCount++;
+  } else {
+    output.push({ id: item.id, de });
+  }
+}
+
+if (errorsCount === 0) {
+  fs.writeFileSync('data/german-batches/hadith-outputs/muslim-batch-012.json', JSON.stringify(output, null, 2), 'utf8');
+  console.log(`Successfully validated and wrote all ${output.length} translations to data/german-batches/hadith-outputs/muslim-batch-012.json`);
+} else {
+  console.error(`Found ${errorsCount} errors. Output not written.`);
+  process.exit(1);
+}
