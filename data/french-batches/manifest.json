@@ -15472,6 +15472,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-707",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-707.json",
+      "sourceIds": ["fe0d240c-16ad-49c5-aa04-8c984289e414", "ba637f29-12d9-4a81-b9dc-449476217145", "ebba036e-5aca-4ce0-a04f-7b903969fa74", "1319ce25-d1df-49d2-8f8a-b74534087462", "f4ccc1c2-1665-4145-afbc-d1607dbca072", "36e29bee-656f-47c9-9c20-4fcdfc5f966a"],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Three Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; three Quran-quote records remain blank pending approved attributed French Quran translations",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15619,8 +15634,26 @@
       "scope": "Sahih al-Bukhari 3945: direct quotation of Quran 15:91",
       "status": "blocked",
       "reason": "The report directly quotes Quran 15:91. It remains blank in FR-LIB-HAD-BUKHARI-704 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3952-QURAN-5-24",
+      "scope": "Sahih al-Bukhari 3952: direct quotation of Quran 5:24",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 5:24. It remains blank in FR-LIB-HAD-BUKHARI-707 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3953-QURAN-54-45",
+      "scope": "Sahih al-Bukhari 3953: direct quotation of Quran 54:45",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 54:45. It remains blank in FR-LIB-HAD-BUKHARI-707 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3954-QURAN-4-95",
+      "scope": "Sahih al-Bukhari 3954: direct quotation of Quran 4:95",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:95. It remains blank in FR-LIB-HAD-BUKHARI-707 until an approved, attributed French Quran translation is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3518,
-  "hadithLocalDrafted": 3518,
-  "hadithLocalRemaining": 11139
+  "hadithBukhariDrafted": 3521,
+  "hadithLocalDrafted": 3521,
+  "hadithLocalRemaining": 11136
 }
