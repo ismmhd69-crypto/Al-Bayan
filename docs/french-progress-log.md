@@ -7367,3 +7367,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0052 saves 5 private French drafts. Hadith 126 directly quotes multiple Quran passages; its full translation remains blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 235 of 7,366. Hadith Needs Mo: 190. Total local hadith rows not drafted: 8,058, including held records.
+
+### 2026-10-29: Muslim 129–132b
+
+- FR-LIB-HAD-MUSLIM-0053 saves 6 private French drafts on good and bad intentions and intrusive thoughts. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 241 of 7,366. Hadith Needs Mo: 190. Total local hadith rows not drafted: 8,052, including held records.
