@@ -506,3 +506,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-UI-HC-014` saved 16 French labels and descriptions from `components/learning/SixPillarsImanVisual.tsx`. Each record keeps the corresponding Arabic source wording alongside the English field and private French draft. This avoids carrying English additions that are not present in the Arabic wording.
 - The focused validator checked unique IDs, source-file presence, nonempty French, and placeholders; the Arabic/French pairs were compared while drafting. The copy remains AI-drafted, with no human review or publication.
 - Code-level visitor-copy coverage increased from 210 to 226 saved strings. Other interactive learning visuals remain to be inventoried and reviewed.
+
+### 2026-10-29: supplication etiquette visual
+
+- `FR-UI-HC-015` saved 11 French headings and explanations from `components/learning/DuaEtiquetteVisual.tsx`. Each record keeps the related Arabic source wording, including the conditions and recommended wording used in the visual.
+- The focused validator checked source-file presence, unique IDs, nonempty French, and placeholders; the Arabic/French pairs were compared during drafting. The material remains private AI draft content with no human review or publication.
+- Code-level visitor-copy coverage increased from 226 to 237 saved strings. Other interactive learning visuals remain to be inventoried.
