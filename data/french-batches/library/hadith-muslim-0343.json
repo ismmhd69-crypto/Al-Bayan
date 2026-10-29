@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0343",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T16:28:29.352Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1f83defc-d994-464d-b165-991dd0368cb3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:799a",
+      "reference": "Sahih Muslim, hadith 799 a, book 6, باب اسْتِحْبَابِ قِرَاءَةِ الْقُرْآنِ عَلَى أَهْلِ الْفَضْلِ وَالْحُذَّاقِ فِيهِ وَإِنْ كَانَ الْقَارِئُ أَفْضَلَ مِنَ الْمَقْرُوءِ عَلَيْهِ",
+      "title": "باب اسْتِحْبَابِ قِرَاءَةِ الْقُرْآنِ عَلَى أَهْلِ الْفَضْلِ وَالْحُذَّاقِ فِيهِ وَإِنْ كَانَ الْقَارِئُ أَفْضَلَ مِنَ الْمَقْرُوءِ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ لأُبَىٍّ ‏\"‏ إِنَّ اللَّهَ أَمَرَنِي أَنْ أَقْرَأَ عَلَيْكَ ‏\"‏ ‏.‏ قَالَ آللَّهُ سَمَّانِي لَكَ قَالَ ‏\"‏ اللَّهُ سَمَّاكَ لِي ‏\"‏ ‏.‏ قَالَ فَجَعَلَ أُبَىٌّ يَبْكِي ‏.‏",
+      "source_hash_sha256": "af0a839cfb9e5c33fb437b4986f8aba029eec04a9e906172e56e6a10a1e5bf31",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Haddab ibn Khalid nous a rapporté : Hammam nous a rapporté : Qatada nous a rapporté, d’après Anas ibn Malik, que le Messager d’Allah ﷺ dit à Ubayy : « Allah m’a ordonné de te réciter [le Coran]. » Il demanda : « Allah m’a-t-Il nommé devant toi ? » Le Prophète ﷺ répondit : « Oui, Allah m’a nommé à moi. » Ubayy se mit alors à pleurer.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ea726c5d-ef3a-4be5-973f-3314a178c33a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:799b",
+      "reference": "Sahih Muslim, hadith 799 b, book 6, باب اسْتِحْبَابِ قِرَاءَةِ الْقُرْآنِ عَلَى أَهْلِ الْفَضْلِ وَالْحُذَّاقِ فِيهِ وَإِنْ كَانَ الْقَارِئُ أَفْضَلَ مِنَ الْمَقْرُوءِ عَلَيْهِ",
+      "title": "باب اسْتِحْبَابِ قِرَاءَةِ الْقُرْآنِ عَلَى أَهْلِ الْفَضْلِ وَالْحُذَّاقِ فِيهِ وَإِنْ كَانَ الْقَارِئُ أَفْضَلَ مِنَ الْمَقْرُوءِ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأُبَىِّ بْنِ كَعْبٍ ‏\"‏ إِنَّ اللَّهَ أَمَرَنِي أَنْ أَقْرَأَ عَلَيْكَ ‏[quran sura=\"98\" aya_start=\"1\" aya_end=\"1\"]{‏ لَمْ يَكُنِ الَّذِينَ كَفَرُوا‏}‏ ‏\"‏ ‏.‏ قَالَ وَسَمَّانِي لَكَ قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ فَبَكَى ‏.‏",
+      "source_hash_sha256": "5b26201721f8eb64e8d0fe7c68d9d1f3c6c988c1eab69f4f261d0d30300b1155",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "51798220-19fb-4bb5-a98e-c0f55e7c452c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:799c",
+      "reference": "Sahih Muslim, hadith 799 c, book 6, باب اسْتِحْبَابِ قِرَاءَةِ الْقُرْآنِ عَلَى أَهْلِ الْفَضْلِ وَالْحُذَّاقِ فِيهِ وَإِنْ كَانَ الْقَارِئُ أَفْضَلَ مِنَ الْمَقْرُوءِ عَلَيْهِ",
+      "title": "باب اسْتِحْبَابِ قِرَاءَةِ الْقُرْآنِ عَلَى أَهْلِ الْفَضْلِ وَالْحُذَّاقِ فِيهِ وَإِنْ كَانَ الْقَارِئُ أَفْضَلَ مِنَ الْمَقْرُوءِ عَلَيْهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَنَسًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأُبَىٍّ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "514e876884a009e0f064250b11d866660c87c8824f4927980fe34b8c78b31d17",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a958a546-d5e2-49fa-bd56-d78f45a2455a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:799d",
+      "reference": "Sahih Muslim, hadith 799 d, book 44, باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "title": "باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ لأُبَىٍّ ‏\"‏ إِنَّ اللَّهَ عَزَّ وَجَلَّ أَمَرَنِي أَنْ أَقْرَأَ عَلَيْكَ ‏\"‏ ‏.‏ قَالَ آللَّهُ سَمَّانِي لَكَ قَالَ ‏\"‏ اللَّهُ سَمَّاكَ لِي ‏\"‏ ‏.‏ قَالَ فَجَعَلَ أُبَىٌّ يَبْكِي ‏.‏",
+      "source_hash_sha256": "9df17d5d622aa3907a8d462b632354e947db091ed45a3f278a4afbc33f91b70c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Haddab ibn Khalid nous a rapporté : Hammam nous a rapporté : Qatada nous a rapporté, d’après Anas ibn Malik, que le Messager d’Allah ﷺ dit à Ubayy : « Allah, Puissant et Majestueux, m’a ordonné de te réciter [le Coran]. » Il demanda : « Allah m’a-t-Il nommé devant toi ? » Le Prophète ﷺ répondit : « Allah t’a nommé à moi. » Ubayy se mit alors à pleurer.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0f204f53-d106-40fa-8de3-8e45fa540fe6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:799e",
+      "reference": "Sahih Muslim, hadith 799 e, book 44, باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "title": "باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأُبَىِّ بْنِ كَعْبٍ ‏\"‏ إِنَّ اللَّهَ أَمَرَنِي أَنْ أَقْرَأَ عَلَيْكَ ‏[quran sura=\"98\" aya_start=\"1\" aya_end=\"1\"]{‏ لَمْ يَكُنِ الَّذِينَ كَفَرُوا‏}‏ ‏\"‏ ‏.‏ قَالَ وَسَمَّانِي قَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ فَبَكَى ‏.‏",
+      "source_hash_sha256": "65899eb137fa3cf29e8c329425790e053c9582b10f940da4e7af08bd72ffc758",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c9d2581-8e65-43c1-a0b2-07679ad3bc33",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:799f",
+      "reference": "Sahih Muslim, hadith 799 f, book 44, باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "title": "باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِيهِ يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدٌ، - يَعْنِي ابْنَ الْحَارِثِ - حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَنَسًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأُبَىٍّ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "cb135e21afb2e0510ebc4ab514b3583ab1ec7d37af4b5e3a8e4526273b5f47d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ea726c5d-ef3a-4be5-973f-3314a178c33a",
+      "reason": "La source cite directement un passage du Coran (sourate 98, verset 1). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "51798220-19fb-4bb5-a98e-c0f55e7c452c",
+      "reason": "La source indique seulement que le récit précédent est rapporté dans une version semblable, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "0f204f53-d106-40fa-8de3-8e45fa540fe6",
+      "reason": "La source cite directement un passage du Coran (sourate 98, verset 1). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
+    },
+    {
+      "source_id": "7c9d2581-8e65-43c1-a0b2-07679ad3bc33",
+      "reason": "La source indique seulement que le récit précédent est rapporté dans une version semblable, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

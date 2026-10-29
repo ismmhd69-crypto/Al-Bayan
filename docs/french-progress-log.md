@@ -8280,7 +8280,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 560b–562
 
 - FR-LIB-HAD-MUSLIM-0231 saves five private French drafts about prayer and the odors of garlic, and the prohibition of domestic donkey meat at Khaybar. Muslim 560b is only a cross-reference that omits the earlier story and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
-- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 936 Muslim drafts, 7,272 total hadith drafts, 7,357 remaining, and 446 Needs Mo items.
+- All six source hashes are retained. Focused structural validation passed. No database write or publication occurred. Counts now show 936 Muslim drafts, 7,272 total hadith drafts, 7,357 remaining, and 446 Needs Mo items.
 
 ### 2026-10-29: Muslim 563–565
 
@@ -8841,3 +8841,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0342 saves three private French drafts about night recitation and the virtues of reading the Quran. Muslim 795c, 797b and 798b only provide incomplete variants or cross-references and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1375 Muslim drafts, 7711 total hadith drafts, 6918 remaining, and 628 Needs Mo items.
+
+### 2026-10-29: Muslim 799a–799f
+
+- FR-LIB-HAD-MUSLIM-0343 saves two private French drafts about the Prophet ﷺ reciting the Quran to Ubayy ibn Ka‘b. Muslim 799b and 799e quote Quran directly; 799c and 799f are abbreviated cross-references. All four remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1377 Muslim drafts, 7713 total hadith drafts, 6916 remaining, and 632 Needs Mo items.
