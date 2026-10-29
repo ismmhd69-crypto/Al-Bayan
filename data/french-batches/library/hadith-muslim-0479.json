@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0479",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:33:15.588Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8a76b106-cbaa-4d10-be4f-1ef715e58b21",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1109c",
+      "reference": "Sahih Muslim, hadith 1109 c, book 13, باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "title": "باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، - وَهُوَ ابْنُ الْحَارِثِ - عَنْ عَبْدِ رَبِّهِ، عَنْ عَبْدِ اللَّهِ بْنِ كَعْبٍ الْحِمْيَرِيِّ، أَنَّ أَبَا بَكْرٍ، حَدَّثَهُ أَنَّ مَرْوَانَ أَرْسَلَهُ إِلَى أُمِّ سَلَمَةَ - رضى الله عنها - يَسْأَلُ عَنِ الرَّجُلِ يُصْبِحُ جُنُبًا أَيَصُومُ فَقَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصْبِحُ جُنُبًا مِنْ جِمَاعٍ لاَ مِنْ حُلُمٍ ثُمَّ لاَ يُفْطِرُ وَلاَ يَقْضِي ‏.‏",
+      "source_hash_sha256": "927b48e5d773f75505488698f29511e573fee5d79cebf08ab163a9dadf0edb4e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli m’a rapporté : Ibn Wahb nous a rapporté : ‘Amr — c’est-à-dire Ibn al-Harith — m’a informé, d’après ‘Abd Rabbih, d’après ‘Abd Allah ibn Ka‘b al-Himyari, qu’Abu Bakr lui avait rapporté que Marwan l’avait envoyé auprès d’Umm Salama, qu’Allah l’agrée, pour l’interroger au sujet d’un homme qui se réveillait en état d’impureté majeure et voulait savoir s’il pouvait jeûner. Elle répondit : « Il arrivait au Messager d’Allah ﷺ de se réveiller en état d’impureté majeure à la suite d’un rapport conjugal, et non d’un rêve ; il ne rompait pas son jeûne et ne le rattrapait pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a2bfd2f9-975c-4a72-b91f-e5320554cf80",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1109d",
+      "reference": "Sahih Muslim, hadith 1109 d, book 13, باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "title": "باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ عَبْدِ رَبِّهِ بْنِ سَعِيدٍ، عَنْ أَبِي، بَكْرِ بْنِ عَبْدِ الرَّحْمَنِ بْنِ الْحَارِثِ بْنِ هِشَامٍ عَنْ عَائِشَةَ، وَأُمِّ سَلَمَةَ زَوْجَىِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُمَا قَالَتَا إِنْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم لَيُصْبِحُ جُنُبًا مِنْ جِمَاعٍ غَيْرِ احْتِلاَمٍ فِي رَمَضَانَ ثُمَّ يَصُومُ ‏.‏",
+      "source_hash_sha256": "2b3bee8c69e8b4cedf82b84c567530237817403d9002ffbf2024fb308b4d77d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu devant Malik, d’après ‘Abd Rabbih ibn Sa‘id, d’après Abu Bakr ibn ‘Abd al-Rahman ibn al-Harith ibn Hisham, d’après ‘Aisha et Umm Salama, épouses du Prophète ﷺ, qui ont dit : il arrivait au Messager d’Allah ﷺ de se réveiller en état d’impureté majeure à la suite d’un rapport conjugal, et non d’un rêve, pendant le Ramadan, puis de jeûner.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ef8af84b-02b1-4d8d-965b-6cd9af196a90",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1109e",
+      "reference": "Sahih Muslim, hadith 1109 e, book 13, باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "title": "باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ عُثْمَانَ النَّوْفَلِيُّ، حَدَّثَنَا أَبُو عَاصِمٍ، حَدَّثَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي مُحَمَّدُ بْنُ يُوسُفَ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، أَنَّهُ سَأَلَ أُمَّ سَلَمَةَ - رضى الله عنها - عَنِ الرَّجُلِ يُصْبِحُ جُنُبًا أَيَصُومُ قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُصْبِحُ جُنُبًا مِنْ غَيْرِ احْتِلاَمٍ ثُمَّ يَصُومُ ‏.‏",
+      "source_hash_sha256": "bc13f57190d4905ac373cb5d1c9204005846a777ce53c9576f978b4fb92cbe52",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn ‘Uthman al-Nawfali nous a rapporté : Abu ‘Asim nous a rapporté : Ibn Jurayj nous a rapporté : Muhammad ibn Yusuf m’a informé que Sulayman ibn Yasar avait demandé à Umm Salama, qu’Allah l’agrée, au sujet d’un homme qui se réveillait en état d’impureté majeure et voulait savoir s’il pouvait jeûner. Elle répondit : « Il arrivait au Messager d’Allah ﷺ de se réveiller en état d’impureté majeure, sans avoir fait de rêve, puis de jeûner. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2f254f00-84c9-4d49-b449-3fc083553cf6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1110",
+      "reference": "Sahih Muslim, hadith 1110, book 13, باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "title": "باب صِحَّةِ صَوْمِ مَنْ طَلَعَ عَلَيْهِ الْفَجْرُ وَهُوَ جُنُبٌ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالَ ابْنُ أَيُّوبَ حَدَّثَنَا إِسْمَاعِيلُ بْنُ، جَعْفَرٍ أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ، - وَهُوَ ابْنُ مَعْمَرِ بْنِ حَزْمٍ الأَنْصَارِيُّ أَبُو طُوَالَةَ - أَنَّ أَبَا يُونُسَ، مَوْلَى عَائِشَةَ أَخْبَرَهُ عَنْ عَائِشَةَ، - رضى الله عنها - أَنَّ رَجُلاً، جَاءَ إِلَى النَّبِيِّ صلى الله عليه وسلم يَسْتَفْتِيهِ وَهِيَ تَسْمَعُ مِنْ وَرَاءِ الْبَابِ فَقَالَ يَا رَسُولَ اللَّهِ تُدْرِكُنِي الصَّلاَةُ وَأَنَا جُنُبٌ أَفَأَصُومُ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ وَأَنَا تُدْرِكُنِي الصَّلاَةُ وَأَنَا جُنُبٌ فَأَصُومُ ‏\"‏ ‏.‏ فَقَالَ لَسْتَ مِثْلَنَا يَا رَسُولَ اللَّهِ قَدْ غَفَرَ اللَّهُ لَكَ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ ‏.‏ فَقَالَ ‏\"‏ وَاللَّهِ إِنِّي لأَرْجُو أَنْ أَكُونَ أَخْشَاكُمْ لِلَّهِ وَأَعْلَمَكُمْ بِمَا أَتَّقِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d6d7115106d4ad6e4957fa7226ef156a2ae5d6ba82a0ab84934d86677dc6b7f8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub, Qutayba et Ibn Hujr nous ont rapporté. Ibn Ayyub a dit : Isma‘il ibn Ja‘far nous a rapporté : ‘Abd Allah ibn ‘Abd al-Rahman — c’est-à-dire Ibn Ma‘mar ibn Hazm al-Ansari, Abu Tawala — m’a informé qu’Abu Yunus, affranchi de ‘Aisha, lui avait rapporté d’après ‘Aisha, qu’Allah l’agrée : un homme vint demander une décision au Prophète ﷺ. Elle entendait depuis derrière la porte. Il demanda : « Messager d’Allah, l’heure de la prière arrive alors que je suis en état d’impureté majeure. Puis-je jeûner ? » Le Messager d’Allah ﷺ répondit : « L’heure de la prière m’arrive aussi alors que je suis en état d’impureté majeure, et je jeûne. » L’homme dit : « Tu n’es pas comme nous, Messager d’Allah ; Allah t’a pardonné tes péchés passés et futurs. » Il répondit : « Par Allah, j’espère être celui d’entre vous qui craint le plus Allah et qui connaît le mieux ce dont je dois me préserver. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "22ded7cf-10f0-4182-bf5b-da469a449b00",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1111a",
+      "reference": "Sahih Muslim, hadith 1111 a, book 13, باب تَغْلِيظِ تَحْرِيمِ الْجِمَاعِ فِي نَهَارِ رَمَضَانَ عَلَى الصَّائِمِ وَوُجُوبِ الْكَفَّارَةِ الْكُبْرَى فِيهِ وبيانها وأنها تجب على الموسر والمعسر وتثبت في ذمة المعسر حتى يستطيع",
+      "title": "باب تَغْلِيظِ تَحْرِيمِ الْجِمَاعِ فِي نَهَارِ رَمَضَانَ عَلَى الصَّائِمِ وَوُجُوبِ الْكَفَّارَةِ الْكُبْرَى فِيهِ وبيانها وأنها تجب على الموسر والمعسر وتثبت في ذمة المعسر حتى يستطيع",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَزُهَيْرُ بْنُ حَرْبٍ وَابْنُ نُمَيْرٍ كُلُّهُمْ عَنِ ابْنِ عُيَيْنَةَ، - قَالَ يَحْيَى أَخْبَرَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، - عَنِ الزُّهْرِيِّ، عَنْ حُمَيْدِ بْنِ عَبْدِ، الرَّحْمَنِ عَنْ أَبِي هُرَيْرَةَ، - رضى الله عنه - قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ هَلَكْتُ يَا رَسُولَ اللَّهِ ‏.‏ قَالَ ‏\"‏ وَمَا أَهْلَكَكَ ‏\"‏ ‏.‏ قَالَ وَقَعْتُ عَلَى امْرَأَتِي فِي رَمَضَانَ ‏.‏ قَالَ ‏\"‏ هَلْ تَجِدُ مَا تُعْتِقُ رَقَبَةً ‏\"‏ ‏.‏ قَالَ لاَ ‏.‏ قَالَ ‏\"‏ فَهَلْ تَسْتَطِيعُ أَنْ تَصُومَ شَهْرَيْنِ مُتَتَابِعَيْنِ ‏\"‏ ‏.‏ قَالَ لاَ ‏.‏ قَالَ ‏\"‏ فَهَلْ تَجِدُ مَا تُطْعِمُ سِتِّينَ مِسْكِينًا ‏\"‏ ‏.‏ قَالَ لاَ - قَالَ - ثُمَّ جَلَسَ فَأُتِيَ النَّبِيُّ صلى الله عليه وسلم بِعَرَقٍ فِيهِ تَمْرٌ ‏.‏ فَقَالَ ‏\"‏ تَصَدَّقْ بِهَذَا ‏\"‏ ‏.‏ قَالَ أَفْقَرَ مِنَّا فَمَا بَيْنَ لاَبَتَيْهَا أَهْلُ بَيْتٍ أَحْوَجُ إِلَيْهِ مِنَّا ‏.‏ فَضَحِكَ النَّبِيُّ صلى الله عليه وسلم حَتَّى بَدَتْ أَنْيَابُهُ ثُمَّ قَالَ ‏\"‏ اذْهَبْ فَأَطْعِمْهُ أَهْلَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c5f71d4e702b80d59f467e42c6be7424467e08d91e32bae0fad7bcba808b47b5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Abu Bakr ibn Abi Shayba, Zuhayr ibn Harb et Ibn Numayr nous ont rapporté, tous d’après Ibn ‘Uyayna. Yahya a dit : Sufyan ibn ‘Uyayna nous a informés, d’après al-Zuhri, d’après Humayd ibn ‘Abd al-Rahman, d’après Abu Hurayra, qu’Allah l’agrée, qui a dit : un homme vint trouver le Prophète ﷺ et dit : « Je suis perdu, Messager d’Allah ! » Il demanda : « Qu’est-ce qui t’a perdu ? » L’homme répondit : « J’ai eu un rapport avec mon épouse pendant le Ramadan. » Le Prophète ﷺ demanda : « As-tu de quoi affranchir une personne ? » Il répondit : « Non. » Il demanda : « Peux-tu jeûner deux mois consécutifs ? » Il répondit : « Non. » Il demanda : « As-tu de quoi nourrir soixante pauvres ? » Il répondit : « Non. » L’homme s’assit. On apporta au Prophète ﷺ un panier de dattes. Il dit : « Fais-en l’aumône. » L’homme répondit : « À des gens plus pauvres que nous ? Entre les deux quartiers de Médine, il n’y a pas de famille qui en ait davantage besoin que la nôtre. » Le Prophète ﷺ rit jusqu’à laisser voir ses molaires, puis dit : « Va et donne-les à manger à ta famille. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "88645ced-c99f-43ab-a475-20f89991acb9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1111b",
+      "reference": "Sahih Muslim, hadith 1111 b, book 13, باب تَغْلِيظِ تَحْرِيمِ الْجِمَاعِ فِي نَهَارِ رَمَضَانَ عَلَى الصَّائِمِ وَوُجُوبِ الْكَفَّارَةِ الْكُبْرَى فِيهِ وبيانها وأنها تجب على الموسر والمعسر وتثبت في ذمة المعسر حتى يستطيع",
+      "title": "باب تَغْلِيظِ تَحْرِيمِ الْجِمَاعِ فِي نَهَارِ رَمَضَانَ عَلَى الصَّائِمِ وَوُجُوبِ الْكَفَّارَةِ الْكُبْرَى فِيهِ وبيانها وأنها تجب على الموسر والمعسر وتثبت في ذمة المعسر حتى يستطيع",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَ رِوَايَةِ ابْنِ عُيَيْنَةَ وَقَالَ بِعَرَقٍ فِيهِ تَمْرٌ - وَهُوَ الزِّنْبِيلُ - وَلَمْ يَذْكُرْ فَضَحِكَ النَّبِيُّ صلى الله عليه وسلم حَتَّى بَدَتْ أَنْيَابُهُ ‏.‏",
+      "source_hash_sha256": "2e9cd51ce4065fabe39a59896e6144c5eaaa5640ea10f4e292836d1cd700c713",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "88645ced-c99f-43ab-a475-20f89991acb9",
+      "reason": "La source ne reproduit pas le rapport précédent et n’en donne que la chaîne et une variante de détail. Garder la traduction française vide jusqu’à vérification du texte intégral correspondant."
+    }
+  ]
+}
