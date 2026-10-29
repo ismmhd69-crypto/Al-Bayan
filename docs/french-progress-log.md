@@ -7377,3 +7377,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0054 saves 6 private French drafts on intrusive doubts and faith. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 247 of 7,366. Hadith Needs Mo: 190. Total local hadith rows not drafted: 8,046, including held records.
+
+### 2026-10-29: Muslim 135b–137a
+
+- FR-LIB-HAD-MUSLIM-0055 saves 6 private French drafts on recurring questions about creation and false oaths over another person’s property. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 253 of 7,366. Hadith Needs Mo: 190. Total local hadith rows not drafted: 8,040, including held records.
