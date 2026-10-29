@@ -1,0 +1,68 @@
+{
+  "batch_id": "HADITH-MUSLIM-1135",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:21:34.669Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "7f231c88-a85f-435c-b7f9-9c0ee9e5a07f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2447c",
+      "reference": "Sahih Muslim, hadith 2447 c, book 44, باب فِي فَضْلِ عَائِشَةَ رضى الله تعالى عنها ‏‏",
+      "title": "باب فِي فَضْلِ عَائِشَةَ رضى الله تعالى عنها ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا أَسْبَاطُ بْنُ مُحَمَّدٍ، عَنْ زَكَرِيَّاءَ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "c629ebd0692c40e8cdde0702900fc701a085646923c719ae43c144cc30b88366",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a64ccaaf-a5b1-4239-832f-b01643181297",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2447d",
+      "reference": "Sahih Muslim, hadith 2447 d, book 44, باب فِي فَضْلِ عَائِشَةَ رضى الله تعالى عنها ‏‏",
+      "title": "باب فِي فَضْلِ عَائِشَةَ رضى الله تعالى عنها ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا أَبُو الْيَمَانِ، أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، حَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ عَائِشَةَ، زَوْجَ النَّبِيِّ صلى الله عليه وسلم قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَا عَائِشُ هَذَا جِبْرِيلُ يَقْرَأُ عَلَيْكِ السَّلاَمَ ‏\"‏ ‏.‏ قَالَتْ فَقُلْتُ وَعَلَيْهِ السَّلاَمُ وَرَحْمَةُ اللَّهِ ‏.‏ قَالَتْ وَهُوَ يَرَى مَا لاَ أَرَى ‏.‏",
+      "source_hash_sha256": "e0e9cbaf25fad64307bdc428b92bc5c8d9fc23890686abd3f82eeeb5037aa4ec",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Ô Aïcha, voici Gabriel qui te transmet le salut. » Elle répondit : « Que la paix et la miséricorde d’Allah soient sur lui. » Aïcha ajouta : « Il voit ce que je ne vois pas. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "7f231c88-a85f-435c-b7f9-9c0ee9e5a07f",
+      "reason": "Cette entrée ne rapporte qu’une variante de transmission et renvoie au récit précédent sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à validation du récit complet."
+    }
+  ]
+}
