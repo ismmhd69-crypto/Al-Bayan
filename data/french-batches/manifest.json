@@ -42987,6 +42987,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0678",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0678.json",
+      "sourceIds": [
+        "1e1e1120-9743-4b8e-ae21-585230ec932c",
+        "2ad41733-1e69-4d4d-abc7-9ee26eba26ce",
+        "69bb1035-b20f-4d13-8229-2b1747fc4e4d",
+        "8cfc07e9-c9ee-4ec1-998c-1d25d1741584",
+        "4d775bd4-3a2b-4b03-964b-34b283ce5dc0",
+        "f2f4a054-50cc-4b60-9d60-161accccb57a"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, one Quran-quoted report and two incomplete cross-reference variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47294,8 +47315,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9005,
-  "hadithLocalRemaining": 5624,
+  "hadithLocalDrafted": 9008,
+  "hadithLocalRemaining": 5621,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51752,10 +51773,25 @@
       "source_id": "8b14854c-e98a-41cc-aec8-9fcc8e1ab265",
       "reason": "Cette entrée renvoie uniquement au récit de Zuhayr (« بمثل حديثه ») et n’en reproduit pas le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "2ad41733-1e69-4d4d-abc7-9ee26eba26ce",
+      "reason": "Cette source cite le verset 65:1 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "69bb1035-b20f-4d13-8229-2b1747fc4e4d",
+      "reason": "Cette entrée renvoie au récit d’Abu Ahmad et n’en donne qu’un résumé, sans reproduire son contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f2f4a054-50cc-4b60-9d60-161accccb57a",
+      "reason": "Cette entrée renvoie au récit précédent (« نحو حديث ابن مهدي ») et n’ajoute qu’un détail final. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2669,
+  "hadithMuslimDrafted": 2672,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1184
+  "hadithNeedsMo": 1187
 }
