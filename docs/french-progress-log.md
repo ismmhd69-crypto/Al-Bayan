@@ -3541,3 +3541,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-725` saves one private French draft about the claims to the properties at Fadak and Khaybar.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,576 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,081, including held records.
+
+### 2026-10-29: Bukhari 4037
+
+- `FR-LIB-HAD-BUKHARI-726` saves one private French draft, preserving the transmission variants about the loan amount, the companions and the encounter.
+- The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,577 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,080, including held records.
