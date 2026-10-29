@@ -7946,3 +7946,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0164 saves six private French drafts about takbir during prayer and reciting the Opening of the Book. All six entries contain report text that could be translated without completing a cross-reference. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 693 Muslim drafts, 7,029 total hadith drafts, 7,600 remaining, and 312 Needs Mo items.
+
+### 2026-10-29: Muslim 394d–396b
+
+- FR-LIB-HAD-MUSLIM-0165 saves three private French drafts about reciting the Opening of the Book in prayer. Muslim 394d and 395b give only partial variants cross-referenced to earlier reports, so they remain blank under Needs Mo. Muslim 395a directly quotes Quran 1:2–7; its full French text remains blank pending an approved, attributed French Quran translation with permitted use. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 696 Muslim drafts, 7,032 total hadith drafts, 7,597 remaining, and 315 Needs Mo items.
