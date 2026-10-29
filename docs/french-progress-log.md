@@ -6398,3 +6398,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1247 saves six private French drafts, preserving the distinct source details and variants. No database writes or publication occurred.
 - All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,732 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 827. Total local hadith rows not drafted: 8,897, including held records.
+
+
+### 2026-10-29: Bukhari 6808–6813
+
+- FR-LIB-HAD-BUKHARI-1248 saves six private French drafts, preserving variant wording and narrator comments. No database writes or publication occurred.
+- All source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,738 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 827. Total local hadith rows not drafted: 8,891, including held records.
