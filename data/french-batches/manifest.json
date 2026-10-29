@@ -17871,6 +17871,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-826",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-826.json",
+      "sourceIds": [
+        "6f6e84bf-ee77-4134-bcf1-31cf67888702"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -18749,6 +18765,12 @@
       "scope": "Sahih al-Bukhari 4565: direct quotation of Quran 3:180",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 3:180. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-825, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4566-QURAN-3-186-2-109-LONG",
+      "scope": "Sahih al-Bukhari 4566: unusually long report quoting Quran 3:186 and 2:109",
+      "status": "blocked",
+      "reason": "Ce rapport de 3 241 caractères cite directement Quran 3:186 et 2:109. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-826, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 3966,
