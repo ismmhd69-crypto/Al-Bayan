@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1196",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:39:21.265Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2192e738-0574-4e8f-9238-76cf065dac80",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2586e",
+      "reference": "Sahih Muslim, hadith 2586 e, book 45, باب تَرَاحُمِ الْمُؤْمِنِينَ وَتَعَاطُفِهِمْ وَتَعَاضُدِهِمْ ‏‏",
+      "title": "باب تَرَاحُمِ الْمُؤْمِنِينَ وَتَعَاطُفِهِمْ وَتَعَاضُدِهِمْ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا حُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ، عَنِ الأَعْمَشِ، عَنِ الشَّعْبِيِّ، عَنِ النُّعْمَانِ، بْنِ بَشِيرٍ عَنِ النَّبِيِّ صلى الله عليه وسلم نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "bfa7635f24e3056bdef3c3fb59ce4dfca8f7e2190e167459683ff278aeacdc37",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8d88bceb-bc01-4eae-abc7-753c338bf2fa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2587",
+      "reference": "Sahih Muslim, hadith 2587, book 45, باب النَّهْىِ عَنِ السِّبَابِ، ‏‏",
+      "title": "باب النَّهْىِ عَنِ السِّبَابِ، ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - يَعْنُونَ ابْنَ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْمُسْتَبَّانِ مَا قَالاَ فَعَلَى الْبَادِئِ مَا لَمْ يَعْتَدِ الْمَظْلُومُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "bc0868213192972da607d53cd59667102f150a137554f289e8939c5754f0705b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Lorsque deux personnes s’insultent, les paroles qu’elles échangent retombent sur celui qui a commencé, tant que la victime ne dépasse pas les limites. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "434ed8bd-bcf8-4bf0-bfdf-5d652fccd923",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2588",
+      "reference": "Sahih Muslim, hadith 2588, book 45, باب اسْتِحْبَابِ الْعَفْوِ وَالتَّوَاضُعِ ‏‏",
+      "title": "باب اسْتِحْبَابِ الْعَفْوِ وَالتَّوَاضُعِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ وَمَا زَادَ اللَّهُ عَبْدًا بِعَفْوٍ إِلاَّ عِزًّا وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلاَّ رَفَعَهُ اللَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f4a7fbce84284eaf8d8c8da13adc64d8499dcc26776b11f992e8984f05f4d6a3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Une aumône ne diminue pas les biens. Allah n’accorde à un serviteur qui pardonne qu’un surcroît d’honneur. Et quiconque s’humilie pour Allah, Allah l’élève. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8e8a01bc-396a-4f45-a6a1-4af0d3e3b913",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2589",
+      "reference": "Sahih Muslim, hadith 2589, book 45, باب تَحْرِيمِ الْغِيبَةِ ‏‏",
+      "title": "باب تَحْرِيمِ الْغِيبَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَتَدْرُونَ مَا الْغِيبَةُ ‏\"‏ ‏.‏ قَالُوا اللَّهُ وَرَسُولُهُ أَعْلَمُ ‏.‏ قَالَ ‏\"‏ ذِكْرُكَ أَخَاكَ بِمَا يَكْرَهُ ‏\"‏ ‏.‏ قِيلَ أَفَرَأَيْتَ إِنْ كَانَ فِي أَخِي مَا أَقُولُ قَالَ ‏\"‏ إِنْ كَانَ فِيهِ مَا تَقُولُ فَقَدِ اغْتَبْتَهُ وَإِنْ لَمْ يَكُنْ فِيهِ فَقَدْ بَهَتَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "99222b1d994ad80cd7e232cb4c0e7974e50fc1564b7a68268b41dc015638595d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ demanda : « Savez-vous ce qu’est la médisance ? » Ils répondirent : « Allah et Son Messager le savent mieux. » Il dit : « C’est le fait de parler de ton frère en des termes qu’il détesterait. » On demanda : « Et si ce que je dis de lui est vrai ? » Il répondit : « Si ce que tu dis est vrai, tu as médit de lui ; si ce n’est pas vrai, tu l’as calomnié. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "85410dec-239a-4a0b-92d7-e77c3aa52b0d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2590a",
+      "reference": "Sahih Muslim, hadith 2590 a, book 45, باب بِشَارَةِ مَنْ سَتَرَ اللَّهُ تَعَالَى عَيْبَهُ فِي الدُّنْيَا بِأَنْ يَسْتُرَ عَلَيْهِ فِي الآخِرَةِ",
+      "title": "باب بِشَارَةِ مَنْ سَتَرَ اللَّهُ تَعَالَى عَيْبَهُ فِي الدُّنْيَا بِأَنْ يَسْتُرَ عَلَيْهِ فِي الآخِرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أُمَيَّةُ بْنُ بِسْطَامٍ الْعَيْشِيُّ، حَدَّثَنَا يَزِيدُ، - يَعْنِي ابْنَ زُرَيْعٍ - حَدَّثَنَا رَوْحٌ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَسْتُرُ اللَّهُ عَلَى عَبْدٍ فِي الدُّنْيَا إِلاَّ سَتَرَهُ اللَّهُ يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e368360531f39fa234c9e4ef62fda843db0b4366c71d525bfc115ce60dd9a976",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Prophète ﷺ a dit : « Allah ne dissimule les fautes d’un serviteur en ce monde sans les dissimuler pour lui au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6a566fdd-c24c-41f9-972a-b97c028a55c7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2590b",
+      "reference": "Sahih Muslim, hadith 2590 b, book 45, باب بِشَارَةِ مَنْ سَتَرَ اللَّهُ تَعَالَى عَيْبَهُ فِي الدُّنْيَا بِأَنْ يَسْتُرَ عَلَيْهِ فِي الآخِرَةِ",
+      "title": "باب بِشَارَةِ مَنْ سَتَرَ اللَّهُ تَعَالَى عَيْبَهُ فِي الدُّنْيَا بِأَنْ يَسْتُرَ عَلَيْهِ فِي الآخِرَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَفَّانُ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا سُهَيْلٌ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَسْتُرُ عَبْدٌ عَبْدًا فِي الدُّنْيَا إِلاَّ سَتَرَهُ اللَّهُ يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "3c24ac12fb629f897acea0a4482405bf54803d8959485bca862e2c840344c1d5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Prophète ﷺ a dit : « Tout serviteur qui dissimule les fautes d’un autre en ce monde, Allah dissimulera les siennes au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2192e738-0574-4e8f-9238-76cf065dac80",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent « dans le même sens » sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
