@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:13:25.691Z",
+  "lastReconciled": "2026-10-29T14:14:19.726Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 291,
+    "hadithMuslimDrafted": 296,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6627,
-    "hadithDatabaseMissing": 8002,
-    "hadithLocalRemaining": 8002,
-    "hadithNeedsMo": 194,
+    "hadithLocalDrafted": 6632,
+    "hadithDatabaseMissing": 7997,
+    "hadithLocalRemaining": 7997,
+    "hadithNeedsMo": 195,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -30386,6 +30386,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0063",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0063.json",
+      "sourceIds": [
+        "712e720b-3bd3-4ef8-a9e2-81151343ad93",
+        "fab040ce-6f12-45f1-af01-abc9f2bd0311",
+        "e4efb639-ce71-43b6-b4df-8dd149e687e3",
+        "323eaee2-bc7f-419b-b082-685bd79758e6",
+        "c49d5871-3d7a-4579-b9bc-ebad772fb1b2",
+        "d5da1533-8064-41b1-8fec-f79d7ecea842"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; direct Quran quotation held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -34408,11 +34429,17 @@
       "scope": "Sahih Muslim 151 c: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 2:260 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-151E-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 151 e: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La parole attribuée au Prophète reprend directement la formule coranique « il s’était réfugié auprès d’un appui solide » (Coran 11:80). Garder l’intégralité de la traduction française en attente de confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6627,
-  "hadithLocalRemaining": 8002,
+  "hadithLocalDrafted": 6632,
+  "hadithLocalRemaining": 7997,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -35577,10 +35604,16 @@
       "scope": "Sahih Muslim 151 c: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit cite directement le verset 2:260 du Coran. Garder l’intégralité de la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-151E-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 151 e: direct Quran quotation",
+      "status": "blocked",
+      "reason": "La parole attribuée au Prophète reprend directement la formule coranique « il s’était réfugié auprès d’un appui solide » (Coran 11:80). Garder l’intégralité de la traduction française en attente de confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 291,
-  "hadithDatabaseMissing": 8002,
+  "hadithMuslimDrafted": 296,
+  "hadithDatabaseMissing": 7997,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 194
+  "hadithNeedsMo": 195
 }
