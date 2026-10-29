@@ -320,3 +320,6 @@ Scope: private local preparation only. French remains absent from public locale 
 | FR-LIB-HAD-BUKHARI-062 | c3a74abb-3804-4426-a396-46d57b2dbab4 (Bukhari 344) | 1 | 0 | 0 | Arabic hash, ID, URL, reference, rights, private status, and full single-item translation passed; narrator uncertainty and reported speech preserved | 14,304 | Private local AI draft; unpublished; no human review |
 
 - Updated hadith progress: 325 private local French drafts of 14,629; 13 Quran-quote holds and two incomplete-source holds; 14,304 have no local French draft; database insertions remain 0 and all 14,629 remain absent from the live French table.
+| FR-LIB-HAD-BUKHARI-063 | 7178f1c6-9719-401d-aea2-34c65ad2c9d2 (Bukhari 345), de0e2723-a4a6-48cb-8c4a-edb8671448d7 (Bukhari 346), d8b81234-5cb9-4ce3-b49a-f05601d6378d (Bukhari 347), 6a7727c4-f10a-4f5a-bf9b-597469868838 (Bukhari 348) | 3 | 0 | 0 | Arabic hashes, IDs, URLs, references, rights, and three complete translations passed; Bukhari 347 Quran quotation remains blank on hold | 14,301 | Three private local AI drafts; unpublished; no human review; one Quran quote hold |
+
+- Updated hadith progress: 328 private local French drafts of 14,629; 14 Quran-quote holds and two incomplete-source holds; 14,301 have no local French draft; database insertions remain 0 and all 14,629 remain absent from the live French table.
