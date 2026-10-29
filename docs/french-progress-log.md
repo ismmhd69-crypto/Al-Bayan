@@ -8111,3 +8111,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0197 saves five private French drafts about the pauses and timing of prayer movements. Muslim 471c only says that the earlier report continues, so it remains blank under Needs Mo.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 798 Muslim drafts, 7,134 total hadith drafts, 7,495 remaining, and 391 Needs Mo items.
+
+### 2026-10-29: Muslim 474d–476d
+
+- FR-LIB-HAD-MUSLIM-0198 saves four private French drafts about following the imam’s movements and supplications after bowing. Muslim 475 quotes Quran passages and remains blank pending an approved, attributed French Quran translation with permitted use. Muslim 476d only gives wording variants and remains blank under Needs Mo.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 802 Muslim drafts, 7,138 total hadith drafts, 7,491 remaining, and 393 Needs Mo items.

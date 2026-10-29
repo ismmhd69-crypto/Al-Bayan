@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0198",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:26:19.949Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "627c1a54-a878-4bcd-9f98-1c5d68dbd849",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:474d",
+      "reference": "Sahih Muslim, hadith 474 d, book 4, باب مُتَابَعَةِ الإِمَامِ وَالْعَمَلِ بَعْدَهُ ‏",
+      "title": "باب مُتَابَعَةِ الإِمَامِ وَالْعَمَلِ بَعْدَهُ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَابْنُ، نُمَيْرٍ قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، حَدَّثَنَا أَبَانٌ، وَغَيْرُهُ، عَنِ الْحَكَمِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنِ الْبَرَاءِ، قَالَ كُنَّا مَعَ النَّبِيِّ صلى الله عليه وسلم لاَ يَحْنُو أَحَدٌ مِنَّا ظَهْرَهُ حَتَّى نَرَاهُ قَدْ سَجَدَ ‏.‏ فَقَالَ زُهَيْرٌ حَدَّثَنَا سُفْيَانُ قَالَ حَدَّثَنَا الْكُوفِيُّونَ أَبَانٌ وَغَيْرُهُ قَالَ حَتَّى نَرَاهُ يَسْجُدُ ‏.‏",
+      "source_hash_sha256": "ca1cdb74b35b80218099c2916e42d077544a8705db5a51a3f82c790acd8b9ce1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Ibn Numayr nous ont rapporté : Sufyan ibn Uyayna nous a rapporté : Aban et d’autres nous ont rapporté, d’après al-Hakam, d’après Abd al-Rahman ibn Abi Layla, d’après al-Bara, qui dit : « Nous étions avec le Prophète ﷺ. Aucun de nous ne courbait le dos avant de le voir s’être prosterné. » Zuhayr précisa : Sufyan nous a rapporté qu’Aban et d’autres Kufiens leur avaient dit : « avant de le voir se prosterner. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e2b4ad27-6d12-4fed-91d3-bfd44636d1e5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:475",
+      "reference": "Sahih Muslim, hadith 475, book 4, باب مُتَابَعَةِ الإِمَامِ وَالْعَمَلِ بَعْدَهُ ‏",
+      "title": "باب مُتَابَعَةِ الإِمَامِ وَالْعَمَلِ بَعْدَهُ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحْرِزُ بْنُ عَوْنِ بْنِ أَبِي عَوْنٍ، حَدَّثَنَا خَلَفُ بْنُ خَلِيفَةَ الأَشْجَعِيُّ أَبُو أَحْمَدَ، عَنِ الْوَلِيدِ بْنِ سَرِيعٍ، مَوْلَى آلِ عَمْرِو بْنِ حُرَيْثٍ عَنْ عَمْرِو بْنِ حُرَيْثٍ، قَالَ صَلَّيْتُ خَلْفَ النَّبِيِّ صلى الله عليه وسلم الْفَجْرَ فَسَمِعْتُهُ يَقْرَأُ ‏[quran sura=\"81\" aya_start=\"15\" aya_end=\"16\"]{‏ فَلاَ أُقْسِمُ بِالْخُنَّسِ * الْجَوَارِ الْكُنَّسِ‏}‏ وَكَانَ لاَ يَحْنِي رَجُلٌ مِنَّا ظَهْرَهُ حَتَّى يَسْتَتِمَّ سَاجِدًا ‏.‏",
+      "source_hash_sha256": "db64504aacf101cef201eaf1e0a1896a0f308db1b33510d6ea562e956daf5902",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c45d123f-3f75-4d27-8fb5-2c95e2cedcc3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:476a",
+      "reference": "Sahih Muslim, hadith 476 a, book 4, باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "title": "باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، وَوَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ عُبَيْدِ بْنِ الْحَسَنِ، عَنِ ابْنِ أَبِي أَوْفَى، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا رَفَعَ ظَهْرَهُ مِنَ الرُّكُوعِ قَالَ ‏\"‏ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ اللَّهُمَّ رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَمِلْءَ الأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c23d223d4fd60b2f040de522d0703b60345e5ffe4ba275e08ecf1f4bb4ec9b4c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Abu Mu‘awiya et Waki‘ nous ont rapporté, d’après al-A‘mash, d’après Ubayd ibn al-Hasan, d’après Ibn Abi Awfa, qui dit : « Lorsque le Messager d’Allah ﷺ relevait le dos après l’inclinaison, il disait : “Allah entend celui qui Le loue. Ô Allah, notre Seigneur, à Toi la louange, autant que les cieux, autant que la terre et autant que ce que Tu voudras encore.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4e6f43e2-c238-4cee-a5ef-4ea9151d830d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:476b",
+      "reference": "Sahih Muslim, hadith 476 b, book 4, باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "title": "باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عُبَيْدِ بْنِ الْحَسَنِ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ أَبِي أَوْفَى، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدْعُو بِهَذَا الدُّعَاءِ ‏\"‏ اللَّهُمَّ رَبَّنَا لَكَ الْحَمْدُ مِلْءَ السَّمَوَاتِ وَمِلْءَ الأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9f07e8c9531db2abc41f6b01d40e6b27769906bb847dabf05ff2306fc2b9ab5c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar nous ont rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Ubayd ibn al-Hasan, qui dit : J’ai entendu Abdullah ibn Abi Awfa dire : « Le Messager d’Allah ﷺ faisait cette invocation : “Ô Allah, notre Seigneur, à Toi la louange, autant que les cieux, autant que la terre et autant que ce que Tu voudras encore.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1ea1089e-8b0b-4022-a46a-ccb3cc385034",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:476c",
+      "reference": "Sahih Muslim, hadith 476 c, book 4, باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "title": "باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ مَجْزَأَةَ بْنِ زَاهِرٍ، قَالَ سَمِعْتُ عَبْدَ اللَّهِ بْنَ أَبِي أَوْفَى، يُحَدِّثُ عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ كَانَ يَقُولُ ‏\"‏ اللَّهُمَّ لَكَ الْحَمْدُ مِلْءَ السَّمَاءِ وَمِلْءَ الأَرْضِ وَمِلْءَ مَا شِئْتَ مِنْ شَىْءٍ بَعْدُ اللَّهُمَّ طَهِّرْنِي بِالثَّلْجِ وَالْبَرَدِ وَالْمَاءِ الْبَارِدِ اللَّهُمَّ طَهِّرْنِي مِنَ الذُّنُوبِ وَالْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الْوَسَخِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c818c0d9c92026cf400f1f7c5ec9008b596e4434c480e6fda144c2af8e3680ab",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna et Ibn Bashshar m’ont rapporté. Ibn al-Muthanna dit : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté, d’après Majza’a ibn Zahir, qui dit : J’ai entendu Abdullah ibn Abi Awfa rapporter du Prophète ﷺ qu’il disait : « Ô Allah, à Toi la louange, autant que le ciel, autant que la terre et autant que ce que Tu voudras encore. Ô Allah, purifie-moi avec la neige, la grêle et l’eau froide. Ô Allah, purifie-moi de mes péchés et de mes fautes comme on nettoie un vêtement blanc de ses salissures. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aaf3ac3c-b2bc-46b0-862a-2733f1166317",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:476d",
+      "reference": "Sahih Muslim, hadith 476 d, book 4, باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "title": "باب مَا يَقُولُ إِذَا رَفَعَ رَأْسَهُ مِنَ الرُّكُوعِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي ح، قَالَ وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، كِلاَهُمَا عَنْ شُعْبَةَ، بِهَذَا الإِسْنَادِ فِي رِوَايَةِ مُعَاذٍ ‏\"‏ كَمَا يُنَقَّى الثَّوْبُ الأَبْيَضُ مِنَ الدَّرَنِ ‏\"‏ ‏.‏ وَفِي رِوَايَةِ يَزِيدَ ‏\"‏ مِنَ الدَّنَسِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d37a93f6065cb573ec9378f7c5390f84ee675ae55b62c91e26b0c15b1e1de196",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "e2b4ad27-6d12-4fed-91d3-bfd44636d1e5",
+      "reason": "La source cite directement les versets 81:15–16 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "aaf3ac3c-b2bc-46b0-862a-2733f1166317",
+      "reason": "La source ne reprend pas l’invocation complète ; elle renvoie à la version précédente et ne donne que deux variantes de formulation (« salissure » / « souillure »). Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
