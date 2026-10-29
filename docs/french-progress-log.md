@@ -8231,3 +8231,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0221 saves four private French drafts about hand placement while bowing and sitting on the heels. Muslim 535b contains only a chain and the end of a cross-referenced report, so it remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All five source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 899 Muslim drafts, 7,235 total hadith drafts, 7,394 remaining, and 428 Needs Mo items.
+
+### 2026-10-29: Muslim 537a (long source, solo batch)
+
+- FR-LIB-HAD-MUSLIM-0222 saves one private French draft of the long report about prayer speech, consulting diviners, omens, line-drawing, and freeing an enslaved woman. It was processed alone because its Arabic source exceeds 2,000 characters.
+- The source hash is retained; the focused validator passed. No database write or publication occurred. Counts now show 900 Muslim drafts, 7,236 total hadith drafts, 7,393 remaining, and 428 Needs Mo items.
