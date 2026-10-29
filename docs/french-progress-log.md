@@ -675,3 +675,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-127` saved private French drafts for Bukhari 699–704. These preserve Ibn Abbas’s movement to the Prophet’s right, Muadh leading his people after praying with the Prophet, the report that he recited al-Baqara without translating or reproducing its verses, and the repeated instructions for an imam to keep the prayer manageable for those following him.
 - The six-record batch passed the focused validator for Arabic hashes, rights metadata, private unpublished state and report structure. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 656 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,973, including held records.
+
+### 2026-10-29: Bukhari 705–710 source review
+
+- `FR-LIB-HAD-BUKHARI-128` saved private French drafts for Bukhari 706–710. The translations preserve the reports about keeping prayer complete but manageable and shortening it when a child cries, including the narrator variants.
+- Bukhari 705 remains blank and held under Needs Mo because the report includes Arabic Quran opening phrases for three surahs. The project has no approved, attributed French Quran translation, so no French Quran wording was created.
+- The batch passed the focused validator for all six records, including Arabic hashes, rights metadata, private unpublished state and the reason-specific hold. Five local drafts were added; one additional hadith is held. No database writes or publication occurred. Bukhari local drafts: 661 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,968, including held records.
