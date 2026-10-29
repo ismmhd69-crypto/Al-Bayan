@@ -2371,3 +2371,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-491` saves six private French drafts about horses, setting aside a horse for service, hunting while in pilgrimage consecration, and the Prophet’s mount.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,570 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 166. Total local hadith rows not drafted: 12,085, including held records.
+
+### 2026-10-29: Bukhari 2856–2861 source review
+
+- `FR-LIB-HAD-BUKHARI-492` saves five private French drafts on worship and accountability, the horse Mandûb, reports about bad omens, and Jâbir’s camel. Bukhari 2860 quotes Quran 99:7–8, so its full French translation remains blank pending an approved, attributed Quran translation.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the Quran quotation hold. No database writes or publication occurred. Bukhari local drafts: 2,575 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 167. Total local hadith rows not drafted: 12,080, including held records.
