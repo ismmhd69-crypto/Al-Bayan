@@ -1,0 +1,178 @@
+{
+  "batch_id": "HADITH-MUSLIM-0917",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:24:57.426Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dcfcdb22-a7aa-4f67-b09f-2b546845d042",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1954d",
+      "reference": "Sahih Muslim, hadith 1954 d, book 34, باب إِبَاحَةِ مَا يُسْتَعَانُ بِهِ عَلَى الاِصْطِيَادِ وَالْعَدُوِّ وَكَرَاهَةِ الْخَذْفِ ‏‏",
+      "title": "باب إِبَاحَةِ مَا يُسْتَعَانُ بِهِ عَلَى الاِصْطِيَادِ وَالْعَدُوِّ وَكَرَاهَةِ الْخَذْفِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنْ أَيُّوبَ، عَنْ سَعِيدِ، بْنِ جُبَيْرٍ أَنَّ قَرِيبًا، لِعَبْدِ اللَّهِ بْنِ مُغَفَّلٍ خَذَفَ - قَالَ - فَنَهَاهُ وَقَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنِ الْخَذْفِ وَقَالَ ‏\"‏ إِنَّهَا لاَ تَصِيدُ صَيْدًا وَلاَ تَنْكَأُ عَدُوًّا وَلَكِنَّهَا تَكْسِرُ السِّنَّ وَتَفْقَأُ الْعَيْنَ ‏\"‏ ‏.‏ قَالَ فَعَادَ ‏.‏ فَقَالَ أُحَدِّثُكَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْهُ ثُمَّ تَخْذِفُ لاَ أُكَلِّمُكَ أَبَدًا ‏.‏",
+      "source_hash_sha256": "3cd67d13bdc8fb6167985f60f640b290ebb5157f628e0b6c787c5e40e61a116e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Ismâ‘îl ibn ‘Ulayya nous a rapporté, d’après Ayyûb, d’après Sa‘îd ibn Jubayr : Un parent de ‘Abd Allâh ibn al-Mughafal lança de petits cailloux avec deux doigts. ‘Abd Allâh le lui interdit et dit : « Le Messager d’Allah a interdit cela et a dit : “Cette pratique ne permet pas de chasser le gibier ni de blesser l’ennemi ; elle casse une dent et crève un œil.” » L’homme recommença. ‘Abd Allâh lui dit : « Je te rapporte que le Messager d’Allah l’a interdit, et tu recommences ? Je ne te parlerai plus jamais. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0461651e-6f25-4e14-92d9-17f8d95230f1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1954e",
+      "reference": "Sahih Muslim, hadith 1954 e, book 34, باب إِبَاحَةِ مَا يُسْتَعَانُ بِهِ عَلَى الاِصْطِيَادِ وَالْعَدُوِّ وَكَرَاهَةِ الْخَذْفِ ‏‏",
+      "title": "باب إِبَاحَةِ مَا يُسْتَعَانُ بِهِ عَلَى الاِصْطِيَادِ وَالْعَدُوِّ وَكَرَاهَةِ الْخَذْفِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ ابْنُ أَبِي عُمَرَ، حَدَّثَنَا الثَّقَفِيُّ، عَنْ أَيُّوبَ، بِهَذَا الإِسْنَادِ نَحْوَهُ ‏.‏",
+      "source_hash_sha256": "a5d84ed4bb505176e24eb911fb9889580e31dd6a2ca6077f4c642bcdbc69ba27",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0364f4c1-f5d6-412a-abd8-a2c44c2c8eb4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1955a",
+      "reference": "Sahih Muslim, hadith 1955 a, book 34, باب الأَمْرِ بِإِحْسَانِ الذَّبْحِ وَالْقَتْلِ وَتَحْدِيدِ الشَّفْرَةِ ‏‏",
+      "title": "باب الأَمْرِ بِإِحْسَانِ الذَّبْحِ وَالْقَتْلِ وَتَحْدِيدِ الشَّفْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ أَبِي قِلاَبَةَ، عَنْ أَبِي الأَشْعَثِ، عَنْ شَدَّادِ بْنِ أَوْسٍ، قَالَ ثِنْتَانِ حَفِظْتُهُمَا عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ اللَّهَ كَتَبَ الإِحْسَانَ عَلَى كُلِّ شَىْءٍ فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذَّبْحَ وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ فَلْيُرِحْ ذَبِيحَتَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5653c9e0f5171257c2ef11e42c46f34dc6051fdb20fcc05e3b0bbb97999c5100",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : Ismâ‘îl ibn ‘Ulayya nous a rapporté, d’après Khâlid al-Hadhdhâ’, d’après Abû Qilâba, d’après Abû al-Ash‘ath, d’après Shaddâd ibn Aws, qui a dit : « J’ai retenu deux paroles du Messager d’Allah. Il a dit : “Allah a prescrit la bienfaisance en toute chose. Lorsque vous tuez, faites-le avec bienfaisance ; lorsque vous égorgez, faites-le avec bienfaisance. Que chacun aiguise sa lame et épargne des souffrances à sa bête.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a51a9231-3d95-4e58-94bc-5d64212c44fd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1955b",
+      "reference": "Sahih Muslim, hadith 1955 b, book 34, باب الأَمْرِ بِإِحْسَانِ الذَّبْحِ وَالْقَتْلِ وَتَحْدِيدِ الشَّفْرَةِ ‏‏",
+      "title": "باب الأَمْرِ بِإِحْسَانِ الذَّبْحِ وَالْقَتْلِ وَتَحْدِيدِ الشَّفْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ يَحْيَى، حَدَّثَنَا هُشَيْمٌ، ح وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا عَبْدُ الْوَهَّابِ الثَّقَفِيُّ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ نَافِعٍ، حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، ح وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ الدَّارِمِيُّ، أَخْبَرَنَا مُحَمَّدُ بْنُ يُوسُفَ، عَنْ سُفْيَانَ، ح وَحَدَّثَنَا إِسْحَاقُ، بْنُ إِبْرَاهِيمَ أَخْبَرَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، كُلُّ هَؤُلاَءِ عَنْ خَالِدٍ الْحَذَّاءِ، بِإِسْنَادِ حَدِيثِ ابْنِ عُلَيَّةَ وَمَعْنَى حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "0deaa168d1a41bca7ee19c0a9028e33f25f44a41e8bc6f3c3815ef29d2c15559",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b16d2f7e-dc1d-4ec4-a143-9198f2fd2393",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1956a",
+      "reference": "Sahih Muslim, hadith 1956 a, book 34, باب النَّهْىِ عَنْ صَبْرِ الْبَهَائِمِ، ‏‏",
+      "title": "باب النَّهْىِ عَنْ صَبْرِ الْبَهَائِمِ، ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ هِشَامَ، بْنَ زَيْدِ بْنِ أَنَسِ بْنِ مَالِكٍ قَالَ دَخَلْتُ مَعَ جَدِّي أَنَسِ بْنِ مَالِكٍ دَارَ الْحَكَمِ بْنِ أَيُّوبَ فَإِذَا قَوْمٌ قَدْ نَصَبُوا دَجَاجَةً يَرْمُونَهَا قَالَ فَقَالَ أَنَسٌ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ تُصْبَرَ الْبَهَائِمُ ‏.‏",
+      "source_hash_sha256": "30a35cf972c486a762ddbb11be9022f43a655f8329be4827858f5c1692826c01",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthannâ nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté : J’ai entendu Hishâm ibn Zayd ibn Anas ibn Mâlik dire : « Je suis entré avec mon grand-père Anas ibn Mâlik dans la demeure d’al-Hakam ibn Ayyûb. Des gens avaient attaché une poule et lui lançaient des projectiles. Anas dit : “Le Messager d’Allah a interdit d’immobiliser des animaux pour les tuer.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21df6f0f-547c-44eb-b574-d5edee1c917f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1956b",
+      "reference": "Sahih Muslim, hadith 1956 b, book 34, باب النَّهْىِ عَنْ صَبْرِ الْبَهَائِمِ، ‏‏",
+      "title": "باب النَّهْىِ عَنْ صَبْرِ الْبَهَائِمِ، ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، وَعَبْدُ الرَّحْمَنِ بْنُ مَهْدِيٍّ، ح وَحَدَّثَنِي يَحْيَى بْنُ حَبِيبٍ، حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، كُلُّهُمْ عَنْ شُعْبَةَ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "43056f627ded4025cda84cb93b3a9b01021b0004a9213921c6dc0caabf1e562d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "0461651e-6f25-4e14-92d9-17f8d95230f1",
+      "url": "https://sunnah.com/muslim:1954e",
+      "reason": "Cette entrée ne contient que la chaîne de transmission du récit précédent, sans variante distincte du contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a51a9231-3d95-4e58-94bc-5d64212c44fd",
+      "url": "https://sunnah.com/muslim:1955b",
+      "reason": "Cette entrée ne contient que des chaînes de transmission et renvoie au même récit sans variante distincte du contenu. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "21df6f0f-547c-44eb-b574-d5edee1c917f",
+      "url": "https://sunnah.com/muslim:1956b",
+      "reason": "Cette entrée ne contient que des chaînes de transmission du récit précédent, sans contenu ni variante distincte. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
