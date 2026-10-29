@@ -1321,3 +1321,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-277` saves six private French drafts for Bukhari 1593–1598. They preserve the variant wording about the future pilgrimage to the Kaaba, Umar’s statement about its treasury, and reports about the Black Stone and prayer inside the Kaaba. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,468 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 81. Total local hadith rows not drafted: 13,160, including held records.
+
+### 2026-10-29: Bukhari 1599–1604 source review
+
+- `FR-LIB-HAD-BUKHARI-278` saves six private French drafts for Bukhari 1599–1604. They preserve the reports on prayer inside the Kaaba, the reason for the tawaf pace, and the narrated pace variants across its circuits. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,474 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 81. Total local hadith rows not drafted: 13,154, including held records.
