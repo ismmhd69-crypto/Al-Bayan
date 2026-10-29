@@ -9391,3 +9391,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0452 saves five private French drafts covering the end of the Hunayn distributions and the beginning of the Khawarij reports. Muslim 1063b is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1064a–1064f
+
+- FR-LIB-HAD-MUSLIM-0453 saves four private French drafts about the distribution from Yemen and reports concerning the Khawarij. Muslim 1064c and 1064d contain variant-only cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
