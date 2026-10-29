@@ -2521,3 +2521,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-521` saves six private French drafts about Ka‘b ibn al-Ashraf, Ibn Sayyâd, the trench, Jarîr and the treatment of the Prophet’s wound.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,735 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,920, including held records.
+
+### 2026-10-29: Bukhari 3038 source review
+
+- `FR-LIB-HAD-BUKHARI-522` saves one private French draft on the Prophet’s guidance to Mu‘âdh and Abû Mûsâ before their mission to Yemen. The exporter found one eligible record.
+- The record passed the focused validator for its Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,736 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,919, including held records.
