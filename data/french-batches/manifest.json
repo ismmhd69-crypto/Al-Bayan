@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:22:02.255Z",
+  "lastReconciled": "2026-10-29T13:22:50.937Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 6203,
+    "hadithBukhariDrafted": 6209,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6203,
-    "hadithDatabaseMissing": 8426,
-    "hadithLocalRemaining": 8426,
+    "hadithLocalDrafted": 6209,
+    "hadithDatabaseMissing": 8420,
+    "hadithLocalRemaining": 8420,
     "hadithNeedsMo": 130,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -28398,6 +28398,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1346",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1346.json",
+      "sourceIds": [
+        "9900dcce-1577-4734-8a55-ffe4ca430570",
+        "c24df35b-cb62-4fec-a478-c4697e814b41",
+        "2096a935-e9f2-4436-984b-f4f1f6f70801",
+        "d87bb22d-f6fd-4e1e-a981-7f6e1bad9078",
+        "99d8ef42-9587-454e-8054-53d85bbfdd5e",
+        "ec92bac8-3fbe-4e98-87df-f0fab330e902"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six complete private drafts; source hashes retained; narration chains and reported wording variants preserved; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -32038,9 +32059,9 @@
       "reason": "The report directly quotes Quranic wording embedded with a source tag for 6:102; the marked verse and wording may not match. Keep the complete French translation blank pending confirmation of the source reference and an approved, attributed French Quran translation with permitted use."
     }
   ],
-  "hadithBukhariDrafted": 6203,
-  "hadithLocalDrafted": 6203,
-  "hadithLocalRemaining": 8426,
+  "hadithBukhariDrafted": 6209,
+  "hadithLocalDrafted": 6209,
+  "hadithLocalRemaining": 8420,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",

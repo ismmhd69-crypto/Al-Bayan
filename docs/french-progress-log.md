@@ -6906,3 +6906,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1345 saves five private French drafts. Hadith 7380 contains Quranic wording embedded with a tag for 6:102 that may not match the wording; its complete translation remains blank under Needs Mo pending source-reference confirmation and confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,203 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 8,426, including held records.
+
+### 2026-10-29: Bukhari 7386–7392
+
+- FR-LIB-HAD-BUKHARI-1346 saves six private French drafts, including the combined 7387–7388 source record. Narrator chains, the alternate ending in 7386, and the two wordings reported within the supplication in 7390 are retained. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,209 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 130. Total local hadith rows not drafted: 8,420, including held records.
