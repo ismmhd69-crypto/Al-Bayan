@@ -9506,3 +9506,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0475 saves four private French drafts about continuous fasting. Muslim 1103c and 1103d only give variant wording tied to earlier reports and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1106a–1106f
+
+- FR-LIB-HAD-MUSLIM-0476 saves six private French drafts concerning affection between spouses while fasting. All six reports provide complete wording.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
