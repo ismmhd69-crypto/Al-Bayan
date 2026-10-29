@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4823,
+    "hadithBukhariDrafted": 4828,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4823,
+    "hadithLocalDrafted": 4828,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9806,
-    "hadithNeedsMo": 748,
+    "hadithLocalRemaining": 9801,
+    "hadithNeedsMo": 749,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -22452,6 +22452,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1051",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1051.json",
+      "sourceIds": [
+        "c98fa777-6970-4d70-985a-2397378f2983",
+        "57d7a024-810f-42b4-8bb9-a1669398a3ba",
+        "e903e136-7ef2-4ce7-8b45-fdeaeaeb7ab6",
+        "760d6cd5-3d9f-4e9b-aec2-91a52a4423eb",
+        "35a4a92c-0411-4e74-a90f-ad0fbb3b7515",
+        "59a881ce-04f3-4de5-99ee-429d7d06704c"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -25507,6 +25528,12 @@
       "scope": "Sahih al-Bukhari 5765: unclear phrase about undoing the spell",
       "status": "blocked",
       "reason": "The exported Arabic phrase is corrupted or unclear (أفلا أى تنشرت). Keep the complete item blank until its source wording is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5796-QURAN-9-80-9-84",
+      "scope": "Sahih al-Bukhari 5796: direct Quran quotations from 9:80 and 9:84",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 9:80 and 9:84. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
