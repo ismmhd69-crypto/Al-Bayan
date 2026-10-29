@@ -5849,3 +5849,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1142 keeps Bukhari 6207 blank because it directly quotes Quran 3:186 and 2:109. The full report remains on hold until an approved, attributed French Quran translation and permission to use it are confirmed.
 - No database writes or publication occurred. Bukhari local drafts remain 5,198 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 766. Total local hadith rows not drafted: 9,429, including held records.
+
+### 2026-10-29: Bukhari 6208–6213
+
+- FR-LIB-HAD-BUKHARI-1143 saves six private French drafts about Abû Tâlib, the Prophet’s travel, and fortune-tellers. No database writes or publication occurred. Bukhari local drafts: 5,204 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 766. Total local hadith rows not drafted: 9,423, including held records.
