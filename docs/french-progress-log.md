@@ -5256,3 +5256,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1028 saves five private French drafts. Hadith 5657 remains blank because the additional report about Abû Tâlib is truncated in the export; it is flagged for Mo.
 - The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,698 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,931, including held records.
+
+
+### 2026-10-29: Bukhari 5659–5664
+
+- FR-LIB-HAD-BUKHARI-1029 saves six private French drafts, including the full visit to Sa‘d ibn ‘Ubâda and the exchange in the mixed gathering.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,704 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,925, including held records.
