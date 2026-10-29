@@ -10031,3 +10031,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0580 saves four private French drafts about staying at al-Khayf, supplying water, and caring for sacrificial animals. Muslim 1315b and 1317b only refer to preceding reports without reproducing their contents; both remain blank under Needs Mo.
 - The exporter still reports long source 522deaf7-d1e2-48eb-8a7c-7e7e4e615ae3 for isolated handling. All six exported source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1317c–1318c
+
+- FR-LIB-HAD-MUSLIM-0581 saves four private French drafts about distribution of sacrificial animals and sharing them among pilgrims. Muslim 1317c and 1317e only refer to preceding reports and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

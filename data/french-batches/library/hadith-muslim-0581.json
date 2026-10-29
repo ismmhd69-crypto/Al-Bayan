@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0581",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:17:40.662Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1a9f4e66-b48a-4f2f-85a6-ed8cd9851ca7",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1317c",
+      "reference": "Sahih Muslim, hadith 1317 c, book 15, باب فِي الصَّدَقَةِ بِلُحُومِ الْهَدْىِ وَجُلُودِهَا وَجِلاَلِهَا ‏‏",
+      "title": "باب فِي الصَّدَقَةِ بِلُحُومِ الْهَدْىِ وَجُلُودِهَا وَجِلاَلِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا سُفْيَانُ، وَقَالَ، إِسْحَاقُ بْنُ إِبْرَاهِيمَ أَخْبَرَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ أَخْبَرَنِي أَبِي كِلاَهُمَا، عَنِ ابْنِ أَبِي نَجِيحٍ، عَنْ مُجَاهِدٍ، عَنِ ابْنِ أَبِي، لَيْلَى عَنْ عَلِيٍّ، عَنِ النَّبِيِّ صلى الله عليه وسلم وَلَيْسَ فِي حَدِيثِهِمَا أَجْرُ الْجَازِرِ ‏.‏",
+      "source_hash_sha256": "77804c5443c9489b945d91fe37cd9db94e0a6df075d951e1dc478d7ac6e2ef17",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source ne contient que des chaînes de transmission et précise que ces versions omettent le paiement du boucher, sans reprendre le récit correspondant. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral."
+    },
+    {
+      "source_id": "061c95c0-fb37-43df-8fd3-2e03a0c2c9b4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1317d",
+      "reference": "Sahih Muslim, hadith 1317 d, book 15, باب فِي الصَّدَقَةِ بِلُحُومِ الْهَدْىِ وَجُلُودِهَا وَجِلاَلِهَا ‏‏",
+      "title": "باب فِي الصَّدَقَةِ بِلُحُومِ الْهَدْىِ وَجُلُودِهَا وَجِلاَلِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمِ بْنِ مَيْمُونٍ، وَمُحَمَّدُ بْنُ مَرْزُوقٍ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالَ عَبْدٌ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي الْحَسَنُ بْنُ مُسْلِمٍ، أَنَّ مُجَاهِدًا، أَخْبَرَهُ أَنَّ عَبْدَ الرَّحْمَنِ بْنَ أَبِي لَيْلَى أَخْبَرَهُ أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ أَخْبَرَهُ ‏.‏ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم أَمَرَهُ أَنْ يَقُومَ عَلَى بُدْنِهِ وَأَمَرَهُ أَنْ يَقْسِمَ بُدْنَهُ كُلَّهَا لُحُومَهَا وَجُلُودَهَا وَجِلاَلَهَا فِي الْمَسَاكِينِ وَلاَ يُعْطِيَ فِي جِزَارَتِهَا مِنْهَا شَيْئًا ‏.‏",
+      "source_hash_sha256": "633d80d5cdcd640b16a483e25a8bfdc679c9687b72c4411a4d6963a827332b23",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim ibn Maymun, Muhammad ibn Marzuq et Abd ibn Humayd m'ont rapporté. Abd a dit : il nous a informés, et les deux autres ont dit : Muhammad ibn Bakr nous a rapporté : Ibn Jurayj nous a informés : al-Hasan ibn Muslim m'a informé que Mujahid lui avait rapporté que Abd al-Rahman ibn Abi Layla lui avait rapporté que Ali ibn Abi Talib lui avait rapporté : Le Prophète d'Allah ﷺ lui ordonna de s'occuper de ses bêtes sacrificielles et d'en distribuer entièrement la viande, les peaux et les couvertures aux pauvres, et de ne rien prélever sur elles pour rémunérer le boucher.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e096990-d1c0-40a8-beb4-dc464247d8dc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1317e",
+      "reference": "Sahih Muslim, hadith 1317 e, book 15, باب فِي الصَّدَقَةِ بِلُحُومِ الْهَدْىِ وَجُلُودِهَا وَجِلاَلِهَا ‏‏",
+      "title": "باب فِي الصَّدَقَةِ بِلُحُومِ الْهَدْىِ وَجُلُودِهَا وَجِلاَلِهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَبْدُ، الْكَرِيمِ بْنُ مَالِكٍ الْجَزَرِيُّ أَنَّ مُجَاهِدًا، أَخْبَرَهُ أَنَّ عَبْدَ الرَّحْمَنِ بْنَ أَبِي لَيْلَى أَخْبَرَهُ أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ أَخْبَرَهُ أَنَّ النَّبِيَّ صلى الله عليه وسلم أَمَرَهُ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "29a25c9262498720b6e5d61fcac9ef4f16fa39e4b956704ff88553e1001412db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source dit seulement que le Prophète a ordonné « la même chose » que dans le récit précédent, sans reproduire son contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "5d1ebdc5-aa5d-4c24-9748-bb9bd91c9def",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1318a",
+      "reference": "Sahih Muslim, hadith 1318 a, book 15, باب الاِشْتِرَاكِ فِي الْهَدْىِ وَإِجْزَاءِ الْبَقَرَةِ وَالْبَدَنَةِ كُلٍّ مِنْهُمَا عَنْ سَبْعَةٍ ‏‏",
+      "title": "باب الاِشْتِرَاكِ فِي الْهَدْىِ وَإِجْزَاءِ الْبَقَرَةِ وَالْبَدَنَةِ كُلٍّ مِنْهُمَا عَنْ سَبْعَةٍ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ أَبِي الزُّبَيْرِ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ قَالَ نَحَرْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم عَامَ الْحُدَيْبِيَةِ الْبَدَنَةَ عَنْ سَبْعَةٍ وَالْبَقَرَةَ عَنْ سَبْعَةٍ ‏.‏",
+      "source_hash_sha256": "50dc93692c7601e4f3f566ac620193926e3fedadb64d418196c28dc72fa269f5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Said nous a rapporté : Malik nous a rapporté. Et Yahya ibn Yahya nous a rapporté — la formulation est la sienne — : J'ai lu devant Malik, d'après Abu al-Zubayr, d'après Jabir ibn Abdullah, qui a dit : Lors de l'année d'al-Hudaybiya, nous avons sacrifié avec le Messager d'Allah ﷺ un chameau pour sept personnes et une vache pour sept personnes.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "03168146-ce5d-4947-ae97-a10644e1bec2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1318b",
+      "reference": "Sahih Muslim, hadith 1318 b, book 15, باب الاِشْتِرَاكِ فِي الْهَدْىِ وَإِجْزَاءِ الْبَقَرَةِ وَالْبَدَنَةِ كُلٍّ مِنْهُمَا عَنْ سَبْعَةٍ ‏‏",
+      "title": "باب الاِشْتِرَاكِ فِي الْهَدْىِ وَإِجْزَاءِ الْبَقَرَةِ وَالْبَدَنَةِ كُلٍّ مِنْهُمَا عَنْ سَبْعَةٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو خَيْثَمَةَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، ح. وَحَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا أَبُو الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ خَرَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم مُهِلِّينَ بِالْحَجِّ فَأَمَرَنَا رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ نَشْتَرِكَ فِي الإِبِلِ وَالْبَقَرِ كُلُّ سَبْعَةٍ مِنَّا فِي بَدَنَةٍ ‏.‏",
+      "source_hash_sha256": "2b5411f4d80087ce68f097549854e919d3a04ec6c254a0a17843a52515b13737",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Abu Khaythama nous a informés, d'après Abu al-Zubayr, d'après Jabir. Et Ahmad ibn Yunus nous a rapporté : Zuhayr nous a rapporté : Abu al-Zubayr nous a rapporté, d'après Jabir, qui a dit : Nous partîmes avec le Messager d'Allah ﷺ en ayant formulé l'intention du pèlerinage. Le Messager d'Allah ﷺ nous ordonna de nous associer pour les chameaux et les bovins, à raison de sept d'entre nous par chameau sacrificiel.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "21ca13ca-0d04-4b35-9dbc-946018433df3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1318c",
+      "reference": "Sahih Muslim, hadith 1318 c, book 15, باب الاِشْتِرَاكِ فِي الْهَدْىِ وَإِجْزَاءِ الْبَقَرَةِ وَالْبَدَنَةِ كُلٍّ مِنْهُمَا عَنْ سَبْعَةٍ ‏‏",
+      "title": "باب الاِشْتِرَاكِ فِي الْهَدْىِ وَإِجْزَاءِ الْبَقَرَةِ وَالْبَدَنَةِ كُلٍّ مِنْهُمَا عَنْ سَبْعَةٍ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا وَكِيعٌ، حَدَّثَنَا عَزْرَةُ بْنُ ثَابِتٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، قَالَ حَجَجْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم فَنَحَرْنَا الْبَعِيرَ عَنْ سَبْعَةٍ وَالْبَقَرَةَ عَنْ سَبْعَةٍ ‏.‏",
+      "source_hash_sha256": "f94c5200f2cba32d75e330cf7a2f44bf66ace7f5ab353502375b3c0670e60bb2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim m'a rapporté : Waki nous a rapporté : Azra ibn Thabit nous a rapporté, d'après Abu al-Zubayr, d'après Jabir ibn Abdullah, qui a dit : Nous avons accompli le pèlerinage avec le Messager d'Allah ﷺ ; nous avons sacrifié un chameau pour sept personnes et une vache pour sept personnes.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1a9f4e66-b48a-4f2f-85a6-ed8cd9851ca7",
+      "reason": "La source ne contient que des chaînes de transmission et précise que ces versions omettent le paiement du boucher, sans reprendre le récit correspondant. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral."
+    },
+    {
+      "source_id": "9e096990-d1c0-40a8-beb4-dc464247d8dc",
+      "reason": "La source dit seulement que le Prophète a ordonné « la même chose » que dans le récit précédent, sans reproduire son contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}

@@ -41018,6 +41018,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0581",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0581.json",
+      "sourceIds": [
+        "1a9f4e66-b48a-4f2f-85a6-ed8cd9851ca7",
+        "061c95c0-fb37-43df-8fd3-2e03a0c2c9b4",
+        "9e096990-d1c0-40a8-beb4-dc464247d8dc",
+        "5d1ebdc5-aa5d-4c24-9748-bb9bd91c9def",
+        "03168146-ce5d-4947-ae97-a10644e1bec2",
+        "21ca13ca-0d04-4b35-9dbc-946018433df3"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45325,8 +45346,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8647,
-  "hadithLocalRemaining": 5982,
+  "hadithLocalDrafted": 8651,
+  "hadithLocalRemaining": 5978,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49003,10 +49024,20 @@
       "source_id": "f2a7c50a-eb2b-40c9-b733-621b2abdd2e0",
       "reason": "La source reprend uniquement la chaîne de transmission et indique « semblable » au rapport précédent, sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "1a9f4e66-b48a-4f2f-85a6-ed8cd9851ca7",
+      "reason": "La source ne contient que des chaînes de transmission et précise que ces versions omettent le paiement du boucher, sans reprendre le récit correspondant. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9e096990-d1c0-40a8-beb4-dc464247d8dc",
+      "reason": "La source dit seulement que le Prophète a ordonné « la même chose » que dans le récit précédent, sans reproduire son contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2311,
+  "hadithMuslimDrafted": 2315,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1028
+  "hadithNeedsMo": 1030
 }
