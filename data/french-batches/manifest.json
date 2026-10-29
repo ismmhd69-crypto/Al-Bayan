@@ -18729,6 +18729,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-870",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-870.json",
+      "sourceIds": [
+        "693176fe-2b63-4495-b15b-a09af88934c4",
+        "75dd846d-fc4e-406a-8f1f-305d96ae89ad",
+        "236c7a85-2cf0-4d82-b45e-f462d53d7769",
+        "4d0d83f4-bf6c-4a90-8c80-f448065bb9fa",
+        "2661083d-7042-43f7-b08f-d59947c5ed10",
+        "b0085091-fbd9-439b-b03c-6af6fd7c6530"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -20417,9 +20438,33 @@
       "scope": "Sahih al-Bukhari 4758: direct Quran 24:31 wording absent from source tags",
       "status": "blocked",
       "reason": "Le rapport cite directement les mots de Quran 24:31, mais cette citation n’est pas signalée par un marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-869, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4764-QURAN-4-93-25-68",
+      "scope": "Sahih al-Bukhari 4764: direct Quran quotations from 4:93, 25:68",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:93, 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-870, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4765-QURAN-4-93-25-68-25-69-25-70",
+      "scope": "Sahih al-Bukhari 4765: direct Quran quotations from 4:93, 25:68, 25:69, 25:70",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:93, 25:68, 25:69, 25:70. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-870, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4766-QURAN-4-93-25-68",
+      "scope": "Sahih al-Bukhari 4766: direct Quran quotations from 4:93, 25:68",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 4:93, 25:68. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-870, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4767-QURAN-25-77",
+      "scope": "Sahih al-Bukhari 4767: direct Quran quotations from 25:77",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 25:77. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-870, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4028,
-  "hadithLocalDrafted": 4028,
-  "hadithLocalRemaining": 10639
+  "hadithBukhariDrafted": 4030,
+  "hadithLocalDrafted": 4030,
+  "hadithLocalRemaining": 10637
 }
