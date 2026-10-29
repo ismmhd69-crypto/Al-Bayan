@@ -9466,3 +9466,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0467 saves four private French drafts about the lunar month and the Prophet’s oath concerning his household. Muslim 1082b and 1085b give only a chain referring to a prior report and remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1086a–1088b
+
+- FR-LIB-HAD-MUSLIM-0468 saves five private French drafts about the length of the month and sighting the crescent. Muslim 1086c provides only a same-chain reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
