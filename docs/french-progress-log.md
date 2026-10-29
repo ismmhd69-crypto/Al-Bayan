@@ -9926,3 +9926,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0559 saves six private French drafts about the prayer location at Dhu Tuwa and the brisk walking during tawaf and the sa‘i. All six source texts are complete.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1263a–1265
+
+- FR-LIB-HAD-MUSLIM-0560 saves five private French drafts about brisk walking during tawaf and movement between Safa and Marwa. Muslim 1264b is an abbreviated variant and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.

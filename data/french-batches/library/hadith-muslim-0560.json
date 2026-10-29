@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0560",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:06:06.764Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "13f7ffd1-a110-4398-80a7-b44e3b940b3a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1263a",
+      "reference": "Sahih Muslim, hadith 1263 a, book 15, باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "title": "باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ بْنِ قَعْنَبٍ، حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، - وَاللَّفْظُ لَهُ - قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ - رضى الله عنهما - أَنَّهُ قَالَ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم رَمَلَ مِنَ الْحَجَرِ الأَسْوَدِ حَتَّى انْتَهَى إِلَيْهِ ثَلاَثَةَ أَطْوَافٍ ‏.‏",
+      "source_hash_sha256": "e678c73f512e70b367b7715e393794f177f33a4ce042b7cc8faabdda3231fd67",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd Allah ibn Maslama ibn Qanab nous a rapporté : Malik nous a rapporté. Yahya ibn Yahya nous a également rapporté — et cette version est la sienne — : j’ai lu devant Malik, d’après Jaafar ibn Muhammad, d’après son père, d’après Jabir ibn Abd Allah, qu’Allah les agrée tous deux, qui a dit : j’ai vu le Messager d’Allah ﷺ trotter, de la Pierre noire jusqu’à y revenir, pendant trois tours.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "56349238-3ff3-4b10-82d5-531fdb1888b0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1263b",
+      "reference": "Sahih Muslim, hadith 1263 b, book 15, باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "title": "باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي مَالِكٌ، وَابْنُ، جُرَيْجٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَمَلَ الثَّلاَثَةَ أَطْوَافٍ مِنَ الْحَجَرِ إِلَى الْحَجَرِ ‏.‏",
+      "source_hash_sha256": "57d84d650742c88ddb1d45a5c21437370911599e115d8a7ea19cf3d49dd56d67",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir nous a rapporté : Abd Allah ibn Wahb nous a informés : Malik et Ibn Jurayj m’ont rapporté, d’après Jaafar ibn Muhammad, d’après son père, d’après Jabir ibn Abd Allah, que le Messager d’Allah ﷺ trotta pendant les trois tours, de la Pierre jusqu’à la Pierre.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2d49a66d-24a1-4339-9d71-78dacdc0be73",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1264a",
+      "reference": "Sahih Muslim, hadith 1264 a, book 15, باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "title": "باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كَامِلٍ، فُضَيْلُ بْنُ حُسَيْنٍ الْجَحْدَرِيُّ حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، حَدَّثَنَا الْجُرَيْرِيُّ، عَنْ أَبِي الطُّفَيْلِ، قَالَ قُلْتُ لاِبْنِ عَبَّاسٍ أَرَأَيْتَ هَذَا الرَّمَلَ بِالْبَيْتِ ثَلاَثَةَ أَطْوَافٍ وَمَشْىَ أَرْبَعَةِ أَطْوَافٍ أَسُنَّةٌ هُوَ فَإِنَّ قَوْمَكَ يَزْعُمُونَ أَنَّهُ سُنَّةٌ ‏.‏ قَالَ فَقَالَ صَدَقُوا وَكَذَبُوا ‏.‏ قَالَ قُلْتُ مَا قَوْلُكَ صَدَقُوا وَكَذَبُوا قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدِمَ مَكَّةَ فَقَالَ الْمُشْرِكُونَ إِنَّ مُحَمَّدًا وَأَصْحَابَهُ لاَ يَسْتَطِيعُونَ أَنْ يَطُوفُوا بِالْبَيْتِ مِنَ الْهُزَالِ وَكَانُوا يَحْسُدُونَهُ ‏.‏ قَالَ فَأَمَرَهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم أَنْ يَرْمُلُوا ثَلاَثًا وَيَمْشُوا أَرْبَعًا ‏.‏ قَالَ قُلْتُ لَهُ أَخْبِرْنِي عَنِ الطَّوَافِ بَيْنَ الصَّفَا وَالْمَرْوَةِ رَاكِبًا أَسُنَّةٌ هُوَ فَإِنَّ قَوْمَكَ يَزْعُمُونَ أَنَّهُ سُنَّةٌ ‏.‏ قَالَ صَدَقُوا وَكَذَبُوا ‏.‏ قَالَ قُلْتُ وَمَا قَوْلُكَ صَدَقُوا وَكَذَبُوا قَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَثُرَ عَلَيْهِ النَّاسُ يَقُولُونَ هَذَا مُحَمَّدٌ هَذَا مُحَمَّدٌ ‏.‏ حَتَّى خَرَجَ الْعَوَاتِقُ مِنَ الْبُيُوتِ ‏.‏ قَالَ وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم لاَ يُضْرَبُ النَّاسُ بَيْنَ يَدَيْهِ فَلَمَّا كَثُرَ عَلَيْهِ رَكِبَ وَالْمَشْىُ وَالسَّعْىُ أَفْضَلُ ‏.‏",
+      "source_hash_sha256": "fa5efd6ab337e2675f80d0d6e8e2bead91a780e32ab829247fe560a67030a31f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Kamil Fudayl ibn Husayn al-Jahdari nous a rapporté : Abd al-Wahid ibn Ziyad nous a rapporté : al-Jurayri nous a rapporté, d’après Abu al-Tufayl, qui a dit : je demandai à Ibn Abbas si le fait de trotter pendant trois tours autour de la Maison et de marcher pendant les quatre autres relevait de la tradition, puisque ses compatriotes affirmaient que c’était une tradition. Il répondit : ils ont raison et tort. Je lui demandai ce qu’il voulait dire. Il répondit : lorsque le Messager d’Allah ﷺ arriva à La Mecque, les polythéistes dirent que Muhammad et ses compagnons étaient trop faibles pour faire le tawaf autour de la Maison. Ils l’enviaient. Le Messager d’Allah ﷺ leur ordonna alors de trotter pendant trois tours et de marcher pendant quatre. Je lui demandai si le fait de faire le parcours entre Safa et Marwa à dos de monture relevait aussi de la tradition, puisque ses compatriotes le disaient. Il répondit encore : ils ont raison et tort. Je lui demandai ce qu’il voulait dire. Il répondit : les gens se pressaient autour du Messager d’Allah ﷺ en disant : voici Muhammad ! Voici Muhammad ! jusqu’à ce que des jeunes femmes sortent de leurs maisons. On ne repoussait pas les gens devant lui. Comme ils étaient trop nombreux, il monta sa monture. Mais marcher et se hâter à pied est préférable.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55cc0f5c-429e-4dd1-898d-7246a9c1fc0d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1264b",
+      "reference": "Sahih Muslim, hadith 1264 b, book 15, باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "title": "باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَزِيدُ، أَخْبَرَنَا الْجُرَيْرِيُّ، بِهَذَا الإِسْنَادِ نَحْوَهُ غَيْرَ أَنَّهُ قَالَ وَكَانَ أَهْلُ مَكَّةَ قَوْمَ حَسَدٍ ‏.‏ وَلَمْ يَقُلْ يَحْسُدُونَهُ ‏.‏",
+      "source_hash_sha256": "433c56dc7f2cdfaa791a356992d7b8498ff41b35c7cd78323d2a91dfb4d2bb8d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d38157b4-e8e3-4135-866b-8356b0d7bedc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1264c",
+      "reference": "Sahih Muslim, hadith 1264 c, book 15, باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "title": "باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ أَبِي حُسَيْنٍ، عَنْ أَبِي الطُّفَيْلِ، قَالَ قُلْتُ لاِبْنِ عَبَّاسٍ إِنَّ قَوْمَكَ يَزْعُمُونَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم رَمَلَ بِالْبَيْتِ وَبَيْنَ الصَّفَا وَالْمَرْوَةِ وَهْىَ سُنَّةٌ ‏.‏ قَالَ صَدَقُوا وَكَذَبُوا ‏.‏",
+      "source_hash_sha256": "b70d427982f181551b1302138ba56da3156b492de4a9a610fba77915a2d7f364",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abu Umar nous a rapporté : Sufyan nous a rapporté, d’après Ibn Abu Husayn, d’après Abu al-Tufayl, qui a dit : je demandai à Ibn Abbas : tes compatriotes affirment que le Messager d’Allah ﷺ trotta autour de la Maison et entre Safa et Marwa et que cela constitue une tradition. Il répondit : ils ont raison et tort.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ebd2da31-55d5-4bd4-a647-75259b37b5d2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1265",
+      "reference": "Sahih Muslim, hadith 1265, book 15, باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "title": "باب اسْتِحْبَابِ الرَّمَلِ فِي الطَّوَافِ وَالْعُمْرَةِ وَفِي الطَّوَافِ الأَوَّلِ فِي الْحَجِّ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا زُهَيْرٌ، عَنْ عَبْدِ الْمَلِكِ بْنِ، سَعِيدِ بْنِ الأَبْجَرِ عَنْ أَبِي الطُّفَيْلِ، قَالَ قُلْتُ لاِبْنِ عَبَّاسٍ أُرَانِي قَدْ رَأَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم ‏.‏ قَالَ فَصِفْهُ لِي ‏.‏ قَالَ قُلْتُ رَأَيْتُهُ عِنْدَ الْمَرْوَةِ عَلَى نَاقَةٍ وَقَدْ كَثُرَ النَّاسُ عَلَيْهِ ‏.‏ قَالَ فَقَالَ ابْنُ عَبَّاسٍ ذَاكَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِنَّهُمْ كَانُوا لاَ يُدَعُّونَ عَنْهُ وَلاَ يُكْهَرُونَ ‏.‏",
+      "source_hash_sha256": "dc78453d452707e1dec9638a8e7882d528737b1daeaef7cfdb75a1f3367fcb10",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi nous a rapporté : Yahya ibn Adam nous a rapporté : Zuhayr nous a rapporté, d’après Abd al-Malik ibn Said ibn al-Abjar, d’après Abu al-Tufayl, qui a dit : je dis à Ibn Abbas que je pensais avoir vu le Messager d’Allah ﷺ. Il me demanda de le décrire. Je répondis que je l’avais vu à al-Marwa, sur une chamelle, alors que la foule se pressait autour de lui. Ibn Abbas dit : c’était bien le Messager d’Allah ﷺ. Les gens ne le repoussaient pas et ne le rudoyaient pas.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "55cc0f5c-429e-4dd1-898d-7246a9c1fc0d",
+      "reason": "La source ne donne qu’une variante de formulation et renvoie au récit précédent sans en reprendre le contenu complet. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    }
+  ]
+}
