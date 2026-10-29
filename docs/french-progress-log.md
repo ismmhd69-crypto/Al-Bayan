@@ -940,3 +940,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-190` saves six private French drafts for Bukhari 1085–1090. The read-only exporter also identified the following overlong source and deferred it so it can be handled as a single-record artifact in the next batch.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,007 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 52. Total local hadith rows not drafted: 13,622, including held records.
+### 2026-10-29: Bukhari 1091–1097 source review
+
+- `FR-LIB-HAD-BUKHARI-191` saves six private French drafts for Bukhari 1091–1097. The previously deferred overlong source (`63c944b0-5027-4247-a61e-dfb971c78fd8`) remains isolated for a single-record artifact.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,013 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 52. Total local hadith rows not drafted: 13,616, including held records.
