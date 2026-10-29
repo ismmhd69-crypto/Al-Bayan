@@ -1456,3 +1456,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-304` saves six private French drafts for the available source records 1756–1758, 1760, and 1762–1763. No source record for 1759 or 1761 was present in this exporter batch. The reports retain differences in the narration about Safiyya and the concession for women who had completed the tawaf. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,610 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,018, including held records.
+
+### 2026-10-29: Bukhari 1764–1769 source review
+
+- `FR-LIB-HAD-BUKHARI-305` saves six private French drafts for Bukhari 1764–1769. They preserve the reports on the stop at al-Muhassab, with the transmitted uncertainty about which prayers Ibn Umar performed there. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,616 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,012, including held records.
