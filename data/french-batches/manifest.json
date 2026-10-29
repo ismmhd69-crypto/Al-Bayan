@@ -13734,6 +13734,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-616",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-616.json",
+      "sourceIds": [
+        "d90274b8-06a8-4cdb-8ce7-984b6dec9ec2"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, ID, reference, rights metadata and private unpublished state passed; full single-item long report retained",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -13816,7 +13832,7 @@
       "status": "blocked",
       "reason": "The exact referent of الفدادين is not confirmed from the local Arabic records. The full reports remain blank in private batches FR-LIB-HAD-BUKHARI-611 and FR-LIB-HAD-BUKHARI-612 until the term can be checked."
     }  ],
-  "hadithBukhariDrafted": 3142,
-  "hadithLocalDrafted": 3142,
-  "hadithLocalRemaining": 11515
+  "hadithBukhariDrafted": 3143,
+  "hadithLocalDrafted": 3143,
+  "hadithLocalRemaining": 11514
 }
