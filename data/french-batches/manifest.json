@@ -17430,6 +17430,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-804",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-804.json",
+      "sourceIds": [
+        "ee857ccc-07d5-4aa6-90c4-21f1195f7835",
+        "61a76c42-8d0f-479a-afc7-1430f4e4bfdc",
+        "68d8a698-c39e-48ac-8858-929f4a86a661",
+        "ea5aa799-989b-4677-8b1d-d7dac2430012",
+        "62b335dc-c0be-47cb-96f9-ef9b9f14e441",
+        "32c77f5e-37ba-414b-873a-f0ebd5967384"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17972,9 +17993,15 @@
       "scope": "Sahih al-Bukhari 4435: direct quotation of Quran 4:69",
       "status": "blocked",
       "reason": "The report directly quotes part of Quran 4:69. The complete record remains blank in FR-LIB-HAD-BUKHARI-802 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4447-UNCLEAR-IDIOM",
+      "scope": "Sahih al-Bukhari 4447: unclear expression عبد العصا",
+      "status": "blocked",
+      "reason": "The idiom أَنْتَ وَاللَّهِ بَعْدَ ثَلاَثٍ عَبْدُ الْعَصَا has an unclear exact meaning in this source record. The complete report remains blank in FR-LIB-HAD-BUKHARI-804 pending clarification."
     }
   ],
-  "hadithBukhariDrafted": 3911,
-  "hadithLocalDrafted": 3911,
-  "hadithLocalRemaining": 10746
+  "hadithBukhariDrafted": 3916,
+  "hadithLocalDrafted": 3916,
+  "hadithLocalRemaining": 10741
 }
