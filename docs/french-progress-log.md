@@ -6871,3 +6871,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1338 saves five private French drafts. Hadith 7337 is truncated after introducing Umar’s words on the Prophet’s pulpit; its entire translation remains blank under Needs Mo until a complete source is available. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,171 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 120. Total local hadith rows not drafted: 8,458, including held records.
+
+### 2026-10-29: Bukhari 7342–7347
+
+- FR-LIB-HAD-BUKHARI-1339 saves four private French drafts. Hadiths 7346 and 7347 directly quote Quran 3:128 and 18:54; both complete translations remain blank under Needs Mo pending an approved, attributed French Quran translation and confirmation of permitted use. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,175 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 122. Total local hadith rows not drafted: 8,454, including held records.
