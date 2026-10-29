@@ -20307,6 +20307,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-947",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-947.json",
+      "sourceIds": [
+        "708b0af8-9d10-4a61-8c14-ee964709bf99"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -23165,6 +23181,12 @@
       "scope": "Sahih al-Bukhari 5163: unmarked direct Quran wording from 33:53",
       "status": "blocked",
       "reason": "The report quotes Quran 33:53 directly without a Quran marker. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5189-LONG-SOURCE-REVIEW",
+      "scope": "Sahih al-Bukhari 5189: 3,243-character narrative with eleven poetic descriptions",
+      "status": "blocked",
+      "reason": "This unusually long, complex source needs a distinct completeness and meaning review before translation."
     },
     {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
