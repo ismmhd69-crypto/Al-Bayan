@@ -1,0 +1,176 @@
+{
+  "batch_id": "HADITH-MUSLIM-0262",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:53:05.810Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "44480f00-cc5a-4c22-8973-ee584759fff8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:626a",
+      "reference": "Sahih Muslim, hadith 626 a, book 5, باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "title": "باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الَّذِي تَفُوتُهُ صَلاَةُ الْعَصْرِ كَأَنَّمَا وُتِرَ أَهْلَهُ وَمَالَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "703731b34473d216978b9f7c05c58c76f0c6b84ec273924d4d2d51c6b939893f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : j’ai lu à Malik, d’après Nafi‘, d’après Ibn Umar, que le Messager d’Allah ﷺ a dit : « Celui qui laisse passer la prière de l’asr, c’est comme s’il avait perdu sa famille et ses biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "dae663e3-00be-4c0b-920b-12a4a557a6e6",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:626b",
+      "reference": "Sahih Muslim, hadith 626 b, book 5, باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "title": "باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَعَمْرٌو النَّاقِدُ، قَالاَ حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنْ أَبِيهِ، ‏.‏ قَالَ عَمْرٌو يَبْلُغُ بِهِ ‏.‏ وَقَالَ أَبُو بَكْرٍ رَفَعَهُ ‏.‏",
+      "source_hash_sha256": "a37e8377908869f3e5ac4cdd9426fd73479de81e895620c7d0941d35d2f574e7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "46cfff68-3980-4630-a8a7-008396767662",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:626c",
+      "reference": "Sahih Muslim, hadith 626 c, book 5, باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "title": "باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، - وَاللَّفْظُ لَهُ - قَالَ حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنِ ابْنِ شِهَابٍ، عَنْ سَالِمِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ فَاتَتْهُ الْعَصْرُ فَكَأَنَّمَا وُتِرَ أَهْلَهُ وَمَالَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4e022abb9e8cf110b2ebd59aa4a8b6549db8f8a149e04c97807a9846e2a260a1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli nous a rapporté — la formulation est la sienne. Il dit : Ibn Wahb nous a rapporté : Amr ibn al-Harith nous a informés, d’après Ibn Shihab, d’après Salim ibn Abdullah, d’après son père, que le Messager d’Allah ﷺ a dit : « Celui qui laisse passer la prière de l’asr, c’est comme s’il avait perdu sa famille et ses biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0a7fcc94-7ea6-4c7f-8b1c-005c4f371b22",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:627a",
+      "reference": "Sahih Muslim, hadith 627 a, book 5, باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "title": "باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ هِشَامٍ، عَنْ مُحَمَّدٍ، عَنْ عَبِيدَةَ، عَنْ عَلِيٍّ، قَالَ لَمَّا كَانَ يَوْمُ الأَحْزَابِ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَلأَ اللَّهُ قُبُورَهُمْ وَبُيُوتَهُمْ نَارًا كَمَا حَبَسُونَا وَشَغَلُونَا عَنِ الصَّلاَةِ الْوُسْطَى حَتَّى غَابَتِ الشَّمْسُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5737ab47feefb038f0b5b872c232b2ff531e3a14199ed61e8d5bc9214445a53d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "70d39f3a-f241-41ad-a0d0-bdc916cc523e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:627b",
+      "reference": "Sahih Muslim, hadith 627 b, book 5, باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "title": "باب التَّغْلِيظِ فِي تَفْوِيتِ صَلاَةِ الْعَصْرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ أَبِي بَكْرٍ الْمُقَدَّمِيُّ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، ح وَحَدَّثَنَاهُ إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا الْمُعْتَمِرُ بْنُ سُلَيْمَانَ، جَمِيعًا عَنْ هِشَامٍ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "b425f3abf9fae1cb2a0993f8c9569a23032ab77579d5a7e7e36e893923ac099b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55ad7804-0438-45d4-a224-e4167f9ba5ab",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:627c",
+      "reference": "Sahih Muslim, hadith 627 c, book 5, باب الدَّلِيلِ لِمَنْ قَالَ الصَّلاَةُ الْوُسْطَى هِيَ صَلاَةُ الْعَصْرِ ‏",
+      "title": "باب الدَّلِيلِ لِمَنْ قَالَ الصَّلاَةُ الْوُسْطَى هِيَ صَلاَةُ الْعَصْرِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَبِي حَسَّانَ، عَنْ عَبِيدَةَ، عَنْ عَلِيٍّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَوْمَ الأَحْزَابِ ‏\"‏ شَغَلُونَا عَنْ صَلاَةِ الْوُسْطَى حَتَّى آبَتِ الشَّمْسُ مَلأَ اللَّهُ قُبُورَهُمْ نَارًا أَوْ بُيُوتَهُمْ أَوْ بُطُونَهُمْ ‏\"‏ ‏.‏ شَكَّ شُعْبَةُ فِي الْبُيُوتِ وَالْبُطُونِ ‏.‏",
+      "source_hash_sha256": "7939b10d9c18afaa43190cd939ac5b320fe2b150ebda827f6c8120be2824c61a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "dae663e3-00be-4c0b-920b-12a4a557a6e6",
+      "reason": "La source ne donne que la chaîne de transmission et indique que le récit est attribué au Prophète, sans reprendre son texte. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "0a7fcc94-7ea6-4c7f-8b1c-005c4f371b22",
+      "reason": "Le texte cite le fragment coranique « الصلاة الوسطى » (2:238). Conformément à la règle du projet, garder toute la traduction en attente jusqu’à validation d’une traduction française autorisée."
+    },
+    {
+      "source_id": "70d39f3a-f241-41ad-a0d0-bdc916cc523e",
+      "reason": "La source ne donne que les chaînes de transmission et renvoie à la version précédente, sans en reprendre le texte. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "55ad7804-0438-45d4-a224-e4167f9ba5ab",
+      "reason": "Le texte cite le fragment coranique « الصلاة الوسطى » (2:238). Conformément à la règle du projet, garder toute la traduction en attente jusqu’à validation d’une traduction française autorisée."
+    }
+  ]
+}

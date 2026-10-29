@@ -8431,3 +8431,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0261 saves six private French drafts about the timing of Asr, including accounts of the prayer followed by a meal before sunset.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,047 Muslim drafts, 7,383 total hadith drafts, 7,246 remaining, and 495 Needs Mo items.
+
+### 2026-10-29: Muslim 626a–627c
+
+- FR-LIB-HAD-MUSLIM-0262 saves two private French drafts about missing the Asr prayer. Muslim 627a and 627c contain the Quranic phrase « الصلاة الوسطى » (2:238) and remain blank under Needs Mo. Muslim 626b and 627b are incomplete cross-references and also remain blank.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,049 Muslim drafts, 7,385 total hadith drafts, 7,244 remaining, and 499 Needs Mo items.
