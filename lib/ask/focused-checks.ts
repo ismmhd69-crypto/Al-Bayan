@@ -143,7 +143,7 @@ export function displayAlignmentRequest(candidates: { source_id: string; origina
 
 /** An omitted or malformed batch cannot approve its valid-looking subset. */
 export function parseDisplayAlignment(raw: unknown, candidates: { source_id: string; original_hash: string }[]) {
-  const invalid = (missing = false) => ({ valid: false, missing, acceptedIds: [] as string[], rejectedIds: candidates.map(c => c.source_id) });
+  const invalid = (missing = false) => ({ valid: false, missing, acceptedIds: [] as string[], rejectedIds: candidates.map(c => c.source_id), missingIds: missing ? candidates.map(c => c.source_id) : [] as string[] });
   const expected = new Map(candidates.map(c => [c.source_id, c.original_hash]));
   if (expected.size !== candidates.length || candidates.length > 30 || candidates.some(c => typeof c.source_id !== "string" || !c.source_id.trim() || !/^[a-f0-9]{64}$/.test(c.original_hash))) return invalid();
   const rows = object(raw)?.translations;
@@ -157,6 +157,9 @@ export function parseDisplayAlignment(raw: unknown, candidates: { source_id: str
     seen.add(r.source_id);
     ([r.faithful, r.complete, r.conditions_preserved].every(v => v === "yes") ? acceptedIds : rejectedIds).push(r.source_id);
   }
-  if (rows.length !== candidates.length) return invalid(true);
-  return { valid: true, missing: false, acceptedIds, rejectedIds };
+  // A skipped row is only that translation unchecked (seen live 2026-10-29: one of 17 omitted
+  // hid every approved translation). It is never accepted; the rows answered still count.
+  const missingIds = candidates.map(c => c.source_id).filter(id => !seen.has(id));
+  if (!rows.length) return invalid(true);
+  return { valid: true, missing: missingIds.length > 0, acceptedIds, rejectedIds: [...rejectedIds, ...missingIds], missingIds };
 }

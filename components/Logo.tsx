@@ -28,18 +28,18 @@ export function Beacon({ size = 30, detail = size >= 40 }: { size?: number; deta
   const viewBox = detail ? "-100 -100 200 200" : "-88 -88 176 176";
   return (
     <svg width={size} height={size} viewBox={viewBox} aria-hidden="true" focusable="false">
-      <path d={BAND} fillRule="evenodd" fill="var(--accent)" />
+      <path d={BAND} fillRule="evenodd" fill="var(--brand-blue)" />
       {detail && (
         <>
-          <path d={INNER} fill="none" stroke="var(--gold)" strokeWidth={1.8} strokeLinejoin="round" />
+          <path d={INNER} fill="none" stroke="var(--brand-gold)" strokeWidth={1.8} strokeLinejoin="round" />
           {RAYS.map(([[x1, y1], [x2, y2]]) => (
-            <line key={`${x1}${y1}`} x1={x1} y1={y1} x2={x2} y2={y2} stroke="var(--gold)" strokeWidth={3.4} strokeLinecap="round" />
+            <line key={`${x1}${y1}`} x1={x1} y1={y1} x2={x2} y2={y2} stroke="var(--brand-gold)" strokeWidth={3.4} strokeLinecap="round" />
           ))}
         </>
       )}
-      <path d={ROSETTE} fill="var(--gold)" transform={detail ? undefined : "scale(1.25)"} />
+      <path d={ROSETTE} fill="var(--brand-gold)" transform={detail ? undefined : "scale(1.25)"} />
       <circle r={detail ? 7.5 : 9.4} fill="var(--surface)" />
-      <circle r={detail ? 3.2 : 4} fill="var(--gold)" />
+      <circle r={detail ? 3.2 : 4} fill="var(--brand-gold)" />
     </svg>
   );
 }

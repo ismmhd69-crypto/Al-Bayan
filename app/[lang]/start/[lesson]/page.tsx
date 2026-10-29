@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { buildCanonicalUrl, buildLanguageAlternates, buildArticleSchema, buildContentDescription } from "@/lib/seo";
 import JsonLd from "@/components/JsonLd";
-import { findLearningLesson, learningLessons, lessonReferences, lessonSummary, splitLearningLesson } from "@/lib/learning/course";
+import { findLearningLesson, learningChapters, learningLessons, lessonReferences, lessonSummary, referenceVerseKeys, splitLearningLesson } from "@/lib/learning/course";
+import { lessonExtras } from "@/lib/learning/extras";
 import { learningText } from "@/lib/learning/text";
 import LearningLesson from "@/components/learning/LearningLesson";
 import LearningEvidence from "@/components/learning/LearningEvidence";
@@ -46,6 +47,8 @@ export default async function LearningLessonPage({ params }: Params) {
   const index = learningLessons.indexOf(lesson);
   const body = lesson.body[lang];
   const references = lessonReferences(body);
+  const verseCount = new Set(references.flatMap(referenceVerseKeys)).size;
+  const chapterTitle = learningChapters.find((chapter) => chapter.id === lesson.chapter)?.title[lang] ?? "";
 
   const articleSchema = buildArticleSchema({
     title: lesson.title[lang],
@@ -60,6 +63,9 @@ export default async function LearningLessonPage({ params }: Params) {
       <LearningLesson
         lang={lang}
         lesson={lessonSummary(lesson, lang)}
+        chapterTitle={chapterTitle}
+        verseCount={verseCount}
+        extras={lessonExtras(lesson, lang)}
         parts={splitLearningLesson(body, lang)}
         references={references}
         lessonIds={learningLessons.map((item) => item.id)}

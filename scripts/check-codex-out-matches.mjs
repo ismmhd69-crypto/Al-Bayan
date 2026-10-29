@@ -41,3 +41,4 @@ console.log(`Found German translations in codex-out files:`);
 console.log(`Bukhari matches: ${foundBukhari}`);
 console.log(`Muslim matches: ${foundMuslim}`);
 console.log('Sample matches:', JSON.stringify(sampleMatches.slice(0, 3), null, 2));
+

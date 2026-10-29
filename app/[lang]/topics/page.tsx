@@ -30,7 +30,7 @@ export default async function TopicsPage({ params }: { params: Promise<{ lang: s
   const topics = preview ? hardQuestionArticles.map((article) => ({ id: article.id, category: article.category, title: article.title[lang], question: "" })) : await getTopics(lang);
 
   return (
-    <div className="page">
+    <div className="page topics-page">
       <header className="page-head">
         <h1>{t.title}</h1>
         <p className="lead">{preview ? hardQuestionText[lang].listNote : t.intro}</p>

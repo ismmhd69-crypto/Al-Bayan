@@ -9,7 +9,7 @@ import type { Dictionary, Locale } from "@/lib/i18n";
 import styles from "./StableAnswerView.module.css";
 
 export type RevealMemory = Map<string, Partial<Record<RichGroup, number>>>;
-export function StableAnswerView({ state, language, text, working, reconnecting, memory }: { state: RichStreamState; language: Locale; text: Dictionary["ask"]; working: boolean; reconnecting?: boolean; memory: RevealMemory }) {
+export function StableAnswerView({ state, language, text, working, reconnecting, memory, saveSlot }: { state: RichStreamState; language: Locale; text: Dictionary["ask"]; working: boolean; reconnecting?: boolean; memory: RevealMemory; saveSlot?: React.ReactNode }) {
   const empty = useMemo(emptyPublication, []);
   const publication = state.publication ?? empty, key = state.requestId ?? "pending";
   const copy = richText[language], ui = language === "ar" ? {
@@ -91,7 +91,7 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
   return <div data-research-stage={stage} className={styles.reader}>
     <RevealContext.Provider value={{ texts, counts }}>
       <RichAnswerView sections={visible} language={language} text={text} complete={complete} working={!settled} staged guide={complete ? (state.result as { answer?: { guide?: import("@/lib/ask/rich-answer").RichGuide } }).answer?.guide ?? null : null}
-        incomplete={settled && !complete} failureKind={richFailureKind(state.result)} publication={publication} />
+        incomplete={settled && !complete} failureKind={richFailureKind(state.result)} publication={publication} saveSlot={saveSlot} />
     </RevealContext.Provider>
     {reconnecting && <p role="status" aria-live="polite">{language === "ar" ? "انقطع الاتصال. نتحقق مما إذا كان يمكن متابعة البحث بأمان…" : language === "de" ? "Die Verbindung wurde unterbrochen. Wir prüfen, ob die Recherche sicher fortgesetzt werden kann…" : "The connection was interrupted. Checking whether research can continue safely…"}</p>}
     {waiting && <div className={`${styles.gapLoader} ${styles[current]}`} role="status" aria-live="polite">

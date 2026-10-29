@@ -176,7 +176,12 @@ export type StoredHadithRow = {
 
 // Longest stored hadith Ask will use. Longer ones are left out, never cut: the evidence step must see
 // whole hadith, and the visitor must never get a hadith cut in the middle of its meaning.
-export const MAX_LIBRARY_HADITH_CHARS = 2500;
+// Raised from 2500 (2026-10-29): that hid 140 hadith, among them the ones a question most often needs
+// whole (the Isra and Mi'raj, where the five prayers were prescribed; Jibril; Ka'b ibn Malik). 15000
+// covers every stored hadith; LONG_HADITH_PER_SEARCH keeps the evidence step's prompt bounded instead.
+export const MAX_LIBRARY_HADITH_CHARS = 15000;
+export const LONG_HADITH_CHARS = 2500;
+export const LONG_HADITH_PER_SEARCH = 2;
 
 const STORED_NAMES = {
   bukhari: { collection: "Sahih al-Bukhari", attributionAr: "رواه البخاري" },

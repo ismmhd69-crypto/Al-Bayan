@@ -10,6 +10,8 @@ import {
   isContinuationHadith,
   mapStoredHadith,
   MAX_LIBRARY_HADITH_CHARS,
+  LONG_HADITH_CHARS,
+  LONG_HADITH_PER_SEARCH,
   type Hadith,
   type StoredHadithRow,
 } from "./hadith-rules";
@@ -97,7 +99,9 @@ export async function searchLibraryHadith(queries: Partial<Record<Locale, string
     .filter((h): h is Hadith => !!h)
     ;
   audit.eligible = eligible.length;
-  const result = eligible.slice(0, MAX_RESULTS);
+  // Long hadith take their place by rank, but at most LONG_HADITH_PER_SEARCH of them per search.
+  let long = 0;
+  const result = eligible.filter((h) => h.arabic.length <= LONG_HADITH_CHARS || long++ < LONG_HADITH_PER_SEARCH).slice(0, MAX_RESULTS);
   audit.returned = result.length;
   options.onAudit?.(audit);
   return result;

@@ -16,6 +16,9 @@ export function stripAnswer<T extends SavedAnswer>(answer: T): T {
     for (const section of copy.sections) for (const source of section.sources) {
       const e = source.evidence;
       if (e.kind === "scholar") continue;
+      // A checked hadith translation carries its exact Arabic original; never store it. Opening the
+      // answer looks the translation up again for the freshly loaded original (lib/chat/hydrate.ts).
+      if (source.displayTranslation) source.displayTranslation = { status: "not_checked" };
       e.arabic = "";
       e.translation = null;
       if (e.kind === "quran") e.translationName = null;

@@ -72,3 +72,4 @@ for (const f of topicFiles) {
   }
 }
 console.log(`Topic answers missing de: ${topicMissingDe}`);
+

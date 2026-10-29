@@ -7,3 +7,4 @@ rows.forEach((r, idx) => {
   console.log(`Arabic: ${r.text_original}`);
   console.log('---');
 });
+

@@ -21,3 +21,4 @@ function sliceBatches(sourceFile, prefix) {
 sliceBatches('data/german-batches/missing-hadiths-bukhari.json', 'bukhari');
 sliceBatches('data/german-batches/missing-hadiths-muslim.json', 'muslim');
 console.log('All input batches generated cleanly!');
+

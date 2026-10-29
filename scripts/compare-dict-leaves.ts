@@ -37,3 +37,4 @@ for (const [k, v] of Object.entries(enFlat)) {
 
 console.log('Missing leaf keys in de:', missing.length);
 console.log('Identical leaf values:', englishFallback);
+

@@ -18,6 +18,9 @@ export type AuthText = {
   consent: string;
   privacyLink: string;
   signIn: string;
+  google: string;
+  googleNote: string;
+  orEmail: string;
   createAccount: string;
   sendReset: string;
   saveNewPassword: string;
@@ -71,6 +74,9 @@ export const authText: Record<Locale, AuthText> = {
     consent: "I agree that Bayan saves my questions, answers and progress in my account. I can export or delete everything at any time.",
     privacyLink: "Read the privacy page",
     signIn: "Sign in",
+    google: "Continue with Google",
+    googleNote: "Signs you in, or creates your account if you don't have one yet. By continuing, you agree that Bayan saves your questions, answers and progress in your account; you can export or delete everything at any time.",
+    orEmail: "or use your email",
     createAccount: "Create account",
     sendReset: "Send reset link",
     saveNewPassword: "Save new password",
@@ -122,6 +128,9 @@ export const authText: Record<Locale, AuthText> = {
     consent: "Ich bin einverstanden, dass Bayan meine Fragen, Antworten und meinen Fortschritt in meinem Konto speichert. Ich kann alles jederzeit exportieren oder löschen.",
     privacyLink: "Datenschutzseite lesen",
     signIn: "Anmelden",
+    google: "Weiter mit Google",
+    googleNote: "Meldet dich an oder erstellt dein Konto, falls du noch keins hast. Wenn du fortfährst, bist du einverstanden, dass Bayan deine Fragen, Antworten und deinen Fortschritt in deinem Konto speichert; du kannst alles jederzeit exportieren oder löschen.",
+    orEmail: "oder mit deiner E-Mail",
     createAccount: "Konto erstellen",
     sendReset: "Link zum Zurücksetzen senden",
     saveNewPassword: "Neues Passwort speichern",
@@ -173,6 +182,9 @@ export const authText: Record<Locale, AuthText> = {
     consent: "أوافق على أن يحفظ بيان أسئلتي وأجوبتي وتقدّمي في حسابي. ويمكنني تصدير كل شيء أو حذفه في أي وقت.",
     privacyLink: "اقرأ صفحة الخصوصية",
     signIn: "تسجيل الدخول",
+    google: "المتابعة باستخدام Google",
+    googleNote: "يسجّل دخولك، أو ينشئ حسابك إن لم يكن لديك حساب. بالمتابعة توافق على أن يحفظ بيان أسئلتك وأجوبتك وتقدّمك في حسابك، ويمكنك تصدير كل شيء أو حذفه في أي وقت.",
+    orEmail: "أو استخدم بريدك الإلكتروني",
     createAccount: "إنشاء الحساب",
     sendReset: "إرسال رابط إعادة التعيين",
     saveNewPassword: "حفظ كلمة المرور الجديدة",

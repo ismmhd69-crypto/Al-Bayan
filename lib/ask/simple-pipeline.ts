@@ -9,6 +9,7 @@ import { researchCandidatePool } from "./search-engine/research-candidate-pool";
 import { eligibleCorpusCandidates } from "./search-engine/pipeline-corpus";
 import { novelRecoveryQueries, type RecoveryQuery } from "./search-engine/recovery";
 import { hadithAllowed } from "@/lib/sources/hadith-rules";
+import { hadithMode } from "@/lib/sources/hadith-mode";
 import { scholarQuoteAllowed } from "@/lib/sources/scholar-rules";
 import { resolveHadithHints } from "./hadith-hints";
 import { originalSection } from "./original-sections";
@@ -52,12 +53,15 @@ export function simpleCandidatePool(frame:QuestionFrame, pool:PassageForSelectio
 
 /** Use only phrases from the existing validated plan if the planner supplied
  * no usable backup. Search discovery is never treated as evidence approval. */
-export function simpleRecoveryQueries(frame:QuestionFrame, requirementId:string, previous:RecoveryQuery[], availability:PipelineDeps["sourceAvailability"]):RecoveryQuery[] {
+export function simpleRecoveryQueries(frame:QuestionFrame, requirementId:string, previous:RecoveryQuery[], availability:PipelineDeps["sourceAvailability"], arabicHadithOnly=hadithMode()==="library"):RecoveryQuery[] {
   const concern=frame.requirements.find(r=>r.id===requirementId);
   if(!concern) throw Error("recovery_concern_invalid");
   const gap={requirementId,concern:concern.text,reason:"missing_direct_support" as const,families:[...groups]};
   const allowed=(q:RecoveryQuery)=>q.requirementId===requirementId && q.language!=="de"
-    && (q.family==="quran" || availability?.[q.family]!==false) && (q.family!=="scholar" || q.language==="ar");
+    && (q.family==="quran" || availability?.[q.family]!==false) && (q.family!=="scholar" || q.language==="ar")
+    // The stored hadith library searches Arabic only: an English hadith query there always returns nothing
+    // and would use up a recovery place (seen live 2026-10-29).
+    && (q.family!=="hadith" || q.language==="ar" || !arabicHadithOnly);
   const backups=novelRecoveryQueries((frame.backupQueries ?? []).filter(allowed),[gap],previous);
   if(backups.length) return backups;
   const queues:RecoveryQuery[][]=[

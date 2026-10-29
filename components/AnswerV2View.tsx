@@ -15,7 +15,7 @@ type AskText = Dictionary["ask"];
 const dirOf = (language: string) => (language === "ar" ? "rtl" : "ltr");
 const reducedMotion = () => typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-export function AnswerV2View({ answer, t, id, draftPreview = false }: { answer: AnswerV2; t: AskText; id: number; draftPreview?: boolean }) {
+export function AnswerV2View({ answer, t, id, draftPreview = false, saveSlot }: { answer: AnswerV2; t: AskText; id: number; draftPreview?: boolean; saveSlot?: React.ReactNode }) {
   const anchor = (sourceId: string) => `source-${id}-${sourceId.replace(/[^A-Za-z0-9_-]/g, "-")}`;
   const heading = (name: string) => `answer-${id}-${name}`;
   const scholarShort = (scholarId: string, full: string) => t.scholarShort[scholarId as keyof typeof t.scholarShort] ?? full;
@@ -209,7 +209,7 @@ export function AnswerV2View({ answer, t, id, draftPreview = false }: { answer: 
           {(answer.attribution.quran || answer.attribution.hadith) && " · "}{t.notFatwa}
         </p>
       </footer>
-      <ReportProblem lang={answer.language} sourceIds={sourceIds} labels={t.report} />
+      <ReportProblem leading={saveSlot} lang={answer.language} sourceIds={sourceIds} labels={t.report} />
     </article>
   );
 }

@@ -139,3 +139,30 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+
+/* Google sign-in (Mo, 2026-10-29): a white pill with the Google mark, as Google's guidelines ask. */
+.google {
+  inline-size: 100%;
+  gap: 10px;
+  background: #fff;
+  color: #1f1f1f;
+  border: 1px solid #dadce0;
+}
+.google:hover {
+  background: #f8f9fa;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-block: 4px;
+  color: var(--ink-3);
+  font-size: var(--fs-sm);
+}
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-block-start: 1px solid var(--line);
+}

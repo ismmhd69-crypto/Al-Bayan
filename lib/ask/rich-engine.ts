@@ -529,7 +529,7 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
           const alignment = parseDisplayAlignment(rawAlignment, candidates);
           for (const t of candidates) {
             if (alignment.valid && alignment.acceptedIds.includes(t.source_id)) checkedTranslations.add(t.source_id);
-            else translations.set(t.source_id, { status: alignment.missing ? "not_checked" : "rejected" });
+            else translations.set(t.source_id, { status: alignment.missingIds.includes(t.source_id) ? "not_checked" : "rejected" });
           }
         } catch { for (const t of translationCandidates) translations.set(t.source_id, { status: "not_checked" }); }
       }
@@ -1118,6 +1118,19 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
               && JSON.stringify(priorSummary[index]) === JSON.stringify(synthesis!.summary[index]);
           })) diagnostic("screening", "summary_unchanged_sentence_new_finding");
         }
+      }
+    }
+    // Seen live 2026-10-29: one extra sentence failed twice and sank a summary whose other sentences
+    // the checker had accepted as answering the question. Drop only the rejected summary sentences and
+    // run the full final review again on what is left; nothing is published unless that review passes.
+    if (deps.simpleResearch && !final.ok && !final.withdraw && !final.reasons?.includes("checker_failed") && synthesis.summary.length > 1) {
+      const failures = "feedback" in final ? final.feedback?.support_failures ?? [] : [];
+      const failed = new Set(failures.map(f => Number(f.claim_id.slice(1)) - 1 - checkedItems.length));
+      const kept = synthesis.summary.filter((_, i) => !failed.has(i));
+      if (failures.length && [...failed].every(i => i >= 0 && i < synthesis!.summary.length) && kept.length) {
+        diagnostic("screening", "summary_rejected_sentences_dropped", { count: synthesis.summary.length - kept.length });
+        const reduced = await verify([...checkedItems, ...kept], true, kept.length);
+        if (reduced.ok) { synthesis = { ...synthesis, summary: kept }; all = [...checkedItems, ...kept]; final = reduced; }
       }
     }
     if (deps.simpleResearch && synthesis.summary.some(c => sourceCopyMatch(c.text, pack.passages.map(sourceText)))) {

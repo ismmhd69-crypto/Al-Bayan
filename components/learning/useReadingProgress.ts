@@ -29,5 +29,7 @@ export function useReadingProgress(validIds: readonly string[]) {
   }, []);
   const visit = useCallback((id: string) => change((value) => value.last === id ? value : { ...value, last: id }), [change]);
   const toggle = useCallback((id: string) => change((value) => ({ ...value, read: value.read.includes(id) ? value.read.filter((item) => item !== id) : [...value.read, id] })), [change]);
-  return { progress, ready, storageAvailable, visit, toggle };
+  // Marks a lesson read without ever un-marking it (used when the quick check is answered correctly).
+  const markRead = useCallback((id: string) => change((value) => value.read.includes(id) ? value : { ...value, read: [...value.read, id] }), [change]);
+  return { progress, ready, storageAvailable, visit, toggle, markRead };
 }

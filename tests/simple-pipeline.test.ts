@@ -406,10 +406,34 @@ it.each([false,true])("provides untouched summary context and retains new findin
     return raw;
   };
   const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
-  expect(reviews).toBe(2);expect(result.status).toBe(newFinding?"incomplete":"rich_answer");
+  expect(reviews).toBe(newFinding?3:2);expect(result.status).toBe(newFinding?"incomplete":"rich_answer");
   expect(t.checkpoint.simple?.correctionUsed).toBe(true);
   if(result.status==="rich_answer")expect(result.answer.sections.find(s=>s.group==="summary")?.claims[0].text).toBe(first);
   else if(result.status==="incomplete") expect(result.sections?.[0].sources.length).toBeGreaterThan(0);
+});
+
+it("drops a summary sentence that fails again after correction when the rest passes a fresh full review",async()=>{
+  const t=setup(["quran"]), verify=t.deps.verifier.generateJson;
+  let reviews=0; const first="The source describes care as a thoughtful responsibility.";
+  t.deps.writer.generateJson=async r=>{
+    t.requests.push(r);const input=JSON.parse(r.prompt);
+    if(input.correction) return {status:"answer",summary:{P1:{text:"The passage also promises a second unlimited outcome.",source_refs:[input.correction.summary_citation_choices[0].reference]}},next_step:[],no_answer_feedback:[]};
+    return {status:"answer",summary:[{text:first,source_ids:["Q2:183"],requirement_id:"R1"},
+      {text:"The passage promises an unlimited outcome.",source_ids:["Q2:183"],requirement_id:"R1"}],next_step:[],no_answer_feedback:[]};
+  };
+  t.deps.verifier.generateJson=async r=>{
+    const raw:any=await verify(r),input=JSON.parse(r.prompt);if(input.candidates)return raw;
+    reviews++;
+    if(reviews<=2){
+      const row=raw.claim_assessments[1],claim=input.claims[1];
+      row.direct_support="no";row.explanation="The original does not establish this claim.";
+      row.finding={category:"source_support",claim_quote:claim.claim,source_id:claim.source_ids[0],source_anchor_id:input.claim_evidence[1].negative_excerpt_choices[0].anchor_id};
+    }
+    return raw;
+  };
+  const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
+  expect(reviews).toBe(3);expect(result.status).toBe("rich_answer");
+  if(result.status==="rich_answer") expect(result.answer.sections.find(s=>s.group==="summary")?.claims.map(c=>c.text)).toEqual([first]);
 });
 
 it.each([true,false])("checks available scholar translation in the selection call: aligned=%s",async aligned=>{
@@ -450,6 +474,13 @@ it("uses unused planned phrases when the planner returns no backup queries",()=>
   expect(queries.some(q=>q.family==="scholar" && q.text==="حقوق الوالدين")).toBe(true);
   expect(queries.every(q=>q.requirementId==="R1" && q.language!=="de")).toBe(true);
   expect(queries.some(q=>q.family==="scholar" && q.text==="رعاية الوالدين")).toBe(false);
+});
+it("never spends a recovery place on an English hadith query when the hadith library is Arabic-only",()=>{
+  const planned={...frame,backupQueries:[{requirementId:"R1",family:"hadith" as const,language:"en" as const,text:"five prayers wisdom"}],searchQueries:{ar:["فرض الصلاة"],en:["why five prayers"]}};
+  const library=simpleRecoveryQueries(planned,"R1",[],{hadith:true,scholar:true},true);
+  expect(library.some(q=>q.family==="hadith" && q.language==="en")).toBe(false);
+  expect(library.some(q=>q.family==="hadith" && q.text==="فرض الصلاة")).toBe(true);
+  expect(simpleRecoveryQueries(planned,"R1",[],{hadith:true,scholar:true},false).some(q=>q.family==="hadith" && q.language==="en")).toBe(true);
 });
 it("does not ask the writer twice when it clearly says the evidence is missing",async()=>{
   const t=setup();t.deps.writer.generateJson=async r=>{t.requests.push(r);return {status:"no_answer",summary:[],next_step:[],no_answer_feedback:[{group:"summary",reason:"missing_evidence",missing_requirement_ids:["R1"]}]};};

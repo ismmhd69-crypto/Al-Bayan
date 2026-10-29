@@ -87,7 +87,7 @@ describe("mapStoredHadith", () => {
   it("keeps a long text whole (never cut)", () => {
     const long = "كلمة ".repeat(1000);
     expect(mapStoredHadith(row({ text_original: long }))!.arabic).toBe(long);
-    expect(MAX_LIBRARY_HADITH_CHARS).toBe(2500);
+    expect(MAX_LIBRARY_HADITH_CHARS).toBe(15000);
   });
 });
 

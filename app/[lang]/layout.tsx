@@ -37,7 +37,10 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#F6F7F9",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f8fafc" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b0d10" },
+  ],
   colorScheme: "light",
 };
 
@@ -77,7 +80,7 @@ export default async function RootLayout({
           brandAr={t.common.brandAr}
           langLabel={t.more.language}
           themeLabels={{ light: t.more.themeLight, dark: t.more.themeDark }}
-          moreLabels={{ title: t.more.title, settings: `${t.more.language} · ${t.more.theme}` }}
+          moreLabels={{ title: t.more.title, settings: t.more.language }}
         >
           {children}
         </Shell>

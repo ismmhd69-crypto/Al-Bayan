@@ -12,3 +12,4 @@ const damagedIds = new Set([
 const valid = rows.filter(r => !damagedIds.has(r.id));
 console.log(`Valid fatwas in batch 1: ${valid.length}`);
 fs.writeFileSync('data/german-batches/fatwas-batch-001-valid.json', JSON.stringify(valid, null, 2));
+

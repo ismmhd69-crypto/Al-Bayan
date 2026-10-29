@@ -40,6 +40,7 @@ import {
 import { richText } from "@/lib/ask/rich-text";
 import { RichAnswerView } from "./RichAnswerView";
 import { StableAnswerView, type RevealMemory } from "./StableAnswerView";
+import { SaveAnswerButton } from "./saved/SaveButtons";
 import type { PatientState } from "@/lib/ask/patient-protocol";
 import type { Locale } from "@/lib/i18n";
 import { streamedAnswerLanguage } from "@/lib/chat/answer-language";
@@ -251,40 +252,33 @@ export default function AskChat({
 
   useEffect(() => {
     const log = logRef.current; if (!log) return;
-    let frame = 0, touchY = 0;
-    const pause = () => {
-      cancelAnimationFrame(frame); frame = 0;
-      followingRef.current = false; setFollowing(false);
-    };
-    const wheel = (event: WheelEvent) => { if (event.deltaY < 0) pause(); };
-    const touchStart = (event: TouchEvent) => { touchY = event.touches[0]?.clientY ?? 0; };
-    const touchMove = (event: TouchEvent) => {
-      const next = event.touches[0]?.clientY ?? touchY;
-      if (next > touchY) pause();
-      touchY = next;
-    };
-    const key = (event: globalThis.KeyboardEvent) => {
-      if (["ArrowUp", "PageUp", "Home"].includes(event.key) || event.key === " " && event.shiftKey) pause();
-    };
-    const scroll = () => {
+    // No following while an answer streams (Mo, 2026-10-29): a new question is scrolled to the top of
+    // the chat once, then the view stays still so the answer can be read from its start. "Jump to
+    // latest" shows whenever the reader is not at the bottom.
+    let frame = 0, questions = 0;
+    const atBottom = () => {
       followingRef.current = log.scrollHeight - log.scrollTop - log.clientHeight <= 4;
       setFollowing(followingRef.current);
     };
-    const follow = () => { if (frame || !followingRef.current) return; frame = requestAnimationFrame(() => { frame = 0; if (followingRef.current) log.scrollTop = log.scrollHeight; }); };
-    const resize = new ResizeObserver(follow);
-    const mutation = new MutationObserver(() => { Array.from(log.children).forEach(child => resize.observe(child)); follow(); });
-    Array.from(log.children).forEach(child => resize.observe(child)); mutation.observe(log, { childList: true, subtree: true, characterData: true });
-    log.addEventListener("scroll", scroll, { passive: true });
-    log.addEventListener("wheel", wheel, { passive: true });
-    log.addEventListener("touchstart", touchStart, { passive: true });
-    log.addEventListener("touchmove", touchMove, { passive: true });
-    log.addEventListener("keydown", key);
-    follow();
+    const showNewQuestion = () => {
+      const asked = log.querySelectorAll<HTMLElement>(".msg-user");
+      if (asked.length === questions) return;
+      questions = asked.length;
+      const latest = asked[asked.length - 1];
+      if (!latest || frame) return;
+      frame = requestAnimationFrame(() => {
+        frame = 0;
+        log.scrollTop += latest.getBoundingClientRect().top - log.getBoundingClientRect().top - 12;
+        atBottom();
+      });
+    };
+    const mutation = new MutationObserver(() => { showNewQuestion(); atBottom(); });
+    mutation.observe(log, { childList: true, subtree: true, characterData: true });
+    log.addEventListener("scroll", atBottom, { passive: true });
+    showNewQuestion();
     return () => {
-      cancelAnimationFrame(frame); resize.disconnect(); mutation.disconnect();
-      log.removeEventListener("scroll", scroll); log.removeEventListener("wheel", wheel);
-      log.removeEventListener("touchstart", touchStart); log.removeEventListener("touchmove", touchMove);
-      log.removeEventListener("keydown", key);
+      cancelAnimationFrame(frame); mutation.disconnect();
+      log.removeEventListener("scroll", atBottom);
     };
   }, []);
 
@@ -864,7 +858,7 @@ export default function AskChat({
           </div>
         )}
 
-        {messages.map((m) =>
+        {messages.map((m, index) =>
           m.role === "user" ? (
             <div key={m.id} className="msg msg-user">
               <span className="sr-only">{t.you}: </span>
@@ -874,7 +868,8 @@ export default function AskChat({
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
               {m.reply.kind === "stable" ? <>
-                <StableAnswerView state={m.reply.state} language={streamedAnswerLanguage(m.reply.state, m.reply.question, lang as Locale)} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current} />
+                <StableAnswerView state={m.reply.state} language={streamedAnswerLanguage(m.reply.state, m.reply.question, lang as Locale)} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current}
+                  saveSlot={(() => { const result = m.reply.state.result as { status?: string; answer?: import("@/lib/ask/rich-answer").RichAnswer } | undefined; return result?.status === "rich_answer" && result.answer ? <SaveAnswerButton lang={lang as Locale} question={m.reply.question} answer={result.answer} /> : undefined; })()} />
                 {busy && stableMessage.current === m.id ? <button type="button" className="chip" onClick={() => void stop()}>{rt.stop}</button>
                   : m.reply.state.continuation?.available && !RICH_ORDER.some(g => m.reply.kind === "stable" && m.reply.state.publication?.groups[g].notices.length) ? <button type="button" className="btn btn-primary" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id }); }}>{rt.continueResearch}</button>
                     : m.reply.state.continuation && ["billing_uncertain", "busy", ""].includes(m.reply.state.continuation.reason ?? "") ? <button type="button" className="chip" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token); }}>{rt.checkReceipt}</button> : null}
@@ -886,6 +881,7 @@ export default function AskChat({
                   guide={m.reply.answer.guide ?? null}
                   videos={m.reply.answer.videos}
                   complete
+                  saveSlot={<SaveAnswerButton lang={lang as Locale} question={questionBefore(messages, index)} answer={m.reply.answer} />}
                 />
               ) : m.reply.kind === "patient" ? (
                 <RichAnswerView sections={RICH_ORDER.flatMap(g => m.reply.kind === "patient" && m.reply.state.groups[g].section ? [m.reply.state.groups[g].section!] : [])}
@@ -940,7 +936,7 @@ export default function AskChat({
                     {t.v2.answerReady}
                   </span>
                   {m.reply.answer.v2 ? (
-                    <AnswerV2View answer={m.reply.answer.v2} t={t} id={m.id} />
+                    <AnswerV2View answer={m.reply.answer.v2} t={t} id={m.id} saveSlot={<SaveAnswerButton lang={lang as Locale} question={questionBefore(messages, index)} answer={m.reply.answer.v2} />} />
                   ) : (
                     <AnswerView a={m.reply.answer} t={t} id={m.id} />
                   )}
@@ -1152,6 +1148,11 @@ function NotReady({ t }: { t: AskText }) {
 }
 
 const dirOf = (l: string) => (l === "ar" ? "rtl" : "ltr");
+/** The visitor question an answer replies to: the nearest user message before it. */
+const questionBefore = (messages: { role: string; text?: string }[], index: number) => {
+  for (let i = index - 1; i >= 0; i--) if (messages[i].role === "user") return messages[i].text ?? "";
+  return "";
+};
 
 const reducedMotion = () =>
   typeof window !== "undefined" &&

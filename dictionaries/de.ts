@@ -257,6 +257,8 @@ const de: typeof en = {
       "Dein Fortschritt bei Neu im Islam bleibt auf deinem Gerät. Deine Sprache wird in einem kleinen Cookie gespeichert, damit die Seite beim nächsten Mal darin öffnet.",
       "Wenn automatische Antworten eingeschaltet sind, wird alles, was du in deine Frage schreibst, an unseren KI-Anbieter geschickt, derzeit Google Gemini, um die Antwort zu schreiben. Bitte schreib keinen Namen, keine Adresse, keine Gesundheitsdaten und nichts, was dich oder andere erkennbar macht. Details folgen in der vollständigen Erklärung.",
       "Unsere Datenbank liegt in Frankfurt, Deutschland.",
+      "Wenn du dich mit Google anmeldest, teilt Google uns deinen Namen und deine E-Mail-Adresse mit, damit wir dein Konto anlegen können. Bayan sieht dein Google-Passwort nie, und du kannst dein Konto jederzeit löschen.",
+      "Antworten und Lektionen, die du speicherst, bleiben auf deinem Gerät. Wenn du angemeldet bist, werden sie stattdessen in deinem Konto gespeichert, damit du sie auf anderen Geräten siehst. Quran- und Hadith-Texte werden dabei nie gespeichert; sie werden beim Öffnen einer gespeicherten Antwort neu geladen.",
     ],
   },
   reportPage: {

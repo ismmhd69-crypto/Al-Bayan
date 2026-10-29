@@ -394,3 +394,129 @@ figure {
 
 
 
+
+/* ---------- Lesson page, mockups/lesson-bayan.html (Mo, 2026-10-29) ---------- */
+/* .main clips sideways overflow; clip instead of hidden keeps the lesson bar sticky. */
+.main:has(.lesson-layout){overflow-x:clip}
+.lesson-layout{display:grid;grid-template-columns:minmax(0,1fr);align-items:start}
+/* Wider reading column on computers (Mo, 2026-10-29): up to 920px instead of the site default 760px. */
+.lesson-layout>.learning-reader{max-inline-size:920px}
+.lesson-bar{position:sticky;inset-block-start:calc(var(--topbar) + env(safe-area-inset-top,0px));z-index:20;grid-column:1/-1;display:flex;align-items:center;gap:8px;min-block-size:52px;padding:0 12px;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-block-end:1px solid var(--line)}
+.lesson-bar-back{display:flex;align-items:center;gap:8px;min-block-size:44px;padding-inline:6px;color:var(--accent);font-size:var(--fs-sm);font-weight:600;text-decoration:none}
+.lesson-bar-where{margin-inline-start:auto;font-size:var(--fs-xs);color:var(--ink-3);white-space:nowrap}
+.lesson-bar-share{display:grid;place-items:center;inline-size:44px;block-size:44px;border:0;border-radius:999px;background:none;color:var(--ink-2);cursor:pointer}
+.lesson-bar-share:hover{background:var(--tonal-bg);color:var(--tonal-ink)}
+.lesson-bar-share svg{inline-size:19px;block-size:19px}
+.lesson-bar-status:not(:empty){position:absolute;inset-block-start:100%;inset-inline-end:12px;margin-block-start:6px;padding:6px 12px;border-radius:999px;background:var(--ink);color:var(--bg);font-size:var(--fs-xs)}
+.lesson-bar-meter{position:absolute;inset-inline:0;inset-block-end:-1px;block-size:3px}
+.lesson-bar-meter i{display:block;block-size:100%;background:var(--accent);transition:inline-size .15s linear}
+.lesson-head{display:grid;gap:12px}
+.lesson-eyebrow{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:var(--fs-xs);color:var(--ink-3);letter-spacing:.02em}
+.lesson-eyebrow strong{color:var(--gold-ink);font-weight:600}
+.lesson-head h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;letter-spacing:-.01em}
+.lesson-head-actions{display:flex;flex-wrap:wrap;gap:12px;margin-block-start:8px}
+.learning-reader section>h2,.lesson-quiz>h2{font-size:clamp(1.45rem,3vw,1.9rem);line-height:1.25}
+.learning-core{border:0;border-inline-start:3px solid var(--gold);border-radius:0 var(--radius) var(--radius) 0;padding:22px 24px}
+[dir=rtl] .learning-core{border-radius:var(--radius) 0 0 var(--radius)}
+.learning-core>h2{letter-spacing:.1em;text-transform:uppercase}
+.learning-core .learning-prose{font-size:var(--fs-lg)}
+.lesson-section{display:grid;gap:4px}
+.lesson-takeaways{display:grid;gap:8px;margin:0;padding-inline-start:20px;list-style:disc;color:var(--ink-2);line-height:1.6}
+.lesson-takeaways a{color:var(--accent);font-size:var(--fs-xs);font-weight:600;text-underline-offset:3px}
+.lesson-takeaways-inline{padding:18px 20px;border-radius:var(--radius);background:var(--surface);border:1px solid var(--line)}
+.lesson-takeaways-inline>h2{font-size:var(--fs-sm)!important;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-block-end:10px}
+
+/* Quran: flat rows, Arabic opposite the translation on wide screens */
+.lesson-passage{display:grid;scroll-margin-block:110px}
+.learning-evidence>h2+.lesson-passage{border-block-start:1px solid var(--line)}
+.lesson-passage:focus{outline:2px solid var(--gold);outline-offset:3px}
+.lesson-passage-title{display:inline-flex;align-items:center;gap:6px;justify-self:start;min-block-size:40px;padding-block:8px 0;font-size:var(--fs-sm);font-weight:600;color:var(--accent);text-decoration:none}
+.lesson-passage-title:hover{text-decoration:underline;text-underline-offset:3px}
+.lesson-visually-hidden{position:absolute;inline-size:1px;block-size:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.lesson-verse{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 32px;align-items:center;padding-block:18px;border-block-end:1px solid var(--line)}
+.lesson-verse-ar{grid-column:2;grid-row:1;font-family:var(--f-ar-body);font-size:clamp(1.6rem,3.2vw,2rem);line-height:2;text-align:start;color:var(--ink)}
+/* The verse itself is right-to-left: "start" is its right edge. On an Arabic page its column sits on the left, so align it to the outer (left) edge there. */
+[dir=rtl] .lesson-verse-ar{text-align:end}
+.learning-reader [id]{scroll-margin-block-start:130px}
+.lesson-verse-text{grid-column:1;grid-row:1;min-inline-size:0}
+.lesson-verse-key{font-size:var(--fs-xs);font-weight:700;letter-spacing:.04em;color:var(--quran-accent)}
+.lesson-verse-tr{margin-block:2px 4px;font-style:italic;color:var(--quran-text);line-height:1.65}
+.lesson-verse-by{font-size:var(--fs-xs);color:var(--ink-3)}
+.verse-actions{display:flex;gap:4px;margin-block-start:6px;margin-inline-start:-10px}
+.verse-action{display:grid;place-items:center;inline-size:44px;block-size:40px;border:0;border-radius:999px;background:none;color:var(--ink-3);cursor:pointer}
+.verse-action:hover,.verse-action[aria-pressed=true]{background:var(--tonal-bg);color:var(--tonal-ink)}
+.verse-action svg{inline-size:18px;block-size:18px}
+.verse-action-status,.lesson-bar-status:empty{position:absolute;inline-size:1px;block-size:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+
+/* Quick check: list rows, instant feedback */
+.lesson-quiz{display:grid;gap:12px;scroll-margin-block:110px}
+.lesson-quiz-question{font-family:var(--f-display);font-size:var(--fs-lg);font-weight:600;line-height:1.4}
+.lesson-quiz-options{border-block-start:1px solid var(--line)}
+.lesson-quiz-option{display:flex;align-items:center;gap:14px;inline-size:100%;min-block-size:56px;padding:12px 6px;border:0;border-block-end:1px solid var(--line);background:none;color:var(--ink);font:inherit;text-align:start;cursor:pointer}
+.lesson-quiz-option:hover:not(:disabled){background:var(--accent-soft)}
+.lesson-quiz-option:disabled{opacity:.55;cursor:default}
+.lesson-quiz-mark{display:grid;place-items:center;flex:none;inline-size:22px;block-size:22px;border:2px solid var(--ink-3);border-radius:50%}
+.lesson-quiz-mark svg{inline-size:13px;block-size:13px;stroke-width:3}
+.lesson-quiz-option.ok{color:var(--quran-accent);font-weight:600}
+.lesson-quiz-option.ok .lesson-quiz-mark{border-color:var(--quran-accent);background:var(--quran-accent);color:var(--bg)}
+.lesson-quiz-option.bad{color:#c2410c}
+.lesson-quiz-option.bad .lesson-quiz-mark{border-color:#c2410c}
+.lesson-quiz-feedback{min-block-size:24px}
+.lesson-quiz-ok{color:var(--ink-2);line-height:1.7}
+.lesson-quiz-ok strong{color:var(--quran-accent)}
+.lesson-quiz-bad{color:#c2410c;font-weight:600}
+.lesson-quiz-source a{color:var(--accent);font-weight:600;text-underline-offset:3px}
+
+/* Complete lesson and previous / next */
+.learning-mark{display:grid;justify-content:stretch;align-items:stretch;gap:10px;padding:0;background:none;border:0}
+.lesson-complete{inline-size:100%}
+/* Previous / next: filled tonal cards so they read as buttons */
+.learning-neighbour{padding:16px 20px;background:var(--tonal-bg);border:0;border-radius:20px;transition:background .2s,box-shadow .2s}
+.learning-neighbour:hover{background:var(--tonal-bg-hover);box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.learning-neighbour>span{color:var(--tonal-ink);opacity:.8}
+.learning-neighbour strong{font-family:var(--f-display);font-size:var(--fs-lg);font-weight:600;line-height:1.3;color:var(--tonal-ink)}
+.learning-neighbour--next{text-align:start;justify-items:start}
+
+/* Side rail: wide screens only */
+.lesson-rail{display:none}
+.lesson-rail-title{margin-block:24px 10px;font-family:var(--f-body);font-size:var(--fs-xs);font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+.lesson-rail-title:first-child{margin-block-start:0}
+.lesson-toc{display:grid;border-inline-start:1px solid var(--line)}
+.lesson-toc a{margin-inline-start:-1px;padding-block:7px;padding-inline:16px 0;border-inline-start:2px solid transparent;color:var(--ink-3);font-size:var(--fs-sm);line-height:1.4;text-decoration:none}
+.lesson-toc a:hover{color:var(--ink)}
+.lesson-toc a[aria-current]{border-color:var(--accent);color:var(--accent);font-weight:600}
+.lesson-rail-percent{margin-block-start:24px;font-size:var(--fs-sm);color:var(--ink-3)}
+.lesson-rail-percent strong{display:block;font-family:var(--f-display);font-size:1.75rem;color:var(--ink)}
+.lesson-rail .lesson-takeaways{font-size:var(--fs-sm)}
+.lesson-dots{display:grid;grid-template-columns:repeat(8,1fr);gap:6px}
+.lesson-dots i{aspect-ratio:1;border-radius:50%;background:var(--line)}
+.lesson-dots i.is-read{background:var(--quran-accent)}
+.lesson-dots i.is-current{background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+
+@media (min-width:960px){
+  .lesson-bar{inset-block-start:0;padding-inline:24px}
+}
+@media (min-width:1320px){
+  .lesson-layout{grid-template-columns:minmax(0,920px) 260px;gap:0 48px;justify-content:center;padding-inline:24px}
+  .lesson-layout>.learning-reader{max-inline-size:920px;padding-block-start:48px}
+  .lesson-rail{display:block;position:sticky;inset-block-start:84px;padding-block-start:56px}
+  .lesson-takeaways-inline{display:none}
+}
+@media (max-width:640px){
+  .lesson-bar-where{display:none}
+  .lesson-bar-share{margin-inline-start:auto}
+  .lesson-verse{grid-template-columns:minmax(0,1fr)}
+  .lesson-verse-ar,.lesson-verse-text{grid-column:1;grid-row:auto}
+  [dir=rtl] .lesson-verse-ar{text-align:start}
+  .learning-reader-footer{grid-template-columns:1fr}
+  .learning-neighbour--next{order:-1}
+}
+.lesson-complete-hint{display:flex;align-items:center;justify-content:center;gap:8px;min-block-size:46px;padding:10px 20px;border-radius:999px;border:1px dashed var(--line-2);color:var(--ink-2);font-size:var(--fs-sm);font-weight:600;text-align:center}
+.lesson-complete-hint svg{inline-size:18px;block-size:18px;color:var(--ink-3)}
+
+/* Scholarly navy (Mo, 2026-10-29): the clear answer is a soft navy tint with a navy edge, and Quran
+   reference tags use the Quran green instead of gold. */
+.learning-core{background:var(--accent-soft);border-inline-start-color:var(--accent)}
+.learning-core>h2{color:var(--accent)}
+.learning-ref--quran{background:var(--quran-bg)!important;border-color:var(--quran-line)!important;color:var(--quran-text)!important}
+.lesson-eyebrow strong{color:var(--accent)}

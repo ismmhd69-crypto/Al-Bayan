@@ -62,7 +62,8 @@ describe("focused support receipts and independent quality, invented evidence on
     const candidates = [{ source_id: "Sfirst", original_hash: "a".repeat(64) }, { source_id: "Ssecond", original_hash: "b".repeat(64) }];
     const rows = candidates.map(c => ({ ...c, faithful: "yes", complete: "yes", conditions_preserved: "yes" }));
     expect(parseDisplayAlignment({ translations: rows }, candidates)).toMatchObject({ valid: true, acceptedIds: ["Sfirst", "Ssecond"] });
-    for (const translations of [rows.slice(0, 1), [...rows, { ...rows[0], source_id: "Sunknown" }], [rows[0], rows[0]], [rows[0], { ...rows[1], original_hash: "c".repeat(64) }], [rows[0], { ...rows[1], faithful: ["yes"] }]]) {
+    expect(parseDisplayAlignment({ translations: rows.slice(0, 1) }, candidates)).toMatchObject({ valid: true, missing: true, acceptedIds: ["Sfirst"], missingIds: ["Ssecond"] });
+    for (const translations of [[], [...rows, { ...rows[0], source_id: "Sunknown" }], [rows[0], rows[0]], [rows[0], { ...rows[1], original_hash: "c".repeat(64) }], [rows[0], { ...rows[1], faithful: ["yes"] }]]) {
       expect(parseDisplayAlignment({ translations }, candidates)).toMatchObject({ valid: false, acceptedIds: [] });
     }
     expect(parseDisplayAlignment({ translations: [rows[0], { ...rows[1], faithful: "no" }] }, candidates)).toMatchObject({ valid: true, acceptedIds: ["Sfirst"], rejectedIds: ["Ssecond"] });

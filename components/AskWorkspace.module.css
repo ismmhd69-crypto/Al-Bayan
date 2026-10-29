@@ -331,3 +331,46 @@
     }
   }
 }
+
+/* Material 3 buttons: fully rounded and color-filled; labels never touch the edge. */
+.newBtn {
+  padding: 10px 24px;
+  border-radius: 999px;
+}
+.headBtn {
+  border: 0;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+}
+.headBtn:hover {
+  background: var(--tonal-bg-hover);
+  color: var(--tonal-ink);
+}
+.smallBtn {
+  padding: 8px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  line-height: 1.3;
+}
+.smallBtn.danger {
+  background: #f9dedc;
+  color: #8c1d18;
+}
+.card a {
+  justify-self: stretch;
+  justify-content: center;
+  min-block-size: 44px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--on-accent);
+  text-align: center;
+  line-height: 1.3;
+}
+.card a:hover {
+  background: var(--accent-hover);
+}

@@ -14,8 +14,10 @@ const REASONS = ["wrong_source", "misquoted", "not_answering", "unclear", "offen
 // Lets a visitor flag an answer. Privacy (plan section 10): only the reason, the cited source ids and
 // an optional comment are sent, never the question or anything about the visitor.
 // A fold-out form under the answer (built by Codex, laid out by Claude).
-export function ReportProblem({ lang, sourceIds, labels, donateLabel, defaultReason = "wrong_source" }: {
+export function ReportProblem({ lang, sourceIds, labels, donateLabel, defaultReason = "wrong_source", leading }: {
   lang: "ar" | "en" | "de"; sourceIds: string[]; labels: ReportLabels; donateLabel?: string; defaultReason?: (typeof REASONS)[number];
+  /** Shown first in the action row, e.g. the Save button of a finished answer. */
+  leading?: React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
   const [reason, setReason] = useState<(typeof REASONS)[number]>(defaultReason);
@@ -41,6 +43,7 @@ export function ReportProblem({ lang, sourceIds, labels, donateLabel, defaultRea
   return (
     <div className="report">
       <div className="answer-footer-actions">
+      {leading}
       {state === "sent" ? <p className="report-thanks" role="status">{labels.thanks}</p> : <button type="button" className="report-toggle" aria-expanded={open} aria-controls={formId} onClick={() => setOpen(!open)}>
         <Flag aria-hidden="true" />
         {labels.button}

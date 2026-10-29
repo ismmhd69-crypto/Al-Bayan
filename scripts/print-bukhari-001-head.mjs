@@ -8,3 +8,4 @@ for (let i = 0; i < 10; i++) {
   console.log(`// Arabic: ${item.text_original.slice(0, 300)}...`);
   console.log(`// English: ${item.en_text ? item.en_text.slice(0, 300) : ''}...`);
 }
+

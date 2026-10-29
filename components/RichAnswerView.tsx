@@ -31,8 +31,8 @@ export function richSourceCards(section: RichSection) {
     ...section.sources.filter(s => s.evidence.kind !== "quran").map(s => [s])];
 }
 
-export function RichAnswerView({ sections, language, text, complete = false, guide = "ask_specific_followup", incomplete = false, withdrawn = false, technicalFailure = false, failureKind, cards = [], videos, patient, working = false, staged = false, publication }: {
-  sections: RichSection[]; language: Locale; text: Dictionary["ask"]; complete?: boolean; guide?: RichGuide | null; incomplete?: boolean; withdrawn?: boolean; technicalFailure?: boolean; failureKind?: import("@/lib/ask/rich-answer").RichFailureKind | null; cards?: import("@/lib/ask/rich-answer").VerifiedQuranCard[]; videos?: RelatedVideos; patient?: PatientState; working?: boolean; staged?: boolean; publication?: PublicationState;
+export function RichAnswerView({ sections, language, text, complete = false, guide = "ask_specific_followup", incomplete = false, withdrawn = false, technicalFailure = false, failureKind, cards = [], videos, patient, working = false, staged = false, publication, saveSlot }: {
+  sections: RichSection[]; language: Locale; text: Dictionary["ask"]; complete?: boolean; saveSlot?: React.ReactNode; guide?: RichGuide | null; incomplete?: boolean; withdrawn?: boolean; technicalFailure?: boolean; failureKind?: import("@/lib/ask/rich-answer").RichFailureKind | null; cards?: import("@/lib/ask/rich-answer").VerifiedQuranCard[]; videos?: RelatedVideos; patient?: PatientState; working?: boolean; staged?: boolean; publication?: PublicationState;
 }) {
   const prefix = useId();
   const t = richText[language];
@@ -159,7 +159,7 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
         </details>}
         {complete && sections.some(s => !!s.searchOutcome || !s.omitted && ["timeout", "search_failed", "unavailable", "failed_check", "not_checked"].includes(s.outcome)) && <p className={styles.gap} role="note">{t.limited}</p>}
         <p className={styles.notice}>{t.scopeNotice}</p>
-        {(complete || incomplete) && <ReportProblem lang={language} sourceIds={withdrawn ? [] : [...new Set(sections.flatMap(s => s.sources.map(source => source.id)))]} labels={text.report}
+        {(complete || incomplete) && <ReportProblem leading={complete ? saveSlot : undefined} lang={language} sourceIds={withdrawn ? [] : [...new Set(sections.flatMap(s => s.sources.map(source => source.id)))]} labels={text.report}
           donateLabel={language === "ar" ? "ساهم في تكاليف الذكاء الاصطناعي لبيان" : language === "de" ? "Hilf mit, Bayans KI-Kosten zu decken" : "Help cover Bayan’s AI costs"} />}
       </footer>
     )}

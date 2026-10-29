@@ -115,3 +115,4 @@ if (errors.length > 0) {
 
 fs.writeFileSync('data/german-batches/fatwas-batch-002-translated.json', JSON.stringify(output, null, 2));
 console.log(`Successfully translated and validated all ${output.length} fatwas in Batch 2!`);
+

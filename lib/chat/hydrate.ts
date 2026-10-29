@@ -11,6 +11,8 @@ import { validRichAnswer, type RichAnswer } from "@/lib/ask/rich-answer";
 import type { SavedAnswer } from "./answer-store";
 import { refreshRelatedVideos, type VideoRefresh } from "@/lib/ask/related-videos";
 import { currentVideos } from "@/lib/sources/videos";
+import { lookupDisplayTranslations } from "@/lib/ask/display-translation-lookup";
+import type { DisplayTranslation, RichSource } from "@/lib/ask/rich-answer";
 
 // Opens a saved answer: puts the Quran and hadith texts back, fresh from their sources, then runs the
 // same strict validator as every other answer. If any source cannot be loaded, or anything fails the
@@ -21,10 +23,13 @@ export type HydrateDeps = {
   getVerse: (key: string) => Promise<Verse | undefined>;
   getHadith: (id: string) => Promise<Hadith | null>;
   getLibraryHadith?: (uuid: string) => Promise<Hadith | null>; // stored hadith ("SH<uuid>")
+  /** Published display translations for freshly loaded originals (stored hadith). Optional. */
+  lookupTranslations?: (sources: RichSource[], language: "en" | "de") => Promise<Map<string, DisplayTranslation>>;
 };
 export type HydrateResult = { ok: true; answer: SavedAnswer } | { ok: false; reason: string };
 
-const realDeps: HydrateDeps = { getVerse, getHadith, getLibraryHadith, refreshVideos: currentVideos };
+const realDeps: HydrateDeps = { getVerse, getHadith, getLibraryHadith, refreshVideos: currentVideos,
+  lookupTranslations: (sources, language) => lookupDisplayTranslations(sources, language, AbortSignal.timeout(8000)) };
 const REVIEWS: readonly ReviewLabel[] = ["automatic", "bayan_reviewed", "scholar_reviewed"];
 const VERSE_KEY = /^\d{1,3}:\d{1,3}$/;
 const HADITH_ID = /^HE(\d{1,12})$/;
@@ -120,6 +125,14 @@ async function hydrateRich(stored: unknown, deps: HydrateDeps): Promise<HydrateR
         if (!fresh || fresh.kind !== e.kind || fresh.key !== e.key) return { ok: false, reason: "source_unavailable" };
         source.evidence = fresh;
       }
+    }
+    // Stored copies replace a hadith translation (which carries the Arabic original) with "not_checked".
+    // Look the published translation up again for the exact original just loaded; if it cannot be
+    // found, the card shows the Arabic only, as for any hadith without a checked translation.
+    const pending = a.language === "ar" ? [] : a.sections.flatMap((s) => s.sources).filter((s) => s.evidence.kind === "hadith" && s.displayTranslation?.status === "not_checked");
+    if (pending.length) {
+      const found = deps.lookupTranslations ? await deps.lookupTranslations(pending, a.language as "en" | "de").catch(() => new Map<string, DisplayTranslation>()) : new Map<string, DisplayTranslation>();
+      for (const s of pending) s.displayTranslation = found.get(s.id) ?? { status: "unavailable" };
     }
     if (a.version === 4 && a.videos) {
       const fresh = await refreshRelatedVideos(a.videos, deps.refreshVideos);

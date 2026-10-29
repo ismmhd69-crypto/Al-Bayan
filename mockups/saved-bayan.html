@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saved Answers Mockup</title>
+<style>
+/* Tokens from app/globals.css (dark mode uses the new navy). */
+:root{
+  --bg:#f6f7f9;--surface:#fff;--line:#e3e7ed;--ink:#141b26;--ink-2:#3a4456;--ink-3:#5b6475;
+  --accent:#27408b;--accent-hover:#1e3270;--on-accent:#fff;--gold:#a77b2b;--gold-ink:#7a5716;
+  --tonal-bg:#dce3f7;--tonal-bg-hover:#cdd7f3;--tonal-ink:#1b2f6b;
+  --f-display:"Iowan Old Style","Source Serif 4",Georgia,serif;--f-body:"Segoe UI",system-ui,-apple-system,sans-serif;--f-ar:"Amiri","Noto Naskh Arabic","Traditional Arabic",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#151d2d;--surface:#1c2639;--line:#2a3651;--ink:#f0f4fc;--ink-2:#a2b0c7;--ink-3:#75839c;--accent:#6b8fe6;--accent-hover:#86a6f5;--gold:#d4a852;--gold-ink:#f5d38a;--tonal-bg:#26365c;--tonal-bg-hover:#304474;--tonal-ink:#dbe4ff}}
+:root[data-theme="dark"]{--bg:#151d2d;--surface:#1c2639;--line:#2a3651;--ink:#f0f4fc;--ink-2:#a2b0c7;--ink-3:#75839c;--accent:#6b8fe6;--accent-hover:#86a6f5;--gold:#d4a852;--gold-ink:#f5d38a;--tonal-bg:#26365c;--tonal-bg-hover:#304474;--tonal-ink:#dbe4ff}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-body)}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
+a{color:var(--accent)}
+.ico{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.wrap{max-width:920px;margin:0 auto;padding:32px 20px 80px}
+.label{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:56px 0 16px}
+.label:first-of-type{margin-top:28px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;align-items:center}
+.controls h1{font:600 22px var(--f-display)}
+.seg{display:flex;gap:8px}
+.chip{padding:7px 16px;border-radius:999px;background:var(--tonal-bg);color:var(--tonal-ink);font-weight:600;font-size:13px}
+.chip[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.pill{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:8px 18px;border-radius:999px;background:var(--tonal-bg);color:var(--tonal-ink);font-weight:600;font-size:14px}
+.pill:hover{background:var(--tonal-bg-hover)}
+.pill.on{color:var(--gold-ink)}
+.pill.on .ico{fill:currentColor;color:var(--gold)}
+.muted{color:var(--ink-3);font-size:14px}
+
+/* 1. answer end: same row as the real answer footer */
+.answer-end{display:grid;gap:14px;padding-top:18px;border-top:1px solid var(--line)}
+.answer-end p{color:var(--ink-2);font-size:15px}
+.row{display:flex;flex-wrap:wrap;gap:8px}
+
+/* 2. lesson bar: same as the real sticky bar */
+.lbar{display:flex;align-items:center;gap:4px;min-height:52px;border-bottom:1px solid var(--line);position:relative}
+.lbar .back{display:flex;align-items:center;gap:8px;color:var(--accent);font-weight:600;font-size:14px;margin-right:auto}
+.lbar .where{font-size:12px;color:var(--ink-3);margin-right:6px}
+.round{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;color:var(--ink-2)}
+.round:hover{background:var(--tonal-bg);color:var(--tonal-ink)}
+.round.on{color:var(--gold)}
+.round.on .ico{fill:currentColor}
+.lbar i{position:absolute;left:0;bottom:-1px;height:3px;width:38%;background:var(--accent)}
+.ltitle{font:600 34px/1.15 var(--f-display);margin-top:20px}
+
+/* 3. saved page: a plain list, like the More page */
+.saved h2{font:600 40px/1.1 var(--f-display)}
+.note{margin-top:8px;color:var(--ink-3);font-size:14px}
+.tabs{display:flex;gap:24px;margin-top:24px;border-bottom:1px solid var(--line)}
+.tab{padding:10px 0;font-weight:600;color:var(--ink-3);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab[aria-selected="true"]{color:var(--ink);border-color:var(--accent)}
+.tab span{color:var(--ink-3);font-weight:500;margin-left:4px}
+.list{list-style:none;padding:0}
+.list li{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line)}
+.list a{flex:1;min-width:0;display:grid;gap:2px;padding:16px 0;text-decoration:none;color:var(--ink)}
+.list a:hover strong{color:var(--accent)}
+.list strong{font:600 19px/1.35 var(--f-display)}
+.list small{color:var(--ink-3);font-size:13px}
+.list .rm{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:var(--ink-3)}
+.list .rm:hover{background:var(--tonal-bg);color:var(--tonal-ink)}
+.ar{font-family:var(--f-ar);direction:rtl;text-align:right}
+.empty{padding:40px 0;color:var(--ink-3)}
+.empty b{display:block;color:var(--ink);font:600 20px var(--f-display);margin-bottom:4px}
+
+/* toast */
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,16px);opacity:0;transition:.25s;background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;font-size:14px;font-weight:600;max-width:calc(100% - 32px);text-align:center;pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.hide{display:none!important}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="bm" viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></symbol>
+  <symbol id="flag" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.3 2q2 0 3.1-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.5"/></symbol>
+  <symbol id="heart" viewBox="0 0 24 24"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></symbol>
+  <symbol id="share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></symbol>
+  <symbol id="back" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+  <symbol id="x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+</svg>
+
+<div class="wrap">
+  <div class="controls">
+    <h1>Saved: mockup</h1>
+    <div class="seg">
+      <button class="chip" id="out" aria-pressed="true">Signed out</button>
+      <button class="chip" id="in" aria-pressed="false">Signed in</button>
+      <button class="chip" id="theme">Light / dark</button>
+    </div>
+  </div>
+
+  <p class="label">1 · End of an Ask answer</p>
+  <div class="answer-end">
+    <p>Not a fatwa. For your personal situation, ask a qualified scholar you trust.</p>
+    <div class="row">
+      <button class="pill" id="saveAnswer"><svg class="ico"><use href="#bm"/></svg><span>Save</span></button>
+      <button class="pill"><svg class="ico"><use href="#flag"/></svg>Report a problem</button>
+      <button class="pill"><svg class="ico"><use href="#heart"/></svg>Help cover Bayan's AI costs</button>
+    </div>
+  </div>
+
+  <p class="label">2 · Top of a lesson</p>
+  <div class="lbar">
+    <span class="back"><svg class="ico"><use href="#back"/></svg>All lessons</span>
+    <span class="where">Lesson 2 / 32</span>
+    <button class="round" id="saveLesson" aria-label="Save lesson"><svg class="ico"><use href="#bm"/></svg></button>
+    <button class="round" aria-label="Share"><svg class="ico"><use href="#share"/></svg></button>
+    <i></i>
+  </div>
+  <p class="ltitle">Who is Allah?</p>
+
+  <p class="label">3 · The Saved page</p>
+  <section class="saved">
+    <h2>Saved</h2>
+    <p class="note" id="noteOut">Saved on this device. <a href="#">Sign in</a> to keep them on all your devices.</p>
+    <p class="note hide" id="noteIn">Saved to your account.</p>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-tab="answers">Answers<span id="ca">3</span></button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="lessons">Lessons<span id="cl">2</span></button>
+    </div>
+    <ul class="list" id="answers">
+      <li><a href="#"><strong>What is the ruling on combining two prayers because of rain?</strong><small>29 Oct</small></a><button class="rm" aria-label="Remove"><svg class="ico"><use href="#x"/></svg></button></li>
+      <li><a href="#"><strong>How do I repent from backbiting?</strong><small>28 Oct</small></a><button class="rm" aria-label="Remove"><svg class="ico"><use href="#x"/></svg></button></li>
+      <li><a href="#" class="ar"><strong>ما شروط وجوب الزكاة في المال؟</strong><small>27 Oct</small></a><button class="rm" aria-label="Remove"><svg class="ico"><use href="#x"/></svg></button></li>
+    </ul>
+    <ul class="list hide" id="lessons">
+      <li><a href="#"><strong>Who is Allah?</strong><small>Lesson 2 · Understanding Islam</small></a><button class="rm" aria-label="Remove"><svg class="ico"><use href="#x"/></svg></button></li>
+      <li><a href="#"><strong>How to pray</strong><small>Lesson 15 · Learning prayer</small></a><button class="rm" aria-label="Remove"><svg class="ico"><use href="#x"/></svg></button></li>
+    </ul>
+    <p class="empty hide" id="empty"><b>Nothing saved yet</b>Tap Save at the end of an answer, or the bookmark at the top of a lesson.</p>
+  </section>
+
+  <p class="label">4 · Where to find it</p>
+  <p class="muted">A "Saved" row at the top of the More page and the phone's More sheet, with the count beside it. No new tab in the bottom bar.</p>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+let signedIn = false;
+const $ = (id) => document.getElementById(id);
+const t = $("toast");
+function toast(text) { t.textContent = text; t.classList.add("show"); clearTimeout(t.h); t.h = setTimeout(() => t.classList.remove("show"), 2400); }
+const savedMsg = () => signedIn ? "Saved" : "Saved on this device";
+$("saveAnswer").onclick = (e) => { const b = e.currentTarget, on = !b.classList.contains("on"); b.classList.toggle("on", on); b.querySelector("span").textContent = on ? "Saved" : "Save"; toast(on ? savedMsg() : "Removed"); };
+$("saveLesson").onclick = (e) => { const b = e.currentTarget, on = !b.classList.contains("on"); b.classList.toggle("on", on); toast(on ? savedMsg() : "Removed"); };
+function auth(v) { signedIn = v; $("in").setAttribute("aria-pressed", v); $("out").setAttribute("aria-pressed", !v); $("noteOut").classList.toggle("hide", v); $("noteIn").classList.toggle("hide", !v); }
+$("in").onclick = () => auth(true); $("out").onclick = () => auth(false);
+$("theme").onclick = () => { const r = document.documentElement; r.dataset.theme = r.dataset.theme === "dark" ? "light" : "dark"; };
+document.querySelectorAll(".tab").forEach((x) => x.onclick = () => {
+  document.querySelectorAll(".tab").forEach((y) => y.setAttribute("aria-selected", y === x));
+  $("answers").classList.toggle("hide", x.dataset.tab !== "answers"); $("lessons").classList.toggle("hide", x.dataset.tab !== "lessons");
+  $("empty").classList.add("hide");
+});
+document.querySelectorAll(".rm").forEach((r) => r.onclick = () => {
+  const list = r.closest(".list"); r.closest("li").remove(); toast("Removed");
+  $("ca").textContent = $("answers").children.length; $("cl").textContent = $("lessons").children.length;
+  if (!list.children.length) { list.classList.add("hide"); $("empty").classList.remove("hide"); }
+});
+</script>
+</body>
+</html>

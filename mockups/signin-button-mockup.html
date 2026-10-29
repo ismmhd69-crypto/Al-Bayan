@@ -1,0 +1,1273 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bayan – Sign-in Button &amp; Signed-in User State Mockup</title>
+<style>
+/* Exact Bayan CSS tokens from app/globals.css */
+:root {
+  --bg: #f6f7f9;
+  --bg-2: #edf0f5;
+  --surface: #ffffff;
+  --line: #e3e7ed;
+  --line-2: #cfd6e0;
+  --ink: #141b26;
+  --ink-2: #3a4456;
+  --ink-3: #5b6475;
+  --accent: #27408b;
+  --accent-hover: #1e3270;
+  --accent-soft: rgba(39, 64, 139, 0.08);
+  --on-accent: #ffffff;
+  --gold: #a77b2b;
+  --gold-soft: #f8f2e5;
+  --gold-ink: #7a5716;
+  --tonal-bg: #dce3f7;
+  --tonal-bg-hover: #cdd7f3;
+  --tonal-ink: #1b2f6b;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 8px 24px rgba(16, 24, 40, 0.12);
+  --f-display: "Iowan Old Style", "Source Serif 4", Georgia, serif;
+  --f-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --f-ar: "Amiri", "Noto Naskh Arabic", "Traditional Arabic", serif;
+  --radius: 12px;
+  --topbar: 56px;
+  --tabbar: 64px;
+}
+
+[data-theme="dark"] {
+  --bg: #0d121c;
+  --bg-2: #151d2d;
+  --surface: #111724;
+  --line: #222d42;
+  --line-2: #2d3b55;
+  --ink: #f0f4fc;
+  --ink-2: #a2b0c7;
+  --ink-3: #75839c;
+  --accent: #6b8fe6;
+  --accent-hover: #86a6f5;
+  --accent-soft: rgba(107, 143, 230, 0.14);
+  --on-accent: #0c1527;
+  --gold: #d4a852;
+  --gold-soft: rgba(212, 168, 82, 0.12);
+  --gold-ink: #f5d38a;
+  --tonal-bg: #26365c;
+  --tonal-bg-hover: #304474;
+  --tonal-ink: #dbe4ff;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 10px 32px rgba(0, 0, 0, 0.45);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 15px;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Control Bar at top */
+.mockup-controls {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  padding: 12px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.controls-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.controls-title h1 {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.badge-tag {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--gold-soft);
+  color: var(--gold);
+  border: 1px solid currentColor;
+}
+
+.control-groups {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.control-group {
+  display: flex;
+  align-items: center;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
+}
+.control-btn {
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+  border-radius: 999px;
+  transition: all 0.15s ease;
+}
+.control-btn:hover {
+  color: var(--ink);
+}
+.control-btn.active {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12);
+}
+
+/* Section Header */
+.section-intro {
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding: 0 24px;
+  width: 100%;
+}
+.section-intro h2 {
+  font-family: var(--f-display);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.section-intro p {
+  color: var(--ink-2);
+  font-size: 14px;
+}
+
+/* Main Mockup Area */
+.mockup-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding: 28px 24px 60px;
+}
+
+/* Device Card */
+.device-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.device-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink-2);
+}
+.device-badge.signed-in-badge {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* DESKTOP SIDEBAR FRAME */
+.desktop-frame {
+  width: 270px;
+  height: 680px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.22);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.sidebar-brand-box {
+  padding: 20px 18px 12px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.logo-title {
+  font-family: var(--f-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.logo-ar {
+  font-family: var(--f-ar);
+  font-size: 18px;
+  color: var(--gold);
+}
+
+.sidebar-nav-list {
+  padding: 6px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+  overflow-y: auto;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 8px 12px;
+  border-radius: 9px;
+  text-decoration: none;
+  color: var(--ink-2);
+  font-weight: 600;
+  font-size: 13.5px;
+  border-inline-start: 3px solid transparent;
+  transition: all 0.15s ease;
+}
+.nav-item:hover {
+  background: var(--bg-2);
+  color: var(--ink);
+}
+.nav-item.active {
+  background: var(--gold-soft);
+  color: var(--accent);
+  border-inline-start-color: var(--gold);
+}
+.nav-item svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  stroke-width: 2;
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+  margin-top: auto;
+  padding: 14px 12px 18px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--surface);
+  position: relative;
+}
+
+/* 1. SIGNED OUT STATE BUTTON */
+.signin-btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+.signin-btn-primary:hover {
+  background: var(--tonal-bg-hover);
+  transform: translateY(-1px);
+}
+.signin-btn-primary svg.user-icon {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2;
+  color: var(--accent);
+}
+.signin-btn-primary .arrow-icon {
+  margin-inline-start: auto;
+  width: 15px;
+  height: 15px;
+  opacity: 0.7;
+}
+
+/* 2. SIGNED IN STATE BUTTON / ROW */
+.user-account-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 46px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  background: var(--bg-2);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  text-align: left;
+  transition: all 0.15s ease;
+  position: relative;
+}
+.user-account-btn:hover {
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Avatar with gradient & online dot */
+.user-avatar-wrap {
+  position: relative;
+  flex: none;
+}
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent) 0%, #4361ee 100%);
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: 0 2px 6px rgba(39, 64, 139, 0.25);
+}
+.online-dot {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 9px;
+  height: 9px;
+  background: #10b981;
+  border-radius: 50%;
+  border: 2px solid var(--surface);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  flex: 1;
+}
+.user-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.user-title {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.account-pill {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--gold-soft);
+  color: var(--gold-ink);
+}
+.user-sub {
+  font-size: 11px;
+  color: var(--ink-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+}
+
+/* Quick popup menu preview when clicking signed in account */
+.account-popup-menu {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 12px;
+  right: 12px;
+  background: var(--surface);
+  border: 1px solid var(--line-2);
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+  padding: 8px 6px;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  z-index: 60;
+  animation: popup-fade 0.18s ease-out;
+}
+.account-popup-menu.show {
+  display: flex;
+}
+@keyframes popup-fade {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.popup-user-header {
+  padding: 6px 10px 8px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 4px;
+}
+.popup-signed-label {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-3);
+  font-weight: 700;
+}
+.popup-user-email {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+  direction: ltr;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.popup-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink);
+  transition: all 0.12s ease;
+  text-decoration: none;
+}
+.popup-item:hover {
+  background: var(--bg-2);
+}
+.popup-item svg {
+  width: 15px;
+  height: 15px;
+  color: var(--accent);
+}
+.popup-item.signout {
+  color: #ef4444;
+  border-top: 1px solid var(--line);
+  margin-top: 4px;
+  padding-top: 8px;
+}
+.popup-item.signout svg {
+  color: #ef4444;
+}
+
+/* Theme toggle in sidebar */
+.mockup-theme-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 38px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+.mockup-theme-btn:hover {
+  background: var(--bg-2);
+  border-color: var(--line-2);
+}
+.mockup-theme-btn svg {
+  width: 16px;
+  height: 16px;
+  color: var(--gold);
+}
+
+/* Lang switcher */
+.mockup-lang-switch {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 10px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+}
+.mockup-lang-switch button {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 7px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--ink-2);
+  transition: all 0.15s ease;
+}
+.mockup-lang-switch button.active {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: var(--shadow-sm), 0 0 0 1px var(--line);
+}
+
+/* PHONE (MOBILE) FRAME */
+.phone-frame {
+  width: 320px;
+  height: 680px;
+  background: var(--bg);
+  border: 8px solid #20242c;
+  border-radius: 36px;
+  box-shadow: 0 16px 48px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-notch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110px;
+  height: 18px;
+  background: #20242c;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  z-index: 50;
+}
+
+/* Phone Topbar */
+.phone-topbar {
+  height: 52px;
+  padding-top: 10px;
+  padding-inline: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+.phone-brand {
+  font-family: var(--f-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+.phone-brand small {
+  font-family: var(--f-ar);
+  font-size: 15px;
+  color: var(--gold);
+}
+.phone-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.phone-action-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  transition: all 0.15s ease;
+  position: relative;
+}
+.phone-action-btn:hover {
+  background: var(--bg-2);
+}
+.phone-action-btn.signed-in-avatar-btn {
+  background: transparent;
+  border: 1.5px solid var(--accent);
+  padding: 1px;
+}
+.phone-action-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Phone Content Preview */
+.phone-body {
+  flex: 1;
+  padding: 18px 14px 70px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.demo-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.demo-card h3 {
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.demo-card p {
+  font-size: 12px;
+  color: var(--ink-2);
+  line-height: 1.5;
+}
+
+/* Phone Tabbar */
+.phone-tabbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 58px;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  z-index: 30;
+}
+.tab-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: var(--ink-3);
+  font-size: 10.5px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+.tab-btn.active {
+  color: var(--accent);
+}
+.tab-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.tab-btn.ask-bubble {
+  position: relative;
+  top: -6px;
+}
+.bubble-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 10px rgba(39,64,139,0.3);
+}
+
+/* Phone "More" Sheet Modal Preview */
+.phone-sheet-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 8, 14, 0.55);
+  backdrop-filter: blur(2px);
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.phone-sheet-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.phone-sheet-panel {
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  border-radius: 18px 18px 0 0;
+  padding: 10px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transform: translateY(100%);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.phone-sheet-overlay.open .phone-sheet-panel {
+  transform: translateY(0);
+}
+.sheet-handle {
+  width: 32px;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--line);
+  margin: 0 auto 4px;
+}
+.sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+.sheet-head h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+.sheet-close-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--bg-2);
+  display: grid;
+  place-items: center;
+}
+.sheet-close-btn svg {
+  width: 14px;
+  height: 14px;
+}
+.sheet-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.sheet-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--ink);
+  cursor: pointer;
+}
+.sheet-row svg.row-ico {
+  width: 18px;
+  height: 18px;
+  color: var(--accent);
+}
+.sheet-row.highlight-signedin {
+  background: var(--accent-soft);
+  margin: 0 -16px;
+  padding: 10px 16px;
+  border-inline-start: 3px solid var(--accent);
+}
+.sheet-row .chevron {
+  margin-inline-start: auto;
+  width: 15px;
+  height: 15px;
+  color: var(--ink-3);
+}
+
+/* Toast */
+.mockup-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(30px);
+  opacity: 0;
+  pointer-events: none;
+  background: var(--ink);
+  color: var(--bg);
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  transition: all 0.25s ease;
+  z-index: 200;
+}
+.mockup-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+  font-family: var(--f-ar), var(--f-body);
+}
+[dir="rtl"] .arrow-icon,
+[dir="rtl"] .chevron {
+  transform: rotate(180deg);
+}
+[dir="rtl"] .user-account-btn {
+  text-align: right;
+}
+</style>
+</head>
+<body>
+
+<!-- Interactive Control Toolbar -->
+<header class="mockup-controls">
+  <div class="controls-title">
+    <h1>Bayan – Sign-in &amp; Signed-in States</h1>
+    <span class="badge-tag">High Fidelity</span>
+  </div>
+
+  <div class="control-groups">
+    <!-- Theme Switcher -->
+    <div class="control-group">
+      <button class="control-btn active" id="btn-dark" onclick="setTheme('dark')">Dark Theme</button>
+      <button class="control-btn" id="btn-light" onclick="setTheme('light')">Light Theme</button>
+    </div>
+
+    <!-- Language Switcher -->
+    <div class="control-group">
+      <button class="control-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+      <button class="control-btn" id="btn-ar" onclick="setLang('ar')">العربية</button>
+      <button class="control-btn" id="btn-de" onclick="setLang('de')">DE</button>
+    </div>
+  </div>
+</header>
+
+<div class="section-intro">
+  <h2>Side-by-Side Comparison: Signed-Out vs Signed-In</h2>
+  <p>Compare the desktop sidebar foot and the mobile phone experience in both authentication states.</p>
+</div>
+
+<!-- Main Visual Display Container -->
+<main class="mockup-container">
+
+  <!-- ============================================== -->
+  <!-- 1. DESKTOP: SIGNED IN (WHAT IT LOOKS LIKE)     -->
+  <!-- ============================================== -->
+  <section class="device-card" id="card-desktop-signedin">
+    <div class="device-badge signed-in-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+      Desktop – Signed In (Active User)
+    </div>
+
+    <div class="desktop-frame">
+      <!-- Sidebar Brand -->
+      <div class="sidebar-brand-box">
+        <span class="logo-title">Bayan</span>
+        <span class="logo-ar">بيان</span>
+      </div>
+
+      <!-- Nav items -->
+      <nav class="sidebar-nav-list">
+        <a class="nav-item active" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+          <span class="t-nav-home">Home</span>
+        </a>
+        <a class="nav-item" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span class="t-nav-quran">Quran</span>
+        </a>
+        <a class="nav-item" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+          <span class="t-nav-hadith">Hadith</span>
+        </a>
+        <a class="nav-item" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span class="t-nav-ask">Ask</span>
+        </a>
+        <a class="nav-item" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <span class="t-nav-topics">Hard questions</span>
+        </a>
+        <a class="nav-item" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          <span class="t-nav-start">New to Islam</span>
+        </a>
+        <a class="nav-item" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></svg>
+          <span class="t-nav-support">Support Bayan</span>
+        </a>
+      </nav>
+
+      <!-- Sidebar Foot Area: Signed In Profile Card -->
+      <div class="sidebar-footer">
+        
+        <!-- QUICK POPUP MENU (Shows on click or hover) -->
+        <div class="account-popup-menu" id="desktop-popup-menu">
+          <div class="popup-user-header">
+            <div class="popup-signed-label t-signed-as">Signed in as</div>
+            <div class="popup-user-email">mohammed@example.com</div>
+          </div>
+          <a href="#" class="popup-item" onclick="demoNav('account')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+            <span class="t-your-account">Your account</span>
+          </a>
+          <a href="#" class="popup-item" onclick="demoNav('saved')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            <span class="t-saved">Saved answers</span>
+          </a>
+          <a href="#" class="popup-item signout" onclick="demoSignOut()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+            <span class="t-signout">Sign out</span>
+          </a>
+        </div>
+
+        <!-- THE SIGNED-IN ACCOUNT BUTTON (Click toggles the menu) -->
+        <button class="user-account-btn" id="active-user-btn" onclick="togglePopupMenu()" title="Click to view account menu">
+          <div class="user-avatar-wrap">
+            <div class="user-avatar">M</div>
+            <div class="online-dot" title="Active"></div>
+          </div>
+          <div class="user-info">
+            <div class="user-title-row">
+              <span class="user-title t-your-account">Your account</span>
+            </div>
+            <span class="user-sub">mohammed@example.com</span>
+          </div>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:14px;height:14px;opacity:0.6;"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="mockup-theme-btn" onclick="toggleTheme()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="theme-icon"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <span class="theme-label-txt">Light</span>
+        </button>
+
+        <!-- Language Selector -->
+        <div class="mockup-lang-switch">
+          <button class="l-ar" onclick="setLang('ar')">العربية</button>
+          <button class="l-en active" onclick="setLang('en')">English</button>
+          <button class="l-de" onclick="setLang('de')">Deutsch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- 2. DESKTOP: SIGNED OUT (ORIGINAL BUTTON)       -->
+  <!-- ============================================== -->
+  <section class="device-card" id="card-desktop-signedout">
+    <div class="device-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
+      Desktop – Signed Out
+    </div>
+
+    <div class="desktop-frame">
+      <div class="sidebar-brand-box">
+        <span class="logo-title">Bayan</span>
+        <span class="logo-ar">بيان</span>
+      </div>
+
+      <nav class="sidebar-nav-list">
+        <a class="nav-item active" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><span class="t-nav-home">Home</span></a>
+        <a class="nav-item" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span class="t-nav-quran">Quran</span></a>
+        <a class="nav-item" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg><span class="t-nav-hadith">Hadith</span></a>
+        <a class="nav-item" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span class="t-nav-ask">Ask</span></a>
+        <a class="nav-item" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span class="t-nav-topics">Hard questions</span></a>
+        <a class="nav-item" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg><span class="t-nav-start">New to Islam</span></a>
+        <a class="nav-item" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></svg><span class="t-nav-support">Support Bayan</span></a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <!-- SIGN IN BUTTON -->
+        <button class="signin-btn-primary" onclick="demoNav('account')">
+          <svg class="user-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></svg>
+          <span class="t-signin">Sign in</span>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <button class="mockup-theme-btn" onclick="toggleTheme()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" class="theme-icon"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <span class="theme-label-txt">Light</span>
+        </button>
+
+        <div class="mockup-lang-switch">
+          <button class="l-ar" onclick="setLang('ar')">العربية</button>
+          <button class="l-en active" onclick="setLang('en')">English</button>
+          <button class="l-de" onclick="setLang('de')">Deutsch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- 3. PHONE: SIGNED IN EXPERIENCE                 -->
+  <!-- ============================================== -->
+  <section class="device-card" id="card-phone-signedin">
+    <div class="device-badge signed-in-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/></svg>
+      Phone – Signed In (Active User)
+    </div>
+
+    <div class="phone-frame">
+      <div class="phone-notch"></div>
+
+      <!-- Phone Topbar with User Avatar -->
+      <header class="phone-topbar">
+        <div class="phone-brand">
+          <span>Bayan</span>
+          <small>بيان</small>
+        </div>
+
+        <div class="phone-top-actions">
+          <!-- PHONE SIGNED-IN AVATAR IN HEADER -->
+          <button class="phone-action-btn signed-in-avatar-btn" title="Your account" onclick="demoNav('account')">
+            <div style="width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#4361ee);color:#fff;display:grid;place-items:center;font-size:11px;font-weight:700;">M</div>
+          </button>
+
+          <button class="phone-action-btn" title="Toggle theme" onclick="toggleTheme()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="theme-icon"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Phone Content Preview -->
+      <div class="phone-body">
+        <div class="demo-card" style="border-inline-start: 3px solid var(--accent);">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <div style="width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700;">M</div>
+            <div>
+              <div style="font-size:12.5px;font-weight:700;" class="t-signed-as">Signed in as</div>
+              <div style="font-size:11.5px;color:var(--ink-3);direction:ltr;">mohammed@example.com</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="demo-card">
+          <h3 class="t-home-q">Ask anything about Islam.</h3>
+          <p class="t-home-sub">Answers from the Quran, authentic hadith and trusted scholars only.</p>
+        </div>
+
+        <button class="signin-btn-primary" style="justify-content:center;margin-top:4px;" onclick="togglePhoneSheet(true)">
+          <span>Open "More" Sheet to See Profile</span>
+        </button>
+      </div>
+
+      <!-- Phone Bottom Tabbar -->
+      <nav class="phone-tabbar">
+        <button class="tab-btn active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><span class="t-nav-home">Home</span></button>
+        <button class="tab-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span class="t-nav-quran">Quran</span></button>
+        <button class="tab-btn ask-bubble">
+          <div class="bubble-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+          <span class="t-nav-ask">Ask</span>
+        </button>
+        <button class="tab-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg><span class="t-nav-hadith">Hadith</span></button>
+        <button class="tab-btn" onclick="togglePhoneSheet(true)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+          <span class="t-nav-more">More</span>
+        </button>
+      </nav>
+
+      <!-- Phone "More" Sheet Modal (Open State Preview) -->
+      <div class="phone-sheet-overlay" id="phone-sheet" onclick="if(event.target === this) togglePhoneSheet(false)">
+        <div class="phone-sheet-panel">
+          <div class="sheet-handle"></div>
+          <div class="sheet-head">
+            <h2 class="t-nav-more">More</h2>
+            <button class="sheet-close-btn" onclick="togglePhoneSheet(false)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+          </div>
+
+          <ul class="sheet-list">
+            <!-- SIGNED IN ACCOUNT ROW IN PHONE MORE SHEET -->
+            <li class="sheet-row highlight-signedin" onclick="demoNav('account')">
+              <div style="width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#4361ee);color:#fff;display:grid;place-items:center;font-size:12px;font-weight:700;flex:none;">M</div>
+              <div style="flex:1;min-width:0;">
+                <strong class="t-your-account">Your account</strong>
+                <div style="font-size: 11px; color: var(--ink-3); direction: ltr; overflow: hidden; text-overflow: ellipsis;">mohammed@example.com</div>
+              </div>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </li>
+
+            <li class="sheet-row">
+              <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+              <span class="t-saved">Saved answers</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </li>
+            <li class="sheet-row">
+              <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/></svg>
+              <span class="t-nav-topics">Hard questions</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </li>
+            <li class="sheet-row">
+              <svg class="row-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+              <span class="t-nav-start">New to Islam</span>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="mockup-toast" id="toast">Navigating...</div>
+
+<script>
+let currentTheme = 'dark';
+let currentLang = 'en';
+
+const translations = {
+  en: {
+    dir: 'ltr',
+    signin: 'Sign in',
+    signinNote: 'Optional. Save your answers.',
+    yourAccount: 'Your account',
+    signedAs: 'Signed in as',
+    signout: 'Sign out',
+    home: 'Home',
+    quran: 'Quran',
+    hadith: 'Hadith',
+    ask: 'Ask',
+    topics: 'Hard questions',
+    start: 'New to Islam',
+    support: 'Support Bayan',
+    more: 'More',
+    saved: 'Saved answers',
+    homeQ: 'Ask anything about Islam.',
+    homeSub: 'Answers from the Quran, authentic hadith and trusted scholars only.',
+    light: 'Light',
+    dark: 'Dark'
+  },
+  ar: {
+    dir: 'rtl',
+    signin: 'تسجيل الدخول',
+    signinNote: 'اختياري. لحفظ إجاباتك.',
+    yourAccount: 'حسابك',
+    signedAs: 'مسجل كـ',
+    signout: 'تسجيل الخروج',
+    home: 'الرئيسية',
+    quran: 'القرآن',
+    hadith: 'الحديث',
+    ask: 'اسأل',
+    topics: 'أسئلة شائكة',
+    start: 'جديد في الإسلام',
+    support: 'دعم بيان',
+    more: 'المزيد',
+    saved: 'الإجابات المحفوظة',
+    homeQ: 'اسأل أي شيء عن الإسلام.',
+    homeSub: 'إجابات من القرآن والحديث الصحيح وأقوال العلماء المعتمدين فقط.',
+    light: 'فاتح',
+    dark: 'داكن'
+  },
+  de: {
+    dir: 'ltr',
+    signin: 'Anmelden',
+    signinNote: 'Optional. Um Antworten zu speichern.',
+    yourAccount: 'Dein Konto',
+    signedAs: 'Angemeldet als',
+    signout: 'Abmelden',
+    home: 'Start',
+    quran: 'Koran',
+    hadith: 'Hadith',
+    ask: 'Fragen',
+    topics: 'Schwere Fragen',
+    start: 'Neu im Islam',
+    support: 'Bayan unterstützen',
+    more: 'Mehr',
+    saved: 'Gespeicherte Antworten',
+    homeQ: 'Frage alles über den Islam.',
+    homeSub: 'Antworten nur aus Koran, authentischen Hadithen und anerkannten Gelehrten.',
+    light: 'Hell',
+    dark: 'Dunkel'
+  }
+};
+
+function setTheme(theme) {
+  currentTheme = theme;
+  document.documentElement.setAttribute('data-theme', theme);
+  document.getElementById('btn-dark').classList.toggle('active', theme === 'dark');
+  document.getElementById('btn-light').classList.toggle('active', theme === 'light');
+
+  const t = translations[currentLang];
+  document.querySelectorAll('.theme-label-txt').forEach(el => {
+    el.textContent = theme === 'dark' ? t.light : t.dark;
+  });
+}
+
+function toggleTheme() {
+  setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+}
+
+function setLang(lang) {
+  currentLang = lang;
+  document.querySelectorAll('#btn-en, #btn-ar, #btn-de').forEach(b => b.classList.remove('active'));
+  document.getElementById('btn-' + lang).classList.add('active');
+
+  document.querySelectorAll('.l-ar, .l-en, .l-de').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.l-' + lang).forEach(b => b.classList.add('active'));
+
+  const t = translations[lang];
+  document.documentElement.setAttribute('dir', t.dir);
+
+  document.querySelectorAll('.t-signin').forEach(el => el.textContent = t.signin);
+  document.querySelectorAll('.t-your-account').forEach(el => el.textContent = t.yourAccount);
+  document.querySelectorAll('.t-signed-as').forEach(el => el.textContent = t.signedAs);
+  document.querySelectorAll('.t-signout').forEach(el => el.textContent = t.signout);
+  document.querySelectorAll('.t-nav-home').forEach(el => el.textContent = t.home);
+  document.querySelectorAll('.t-nav-quran').forEach(el => el.textContent = t.quran);
+  document.querySelectorAll('.t-nav-hadith').forEach(el => el.textContent = t.hadith);
+  document.querySelectorAll('.t-nav-ask').forEach(el => el.textContent = t.ask);
+  document.querySelectorAll('.t-nav-topics').forEach(el => el.textContent = t.topics);
+  document.querySelectorAll('.t-nav-start').forEach(el => el.textContent = t.start);
+  document.querySelectorAll('.t-nav-support').forEach(el => el.textContent = t.support);
+  document.querySelectorAll('.t-nav-more').forEach(el => el.textContent = t.more);
+  document.querySelectorAll('.t-saved').forEach(el => el.textContent = t.saved);
+  document.querySelectorAll('.t-home-q').forEach(el => el.textContent = t.homeQ);
+  document.querySelectorAll('.t-home-sub').forEach(el => el.textContent = t.homeSub);
+  document.querySelectorAll('.theme-label-txt').forEach(el => el.textContent = currentTheme === 'dark' ? t.light : t.dark);
+}
+
+function togglePopupMenu() {
+  const menu = document.getElementById('desktop-popup-menu');
+  menu.classList.toggle('show');
+}
+
+function togglePhoneSheet(open) {
+  const sheet = document.getElementById('phone-sheet');
+  sheet.classList.toggle('open', open);
+}
+
+function demoNav(path) {
+  const toast = document.getElementById('toast');
+  toast.textContent = `Navigating to /${currentLang}/${path}...`;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
+function demoSignOut() {
+  const toast = document.getElementById('toast');
+  toast.textContent = 'Simulating signing out...';
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 2000);
+  const menu = document.getElementById('desktop-popup-menu');
+  if (menu) menu.classList.remove('show');
+}
+
+// Close popup on outside click
+document.addEventListener('click', (e) => {
+  const btn = document.getElementById('active-user-btn');
+  const menu = document.getElementById('desktop-popup-menu');
+  if (menu && btn && !btn.contains(e.target) && !menu.contains(e.target)) {
+    menu.classList.remove('show');
+  }
+});
+</script>
+
+</body>
+</html>

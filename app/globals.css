@@ -1,46 +1,53 @@
-/* Bayan: manuscript lapis + illumination gold on quiet paper. Always light, by choice.
+/* Bayan colours (Mo, 2026-10-29): "Scholarly" palette from the UI UX Pro Max skill's
+   "Academic Journal / Scholarly Publishing" palette. Deep navy and slate on clean white, a neutral
+   graphite dark mode, and gold only as a small marker (never a filled card).
    Layout uses logical properties (inline/block, start/end) so Arabic flips cleanly. */
 
 :root {
   color-scheme: light;
-  --bg: #f6f7f9;
-  --bg-2: #eef1f5;
+  --bg: #f8fafc;
+  --bg-2: #f1f5f9;
   --surface: #ffffff;
-  --surface-2: #f8f9fb;
-  --line: #e3e7ed;
-  --line-2: #ced5df;
-  --ink: #141b26;
-  --ink-2: #465163;
-  --ink-3: #5b6475; /* 5.4:1 on --bg, WCAG AA */
+  --surface-2: #f8fafc;
+  --line: #e2e8f0;
+  --line-2: #cbd5e1;
+  --ink: #0f172a;
+  --ink-2: #334155;
+  --ink-3: #64748b; /* 4.8:1 on --bg, WCAG AA */
   --accent: #27408b;
   --accent-hover: #1e3270;
   --accent-soft: #edf1fa;
   --accent-line: #d3dcf0;
   --on-accent: #ffffff;
-  --gold: #a77b2b;
-  --gold-soft: #f8f2e5;
-  --gold-line: #eadbb9;
-  --gold-ink: #7a5716;
+  --link: #2563eb;
+  --tonal-bg: #dce3f7;
+  --tonal-bg-hover: #cdd7f3;
+  --tonal-ink: #1b2f6b;
+  /* The old gold tokens follow the navy accent; their fills and borders are neutral. */
+  --gold: #27408b;
+  --gold-ink: #27408b;
+  --gold-soft: #f8fafc;
+  --gold-line: #e2e8f0;
 
-  /* 1. QURAN: Noble Evergreen (Divine Revelation) */
+  /* 1. QURAN */
   --quran-ink: #14532d;
   --quran-text: #166534;
-  --quran-bg: #f0fdf4;
-  --quran-bg-hover: #dcfce7;
-  --quran-line: #bbf7d0;
-  --quran-border: #86efac;
+  --quran-bg: #f3faf6;
+  --quran-bg-hover: #e6f4ec;
+  --quran-line: #cfe8da;
+  --quran-border: #a7d7bb;
   --quran-accent: #15803d;
 
-  /* 2. SUNNAH: Scholarly Sapphire (Prophetic Tradition) */
+  /* 2. SUNNAH */
   --sunnah-ink: #1e3a8a;
-  --sunnah-text: #1d4ed8;
-  --sunnah-bg: #eff6ff;
-  --sunnah-bg-hover: #dbeafe;
-  --sunnah-line: #bfdbfe;
-  --sunnah-border: #93c5fd;
+  --sunnah-text: #1e40af;
+  --sunnah-bg: #f3f7fc;
+  --sunnah-bg-hover: #e6eef8;
+  --sunnah-line: #d3e0f0;
+  --sunnah-border: #a9c1e0;
   --sunnah-accent: #2563eb;
 
-  /* 3. SCHOLARS: Refined Slate & Cedar (Scholarly Commentary) */
+  /* 3. SCHOLARS */
   --scholar-ink: #334155;
   --scholar-text: #475569;
   --scholar-bg: #f8fafc;
@@ -49,8 +56,8 @@
   --scholar-border: #cbd5e1;
   --scholar-accent: #64748b;
 
-  --shadow-sm: 0 1px 2px rgba(20, 27, 38, 0.05);
-  --shadow: 0 1px 2px rgba(20, 27, 38, 0.04), 0 10px 28px -14px rgba(20, 27, 38, 0.16);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow: 0 1px 2px rgba(15, 23, 42, 0.05), 0 10px 28px -14px rgba(15, 23, 42, 0.18);
 
   --fs-xs: 0.75rem;
   --fs-sm: 0.875rem;
@@ -71,110 +78,120 @@
   --f-ar-body: var(--font-ar-body), "Geeza Pro", "Segoe UI", sans-serif;
 }
 
-/* Dark mode theme tokens: manuscript night sky + radiant gold */
+/* Dark mode: neutral graphite (no navy tint, no gold fills), soft blue for actions. */
 [data-theme="dark"] {
   color-scheme: dark;
-  --bg: #0b0f17;
-  --bg-2: #111723;
-  --surface: #151d2d;
-  --surface-2: #1a2438;
-  --line: #222d42;
-  --line-2: #2e3c57;
-  --ink: #f0f4fc;
-  --ink-2: #a2b0c7;
-  --ink-3: #75839c;
-  --accent: #6b8fe6;
-  --accent-hover: #86a6f5;
-  --accent-soft: rgba(107, 143, 230, 0.14);
-  --accent-line: #2e4168;
-  --on-accent: #ffffff;
-  --gold: #d4a852;
-  --gold-soft: rgba(212, 168, 82, 0.12);
-  --gold-line: #524021;
-  --gold-ink: #f5d38a;
+  --bg: #0b0d10;
+  --bg-2: #111418;
+  --surface: #15181d;
+  --surface-2: #1a1e24;
+  --line: #262a31;
+  --line-2: #343a43;
+  --ink: #e6e8eb;
+  --ink-2: #b4bac3;
+  --ink-3: #8a919c;
+  --accent: #8ab4f8;
+  --accent-hover: #a8c7fa;
+  --accent-soft: rgba(138, 180, 248, 0.1);
+  --accent-line: #2c3a52;
+  --on-accent: #0b0d10;
+  --link: #8ab4f8;
+  --tonal-bg: #1e2733;
+  --tonal-bg-hover: #26303e;
+  --tonal-ink: #d3e3fd;
+  /* The old gold tokens follow the navy accent; their fills and borders are neutral. */
+  --gold: #8ab4f8;
+  --gold-ink: #a8c7fa;
+  --gold-soft: #1a1e24;
+  --gold-line: #262a31;
 
-  /* 1. QURAN: Sacred Manuscript Emerald (deep, dignified, high contrast) */
-  --quran-ink: #f0f4fc;
-  --quran-text: #c2d2cb;
-  --quran-bg: #131d27;
-  --quran-bg-hover: #182533;
-  --quran-line: #1e332f;
-  --quran-border: #294840;
-  --quran-accent: #34d399;
+  /* 1. QURAN */
+  --quran-ink: #e6e8eb;
+  --quran-text: #c3d5cc;
+  --quran-bg: #131a17;
+  --quran-bg-hover: #18211d;
+  --quran-line: #22302a;
+  --quran-border: #2c4036;
+  --quran-accent: #4ade80;
 
-  /* 2. SUNNAH: Scholarly Sapphire (deep night navy) */
-  --sunnah-ink: #f0f4fc;
-  --sunnah-text: #bccbe6;
-  --sunnah-bg: #141c2c;
-  --sunnah-bg-hover: #1a253a;
-  --sunnah-line: #23324d;
-  --sunnah-border: #2c4269;
-  --sunnah-accent: #60a5fa;
+  /* 2. SUNNAH */
+  --sunnah-ink: #e6e8eb;
+  --sunnah-text: #c1cde0;
+  --sunnah-bg: #121822;
+  --sunnah-bg-hover: #172030;
+  --sunnah-line: #212b3b;
+  --sunnah-border: #2c3a52;
+  --sunnah-accent: #8ab4f8;
 
-  /* 3. SCHOLARS: Refined Slate & Cedar */
-  --scholar-ink: #f0f4fc;
-  --scholar-text: #c4cddb;
-  --scholar-bg: #151c27;
-  --scholar-bg-hover: #1c2534;
-  --scholar-line: #252f3e;
-  --scholar-border: #334155;
-  --scholar-accent: #94a3b8;
+  /* 3. SCHOLARS */
+  --scholar-ink: #e6e8eb;
+  --scholar-text: #c4c9d1;
+  --scholar-bg: #15181d;
+  --scholar-bg-hover: #1a1e24;
+  --scholar-line: #262a31;
+  --scholar-border: #343a43;
+  --scholar-accent: #9aa3af;
 
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
-  --shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 14px 32px -8px rgba(0, 0, 0, 0.6);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 12px 32px -12px rgba(0, 0, 0, 0.7);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --bg: #0b0f17;
-    --bg-2: #111723;
-    --surface: #151d2d;
-    --surface-2: #1a2438;
-    --line: #222d42;
-    --line-2: #2e3c57;
-    --ink: #f0f4fc;
-    --ink-2: #a2b0c7;
-    --ink-3: #75839c;
-    --accent: #6b8fe6;
-    --accent-hover: #86a6f5;
-    --accent-soft: rgba(107, 143, 230, 0.14);
-    --accent-line: #2e4168;
-    --on-accent: #ffffff;
-    --gold: #d4a852;
-    --gold-soft: rgba(212, 168, 82, 0.12);
-    --gold-line: #524021;
-    --gold-ink: #f5d38a;
+    --bg: #0b0d10;
+    --bg-2: #111418;
+    --surface: #15181d;
+    --surface-2: #1a1e24;
+    --line: #262a31;
+    --line-2: #343a43;
+    --ink: #e6e8eb;
+    --ink-2: #b4bac3;
+    --ink-3: #8a919c;
+    --accent: #8ab4f8;
+    --accent-hover: #a8c7fa;
+    --accent-soft: rgba(138, 180, 248, 0.1);
+    --accent-line: #2c3a52;
+    --on-accent: #0b0d10;
+    --link: #8ab4f8;
+    --tonal-bg: #1e2733;
+    --tonal-bg-hover: #26303e;
+    --tonal-ink: #d3e3fd;
+    /* The old gold tokens follow the navy accent; their fills and borders are neutral. */
+    --gold: #8ab4f8;
+    --gold-ink: #a8c7fa;
+    --gold-soft: #1a1e24;
+    --gold-line: #262a31;
 
-    /* 1. QURAN: Sacred Manuscript Emerald */
-    --quran-ink: #f0f4fc;
-    --quran-text: #c2d2cb;
-    --quran-bg: #131d27;
-    --quran-bg-hover: #182533;
-    --quran-line: #1e332f;
-    --quran-border: #294840;
-    --quran-accent: #34d399;
+    /* 1. QURAN */
+    --quran-ink: #e6e8eb;
+    --quran-text: #c3d5cc;
+    --quran-bg: #131a17;
+    --quran-bg-hover: #18211d;
+    --quran-line: #22302a;
+    --quran-border: #2c4036;
+    --quran-accent: #4ade80;
 
-    /* 2. SUNNAH: Scholarly Sapphire */
-    --sunnah-ink: #f0f4fc;
-    --sunnah-text: #bccbe6;
-    --sunnah-bg: #141c2c;
-    --sunnah-bg-hover: #1a253a;
-    --sunnah-line: #23324d;
-    --sunnah-border: #2c4269;
-    --sunnah-accent: #60a5fa;
+    /* 2. SUNNAH */
+    --sunnah-ink: #e6e8eb;
+    --sunnah-text: #c1cde0;
+    --sunnah-bg: #121822;
+    --sunnah-bg-hover: #172030;
+    --sunnah-line: #212b3b;
+    --sunnah-border: #2c3a52;
+    --sunnah-accent: #8ab4f8;
 
-    /* 3. SCHOLARS: Refined Slate & Cedar */
-    --scholar-ink: #f0f4fc;
-    --scholar-text: #c4cddb;
-    --scholar-bg: #151c27;
-    --scholar-bg-hover: #1c2534;
-    --scholar-line: #252f3e;
-    --scholar-border: #334155;
-    --scholar-accent: #94a3b8;
+    /* 3. SCHOLARS */
+    --scholar-ink: #e6e8eb;
+    --scholar-text: #c4c9d1;
+    --scholar-bg: #15181d;
+    --scholar-bg-hover: #1a1e24;
+    --scholar-line: #262a31;
+    --scholar-border: #343a43;
+    --scholar-accent: #9aa3af;
 
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
-    --shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 14px 32px -8px rgba(0, 0, 0, 0.6);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 12px 32px -12px rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -566,13 +583,139 @@ svg {
   inline-size: 100%;
   justify-content: flex-start;
 }
-.topbar .theme-toggle-btn {
+.topbar-actions {
   margin-inline-start: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.topbar-actions .theme-toggle-btn {
+  margin-inline-start: 0;
+}
+.topbar .theme-toggle-btn {
   min-block-size: 36px;
   padding: 6px 12px;
 }
 .topbar .theme-toggle-text {
   display: none;
+}
+
+/* Topbar account button (mobile) */
+.topbar-account-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 36px;
+  block-size: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.topbar-account-btn:hover {
+  background: var(--bg-2);
+  border-color: var(--line-2);
+}
+.topbar-account-btn[aria-current="page"] {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.topbar-account-icon {
+  inline-size: 18px;
+  block-size: 18px;
+}
+.topbar-avatar {
+  inline-size: 24px;
+  block-size: 24px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--on-accent);
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Sidebar account button (desktop) */
+.sidebar-account-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-block-size: 42px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  text-decoration: none;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  transition: background 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+  border: 1px solid transparent;
+}
+.sidebar-account-btn:hover {
+  background: var(--tonal-bg-hover);
+  color: var(--tonal-ink);
+}
+.sidebar-account-btn[aria-current="page"] {
+  border-color: var(--accent);
+}
+.sidebar-account-icon {
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--accent);
+  flex: none;
+}
+.sidebar-account-arrow {
+  inline-size: 15px;
+  block-size: 15px;
+  margin-inline-start: auto;
+  opacity: 0.6;
+  flex: none;
+}
+
+/* Sidebar account button: signed-in state */
+.sidebar-account-btn--signed-in {
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+.sidebar-account-btn--signed-in:hover {
+  background: var(--surface);
+  border-color: var(--line-2);
+  color: var(--ink);
+}
+.sidebar-avatar {
+  inline-size: 28px;
+  block-size: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--on-accent);
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex: none;
+}
+.sidebar-account-info {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+  flex: 1;
+  line-height: 1.25;
+}
+.sidebar-account-title {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--ink);
+}
+.sidebar-account-email {
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .more-theme-row {
   display: flex;
@@ -2501,8 +2644,8 @@ details[open] > summary .chev {
   border: 1px solid var(--gold-line);
   border-inline-start: 4px solid var(--gold);
   border-radius: var(--radius);
-  background: linear-gradient(to bottom, var(--surface), #fdfbf7);
-  box-shadow: 0 4px 14px -6px rgba(167, 123, 43, 0.15);
+  background: var(--surface);
+  box-shadow: var(--card-shadow);
 }
 .pa-summary-title {
   display: flex;
@@ -2898,4 +3041,765 @@ details[open] > summary .chev {
 }
 @media (min-width: 960px) {
   .more-sheet { display: none; }
+}
+
+/* Material 3 buttons (Mo, 2026-10-29): every button is a fully rounded, color-filled pill.
+   Primary actions are filled with the accent; secondary actions use a filled tonal color instead of
+   an empty outline. Labels may wrap but always keep 20-24px of space from the edge. */
+.btn {
+  max-inline-size: 100%;
+  padding: 10px 24px;
+  border-radius: 999px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: center;
+  line-height: 1.3;
+  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.btn-ghost,
+.btn-quiet {
+  background: var(--tonal-bg);
+  border-color: transparent;
+  color: var(--tonal-ink);
+}
+.btn-ghost:hover,
+.btn-quiet:hover {
+  background: var(--tonal-bg-hover);
+  border-color: transparent;
+  color: var(--tonal-ink);
+}
+.chip {
+  max-inline-size: 100%;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  font-weight: 600;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+  box-shadow: none;
+}
+.chip:hover {
+  background: var(--tonal-bg-hover);
+}
+.chip svg {
+  color: currentColor;
+}
+.report-toggle {
+  min-block-size: 40px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: start;
+}
+.report-toggle:hover {
+  background: var(--tonal-bg-hover);
+}
+.send-btn,
+.icon-btn {
+  border-radius: 999px;
+}
+.theme-toggle-btn {
+  padding: 8px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+}
+.theme-toggle-btn:hover {
+  background: var(--tonal-bg-hover);
+}
+
+/* Dark mode: the sidebar uses the page background, so they read as one surface. */
+[data-theme="dark"] .sidebar {
+  background: var(--bg);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .sidebar {
+    background: var(--bg);
+  }
+}
+
+/* Support page (Mo, 2026-10-29): wider, with the sadaqah jariyah hadith and what support pays for. */
+.page.support-page {
+  max-inline-size: 1040px;
+  gap: 40px;
+}
+.support-small {
+  font-size: var(--fs-xs);
+  color: var(--ink-3);
+  line-height: 1.6;
+}
+.support-hero {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+}
+.support-hero-text {
+  display: grid;
+  gap: 14px;
+  justify-items: start;
+}
+.support-hero h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  line-height: 1.12;
+}
+.support-hero .lead {
+  max-inline-size: 60ch;
+}
+.support-hero-action {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+  margin-block-start: 4px;
+}
+.support-cta {
+  min-block-size: 52px;
+  padding-inline: 28px;
+  font-size: var(--fs-md);
+}
+.support-jariya {
+  display: grid;
+  gap: 16px;
+  padding: 28px;
+  border-radius: 24px;
+  background: var(--gold-soft);
+  border: 1px solid var(--gold-line);
+}
+.support-jariya h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+}
+.support-jariya h2 svg {
+  inline-size: 22px;
+  block-size: 22px;
+  color: var(--gold);
+}
+.support-jariya figure {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+.support-jariya figcaption {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--gold-ink);
+}
+.support-hadith-ar {
+  margin: 0;
+  font-family: var(--f-ar-body);
+  font-size: clamp(1.35rem, 2.8vw, 1.7rem);
+  line-height: 2;
+  color: var(--ink);
+}
+.support-hadith-tr {
+  margin: 0;
+  font-size: var(--fs-lg);
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.support-source {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  justify-self: start;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+.support-jariya-text {
+  font-size: var(--fs-md);
+  line-height: 1.75;
+  color: var(--ink-2);
+  max-inline-size: 70ch;
+}
+.support-section-title {
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  margin-block-end: 16px;
+}
+.support-grid {
+  display: grid;
+  gap: 14px;
+}
+.support-card {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  padding: 22px;
+  border-radius: 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.support-card > svg {
+  inline-size: 26px;
+  block-size: 26px;
+  color: var(--accent);
+}
+.support-card h3 {
+  font-size: var(--fs-lg);
+  line-height: 1.3;
+}
+.support-card p {
+  color: var(--ink-2);
+  line-height: 1.65;
+}
+.support-card--promise {
+  border-inline-start: 3px solid var(--accent);
+}
+.support-help {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.support-help li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 18px 20px;
+  border-radius: 20px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.support-help li > svg {
+  flex: none;
+  inline-size: 24px;
+  block-size: 24px;
+  margin-block-start: 2px;
+  color: var(--gold);
+}
+.support-help h3 {
+  font-size: var(--fs-md);
+}
+.support-help p {
+  color: var(--ink-2);
+  line-height: 1.6;
+}
+.support-closing {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  padding: 36px 24px;
+  border-radius: 28px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  text-align: center;
+}
+.support-closing h2 {
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+}
+.support-closing p {
+  max-inline-size: 55ch;
+  line-height: 1.7;
+}
+@media (min-width: 760px) {
+  .support-grid--three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .support-grid--two,
+  .support-help {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .support-help {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .support-jariya {
+    padding: 36px 40px;
+  }
+}
+
+/* Hard questions list (Mo, 2026-10-29): wider page, filled filter chips and question cards in a grid,
+   matching the lesson and support pages. */
+.page.topics-page {
+  max-inline-size: 1040px;
+  gap: 28px;
+}
+.topics-page .page-head h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  line-height: 1.12;
+}
+.topics-page .page-head .lead {
+  max-inline-size: 65ch;
+}
+.topics-page .pill {
+  min-block-size: 40px;
+  padding: 8px 18px;
+  border: 0;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+}
+.topics-page .pill:hover {
+  background: var(--tonal-bg-hover);
+}
+.topics-page .pill[aria-pressed="true"] {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+.topics-group-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-block-end: 12px;
+}
+.topics-count {
+  display: inline-grid;
+  place-items: center;
+  min-inline-size: 24px;
+  block-size: 22px;
+  padding-inline: 7px;
+  border-radius: 999px;
+  background: var(--gold-soft);
+  color: var(--gold-ink);
+  font-size: 0.7rem;
+  letter-spacing: 0;
+}
+.topics-grid {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topic-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  block-size: 100%;
+  min-block-size: 64px;
+  padding: 16px 20px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+.topic-card:hover {
+  background: var(--tonal-bg);
+  border-color: transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+}
+.topic-card > span {
+  display: grid;
+  gap: 4px;
+  min-inline-size: 0;
+}
+.topic-card-title {
+  font-family: var(--f-display);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  line-height: 1.35;
+}
+.topic-card-sub {
+  font-size: var(--fs-sm);
+  color: var(--ink-2);
+}
+.topic-card > svg {
+  flex: none;
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--ink-3);
+}
+.topic-card:hover > svg {
+  color: var(--tonal-ink);
+}
+@media (min-width: 760px) {
+  .topics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Swipeable chip row: snaps to chips and fades at the edges when there is more to see. */
+.topics-page .filter {
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 16px;
+  cursor: grab;
+  -webkit-mask-image: linear-gradient(to right, transparent 0, #000 16px, #000 calc(100% - 28px), transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0, #000 16px, #000 calc(100% - 28px), transparent 100%);
+}
+.topics-page .filter .pill {
+  scroll-snap-align: start;
+  flex: none;
+}
+@media (min-width: 960px) {
+  .topics-page .filter {
+    -webkit-mask-image: none;
+    mask-image: none;
+    cursor: auto;
+  }
+}
+
+/* Saved answers and lessons (Mo, 2026-10-29, flat mockup mockups/saved-bayan.html). */
+.saved-pill.is-saved,
+.saved-bookmark.is-saved {
+  color: var(--gold-ink);
+}
+.saved-pill.is-saved svg,
+.saved-bookmark.is-saved svg {
+  fill: currentColor;
+  color: var(--gold);
+}
+.saved-toast {
+  position: fixed;
+  inset-inline-start: 50%;
+  inset-block-end: calc(var(--tabbar) + env(safe-area-inset-bottom, 0px) + 16px);
+  z-index: 60;
+  max-inline-size: calc(100% - 32px);
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  transform: translate(-50%, 12px);
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+}
+[dir="rtl"] .saved-toast {
+  transform: translate(50%, 12px);
+}
+.saved-toast.is-on {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+[dir="rtl"] .saved-toast.is-on {
+  transform: translate(50%, 0);
+}
+@media (min-width: 960px) {
+  .saved-toast {
+    inset-block-end: 24px;
+  }
+}
+/* Phone lesson bar: the bookmark and share sit together at the end. */
+@media (max-width: 640px) {
+  .lesson-bar .saved-bookmark {
+    margin-inline-start: auto;
+  }
+  .lesson-bar .saved-bookmark + .lesson-bar-share {
+    margin-inline-start: 0;
+  }
+}
+.page.saved-page {
+  max-inline-size: 920px;
+  gap: 0;
+}
+.saved-page > h1 {
+  font-size: clamp(2.2rem, 5vw, 2.8rem);
+  line-height: 1.1;
+}
+.saved-note {
+  margin-block-start: 8px;
+  color: var(--ink-3);
+  font-size: var(--fs-sm);
+}
+.saved-note a {
+  color: var(--accent);
+}
+.saved-tabs {
+  display: flex;
+  gap: 24px;
+  margin-block-start: 24px;
+  border-block-end: 1px solid var(--line);
+}
+.saved-tab {
+  margin-block-end: -1px;
+  padding: 10px 0;
+  border: 0;
+  border-block-end: 2px solid transparent;
+  background: none;
+  color: var(--ink-3);
+  font-weight: 600;
+  cursor: pointer;
+}
+.saved-tab span {
+  margin-inline-start: 6px;
+  font-weight: 500;
+  color: var(--ink-3);
+}
+.saved-tab[aria-selected="true"] {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+.saved-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.saved-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-block-end: 1px solid var(--line);
+}
+.saved-list a {
+  flex: 1;
+  min-inline-size: 0;
+  display: grid;
+  gap: 2px;
+  padding-block: 16px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.saved-list a:hover strong {
+  color: var(--accent);
+}
+.saved-list strong {
+  font-family: var(--f-display);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  line-height: 1.35;
+}
+.saved-list a.is-arabic strong {
+  font-family: var(--f-ar-body);
+}
+.saved-list small {
+  color: var(--ink-3);
+  font-size: var(--fs-xs);
+}
+.saved-remove {
+  display: grid;
+  place-items: center;
+  flex: none;
+  inline-size: 40px;
+  block-size: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--ink-3);
+  cursor: pointer;
+}
+.saved-remove:hover {
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+}
+.saved-remove svg {
+  inline-size: 18px;
+  block-size: 18px;
+}
+.saved-empty {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+  padding-block: 32px;
+  color: var(--ink-3);
+}
+.saved-empty strong {
+  color: var(--ink);
+  font-family: var(--f-display);
+  font-size: var(--fs-lg);
+}
+.saved-empty .btn {
+  margin-block-start: 8px;
+}
+.saved-answer-head {
+  margin-block: 16px 24px;
+}
+.saved-answer-head h1 {
+  font-size: clamp(1.7rem, 4vw, 2.3rem);
+  line-height: 1.2;
+}
+.saved-count {
+  margin-inline-start: auto;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: var(--gold-soft);
+  color: var(--gold-ink);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+
+/* The count badge keeps its own size inside a stretching list row. */
+.list-row > .saved-count {
+  flex: none;
+  display: inline-block;
+}
+
+/* Home page on computers (Mo, 2026-10-29): wider page, bigger hero, search and popular questions
+   centred at a comfortable width, popular questions in two columns. Phones are unchanged. */
+@media (min-width: 960px) {
+  .home {
+    max-inline-size: 1120px;
+    gap: 36px;
+  }
+  .home-hero h1 {
+    font-size: clamp(2.8rem, 4.2vw, 3.8rem);
+    line-height: 1.08;
+  }
+  .home-hero .lead {
+    max-inline-size: 40em;
+    font-size: var(--fs-lg);
+  }
+  .home > .search-box {
+    inline-size: 100%;
+    max-inline-size: 880px;
+    justify-self: center;
+    min-block-size: 64px;
+  }
+  .home > .popular {
+    inline-size: 100%;
+    max-inline-size: 880px;
+    justify-self: center;
+  }
+  .home > .popular .chips {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .home > .popular .chip {
+    min-block-size: 52px;
+  }
+}
+/* Lift the home content on computers: less space above the logo (was 72px). */
+@media (min-width: 960px) {
+  .home {
+    padding-block-start: 28px;
+  }
+  .home-hero {
+    gap: 10px;
+    padding-block-start: 0;
+  }
+}
+
+/* ---------- Scholarly navy: clean accents instead of gold, and a livelier feel (Mo, 2026-10-29) ---------- */
+:root {
+  --card-shadow: 0 1px 2px rgba(15, 23, 42, 0.05), 0 2px 6px -2px rgba(15, 23, 42, 0.06);
+  --card-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.06), 0 14px 30px -12px rgba(15, 23, 42, 0.22);
+}
+[data-theme="dark"] {
+  --card-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 1px 2px rgba(0, 0, 0, 0.5);
+  --card-shadow-hover: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 16px 32px -14px rgba(0, 0, 0, 0.8);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --card-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 1px 2px rgba(0, 0, 0, 0.5);
+    --card-shadow-hover: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 16px 32px -14px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Home: the two big cards are a matched pair with a navy top line. */
+.home-gateway-card,
+.home-gateway-card--new {
+  border: 1px solid var(--line);
+  border-block-start: 3px solid var(--accent);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--card-shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.home-gateway-card:hover,
+.home-gateway-card:focus-visible,
+.home-gateway-card--new:hover,
+.home-gateway-card--new:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--accent-line);
+  border-block-start-color: var(--accent);
+  background: var(--surface);
+  box-shadow: var(--card-shadow-hover);
+}
+.home-gateway-icon,
+.home-gateway-card--new .home-gateway-icon {
+  border: 0;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.home-gateway-badge,
+.home-gateway-card--new .home-gateway-badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+}
+.home-gateway-card--new .home-gateway-action {
+  color: var(--accent);
+}
+
+/* Cards and lists: gentle depth, and a small lift on hover. */
+.topic-card,
+.home-topic,
+.home-how-item,
+.support-card,
+.support-help li,
+.learning-neighbour {
+  box-shadow: var(--card-shadow);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
+}
+.topic-card:hover,
+.home-topic:hover,
+.learning-neighbour:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+/* Navigation markers use the accent, not gold. */
+@media (min-width: 960px) {
+  .sidebar-nav a[aria-current="page"] {
+    background: var(--accent-soft);
+    border-inline-start-color: var(--accent);
+    color: var(--accent);
+  }
+}
+.tabbar a[aria-current="page"]::before,
+.tabbar .tab-more[aria-current="page"]::before {
+  background: var(--accent);
+}
+
+/* Support page: the hadith box is a soft navy tint. */
+.support-jariya {
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+}
+
+/* Text links and keyboard focus. */
+.text-link {
+  color: var(--link);
+}
+:where(a, button, summary, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-gateway-card,
+  .home-gateway-card--new,
+  .topic-card,
+  .home-topic,
+  .learning-neighbour {
+    transition: none;
+  }
+  .home-gateway-card:hover,
+  .home-gateway-card--new:hover,
+  .topic-card:hover,
+  .home-topic:hover,
+  .learning-neighbour:hover {
+    transform: none;
+  }
+}
+
+/* Bayan's identity: the logo keeps its original lapis blue and illumination gold in every theme,
+   independent of the interface colours above. */
+:root {
+  --brand-blue: #27408b;
+  --brand-gold: #a77b2b;
+}
+[data-theme="dark"] {
+  --brand-blue: #6b8fe6;
+  --brand-gold: #d4a852;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --brand-blue: #6b8fe6;
+    --brand-gold: #d4a852;
+  }
 }

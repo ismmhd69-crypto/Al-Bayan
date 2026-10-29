@@ -10,3 +10,9 @@
 .hard-reader .page-head{gap:12px}
 .hard-reader a:focus-visible,.hard-reader summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
 .hard-reader .learning-source summary{overflow-wrap:anywhere}
+
+/* Wide layout like the lessons (Mo, 2026-10-29): the side panel replaces the jump links on wide screens. */
+@media (min-width:1320px){.hard-layout .hard-jump{display:none}.hard-layout>.learning-reader{padding-block-start:32px}}
+
+/* Scholarly navy (Mo, 2026-10-29): Quran reference tags use the Quran green instead of gold. */
+.hard-ref--quran{background:var(--quran-bg)!important;border-color:var(--quran-line)!important;color:var(--quran-text)!important}

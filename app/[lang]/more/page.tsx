@@ -4,9 +4,9 @@ import { notFound } from "next/navigation";
 import { Bookmark, ChevronRight, CircleHelp, Compass, Flag, HeartHandshake, Info, Lock, type LucideIcon } from "lucide-react";
 import { getDictionary, isLocale } from "@/lib/i18n";
 import LangSwitch from "@/components/LangSwitch";
-import ThemeToggle from "@/components/ThemeToggle";
 import AccountRow from "@/components/AccountRow";
 import TeamReviewSection from "@/components/TeamReviewSection";
+import SavedMoreRow from "@/components/saved/SavedMoreRow";
 import { authText } from "@/lib/auth-text";
 import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
 
@@ -29,6 +29,7 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
   const rows: Row[][] = [
     // Not in the phone tab bar, so they lead the More page.
     [
+      { Icon: Bookmark, title: "saved", custom: <SavedMoreRow lang={lang} /> },
       { Icon: CircleHelp, title: d.nav.topics, href: `/${lang}/topics` },
       { Icon: Compass, title: d.nav.start, href: `/${lang}/start` },
     ],
@@ -38,7 +39,6 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
         title: t.account,
         custom: <AccountRow href={`/${lang}/account`} signInTitle={t.account} signInNote={t.accountNote} accountTitle={authText[lang].title} />,
       },
-      { Icon: Bookmark, title: t.saved, note: d.common.comingSoon },
     ],
     [
       { Icon: Info, title: t.about, href: `/${lang}/about` },
@@ -55,15 +55,6 @@ export default async function MorePage({ params }: { params: Promise<{ lang: str
       </header>
 
       {rows.slice(0, 1).map((group, i) => <RowList key={`top-${i}`} group={group} />)}
-
-      <section className="topic-group" aria-labelledby="theme-h">
-        <h2 id="theme-h" className="eyebrow">
-          {t.theme}
-        </h2>
-        <div className="more-theme-row">
-          <ThemeToggle labels={{ light: t.themeLight, dark: t.themeDark }} />
-        </div>
-      </section>
 
       <section className="topic-group" aria-labelledby="lang-h">
         <h2 id="lang-h" className="eyebrow">
