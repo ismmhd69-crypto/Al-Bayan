@@ -15397,6 +15397,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-702",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-702.json",
+      "sourceIds": ["b8693712-ec62-4789-b8b0-d69708f14f99", "fb4bc742-16bb-4490-97bb-b6e406443a67", "560ae3cd-540a-44a9-9fa9-dc68f5388a68", "af9870e8-13a9-4573-b7fa-1effe866b417", "2ed28571-de07-44ad-8af5-c1c7a96ccd76", "97800307-7a66-4196-beb4-beae85e29fdc"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15539,7 +15554,7 @@
       "status": "blocked",
       "reason": "The report directly quotes Quran 87:1. It remains blank in FR-LIB-HAD-BUKHARI-701 until an approved, attributed French Quran translation is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3499,
-  "hadithLocalDrafted": 3499,
-  "hadithLocalRemaining": 11158
+  "hadithBukhariDrafted": 3505,
+  "hadithLocalDrafted": 3505,
+  "hadithLocalRemaining": 11152
 }
