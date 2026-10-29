@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-0586",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:19:44.664Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "56858379-57bf-451b-b250-afb2e7048a5c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1323b",
+      "reference": "Sahih Muslim, hadith 1323 b, book 15, باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "title": "باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا وَكِيعٌ، عَنْ مِسْعَرٍ، عَنْ بُكَيْرِ بْنِ الأَخْنَسِ، عَنْ أَنَسٍ، قَالَ سَمِعْتُهُ يَقُولُ مُرَّ عَلَى النَّبِيِّ صلى الله عليه وسلم بِبَدَنَةٍ أَوْ هَدِيَّةٍ فَقَالَ ‏\"‏ ارْكَبْهَا ‏\"‏ ‏.‏ قَالَ إِنَّهَا بَدَنَةٌ أَوْ هَدِيَّةٌ ‏.‏ فَقَالَ ‏\"‏ وَإِنْ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "36a5fdd9814de9fb687e4a1359fbdf029af429996b77c43af1f14774121cd016",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Waki nous a rapporté, d'après Misar, d'après Bukayr ibn al-Akhnas, d'après Anas, qui a dit : J'ai entendu le Prophète ﷺ dire, lorsqu'on lui amena un chameau sacrificiel — ou une offrande : « Monte dessus. » L'homme répondit : « C'est un chameau sacrificiel — ou une offrande. » Il dit : « Même ainsi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a0148c1e-0354-413c-8183-70cf6909dac1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1323c",
+      "reference": "Sahih Muslim, hadith 1323 c, book 15, باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "title": "باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ بِشْرٍ، عَنْ مِسْعَرٍ، حَدَّثَنِي بُكَيْرُ بْنُ الأَخْنَسِ، قَالَ سَمِعْتُ أَنَسًا، يَقُولُ مُرَّ عَلَى النَّبِيِّ صلى الله عليه وسلم بِبَدَنَةٍ ‏.‏ فَذَكَرَ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "22124bc0a115fd156bf6be2887225aba5fda8ae268167dd51f317ca3d38c440f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source ne donne que l’ouverture du récit (« un chameau passa devant lui ») puis renvoie à la version précédente sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "3e3e2e51-7c0d-42b0-9c15-b4416a2b0426",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1324a",
+      "reference": "Sahih Muslim, hadith 1324 a, book 15, باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "title": "باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنِ ابْنِ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، قَالَ سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ، سُئِلَ عَنْ رُكُوبِ الْهَدْىِ، فَقَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ ارْكَبْهَا بِالْمَعْرُوفِ إِذَا أُلْجِئْتَ إِلَيْهَا حَتَّى تَجِدَ ظَهْرًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "afb713dffbc8b3898f0d35c67e3c65a795ff656a93a5aca1f9f450b3d34782e9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Hatim m'a rapporté : Yahya ibn Said nous a rapporté, d'après Ibn Jurayj. Abu al-Zubayr m'a informé avoir entendu Jabir ibn Abdullah interrogé sur le fait de monter une bête sacrificielle. Il répondit : J'ai entendu le Prophète ﷺ dire : « Monte dessus comme il convient, si tu y es contraint, jusqu'à ce que tu trouves une autre monture. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c9e44733-3632-41ed-a697-b98fb7ac95e8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1324b",
+      "reference": "Sahih Muslim, hadith 1324 b, book 15, باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "title": "باب جَوَازِ رُكُوبِ الْبَدَنَةِ الْمُهْدَاةِ لِمَنِ احْتَاجَ إِلَيْهَا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي سَلَمَةُ بْنُ شَبِيبٍ، حَدَّثَنَا الْحَسَنُ بْنُ أَعْيَنَ، حَدَّثَنَا مَعْقِلٌ، عَنْ أَبِي الزُّبَيْرِ، قَالَ سَأَلْتُ جَابِرًا عَنْ رُكُوبِ الْهَدْىِ، فَقَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ ارْكَبْهَا بِالْمَعْرُوفِ حَتَّى تَجِدَ ظَهْرًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ddc72e0476b3700c86225c6b5d85bf1453ebf8dbae91339e3920aa9b5c0bea64",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Salama ibn Shabib m'a rapporté : al-Hasan ibn Ayan nous a rapporté : Maqil nous a rapporté, d'après Abu al-Zubayr, qui a dit : J'ai demandé à Jabir au sujet du fait de monter une bête sacrificielle. Il répondit : J'ai entendu le Prophète ﷺ dire : « Monte dessus comme il convient jusqu'à ce que tu trouves une autre monture. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a6266456-12fc-4eb0-82b6-c5d997ed80be",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1325a",
+      "reference": "Sahih Muslim, hadith 1325 a, book 15, باب مَا يُفْعَلُ بِالْهَدْىِ إِذَا عَطِبَ فِي الطَّرِيقِ ‏‏",
+      "title": "باب مَا يُفْعَلُ بِالْهَدْىِ إِذَا عَطِبَ فِي الطَّرِيقِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا عَبْدُ الْوَارِثِ بْنُ سَعِيدٍ، عَنْ أَبِي التَّيَّاحِ الضُّبَعِيِّ، حَدَّثَنِي مُوسَى بْنُ سَلَمَةَ الْهُذَلِيُّ، قَالَ انْطَلَقْتُ أَنَا وَسِنَانُ بْنُ سَلَمَةَ، مُعْتَمِرَيْنِ قَالَ وَانْطَلَقَ سِنَانٌ مَعَهُ بِبَدَنَةٍ يَسُوقُهَا فَأَزْحَفَتْ عَلَيْهِ بِالطَّرِيقِ فَعَيِيَ بِشَأْنِهَا إِنْ هِيَ أُبْدِعَتْ كَيْفَ يَأْتِي بِهَا ‏.‏ فَقَالَ لَئِنْ قَدِمْتُ الْبَلَدَ لأَسْتَحْفِيَنَّ عَنْ ذَلِكَ ‏.‏ قَالَ فَأَضْحَيْتُ فَلَمَّا نَزَلْنَا الْبَطْحَاءَ قَالَ انْطَلِقْ إِلَى ابْنِ عَبَّاسٍ نَتَحَدَّثْ إِلَيْهِ ‏.‏ قَالَ فَذَكَرَ لَهُ شَأْنَ بَدَنَتِهِ ‏.‏ فَقَالَ عَلَى الْخَبِيرِ سَقَطْتَ بَعَثَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِسِتَّ عَشْرَةَ بَدَنَةً مَعَ رَجُلٍ وَأَمَّرَهُ فِيهَا - قَالَ - فَمَضَى ثُمَّ رَجَعَ فَقَالَ يَا رَسُولَ اللَّهِ كَيْفَ أَصْنَعُ بِمَا أُبْدِعَ عَلَىَّ مِنْهَا قَالَ ‏\"‏ انْحَرْهَا ثُمَّ اصْبُغْ نَعْلَيْهَا فِي دَمِهَا ثُمَّ اجْعَلْهُ عَلَى صَفْحَتِهَا وَلاَ تَأْكُلْ مِنْهَا أَنْتَ وَلاَ أَحَدٌ مِنْ أَهْلِ رُفْقَتِكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4b3837381c0a22db04076160fbe7606b1aed7be2ebc6664aaf8c73a3e652b517",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Abd al-Warith ibn Said nous a informés, d'après Abu al-Tayyah al-Dubai, qui m'a rapporté que Musa ibn Salama al-Hudhali a dit : Sinan ibn Salama et moi partîmes pour accomplir la umra. Sinan menait avec lui un chameau sacrificiel. Celui-ci s'affaiblit en chemin et Sinan, ne sachant que faire s'il venait à être immobilisé, dit : « Quand j'arriverai en ville, je demanderai des précisions à ce sujet. » Un matin, après notre arrivée à al-Batha, il me dit : « Allons trouver Ibn Abbas pour en parler. » Il lui exposa le problème de son chameau. Ibn Abbas dit : « Tu es tombé sur un connaisseur ! » Puis il dit : Le Messager d'Allah ﷺ envoya seize chameaux sacrificiels avec un homme et le chargea de s'en occuper. L'homme partit puis revint et demanda : « Ô Messager d'Allah, que dois-je faire de ceux qui se sont trouvés immobilisés ? » Il répondit : « Immole-les, trempe leurs deux sandales dans leur sang puis pose-les sur leurs flancs. Ni toi ni aucun membre de ton groupe n'en mangerez. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e7e3af23-1657-45bd-85e1-259ca41ae9fc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1325b",
+      "reference": "Sahih Muslim, hadith 1325 b, book 15, باب مَا يُفْعَلُ بِالْهَدْىِ إِذَا عَطِبَ فِي الطَّرِيقِ ‏‏",
+      "title": "باب مَا يُفْعَلُ بِالْهَدْىِ إِذَا عَطِبَ فِي الطَّرِيقِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ يَحْيَى بْنُ يَحْيَى، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَعَلِيُّ بْنُ حُجْرٍ قَالَ يَحْيَى أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، عَنْ أَبِي التَّيَّاحِ، عَنْ مُوسَى بْنِ سَلَمَةَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم بَعَثَ بِثَمَانَ عَشْرَةَ بَدَنَةً مَعَ رَجُلٍ ‏.‏ ثُمَّ ذَكَرَ بِمِثْلِ حَدِيثِ عَبْدِ الْوَارِثِ وَلَمْ يَذْكُرْ أَوَّلَ الْحَدِيثِ ‏.‏",
+      "source_hash_sha256": "0506fcbabc4cbc03d94cba2cbe666765ea62eb33b7da3e742553d87479dc5b0e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source précise que le récit est rapporté « dans le même sens » que la version précédente, tout en omettant son début. Elle ne fournit donc pas le récit complet. Garder toute la traduction française vide ; noter qu’elle donne le nombre de dix-huit bêtes sacrificielles, à vérifier avec le texte intégral."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a0148c1e-0354-413c-8183-70cf6909dac1",
+      "reason": "La source ne donne que l’ouverture du récit (« un chameau passa devant lui ») puis renvoie à la version précédente sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "e7e3af23-1657-45bd-85e1-259ca41ae9fc",
+      "reason": "La source précise que le récit est rapporté « dans le même sens » que la version précédente, tout en omettant son début. Elle ne fournit donc pas le récit complet. Garder toute la traduction française vide ; noter qu’elle donne le nombre de dix-huit bêtes sacrificielles, à vérifier avec le texte intégral."
+    }
+  ]
+}

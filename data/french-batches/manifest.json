@@ -41123,6 +41123,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0586",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0586.json",
+      "sourceIds": [
+        "56858379-57bf-451b-b250-afb2e7048a5c",
+        "a0148c1e-0354-413c-8183-70cf6909dac1",
+        "3e3e2e51-7c0d-42b0-9c15-b4416a2b0426",
+        "c9e44733-3632-41ed-a697-b98fb7ac95e8",
+        "a6266456-12fc-4eb0-82b6-c5d997ed80be",
+        "e7e3af23-1657-45bd-85e1-259ca41ae9fc"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, four private unpublished drafts, two incomplete variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45430,8 +45451,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8672,
-  "hadithLocalRemaining": 5957,
+  "hadithLocalDrafted": 8676,
+  "hadithLocalRemaining": 5953,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49133,10 +49154,20 @@
       "source_id": "8c469a22-371b-4bf6-b54e-3bd6285c5845",
       "reason": "La source ne donne que la chaîne de transmission et le début (« un homme menait un chameau sacrificiel muni de sa guirlande »), puis renvoie à la version précédente sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte complet.",
       "status": "blocked"
+    },
+    {
+      "source_id": "a0148c1e-0354-413c-8183-70cf6909dac1",
+      "reason": "La source ne donne que l’ouverture du récit (« un chameau passa devant lui ») puis renvoie à la version précédente sans en reprendre le contenu. Garder toute la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "e7e3af23-1657-45bd-85e1-259ca41ae9fc",
+      "reason": "La source précise que le récit est rapporté « dans le même sens » que la version précédente, tout en omettant son début. Elle ne fournit donc pas le récit complet. Garder toute la traduction française vide ; noter qu’elle donne le nombre de dix-huit bêtes sacrificielles, à vérifier avec le texte intégral.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2336,
+  "hadithMuslimDrafted": 2340,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1033
+  "hadithNeedsMo": 1035
 }

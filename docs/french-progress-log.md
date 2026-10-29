@@ -10056,3 +10056,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0585 saves four private French drafts about the sacrificial animals sent ahead and riding a sacrificial camel. Muslim 1321n and 1322b contain only cross-references or an incomplete opening and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1323b–1325b
+
+- FR-LIB-HAD-MUSLIM-0586 saves four private French drafts about using sacrificial animals as mounts and handling an immobilized camel. Muslim 1323c and 1325b are incomplete variants; both remain blank under Needs Mo. The latter reports eighteen animals, while the related complete account says sixteen; this difference is preserved as a source-integrity question, not reconciled by inference.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
