@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1314",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:33:39.372Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1a8a8769-2e81-432a-944d-0ae52ec3d63d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2901d",
+      "reference": "Sahih Muslim, hadith 2901 d, book 54, باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "title": "باب فِي الآيَاتِ الَّتِي تَكُونُ قَبْلَ السَّاعَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو النُّعْمَانِ الْحَكَمُ بْنُ عَبْدِ اللَّهِ الْعِجْلِيُّ، حَدَّثَنَا شُعْبَةُ، عَنْ فُرَاتٍ، قَالَ سَمِعْتُ أَبَا الطُّفَيْلِ، يُحَدِّثُ عَنْ أَبِي سَرِيحَةَ، قَالَ كُنَّا نَتَحَدَّثُ فَأَشْرَفَ عَلَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ بِنَحْوِ حَدِيثِ مُعَاذٍ وَابْنِ جَعْفَرٍ ‏.‏ وَقَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا أَبُو النُّعْمَانِ الْحَكَمُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا شُعْبَةُ، عَنْ عَبْدِ، الْعَزِيزِ بْنِ رُفَيْعٍ عَنْ أَبِي الطُّفَيْلِ، عَنْ أَبِي سَرِيحَةَ، بِنَحْوِهِ قَالَ وَالْعَاشِرَةُ نُزُولُ عِيسَى ابْنِ مَرْيَمَ ‏.‏ قَالَ شُعْبَةُ وَلَمْ يَرْفَعْهُ عَبْدُ الْعَزِيزِ ‏.‏",
+      "source_hash_sha256": "6ae509b274471edb00d3f710bf4642d28de55f7c0127cf570eec3ce7b664cfb9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4b0a545e-422a-46aa-aac6-a498f58260a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2902",
+      "reference": "Sahih Muslim, hadith 2902, book 54, باب لاَ تَقُومُ السَّاعَةُ حَتَّى تَخْرُجَ نَارٌ مِنْ أَرْضِ الْحِجَازِ",
+      "title": "باب لاَ تَقُومُ السَّاعَةُ حَتَّى تَخْرُجَ نَارٌ مِنْ أَرْضِ الْحِجَازِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي ابْنُ الْمُسَيَّبِ، أَنَّ أَبَا هُرَيْرَةَ، أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ح وَحَدَّثَنِي عَبْدُ الْمَلِكِ بْنُ شُعَيْبِ بْنِ اللَّيْثِ، حَدَّثَنَا أَبِي، عَنْ جَدِّي، حَدَّثَنِي عُقَيْلُ بْنُ، خَالِدٍ عَنِ ابْنِ شِهَابٍ، أَنَّهُ قَالَ قَالَ ابْنُ الْمُسَيَّبِ أَخْبَرَنِي أَبُو هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَقُومُ السَّاعَةُ حَتَّى تَخْرُجَ نَارٌ مِنْ أَرْضِ الْحِجَازِ تُضِيءُ أَعْنَاقَ الإِبِلِ بِبُصْرَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "695f63ddfe036f94e39eaa1064eda6baca4d49f63c3a25b08901826e438d432b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ḥarmala ibn Yaḥyā m’a rapporté : Ibn Wahb nous a informés : Yūnus m’a rapporté, d’après Ibn Shihāb : Ibn al-Musayyab m’a informé qu’Abū Hurayra lui avait rapporté que le Messager d’Allah ﷺ avait dit… ʿAbd al-Malik ibn Shuʿayb ibn al-Layth m’a également rapporté : mon père nous a rapporté, d’après mon grand-père : ʿUqayl ibn Khālid m’a rapporté, d’après Ibn Shihāb, qui a dit : Ibn al-Musayyab m’a rapporté qu’Abū Hurayra lui avait rapporté que le Messager d’Allah ﷺ a dit : « L’Heure ne surviendra pas avant qu’un feu ne sorte du territoire du Ḥijāz et n’éclaire le cou des chameaux à Buṣrā. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "71f2d84e-9c9f-4d43-8d50-3bd2075a5f16",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2903",
+      "reference": "Sahih Muslim, hadith 2903, book 54, باب فِي سُكْنَى الْمَدِينَةِ وَعِمَارَتِهَا قَبْلَ السَّاعَةِ",
+      "title": "باب فِي سُكْنَى الْمَدِينَةِ وَعِمَارَتِهَا قَبْلَ السَّاعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَمْرٌو النَّاقِدُ، حَدَّثَنَا الأَسْوَدُ بْنُ عَامِرٍ، حَدَّثَنَا زُهَيْرٌ، عَنْ سُهَيْلِ بْنِ أَبِي، صَالِحٍ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ تَبْلُغُ الْمَسَاكِنُ إِهَابَ أَوْ يَهَابَ ‏\"‏ ‏.‏ قَالَ زُهَيْرٌ قُلْتُ لِسُهَيْلٍ فَكَمْ ذَلِكَ مِنَ الْمَدِينَةِ قَالَ كَذَا وَكَذَا مِيلاً ‏.‏",
+      "source_hash_sha256": "05843e5843d1015ac97eb81d15b77d0de66142d9a36764fa432395a33604fc3a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "979403dc-2b58-4455-a163-dbf0dae65f9a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2904",
+      "reference": "Sahih Muslim, hadith 2904, book 54, باب فِي سُكْنَى الْمَدِينَةِ وَعِمَارَتِهَا قَبْلَ السَّاعَةِ",
+      "title": "باب فِي سُكْنَى الْمَدِينَةِ وَعِمَارَتِهَا قَبْلَ السَّاعَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَعْقُوبُ، - يَعْنِي ابْنَ عَبْدِ الرَّحْمَنِ - عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيْسَتِ السَّنَةُ بِأَنْ لاَ تُمْطَرُوا وَلَكِنِ السَّنَةُ أَنْ تُمْطَرُوا وَتُمْطَرُوا وَلاَ تُنْبِتُ الأَرْضُ شَيْئًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "de97bbd707d2f5156dfcc46fd4b0442444288b849eb604752df9447fa61a03dd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : Yaʿqūb, c’est-à-dire Ibn ʿAbd al-Raḥmān, nous a rapporté, d’après Suhayl, d’après son père, d’après Abū Hurayra, que le Messager d’Allah ﷺ a dit : « La sécheresse ne consiste pas à ne pas recevoir de pluie. La véritable sécheresse consiste à recevoir la pluie encore et encore sans que la terre ne fasse pousser quoi que ce soit. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "adec33a6-e930-4de7-8af6-a57d6da62190",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2905a",
+      "reference": "Sahih Muslim, hadith 2905 a, book 54, باب الْفِتْنَةِ مِنَ الْمَشْرِقِ مِنْ حَيْثُ يَطْلُعُ قَرْنَا الشَّيْطَانِ",
+      "title": "باب الْفِتْنَةِ مِنَ الْمَشْرِقِ مِنْ حَيْثُ يَطْلُعُ قَرْنَا الشَّيْطَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، ح وَحَدَّثَنِي مُحَمَّدُ بْنُ رُمْحٍ، أَخْبَرَنَا اللَّيْثُ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم وَهُوَ مُسْتَقْبِلُ الْمَشْرِقِ يَقُولُ ‏\"‏ أَلاَ إِنَّ الْفِتْنَةَ هَا هُنَا أَلاَ إِنَّ الْفِتْنَةَ هَا هُنَا مِنْ حَيْثُ يَطْلُعُ قَرْنُ الشَّيْطَانِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d98ce669f48a7d068260c81a3ee9e883d029d3e0bb01fa9c204c550ff981ba2e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : al-Layth nous a rapporté. Muḥammad ibn Rumḥ m’a également rapporté : al-Layth nous a informés, d’après Nāfiʿ, d’après Ibn ʿUmar, qui a entendu le Messager d’Allah ﷺ, tourné vers l’est, dire : « Attention ! L’épreuve est ici. Attention ! L’épreuve est ici, du côté d’où se lève la corne de Satan. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4fb44fc0-5863-4f6e-9d03-8c5f281ec4d2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2905b",
+      "reference": "Sahih Muslim, hadith 2905 b, book 54, باب الْفِتْنَةِ مِنَ الْمَشْرِقِ مِنْ حَيْثُ يَطْلُعُ قَرْنَا الشَّيْطَانِ",
+      "title": "باب الْفِتْنَةِ مِنَ الْمَشْرِقِ مِنْ حَيْثُ يَطْلُعُ قَرْنَا الشَّيْطَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عُبَيْدُ اللَّهِ بْنُ عُمَرَ الْقَوَارِيرِيُّ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، وَحَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ، سَعِيدٍ كُلُّهُمْ عَنْ يَحْيَى الْقَطَّانِ، قَالَ الْقَوَارِيرِيُّ حَدَّثَنِي يَحْيَى بْنُ سَعِيدٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ، عُمَرَ حَدَّثَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَامَ عِنْدَ بَابِ حَفْصَةَ فَقَالَ بِيَدِهِ نَحْوَ الْمَشْرِقِ ‏\"‏ الْفِتْنَةُ هَا هُنَا مِنْ حَيْثُ يَطْلُعُ قَرْنُ الشَّيْطَانِ ‏\"‏ ‏.‏ قَالَهَا مَرَّتَيْنِ أَوْ ثَلاَثًا ‏.‏ وَقَالَ عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ فِي رِوَايَتِهِ قَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم عِنْدَ بَابِ عَائِشَةَ ‏.‏",
+      "source_hash_sha256": "95b91244df1e81423b3defb98694df299ae396781d1590e7633205ce7510a5db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿUbayd Allāh ibn ʿUmar al-Qawārīrī, Muḥammad ibn al-Muthannā et ʿUbayd Allāh ibn Saʿīd nous ont rapporté, tous d’après Yaḥyā al-Qaṭṭān. Al-Qawārīrī a dit : Yaḥyā ibn Saʿīd m’a rapporté, d’après ʿUbayd Allāh ibn ʿUmar : Nāfiʿ m’a rapporté, d’après Ibn ʿUmar, que le Messager d’Allah ﷺ se tint près de la porte de Ḥafṣa et indiqua de la main la direction de l’est en disant : « L’épreuve est ici, du côté d’où se lève la corne de Satan. » Il répéta ces paroles deux ou trois fois. ʿUbayd Allāh ibn Saʿīd dit dans sa version : « Le Messager d’Allah ﷺ se tint près de la porte de ʿĀʾisha. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1a8a8769-2e81-432a-944d-0ae52ec3d63d",
+      "reason": "Cette entrée renvoie au récit précédent et ne fournit qu’une variante de chaîne et une mention du dixième signe. Garder la traduction française vide jusqu’à validation du texte complet.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "71f2d84e-9c9f-4d43-8d50-3bd2075a5f16",
+      "reason": "Le nom de lieu apparaît sous deux formes inhabituelles et son identification doit être confirmée avant de choisir une transcription française. Garder la traduction française vide jusque-là.",
+      "status": "blocked"
+    }
+  ]
+}
