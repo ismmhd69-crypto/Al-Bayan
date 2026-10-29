@@ -10076,3 +10076,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0589 saves five private French drafts about entering the Kaaba and reports concerning its structure. Muslim 1333b contains only a cross-reference to the prior chain and remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1333e
+
+- FR-LIB-HAD-MUSLIM-0590 saves one private French draft about the Kaaba’s structure and the reason the Prophet ﷺ did not rebuild it. The next long source remains deferred for isolated handling.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
