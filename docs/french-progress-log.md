@@ -3341,3 +3341,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-685` saves five private French drafts about the early Muslims and ‘Umar. Bukhari 3866 remains blank because its local Arabic text contains an obscure rhyming passage whose exact meaning is unclear.
 - All six records passed the focused validator, including the unclear-wording hold. No database writes or publication occurred. Bukhari local drafts: 3,444 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 255. Total local hadith rows not drafted: 11,213, including held records.
+
+### 2026-10-29: Bukhari 3868–3871
+
+- `FR-LIB-HAD-BUKHARI-686` saves four private French drafts about the splitting of the moon.
+- All four records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,448 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 255. Total local hadith rows not drafted: 11,209, including held records.
