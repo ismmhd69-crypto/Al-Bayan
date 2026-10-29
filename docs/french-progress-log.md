@@ -7630,3 +7630,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0104 saves five private French drafts across Muslim 220b–222b, preserving the shortened wording in 220b and the variants and narrator chains in 221a–c and 222b.
 - Muslim 222a directly repeats Quranic wording about the Day of Judgment. Its full translation remains blank under Needs Mo pending confirmation of an approved French Quran translation and usage rights.
 - All six Arabic source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 409 Muslim drafts, 6,745 total hadith drafts, 7,884 remaining, and 242 Needs Mo items.
+
+### 2026-10-29: Muslim 223–226b
+
+- FR-LIB-HAD-MUSLIM-0105 saves five private French drafts about purification and ablution, preserving the variants and complete narrator chains.
+- Muslim 224b contains only a chain and a note that its wording is similar to another report; its missing wording remains blank under Needs Mo rather than copied from 224a.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 414 Muslim drafts, 6,750 total hadith drafts, 7,879 remaining, and 243 Needs Mo items.

@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:32:33.231Z",
+  "lastReconciled": "2026-10-29T14:33:32.228Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 409,
+    "hadithMuslimDrafted": 414,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6745,
-    "hadithDatabaseMissing": 7884,
-    "hadithLocalRemaining": 7884,
-    "hadithNeedsMo": 242,
+    "hadithLocalDrafted": 6750,
+    "hadithDatabaseMissing": 7879,
+    "hadithLocalRemaining": 7879,
+    "hadithNeedsMo": 243,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31182,6 +31182,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0105",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0105.json",
+      "sourceIds": [
+        "35f6d31d-68bf-4ebc-866e-813a0b5dbe39",
+        "2e35f441-ade5-49fc-9e60-f98030a72627",
+        "30064588-1606-4512-9d01-e9ed583ab271",
+        "988a6558-9b16-4f9d-b1ad-3f77dd610b41",
+        "7390513f-fc0a-424a-b654-d00faf50ae0f",
+        "0e584bfe-cce0-45e2-9bf7-fef1efd82950"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; incomplete source variant held blank for review",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35489,8 +35510,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6745,
-  "hadithLocalRemaining": 7884,
+  "hadithLocalDrafted": 6750,
+  "hadithLocalRemaining": 7879,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -36943,10 +36964,16 @@
       "scope": "Sahih Muslim 222a: direct Quran quotation",
       "status": "blocked",
       "reason": "Ce récit reprend directement des paroles coraniques sur le Jour du Jugement, notamment les versets 22:2 et 73:17. Garder toute la traduction française en attente jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "id": "HADITH-MUSLIM-224B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 224b: incomplete variant text",
+      "status": "blocked",
+      "reason": "La source arabe donne une chaîne de transmission puis indique seulement que le hadith est rapporté avec une formulation semblable, sans reprendre le texte. Ne pas compléter à partir du hadith voisin ; garder la traduction en attente d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 409,
-  "hadithDatabaseMissing": 7884,
+  "hadithMuslimDrafted": 414,
+  "hadithDatabaseMissing": 7879,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 242
+  "hadithNeedsMo": 243
 }
