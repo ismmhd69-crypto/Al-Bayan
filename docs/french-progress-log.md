@@ -6706,3 +6706,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1305 saves five private French drafts. Hadith 7155 ends after introducing a quotation but before the report itself, so its complete French text remains blank and is recorded under Needs Mo. No database writes or publication occurred.
 - All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,021 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 850. Total local hadith rows not drafted: 8,608, including held records.
+
+### 2026-10-29: Bukhari 7156–7161
+
+- FR-LIB-HAD-BUKHARI-1306 saves six private French drafts, preserving the narrative boundaries, procedural details, and conditions. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,027 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 850. Total local hadith rows not drafted: 8,602, including held records.
