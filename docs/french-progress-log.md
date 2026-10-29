@@ -579,3 +579,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - Bukhari 610 remains blank and held under Needs Mo because its closing Arabic phrase is a Quran quotation and no approved, attributed French Quran translation is configured. No French Quran wording was created.
 - The focused validator passed all six records, including original Arabic hashes, rights metadata, private unpublished state and the reason-specific hold. Five local drafts were added; one additional hadith is held. No database writes or publication occurred.
 - Bukhari local drafts: 571 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,058, including held records.
+
+### 2026-10-29: Bukhari 614–619 source review
+
+- `FR-LIB-HAD-BUKHARI-112` saved private French drafts for Bukhari 614–619. The translations retain the narrator chains, the full post-adhan supplication and its promised intercession, the report’s distinction between the two calls at night, and the instruction to pray in dwellings on a muddy day.
+- The batch passed the focused validator for all six records, including Arabic hashes, IDs, rights, private unpublished state and the one-item limit for long reports. No Needs Mo item was identified in this batch. No database writes or publication occurred.
+- Bukhari local drafts: 577 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 28. Total local hadith rows not drafted: 14,052, including held records.
