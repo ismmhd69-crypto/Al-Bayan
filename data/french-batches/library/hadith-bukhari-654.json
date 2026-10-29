@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-654",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:37:14.002Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "6e32b120-955e-4009-a6ea-f178b3596280",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3699",
+      "reference": "Sahih al-Bukhari, hadith 3699, book 62, باب مَنَاقِبُ عُثْمَانَ بْنِ عَفَّانَ أَبِي عَمْرٍو الْقُرَشِيِّ رضى الله عنه",
+      "title": "باب مَنَاقِبُ عُثْمَانَ بْنِ عَفَّانَ أَبِي عَمْرٍو الْقُرَشِيِّ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى، عَنْ سَعِيدٍ، عَنْ قَتَادَةَ، أَنَّ أَنَسًا ـ رضى الله عنه ـ حَدَّثَهُمْ قَالَ صَعِدَ النَّبِيُّ صلى الله عليه وسلم أُحُدًا، وَمَعَهُ أَبُو بَكْرٍ وَعُمَرُ وَعُثْمَانُ، فَرَجَفَ وَقَالَ ‏\"‏ اسْكُنْ أُحُدُ ـ أَظُنُّهُ ضَرَبَهُ بِرِجْلِهِ ـ فَلَيْسَ عَلَيْكَ إِلاَّ نَبِيٌّ وَصِدِّيقٌ وَشَهِيدَانِ ‏\"‏‏.‏",
+      "source_hash_sha256": "56bd66b94f91bfdc732de3a3f7096889dd4c4261839716fe170a85260da3c3f6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que le Prophète gravit le mont Uhud avec Abû Bakr, ‘Umar et ‘Uthmân. La montagne trembla et le Prophète dit : « Calme-toi, Uhud — je crois qu’il l’a frappé du pied —, car il n’y a sur toi qu’un Prophète, un véridique et deux martyrs. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
