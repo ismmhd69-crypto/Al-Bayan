@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-BUKHARI-891",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:37:21.961Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "99b86051-ea7b-4659-a122-4f3749277705",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4883",
+      "reference": "Sahih al-Bukhari, hadith 4883, book 65, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَسَنُ بْنُ مُدْرِكٍ، حَدَّثَنَا يَحْيَى بْنُ حَمَّادٍ، أَخْبَرَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدٍ، قَالَ قُلْتُ لاِبْنِ عَبَّاسٍ ـ رضى الله عنهما ـ سُورَةُ الْحَشْرِ قَالَ قُلْ سُورَةُ النَّضِيرِ‏.‏",
+      "source_hash_sha256": "66a3f6e6b4bce68d4b656aab40d9a7546fa4e4e7995064728c2071225b4a4221",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Saʿîd rapporte qu’il demanda à Ibn ʿAbbâs (qu’Allah les agrée tous deux) au sujet de la sourate al-Ḥashr. Ibn ʿAbbâs répondit : « Appelle-la plutôt la sourate an-Naḍîr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4e558dbc-d863-4915-91cb-c590243af8f2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4884",
+      "reference": "Sahih al-Bukhari, hadith 4884, book 65, باب ‏ {‏مَا قَطَعْتُمْ مِنْ لِينَةٍ‏} ‏",
+      "title": "باب ‏ {‏مَا قَطَعْتُمْ مِنْ لِينَةٍ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا لَيْثٌ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَرَّقَ نَخْلَ بَنِي النَّضِيرِ وَقَطَعَ، وَهْىَ الْبُوَيْرَةُ، فَأَنْزَلَ اللَّهُ تَعَالَى ‏[quran sura=\"59\" aya_start=\"5\" aya_end=\"5\"]{‏مَا قَطَعْتُمْ مِنْ لِينَةٍ أَوْ تَرَكْتُمُوهَا قَائِمَةً عَلَى أُصُولِهَا فَبِإِذْنِ اللَّهِ وَلِيُخْزِيَ الْفَاسِقِينَ‏}‏",
+      "source_hash_sha256": "b5d849ace5967c95ab07e4b8d41189f2732a2b4904e858088a865a85d7018049",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0633fcb8-f11a-4e7c-b879-4b06f6f8cd39",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4885",
+      "reference": "Sahih al-Bukhari, hadith 4885, book 65, باب قَوْلُهُ ‏ {‏مَا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ‏} ‏",
+      "title": "باب قَوْلُهُ ‏ {‏مَا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَان ُ ـ غَيْرَ مَرَّةٍ ـ عَنْ عَمْرٍو، عَنِ الزُّهْرِيِّ، عَنْ مَالِكِ بْنِ أَوْسِ بْنِ الْحَدَثَانِ، عَنْ عُمَرَ ـ رضى الله عنه ـ قَالَ كَانَتْ أَمْوَالُ بَنِي النَّضِيرِ مِمَّا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ صلى الله عليه وسلم مِمَّا لَمْ يُوجِفِ الْمُسْلِمُونَ عَلَيْهِ بِخَيْلٍ وَلاَ رِكَابٍ، فَكَانَتْ لِرَسُولِ اللَّهِ صلى الله عليه وسلم خَاصَّةً، يُنْفِقُ عَلَى أَهْلِهِ مِنْهَا نَفَقَةَ سَنَتِهِ، ثُمَّ يَجْعَلُ مَا بَقِيَ فِي السِّلاَحِ وَالْكُرَاعِ، عُدَّةً فِي سَبِيلِ اللَّهِ‏.‏",
+      "source_hash_sha256": "596113db11bb8da1dc9606d1372545653f9b8dff2dedd24fcebffb657fd5669b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bed82ca2-1642-4869-8928-6db6a113d7af",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4886",
+      "reference": "Sahih al-Bukhari, hadith 4886, book 65, باب ‏ {‏وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ‏} ‏",
+      "title": "باب ‏ {‏وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ مَنْصُورٍ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ، قَالَ لَعَنَ اللَّهُ الْوَاشِمَاتِ وَالْمُوتَشِمَاتِ وَالْمُتَنَمِّصَاتِ وَالْمُتَفَلِّجَاتِ لِلْحُسْنِ الْمُغَيِّرَاتِ خَلْقَ اللَّهِ‏.‏ فَبَلَغَ ذَلِكَ امْرَأَةً مِنْ بَنِي أَسَدٍ يُقَالُ لَهَا أُمُّ يَعْقُوبَ، فَجَاءَتْ فَقَالَتْ إِنَّهُ بَلَغَنِي أَنَّكَ لَعَنْتَ كَيْتَ وَكَيْتَ‏.‏ فَقَالَ وَمَا لِي لاَ أَلْعَنُ مَنْ لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَمَنْ هُوَ فِي كِتَابِ اللَّهِ فَقَالَتْ لَقَدْ قَرَأْتُ مَا بَيْنَ اللَّوْحَيْنِ فَمَا وَجَدْتُ فِيهِ مَا تَقُولُ‏.‏ قَالَ لَئِنْ كُنْتِ قَرَأْتِيهِ لَقَدْ وَجَدْتِيهِ، أَمَا قَرَأْتِ ‏[quran sura=\"59\" aya_start=\"7\" aya_end=\"7\"]{‏وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانْتَهُوا‏}‏‏.‏ قَالَتْ بَلَى‏.‏ قَالَ فَإِنَّهُ قَدْ نَهَى عَنْهُ‏.‏ قَالَتْ فَإِنِّي أَرَى أَهْلَكَ يَفْعَلُونَهُ‏.‏ قَالَ فَاذْهَبِي فَانْظُرِي‏.‏ فَذَهَبَتْ فَنَظَرَتْ فَلَمْ تَرَ مِنْ حَاجَتِهَا شَيْئًا، فَقَالَ لَوْ كَانَتْ كَذَلِكَ مَا جَامَعْتُها.",
+      "source_hash_sha256": "53a0a6a0d87b6ce3dc3b3022ff6e6c111d4dd1e512a033cd2c43aad53f27eb73",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8a13d362-508e-4ed6-8503-2b39bcbd2c97",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4887",
+      "reference": "Sahih al-Bukhari, hadith 4887, book 65, باب ‏ {‏وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ‏} ‏",
+      "title": "باب ‏ {‏وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، قَالَ ذَكَرْتُ لِعَبْدِ الرَّحْمَنِ بْنِ عَابِسٍ حَدِيثَ مَنْصُورٍ عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، عَنْ عَبْدِ اللَّهِ ـ رضى الله عنه ـ قَالَ لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْوَاصِلَةَ فَقَالَ سَمِعْتُهُ مِنِ امْرَأَةٍ يُقَالُ لَهَا أُمُّ يَعْقُوبَ عَنْ عَبْدِ اللَّهِ مِثْلَ حَدِيثِ مَنْصُورٍ‏.‏",
+      "source_hash_sha256": "6904ff5b5fe667dd5a78f3db20fffcc305f305e2c4c160917c7445b959e3a341",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sufyân rapporte qu’il mentionna à ʿAbd ar-Raḥmân ibn ʿÂbis le récit de Manṣûr, d’après Ibrâhîm, d’après ʿAlqama, d’après ʿAbd Allâh (qu’Allah l’agrée), selon lequel le Messager d’Allah (paix et bénédictions sur lui) a maudit la femme qui ajoute des mèches de cheveux. ʿAbd ar-Raḥmân répondit : « Je l’ai entendu d’une femme appelée Umm Yaʿqûb, qui le rapportait de ʿAbd Allâh, comme dans le récit de Manṣûr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "670b65df-4517-40d8-8e34-48dcd27b3bd5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4888",
+      "reference": "Sahih al-Bukhari, hadith 4888, book 65, باب ‏ {‏وَالَّذِينَ تَبَوَّءُوا الدَّارَ وَالإِيمَانَ‏} ‏",
+      "title": "باب ‏ {‏وَالَّذِينَ تَبَوَّءُوا الدَّارَ وَالإِيمَانَ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا أَبُو بَكْرٍ، عَنْ حُصَيْنٍ، عَنْ عَمْرِو بْنِ مَيْمُونٍ، قَالَ قَالَ عُمَرُ رضى الله عنه أُوصِي الْخَلِيفَةَ بِالْمُهَاجِرِينَ الأَوَّلِينَ أَنْ يَعْرِفَ لَهُمْ حَقَّهُمْ، وَأُوصِي الْخَلِيفَةَ بِالأَنْصَارِ الَّذِينَ تَبَوَّءُوا الدَّارَ وَالإِيمَانَ مِنْ قَبْلِ أَنْ يُهَاجِرَ النَّبِيُّ صلى الله عليه وسلم أَنْ يَقْبَلَ مِنْ مُحْسِنِهِمْ وَيَعْفُوَ عَنْ مُسِيئِهِمْ‏.‏",
+      "source_hash_sha256": "fe9565badbdfe5504f8cd31a7bd1bf97976ffd9f6852fd59e1a0f3e999bd7e02",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4e558dbc-d863-4915-91cb-c590243af8f2",
+      "url": "https://sunnah.com/bukhari:4884",
+      "reason": "Le rapport cite directement Quran 59:5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "bed82ca2-1642-4869-8928-6db6a113d7af",
+      "url": "https://sunnah.com/bukhari:4886",
+      "reason": "Le rapport cite directement Quran 59:7. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "670b65df-4517-40d8-8e34-48dcd27b3bd5",
+      "url": "https://sunnah.com/bukhari:4888",
+      "reason": "Le rapport cite directement Quran 59:9 (formule directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "0633fcb8-f11a-4e7c-b879-4b06f6f8cd39",
+      "url": "https://sunnah.com/bukhari:4885",
+      "reason": "Le rapport reprend directement Quran 59:6 dans l’expression « مما أفاء الله على رسوله », sans marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}

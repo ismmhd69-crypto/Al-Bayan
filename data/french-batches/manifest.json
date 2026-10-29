@@ -19161,6 +19161,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-891",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-891.json",
+      "sourceIds": [
+        "99b86051-ea7b-4659-a122-4f3749277705",
+        "4e558dbc-d863-4915-91cb-c590243af8f2",
+        "0633fcb8-f11a-4e7c-b879-4b06f6f8cd39",
+        "bed82ca2-1642-4869-8928-6db6a113d7af",
+        "8a13d362-508e-4ed6-8503-2b39bcbd2c97",
+        "670b65df-4517-40d8-8e34-48dcd27b3bd5"
+      ],
+      "translated": 2,
+      "inserted": 0,
+      "preserved": 4,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21383,9 +21404,33 @@
       "scope": "Sahih al-Bukhari 4881: direct Quran quotation from 56:30",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 56:30. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-890, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4884-QURAN-59-5",
+      "scope": "Sahih al-Bukhari 4884: direct Quran wording from 59:5",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 59:5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4886-QURAN-59-7",
+      "scope": "Sahih al-Bukhari 4886: direct Quran wording from 59:7",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 59:7. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4888-QURAN-4888-UNMARKED",
+      "scope": "Sahih al-Bukhari 4888: direct Quran wording from 59:9 (formule directe sans marqueur)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 59:9 (formule directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4885-QURAN-59-6-UNMARKED",
+      "scope": "Sahih al-Bukhari 4885: direct Quran 59:6 wording absent from source tags",
+      "status": "blocked",
+      "reason": "Le rapport reprend directement Quran 59:6 dans l’expression « مما أفاء الله على رسوله », sans marqueur dans le texte source. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-891, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4057,
-  "hadithLocalDrafted": 4057,
-  "hadithLocalRemaining": 10610
+  "hadithBukhariDrafted": 4059,
+  "hadithLocalDrafted": 4059,
+  "hadithLocalRemaining": 10608
 }
