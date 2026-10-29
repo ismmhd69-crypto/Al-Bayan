@@ -5340,3 +5340,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1042 saves six private French drafts about recited supplications and the evil eye. Uncertain wording is retained where the source gives variants.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,777 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 746. Total local hadith rows not drafted: 9,852, including held records.
+
+
+### 2026-10-29: Bukhari 5742–5747
+
+- FR-LIB-HAD-BUKHARI-1043 saves six private French drafts, preserving the alternate transmission of the healing supplication.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,783 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 746. Total local hadith rows not drafted: 9,846, including held records.
