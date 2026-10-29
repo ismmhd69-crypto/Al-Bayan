@@ -7971,3 +7971,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0169 saves one private French draft of the tashahhud. Muslim 403b says that the Prophet taught the tashahhud but does not give its wording, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - Both source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 702 Muslim drafts, 7,038 total hadith drafts, 7,591 remaining, and 329 Needs Mo items.
+
+### 2026-10-29: Muslim 404a (solo long source)
+
+- FR-LIB-HAD-MUSLIM-0170 records the 2,229-character source by itself. It contains a direct quotation from Quran 1:7, so the full French text remains blank until an approved, attributed French Quran translation with permitted use is confirmed. A further long source was deferred by the exporter for a later solo batch.
+- The source hash is retained; the focused validator passed. No database write or publication occurred. Counts remain 702 Muslim drafts, 7,038 total hadith drafts, and 7,591 remaining; Needs Mo is now 330.

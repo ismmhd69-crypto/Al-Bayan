@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T15:12:12.573Z",
+  "lastReconciled": "2026-10-29T15:12:31.717Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -32537,6 +32537,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0170",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0170.json",
+      "sourceIds": [
+        "de2b9eac-78fd-4ed7-9846-a804c485b60e"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; solo long report held because it contains a direct Quran quotation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -38465,5 +38481,5 @@
   "hadithMuslimDrafted": 702,
   "hadithDatabaseMissing": 7591,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 329
+  "hadithNeedsMo": 330
 }
