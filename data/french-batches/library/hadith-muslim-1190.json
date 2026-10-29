@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-1190",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:37:33.985Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "89e55756-20cd-4af4-a0f8-947c9245e052",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2568d",
+      "reference": "Sahih Muslim, hadith 2568 d, book 45, باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "title": "باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، جَمِيعًا عَنْ يَزِيدَ، - وَاللَّفْظُ لِزُهَيْرٍ - حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، أَخْبَرَنَا عَاصِمٌ الأَحْوَلُ، عَنْ عَبْدِ اللَّهِ بْنِ زَيْدٍ، - وَهُوَ أَبُو قِلاَبَةَ - عَنْ أَبِي الأَشْعَثِ الصَّنْعَانِيِّ، عَنْ أَبِي أَسْمَاءَ الرَّحَبِيِّ، عَنْ ثَوْبَانَ، مَوْلَى رَسُولِ اللَّهِ صلى الله عليه وسلم عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ عَادَ مَرِيضًا لَمْ يَزَلْ فِي خُرْفَةِ الْجَنَّةِ ‏\"‏ ‏.‏ قِيلَ يَا رَسُولَ اللَّهِ وَمَا خُرْفَةُ الْجَنَّةِ قَالَ ‏\"‏ جَنَاهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2d1f4458c3b2c1799bdf73f41010a8c99f039867271bac2efe6375dfbba8bde7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Thawbān, affranchi du Messager d’Allah ﷺ, rapporte que le Messager d’Allah ﷺ a dit : « Celui qui rend visite à un malade demeure dans les jardins du Paradis. » On demanda : « Ô Messager d’Allah, que sont les jardins du Paradis ? » Il répondit : « Ce sont ses fruits. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f101131a-e95f-44b1-b892-c180ab658bcc",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2568e",
+      "reference": "Sahih Muslim, hadith 2568 e, book 45, باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "title": "باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا مَرْوَانُ بْنُ مُعَاوِيَةَ، عَنْ عَاصِمٍ الأَحْوَلِ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "2c1c4dc8c3641b9ea6296e853968ac20990a19e1fc5fc8a21f03e71fa815b80b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3d191589-4526-43d6-b491-0ec9f721e59e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2569",
+      "reference": "Sahih Muslim, hadith 2569, book 45, باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "title": "باب فَضْلِ عِيَادَةِ الْمَرِيضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمِ بْنِ مَيْمُونٍ، حَدَّثَنَا بَهْزٌ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ ثَابِتٍ، عَنْ أَبِي رَافِعٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ عَزَّ وَجَلَّ يَقُولُ يَوْمَ الْقِيَامَةِ يَا ابْنَ آدَمَ مَرِضْتُ فَلَمْ تَعُدْنِي ‏.‏ قَالَ يَا رَبِّ كَيْفَ أَعُودُكَ وَأَنْتَ رَبُّ الْعَالَمِينَ ‏.‏ قَالَ أَمَا عَلِمْتَ أَنَّ عَبْدِي فُلاَنًا مَرِضَ فَلَمْ تَعُدْهُ أَمَا عَلِمْتَ أَنَّكَ لَوْ عُدْتَهُ لَوَجَدْتَنِي عِنْدَهُ يَا ابْنَ آدَمَ اسْتَطْعَمْتُكَ فَلَمْ تُطْعِمْنِي ‏.‏ قَالَ يَا رَبِّ وَكَيْفَ أُطْعِمُكَ وَأَنْتَ رَبُّ الْعَالَمِينَ ‏.‏ قَالَ أَمَا عَلِمْتَ أَنَّهُ اسْتَطْعَمَكَ عَبْدِي فُلاَنٌ فَلَمْ تُطْعِمْهُ أَمَا عَلِمْتَ أَنَّكَ لَوْ أَطْعَمْتَهُ لَوَجَدْتَ ذَلِكَ عِنْدِي يَا ابْنَ آدَمَ اسْتَسْقَيْتُكَ فَلَمْ تَسْقِنِي ‏.‏ قَالَ يَا رَبِّ كَيْفَ أَسْقِيكَ وَأَنْتَ رَبُّ الْعَالَمِينَ قَالَ اسْتَسْقَاكَ عَبْدِي فُلاَنٌ فَلَمْ تَسْقِهِ أَمَا إِنَّكَ لَوْ سَقَيْتَهُ وَجَدْتَ ذَلِكَ عِنْدِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8af26b916d16883b69d46d5fda372e54be65500012864ff08a3a6645970c0d72",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Hurayra rapporte que le Messager d’Allah ﷺ a dit : « Au Jour de la Résurrection, Allah, Puissant et Majestueux, dira : “Ô fils d’Adam, J’ai été malade et tu ne M’as pas rendu visite.” Il répondra : “Seigneur, comment pourrais-je Te rendre visite alors que Tu es le Seigneur des mondes ?” Allah dira : “Ne savais-tu pas que Mon serviteur Untel était malade et que tu ne lui as pas rendu visite ? Ne savais-tu pas que si tu lui avais rendu visite, tu M’aurais trouvé auprès de lui ? Ô fils d’Adam, Je t’ai demandé à manger et tu ne M’as pas nourri.” Il répondra : “Seigneur, comment pourrais-je Te nourrir alors que Tu es le Seigneur des mondes ?” Allah dira : “Ne savais-tu pas que Mon serviteur Untel t’a demandé à manger et que tu ne l’as pas nourri ? Ne savais-tu pas que si tu l’avais nourri, tu en aurais trouvé la récompense auprès de Moi ? Ô fils d’Adam, Je t’ai demandé à boire et tu ne M’as pas donné à boire.” Il répondra : “Seigneur, comment pourrais-je Te donner à boire alors que Tu es le Seigneur des mondes ?” Allah dira : “Mon serviteur Untel t’a demandé à boire et tu ne lui as pas donné à boire. Si tu lui avais donné à boire, tu en aurais trouvé la récompense auprès de Moi.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "aa201589-1ba6-4f27-8499-b77695e327df",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2570a",
+      "reference": "Sahih Muslim, hadith 2570 a, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ، عُثْمَانُ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي وَائِلٍ، عَنْ مَسْرُوقٍ، قَالَ قَالَتْ عَائِشَةُ مَا رَأَيْتُ رَجُلاً أَشَدَّ عَلَيْهِ الْوَجَعُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏.‏ وَفِي رِوَايَةِ عُثْمَانَ مَكَانَ الْوَجَعِ وَجَعًا ‏.‏",
+      "source_hash_sha256": "46f85e4e6d498ee66364829f876e9e5809eeb806c5ea4ff33e9c6ca570e2ce0a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿĀʾisha rapporte : « Je n’ai vu aucun homme souffrir d’une douleur aussi intense que le Messager d’Allah ﷺ. » Dans la version de ʿUthmān, le mot est « douleur » au lieu de « souffrance ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4138729d-abfe-408e-acbc-58eb0a2b4eb5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2570b",
+      "reference": "Sahih Muslim, hadith 2570 b, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، أَخْبَرَنِي أَبِي ح، وَحَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا ابْنُ أَبِي عَدِيٍّ، ح وَحَدَّثَنِي بِشْرُ بْنُ خَالِدٍ، أَخْبَرَنَا مُحَمَّدٌ، - يَعْنِي ابْنَ جَعْفَرٍ - كُلُّهُمْ عَنْ شُعْبَةَ، عَنِ الأَعْمَشِ، ح وَحَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، ح وَحَدَّثَنَا ابْنُ، نُمَيْرٍ حَدَّثَنَا مُصْعَبُ بْنُ الْمِقْدَامِ، كِلاَهُمَا عَنْ سُفْيَانَ، عَنِ الأَعْمَشِ، بِإِسْنَادِ جَرِيرٍ مِثْلَ حَدِيثِهِ ‏.‏",
+      "source_hash_sha256": "8fedda237effac117910cda9ef207543c864d8308a246513bc62dd0b6ddcd5be",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0b4ef0f-c5f7-4e8f-a16a-e535b6e65da9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2571a",
+      "reference": "Sahih Muslim, hadith 2571 a, book 45, باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "title": "باب ثَوَابِ الْمُؤْمِنِ فِيمَا يُصِيبُهُ مِنْ مَرَضٍ أَوْ حُزْنٍ أَوْ نَحْوِ ذَلِكَ حَتَّى الشَّوْكَةِ يُش",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنِ الْحَارِثِ بْنِ سُوَيْدٍ، عَنْ عَبْدِ اللَّهِ، قَالَ دَخَلْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ يُوعَكُ فَمَسِسْتُهُ بِيَدِي فَقُلْتُ يَا رَسُولَ اللَّهِ إِنَّكَ لَتُوعَكُ وَعْكًا شَدِيدًا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَجَلْ إِنِّي أُوعَكُ كَمَا يُوعَكُ رَجُلاَنِ مِنْكُمْ ‏\"‏ ‏.‏ قَالَ فَقُلْتُ ذَلِكَ أَنَّ لَكَ أَجْرَيْنِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَجَلْ ‏\"‏ ‏.‏ ثُمَّ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ مُسْلِمٍ يُصِيبُهُ أَذًى مِنْ مَرَضٍ فَمَا سِوَاهُ إِلاَّ حَطَّ اللَّهُ بِهِ سَيِّئَاتِهِ كَمَا تَحُطُّ الشَّجَرَةُ وَرَقَهَا ‏\"‏ ‏.‏ وَلَيْسَ فِي حَدِيثِ زُهَيْرٍ فَمَسِسْتُهُ بِيَدِي ‏.‏",
+      "source_hash_sha256": "c334f2689b592f4e5ecc2c570709ac92a4c7219afdd5fd782b43a8478d762dc8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿAbd Allāh rapporte : « Je rendis visite au Messager d’Allah ﷺ alors qu’il avait une forte fièvre. Je le touchai de la main et lui dis : “Ô Messager d’Allah, tu souffres d’une très forte fièvre.” Il répondit : “Oui, je souffre autant que deux hommes parmi vous.” Je dis : “C’est parce que tu recevras une double récompense.” Le Messager d’Allah ﷺ répondit : “Oui.” Puis il ajouta : “Aucun musulman n’est atteint par une maladie ou une autre épreuve sans qu’Allah n’efface ses péchés grâce à elle, comme l’arbre perd ses feuilles.” La version de Zuhayr ne mentionne pas : « Je le touchai de la main. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "f101131a-e95f-44b1-b892-c180ab658bcc",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "4138729d-abfe-408e-acbc-58eb0a2b4eb5",
+      "reason": "Cette entrée ne reproduit que la chaîne de transmission et renvoie au récit de Jarīr sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
