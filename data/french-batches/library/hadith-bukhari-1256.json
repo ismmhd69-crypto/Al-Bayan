@@ -1,0 +1,174 @@
+{
+  "batch_id": "HADITH-BUKHARI-1256",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:20:07.216Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "d2b93c8b-bfcf-4d98-9066-9456953dab01",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6853",
+      "reference": "Sahih al-Bukhari, hadith 6853, book 86, باب كَمِ التَّعْزِيرُ وَالأَدَبُ",
+      "title": "باب كَمِ التَّعْزِيرُ وَالأَدَبُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدَانُ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ، عَنِ الزُّهْرِيِّ، أَخْبَرَنِي عُرْوَةُ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ مَا انْتَقَمَ رَسُولُ اللَّهِ صلى الله عليه وسلم لِنَفْسِهِ فِي شَىْءٍ يُؤْتَى إِلَيْهِ حَتَّى تُنْتَهَكَ مِنْ حُرُمَاتِ اللَّهِ فَيَنْتَقِمَ لِلَّهِ‏.‏",
+      "source_hash_sha256": "ea131072809255e5039dc993f673c1204a027850bd9da772885f16ebe203de8d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abdân nous a rapporté : ‘Abd Allah nous a informés : Yûnus nous a informés, d’après al-Zuhrî, qui m’a rapporté, d’après ‘Urwa, d’après ‘Â’isha — qu’Allah l’agrée —, qui a dit : Le Messager d’Allah ﷺ ne se vengeait jamais pour une offense personnelle. Il n’agissait que lorsque les interdits sacrés d’Allah étaient transgressés ; alors, il intervenait pour Allah.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c137700b-2bba-4acd-9fb9-d5e035f7fb6a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6854",
+      "reference": "Sahih al-Bukhari, hadith 6854, book 86, باب مَنْ أَظْهَرَ الْفَاحِشَةَ وَاللَّطْخَ وَالتُّهَمَةَ بِغَيْرِ بَيِّنَةٍ",
+      "title": "باب مَنْ أَظْهَرَ الْفَاحِشَةَ وَاللَّطْخَ وَالتُّهَمَةَ بِغَيْرِ بَيِّنَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيٌّ، حَدَّثَنَا سُفْيَانُ، قَالَ الزُّهْرِيُّ عَنْ سَهْلِ بْنِ سَعْدٍ، قَالَ شَهِدْتُ الْمُتَلاَعِنَيْنِ وَأَنَا ابْنُ خَمْسَ، عَشْرَةَ، فَرَّقَ بَيْنَهُمَا فَقَالَ زَوْجُهَا كَذَبْتُ عَلَيْهَا إِنْ أَمْسَكْتُهَا‏.‏ قَالَ فَحَفِظْتُ ذَاكَ مِنَ الزُّهْرِيِّ ‏\"‏ إِنْ جَاءَتْ بِهِ كَذَا وَكَذَا فَهْوَ، وَإِنْ جَاءَتْ بِهِ كَذَا وَكَذَا كَأَنَّهُ وَحَرَةٌ فَهُوَ ‏\"‏‏.‏ وَسَمِعْتُ الزُّهْرِيَّ يَقُولُ جَاءَتْ بِهِ لِلَّذِي يُكْرَهُ",
+      "source_hash_sha256": "c5222d046d0ce0b5881700faf74163d07a2c5a427e660155b359a703c9ba1d2d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source s’arrête au milieu d’une phrase : جاءت به للذي يكره (« elle donna naissance à ce qui est détesté »), dont la suite manque. Garder le récit entier en attente d’une source complète."
+    },
+    {
+      "source_id": "bf4496de-1ae7-432b-963b-ba293b5cdac3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6855",
+      "reference": "Sahih al-Bukhari, hadith 6855, book 86, باب مَنْ أَظْهَرَ الْفَاحِشَةَ وَاللَّطْخَ وَالتُّهَمَةَ بِغَيْرِ بَيِّنَةٍ",
+      "title": "باب مَنْ أَظْهَرَ الْفَاحِشَةَ وَاللَّطْخَ وَالتُّهَمَةَ بِغَيْرِ بَيِّنَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا أَبُو الزِّنَادِ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، قَالَ ذَكَرَ ابْنُ عَبَّاسٍ الْمُتَلاَعِنَيْنِ فَقَالَ عَبْدُ اللَّهِ بْنُ شَدَّادٍ هِيَ الَّتِي قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ رَاجِمًا امْرَأَةً عَنْ غَيْرِ بَيِّنَةٍ ‏\"‏‏.‏ قَالَ لاَ، تِلْكَ امْرَأَةٌ أَعْلَنَتْ‏.‏",
+      "source_hash_sha256": "190f97448fd611044e9b0ac1682ba7cc19f736bf6d0447c9cd96ec2e95e685bb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allah nous a rapporté : Sufyân nous a rapporté : al-Zinâd nous a rapporté, d’après al-Qâsim ibn Muhammad, qui a dit : Ibn ‘Abbâs mentionna les deux époux qui avaient prononcé l’imprécation réciproque (li‘ân). ‘Abd Allah ibn Shaddâd dit : « Est-ce de cette femme que parlait le Messager d’Allah ﷺ lorsqu’il a dit : “Si je devais faire lapider une femme sans preuve” ? » Il répondit : « Non. Il s’agissait d’une femme qui affichait publiquement sa mauvaise conduite. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "efd4ade0-2487-4385-a3bd-912293135c3a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6856",
+      "reference": "Sahih al-Bukhari, hadith 6856, book 86, باب مَنْ أَظْهَرَ الْفَاحِشَةَ وَاللَّطْخَ وَالتُّهَمَةَ بِغَيْرِ بَيِّنَةٍ",
+      "title": "باب مَنْ أَظْهَرَ الْفَاحِشَةَ وَاللَّطْخَ وَالتُّهَمَةَ بِغَيْرِ بَيِّنَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا اللَّيْثُ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمَ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ ذُكِرَ التَّلاَعُنُ عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَقَالَ عَاصِمُ بْنُ عَدِيٍّ فِي ذَلِكَ قَوْلاً، ثُمَّ انْصَرَفَ وَأَتَاهُ رَجُلٌ مِنْ قَوْمِهِ يَشْكُو أَنَّهُ وَجَدَ مَعَ أَهْلِهِ فَقَالَ عَاصِمٌ مَا ابْتُلِيتُ بِهَذَا إِلاَّ لِقَوْلِي فَذَهَبَ بِهِ إِلَى النَّبِيِّ صلى الله عليه وسلم فَأَخْبَرَهُ بِالَّذِي وَجَدَ عَلَيْهِ امْرَأَتَهُ، وَكَانَ ذَلِكَ الرَّجُلُ مُصْفَرًّا، قَلِيلَ اللَّحْمِ، سَبِطَ الشَّعَرِ، وَكَانَ الَّذِي ادَّعَى عَلَيْهِ أَنَّهُ وَجَدَهُ عِنْدَ أَهْلِهِ آدَمَ، خَدْلاً، كَثِيرَ اللَّحْمِ، فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اللَّهُمَّ بَيِّنْ ‏\"‏‏.‏ فَوَضَعَتْ شَبِيهًا بِالرَّجُلِ الَّذِي ذَكَرَ زَوْجُهَا أَنَّهُ وَجَدَهُ عِنْدَهَا فَلاَعَنَ النَّبِيُّ صلى الله عليه وسلم بَيْنَهُمَا فَقَالَ رَجُلٌ لاِبْنِ عَبَّاسٍ فِي الْمَجْلِسِ هِيَ الَّتِي قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لَوْ رَجَمْتُ أَحَدًا بِغَيْرِ بَيِّنَةٍ رَجَمْتُ هَذِهِ ‏\"‏‏.‏ فَقَالَ لاَ، تِلْكَ امْرَأَةٌ كَانَتْ تُظْهِرُ فِي الإِسْلاَمِ السُّوءَ‏.‏",
+      "source_hash_sha256": "4fb97ff60e02aab113e8612d69e21f5d3468bc2bf09c6c4f5fd16fb333c810fe",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allah ibn Yûsuf nous a rapporté : al-Layth nous a rapporté : Yahyâ ibn Sa‘îd nous a rapporté, d’après ‘Abd al-Rahmân ibn al-Qâsim, d’après al-Qâsim ibn Muhammad, d’après Ibn ‘Abbâs — qu’Allah les agrée tous deux — : L’imprécation réciproque fut évoquée devant le Prophète ﷺ. ‘Âsim ibn ‘Adî fit une remarque à ce sujet, puis s’en alla. Un homme de son peuple vint alors se plaindre d’avoir trouvé quelqu’un avec sa femme. ‘Âsim dit : « Je ne suis éprouvé par cette affaire qu’à cause de ce que j’ai dit. » Il conduisit l’homme auprès du Prophète ﷺ et lui raconta ce qu’il avait découvert au sujet de sa femme. Cet homme avait le teint jaunâtre, était mince et avait les cheveux raides ; celui qu’il disait avoir trouvé auprès de sa femme avait le teint brun foncé, était robuste et corpulent. Le Prophète ﷺ dit : « Ô Allah, manifeste la vérité. » La femme donna naissance à un enfant qui ressemblait à l’homme que son mari disait avoir trouvé auprès d’elle. Le Prophète ﷺ procéda alors à l’imprécation réciproque entre eux. Un homme présent demanda à Ibn ‘Abbâs : « Est-ce cette femme dont parlait le Prophète lorsqu’il a dit : “Si je devais faire lapider quelqu’un sans preuve, je ferais lapider cette femme” ? » Il répondit : « Non. Il s’agissait d’une femme qui affichait publiquement le mal en islam. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f5af1642-9a60-48d7-8e88-97f7b4a0b7c0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6857",
+      "reference": "Sahih al-Bukhari, hadith 6857, book 86, باب رَمْىِ الْمُحْصَنَاتِ",
+      "title": "باب رَمْىِ الْمُحْصَنَاتِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُلَيْمَانُ، عَنْ ثَوْرِ بْنِ زَيْدٍ، عَنْ أَبِي الْغَيْثِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ اجْتَنِبُوا السَّبْعَ الْمُوبِقَاتِ ‏\"‏‏.‏ قَالُوا يَا رَسُولَ اللَّهِ وَمَا هُنَّ قَالَ ‏\"‏ الشِّرْكُ بِاللَّهِ، وَالسِّحْرُ، وَقَتْلُ النَّفْسِ الَّتِي حَرَّمَ اللَّهُ إِلاَّ بِالْحَقِّ، وَأَكْلُ الرِّبَا، وَأَكْلُ مَالِ الْيَتِيمِ، وَالتَّوَلِّي يَوْمَ الزَّحْفِ، وَقَذْفُ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ الْغَافِلاَتِ ‏\"‏‏.‏",
+      "source_hash_sha256": "0b011218b6592035ece8ec0583426b34321a6336f1ba522f40b7e45d10b6ad86",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Le récit reprend une formulation coranique au sujet des femmes chastes, croyantes et inattentives (Coran 24:23). Garder toute sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    },
+    {
+      "source_id": "fdde806b-e96d-425b-a6af-2df4c174b4a4",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6858",
+      "reference": "Sahih al-Bukhari, hadith 6858, book 86, باب قَذْفِ الْعَبِيدِ",
+      "title": "باب قَذْفِ الْعَبِيدِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ فُضَيْلِ بْنِ غَزْوَانَ، عَنِ ابْنِ أَبِي نُعْمٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ سَمِعْتُ أَبَا الْقَاسِمِ، صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ قَذَفَ مَمْلُوكَهُ وَهْوَ بَرِيءٌ مِمَّا قَالَ، جُلِدَ يَوْمَ الْقِيَامَةِ، إِلاَّ أَنْ يَكُونَ كَمَا قَالَ ‏\"‏‏.‏",
+      "source_hash_sha256": "b6258cd7dff717289603a753a3994d7b14474164de039f34ba5b2dce740f9b6d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Musaddad nous a rapporté : Yahyâ ibn Sa‘îd nous a rapporté, d’après Fudayl ibn Ghazwân, d’après Ibn Abî Nu‘m, d’après Abû Hurayra — qu’Allah l’agrée —, qui a dit : J’ai entendu Abû al-Qâsim ﷺ dire : « Celui qui accuse son esclave alors que celui-ci est innocent de ce qu’il lui reproche sera fouetté le Jour de la Résurrection, sauf si ce qu’il a dit est vrai. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c137700b-2bba-4acd-9fb9-d5e035f7fb6a",
+      "url": "https://sunnah.com/bukhari:6854",
+      "reason": "La source s’arrête au milieu d’une phrase : جاءت به للذي يكره (« elle donna naissance à ce qui est détesté »), dont la suite manque. Garder le récit entier en attente d’une source complète."
+    },
+    {
+      "source_id": "f5af1642-9a60-48d7-8e88-97f7b4a0b7c0",
+      "url": "https://sunnah.com/bukhari:6857",
+      "reason": "Le récit reprend une formulation coranique au sujet des femmes chastes, croyantes et inattentives (Coran 24:23). Garder toute sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    }
+  ]
+}

@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5768,
+    "hadithBukhariDrafted": 5772,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5768,
+    "hadithLocalDrafted": 5772,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8861,
-    "hadithNeedsMo": 830,
+    "hadithLocalRemaining": 8857,
+    "hadithNeedsMo": 832,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26559,6 +26559,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1256",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1256.json",
+      "sourceIds": [
+        "d2b93c8b-bfcf-4d98-9066-9456953dab01",
+        "c137700b-2bba-4acd-9fb9-d5e035f7fb6a",
+        "bf4496de-1ae7-432b-963b-ba293b5cdac3",
+        "efd4ade0-2487-4385-a3bd-912293135c3a",
+        "f5af1642-9a60-48d7-8e88-97f7b4a0b7c0",
+        "fdde806b-e96d-425b-a6af-2df4c174b4a4"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; one incomplete report and one report echoing Quran 24:23 held in full. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29927,11 +29948,23 @@
       "scope": "Sahih al-Bukhari 6830: 7,498-character report identifying quoted wording as an ayah and as recitation from the Book of Allah",
       "status": "blocked",
       "reason": "This report presents wording as an “ayah of stoning” and includes another passage it says was recited from the Book of Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6854-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 6854: source ends with the incomplete phrase جاءت به للذي يكره",
+      "status": "blocked",
+      "reason": "The source ends mid-sentence with جاءت به للذي يكره (“she gave birth to what is disliked”), omitting the completion. Keep the complete report blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-6857-QURAN-24-23",
+      "scope": "Sahih al-Bukhari 6857: wording about chaste, believing, heedless women directly echoes Quran 24:23",
+      "status": "blocked",
+      "reason": "The report uses Quranic wording about chaste, believing, heedless women (Quran 24:23). Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5768,
-  "hadithLocalDrafted": 5768,
-  "hadithLocalRemaining": 8861,
+  "hadithBukhariDrafted": 5772,
+  "hadithLocalDrafted": 5772,
+  "hadithLocalRemaining": 8857,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30442,6 +30475,18 @@
       "scope": "Sahih al-Bukhari 6830: 7,498-character report identifying quoted wording as an ayah and as recitation from the Book of Allah",
       "status": "blocked",
       "reason": "This report presents wording as an “ayah of stoning” and includes another passage it says was recited from the Book of Allah. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6854-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 6854: source ends with the incomplete phrase جاءت به للذي يكره",
+      "status": "blocked",
+      "reason": "The source ends mid-sentence with جاءت به للذي يكره (“she gave birth to what is disliked”), omitting the completion. Keep the complete report blank until a complete source is available."
+    },
+    {
+      "id": "HADITH-BUKHARI-6857-QURAN-24-23",
+      "scope": "Sahih al-Bukhari 6857: wording about chaste, believing, heedless women directly echoes Quran 24:23",
+      "status": "blocked",
+      "reason": "The report uses Quranic wording about chaste, believing, heedless women (Quran 24:23). Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
