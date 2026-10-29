@@ -44751,6 +44751,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0828",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0828.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "deferred long source contains an Arabic Quran quotation and is held entirely blank under Needs Mo pending an approved attributed French Quran translation; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -54256,5 +54269,5 @@
   "hadithMuslimDrafted": 3142,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1327
+  "hadithNeedsMo": 1328
 }

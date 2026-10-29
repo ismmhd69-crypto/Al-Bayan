@@ -11266,3 +11266,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0827 saves a private French draft on the Banu an-Nadir property and its use for the Prophet’s household and equipment. Muslim 1757b gives only another chain for the same report, so its French entry remains blank under Needs Mo.
 - Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1757c
+
+- FR-LIB-HAD-MUSLIM-0828 records the deferred long report. It contains an Arabic Quran quotation from 59:7, so the entire French entry remains blank under Needs Mo until an approved attributed French Quran translation is confirmed. No translation, database write, or publication occurred.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending.
