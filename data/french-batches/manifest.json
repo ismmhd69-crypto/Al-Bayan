@@ -48898,6 +48898,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1146",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1146.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "two incomplete variants of the long report left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -59223,5 +59236,5 @@
   "hadithMuslimDrafted": 3658,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1550
+  "hadithNeedsMo": 1552
 }
