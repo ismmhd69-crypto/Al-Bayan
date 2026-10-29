@@ -10466,3 +10466,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0667 saves two private French drafts about divorce during menstruation and triple divorce. Muslim 1471q, 1471t, and 1471u are incomplete report variants; 1471s quotes Quran 65:1. These four remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1472b–1474b
+
+- FR-LIB-HAD-MUSLIM-0668 saves three private French drafts about triple divorce and the report of the honey episode. Muslim 1473a–b and 1474a contain Quran quotations and remain blank under Needs Mo until an approved French Quran translation and rights are confirmed.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

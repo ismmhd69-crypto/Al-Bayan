@@ -42803,6 +42803,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0668",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0668.json",
+      "sourceIds": [
+        "d637a43d-12c1-48ca-a8c2-64c2374adb51",
+        "5a41a6f8-d4e4-44db-a5e2-5d45340c1e9a",
+        "e466bf82-935b-4a9a-8908-0efed7dd2ad0",
+        "011bd3b7-2bd9-4266-8ac4-ce1d13259828",
+        "9c158224-5065-421b-a1b2-0b472fc7fe68",
+        "77a04214-6510-4d69-a09d-0fa40c3c36dc"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, three reports containing Quran quotations held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -47110,8 +47131,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8987,
-  "hadithLocalRemaining": 5642,
+  "hadithLocalDrafted": 8990,
+  "hadithLocalRemaining": 5639,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -51488,10 +51509,25 @@
       "source_id": "6852f552-3683-4f87-b669-55ae0d74db31",
       "reason": "Cette entrée renvoie au récit de Hajjaj et ne donne que des variations et une correction de nom, sans reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "e466bf82-935b-4a9a-8908-0efed7dd2ad0",
+      "reason": "Cette source cite le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "011bd3b7-2bd9-4266-8ac4-ce1d13259828",
+      "reason": "Cette source cite le verset 33:21 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "9c158224-5065-421b-a1b2-0b472fc7fe68",
+      "reason": "Cette source contient des citations coraniques explicites des sourates 66:1, 66:4 et 66:3. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2651,
+  "hadithMuslimDrafted": 2654,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1168
+  "hadithNeedsMo": 1171
 }
