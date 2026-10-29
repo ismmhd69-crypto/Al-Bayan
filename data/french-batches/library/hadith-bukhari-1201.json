@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1201",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T11:50:06.508Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "252dec40-10c2-40eb-9bea-c7cc4b56d285",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6537",
+      "reference": "Sahih al-Bukhari, hadith 6537, book 81, باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "title": "باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا حَاتِمُ بْنُ أَبِي صَغِيرَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ أَبِي مُلَيْكَةَ، حَدَّثَنِي الْقَاسِمُ بْنُ مُحَمَّدٍ، حَدَّثَتْنِي عَائِشَةُ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لَيْسَ أَحَدٌ يُحَاسَبُ يَوْمَ الْقِيَامَةِ إِلاَّ هَلَكَ ‏\"‏‏.‏ فَقُلْتُ يَا رَسُولَ اللَّهِ أَلَيْسَ قَدْ قَالَ اللَّهُ تَعَالَى ‏[quran sura=\"84\" aya_start=\"7\" aya_end=\"8\"]{‏فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ * فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا‏}‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّمَا ذَلِكِ الْعَرْضُ، وَلَيْسَ أَحَدٌ يُنَاقَشُ الْحِسَابَ يَوْمَ الْقِيَامَةِ إِلاَّ عُذِّبَ ‏\"‏‏.‏",
+      "source_hash_sha256": "a588b89ecaf97a782ba28c50aa0a13d4d5376e039e0d4b1985e0e23f96e312ea",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true
+    },
+    {
+      "source_id": "296e8a54-a73e-45cd-a924-178b793077a0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6538",
+      "reference": "Sahih al-Bukhari, hadith 6538, book 81, باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "title": "باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم وَحَدَّثَنِي مُحَمَّدُ بْنُ مَعْمَرٍ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ ـ رضى الله عنه ـ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم كَانَ يَقُولُ ‏\"‏ يُجَاءُ بِالْكَافِرِ يَوْمَ الْقِيَامَةِ فَيُقَالُ لَهُ أَرَأَيْتَ لَوْ كَانَ لَكَ مِلْءُ الأَرْضِ ذَهَبًا أَكُنْتَ تَفْتَدِي بِهِ فَيَقُولُ نَعَمْ‏.‏ فَيُقَالُ لَهُ قَدْ كُنْتَ سُئِلْتَ مَا هُوَ أَيْسَرُ مِنْ ذَلِكَ ‏\"‏‏.‏",
+      "source_hash_sha256": "a012557855b3792aae5a59e8c2be5ece81ec0b5406f68e2577c847df28b25d3b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allah nous a rapporté : Mu‘âdh ibn Hishâm nous a rapporté : Mon père m’a rapporté, d’après Qatâda, d’après Anas, d’après le Prophète ﷺ. Muhammad ibn Ma‘mar nous a également rapporté : Rawh ibn ‘Ubâda nous a rapporté : Sa‘îd nous a rapporté, d’après Qatâda, qui a dit : Anas ibn Mâlik (qu’Allah l’agrée) nous a rapporté que le Prophète d’Allah ﷺ disait : « Le Jour de la Résurrection, on amènera le mécréant et on lui demandera : “Si tu possédais de quoi remplir la terre d’or, le donnerais-tu pour te racheter ?” Il répondra : “Oui.” On lui dira : “On t’avait demandé quelque chose de bien plus facile que cela.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b510aa54-0918-445a-b334-96da3a543586",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6539",
+      "reference": "Sahih al-Bukhari, hadith 6539, book 81, باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "title": "باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي قَالَ، حَدَّثَنِي الأَعْمَشُ، قَالَ حَدَّثَنِي خَيْثَمَةُ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَا مِنْكُمْ مِنْ أَحَدٍ إِلاَّ وَسَيُكَلِّمُهُ اللَّهُ يَوْمَ الْقِيَامَةِ، لَيْسَ بَيْنَ اللَّهِ وَبَيْنَهُ تُرْجُمَانٌ، ثُمَّ يَنْظُرُ فَلاَ يَرَى شَيْئًا قُدَّامَهُ، ثُمَّ يَنْظُرُ بَيْنَ يَدَيْهِ فَتَسْتَقْبِلُهُ النَّارُ، فَمَنِ اسْتَطَاعَ مِنْكُمْ أَنْ يَتَّقِيَ النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "47bdc1d76b7d9292f23987ae98e4b3cc97e7c6f17f2ca315c209c21a28b1c7fd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Umar ibn Hafs nous a rapporté : Mon père nous a rapporté : al-A‘mash nous a rapporté : Khaythama m’a rapporté, d’après ‘Adî ibn Hâtim, qui a dit : Le Prophète ﷺ a dit : « Il n’y a personne parmi vous à qui Allah ne parlera le Jour de la Résurrection, sans interprète entre eux. Il regardera devant lui et ne verra rien ; puis, en regardant devant lui, il verra le Feu lui faire face. Que celui d’entre vous qui le peut se protège du Feu, ne serait-ce qu’avec une moitié de datte. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3606f802-acde-4b1b-9c08-7b1e06ed8abf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6540",
+      "reference": "Sahih al-Bukhari, hadith 6540, book 81, باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "title": "باب مَنْ نُوقِشَ الْحِسَابَ عُذِّبَ",
+      "source_published": true,
+      "text_original": "قَالَ الأَعْمَشُ حَدَّثَنِي عَمْرٌو، عَنْ خَيْثَمَةَ، عَنْ عَدِيِّ بْنِ حَاتِمٍ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ اتَّقُوا النَّارَ ‏\"‏‏.‏ ثُمَّ أَعْرَضَ وَأَشَاحَ، ثُمَّ قَالَ ‏\"‏ اتَّقُوا النَّارَ ‏\"‏‏.‏ ثُمَّ أَعْرَضَ وَأَشَاحَ ثَلاَثًا، حَتَّى ظَنَنَّا أَنَّهُ يَنْظُرُ إِلَيْهَا، ثُمَّ قَالَ ‏\"‏ اتَّقُوا النَّارَ وَلَوْ بِشِقِّ تَمْرَةٍ، فَمَنْ لَمْ يَجِدْ فَبِكَلِمَةٍ طَيِّبَةٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "430b1dafa0d687fb906421ee4f4edab1323fe09d060c715e063b29734eddbf04",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-A‘mash a dit : ‘Amr m’a rapporté, d’après Khaythama, d’après ‘Adî ibn Hâtim, qui a dit : Le Prophète ﷺ a dit : « Protégez-vous du Feu ! » Puis il se détourna. Il répéta : « Protégez-vous du Feu ! » et se détourna encore. Il le fit trois fois, au point que nous pensâmes qu’il le voyait. Puis il dit : « Protégez-vous du Feu, ne serait-ce qu’avec une moitié de datte ; et si vous n’en trouvez pas, avec une bonne parole. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "909f95e3-2087-4522-82cd-00a537cf4b1e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6541",
+      "reference": "Sahih al-Bukhari, hadith 6541, book 81, باب يَدْخُلُ الْجَنَّةَ سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ",
+      "title": "باب يَدْخُلُ الْجَنَّةَ سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عِمْرَانُ بْنُ مَيْسَرَةَ، حَدَّثَنَا ابْنُ فُضَيْلٍ، حَدَّثَنَا حُصَيْنٌ،‏.‏ وَحَدَّثَنِي أَسِيدُ بْنُ زَيْدٍ، حَدَّثَنَا هُشَيْمٌ، عَنْ حُصَيْنٍ، قَالَ كُنْتُ عِنْدَ سَعِيدِ بْنِ جُبَيْرٍ فَقَالَ حَدَّثَنِي ابْنُ عَبَّاسٍ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ عُرِضَتْ عَلَىَّ الأُمَمُ، فَأَخَذَ النَّبِيُّ يَمُرُّ مَعَهُ الأُمَّةُ، وَالنَّبِيُّ يَمُرُّ مَعَهُ النَّفَرُ، وَالنَّبِيُّ يَمُرُّ مَعَهُ الْعَشَرَةُ، وَالنَّبِيُّ يَمُرُّ مَعَهُ الْخَمْسَةُ، وَالنَّبِيُّ يَمُرُّ وَحْدَهُ، فَنَظَرْتُ فَإِذَا سَوَادٌ كَثِيرٌ قُلْتُ يَا جِبْرِيلُ هَؤُلاَءِ أُمَّتِي قَالَ لاَ وَلَكِنِ انْظُرْ إِلَى الأُفُقِ‏.‏ فَنَظَرْتُ فَإِذَا سَوَادٌ كَثِيرٌ‏.‏ قَالَ هَؤُلاَءِ أُمَّتُكَ، وَهَؤُلاَءِ سَبْعُونَ أَلْفًا قُدَّامَهُمْ، لاَ حِسَابَ عَلَيْهِمْ وَلاَ عَذَابَ‏.‏ قُلْتُ وَلِمَ قَالَ كَانُوا لاَ يَكْتَوُونَ، وَلاَ يَسْتَرْقُونَ، وَلاَ يَتَطَيَّرُونَ، وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ ‏\"‏‏.‏ فَقَامَ إِلَيْهِ عُكَّاشَةُ بْنُ مِحْصَنٍ فَقَالَ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ‏.‏ قَالَ ‏\"‏ اللَّهُمَّ اجْعَلْهُ مِنْهُمْ ‏\"‏‏.‏ ثُمَّ قَامَ إِلَيْهِ رَجُلٌ آخَرُ قَالَ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ‏.‏ قَالَ ‏\"‏ سَبَقَكَ بِهَا عُكَّاشَةُ ‏\"‏‏.‏",
+      "source_hash_sha256": "c56b171ad9c0a04362cc991ded8a5a1d64e91fae04a1959cf3213b2913631895",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Imrân ibn Maysara nous a rapporté : Ibn Fudayl nous a rapporté : Husayn nous a rapporté. Usayd ibn Zayd m’a également rapporté : Hushaym nous a rapporté, d’après Husayn, qui a dit : J’étais auprès de Sa‘îd ibn Jubayr. Il dit : Ibn ‘Abbâs m’a rapporté que le Prophète ﷺ avait dit : « Les communautés m’ont été présentées. Un prophète passait accompagné d’une communauté, un autre accompagné d’un petit groupe, un autre accompagné de dix personnes, un autre de cinq, et un prophète passait seul. Je regardai et vis une grande foule. Je demandai : “Ô Gabriel, est-ce là ma communauté ?” Il répondit : “Non, mais regarde l’horizon.” Je regardai et vis une grande foule. Il dit : “Ce sont les tiens. Parmi eux, soixante-dix mille se trouveront devant eux ; ils entreront sans jugement ni châtiment.” Je demandai : “Pourquoi ?” Il répondit : “Ils ne recouraient pas à la cautérisation, ne demandaient pas qu’on leur récite des formules de guérison, ne voyaient pas de présages et plaçaient leur confiance en leur Seigneur.” ‘Ukkâsha ibn Mihsan se leva et dit : “Invoque Allah pour qu’Il fasse de moi l’un d’eux.” Le Prophète ﷺ dit : “Ô Allah, fais qu’il soit parmi eux.” Puis un autre homme se leva et dit : “Invoque Allah pour qu’Il fasse de moi l’un d’eux.” Il répondit : “‘Ukkâsha t’a devancé.”",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0a8b7a76-c526-4a36-803d-936190df9078",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6542",
+      "reference": "Sahih al-Bukhari, hadith 6542, book 81, باب يَدْخُلُ الْجَنَّةَ سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ",
+      "title": "باب يَدْخُلُ الْجَنَّةَ سَبْعُونَ أَلْفًا بِغَيْرِ حِسَابٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُعَاذُ بْنُ أَسَدٍ، أَخْبَرَنَا عَبْدُ اللَّهِ، أَخْبَرَنَا يُونُسُ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، أَنَّ أَبَا هُرَيْرَةَ، حَدَّثَهُ قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ يَدْخُلُ مِنْ أُمَّتِي زُمْرَةٌ هُمْ سَبْعُونَ أَلْفًا، تُضِيءُ وُجُوهُهُمْ إِضَاءَةَ الْقَمَرِ لَيْلَةَ الْبَدْرِ ‏\"‏‏.‏ وَقَالَ أَبُو هُرَيْرَةَ فَقَامَ عُكَّاشَةُ بْنُ مِحْصَنٍ الأَسَدِيُّ يَرْفَعُ نَمِرَةً عَلَيْهِ فَقَالَ يَا رَسُولَ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ‏.‏ قَالَ ‏\"‏ اللَّهُمَّ اجْعَلْهُ مِنْهُمْ ‏\"‏‏.‏ ثُمَّ قَامَ رَجُلٌ مِنَ الأَنْصَارِ فَقَالَ يَا رَسُولَ اللَّهِ ادْعُ اللَّهَ أَنْ يَجْعَلَنِي مِنْهُمْ‏.‏ فَقَالَ ‏\"‏ سَبَقَكَ عُكَّاشَةُ ‏\"‏‏.‏",
+      "source_hash_sha256": "88ae73660b4e64cfb1847934fe4585cfa288a78aa048bd762b4747037813ce3f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Mu‘âdh ibn Asad nous a rapporté : ‘Abd Allah nous a informés : Yûnus nous a informés, d’après al-Zuhrî, qui a dit : Sa‘îd ibn al-Musayyib m’a rapporté qu’Abû Hurayra lui avait dit : J’ai entendu le Messager d’Allah ﷺ dire : « Un groupe de ma communauté, composé de soixante-dix mille personnes, entrera au Paradis ; leurs visages brilleront comme la lune lors de la pleine lune. » Abû Hurayra ajouta : ‘Ukkâsha ibn Mihsan al-Asadî se leva, tenant un manteau rayé qu’il portait, et dit : « Ô Messager d’Allah, invoque Allah pour qu’Il fasse de moi l’un d’eux. » Le Prophète ﷺ dit : « Ô Allah, fais qu’il soit parmi eux. » Puis un homme des Ansâr se leva et dit : « Ô Messager d’Allah, invoque Allah pour qu’Il fasse de moi l’un d’eux. » Il répondit : « ‘Ukkâsha t’a devancé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "252dec40-10c2-40eb-9bea-c7cc4b56d285",
+      "url": "https://sunnah.com/bukhari:6537",
+      "reason": "Le récit cite directement le Coran 84:7–8. Garder le récit entier en attente d’une traduction française du Coran approuvée, attribuée et autorisée."
+    }
+  ]
+}

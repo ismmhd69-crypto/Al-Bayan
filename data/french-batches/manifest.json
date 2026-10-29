@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5502,
+    "hadithBukhariDrafted": 5507,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5502,
+    "hadithLocalDrafted": 5507,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9127,
-    "hadithNeedsMo": 794,
+    "hadithLocalRemaining": 9122,
+    "hadithNeedsMo": 795,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25432,6 +25432,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "needs Mo"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1201",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1201.json",
+      "sourceIds": [
+        "252dec40-10c2-40eb-9bea-c7cc4b56d285",
+        "296e8a54-a73e-45cd-a924-178b793077a0",
+        "b510aa54-0918-445a-b334-96da3a543586",
+        "3606f802-acde-4b1b-9c08-7b1e06ed8abf",
+        "909f95e3-2087-4522-82cd-00a537cf4b1e",
+        "0a8b7a76-c526-4a36-803d-936190df9078"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator. Bukhari 6537 remains blank because it directly quotes Quran 84:7–8. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "needs Mo"
     }
   ],
   "blockers": [
@@ -28584,11 +28605,17 @@
       "scope": "Sahih al-Bukhari 6536: direct quotation of Quran 84:8",
       "status": "blocked",
       "reason": "The report directly quotes Quran 84:8. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6537-QURAN-84-7-8",
+      "scope": "Sahih al-Bukhari 6537: direct quotation of Quran 84:7–8",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 84:7–8. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5502,
-  "hadithLocalDrafted": 5502,
-  "hadithLocalRemaining": 9127,
+  "hadithBukhariDrafted": 5507,
+  "hadithLocalDrafted": 5507,
+  "hadithLocalRemaining": 9122,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -28883,6 +28910,12 @@
       "scope": "Sahih al-Bukhari 6536: direct quotation of Quran 84:8",
       "status": "blocked",
       "reason": "The report directly quotes Quran 84:8. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6537-QURAN-84-7-8",
+      "scope": "Sahih al-Bukhari 6537: direct quotation of Quran 84:7–8",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 84:7–8. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
