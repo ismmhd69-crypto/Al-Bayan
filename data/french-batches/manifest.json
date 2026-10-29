@@ -19831,6 +19831,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-924",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-924.json",
+      "sourceIds": [
+        "cd9eefb9-77de-4c29-a70b-2269b04bcc13",
+        "86bab557-bb94-47e3-85c4-48d0f745a994",
+        "785f29f7-4bac-4dba-a3a8-bd58e2f762d4",
+        "0d137b4e-3ad2-4372-b404-47c5a48631b0",
+        "235fb588-3345-48ad-868e-7d20830d830d",
+        "2e0f2e94-50d0-4376-a4a0-afb506a27cd4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -22577,6 +22598,12 @@
       "reason": "The source excerpt stops after the question about how long it takes to recite the Quran, without the answer or remaining report. Keep blank until a complete source is available."
     },
     {
+      "id": "HADITH-BUKHARI-5055-QURAN-4-41",
+      "scope": "Sahih al-Bukhari 5055: direct Quran quotation from 4:41",
+      "status": "blocked",
+      "reason": "Le récit cite directement Quran 4:41. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-924, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
       "id": "HADITH-BUKHARI-644-MIRMATAYN",
       "scope": "Sahih al-Bukhari 644: closing food term مِرْمَاتَيْنِ",
       "status": "blocked",
@@ -22625,7 +22652,7 @@
       "reason": "The mapped lesson distinguishes required complete washing from recommended repetition, and records a difference of opinion about saying Bismillah. The visual labels can make three repetitions appear required and states Bismillah without that qualification. French drafts for those items remain private and held until the visual wording preserves the distinctions."
     }
   ],
-  "hadithBukhariDrafted": 4132,
-  "hadithLocalDrafted": 4132,
-  "hadithLocalRemaining": 10535
+  "hadithBukhariDrafted": 4137,
+  "hadithLocalDrafted": 4137,
+  "hadithLocalRemaining": 10530
 }
