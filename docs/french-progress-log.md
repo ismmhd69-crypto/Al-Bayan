@@ -12374,3 +12374,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-30: Muslim 2371
 
 - FR-LIB-HAD-MUSLIM-1103 preserves the long report with two embedded Quran quotations as a blank French draft, with a specific Needs Mo reason. No database write or publication occurred.
+
+### 2026-10-30: Muslim 2372a-2373c
+
+- FR-LIB-HAD-MUSLIM-1104 saves four complete reports as private French drafts. Two transmission-only variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
