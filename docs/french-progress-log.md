@@ -11550,3 +11550,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1904c-1906b
 
 - FR-LIB-HAD-MUSLIM-0897 saves five private French drafts about fighting for Allah’s cause, intention, and reward. The three cases judged for showing off retain their full, distinct conditions. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1907a-1911a
+
+- FR-LIB-HAD-MUSLIM-0898 saves six private French drafts about intentions, seeking martyrdom, and illness preventing a campaign. The variants concerning the word “sincerely” and hearing ‘Umar on the minbar are preserved. No Quran verse is quoted. No database write or publication occurred.
