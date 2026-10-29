@@ -10306,3 +10306,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0635 saves four private French drafts about the shighar marriage prohibition, fulfilling marriage conditions, and the requirement to seek a woman’s consent. Muslim 1416b and 1419b only give a chain or a reference to prior wording and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1421a–1422c
+
+- FR-LIB-HAD-MUSLIM-0636 saves six private French drafts about a woman’s consent to marriage and the reports about Aisha’s age. The distinct ages and wording in each source variant are retained as reported.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
