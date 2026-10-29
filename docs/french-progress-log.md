@@ -9941,3 +9941,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0562 saves five private French drafts about touching and kissing the Black Stone. Muslim 1270a (source ID b51aef26-e23c-41df-9e0c-c57dc9d19a7e) has a damaged or contradictory narrator-chain phrase after “from Salim”; its French text remains entirely blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1271a–1274
+
+- FR-LIB-HAD-MUSLIM-0563 saves six private French drafts about Umar’s treatment of the Black Stone and the Prophet’s circumambulation during the Farewell Pilgrimage. All six reports, including the distinct wording in Muslim 1271b and the narrator’s omission note in 1273b, are translated from their own source text.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
