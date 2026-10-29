@@ -7961,3 +7961,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0167 saves no French drafts. Muslim 399a, 399c, and 400a directly quote Quran verses, including the full surah al-Kawthar; their complete French texts remain blank pending an approved, attributed French Quran translation with permitted use. Muslim 399b, 399d, and 400b contain only transmission details or variants cross-referenced to earlier reports, so they also remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts remain 699 Muslim drafts, 7,035 total hadith drafts, and 7,594 remaining; Needs Mo is now 324.
+
+### 2026-10-29: Muslim 401–402e
+
+- FR-LIB-HAD-MUSLIM-0168 saves two private French drafts about raising the hands in prayer and the tashahhud. Muslim 402b–e give only wording details or cross-references without repeating the full formula, so they remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 701 Muslim drafts, 7,037 total hadith drafts, 7,592 remaining, and 328 Needs Mo items.
