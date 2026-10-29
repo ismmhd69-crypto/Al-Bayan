@@ -6561,3 +6561,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1276 saves three private French drafts. Report 6980 remains blank and is logged under Needs Mo because its multi-step property transaction and key legal terms need clarification. No database writes or publication occurred.
 - All four source hashes are retained. The focused batch validator passed. Bukhari local drafts: 5,865 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 843. Total local hadith rows not drafted: 8,764, including held records.
+
+### 2026-10-29: Bukhari 6982 — long report held
+
+- FR-LIB-HAD-BUKHARI-1277 isolates one 3,392-character report. Its complete French translation remains blank because it directly quotes Quran 96:1–3 and 6:96; the approved, attributed French Quran text and permission are not confirmed. No database writes or publication occurred.
+- The source hash is retained and the focused batch validator passed. Bukhari local drafts remain 5,865 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 844. Total local hadith rows not drafted: 8,764, including held records.

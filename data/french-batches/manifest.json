@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 5865,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 8764,
-    "hadithNeedsMo": 843,
+    "hadithNeedsMo": 844,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26984,6 +26984,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "three private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1277",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1277.json",
+      "sourceIds": [
+        "77d5c900-2556-4533-a723-ac4dcf2a49cd"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One 3,392-character report isolated as a single-item batch; complete translation held blank for direct Quran quotations. Source hash retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: Quran translation rights"
     }
   ],
   "blockers": [
@@ -30430,6 +30446,12 @@
       "scope": "Sahih al-Bukhari 6980: complex pre-emption stratagem and terms لا داء ولا خبثة ولا غائلة",
       "status": "blocked",
       "reason": "The legal discussion sets out a multi-step property transaction using a currency exchange and relies on the terms لا داء ولا خبثة ولا غائلة. Their legal force is unclear in this excerpt. Keep the complete report blank pending reliable clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-6982-QURAN-96-1-3-6-96",
+      "scope": "Sahih al-Bukhari 6982: 3,392-character report with direct quotations of Quran 96:1–3 and 6:96",
+      "status": "blocked",
+      "reason": "This 3,392-character report directly quotes Quran 96:1–3 and 6:96. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
   "hadithBukhariDrafted": 5865,
@@ -31023,6 +31045,12 @@
       "scope": "Sahih al-Bukhari 6980: complex pre-emption stratagem and terms لا داء ولا خبثة ولا غائلة",
       "status": "blocked",
       "reason": "The legal discussion sets out a multi-step property transaction using a currency exchange and relies on the terms لا داء ولا خبثة ولا غائلة. Their legal force is unclear in this excerpt. Keep the complete report blank pending reliable clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-6982-QURAN-96-1-3-6-96",
+      "scope": "Sahih al-Bukhari 6982: 3,392-character report with direct quotations of Quran 96:1–3 and 6:96",
+      "status": "blocked",
+      "reason": "This 3,392-character report directly quotes Quran 96:1–3 and 6:96. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
