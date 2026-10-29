@@ -6766,3 +6766,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1317 saves one private French draft for the 2,105-character succession consultation account, preserving the separate consultations, sequence of events, and pledge wording. No database writes or publication occurred.
 - The source hash is retained and the focused batch validator passed. Bukhari local drafts: 6,066 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 853. Total local hadith rows not drafted: 8,563, including held records.
+
+### 2026-10-29: Bukhari 7208–7213
+
+- FR-LIB-HAD-BUKHARI-1318 saves six private French drafts, retaining the repeated requests, the forge comparison, and the conditions attached to the pledges. No database writes or publication occurred.
+- All six source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,072 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 853. Total local hadith rows not drafted: 8,557, including held records.
