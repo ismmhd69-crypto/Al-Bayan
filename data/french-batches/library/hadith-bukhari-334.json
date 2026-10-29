@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-334",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:09:14.229Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ecb49dd9-ae6f-46b4-ab11-e9cccd893a55",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1945",
+      "reference": "Sahih al-Bukhari, hadith 1945, book 30, كتاب الصوم",
+      "title": "كتاب الصوم",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، حَدَّثَنَا يَحْيَى بْنُ حَمْزَةَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ يَزِيدَ بْنِ جَابِرٍ، أَنَّ إِسْمَاعِيلَ بْنَ عُبَيْدِ اللَّهِ، حَدَّثَهُ عَنْ أُمِّ الدَّرْدَاءِ، عَنْ أَبِي الدَّرْدَاءِ ـ رضى الله عنه ـ قَالَ خَرَجْنَا مَعَ النَّبِيِّ صلى الله عليه وسلم فِي بَعْضِ أَسْفَارِهِ فِي يَوْمٍ حَارٍّ حَتَّى يَضَعَ الرَّجُلُ يَدَهُ عَلَى رَأْسِهِ مِنْ شِدَّةِ الْحَرِّ، وَمَا فِينَا صَائِمٌ إِلاَّ مَا كَانَ مِنَ النَّبِيِّ صلى الله عليه وسلم وَابْنِ رَوَاحَةَ‏.‏",
+      "source_hash_sha256": "b38a70f6e6fedd804d2830c4e2254975dd02d3a27c81e2a827a67aa9f9495664",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Yûsuf, Yahyâ ibn Hamza, ‘Abd ar-Rahmân ibn Yazîd ibn Jâbir, Ismâ‘îl ibn ‘Ubayd Allâh, Umm ad-Dardâ’ et Abû ad-Dardâ’.\n\nAbû ad-Dardâ’ rapporte : Nous partîmes avec le Prophète lors d’un de ses voyages, par une journée si chaude qu’un homme posait la main sur sa tête à cause de la chaleur. Parmi nous, personne ne jeûnait, à l’exception du Prophète et d’Ibn Rawâha.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "92569ed5-3a2f-409c-9b22-68b3e725dc34",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1946",
+      "reference": "Sahih al-Bukhari, hadith 1946, book 30, بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لِمَنْ ظُلِّلَ عَلَيْهِ، وَاشْتَدَّ الْحَرُّ: «لَيْسَ مِنَ الْبِرِّ الصَّوْمُ فِي السَّفَرِ»",
+      "title": "بَابُ قَوْلِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لِمَنْ ظُلِّلَ عَلَيْهِ، وَاشْتَدَّ الْحَرُّ: «لَيْسَ مِنَ الْبِرِّ الصَّوْمُ فِي السَّفَرِ»",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ الأَنْصَارِيُّ، قَالَ سَمِعْتُ مُحَمَّدَ بْنَ عَمْرِو بْنِ الْحَسَنِ بْنِ عَلِيٍّ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ ـ رضى الله عنهم ـ قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي سَفَرٍ، فَرَأَى زِحَامًا، وَرَجُلاً قَدْ ظُلِّلَ عَلَيْهِ، فَقَالَ ‏\"‏ مَا هَذَا ‏\"‏‏.‏ فَقَالُوا صَائِمٌ‏.‏ فَقَالَ ‏\"‏ لَيْسَ مِنَ الْبِرِّ الصَّوْمُ فِي السَّفَرِ ‏\"‏‏.‏",
+      "source_hash_sha256": "f9c68820719a62aef21ce603574e4f7e71bd6e2653bce446d89fe36848d3c51e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Âdam, Shu‘ba, Muhammad ibn ‘Abd ar-Rahmân al-Ansârî, Muhammad ibn ‘Amr ibn al-Hasan ibn ‘Alî et Jâbir ibn ‘Abd Allâh.\n\nJâbir ibn ‘Abd Allâh rapporte que le Messager d’Allah était en voyage. Il vit une foule et un homme à qui l’on faisait de l’ombre. Il demanda : « Qu’est-ce que c’est ? » On répondit : « Un homme qui jeûne. » Il dit : « Jeûner en voyage ne relève pas de la piété. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9dc53908-331b-46df-8793-31e22f35d20f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1947",
+      "reference": "Sahih al-Bukhari, hadith 1947, book 30, باب لَمْ يَعِبْ أَصْحَابُ النَّبِيِّ صلى الله عليه وسلم بَعْضُهُمْ بَعْضًا فِي الصَّوْمِ وَالإِفْطَارِ",
+      "title": "باب لَمْ يَعِبْ أَصْحَابُ النَّبِيِّ صلى الله عليه وسلم بَعْضُهُمْ بَعْضًا فِي الصَّوْمِ وَالإِفْطَارِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنْ حُمَيْدٍ الطَّوِيلِ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ كُنَّا نُسَافِرُ مَعَ النَّبِيِّ صلى الله عليه وسلم فَلَمْ يَعِبِ الصَّائِمُ عَلَى الْمُفْطِرِ، وَلاَ الْمُفْطِرُ عَلَى الصَّائِمِ‏.‏",
+      "source_hash_sha256": "d65b18646f3e2fe049acfd0b1b168ae9956c5755d8e2c096b198ab0a1ffc67ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Maslama, Mâlik, Humayd at-Tawîl et Anas ibn Mâlik.\n\nAnas rapporte : Nous voyagions avec le Prophète. Celui qui jeûnait ne reprochait rien à celui qui ne jeûnait pas, et celui qui ne jeûnait pas ne reprochait rien à celui qui jeûnait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4947f780-1f9f-4927-81d3-d45535f6f5ee",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1948",
+      "reference": "Sahih al-Bukhari, hadith 1948, book 30, باب مَنْ أَفْطَرَ فِي السَّفَرِ لِيَرَاهُ النَّاسُ",
+      "title": "باب مَنْ أَفْطَرَ فِي السَّفَرِ لِيَرَاهُ النَّاسُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ مَنْصُورٍ، عَنْ مُجَاهِدٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ خَرَجَ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْمَدِينَةِ إِلَى مَكَّةَ، فَصَامَ حَتَّى بَلَغَ عُسْفَانَ، ثُمَّ دَعَا بِمَاءٍ فَرَفَعَهُ إِلَى يَدَيْهِ لِيُرِيَهُ النَّاسَ فَأَفْطَرَ، حَتَّى قَدِمَ مَكَّةَ، وَذَلِكَ فِي رَمَضَانَ فَكَانَ ابْنُ عَبَّاسٍ يَقُولُ قَدْ صَامَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَفْطَرَ، فَمَنْ شَاءَ صَامَ، وَمَنْ شَاءَ أَفْطَرَ‏.‏",
+      "source_hash_sha256": "9bcb06e8c0ed220f51501c0be05c0f81cacd283e44245b3cff0dcdc198fa5219",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Mûsâ ibn Ismâ‘îl, Abû ‘Awâna, Mansûr, Mujâhid, Tâwûs et Ibn ‘Abbâs.\n\nIbn ‘Abbâs rapporte que le Messager d’Allah partit de Médine pour La Mecque. Il jeûna jusqu’à atteindre ‘Usfân, puis demanda de l’eau et la leva dans ses mains afin de la montrer aux gens ; il rompit alors son jeûne et continua ainsi jusqu’à son arrivée à La Mecque. Cela eut lieu pendant le Ramadan. Ibn ‘Abbâs disait : « Le Messager d’Allah a jeûné et a rompu le jeûne. Que celui qui le souhaite jeûne, et que celui qui le souhaite rompe son jeûne. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "360120e8-9111-4b24-b515-0cdd5875c84c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1949",
+      "reference": "Sahih al-Bukhari, hadith 1949, book 30, بَابُ: {وَعَلَى الَّذِينَ يُطِيقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ}",
+      "title": "بَابُ: {وَعَلَى الَّذِينَ يُطِيقُونَهُ فِدْيَةٌ طَعَامُ مِسْكِينٍ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَيَّاشٌ، حَدَّثَنَا عَبْدُ الأَعْلَى، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ ـ رضى الله عنهما ـ قَرَأَ فِدْيَةٌ طَعَامُ مَسَاكِينَ‏.‏ قَالَ هِيَ مَنْسُوخَةٌ‏.‏",
+      "source_hash_sha256": "b2e0b703eb16ca6b82a5fe26f8afe78413c541d54c4be56aceb175b5b35a426d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e5480f90-709f-4bfd-8d34-59c3065b4787",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1950",
+      "reference": "Sahih al-Bukhari, hadith 1950, book 30, باب مَتَى يُقْضَى قَضَاءُ رَمَضَانَ",
+      "title": "باب مَتَى يُقْضَى قَضَاءُ رَمَضَانَ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا يَحْيَى، عَنْ أَبِي سَلَمَةَ، قَالَ سَمِعْتُ عَائِشَةَ ـ رضى الله عنها ـ تَقُولُ كَانَ يَكُونُ عَلَىَّ الصَّوْمُ مِنْ رَمَضَانَ، فَمَا أَسْتَطِيعُ أَنْ أَقْضِيَ إِلاَّ فِي شَعْبَانَ‏.‏ قَالَ يَحْيَى الشُّغْلُ مِنَ النَّبِيِّ أَوْ بِالنَّبِيِّ صلى الله عليه وسلم‏.‏",
+      "source_hash_sha256": "9d36e84d0d411a7ba3cbda1599c82ade7978333c62ab09099c38c8e9caf9c4ba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ahmad ibn Yûnus, Zuhayr, Yahyâ, Abû Salama et ‘Â’isha.\n\n‘Â’isha rapporte : Il me restait des jours de jeûne à rattraper du Ramadan, mais je ne pouvais les rattraper qu’en Sha‘bân. Yahyâ dit : « Cela était dû à l’occupation auprès du Prophète, ou à l’occupation causée par le Prophète. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "360120e8-9111-4b24-b515-0cdd5875c84c",
+      "reason": "This report quotes a Quranic phrase about feeding poor people as compensation. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

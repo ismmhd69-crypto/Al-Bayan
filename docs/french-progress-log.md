@@ -1582,3 +1582,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-333` saves six private French drafts for Bukhari 1939–1944. It retains the exact reports about cupping and fasting, the repeated request to prepare the drink in 1941, and the incomplete statement in 1942 without supplying a missing response.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,762 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 109. Total local hadith rows not drafted: 12,867, including held records.
+### 2026-10-29: Bukhari 1945–1950 source review
+
+- `FR-LIB-HAD-BUKHARI-334` saves five private French drafts for Bukhari 1945–1948 and 1950. Bukhari 1949 remains blank under Needs Mo because it directly quotes Quran 2:184; no approved, attributed French Quran translation is configured.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,767 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,862, including held records.
