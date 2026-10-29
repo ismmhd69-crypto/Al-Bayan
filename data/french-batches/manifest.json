@@ -19014,6 +19014,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-884",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-884.json",
+      "sourceIds": [
+        "40a66a84-5688-4aee-9571-95516695ea15",
+        "ea9e695b-e31f-4162-ad89-de8a8c2eda2b",
+        "9e453422-5b7b-434e-b291-08d6d1c29399",
+        "c7cd81fc-be8a-4cd0-aaff-0473b188f8e1",
+        "4c9f10a3-f928-4586-8e7b-a16c293eaa39",
+        "0cfa408e-17fa-4c3e-962e-b41dd9e64465"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 3,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21038,9 +21059,33 @@
       "scope": "Sahih al-Bukhari 4838: direct Quran wording from 33:45",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 33:45. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-883, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4842-INCOMPLETE-SOURCE-FRAGMENT",
+      "scope": "Sahih al-Bukhari 4842: incomplete source fragment",
+      "status": "blocked",
+      "reason": "Le texte source de Sahih al-Bukhari 4842 est un fragment : il s’interrompt après « j’ai entendu ʿAbd Allâh ibn al-Mughaffal al-Muzanî, au sujet d’uriner dans le lieu de bain ». La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-884 jusqu’à clarification du passage."
+    },
+    {
+      "id": "HADITH-BUKHARI-4843-QURAN-",
+      "scope": "Sahih al-Bukhari 4843: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran . Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-884, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4844-QURAN-3-23-UNMARKED",
+      "scope": "Sahih al-Bukhari 4844: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:23 (citation directe sans marqueur de balisage). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-884, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4845-QURAN-49-2",
+      "scope": "Sahih al-Bukhari 4845: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 49:2. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-884, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4047,
-  "hadithLocalDrafted": 4047,
-  "hadithLocalRemaining": 10620
+  "hadithBukhariDrafted": 4050,
+  "hadithLocalDrafted": 4050,
+  "hadithLocalRemaining": 10617
 }
