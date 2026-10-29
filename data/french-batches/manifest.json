@@ -48404,6 +48404,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1109",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1109.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "one long report with embedded Quran passages and an explicit Quran verse continuation left blank with a specific Needs Mo reason; source ID and hash preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -58469,10 +58482,15 @@
       "source_id": "c4173be9-21c3-4cdc-9b6d-3ca5c8388ea7",
       "reason": "Ce long récit reprend de nombreux passages coraniques sous forme de paroles rapportées. Garder la traduction française vide jusqu’à vérification des traductions coraniques autorisées et de leur attribution.",
       "status": "blocked"
+    },
+    {
+      "source_id": "e5379ea7-8db3-4dd4-9e44-369e53200719",
+      "reason": "Ce très long récit de Moïse et al-Khidr contient plusieurs passages coraniques cités ou paraphrasés, et se termine par une référence à la suite d’un verset. Garder la traduction française vide jusqu’à vérification des traductions coraniques autorisées et de leur attribution.",
+      "status": "blocked"
     }
   ],
   "hadithMuslimDrafted": 3538,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1478
+  "hadithNeedsMo": 1479
 }
