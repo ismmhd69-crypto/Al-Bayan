@@ -7703,3 +7703,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0117 saves six private French drafts on toilet etiquette, preserving the chains, prohibitions, and the differing reports about direction.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 476 Muslim drafts, 6,812 total hadith drafts, 7,817 remaining, and 253 Needs Mo items.
+
+### 2026-10-29: Muslim 266b–268a
+
+- FR-LIB-HAD-MUSLIM-0118 saves six private French drafts on toilet etiquette and beginning ordinary actions from the right side. The full reports and their distinct wording are preserved.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 482 Muslim drafts, 6,818 total hadith drafts, 7,811 remaining, and 253 Needs Mo items.
