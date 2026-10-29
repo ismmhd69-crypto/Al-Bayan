@@ -43854,6 +43854,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0743",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0743.json",
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "six complete reports translated as private drafts; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48161,8 +48174,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9115,
-  "hadithLocalRemaining": 5514,
+  "hadithLocalDrafted": 9121,
+  "hadithLocalRemaining": 5508,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53156,7 +53169,7 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2779,
+  "hadithMuslimDrafted": 2785,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 1222
