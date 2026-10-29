@@ -920,3 +920,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-185` saves six private French drafts for Bukhari 1053–1059. They preserve Asma’s account of the eclipse prayer and grave questioning, the instruction about freeing slaves, and the additional eclipse narrations.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 982 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,647, including held records.
+### 2026-10-29: Bukhari 1060–1066 source review
+
+- `FR-LIB-HAD-BUKHARI-186` saves six private French drafts for Bukhari 1060–1066. They preserve the supplication during an eclipse, the shorter eclipse reports, and the long narration about recitation and the eclipse prayer’s sequence.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 988 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 47. Total local hadith rows not drafted: 13,641, including held records.
