@@ -2851,3 +2851,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-587` contains the long report about Hajar, Zamzam, and the building of the Kaaba. It remains entirely blank because it directly quotes Quran 2:126; an approved attributed French Quran translation is unavailable.
 - The record passed the focused single-item long-source validator with its Quran-quote hold. No database writes or publication occurred. Bukhari local drafts: 3,018 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 203. Total local hadith rows not drafted: 11,637, including held records.
+
+### 2026-10-29: Bukhari 3366–3371
+
+- `FR-LIB-HAD-BUKHARI-588` saves six private French drafts about the sacred mosques, the Kaaba, and prayers for the Prophet.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,024 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 203. Total local hadith rows not drafted: 11,631, including held records.
