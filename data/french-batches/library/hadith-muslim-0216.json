@@ -1,0 +1,168 @@
+{
+  "batch_id": "HADITH-MUSLIM-0216",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:33:49.820Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "faf56724-f244-4bc9-81c8-c88ce343d5eb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:523a",
+      "reference": "Sahih Muslim, hadith 523 a, book 5, كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "title": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، وَعَلِيُّ بْنُ حُجْرٍ، قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ فُضِّلْتُ عَلَى الأَنْبِيَاءِ بِسِتٍّ أُعْطِيتُ جَوَامِعَ الْكَلِمِ وَنُصِرْتُ بِالرُّعْبِ وَأُحِلَّتْ لِيَ الْغَنَائِمُ وَجُعِلَتْ لِيَ الأَرْضُ طَهُورًا وَمَسْجِدًا وَأُرْسِلْتُ إِلَى الْخَلْقِ كَافَّةً وَخُتِمَ بِيَ النَّبِيُّونَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f3e3e5acef0a0ddc8357212e8ef9e9eca92f6a1d4d3b355205c03911040fba75",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Ayyub, Qutayba ibn Sa‘id et Ali ibn Hujr nous ont rapporté : Isma‘il — Ibn Ja‘far — nous a rapporté, d’après al-Ala, d’après son père, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « J’ai été favorisé par rapport aux autres prophètes en six choses : les paroles concises aux sens étendus m’ont été accordées ; j’ai été secouru par l’effroi ; le butin m’a été rendu licite ; la terre m’a été donnée comme purificatrice et lieu de prière ; j’ai été envoyé à toute la création ; et les prophètes ont été scellés par moi. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73ca5a1c-0567-47dc-82b9-7b54359a31c0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:523b",
+      "reference": "Sahih Muslim, hadith 523 b, book 5, كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "title": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، حَدَّثَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ بُعِثْتُ بِجَوَامِعِ الْكَلِمِ وَنُصِرْتُ بِالرُّعْبِ وَبَيْنَا أَنَا نَائِمٌ أُتِيتُ بِمَفَاتِيحِ خَزَائِنِ الأَرْضِ فَوُضِعَتْ فِي يَدَىَّ ‏\"‏ ‏.‏ قَالَ أَبُو هُرَيْرَةَ فَذَهَبَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَنْتُمْ تَنْتَثِلُونَهَا ‏.‏",
+      "source_hash_sha256": "8f18818c7affa6ca796cd0e98688db5e1c6ce322686fb64e0112cca2825266a4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir et Harmala m’ont rapporté : Ibn Wahb nous a informés : Yunus m’a rapporté, d’après Ibn Shihab, d’après Sa‘id ibn al-Musayyib, d’après Abu Hurayra, qui dit que le Messager d’Allah ﷺ a dit : « J’ai été envoyé avec des paroles concises aux sens étendus et secouru par l’effroi. Alors que je dormais, on m’apporta les clés des trésors de la terre et on les plaça dans mes mains. » Abu Hurayra dit : « Le Messager d’Allah ﷺ est parti, et vous êtes en train d’en extraire les trésors. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6997f8fd-476b-40a4-9b76-73d1f0d3d6b0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:523c",
+      "reference": "Sahih Muslim, hadith 523 c, book 5, كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "title": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا حَاجِبُ بْنُ الْوَلِيدِ، حَدَّثَنَا مُحَمَّدُ بْنُ حَرْبٍ، عَنِ الزُّبَيْدِيِّ، عَنِ الزُّهْرِيِّ، أَخْبَرَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، وَأَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ أَنَّ أَبَا هُرَيْرَةَ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏.‏ مِثْلَ حَدِيثِ يُونُسَ ‏.‏",
+      "source_hash_sha256": "4a35a0468393d8f864010e179cd7908aecacfc912b8f443abfedb6107e720bba",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "eb9aa75a-7483-4fe8-bee2-351538c3e562",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:523d",
+      "reference": "Sahih Muslim, hadith 523 d, book 5, كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "title": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ الْمُسَيَّبِ، وَأَبِي، سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "67faa531d084d96e682db6fc41575e3d4cdf8c05c255aefbdf565a9cf27bde54",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "79b9552f-753c-4ccd-91c8-1a8483a4acaa",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:523e",
+      "reference": "Sahih Muslim, hadith 523 e, book 5, كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "title": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، عَنْ عَمْرِو بْنِ الْحَارِثِ، عَنْ أَبِي يُونُسَ، مَوْلَى أَبِي هُرَيْرَةَ أَنَّهُ حَدَّثَهُ عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ نُصِرْتُ بِالرُّعْبِ عَلَى الْعَدُوِّ وَأُوتِيتُ جَوَامِعَ الْكَلِمِ وَبَيْنَمَا أَنَا نَائِمٌ أُتِيتُ بِمَفَاتِيحِ خَزَائِنِ الأَرْضِ فَوُضِعَتْ فِي يَدَىَّ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d22324de18451466bdd65ec4c37e62e934231df8b2c62259f4f967a990035e2b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir m’a rapporté : Ibn Wahb nous a informés, d’après Amr ibn al-Harith, d’après Abu Yunus, l’affranchi d’Abu Hurayra, qui lui avait rapporté d’après Abu Hurayra, d’après le Messager d’Allah ﷺ, qui a dit : « J’ai été secouru contre l’ennemi par l’effroi, j’ai reçu des paroles concises aux sens étendus et, alors que je dormais, on m’apporta les clés des trésors de la terre et on les plaça dans mes mains. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "841c4663-77dd-41b0-91f6-51649b44e6d2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:523f",
+      "reference": "Sahih Muslim, hadith 523 f, book 5, كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "title": "كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ نُصِرْتُ بِالرُّعْبِ وَأُوتِيتُ جَوَامِعَ الْكَلِمِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8383088bfd7e541026b407d70465ff10d6f9e56b76a7dd34dd4692fd85087cfc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Rafi‘ nous a rapporté : Abd al-Razzaq nous a rapporté : Ma‘mar nous a rapporté, d’après Hammam ibn Munabbih, qui dit : « Voici ce qu’Abu Hurayra nous a rapporté au sujet du Messager d’Allah ﷺ. » Il mentionna plusieurs hadiths, parmi lesquels celui-ci : le Messager d’Allah ﷺ a dit : « J’ai été secouru par l’effroi et j’ai reçu des paroles concises aux sens étendus. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "6997f8fd-476b-40a4-9b76-73d1f0d3d6b0",
+      "reason": "La source ne donne que les chaînes de transmission et renvoie à la version de Yunus sans reprendre le texte du hadith. Garder la traduction en attente d’un texte source complet vérifié."
+    },
+    {
+      "source_id": "eb9aa75a-7483-4fe8-bee2-351538c3e562",
+      "reason": "La source ne donne que les chaînes de transmission et renvoie à une formulation précédente (« similaire »), sans reprendre le texte du hadith. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
