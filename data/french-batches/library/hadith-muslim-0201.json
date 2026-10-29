@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0201",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:27:36.026Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "9c35f613-07e4-42aa-b080-36112f9c3468",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:482",
+      "reference": "Sahih Muslim, hadith 482, book 4, باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "title": "باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، وَعَمْرُو بْنُ سَوَّادٍ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، عَنْ عَمْرِو بْنِ الْحَارِثِ، عَنْ عُمَارَةَ بْنِ غَزِيَّةَ، عَنْ سُمَىٍّ، مَوْلَى أَبِي بَكْرٍ أَنَّهُ سَمِعَ أَبَا صَالِحٍ، ذَكْوَانَ يُحَدِّثُ عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ فَأَكْثِرُوا الدُّعَاءَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "afd438ecfac5c8f1da87da4cfc00c4877200d47d18f1f96618b045ecc97ca0b2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Ma‘ruf et Amr ibn Sawwad nous ont rapporté : Abdullah ibn Wahb nous a rapporté, d’après Amr ibn al-Harith, d’après Umara ibn Ghaziyya, d’après Sumayy, l’affranchi d’Abu Bakr, qui avait entendu Abu Salih Dhakwan rapporter d’après Abu Hurayra que le Messager d’Allah ﷺ a dit : « Le serviteur n’est jamais plus proche de son Seigneur que lorsqu’il est prosterné. Multipliez donc les invocations. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "03ae47b9-6307-47e2-8276-afe0c83f84c4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:483",
+      "reference": "Sahih Muslim, hadith 483, book 4, باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "title": "باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَيُونُسُ بْنُ عَبْدِ الأَعْلَى، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يَحْيَى بْنُ أَيُّوبَ، عَنْ عُمَارَةَ بْنِ غَزِيَّةَ، عَنْ سُمَىٍّ، مَوْلَى أَبِي بَكْرٍ عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَقُولُ فِي سُجُودِهِ ‏\"‏ اللَّهُمَّ اغْفِرْ لِي ذَنْبِي كُلَّهُ دِقَّهُ وَجِلَّهُ وَأَوَّلَهُ وَآخِرَهُ وَعَلاَنِيَتَهُ وَسِرَّهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "66f76c8263a12e32bb74fc29c377725a4db6726e31cef32779c6719125ba94c3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir et Yunus ibn Abd al-A‘la m’ont rapporté : Ibn Wahb nous a informés : Yahya ibn Ayyub m’a informé, d’après Umara ibn Ghaziyya, d’après Sumayy, l’affranchi d’Abu Bakr, d’après Abu Salih, d’après Abu Hurayra, que le Messager d’Allah ﷺ disait dans sa prosternation : « Ô Allah, pardonne-moi tous mes péchés, les plus petits comme les plus grands, les premiers comme les derniers, ceux commis ouvertement comme ceux commis en secret. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cb9a1a71-84e0-430f-9aec-c6a47aaf2f4c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:484a",
+      "reference": "Sahih Muslim, hadith 484 a, book 4, باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "title": "باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ زُهَيْرٌ حَدَّثَنَا جَرِيرٌ، عَنْ مَنْصُورٍ، عَنْ أَبِي الضُّحَى، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُكْثِرُ أَنْ يَقُولَ فِي رُكُوعِهِ وَسُجُودِهِ ‏\"‏ سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ اللَّهُمَّ اغْفِرْ لِي ‏\"‏ ‏.‏ يَتَأَوَّلُ الْقُرْآنَ ‏.‏",
+      "source_hash_sha256": "9fa8578014a1c53fafb3de3881c67085f9987a9ad0bed759c8472550c927930f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb et Ishaq ibn Ibrahim nous ont rapporté. Zuhayr dit : Jarir nous a rapporté, d’après Mansur, d’après Abu al-Duha, d’après Masruq, d’après Aïcha, qui dit : « Le Messager d’Allah ﷺ répétait souvent, dans son inclinaison et sa prosternation : “Gloire à Toi, ô Allah, notre Seigneur, et louange à Toi. Ô Allah, pardonne-moi.” Il mettait ainsi le Coran en pratique. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ce0a18ff-7ad6-47f3-bcc7-9b583ccf7e9b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:484b",
+      "reference": "Sahih Muslim, hadith 484 b, book 4, باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "title": "باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ مُسْلِمٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُكْثِرُ أَنْ يَقُولَ قَبْلَ أَنْ يَمُوتَ ‏\"‏ سُبْحَانَكَ وَبِحَمْدِكَ أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ ‏\"‏ ‏.‏ قَالَتْ قُلْتُ يَا رَسُولَ اللَّهِ مَا هَذِهِ الْكَلِمَاتُ الَّتِي أَرَاكَ أَحْدَثْتَهَا تَقُولُهَا قَالَ ‏\"‏ جُعِلَتْ لِي عَلاَمَةٌ فِي أُمَّتِي إِذَا رَأَيْتُهَا قُلْتُهَا ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ ‏\"‏ ‏.‏ إِلَى آخِرِ السُّورَةِ ‏.‏",
+      "source_hash_sha256": "63e68416837a51767b2d2b9ed23ee80aa1be017e1877bb18234f35239a4b751b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0b89167d-c637-44ae-830f-940cb125d244",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:484c",
+      "reference": "Sahih Muslim, hadith 484 c, book 4, باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "title": "باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا مُفَضَّلٌ، عَنِ الأَعْمَشِ، عَنْ مُسْلِمِ بْنِ صُبَيْحٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ مَا رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم مُنْذُ نَزَلَ عَلَيْهِ ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ يُصَلِّي صَلاَةً إِلاَّ دَعَا أَوْ قَالَ فِيهَا ‏\"‏ سُبْحَانَكَ رَبِّي وَبِحَمْدِكَ اللَّهُمَّ اغْفِرْ لِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a72917de66cdbce75ece56c202ca3dda16a4a1cb1c563adabf05795c19224056",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01663c42-ed26-448c-b899-6a3dcf627380",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:484d",
+      "reference": "Sahih Muslim, hadith 484 d, book 4, باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "title": "باب مَا يُقَالُ فِي الرُّكُوعِ وَالسُّجُودِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنِي عَبْدُ الأَعْلَى، حَدَّثَنَا دَاوُدُ، عَنْ عَامِرٍ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ، قَالَتْ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُكْثِرُ مِنْ قَوْلِ ‏\"‏ سُبْحَانَ اللَّهِ وَبِحَمْدِهِ أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ ‏\"‏ ‏.‏ قَالَتْ فَقُلْتُ يَا رَسُولَ اللَّهِ أَرَاكَ تُكْثِرُ مِنْ قَوْلِ سُبْحَانَ اللَّهِ وَبِحَمْدِهِ أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ ‏.‏ فَقَالَ ‏\"‏ خَبَّرَنِي رَبِّي أَنِّي سَأَرَى عَلاَمَةً فِي أُمَّتِي فَإِذَا رَأَيْتُهَا أَكْثَرْتُ مِنْ قَوْلِ سُبْحَانَ اللَّهِ وَبِحَمْدِهِ أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ ‏.‏ فَقَدْ رَأَيْتُهَا ‏[quran sura=\"110\" aya_start=\"1\" aya_end=\"1\"]{‏ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ‏}‏ فَتْحُ مَكَّةَ ‏[quran sura=\"110\" aya_start=\"2\" aya_end=\"3\"]{‏ وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا * فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا‏}‏ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4361bac82f0f49008824b64db237eb1ff87da885bd47b9ff4e3bbe472fc7e7be",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ce0a18ff-7ad6-47f3-bcc7-9b583ccf7e9b",
+      "reason": "La source cite directement le verset 110:1 du Coran puis renvoie à la fin de la sourate. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "0b89167d-c637-44ae-830f-940cb125d244",
+      "reason": "La source cite directement le verset 110:1 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "01663c42-ed26-448c-b899-6a3dcf627380",
+      "reason": "La source cite directement les versets 110:1–3 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    }
+  ]
+}
