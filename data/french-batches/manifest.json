@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:39:19.764Z",
+  "lastReconciled": "2026-10-29T14:39:47.793Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 456,
+    "hadithMuslimDrafted": 461,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6792,
-    "hadithDatabaseMissing": 7837,
-    "hadithLocalRemaining": 7837,
-    "hadithNeedsMo": 249,
+    "hadithLocalDrafted": 6797,
+    "hadithDatabaseMissing": 7832,
+    "hadithLocalRemaining": 7832,
+    "hadithNeedsMo": 250,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -31371,6 +31371,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0114",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0114.json",
+      "sourceIds": [
+        "015868ec-4589-413a-bab1-5b9c67ab96db",
+        "97b58d5a-cabb-4c1a-ba66-c398f1a8a380",
+        "c1dca62c-07f7-4eee-8433-e2060c79d16b",
+        "ac12aa08-2b94-4130-9b96-41b4ad968a55",
+        "0f7bc8a2-f4e1-4806-8231-a34d3dc7b5e9",
+        "f7a5f6dd-20a0-42ab-b762-d492cdda00a1"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; partial variant held blank; siwak reports translated",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35678,8 +35699,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6792,
-  "hadithLocalRemaining": 7837,
+  "hadithLocalDrafted": 6797,
+  "hadithLocalRemaining": 7832,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -37174,10 +37195,16 @@
       "scope": "Sahih Muslim 249b: incomplete variant text",
       "status": "blocked",
       "reason": "La source arabe rapporte seulement le début de la salutation au cimetière, puis renvoie au récit d’Isma‘il ibn Ja‘far pour la suite, en ne précisant qu’une variante. Ne pas recopier le récit précédent ; garder la traduction en attente d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-251B-SOURCE-INCOMPLETE",
+      "scope": "Sahih Muslim 251b: variant-only text",
+      "status": "blocked",
+      "reason": "La source arabe ne reprend que la chaîne et deux différences de formulation du récit précédent, sans en donner le texte. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le hadith précédent."
     }
   ],
-  "hadithMuslimDrafted": 456,
-  "hadithDatabaseMissing": 7837,
+  "hadithMuslimDrafted": 461,
+  "hadithDatabaseMissing": 7832,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 249
+  "hadithNeedsMo": 250
 }

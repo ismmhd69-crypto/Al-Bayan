@@ -7680,3 +7680,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0113 saves five private French drafts about ablution’s signs, the Prophet’s Basin, and completing ablution despite difficulty.
 - Muslim 249b gives the beginning of a report, then refers to another version for the rest while recording one wording difference. It remains blank under Needs Mo rather than being completed from the neighboring report.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 456 Muslim drafts, 6,792 total hadith drafts, 7,837 remaining, and 249 Needs Mo items.
+
+### 2026-10-29: Muslim 251b–255a
+
+- FR-LIB-HAD-MUSLIM-0114 saves five private French drafts on prayer and the siwak.
+- Muslim 251b records only the transmission chain and wording differences from the prior report. It remains blank under Needs Mo rather than being filled from the previous text.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 461 Muslim drafts, 6,797 total hadith drafts, 7,832 remaining, and 250 Needs Mo items.

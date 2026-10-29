@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0114",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:39:26.027Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "015868ec-4589-413a-bab1-5b9c67ab96db",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:251b",
+      "reference": "Sahih Muslim, hadith 251b, book 2, باب فَضْلِ إِسْبَاغِ الْوُضُوءِ عَلَى الْمَكَارِهِ ‏‏",
+      "title": "باب فَضْلِ إِسْبَاغِ الْوُضُوءِ عَلَى الْمَكَارِهِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ مُوسَى الأَنْصَارِيُّ، حَدَّثَنَا مَعْنٌ، حَدَّثَنَا مَالِكٌ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، جَمِيعًا عَنِ الْعَلاَءِ بْنِ عَبْدِ الرَّحْمَنِ، بِهَذَا الإِسْنَادِ وَلَيْسَ فِي حَدِيثِ شُعْبَةَ ذِكْرُ الرِّبَاطِ وَفِي حَدِيثِ مَالِكٍ ثِنْتَيْنِ ‏\"‏ فَذَلِكُمُ الرِّبَاطُ فَذَلِكُمُ الرِّبَاطُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "04758ab2b754fe7f59dc29569061c3ab0dc31c5b80a69e24186d840ab69bc69e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne reprend que la chaîne et deux différences de formulation du récit précédent, sans en donner le texte. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le hadith précédent."
+    },
+    {
+      "source_id": "97b58d5a-cabb-4c1a-ba66-c398f1a8a380",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:252",
+      "reference": "Sahih Muslim, hadith 252, book 2, باب السِّوَاكِ ‏‏",
+      "title": "باب السِّوَاكِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَعَمْرٌو النَّاقِدُ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالُوا حَدَّثَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لَوْلاَ أَنْ أَشُقَّ عَلَى الْمُؤْمِنِينَ - وَفِي حَدِيثِ زُهَيْرٍ عَلَى أُمَّتِي - لأَمَرْتُهُمْ بِالسِّوَاكِ عِنْدَ كُلِّ صَلاَةٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2d8c3707e5fb263d7eefa27f811884fa691783ee0491358bb8a657b5a080ab71",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id, ‘Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté. Ils dirent : Sufyan nous a rapporté, d’après Abû al-Zinad, d’après al-A‘raj, d’après Abû Hurayra, qui rapporte que le Prophète ﷺ a dit : « Si je ne craignais pas d’imposer une difficulté aux croyants — dans la version de Zuhayr : à ma communauté —, je leur aurais ordonné d’utiliser le siwak avant chaque prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c1dca62c-07f7-4eee-8433-e2060c79d16b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:253a",
+      "reference": "Sahih Muslim, hadith 253a, book 2, باب السِّوَاكِ ‏‏",
+      "title": "باب السِّوَاكِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا ابْنُ بِشْرٍ، عَنْ مِسْعَرٍ، عَنِ الْمِقْدَامِ بْنِ شُرَيْحٍ، عَنْ أَبِيهِ، قَالَ سَأَلْتُ عَائِشَةَ قُلْتُ بِأَىِّ شَىْءٍ كَانَ يَبْدَأُ النَّبِيُّ صلى الله عليه وسلم إِذَا دَخَلَ بَيْتَهُ قَالَتْ بِالسِّوَاكِ ‏.‏",
+      "source_hash_sha256": "df7dff0bd2cda9ef5bf44e4a59a2dba85ea6ee98614377fd01e06b6b285286db",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Kurayb Muhammad ibn al-‘Ala nous a rapporté, d’après Ibn Bishr, d’après Mis‘ar, d’après al-Miqdam ibn Shurayh, d’après son père, qui a dit : Je demandai à ‘A’isha : « Par quoi le Prophète ﷺ commençait-il lorsqu’il entrait chez lui ? » Elle répondit : « Par le siwak. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ac12aa08-2b94-4130-9b96-41b4ad968a55",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:253b",
+      "reference": "Sahih Muslim, hadith 253b, book 2, باب السِّوَاكِ ‏‏",
+      "title": "باب السِّوَاكِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ الْعَبْدِيُّ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ، عَنْ سُفْيَانَ، عَنِ الْمِقْدَامِ بْنِ شُرَيْحٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ إِذَا دَخَلَ بَيْتَهُ بَدَأَ بِالسِّوَاكِ ‏.‏",
+      "source_hash_sha256": "26f565ea9132ba89f4486da4e22781b2910a3675ee695fc539e9cfd516b3cb25",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Nafi‘ al-‘Abdi m’a rapporté, d’après ‘Abd al-Rahman, d’après Sufyan, d’après al-Miqdam ibn Shurayh, d’après son père, d’après ‘A’isha, qui rapporta que lorsque le Prophète ﷺ entrait chez lui, il commençait par le siwak.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0f7bc8a2-f4e1-4806-8231-a34d3dc7b5e9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:254",
+      "reference": "Sahih Muslim, hadith 254, book 2, باب السِّوَاكِ ‏‏",
+      "title": "باب السِّوَاكِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ حَبِيبٍ الْحَارِثِيُّ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ غَيْلاَنَ، - وَهُوَ ابْنُ جَرِيرٍ الْمَعْوَلِيُّ - عَنْ أَبِي بُرْدَةَ، عَنْ أَبِي مُوسَى، قَالَ دَخَلْتُ عَلَى النَّبِيِّ صلى الله عليه وسلم وَطَرَفُ السِّوَاكِ عَلَى لِسَانِهِ ‏.‏",
+      "source_hash_sha256": "64d7ceb8dd3eeaeb0f797a0dca7c6b6e69f4d3e5ec28dee8c3426b5fa9826274",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Habib al-Harithi nous a rapporté, d’après Hammad ibn Zayd, d’après Ghaylan — Ibn Jarir al-Ma‘wali —, d’après Abû Burda, d’après Abû Musa, qui a dit : Je rendis visite au Prophète ﷺ alors que l’extrémité du siwak était sur sa langue.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f7a5f6dd-20a0-42ab-b762-d492cdda00a1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:255a",
+      "reference": "Sahih Muslim, hadith 255a, book 2, باب السِّوَاكِ ‏‏",
+      "title": "باب السِّوَاكِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا هُشَيْمٌ، عَنْ حُصَيْنٍ، عَنْ أَبِي وَائِلٍ، عَنْ حُذَيْفَةَ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا قَامَ لِيَتَهَجَّدَ يَشُوصُ فَاهُ بِالسِّوَاكِ ‏.‏",
+      "source_hash_sha256": "037f06e7193b184cd950230d013a22edccca11b5863378fc88693864b11ba4ad",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté, d’après Hushaym, d’après Husayn, d’après Abû Wa’il, d’après Hudhayfa, qui a dit : Lorsque le Messager de Dieu ﷺ se levait pour accomplir la prière nocturne, il se nettoyait la bouche avec le siwak.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "015868ec-4589-413a-bab1-5b9c67ab96db",
+      "reason": "La source arabe ne reprend que la chaîne et deux différences de formulation du récit précédent, sans en donner le texte. Garder la traduction en attente d’un texte complet vérifié plutôt que de recopier le hadith précédent."
+    }
+  ]
+}
