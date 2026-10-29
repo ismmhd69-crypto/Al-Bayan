@@ -992,3 +992,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-203` saves six private French drafts for Bukhari 1166–1171. They preserve the complete consultation prayer, the mosque-entry instruction, the narrated prayer counts, the Friday sermon instruction, and the combined reports about prayer inside the Kaaba and the forenoon prayer.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,082 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,547, including held records.
+### 2026-10-29: Bukhari 1172–1178 source review
+
+- `FR-LIB-HAD-BUKHARI-204` saves six private French drafts for the combined Bukhari 1172–1173 record and Bukhari 1174–1178. They preserve the repeated narration variants, the reported prayer counts and times, and the individual attributions.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,088 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,541, including held records.
