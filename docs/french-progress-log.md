@@ -5236,5 +5236,5 @@ Scope: private local preparation only. French remains absent from public locale 
 
 ### 2026-10-29: Bukhari 5634–5639
 
-- FR-LIB-HAD-BUKHARI-1025 saves six private French drafts about drinking from silver vessels, the seven commands and seven prohibitions, Umm al-Fadl’s report, the Prophet’s cup, and the water blessing at al-Hudaybiya.
+- FR-LIB-HAD-BUKHARI-1025 saves six private French drafts about drinking from silver vessels, the seven commands and seven prohibitions, Umm al-Fadl’s report, the Prophet’s cup, and a report of water flowing between the Prophets fingers.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,681 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 744. Total local hadith rows not drafted: 9,948, including held records.
