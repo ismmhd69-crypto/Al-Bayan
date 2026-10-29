@@ -11466,3 +11466,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1849a-1851c
 
 - FR-LIB-HAD-MUSLIM-0876 saves four private French drafts about patience, group loyalty, and allegiance. The two chain-only cross-references remain blank under Needs Mo with specific reasons. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1852a-1854b
+
+- FR-LIB-HAD-MUSLIM-0877 saves six private French drafts about community unity and disagreement with rulers. The different wording versions are retained, including “strike him” versus “kill him.” No Quran verse is quoted. No database write or publication occurred.
