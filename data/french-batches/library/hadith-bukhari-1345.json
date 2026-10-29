@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-BUKHARI-1345",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T13:20:19.612Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3dab10f8-0abf-4dcc-8868-e14e4649ef9e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7380",
+      "reference": "Sahih al-Bukhari, hadith 7380, book 97, بَابُ قَوْلِ اللَّهِ تَعَالَى: {عَالِمُ الْغَيْبِ فَلاَ يُظْهِرُ عَلَى غَيْبِهِ أَحَدًا}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {عَالِمُ الْغَيْبِ فَلاَ يُظْهِرُ عَلَى غَيْبِهِ أَحَدًا}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنْ إِسْمَاعِيلَ، عَنِ الشَّعْبِيِّ، عَنْ مَسْرُوقٍ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ قَالَتْ مَنْ حَدَّثَكَ أَنَّ مُحَمَّدًا صلى الله عليه وسلم رَأَى رَبَّهُ فَقَدْ كَذَبَ وَهْوَ يَقُولُ ‏[quran sura=\"6\" aya_start=\"102\" aya_end=\"102\"]{‏لاَ تُدْرِكُهُ الأَبْصَارُ‏}‏ وَمَنْ حَدَّثَكَ أَنَّهُ يَعْلَمُ الْغَيْبَ فَقَدْ كَذَبَ، وَهْوَ يَقُولُ لاَ يَعْلَمُ الْغَيْبَ إِلاَّ اللَّهُ‏.‏",
+      "source_hash_sha256": "83685fd28437f3759a469902acdc8139d57353d129d62e9f7efbcf2cf5bd1fbb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "The report directly quotes Quranic wording embedded with a source tag for 6:102; the marked verse and wording may not match. Keep the complete French translation blank pending confirmation of the source reference and an approved, attributed French Quran translation with permitted use."
+    },
+    {
+      "source_id": "b30453dc-59b4-4b7a-a90a-9e3dac7e767d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7381",
+      "reference": "Sahih al-Bukhari, hadith 7381, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏{‏السَّلاَمُ الْمُؤْمِنُ‏}‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏{‏السَّلاَمُ الْمُؤْمِنُ‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ يُونُسَ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا مُغِيرَةُ، حَدَّثَنَا شَقِيقُ بْنُ سَلَمَةَ، قَالَ قَالَ عَبْدُ اللَّهِ كُنَّا نُصَلِّي خَلْفَ النَّبِيِّ صلى الله عليه وسلم فَنَقُولُ السَّلاَمُ عَلَى اللَّهِ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ هُوَ السَّلاَمُ وَلَكِنْ قُولُوا التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلاَمُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلاَمُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ ‏\"‏‏.‏",
+      "source_hash_sha256": "800a9f6fd0a13c588d4c753845029d344c0b802ee678944b73d394780d467095",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Yûnus nous a rapporté : Zuhayr nous a rapporté : Mughîra nous a rapporté : Shaqîq ibn Salama a dit : ‘Abd Allah a dit : « Nous priions derrière le Prophète ﷺ et nous disions : “Que la paix soit sur Allah.” Le Prophète ﷺ dit : “Allah est la Paix. Dites plutôt : Les salutations, les prières et les bonnes œuvres appartiennent à Allah. Que la paix soit sur toi, ô Prophète, ainsi que la miséricorde d’Allah et Ses bénédictions. Que la paix soit sur nous et sur les serviteurs vertueux d’Allah. J’atteste qu’il n’y a de divinité qu’Allah, et j’atteste que Muhammad est Son serviteur et Son messager.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f4ba8b0a-8160-4c8b-b65f-4c53002da1ea",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7382",
+      "reference": "Sahih al-Bukhari, hadith 7382, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏{‏مَلِكِ النَّاسِ‏}‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏{‏مَلِكِ النَّاسِ‏}‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ يَقْبِضُ اللَّهُ الأَرْضَ يَوْمَ الْقِيَامَةِ، وَيَطْوِي السَّمَاءَ بِيَمِينِهِ ثُمَّ يَقُولُ أَنَا الْمَلِكُ أَيْنَ مُلُوكُ الأَرْضِ ‏\"‏‏.‏ وَقَالَ شُعَيْبٌ وَالزُّبَيْدِيُّ وَابْنُ مُسَافِرٍ وَإِسْحَاقُ بْنُ يَحْيَى عَنِ الزُّهْرِيِّ عَنْ أَبِي سَلَمَةَ‏.‏",
+      "source_hash_sha256": "b17bc50f9e20584c96181f63d1c36a6c963e6c1dc2951b88b32acab3d2491642",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ahmad ibn Sâlih nous a rapporté : Ibn Wahb nous a rapporté : Yûnus m’a informé, d’après Ibn Shihâb, d’après Sa‘îd, d’après Abû Hurayra, que le Prophète ﷺ a dit : « Allah saisira la terre le Jour de la Résurrection et pliera le ciel de Sa main droite, puis dira : “Je suis le Roi. Où sont les rois de la terre ?” » Shu‘ayb, az-Zubaydî, Ibn Musâfir et Ishâq ibn Yahyâ ont également rapporté, d’après az-Zuhrî et d’après Abû Salama.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ba4744c9-a489-4009-a950-2d87831142c1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7383",
+      "reference": "Sahih al-Bukhari, hadith 7383, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏وَهْوَ الْعَزِيزُ الْحَكِيمُ‏} ‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏وَهْوَ الْعَزِيزُ الْحَكِيمُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، عَنِ ابْنِ عَبَّاسٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقُولُ ‏\"‏ أَعُوذُ بِعِزَّتِكَ الَّذِي لاَ إِلَهَ إِلاَّ أَنْتَ، الَّذِي لاَ يَمُوتُ وَالْجِنُّ وَالإِنْسُ يَمُوتُونَ ‏\"‏‏.‏",
+      "source_hash_sha256": "fb60d4fb7836104aef5e824523c17f3c7eced25fa464fd9515d6661484965ebf",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Ma‘mar nous a rapporté : ‘Abd al-Wârith nous a rapporté : Husayn al-Mu‘allim nous a rapporté : ‘Abd Allah ibn Burayda m’a rapporté, d’après Yahyâ ibn Ya‘mar, d’après Ibn ‘Abbâs, que le Prophète ﷺ disait : « Je cherche protection auprès de Ta puissance — Toi en dehors de qui il n’est pas de divinité —, Toi qui ne meurs pas, tandis que les djinns et les hommes meurent. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0461235c-5c4a-4ec0-9a3a-2ef23b6cbd3b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7384",
+      "reference": "Sahih al-Bukhari, hadith 7384, book 97, باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏وَهْوَ الْعَزِيزُ الْحَكِيمُ‏} ‏",
+      "title": "باب قَوْلِ اللَّهِ تَعَالَى ‏ {‏وَهْوَ الْعَزِيزُ الْحَكِيمُ‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ أَبِي الأَسْوَدِ، حَدَّثَنَا حَرَمِيٌّ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ يُلْقَى فِي النَّارِ ‏\"‏‏.‏ وَقَالَ لِي خَلِيفَةُ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ حَدَّثَنَا سَعِيدٌ عَنْ قَتَادَةَ عَنْ أَنَسٍ‏.‏ وَعَنْ مُعْتَمِرٍ سَمِعْتُ أَبِي عَنْ قَتَادَةَ عَنْ أَنَسٍ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَزَالُ يُلْقَى فِيهَا وَتَقُولُ هَلْ مِنْ مَزِيدٍ‏.‏ حَتَّى يَضَعَ فِيهَا رَبُّ الْعَالَمِينَ قَدَمَهُ فَيَنْزَوِي بَعْضُهَا إِلَى بَعْضٍ، ثُمَّ تَقُولُ قَدْ قَدْ بِعِزَّتِكَ وَكَرَمِكَ‏.‏ وَلاَ تَزَالُ الْجَنَّةُ تَفْضُلُ حَتَّى يُنْشِئَ اللَّهُ لَهَا خَلْقًا فَيُسْكِنَهُمْ فَضْلَ الْجَنَّةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "25d8968f11c3e7329f7fe1169fd3ce3a396623bd3db86d8b24ff65508c67cd83",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ibn Abî al-Aswad nous a rapporté : Harâmî nous a rapporté : Shu‘ba nous a rapporté, d’après Qatâda, d’après Anas, que le Prophète ﷺ a dit : « On le jettera dans le Feu. » Khalîfa m’a dit : Yazîd ibn Zuray‘ nous a rapporté, Sa‘îd nous a rapporté, d’après Qatâda, d’après Anas. Et, d’après Mu‘tamir, j’ai entendu mon père rapporter, d’après Qatâda, d’après Anas, que le Prophète ﷺ a dit : « On continuera à y jeter [des gens], et elle dira : “Y en a-t-il encore ?” jusqu’à ce que le Seigneur des mondes y pose Son pied ; alors elle se repliera sur elle-même. Puis elle dira : “Assez, assez, par Ta puissance et Ta générosité !” Le Paradis continuera à garder de la place jusqu’à ce qu’Allah y fasse naître une création, qu’Il installera dans la place restante du Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3d2b859f-c3ad-4d3e-a853-49bb68f1be9b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:7385",
+      "reference": "Sahih al-Bukhari, hadith 7385, book 97, بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَهُوَ الَّذِي خَلَقَ السَّمَوَاتِ وَالأَرْضَ بِالْحَقِّ}",
+      "title": "بَابُ قَوْلِ اللَّهِ تَعَالَى: {وَهُوَ الَّذِي خَلَقَ السَّمَوَاتِ وَالأَرْضَ بِالْحَقِّ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ، حَدَّثَنَا سُفْيَانُ، عَنِ ابْنِ جُرَيْجٍ، عَنْ سُلَيْمَانَ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم يَدْعُو مِنَ اللَّيْلِ ‏\"‏ اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ رَبُّ السَّمَوَاتِ وَالأَرْضِ، لَكَ الْحَمْدُ أَنْتَ قَيِّمُ السَّمَوَاتِ وَالأَرْضِ وَمَنْ فِيهِنَّ، لَكَ الْحَمْدُ أَنْتَ نُورُ السَّمَوَاتِ وَالأَرْضِ، قَوْلُكَ الْحَقُّ، وَوَعْدُكَ الْحَقُّ، وَلِقَاؤُكَ حَقٌّ، وَالْجَنَّةُ حَقٌّ، وَالنَّارُ حَقٌّ، وَالسَّاعَةُ حَقٌّ، اللَّهُمَّ لَكَ أَسْلَمْتُ، وَبِكَ آمَنْتُ، وَعَلَيْكَ تَوَكَّلْتُ، وَإِلَيْكَ أَنَبْتُ، وَبِكَ خَاصَمْتُ، وَإِلَيْكَ حَاكَمْتُ، فَاغْفِرْ لِي مَا قَدَّمْتُ وَمَا أَخَّرْتُ، وَأَسْرَرْتُ وَأَعْلَنْتُ، أَنْتَ إِلَهِي لاَ إِلَهَ لِي غَيْرُكَ ‏\"‏‏.‏ حَدَّثَنَا ثَابِتُ بْنُ مُحَمَّدٍ حَدَّثَنَا سُفْيَانُ بِهَذَا وَقَالَ أَنْتَ الْحَقُّ وَقَوْلُكَ الْحَقُّ‏.‏",
+      "source_hash_sha256": "2032640d9fc761de4d3590a50a394bd35f707e1dc560dc01cd052a3d182f8c90",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qabîsa nous a rapporté : Sufyân nous a rapporté, d’après Ibn Jurayj, d’après Sulaymân, d’après Tâwûs, d’après Ibn ‘Abbâs — qu’Allah les agrée tous deux — qui a dit : Le Prophète ﷺ invoquait Allah durant la nuit : « Ô Allah, à Toi la louange. Tu es le Seigneur des cieux et de la terre. À Toi la louange. Tu es Celui qui maintient les cieux, la terre et ceux qui s’y trouvent. À Toi la louange. Tu es la lumière des cieux et de la terre. Ta parole est vérité, Ta promesse est vérité, la rencontre avec Toi est vérité, le Paradis est vérité, le Feu est vérité et l’Heure est vérité. Ô Allah, je me soumets à Toi, je crois en Toi, je m’en remets à Toi, je reviens à Toi, je plaide par Ton appui et je soumets mes litiges à Ton jugement. Pardonne-moi ce que j’ai fait auparavant et ce que je ferai ensuite, ce que j’ai gardé secret et ce que j’ai rendu public. Tu es mon Dieu ; il n’est de divinité pour moi que Toi. » Thâbit ibn Muhammad nous a rapporté : Sufyân nous a rapporté ce même hadith et a dit : « Tu es la Vérité et Ta parole est vérité. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "3dab10f8-0abf-4dcc-8868-e14e4649ef9e",
+      "reason": "The report directly quotes Quranic wording embedded with a source tag for 6:102; the marked verse and wording may not match. Keep the complete French translation blank pending confirmation of the source reference and an approved, attributed French Quran translation with permitted use."
+    }
+  ]
+}
