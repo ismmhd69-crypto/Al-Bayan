@@ -17451,6 +17451,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-805",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-805.json",
+      "sourceIds": [
+        "264b3834-99dc-4407-999e-4b3ccccaf87a",
+        "f3508d91-8ab4-43ad-b60d-b6e02ddf1c1f",
+        "c2c62de7-0fbf-4440-aa25-4a4b6253577e",
+        "d4607740-3392-4657-a0b0-4f63e8a00c6e",
+        "91785343-b4bd-40f7-a891-bfeb49992aec",
+        "ed7972ac-5436-4766-93ae-c69bf0b945c4"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -17999,9 +18020,15 @@
       "scope": "Sahih al-Bukhari 4447: unclear expression عبد العصا",
       "status": "blocked",
       "reason": "The idiom أَنْتَ وَاللَّهِ بَعْدَ ثَلاَثٍ عَبْدُ الْعَصَا has an unclear exact meaning in this source record. The complete report remains blank in FR-LIB-HAD-BUKHARI-804 pending clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-4452-QURAN-3-144",
+      "scope": "Sahih al-Bukhari 4452: direct quotation of Quran 3:144",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:144. The complete record remains blank in FR-LIB-HAD-BUKHARI-805 pending an approved, attributed French Quran translation."
     }
   ],
-  "hadithBukhariDrafted": 3916,
-  "hadithLocalDrafted": 3916,
-  "hadithLocalRemaining": 10741
+  "hadithBukhariDrafted": 3921,
+  "hadithLocalDrafted": 3921,
+  "hadithLocalRemaining": 10736
 }
