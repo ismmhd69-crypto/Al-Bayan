@@ -1,0 +1,162 @@
+{
+  "batch_id": "HADITH-MUSLIM-1220",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:57:11.846Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fa9a46b3-ebc9-4580-b6dc-db3c00ead752",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2648b",
+      "reference": "Sahih Muslim, hadith 2648 b, book 46, بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "title": "بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو الطَّاهِرِ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِهَذَا الْمَعْنَى وَفِيهِ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ كُلُّ عَامِلٍ مُيَسَّرٌ لِعَمَلِهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "05f3aeb31a9471bb4ee21821d64d3e0a1ba01a46af632056b48dae0feb9c749c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "698b9349-597c-423e-b945-94259544764b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2649a",
+      "reference": "Sahih Muslim, hadith 2649 a, book 46, بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "title": "بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ يَزِيدَ الضُّبَعِيِّ، حَدَّثَنَا مُطَرِّفٌ، عَنْ عِمْرَانَ بْنِ حُصَيْنٍ، قَالَ قِيلَ يَا رَسُولَ اللَّهِ أَعُلِمَ أَهْلُ الْجَنَّةِ مِنْ أَهْلِ النَّارِ قَالَ فَقَالَ ‏\"‏ نَعَمْ ‏\"‏ ‏.‏ قَالَ قِيلَ فَفِيمَ يَعْمَلُ الْعَامِلُونَ قَالَ ‏\"‏ كُلٌّ مُيَسَّرٌ لِمَا خُلِقَ لَهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "80fc3c3fc6475674ea7dcc62449652d2749ade31045f736c6ec545c7e424443c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yaḥyā ibn Yaḥyā nous a rapporté : Ḥammād ibn Zayd nous a informés, d’après Yazīd al-Ḍubaʿī : Muṭarrif nous a rapporté, d’après ʿImrān ibn Ḥuṣayn, qui a dit : On demanda : « Messager d’Allah, sait-on qui appartient aux gens du Paradis et qui appartient aux gens du Feu ? » Il répondit : « Oui. » On demanda : « Alors, pourquoi les gens agissent-ils ? » Il répondit : « Chacun est facilité vers ce pour quoi il a été créé. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e6d9b2db-efb0-4637-8ad0-9f276168fc01",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2649b",
+      "reference": "Sahih Muslim, hadith 2649 b, book 46, بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "title": "بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا شَيْبَانُ بْنُ فَرُّوخَ، حَدَّثَنَا عَبْدُ الْوَارِثِ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ وَابْنُ نُمَيْرٍ عَنِ ابْنِ عُلَيَّةَ، ح وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا جَعْفَرُ بْنُ سُلَيْمَانَ، ح وَحَدَّثَنَا ابْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، كُلُّهُمْ عَنْ يَزِيدَ الرِّشْكِ، فِي هَذَا الإِسْنَادِ ‏.‏ بِمَعْنَى حَدِيثِ حَمَّادٍ وَفِي حَدِيثِ عَبْدِ الْوَارِثِ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ ‏.‏",
+      "source_hash_sha256": "4bf128ece6dec65b080afc773de78c2ab97a85edf473d5cbbbf55ac7bc9be863",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f24b8dc4-7fdc-41b8-bcf1-18838f364df0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2650",
+      "reference": "Sahih Muslim, hadith 2650, book 46, بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "title": "بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ الْحَنْظَلِيُّ، حَدَّثَنَا عُثْمَانُ بْنُ عُمَرَ، حَدَّثَنَا عَزْرَةُ بْنُ، ثَابِتٍ عَنْ يَحْيَى بْنِ عُقَيْلٍ، عَنْ يَحْيَى بْنِ يَعْمُرَ، عَنْ أَبِي الأَسْوَدِ الدِّئَلِيِّ، قَالَ قَالَ لِي عِمْرَانُ بْنُ الْحُصَيْنِ أَرَأَيْتَ مَا يَعْمَلُ النَّاسُ الْيَوْمَ وَيَكْدَحُونَ فِيهِ أَشَىْءٌ قُضِيَ عَلَيْهِمْ وَمَضَى عَلَيْهِمْ مِنْ قَدَرِ مَا سَبَقَ أَوْ فِيمَا يُسْتَقْبَلُونَ بِهِ مِمَّا أَتَاهُمْ بِهِ نَبِيُّهُمْ وَثَبَتَتِ الْحُجَّةُ عَلَيْهِمْ فَقُلْتُ بَلْ شَىْءٌ قُضِيَ عَلَيْهِمْ وَمَضَى عَلَيْهِمْ قَالَ فَقَالَ أَفَلاَ يَكُونُ ظُلْمًا قَالَ فَفَزِعْتُ مِنْ ذَلِكَ فَزَعًا شَدِيدًا وَقُلْتُ كُلُّ شَىْءٍ خَلْقُ اللَّهِ وَمِلْكُ يَدِهِ فَلاَ يُسْأَلُ عَمَّا يَفْعَلُ وَهُمْ يُسْأَلُونَ ‏.‏ فَقَالَ لِي يَرْحَمُكَ اللَّهُ إِنِّي لَمْ أُرِدْ بِمَا سَأَلْتُكَ إِلاَّ لأَحْزُرَ عَقْلَكَ إِنَّ رَجُلَيْنِ مِنْ مُزَيْنَةَ أَتَيَا رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالاَ يَا رَسُولَ اللَّهِ أَرَأَيْتَ مَا يَعْمَلُ النَّاسُ الْيَوْمَ وَيَكْدَحُونَ فِيهِ أَشَىْءٌ قُضِيَ عَلَيْهِمْ وَمَضَى فِيهِمْ مِنْ قَدَرٍ قَدْ سَبَقَ أَوْ فِيمَا يُسْتَقْبَلُونَ بِهِ مِمَّا أَتَاهُمْ بِهِ نَبِيُّهُمْ وَثَبَتَتِ الْحُجَّةُ عَلَيْهِمْ فَقَالَ ‏\"‏ لاَ بَلْ شَىْءٌ قُضِيَ عَلَيْهِمْ وَمَضَى فِيهِمْ وَتَصْدِيقُ ذَلِكَ فِي كِتَابِ اللَّهِ عَزَّ وَجَلَّ ‏[quran sura=\"91\" aya_start=\"7\" aya_end=\"8\"]{‏ وَنَفْسٍ وَمَا سَوَّاهَا * فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا‏}‏ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "dfa7461eeb6a59b0ff2db9f3db10f7f4ec5f5c069363dc138cecec5386fb051e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Isḥāq ibn Ibrāhīm al-Ḥanẓalī nous a rapporté : ʿUthmān ibn ʿUmar nous a rapporté : ʿAzra ibn Thābit nous a rapporté, d’après Yaḥyā ibn ʿUqayl, d’après Yaḥyā ibn Yaʿmar, d’après Abū al-Aswad al-Duʾalī, qui a dit : ʿImrān ibn Ḥuṣayn m’a demandé : « As-tu réfléchi à ce que les gens font et aux efforts qu’ils déploient aujourd’hui ? Cela relève-t-il d’une décision déjà prise à leur sujet et d’un destin antérieur, ou bien de ce qu’ils recevront à l’avenir de leur Prophète, avec une preuve établie contre eux ? » Je répondis : « Cela relève d’une décision déjà prise à leur sujet et d’un destin antérieur. » Il demanda : « Ne serait-ce donc pas une injustice ? » Cette question me troubla profondément. Je répondis : « Toute chose appartient à la création d’Allah et à Son pouvoir; Il n’a pas à rendre compte de ce qu’Il fait, tandis qu’eux devront rendre compte. » Il me dit : « Qu’Allah te fasse miséricorde ! Je ne t’ai demandé cela que pour éprouver ta compréhension. Deux hommes de Muzayna vinrent au Messager d’Allah ﷺ et lui demandèrent : “Messager d’Allah, ce que les gens font et les efforts qu’ils déploient aujourd’hui relèvent-ils d’une décision déjà prise à leur sujet et d’un destin antérieur, ou bien de ce qu’ils recevront à l’avenir de leur Prophète, avec une preuve établie contre eux ?” Il répondit : “Non, cela relève bien d’une décision déjà prise à leur sujet et d’un destin antérieur. La confirmation de cela se trouve dans le Livre d’Allah, Puissant et Majestueux : Par l’âme et Celui qui l’a façonnée, puis lui a inspiré sa dépravation et sa piété.” » (Coran, 91:7-8)",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ab14bedb-5a0b-4cbe-a8ce-013cb384a765",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2651",
+      "reference": "Sahih Muslim, hadith 2651, book 46, بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "title": "بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ مُحَمَّدٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الرَّجُلَ لَيَعْمَلُ الزَّمَنَ الطَّوِيلَ بِعَمَلِ أَهْلِ الْجَنَّةِ ثُمَّ يُخْتَمُ لَهُ عَمَلُهُ بِعَمَلِ أَهْلِ النَّارِ وَإِنَّ الرَّجُلَ لَيَعْمَلُ الزَّمَنَ الطَّوِيلَ بِعَمَلِ أَهْلِ النَّارِ ثُمَّ يُخْتَمُ لَهُ عَمَلُهُ بِعَمَلِ أَهْلِ الْجَنَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6182f4ff849d520e5ae7d10f29bb10fc1b5b1029dd9e936614d9be0ce171d064",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : ʿAbd al-ʿAzīz — c’est-à-dire ibn Muḥammad — nous a rapporté, d’après al-ʿAlāʾ, d’après son père, d’après Abū Hurayra, selon lequel le Messager d’Allah ﷺ a dit : « Un homme peut accomplir longtemps les actes des gens du Paradis, puis ses actes s’achèvent par ceux des gens du Feu. Et un homme peut accomplir longtemps les actes des gens du Feu, puis ses actes s’achèvent par ceux des gens du Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "34e3eb19-9d52-48a8-b577-f0b68eb262cd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2652a",
+      "reference": "Sahih Muslim, hadith 2652 a, book 46, باب حِجَاجِ آدَمَ وَمُوسَى عَلَيْهِمَا السَّلاَمُ ‏ ‏",
+      "title": "باب حِجَاجِ آدَمَ وَمُوسَى عَلَيْهِمَا السَّلاَمُ ‏ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ حَاتِمٍ، وَإِبْرَاهِيمُ بْنُ دِينَارِ، وَابْنُ أَبِي عُمَرَ الْمَكِّيُّ، وَأَحْمَدُ بْنُ عَبْدَةَ، الضَّبِّيُّ جَمِيعًا عَنِ ابْنِ عُيَيْنَةَ، - وَاللَّفْظُ لاِبْنِ حَاتِمٍ وَابْنِ دِينَارٍ - قَالاَ حَدَّثَنَا سُفْيَانُ بْنُ، عُيَيْنَةَ عَنْ عَمْرٍو، عَنْ طَاوُسٍ، قَالَ سَمِعْتُ أَبَا هُرَيْرَةَ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ احْتَجَّ آدَمُ وَمُوسَى فَقَالَ مُوسَى يَا آدَمُ أَنْتَ أَبُونَا خَيَّبْتَنَا وَأَخْرَجْتَنَا مِنَ الْجَنَّةِ فَقَالَ لَهُ آدَمُ أَنْتَ مُوسَى اصْطَفَاكَ اللَّهُ بِكَلاَمِهِ وَخَطَّ لَكَ بِيَدِهِ أَتَلُومُنِي عَلَى أَمْرٍ قَدَّرَهُ اللَّهُ عَلَىَّ قَبْلَ أَنْ يَخْلُقَنِي بِأَرْبَعِينَ سَنَةً ‏\"‏ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ فَحَجَّ آدَمُ مُوسَى فَحَجَّ آدَمُ مُوسَى ‏\"‏ ‏.‏ وَفِي حَدِيثِ ابْنِ أَبِي عُمَرَ وَابْنِ عَبْدَةَ قَالَ أَحَدُهُمَا خَطَّ ‏.‏ وَقَالَ الآخَرُ كَتَبَ لَكَ التَّوْرَاةَ بِيَدِهِ ‏.‏",
+      "source_hash_sha256": "83325267c9a480e7d1e43584ad57318a9415f3b0a864adc5b714076fa520b0e7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn Ḥātim, Ibrāhīm ibn Dīnār, Ibn Abī ʿUmar al-Makkī et Aḥmad ibn ʿAbda al-Ḍabbī nous ont tous rapporté, d’après Ibn ʿUyayna — le libellé est celui d’Ibn Ḥātim et d’Ibn Dīnār. Ils ont dit : Sufyān ibn ʿUyayna nous a rapporté, d’après ʿAmr, d’après Ṭāwūs, qui a dit : J’ai entendu Abū Hurayra dire que le Messager d’Allah ﷺ a dit : « Adam et Moïse débattirent. Moïse lui dit : “Adam, notre père, tu nous as déçus et tu nous as fait sortir du Paradis.” Adam lui répondit : “Moïse, Allah t’a choisi en te faisant entendre Ses paroles et a tracé pour toi de Sa main. Me reproches-tu une chose qu’Allah avait décrétée pour moi quarante ans avant de me créer ?” » Le Prophète ﷺ dit alors : « Adam eut raison contre Moïse; Adam eut raison contre Moïse. » Dans la version d’Ibn Abī ʿUmar et d’Ibn ʿAbda, l’un dit : « Il a tracé », et l’autre : « Il t’a écrit la Torah de Sa main. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "fa9a46b3-ebc9-4580-b6dc-db3c00ead752", "reason": "Cette variante ne reproduit qu’une partie de la chaîne et une phrase finale, tout en renvoyant au sens d’un récit précédent. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "e6d9b2db-efb0-4637-8ad0-9f276168fc01", "reason": "Cette entrée ne donne que plusieurs chaînes et des indications de variante, sans reproduire le récit. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
