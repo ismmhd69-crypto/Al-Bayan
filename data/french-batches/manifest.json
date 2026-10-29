@@ -19333,6 +19333,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-900",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-900.json",
+      "sourceIds": [
+        "1ab41f24-bc7f-45d6-bf72-2ffe08bad3f1",
+        "01fd8475-65f1-4345-b234-5e49a05c3ae9",
+        "bcafa2a3-cdd2-4523-91c8-0c0b7b73b63e",
+        "e08bea82-7839-4d45-850e-8126bca1f50e",
+        "a317cc35-b012-4444-a73d-2d8a2d0758bd",
+        "7d7c4ed0-f9ae-4e47-b369-f094ba2aa7d2"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 5,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -21723,9 +21744,39 @@
       "scope": "Sahih al-Bukhari 4919: direct Quran wording from 68:42 (formule directe sans marqueur)",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 68:42 (formule directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-899, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4920-QURAN-4920-71-23-UNMARKED",
+      "scope": "Sahih al-Bukhari 4920: direct Quran wording from 71:23 (liste des noms des idoles citée directement sans marqueur)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 71:23 (liste des noms des idoles citée directement sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-900, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4921-QURAN-4921-72-1-2-UNMARKED",
+      "scope": "Sahih al-Bukhari 4921: direct Quran wording from 72:1-2 (citation directe sans marqueur)",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 72:1-2 (citation directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-900, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4924-QURAN-74-1-96-1-74-1-3",
+      "scope": "Sahih al-Bukhari 4924: direct Quran wording from 74:1, 96:1, 74:1-3",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 74:1, 96:1, 74:1-3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-900, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4922-QURAN-74-1-96-1-74-1-3",
+      "scope": "Sahih al-Bukhari 4922: direct Quran wording from 74:1, 96:1, 74:1-3",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 74:1, 96:1, 74:1-3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-900, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4925-QURAN-74-1-74-5",
+      "scope": "Sahih al-Bukhari 4925: direct Quran wording from 74:1, 74:5",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 74:1, 74:5. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-900, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 4066,
-  "hadithLocalDrafted": 4066,
-  "hadithLocalRemaining": 10601
+  "hadithBukhariDrafted": 4067,
+  "hadithLocalDrafted": 4067,
+  "hadithLocalRemaining": 10600
 }
