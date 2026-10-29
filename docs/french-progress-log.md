@@ -10901,3 +10901,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0754 saves three private French drafts on responsibility for dependents and reclaiming donated property. Muslim 1619f, 1620b and 1620d only give variants or transmission details and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1621a–1622c
+
+- FR-LIB-HAD-MUSLIM-0755 saves three private French drafts about not buying back a donated horse. Muslim 1621b and 1622b–c only refer to previous reports or transmission variants and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

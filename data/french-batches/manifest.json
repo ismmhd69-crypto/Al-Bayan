@@ -44010,6 +44010,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0755",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0755.json",
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "three complete reports translated as private drafts; three transmission-only variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -48317,8 +48330,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9161,
-  "hadithLocalRemaining": 5468,
+  "hadithLocalDrafted": 9164,
+  "hadithLocalRemaining": 5465,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -53435,10 +53448,25 @@
       "source_id": "0e958773-c424-443f-9274-9287abadec64",
       "reason": "Cette entrée donne uniquement une chaîne de transmission et compare les versions précédentes sans reproduire leur contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "421cdf25-b9a9-4c47-8fdd-77f345ac4c2d",
+      "reason": "Cette entrée fournit uniquement des variantes de transmission et renvoie au récit précédent sans le reprendre. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "20a29e86-c87f-4833-8e2b-d7f73b2297c4",
+      "reason": "Cette entrée indique seulement une version semblable au récit précédent sans en reproduire le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "a8b25280-5d10-45d1-852c-1032137697c0",
+      "reason": "Cette entrée ne donne qu’une chaîne de transmission puis renvoie aux versions précédentes. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2825,
+  "hadithMuslimDrafted": 2828,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1248
+  "hadithNeedsMo": 1251
 }
