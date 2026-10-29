@@ -48261,6 +48261,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1098",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1098.json",
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 5,
+      "validation": "one complete report translated as a private draft; three reports with embedded Quran quotations and two transmission-only variants left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52568,8 +52581,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9674,
-  "hadithLocalRemaining": 4852,
+  "hadithLocalDrafted": 9675,
+  "hadithLocalRemaining": 4851,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58246,10 +58259,35 @@
       "source_id": "67cbc8ad-fc5b-45ee-82ff-c5f2a607c362",
       "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
       "status": "blocked"
+    },
+    {
+      "source_id": "5c018cd2-0e8d-41c2-82e8-121de76e30df",
+      "reason": "Cette entrée ne reproduit pas le récit complet et ne rapporte que des variantes de transmission et de formulation. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f502f836-19df-42d9-b7d7-b3508c70b614",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "04751d67-1e81-443c-b6b8-7f13f5df6e32",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "810ae878-0cac-47f2-a727-e64561b7f783",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "5be4ae3a-f9fc-4996-bffa-db26d85a9a10",
+      "reason": "Cette entrée ne reprend que des variantes de transmission et de détails d’un récit précédent, sans en fournir un texte complet autonome. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3511,
+  "hadithMuslimDrafted": 3512,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1462
+  "hadithNeedsMo": 1467
 }
