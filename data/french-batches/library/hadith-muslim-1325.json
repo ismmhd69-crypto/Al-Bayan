@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1325",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:37:45.585Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "4d778863-3d4f-4c64-a857-9b9e762e995a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2930b",
+      "reference": "Sahih Muslim, hadith 2930 b, book 54, باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "title": "باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحَسَنُ بْنُ عَلِيٍّ الْحُلْوَانِيُّ، وَعَبْدُ بْنُ حُمَيْدٍ، قَالاَ حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ إِبْرَاهِيمَ بْنِ سَعْدٍ - حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي سَالِمُ بْنُ عَبْدِ اللَّهِ، أَنَّالله عليه وسلم وَمَعَهُ رَهْطٌ مِنْ أَصْحَابِهِ فِيهِمْ عُمَرُ بْنُ الْخَطَّابِ حَتَّى وَجَدَ ابْنَ صَيَّادٍ غُلاَمًا قَدْ نَاهَزَ الْحُلُمَ يَلْعَبُ مَعَ الْغِلْمَانِ عِنْدَ أُطُمِ بَنِي مُعَاوِيَةَ ‏.‏ وَسَاقَ الْحَدِيثَ بِمِثْلِ حَدِيثِ يُونُسَ إِلَى مُنْتَهَى حَدِيثِ عُمَرَ بْنِ ثَابِتٍ وَفِي الْحَدِيثِ عَنْ يَعْقُوبَ قَالَ قَالَ أُبَىٌّ - يَعْنِي فِي قَوْلِهِ لَوْ تَرَكَتْهُ بَيَّنَ - قَالَ لَوْ تَرَكَتْهُ أُمُّهُ بَيَّنَ أَمْرَهُ ‏.‏",
+      "source_hash_sha256": "f1a0a92b5074afb1abc195f0a4b0dbb12259632c74e0465e7152aba92957bf2d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "00d7b8f7-94f1-43a9-bbd8-cbe4b1a28e05",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2930c",
+      "reference": "Sahih Muslim, hadith 2930 c, book 54, باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "title": "باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، وَسَلَمَةُ بْنُ شَبِيبٍ، جَمِيعًا عَنْ عَبْدِ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنْ سَالِمٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم مَرَّ بِابْنِ صَيَّادٍ فِي نَفَرٍ مِنْ أَصْحَابِهِ فِيهِمْ عُمَرُ بْنُ الْخَطَّابِ وَهُوَ يَلْعَبُ مَعَ الْغِلْمَانِ عِنْدَ أُطُمِ بَنِي مَغَالَةَ وَهُوَ غُلاَمٌ ‏.‏ بِمَعْنَى حَدِيثِ يُونُسَ وَصَالِحٍ غَيْرَ أَنَّ عَبْدَ بْنَ حُمَيْدٍ لَمْ يَذْكُرْ حَدِيثَ ابْنِ عُمَرَ فِي انْطِلاَقِ النَّبِيِّ صلى الله عليه وسلم مَعَ أُبَىِّ بْنِ كَعْبٍ إِلَى النَّخْلِ ‏.‏",
+      "source_hash_sha256": "afe78f5e1fa58a9020ab76ec0ecbc04cb47f5ca62c430dffa431de5515384da5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "77d2d1b9-7da3-4437-a61e-b685bb805472",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2932a",
+      "reference": "Sahih Muslim, hadith 2932 a, book 54, باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "title": "باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، حَدَّثَنَا رَوْحُ بْنُ عُبَادَةَ، حَدَّثَنَا هِشَامٌ، عَنْ أَيُّوبَ، عَنْ نَافِعٍ، قَالَ لَقِيَ ابْنُ عُمَرَ ابْنَ صَائِدٍ فِي بَعْضِ طُرُقِ الْمَدِينَةِ فَقَالَ لَهُ قَوْلاً أَغْضَبَهُ فَانْتَفَخَ حَتَّى مَلأَ السِّكَّةَ فَدَخَلَ ابْنُ عُمَرَ عَلَى حَفْصَةَ وَقَدْ بَلَغَهَا فَقَالَتْ لَهُ رَحِمَكَ اللَّهُ مَا أَرَدْتَ مِنِ ابْنِ صَائِدٍ أَمَا عَلِمْتَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّمَا يَخْرُجُ مِنْ غَضْبَةٍ يَغْضَبُهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "5481009cd4032c3e96c8f518cad5e6690ec72d7c270defb15f9cd492d73b67ad",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nafi rapporte qu’Ibn Umar rencontra Ibn Sayyad sur l’une des routes de Médine et lui adressa des paroles qui le mirent en colère. Ibn Sayyad se gonfla jusqu’à remplir toute la rue. Ibn Umar entra chez Hafsa, qui en avait entendu parler, et elle lui dit : « Qu’attendais-tu d’Ibn Sayyad ? Ne sais-tu pas que le Messager d’Allah ﷺ a dit : “Il ne se manifestera que dans un accès de colère qui l’emportera” ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "37698ae2-e5a5-4fc6-8ca7-308ce5fc8335",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2932b",
+      "reference": "Sahih Muslim, hadith 2932 b, book 54, باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "title": "باب ذِكْرِ ابْنِ صَيَّادٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا حُسَيْنٌ، - يَعْنِي ابْنَ حَسَنِ بْنِ يَسَارٍ - حَدَّثَنَا ابْنُ، عَوْنٍ عَنْ نَافِعٍ، قَالَ كَانَ نَافِعٌ يَقُولُ ابْنُ صَيَّادٍ ‏.‏ قَالَ قَالَ ابْنُ عُمَرَ لَقِيتُهُ مَرَّتَيْنِ - قَالَ - فَلَقِيتُهُ فَقُلْتُ لِبَعْضِهِمْ هَلْ تَحَدَّثُونَ أَنَّهُ هُوَ قَالَ لاَ وَاللَّهِ - قَالَ - قُلْتُ كَذَبْتَنِي وَاللَّهِ لَقَدْ أَخْبَرَنِي بَعْضُكُمْ أَنَّهُ لَنْ يَمُوتَ حَتَّى يَكُونَ أَكْثَرَكُمْ مَالاً وَوَلَدًا فَكَذَلِكَ هُوَ زَعَمُوا الْيَوْمَ - قَالَ - فَتَحَدَّثْنَا ثُمَّ فَارَقْتُهُ - قَالَ - فَلَقِيتُهُ لَقْيَةً أُخْرَى وَقَدْ نَفَرَتْ عَيْنُهُ - قَالَ - فَقُلْتُ مَتَى فَعَلَتْ عَيْنُكَ مَا أَرَى قَالَ لاَ أَدْرِي - قَالَ - قُلْتُ لاَ تَدْرِي وَهِيَ فِي رَأْسِكَ قَالَ إِنْ شَاءَ اللَّهُ خَلَقَهَا فِي عَصَاكَ هَذِهِ ‏.‏ قَالَ فَنَخَرَ كَأَشَدِّ نَخِيرِ حِمَارٍ سَمِعْتُ - قَالَ - فَزَعَمَ بَعْضُ أَصْحَابِي أَنِّي ضَرَبْتُهُ بِعَصًا كَانَتْ مَعِيَ حَتَّى تَكَسَّرَتْ وَأَمَّا أَنَا فَوَاللَّهِ مَا شَعَرْتُ - قَالَ - وَجَاءَ حَتَّى دَخَلَ عَلَى أُمِّ الْمُؤْمِنِينَ فَحَدَّثَهَا فَقَالَتْ مَا تُرِيدُ إِلَيْهِ أَلَمْ تَعْلَمْ أَنَّهُ قَدْ قَالَ ‏\"‏ إِنَّ أَوَّلَ مَا يَبْعَثُهُ عَلَى النَّاسِ غَضَبٌ يَغْضَبُهُ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "466d5a1aa288e785add8c2ee8ec5700c27dadac35f679cc54200eb8a9d872c86",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nafi rapportait qu’Ibn Sayyad était l’Antéchrist. Ibn Umar dit : « Je l’ai rencontré deux fois. La première fois, je demandai à certains : “Dites-vous qu’il est bien celui-là ?” Ils répondirent : “Non, par Allah.” Je leur dis : “Vous m’avez menti, par Allah ! Certains d’entre vous m’avaient pourtant dit qu’il ne mourrait pas avant de devenir celui d’entre vous qui aurait le plus de biens et d’enfants. Or, selon ce qu’on prétend aujourd’hui, c’est bien le cas.” » Nous discutâmes puis nous nous séparâmes. Je le rencontrai de nouveau ; son œil était proéminent. Je lui demandai : « Quand ton œil a-t-il pris cet aspect ? » Il répondit : « Je ne sais pas. » Je lui dis : « Tu ne sais pas, alors qu’il est dans ta tête ? » Il répondit : « Si Allah le veut, Il l’a créé dans ce bâton. » Il poussa un braiment aussi puissant que celui d’un âne. Certains de mes compagnons prétendirent que je l’avais frappé avec le bâton que je tenais jusqu’à ce qu’il se brise, mais, par Allah, je ne m’en étais pas rendu compte. Il entra ensuite chez la Mère des croyants, qui lui dit : « Que lui veux-tu ? Ne sais-tu pas qu’il a dit : “La première chose qui le fera se dresser contre les gens sera une colère qui l’emportera” ? »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "24509434-dc23-4afe-aedf-24e5718e586f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2933a",
+      "reference": "Sahih Muslim, hadith 2933 a, book 54, باب ذِكْرِ الدَّجَّالِ وَصِفَتِهِ وَمَا مَعَهُ",
+      "title": "باب ذِكْرِ الدَّجَّالِ وَصِفَتِهِ وَمَا مَعَهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَمُحَمَّدُ بْنُ بَشَّارٍ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا مِنْ نَبِيٍّ إِلاَّ وَقَدْ أَنْذَرَ أُمَّتَهُ الأَعْوَرَ الْكَذَّابَ أَلاَ إِنَّهُ أَعْوَرُ وَإِنَّ رَبَّكُمْ لَيْسَ بِأَعْوَرَ وَمَكْتُوبٌ بَيْنَ عَيْنَيْهِ ك ف ر ‏\"‏ ‏.‏",
+      "source_hash_sha256": "804c5a584d80499d9fa5fac1e84e974a3730ef8c1786bf174576509bc8462636",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Aucun prophète n’a existé sans mettre sa communauté en garde contre l’imposteur borgne. Sachez qu’il est borgne, tandis que votre Seigneur n’est pas borgne. Les lettres K-F-R — “mécréant” — sont écrites entre ses yeux. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2838608b-c0b3-46e8-88e2-f1465b738f4a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2933b",
+      "reference": "Sahih Muslim, hadith 2933 b, book 54, باب ذِكْرِ الدَّجَّالِ وَصِفَتِهِ وَمَا مَعَهُ",
+      "title": "باب ذِكْرِ الدَّجَّالِ وَصِفَتِهِ وَمَا مَعَهُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا ابْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، حَدَّثَنَا أَنَسُ بْنُ مَالِكٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الدَّجَّالُ مَكْتُوبٌ بَيْنَ عَيْنَيْهِ ك ف ر أَىْ كَافِرٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "014b27cfb858eea621d933f7098db42f1e1ff2461ec5769a572faab7d7cd07f1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète d’Allah ﷺ dit : « Les lettres K-F-R — c’est-à-dire “mécréant” — sont écrites entre les yeux de l’Antéchrist. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "4d778863-3d4f-4c64-a857-9b9e762e995a",
+      "status": "blocked",
+      "reason": "Cette variante renvoie à une longue version précédente et n’en reproduit pas le contenu complet. Garder la traduction française vide jusqu’à validation de la source intégrale."
+    },
+    {
+      "source_id": "00d7b8f7-94f1-43a9-bbd8-cbe4b1a28e05",
+      "status": "blocked",
+      "reason": "Cette variante renvoie au récit précédent et en résume seulement le début, sans reproduire le texte complet. Garder la traduction française vide jusqu’à validation de la source intégrale."
+    }
+  ]
+}
