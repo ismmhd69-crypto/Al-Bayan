@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 719,
+    "hadithMuslimDrafted": 723,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 7055,
+    "hadithLocalDrafted": 7059,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7574,
-    "hadithNeedsMo": 334,
+    "hadithLocalRemaining": 7570,
+    "hadithNeedsMo": 336,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43360,6 +43360,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0705",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0705.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; two incomplete variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52354,6 +52367,16 @@
     {
       "source_id": "4bfbf1e3-5d2e-4742-b9a3-cfa2c66d9fac",
       "reason": "Cette entrée renvoie au récit précédent sans en reproduire le contenu. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "6828aea4-a5e2-458c-9982-734cd7e7a25c",
+      "reason": "Cette entrée renvoie au récit précédent et ne le reproduit pas ; elle n’ajoute qu’une précision annexe ou une variante. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "541f97ac-01c5-4ad5-b7ef-3328e40d9c15",
+      "reason": "Cette entrée renvoie au récit précédent et ne le reproduit pas ; elle n’ajoute qu’une précision annexe ou une variante. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],
