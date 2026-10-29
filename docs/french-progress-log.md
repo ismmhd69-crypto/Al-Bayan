@@ -3651,3 +3651,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-747` saves six private French drafts, keeping distinct accounts of the prayer of fear and the Najd expedition.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,662 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 293. Total local hadith rows not drafted: 10,995, including held records.
+
+### 2026-10-29: Bukhari 4136–4140
+
+- `FR-LIB-HAD-BUKHARI-748` saves five private French drafts, including reports on the prayer of fear, the Banû al-Mustaliq expedition and voluntary prayer while riding.
+- All five records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,667 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 293. Total local hadith rows not drafted: 10,990, including held records.

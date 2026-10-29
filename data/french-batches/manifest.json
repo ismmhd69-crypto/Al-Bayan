@@ -16087,6 +16087,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-748",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-748.json",
+      "sourceIds": ["dff98040-a908-4b87-bb3e-af99e9417070", "b4af237c-d697-4dff-8367-ac0e33452dfb", "8f5c0a37-ae55-4c0c-9663-2e0c19251a5d", "a0b8c359-24f9-4357-bf4e-580bf928f89c", "d7e03860-0af4-4769-b04c-186ba39331e7"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -16430,7 +16445,7 @@
       "reason": "The report directly quotes Quran 33:10. It remains blank in FR-LIB-HAD-BUKHARI-742 until an approved, attributed French Quran translation is confirmed."
     }
   ],
-  "hadithBukhariDrafted": 3662,
-  "hadithLocalDrafted": 3662,
-  "hadithLocalRemaining": 10995
+  "hadithBukhariDrafted": 3667,
+  "hadithLocalDrafted": 3667,
+  "hadithLocalRemaining": 10990
 }
