@@ -8166,3 +8166,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0208 saves four private French drafts about praying toward a spear and Ibn Abbas joining a prayer at Mina. Muslim 503c and 503e are incomplete cross-reference variants and remain blank under Needs Mo. The exporter continues to defer a later long source for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 845 Muslim drafts, 7,181 total hadith drafts, 7,448 remaining, and 405 Needs Mo items.
+
+### 2026-10-29: Muslim 504c–506b
+
+- FR-LIB-HAD-MUSLIM-0209 saves three private French drafts about preventing someone from passing in front of a person praying. Muslim 504c, 504d and 506b are incomplete cross-reference variants and remain blank under Needs Mo. The exporter continues to defer a later long source for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 848 Muslim drafts, 7,184 total hadith drafts, 7,445 remaining, and 408 Needs Mo items.
