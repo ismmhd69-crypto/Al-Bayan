@@ -17829,6 +17829,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-824",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-824.json",
+      "sourceIds": [
+        "830c3576-91d3-4b0b-9543-5d413c58dc8d",
+        "de7ae1e2-e667-4fec-ab61-3e876bc59bc4",
+        "f60576ab-3c18-4873-8a3c-6579ef7a91ff",
+        "6bc1bf5b-5e46-4e46-b18c-e4374b624395",
+        "9e3e2a93-1241-4c2b-a7ba-62a3fb37444d",
+        "73d74f6e-5d4f-49ff-96e7-ef6fce1a047b"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 5,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18659,9 +18680,39 @@
       "scope": "Sahih al-Bukhari 4553: unusually long report with direct Quranic wording including Quran 3:64",
       "status": "blocked",
       "reason": "Ce rapport très long contient plusieurs citations directes du Quran, dont une partie du verset 3:64. Le texte français complet reste vide dans FR-LIB-HAD-BUKHARI-823, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4554-QURAN-3-92",
+      "scope": "Sahih al-Bukhari 4554: direct quotation of Quran 3:92",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:92 deux fois. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-824, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4556-QURAN-3-93",
+      "scope": "Sahih al-Bukhari 4556: direct quotation of Quran 3:93",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:93. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-824, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4557-QURAN-3-110",
+      "scope": "Sahih al-Bukhari 4557: direct quotation of Quran 3:110",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:110. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-824, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4558-QURAN-3-122",
+      "scope": "Sahih al-Bukhari 4558: direct quotations of Quran 3:122",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 3:122 à deux reprises. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-824, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4559-QURAN-3-128",
+      "scope": "Sahih al-Bukhari 4559: direct Quran wording including Quran 3:128",
+      "status": "blocked",
+      "reason": "Le rapport inclut une citation directe partielle de Quran 3:128. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-824, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
-  "hadithBukhariDrafted": 3962,
-  "hadithLocalDrafted": 3962,
-  "hadithLocalRemaining": 10695
+  "hadithBukhariDrafted": 3963,
+  "hadithLocalDrafted": 3963,
+  "hadithLocalRemaining": 10694
 }
