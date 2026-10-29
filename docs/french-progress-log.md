@@ -2491,3 +2491,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-515` saves six private French drafts about travel invocations, the Prophet’s return supplication, preserving a person’s usual good deeds during illness or travel, al-Zubayr and solo night travel.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,699 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,956, including held records.
+
+### 2026-10-29: Bukhari 2999–3004 source review
+
+- `FR-LIB-HAD-BUKHARI-516` saves six private French drafts about the pace of travel, combining prayers, the travel hardship, a donated horse, and serving one’s parents.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,705 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 11,950, including held records.
