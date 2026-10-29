@@ -37868,6 +37868,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0429",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0429.json",
+      "sourceIds": [
+        "f8463340-b954-4e34-8c85-fc61ad9e7d63",
+        "c2212da5-d56c-45de-b431-c891f36d00e0",
+        "b1af479b-554b-45c9-832f-e18878b1297a",
+        "cb1c52d2-6fb7-4975-a082-3c1b71090a22",
+        "ae251213-9918-4792-9150-522e49da135f",
+        "1030f97b-ea70-4760-951a-2718003ae822"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; two direct Quran quotations and one incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42175,8 +42196,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8016,
-  "hadithLocalRemaining": 6613,
+  "hadithLocalDrafted": 8019,
+  "hadithLocalRemaining": 6610,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -45058,10 +45079,25 @@
       "source_id": "85cec816-20ed-4839-bb73-05f590709ec8",
       "reason": "La source ne donne que plusieurs chaînes de transmission et renvoie à une version précédente sans en reprendre le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "f8463340-b954-4e34-8c85-fc61ad9e7d63",
+      "reason": "La source cite directement un verset du Coran (sourate 3, verset 92), à deux reprises. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c2212da5-d56c-45de-b431-c891f36d00e0",
+      "reason": "La source cite directement un verset du Coran (sourate 3, verset 92). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ae251213-9918-4792-9150-522e49da135f",
+      "reason": "La source ne reprend qu’une chaîne de transmission et quelques éléments du récit, puis renvoie à la version précédente sans en reproduire intégralement le contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1680,
+  "hadithMuslimDrafted": 1683,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 788
+  "hadithNeedsMo": 791
 }
