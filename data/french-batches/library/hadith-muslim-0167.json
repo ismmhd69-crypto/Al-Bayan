@@ -1,0 +1,184 @@
+{
+  "batch_id": "HADITH-MUSLIM-0167",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:11:26.523Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "21a8a811-e723-43d2-86c1-87a43cfff89f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:399a",
+      "reference": "Sahih Muslim, hadith 399 a, book 4, باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "title": "باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ كِلاَهُمَا عَنْ غُنْدَرٍ، قَالَ ابْنُ الْمُثَنَّى حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسٍ، قَالَ صَلَّيْتُ مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَأَبِي بَكْرٍ وَعُمَرَ وَعُثْمَانَ فَلَمْ أَسْمَعْ أَحَدًا مِنْهُمْ يَقْرَأُ ‏[quran sura=\"1\" aya_start=\"1\" aya_end=\"1\"]{‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ‏}‏ ‏.‏",
+      "source_hash_sha256": "c3752290de7b17799d6357da15fb1c6111c23fb156ac180e435352a4f9c5f768",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "73033426-448b-4b33-99ac-9f8777b4b157",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:399b",
+      "reference": "Sahih Muslim, hadith 399 b, book 4, باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "title": "باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو دَاوُدَ، حَدَّثَنَا شُعْبَةُ، فِي هَذَا الإِسْنَادِ ‏.‏ وَزَادَ قَالَ شُعْبَةُ فَقُلْتُ لِقَتَادَةَ أَسَمِعْتَهُ مِنْ أَنَسٍ قَالَ نَعَمْ نَحْنُ سَأَلْنَاهُ عَنْهُ ‏.‏",
+      "source_hash_sha256": "1cb2ec4cc4fd16b2cfc13d4bb7319bfb5a47fb683842b06596cba344f629e1cb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c6255a23-8715-4b62-ae0a-b82249bfec33",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:399c",
+      "reference": "Sahih Muslim, hadith 399 c, book 4, باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "title": "باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مِهْرَانَ الرَّازِيُّ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، حَدَّثَنَا الأَوْزَاعِيُّ، عَنْ عَبْدَةَ، أَنَّ عُمَرَ بْنَ الْخَطَّابِ، كَانَ يَجْهَرُ بِهَؤُلاَءِ الْكَلِمَاتِ يَقُولُ سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ تَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلاَ إِلَهَ غَيْرُكَ ‏.‏ وَعَنْ قَتَادَةَ أَنَّهُ كَتَبَ إِلَيْهِ يُخْبِرُهُ عَنْ أَنَسِ بْنِ مَالِكٍ أَنَّهُ حَدَّثَهُ قَالَ صَلَّيْتُ خَلْفَ النَّبِيِّ صلى الله عليه وسلم وَأَبِي بَكْرٍ وَعُمَرَ وَعُثْمَانَ فَكَانُوا يَسْتَفْتِحُونَ بِـ ‏[quran sura=\"1\" aya_start=\"2\" aya_end=\"2\"]{‏ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ‏}‏ لاَ يَذْكُرُونَ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ فِي أَوَّلِ قِرَاءَةٍ وَلاَ فِي آخِرِهَا ‏.‏",
+      "source_hash_sha256": "ad2a70f09663a214913b2b3d0a984aeb49f7546a4291e55406f9df8845db2d83",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2141f415-e41e-4bee-b772-68ebc576ef9c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:399d",
+      "reference": "Sahih Muslim, hadith 399 d, book 4, باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "title": "باب حُجَّةِ مَنْ قَالَ لاَ يَجْهَرُ بِالْبَسْمَلَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ مِهْرَانَ، حَدَّثَنَا الْوَلِيدُ بْنُ مُسْلِمٍ، عَنِ الأَوْزَاعِيِّ، أَخْبَرَنِي إِسْحَاقُ بْنُ عَبْدِ اللَّهِ بْنِ أَبِي طَلْحَةَ، أَنَّهُ سَمِعَ أَنَسَ بْنَ مَالِكٍ، يَذْكُرُ ذَلِكَ ‏.‏",
+      "source_hash_sha256": "9267b71454cd238ccdd2659835142cf6868e28a35ab8f0846f45433371fe0caa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4fc66346-9e58-49bb-92cc-1b2c4efb5875",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:400a",
+      "reference": "Sahih Muslim, hadith 400 a, book 4, باب حُجَّةِ مَنْ قَالَ الْبَسْمَلَةُ آيَةٌ مِنْ أَوَّلِ كُلِّ سُورَةٍ سِوَى بَرَاءَةَ‏‏",
+      "title": "باب حُجَّةِ مَنْ قَالَ الْبَسْمَلَةُ آيَةٌ مِنْ أَوَّلِ كُلِّ سُورَةٍ سِوَى بَرَاءَةَ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ حُجْرٍ السَّعْدِيُّ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، أَخْبَرَنَا الْمُخْتَارُ بْنُ فُلْفُلٍ، عَنْ أَنَسِ بْنِ مَالِكٍ، ح وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، عَنِ الْمُخْتَارِ، عَنْ أَنَسٍ، قَالَ بَيْنَا رَسُولُ اللَّهِ صلى الله عليه وسلم ذَاتَ يَوْمٍ بَيْنَ أَظْهُرِنَا إِذْ أَغْفَى إِغْفَاءَةً ثُمَّ رَفَعَ رَأْسَهُ مُتَبَسِّمًا فَقُلْنَا مَا أَضْحَكَكَ يَا رَسُولَ اللَّهِ قَالَ ‏\"‏ أُنْزِلَتْ عَلَىَّ آنِفًا سُورَةٌ ‏\"‏ ‏.‏ فَقَرَأَ ‏\"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ‏[quran sura=\"108\" aya_start=\"1\" aya_end=\"3\"]{‏ إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ * فَصَلِّ لِرَبِّكَ وَانْحَرْ * إِنَّ شَانِئَكَ هُوَ الأَبْتَرُ‏}‏ ‏\"‏ ‏.‏ ثُمَّ قَالَ ‏\"‏ أَتَدْرُونَ مَا الْكَوْثَرُ ‏\"‏ ‏.‏ فَقُلْنَا اللَّهُ وَرَسُولُهُ أَعْلَمُ ‏.‏ قَالَ ‏\"‏ فَإِنَّهُ نَهْرٌ وَعَدَنِيهِ رَبِّي عَزَّ وَجَلَّ عَلَيْهِ خَيْرٌ كَثِيرٌ هُوَ حَوْضٌ تَرِدُ عَلَيْهِ أُمَّتِي يَوْمَ الْقِيَامَةِ آنِيَتُهُ عَدَدُ النُّجُومِ فَيُخْتَلَجُ الْعَبْدُ مِنْهُمْ فَأَقُولُ رَبِّ إِنَّهُ مِنْ أُمَّتِي ‏.‏ فَيَقُولُ مَا تَدْرِي مَا أَحْدَثَتْ بَعْدَكَ ‏\"‏ ‏.‏ زَادَ ابْنُ حُجْرٍ فِي حَدِيثِهِ بَيْنَ أَظْهُرِنَا فِي الْمَسْجِدِ ‏.‏ وَقَالَ ‏\"‏ مَا أَحْدَثَ بَعْدَكَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e5e0818d3ad8c34e97b0009cc40316ec5cc257a8ba1bfc45a2687ecb38b12936",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quotation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6adea3b5-8fe6-48a0-bfa2-660b28081851",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:400b",
+      "reference": "Sahih Muslim, hadith 400 b, book 4, باب حُجَّةِ مَنْ قَالَ الْبَسْمَلَةُ آيَةٌ مِنْ أَوَّلِ كُلِّ سُورَةٍ سِوَى بَرَاءَةَ‏‏",
+      "title": "باب حُجَّةِ مَنْ قَالَ الْبَسْمَلَةُ آيَةٌ مِنْ أَوَّلِ كُلِّ سُورَةٍ سِوَى بَرَاءَةَ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ أَخْبَرَنَا ابْنُ فُضَيْلٍ، عَنْ مُخْتَارِ بْنِ فُلْفُلٍ، قَالَ سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يَقُولُ أَغْفَى رَسُولُ اللَّهِ صلى الله عليه وسلم إِغْفَاءَةً ‏.‏ بِنَحْوِ حَدِيثِ ابْنِ مُسْهِرٍ غَيْرَ أَنَّهُ قَالَ ‏\"‏ نَهْرٌ وَعَدَنِيهِ رَبِّي عَزَّ وَجَلَّ فِي الْجَنَّةِ عَلَيْهِ حَوْضٌ ‏\"‏ ‏.‏ وَلَمْ يَذْكُرْ ‏\"‏ آنِيَتُهُ عَدَدُ النُّجُومِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "86efc3fd7c8a679b23abc04bedeacebcce4c89f68e07b2776a18ff7876943508",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "21a8a811-e723-43d2-86c1-87a43cfff89f",
+      "reason": "La source cite intégralement le verset 1:1 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "73033426-448b-4b33-99ac-9f8777b4b157",
+      "reason": "La source arabe ne donne que des détails sur la chaîne de transmission et renvoie au récit précédent sans reprendre son texte. Garder la traduction en attente."
+    },
+    {
+      "source_id": "c6255a23-8715-4b62-ae0a-b82249bfec33",
+      "reason": "La source cite intégralement le verset 1:2 du Coran. Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "2141f415-e41e-4bee-b772-68ebc576ef9c",
+      "reason": "La source arabe donne seulement une chaîne de transmission et renvoie au récit précédent d’Anas sans en reprendre le texte. Garder la traduction en attente."
+    },
+    {
+      "source_id": "4fc66346-9e58-49bb-92cc-1b2c4efb5875",
+      "reason": "La source cite intégralement la sourate al-Kawthar (Coran 108:1–3). Garder tout le texte français en attente d’une traduction française du Coran approuvée, correctement attribuée et dont l’utilisation est autorisée."
+    },
+    {
+      "source_id": "6adea3b5-8fe6-48a0-bfa2-660b28081851",
+      "reason": "La source arabe résume le récit précédent et ne donne que des variantes sur le fleuve et les récipients, sans reprendre le texte complet. Garder la traduction en attente plutôt que de compléter à partir du hadith voisin."
+    }
+  ]
+}
