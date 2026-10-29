@@ -10536,3 +10536,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0681 saves one private French draft of the complete report about mourning and the waiting period. The 2,204-character source is isolated in a single-item batch; it contains no Quran quotation.
 - The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1486b–1488d
+
+- FR-LIB-HAD-MUSLIM-0682 saves four private French drafts preserving the reports about mourning, the waiting period, and the historical mourning custom. Muslim 1487 contains only a chain of transmission, and 1488d refers back to another report without reproducing it; both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

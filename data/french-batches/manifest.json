@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 629,
+    "hadithMuslimDrafted": 633,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6965,
+    "hadithLocalDrafted": 6969,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7664,
-    "hadithNeedsMo": 293,
+    "hadithLocalRemaining": 7660,
+    "hadithNeedsMo": 295,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43061,6 +43061,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0682",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0682.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; two chain-only or cross-reference entries held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -51850,6 +51863,16 @@
     {
       "source_id": "33bf54b6-ebd3-4d5f-990f-fd2d0e22d6f9",
       "reason": "Cette entrée renvoie au récit précédent et ne donne qu’une variante de chaîne, sans reprendre le contenu du rapport. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c80e9615-74a8-4787-bc3a-a8d843fa10e1",
+      "reason": "Cette entrée ne contient que la chaîne de transmission et ne reproduit pas le récit. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d96f5f96-6cda-4996-9f34-8489028d9750",
+      "reason": "Cette entrée résume le récit précédent en indiquant seulement qu’il est rapporté selon une formulation semblable, sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],
