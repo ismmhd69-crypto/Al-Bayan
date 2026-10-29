@@ -1657,3 +1657,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-349` saves six private French drafts for Bukhari 2038–2043. The overlapping reports preserve their separate narrator wording, including uncertainty in the chains and details.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,857 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,772, including held records.
+
+### 2026-10-29: Bukhari 2044–2049 source review
+
+- `FR-LIB-HAD-BUKHARI-350` saves six private French drafts for Bukhari 2044–2049, including the accounts of Abû Hurayra and ‘Abd ar-Rahmân ibn ‘Awf.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,863 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,766, including held records.
