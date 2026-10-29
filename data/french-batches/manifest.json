@@ -17514,6 +17514,23 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-808",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-808.json",
+      "sourceIds": [
+        "8513215e-038d-4263-8f66-dfccf57979ff",
+        "c9c2f33d-809f-45b6-8a9e-1757c7450b4a"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished holds passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -18068,6 +18085,18 @@
       "scope": "Sahih al-Bukhari 4452: direct quotation of Quran 3:144",
       "status": "blocked",
       "reason": "The report directly quotes Quran 3:144. The complete record remains blank in FR-LIB-HAD-BUKHARI-805 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4474-QURAN-8-24-1-2",
+      "scope": "Sahih al-Bukhari 4474: direct quotations of Quran 8:24 and Quran 1:2",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 8:24 and Quran 1:2. The complete record remains blank in FR-LIB-HAD-BUKHARI-808 pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-4475-QURAN-1-7",
+      "scope": "Sahih al-Bukhari 4475: direct quotation of Quran 1:7",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 1:7. The complete record remains blank in FR-LIB-HAD-BUKHARI-808 pending an approved, attributed French Quran translation."
     }
   ],
   "hadithBukhariDrafted": 3933,
