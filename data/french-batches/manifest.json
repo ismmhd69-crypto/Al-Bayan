@@ -35656,6 +35656,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0321",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0321.json",
+      "sourceIds": [
+        "9399184e-ae5b-4c90-9605-1d17d5425074"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; long report with direct Quran quotation held entirely blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -42131,10 +42147,16 @@
       "scope": "Sahih Muslim 743b: incomplete cross-reference",
       "status": "blocked",
       "reason": "La source ne reprend pas le récit de la version précédente et renvoie seulement à celui-ci. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0321-746A-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 746a: long report with direct Quran quotation from surah 73",
+      "status": "blocked",
+      "reason": "La source cite directement le Coran (sourate 73) et dépasse 2 000 caractères. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
   "hadithMuslimDrafted": 1280,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 597
+  "hadithNeedsMo": 598
 }
