@@ -11276,3 +11276,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0829 saves two private French drafts: the distinct annual-maintenance wording in the Banu an-Nadir property report, and ‘A’isha’s account of the Prophet’s wives considering a request for inheritance. The reported wording and narrator chains are preserved.
 - Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1759a
+
+- FR-LIB-HAD-MUSLIM-0830 saves the deferred long report as one private French draft. It preserves the full chain, the property claims and responses, the account of Ali’s later pledge, and the report’s sequence. No Quran quotation appears in this source entry.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
