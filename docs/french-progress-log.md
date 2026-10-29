@@ -7162,3 +7162,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0011 saves 6 private French drafts on provisions during travel, the two testimonies, and the rights of Allah and His servants. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 48 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,245, including held records.
+
+### 2026-10-29: Muslim 30b–30d
+
+- FR-LIB-HAD-MUSLIM-0012 saves 3 private French drafts preserving variant wordings of Muʿadh’s exchange about the rights of Allah and His servants. No database writes or publication occurred.
+- All 3 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 51 of 7,366. Hadith Needs Mo: 176. Total local hadith rows not drafted: 8,242, including held records.

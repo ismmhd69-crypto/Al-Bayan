@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T13:50:24.314Z",
+  "lastReconciled": "2026-10-29T13:50:46.436Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 48,
+    "hadithMuslimDrafted": 51,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6384,
-    "hadithDatabaseMissing": 8245,
-    "hadithLocalRemaining": 8245,
+    "hadithLocalDrafted": 6387,
+    "hadithDatabaseMissing": 8242,
+    "hadithLocalRemaining": 8242,
     "hadithNeedsMo": 176,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -29360,6 +29360,24 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0012",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0012.json",
+      "sourceIds": [
+        "a8f73a84-0a0d-4cd5-a331-88d4d2a93de7",
+        "c4901233-30f9-49ee-ba46-15807f29f842",
+        "5fbea891-b867-4fdf-a937-e3892118c002"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "3 complete private drafts; source hashes retained; focused batch validator passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -33277,8 +33295,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6384,
-  "hadithLocalRemaining": 8245,
+  "hadithLocalDrafted": 6387,
+  "hadithLocalRemaining": 8242,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -34337,5 +34355,5 @@
       "reason": "Ce récit cite directement un ou plusieurs versets du Coran. L’intégralité de la traduction française reste en attente de confirmation d’une traduction coranique française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 48
+  "hadithMuslimDrafted": 51
 }
