@@ -5716,3 +5716,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1114 saves one private French draft for the lost-property report. It was handled as a one-record batch.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,113 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,516, including held records.
+
+### 2026-10-29: Bukhari 6113–6118
+
+- FR-LIB-HAD-BUKHARI-1115 saves six private French drafts about prayer, anger, and modesty.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 5,119 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 765. Total local hadith rows not drafted: 9,510, including held records.
