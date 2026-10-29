@@ -11518,3 +11518,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1880-1882
 
 - FR-LIB-HAD-MUSLIM-0889 saves four private French drafts about morning and evening departures in Allah’s cause. The Quran-quoting report (9:19) and its chain-only cross-reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1883a-1885c
+
+- FR-LIB-HAD-MUSLIM-0890 saves five private French drafts about dawn or evening outings, the reward of jihad, and the conditions around forgiveness. Distinct short question variants are translated without filling in omitted answers. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
