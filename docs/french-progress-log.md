@@ -3486,3 +3486,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-714` saves one private French draft of the long report about the capture and execution of Khubayb and Zayd ibn al-Dathina.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,539 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 277. Total local hadith rows not drafted: 11,118, including held records.
+
+### 2026-10-29: Bukhari 3990–3995
+
+- `FR-LIB-HAD-BUKHARI-715` saves six private French drafts, including the report of Subayʿa’s question after her husband died while she was pregnant.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,545 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 277. Total local hadith rows not drafted: 11,112, including held records.

@@ -15592,6 +15592,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-715",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-715.json",
+      "sourceIds": ["0977268f-4321-4935-9aa8-9d0235ec6139", "b34bf10c-178f-4132-b3ce-5d469c31350d", "81815286-8ced-4f07-a7dd-3af77d257fcc", "c42b1331-ace1-40dc-8bf8-5865735244d4", "8082539d-50ac-47f3-9681-ea66d3f142fd", "4f2dadf3-e4ea-4ba5-87ff-fb90b9fe091c"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
