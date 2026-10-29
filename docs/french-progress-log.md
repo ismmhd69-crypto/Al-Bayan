@@ -7748,3 +7748,8 @@ Scope: private local preparation only. French remains absent from public locale 
 - FR-LIB-HAD-MUSLIM-0125 saves five private French drafts on cleaning vessels and standing water.
 - Muslim 280b contains only transmission chains and a variant note about an additional type of permitted dog; it remains blank under Needs Mo rather than being reconstructed from the prior report.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 515 Muslim drafts, 6,851 total hadith drafts, 7,778 remaining, and 262 Needs Mo items.
+
+### 2026-10-29: Muslim 283–286b
+
+- FR-LIB-HAD-MUSLIM-0126 saves six private French drafts on stagnant water, cleaning the mosque after urine, and cleaning infant urine.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 521 Muslim drafts, 6,857 total hadith drafts, 7,772 remaining, and 262 Needs Mo items.

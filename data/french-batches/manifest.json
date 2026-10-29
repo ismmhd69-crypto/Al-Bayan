@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-local-only",
-  "lastReconciled": "2026-10-29T14:46:29.091Z",
+  "lastReconciled": "2026-10-29T14:47:04.699Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -58,13 +58,13 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 515,
+    "hadithMuslimDrafted": 521,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6851,
-    "hadithDatabaseMissing": 7778,
-    "hadithLocalRemaining": 7778,
+    "hadithLocalDrafted": 6857,
+    "hadithDatabaseMissing": 7772,
+    "hadithLocalRemaining": 7772,
     "hadithNeedsMo": 262,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -31623,6 +31623,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0126",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0126.json",
+      "sourceIds": [
+        "51460465-afd4-4dda-b71e-72d9c8719429",
+        "e600cf14-b138-46df-b876-9682fd921c0c",
+        "6982601b-dc0f-42fb-b3bf-5db0a36a16f9",
+        "e7bcf010-5b2b-4a9b-a40e-550f3f731998",
+        "ac793ee3-0d04-40dd-834c-40b2d2fec19f",
+        "936c24bd-7e43-4b29-b40f-039acb18258d"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validator passed; chains, reported speech and variants retained",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -35930,8 +35951,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 6851,
-  "hadithLocalRemaining": 7778,
+  "hadithLocalDrafted": 6857,
+  "hadithLocalRemaining": 7772,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -37506,8 +37527,8 @@
       "reason": "La source arabe ne reprend que la chaîne de transmission et indique que le récit est semblable, avec une variante concernant le chien utilisé pour les cultures, sans répéter le texte complet. Garder la traduction en attente d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 515,
-  "hadithDatabaseMissing": 7778,
+  "hadithMuslimDrafted": 521,
+  "hadithDatabaseMissing": 7772,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 262
 }
