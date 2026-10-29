@@ -657,3 +657,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-124` saved Bukhari 687 as a one-record private draft because the Arabic report is long. It retains the repeated washing and loss of consciousness, the prayer waiting in the mosque, Abu Bakr leading during the Prophet’s illness, the Prophet later praying while seated, and Ibn Abbas’s identification of the second supporting man as Ali.
 - The single-record batch passed the focused validator for the Arabic source hash, rights metadata, private unpublished state and long-report handling. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 638 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,991, including held records.
+
+### 2026-10-29: Bukhari 688–692 source review
+
+- `FR-LIB-HAD-BUKHARI-125` saved private French drafts for Bukhari 688–692, including the sitting-prayer instructions, the report’s explicit note about an earlier and later practice, the timing of prostration behind the imam, the warning against moving ahead of the imam, and Salim’s leadership among the first emigrants at Quba.
+- The six-record batch passed the focused validator for source hashes, IDs, rights metadata, private unpublished state and narration variants. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 644 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 31. Total local hadith rows not drafted: 13,985, including held records.
