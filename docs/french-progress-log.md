@@ -964,3 +964,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-196` saves four private French drafts for Bukhari 1123, 1124, 1126 and 1128. Bukhari 1125 remains blank because it quotes Quran 93:1–3, and 1127 remains blank because it quotes Quran 18:54. No approved, attributed French Quran translation is available.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran holds. Four local drafts were added; two reports are held. No database writes or publication occurred. Bukhari local drafts: 1,040 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,589, including held records.
+### 2026-10-29: Bukhari 1129–1133 source review
+
+- `FR-LIB-HAD-BUKHARI-197` saves six private French drafts for Bukhari 1129–1133, including variants 1132b. They preserve the Ramadan congregation report, Dawud’s prayer and fasting schedule, and the accounts about waking for night prayer.
+- I checked the phrase in Bukhari 1132 about hearing “the caller” against its source context; it refers to a rooster’s crow. The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 1,046 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 55. Total local hadith rows not drafted: 13,583, including held records.
