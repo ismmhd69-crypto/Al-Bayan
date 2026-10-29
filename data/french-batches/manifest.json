@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5836,
+    "hadithBukhariDrafted": 5841,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5836,
+    "hadithLocalDrafted": 5841,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8793,
-    "hadithNeedsMo": 838,
+    "hadithLocalRemaining": 8788,
+    "hadithNeedsMo": 839,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26860,6 +26860,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1271",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1271.json",
+      "sourceIds": [
+        "a8fdb01b-ec1d-4f5f-a1e6-bd0fd07f75ad",
+        "c4d0d402-205e-4873-96bc-03242dcbd588",
+        "e11896cb-17ed-48f4-b722-5f25f08b730b",
+        "ad260741-a0c7-4f8b-ba83-280df5bf34a1",
+        "83753421-63b8-4fd8-9f18-e459a29c5231",
+        "ce0dae28-f3bf-49b9-b609-2ab525c085e1"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five complete French drafts; one report held blank for its direct quotation of Quran 4:19. All source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo hold"
     }
   ],
   "blockers": [
@@ -30276,11 +30297,17 @@
       "scope": "Sahih al-Bukhari 6918: direct quotations of Quran 6:82 and 31:13",
       "status": "blocked",
       "reason": "The report directly quotes Quran 6:82 and 31:13. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6948-QURAN-4-19",
+      "scope": "Sahih al-Bukhari 6948: direct quotation of Quran 4:19",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:19. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5836,
-  "hadithLocalDrafted": 5836,
-  "hadithLocalRemaining": 8793,
+  "hadithBukhariDrafted": 5841,
+  "hadithLocalDrafted": 5841,
+  "hadithLocalRemaining": 8788,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -30839,6 +30866,12 @@
       "scope": "Sahih al-Bukhari 6918: direct quotations of Quran 6:82 and 31:13",
       "status": "blocked",
       "reason": "The report directly quotes Quran 6:82 and 31:13. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6948-QURAN-4-19",
+      "scope": "Sahih al-Bukhari 6948: direct quotation of Quran 4:19",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:19. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
