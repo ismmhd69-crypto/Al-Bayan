@@ -9356,3 +9356,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0445 saves five private French drafts about avoiding unnecessary requests, permitted need, and accepting unsolicited support. Muslim 1045c is an incomplete cross-reference and remains blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1749 Muslim drafts, 8085 total hadith drafts, 6544 remaining, and 821 Needs Mo items.
+
+### 2026-10-29: Muslim 1046a–1047c
+
+- FR-LIB-HAD-MUSLIM-0446 saves three private French drafts about attachment to wealth and longevity. Muslim 1045e, 1047b, and 1047c are incomplete cross-references and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1752 Muslim drafts, 8088 total hadith drafts, 6541 remaining, and 824 Needs Mo items.

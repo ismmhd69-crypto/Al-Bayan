@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0446",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T17:22:39.626Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "64aa9dba-4954-48a2-a13b-ddc3f8495cf9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1045e",
+      "reference": "Sahih Muslim, hadith 1045 e, book 12, باب إِبَاحَةِ الأَخْذِ لِمَنْ أُعْطِيَ مِنْ غَيْرِ مَسْأَلَةٍ وَلاَ إِشْرَافٍ ‏",
+      "title": "باب إِبَاحَةِ الأَخْذِ لِمَنْ أُعْطِيَ مِنْ غَيْرِ مَسْأَلَةٍ وَلاَ إِشْرَافٍ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو بْنُ الْحَارِثِ، عَنْ بُكَيْرِ بْنِ الأَشَجِّ، عَنْ بُسْرِ بْنِ سَعِيدٍ، عَنِ ابْنِ السَّعْدِيِّ، أَنَّهُ قَالَ اسْتَعْمَلَنِي عُمَرُ بْنُ الْخَطَّابِ - رضى الله عنه - عَلَى الصَّدَقَةِ ‏.‏ بِمِثْلِ حَدِيثِ اللَّيْثِ ‏.‏",
+      "source_hash_sha256": "e73b583f918d407432006cc82dff3d7849553dab3034507c0296ea212c4d4717",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c4b14c20-67e5-404a-b691-2d1280e3cf91",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1046a",
+      "reference": "Sahih Muslim, hadith 1046 a, book 12, باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "title": "باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، يَبْلُغُ بِهِ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ قَلْبُ الشَّيْخِ شَابٌّ عَلَى حُبِّ اثْنَتَيْنِ حُبِّ الْعَيْشِ وَالْمَالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9f4d096c341540ef92f741ad8faa7edf7696e8b7ef0e12acc5aff8ee3ed4f90e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Sufyan ibn ‘Uyayna nous a rapporté, d’après Abu al-Zinad, d’après al-A‘raj, d’après Abu Hurayra, qui attribua au Prophète ﷺ ces paroles : « Le cœur d’un vieil homme reste jeune dans son amour de deux choses : la vie et les biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "01b116aa-267d-40c3-a8f0-5d3f5dae9d60",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1046b",
+      "reference": "Sahih Muslim, hadith 1046 b, book 12, باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "title": "باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو الطَّاهِرِ، وَحَرْمَلَةُ، قَالاَ أَخْبَرَنَا ابْنُ وَهْبٍ، عَنْ يُونُسَ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ قَلْبُ الشَّيْخِ شَابٌّ عَلَى حُبِّ اثْنَتَيْنِ طُولُ الْحَيَاةِ وَحُبُّ الْمَالِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "f7e77f644ae53516fd7ac57fc7927985dcd28cd8b798b448e2198c90f97099ee",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu al-Tahir et Harmala m’ont rapporté : Ibn Wahb nous a informés, d’après Yunus, d’après Ibn Shihab, d’après Sa‘id ibn al-Musayyab, d’après Abu Hurayra, que le Messager d’Allah ﷺ a dit : « Le cœur d’un vieil homme reste jeune dans son amour de deux choses : la longue vie et les biens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2e30d058-6fb6-4959-892f-f3960afabe30",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1047a",
+      "reference": "Sahih Muslim, hadith 1047 a, book 12, باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "title": "باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي يَحْيَى بْنُ يَحْيَى، وَسَعِيدُ بْنُ مَنْصُورٍ، وَقُتَيْبَةُ بْنُ سَعِيدٍ، كُلُّهُمْ عَنْ أَبِي عَوَانَةَ، - قَالَ يَحْيَى أَخْبَرَنَا أَبُو عَوَانَةَ، - عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَهْرَمُ ابْنُ آدَمَ وَتَشِبُّ مِنْهُ اثْنَتَانِ الْحِرْصُ عَلَى الْمَالِ وَالْحِرْصُ عَلَى الْعُمُرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "20d616a3e1dc69aef6ae66a1f65564f5994de4a6c747ce26a9c8c77d0e6609be",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya, Sa‘id ibn Mansur et Qutayba ibn Sa‘id m’ont rapporté, tous d’après Abu ‘Awana. Yahya dit : Abu ‘Awana nous a informés, d’après Qatada, d’après Anas, qui a dit que le Messager d’Allah ﷺ a dit : « Le fils d’Adam vieillit, mais deux choses restent jeunes en lui : l’avidité pour les biens et le désir de vivre longtemps. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a18a7d9-5887-444d-9548-3d7a5244ef4d",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1047b",
+      "reference": "Sahih Muslim, hadith 1047 b, book 12, باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "title": "باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي أَبُو غَسَّانَ الْمِسْمَعِيُّ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "ce475f3935694cfd5a5778dd10390c1ba24125c7ecad75dabcefc7a471cb717a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "36ec7b43-1419-41ea-9a9e-58b236d50079",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1047c",
+      "reference": "Sahih Muslim, hadith 1047 c, book 12, باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "title": "باب كَرَاهَةِ الْحِرْصِ عَلَى الدُّنْيَا ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ أَنَسِ بْنِ مَالِكٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِنَحْوِهِ ‏.‏",
+      "source_hash_sha256": "2e39081b1f050dc00d9ea8256e3ba62877d3f535024e99db72014256731000e1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "64aa9dba-4954-48a2-a13b-ddc3f8495cf9",
+      "reason": "La source ne reprend que la chaîne de transmission et renvoie au récit de Layth, sans en rapporter le contenu. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "2a18a7d9-5887-444d-9548-3d7a5244ef4d",
+      "reason": "La source renvoie au récit précédent par « de la même manière », sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "source_id": "36ec7b43-1419-41ea-9a9e-58b236d50079",
+      "reason": "La source ne fournit que la chaîne de transmission et indique que le récit est « dans le même sens », sans reproduire son texte. Garder la traduction française vide jusqu’à disponibilité du texte complet."
+    }
+  ]
+}
