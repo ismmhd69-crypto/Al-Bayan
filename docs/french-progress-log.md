@@ -1607,3 +1607,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-339` saves six private French drafts for Bukhari 1975–1980. The drafts preserve the transmission chains and the distinct fasting-count and recitation variants.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,797 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,832, including held records.
+
+### 2026-10-29: Bukhari 1981–1986 source review
+
+- `FR-LIB-HAD-BUKHARI-340` saves six private French drafts for Bukhari 1981–1986. The drafts retain the alternate chains and editorial notes in the final reports, as well as the wording variants on fasting the end of the month.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,803 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 110. Total local hadith rows not drafted: 12,826, including held records.
