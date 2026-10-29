@@ -35945,6 +35945,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0335",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0335.json",
+      "sourceIds": [
+        "166d9c05-7e2a-41a9-b9b8-01c3de2a3253",
+        "a41b82e6-f79b-46b0-a1b8-700d3fdf3c88",
+        "de74c364-d72f-49fd-8f53-30c84f4f5b6a",
+        "46bfcd80-3d31-4a66-bdea-ea1b860b7d85",
+        "83a62727-579c-439c-9d65-421b5a7dcb1b",
+        "b3f909f5-c401-4696-a9e3-fa26634f327b"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one direct Quran quotation held entirely blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40252,8 +40273,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7674,
-  "hadithLocalRemaining": 6955,
+  "hadithLocalDrafted": 7679,
+  "hadithLocalRemaining": 6950,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42540,10 +42561,16 @@
       "scope": "Sahih Muslim 773b: incomplete cross-reference variant",
       "status": "blocked",
       "reason": "La source ne reprend pas le récit complet et renvoie seulement à la version précédente. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
+    },
+    {
+      "id": "HADITH-MUSLIM-0335-775-QURAN-QUOTATION",
+      "scope": "Sahih Muslim 775: direct Quran quotation from surah 18",
+      "status": "blocked",
+      "reason": "La source cite directement un passage du Coran (sourate 18). Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation."
     }
   ],
-  "hadithMuslimDrafted": 1338,
+  "hadithMuslimDrafted": 1343,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 617
+  "hadithNeedsMo": 618
 }

@@ -8801,3 +8801,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0334 saves three private French drafts about opening the night prayer and reciting at length. Muslim 771a and 771b quote Quran passages, and 773b is a cross-reference variant; all three remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1338 Muslim drafts, 7674 total hadith drafts, 6955 remaining, and 617 Needs Mo items.
+
+### 2026-10-29: Muslim 774–778
+
+- FR-LIB-HAD-MUSLIM-0335 saves five private French drafts about sleeping through the night and voluntary prayers at home. Muslim 775 quotes Quran directly and remains entirely blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1343 Muslim drafts, 7679 total hadith drafts, 6950 remaining, and 618 Needs Mo items.
