@@ -10176,3 +10176,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0609 saves two private French drafts about the first fruits of the season and supplications for blessing in Medina. The Prophet ﷺ gives the fruit to the youngest child present in both reports.
 - Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1374a (isolated long source)
+
+- FR-LIB-HAD-MUSLIM-0610 isolates the 2,070-character report and saves one private French draft about hardship in Medina and the city’s protected status. The narrator’s stated uncertainty about several phrases is retained.
+- The source ID and hash are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.

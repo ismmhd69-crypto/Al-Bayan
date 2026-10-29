@@ -41604,6 +41604,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0610",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0610.json",
+      "sourceIds": [
+        "b80e6550-ae96-46e9-a866-d11e0ed97db9"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: one isolated 2,070-character source; Arabic original and hash, ID, private unpublished AI-draft state, narrator uncertainty preserved, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -45911,8 +45927,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8762,
-  "hadithLocalRemaining": 5867,
+  "hadithLocalDrafted": 8763,
+  "hadithLocalRemaining": 5866,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -49771,7 +49787,7 @@
       "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2426,
+  "hadithMuslimDrafted": 2427,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 1064
