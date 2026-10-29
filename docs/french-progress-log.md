@@ -8266,3 +8266,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0228 saves five private French drafts about the etiquette of spitting during prayer and in the mosque, and removing harmful objects from the road. Muslim 550b contains only an incomplete cross-reference variant and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 922 Muslim drafts, 7,258 total hadith drafts, 7,371 remaining, and 442 Needs Mo items.
+
+### 2026-10-29: Muslim 554b–556c
+
+- FR-LIB-HAD-MUSLIM-0229 saves five private French drafts about prayer in sandals and a patterned garment that distracted the Prophet ﷺ during prayer. Muslim 555b contains only a cross-reference to the previous report and remains blank under Needs Mo. The exporter continues to defer a later long source for its solo batch.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 927 Muslim drafts, 7,263 total hadith drafts, 7,366 remaining, and 443 Needs Mo items.
