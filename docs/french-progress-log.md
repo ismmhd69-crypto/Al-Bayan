@@ -7921,3 +7921,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0159 saves four private French drafts about the call to prayer and repeating it. Muslim 380b and 381b only refer to previous reports without repeating their content, so both remain blank under Needs Mo. A separate long source remains deferred for a solo batch.
 - All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 670 Muslim drafts, 7,006 total hadith drafts, 7,623 remaining, and 305 Needs Mo items.
+
+### 2026-10-29: Muslim 385–389a
+
+- FR-LIB-HAD-MUSLIM-0160 saves five private French drafts about responding to the call to prayer and the muezzin. Muslim 388b gives only a transmission chain and refers to the previous report, so it remains blank under Needs Mo. A separate long source remains deferred for a solo batch.
+- All six source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 675 Muslim drafts, 7,011 total hadith drafts, 7,618 remaining, and 306 Needs Mo items.
