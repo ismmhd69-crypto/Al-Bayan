@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-1251",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:17:35.396Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "cf57be92-08c6-4a5b-a4bd-a8d8fa712291",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6829",
+      "reference": "Sahih al-Bukhari, hadith 6829, book 86, باب الاِعْتِرَافِ بِالزِّنَا",
+      "title": "باب الاِعْتِرَافِ بِالزِّنَا",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، عَنِ الزُّهْرِيِّ، عَنْ عُبَيْدِ اللَّهِ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ قَالَ عُمَرُ لَقَدْ خَشِيتُ أَنْ يَطُولَ بِالنَّاسِ زَمَانٌ حَتَّى يَقُولَ قَائِلٌ لاَ نَجِدُ الرَّجْمَ فِي كِتَابِ اللَّهِ‏.‏ فَيَضِلُّوا بِتَرْكِ فَرِيضَةٍ أَنْزَلَهَا اللَّهُ، أَلاَ وَإِنَّ الرَّجْمَ حَقٌّ عَلَى مَنْ زَنَى، وَقَدْ أَحْصَنَ، إِذَا قَامَتِ الْبَيِّنَةُ، أَوْ كَانَ الْحَمْلُ أَوْ الاِعْتِرَافُ ـ قَالَ سُفْيَانُ كَذَا حَفِظْتُ ـ أَلاَ وَقَدْ رَجَمَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَرَجَمْنَا بَعْدَهُ‏.‏",
+      "source_hash_sha256": "de82210182ad2d20a11c017ecc48ccb37a62136e681c6ba7f81dd68a5704603d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allah nous a rapporté : Sufyân nous a rapporté, d’après al-Zuhrî, d’après ‘Ubayd Allah, d’après Ibn ‘Abbâs — qu’Allah les agrée tous deux —, qui a dit : ‘Umar a dit : « Je crains qu’avec le temps les gens ne disent : “Nous ne trouvons pas la lapidation dans le Livre d’Allah”, et qu’ils ne s’égarent ainsi en abandonnant une obligation qu’Allah a révélée. Sachez que la lapidation est bien due à toute personne qui commet la fornication après avoir été mariée, lorsque la preuve est établie, ou en cas de grossesse, ou d’aveu » — Sufyân a dit : « C’est ainsi que je l’ai retenu. » — « Sachez que le Messager d’Allah ﷺ a fait lapider, et que nous avons fait lapider après lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

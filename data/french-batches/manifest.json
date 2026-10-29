@@ -57,14 +57,14 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5749,
+    "hadithBukhariDrafted": 5750,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5749,
+    "hadithLocalDrafted": 5750,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8880,
+    "hadithLocalRemaining": 8879,
     "hadithNeedsMo": 829,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
@@ -26464,6 +26464,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1251",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1251.json",
+      "sourceIds": [
+        "cf57be92-08c6-4a5b-a4bd-a8d8fa712291"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "One complete French draft from the exact source. The source’s reference to the Quran is indirect, not a direct Quran quotation. Source hash retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -29828,9 +29844,9 @@
       "reason": "The report’s terms تحميم الوجه and التجبية describe a practice attributed to the rabbis, but their precise meaning cannot be established safely from this excerpt. Keep the complete translation blank until clarified."
     }
   ],
-  "hadithBukhariDrafted": 5749,
-  "hadithLocalDrafted": 5749,
-  "hadithLocalRemaining": 8880,
+  "hadithBukhariDrafted": 5750,
+  "hadithLocalDrafted": 5750,
+  "hadithLocalRemaining": 8879,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
