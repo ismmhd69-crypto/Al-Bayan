@@ -1,0 +1,180 @@
+{
+  "batch_id": "HADITH-MUSLIM-1288",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:23:51.025Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "1047b653-c74e-48b9-8e79-45f8207b8192",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2823",
+      "reference": "Sahih Muslim, hadith 2823, book 53, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا شَبَابَةُ، حَدَّثَنِي وَرْقَاءُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِهِ ‏.‏",
+      "source_hash_sha256": "94233540cf3f4ed72c6bcbc17642b8292a2808f445540b8ee43e9a6ad274d329",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fb37e0d1-32fe-456b-a751-40533847d292",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2824a",
+      "reference": "Sahih Muslim, hadith 2824 a, book 53, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، وَزُهَيْرُ بْنُ حَرْبٍ، قَالَ زُهَيْرٌ حَدَّثَنَا وَقَالَ، سَعِيدٌ أَخْبَرَنَا سُفْيَانُ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ أَعْدَدْتُ لِعِبَادِيَ الصَّالِحِينَ مَا لاَ عَيْنٌ رَأَتْ وَلاَ أُذُنٌ سَمِعَتْ وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ ‏\"‏ ‏.‏ مِصْدَاقُ ذَلِكَ فِي كِتَابِ اللَّهِ ‏[quran sura=\"32\" aya_start=\"17\" aya_end=\"17\"]{‏ فَلاَ تَعْلَمُ نَفْسٌ مَا أُخْفِيَ لَهُمْ مِنْ قُرَّةِ أَعْيُنٍ جَزَاءً بِمَا كَانُوا يَعْمَلُونَ‏}‏",
+      "source_hash_sha256": "59b525f94cd90b5d06e8df95aefe25b926d666a84bad67bb786d94883ed60d53",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6385cb5c-ffcc-4846-96dc-120f6d422871",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2824b",
+      "reference": "Sahih Muslim, hadith 2824 b, book 53, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، حَدَّثَنَا مَالِكٌ، عَنْ أَبِي الزِّنَادِ، عَنِ الأَعْرَجِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ أَعْدَدْتُ لِعِبَادِيَ الصَّالِحِينَ مَا لاَ عَيْنٌ رَأَتْ وَلاَ أُذُنٌ سَمِعَتْ وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ ذُخْرًا بَلْهَ مَا أَطْلَعَكُمُ اللَّهُ عَلَيْهِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2ce4d7d3ea4b1b3deafcad40d677599d2a404a8f833fbfa9aacce0050b41d6c2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hārūn ibn Saʿīd al-Aylī m’a rapporté : Ibn Wahb nous a rapporté : Mālik nous a rapporté, d’après Abū al-Zinād, d’après al-Aʿraj, d’après Abū Hurayra, que le Prophète ﷺ a dit : « Allah, Puissant et Majestueux, a dit : “J’ai préparé pour Mes serviteurs vertueux ce qu’aucun œil n’a vu, ce qu’aucune oreille n’a entendu et ce qu’aucun cœur humain n’a imaginé, en réserve, sans parler de ce qu’Allah vous en a déjà montré.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7214e3e6-4552-479d-a22a-9449a4778259",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2824c",
+      "reference": "Sahih Muslim, hadith 2824 c, book 53, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، ح وَحَدَّثَنَا ابْنُ، نُمَيْرٍ - وَاللَّفْظُ لَهُ - حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَقُولُ اللَّهُ عَزَّ وَجَلَّ أَعْدَدْتُ لِعِبَادِيَ الصَّالِحِينَ مَا لاَ عَيْنٌ رَأَتْ وَلاَ أُذُنٌ سَمِعَتْ وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ ‏.‏ ذُخْرًا بَلْهَ مَا أَطْلَعَكُمُ اللَّهُ عَلَيْهِ ‏\"‏ ‏.‏ ثُمَّ قَرَأَ ‏[quran sura=\"32\" aya_start=\"17\" aya_end=\"17\"]{‏ فَلاَ تَعْلَمُ نَفْسٌ مَا أُخْفِيَ لَهُمْ مِنْ قُرَّةِ أَعْيُنٍ‏}‏",
+      "source_hash_sha256": "7b25d20e3e95375e4316fa36c503c24931d549d9a4dbb624e223ec59a9ab9bb8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b3468ce1-02ea-4e87-8d79-7dd6d37cd4f9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2825",
+      "reference": "Sahih Muslim, hadith 2825, book 53, باب ‏‏",
+      "title": "باب ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هَارُونُ بْنُ مَعْرُوفٍ، وَهَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، قَالاَ حَدَّثَنَا ابْنُ وَهْبٍ، حَدَّثَنِي أَبُو صَخْرٍ، أَنَّ أَبَا حَازِمٍ، حَدَّثَهُ قَالَ سَمِعْتُ سَهْلَ بْنَ سَعْدٍ السَّاعِدِيَّ، يَقُولُ شَهِدْتُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم مَجْلِسًا وَصَفَ فِيهِ الْجَنَّةَ حَتَّى انْتَهَى ثُمَّ قَالَ صلى الله عليه وسلم فِي آخِرِ حَدِيثِهِ ‏\"‏ فِيهَا مَا لاَ عَيْنٌ رَأَتْ وَلاَ أُذُنٌ سَمِعَتْ وَلاَ خَطَرَ عَلَى قَلْبِ بَشَرٍ ‏\"‏ ‏.‏ ثُمَّ اقْتَرَأَ هَذِهِ الآيَةَ ‏[quran sura=\"32\" aya_start=\"16\" aya_end=\"17\"]{‏ تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ * فَلاَ تَعْلَمُ نَفْسٌ مَا أُخْفِيَ لَهُمْ مِنْ قُرَّةِ أَعْيُنٍ جَزَاءً بِمَا كَانُوا يَعْمَلُونَ‏}‏ ‏.‏",
+      "source_hash_sha256": "3ff889b2efe51a88a5c0d85d11a8c3e4204809f2ca39c3c6fd5efc299797d8ac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ee9de5f7-b18e-4d0a-8719-1e8a419f4cc9",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2826a",
+      "reference": "Sahih Muslim, hadith 2826 a, book 53, باب إِنَّ فِي الْجَنَّةِ شَجَرَةً يَسِيرُ الرَّاكِبُ فِي ظِلِّهَا مِائَةَ عَامٍ لاَ يَقْطَعُهَا ‏‏",
+      "title": "باب إِنَّ فِي الْجَنَّةِ شَجَرَةً يَسِيرُ الرَّاكِبُ فِي ظِلِّهَا مِائَةَ عَامٍ لاَ يَقْطَعُهَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ سَعِيدِ بْنِ أَبِي سَعِيدٍ الْمَقْبُرِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم أَنَّهُ قَالَ ‏\"‏ إِنَّ فِي الْجَنَّةِ لَشَجَرَةً يَسِيرُ الرَّاكِبُ فِي ظِلِّهَا مِائَةَ سَنَةٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "b08267065bdabc2344555d48394201f97d445e8931711259ac428c7f1966cd70",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd nous a rapporté : al-Layth nous a rapporté, d’après Saʿīd ibn Abī Saʿīd al-Maqburī, d’après son père, d’après Abū Hurayra, d’après le Messager d’Allah ﷺ, qui a dit : « Il y a au Paradis un arbre à l’ombre duquel un cavalier voyagerait pendant cent ans. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1047b653-c74e-48b9-8e79-45f8207b8192",
+      "reason": "Cette entrée renvoie au récit précédent sans en reprendre le texte complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "fb37e0d1-32fe-456b-a751-40533847d292",
+      "reason": "Ce récit comprend un verset coranique intégré. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7214e3e6-4552-479d-a22a-9449a4778259",
+      "reason": "Ce récit comprend un verset coranique intégré. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "b3468ce1-02ea-4e87-8d79-7dd6d37cd4f9",
+      "reason": "Ce récit cite deux versets coraniques intégrés. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    }
+  ]
+}
