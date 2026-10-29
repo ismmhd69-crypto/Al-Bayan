@@ -8616,3 +8616,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0297 saves six private French drafts about voluntary prayer while riding and combining prayers during travel.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,178 Muslim drafts, 7,514 total hadith drafts, 7,115 remaining, and 563 Needs Mo items.
+
+### 2026-10-29: Muslim 703d–705a
+
+- FR-LIB-HAD-MUSLIM-0298 saves six private French drafts about combining prayers during travel and during Hajj.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1,184 Muslim drafts, 7,520 total hadith drafts, 7,109 remaining, and 563 Needs Mo items.

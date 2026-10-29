@@ -35175,6 +35175,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0298",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0298.json",
+      "sourceIds": [
+        "60440195-6910-4cc9-bf51-b7611748e312",
+        "0bd7c038-1488-4684-8dca-3e09a8c23387",
+        "c49487b9-55e2-4804-9bcd-43ba828c75b2",
+        "cf23e1ed-7acc-4c2d-a5ab-53dfe9bd0e2f",
+        "53551e7a-d754-41d6-a635-0df370cec2b7",
+        "5fed3e00-3b48-4f51-9932-eca12d7641ec"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39482,8 +39503,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7514,
-  "hadithLocalRemaining": 7115,
+  "hadithLocalDrafted": 7520,
+  "hadithLocalRemaining": 7109,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -41448,8 +41469,8 @@
       "reason": "Ce récit cite directement le verset 2:115 du Coran. Garder toute la traduction française vide jusqu’à confirmation d’une traduction française approuvée, attribuée et dont l’utilisation est autorisée."
     }
   ],
-  "hadithMuslimDrafted": 1178,
-  "hadithDatabaseMissing": 7115,
+  "hadithMuslimDrafted": 1184,
+  "hadithDatabaseMissing": 7109,
   "hadithDatabaseInserted": 0,
   "hadithNeedsMo": 563
 }
