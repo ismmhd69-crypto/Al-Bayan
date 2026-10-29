@@ -7081,6 +7081,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; Bukhari 1665 held for embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-290",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-290.json",
+      "sourceIds": [
+        "6e3221fc-e168-4316-9933-12056e6f5abd",
+        "ab502ba4-63bb-482a-bc77-7cc6ff639e56",
+        "174e1c97-cd6b-4114-81fb-d6931712e037",
+        "2c09cce6-9614-47de-a509-e1c0bd309031",
+        "3961b1d7-fa00-4dc9-bd2d-13a50939278e",
+        "00d94891-cfdb-449c-90af-dfdcc9204880"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic hashes, IDs, URLs, references, rights and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "six private local AI drafts"
     }
   ],
   "blockers": [

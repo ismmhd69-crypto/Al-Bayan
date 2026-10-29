@@ -1381,3 +1381,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-289` saves five private French drafts for Bukhari 1663–1664 and 1666–1668. Bukhari 1665 remains blank and is recorded under Needs Mo because it directly quotes Quran 2:199; no approved, attributed French Quran translation is configured.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. No database writes or publication occurred. Bukhari local drafts: 1,522 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 91. Total local hadith rows not drafted: 13,106, including held records.
+
+### 2026-10-29: Bukhari 1669–1675 source review
+
+- `FR-LIB-HAD-BUKHARI-290` saves six private French drafts for the available source records 1669 and 1671–1675. No source record for 1670 was present in this exporter batch. They preserve the reports on leaving Arafat and the prayer sequence at Muzdalifa, including transmitted uncertainties. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,528 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 91. Total local hadith rows not drafted: 13,100, including held records.
