@@ -10976,3 +10976,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0769 saves five private French drafts on vows, older people, and a vow to walk to the Kaaba. Muslim 1643b contains only a chain and a reference to the preceding report, so it remains blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1645–1646e
+
+- FR-LIB-HAD-MUSLIM-0770 saves four private French drafts on vow expiation and swearing by fathers. Muslim 1646c and 1646e only refer to other versions and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
