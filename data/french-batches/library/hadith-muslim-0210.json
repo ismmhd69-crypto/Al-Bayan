@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0210",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:31:26.250Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "71af2744-d2b5-4a9f-8c77-c4e4cd6f08c0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:507a",
+      "reference": "Sahih Muslim, hadith 507 a, book 4, باب مَنْعِ الْمَارِّ بَيْنَ يَدَىِ الْمُصَلِّي ‏",
+      "title": "باب مَنْعِ الْمَارِّ بَيْنَ يَدَىِ الْمُصَلِّي ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ أَبِي النَّضْرِ، عَنْ بُسْرِ بْنِ سَعِيدٍ، أَنَّ زَيْدَ بْنَ خَالِدٍ الْجُهَنِيَّ، أَرْسَلَهُ إِلَى أَبِي جُهَيْمٍ يَسْأَلُهُ مَاذَا سَمِعَ مِنْ، رَسُولِ اللَّهِ صلى الله عليه وسلم فِي الْمَارِّ بَيْنَ يَدَىِ الْمُصَلِّي قَالَ أَبُو جُهَيْمٍ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ يَعْلَمُ الْمَارُّ بَيْنَ يَدَىِ الْمُصَلِّي مَاذَا عَلَيْهِ لَكَانَ أَنْ يَقِفَ أَرْبَعِينَ خَيْرًا لَهُ مِنْ أَنْ يَمُرَّ بَيْنَ يَدَيْهِ ‏\"‏ ‏.‏ قَالَ أَبُو النَّضْرِ لاَ أَدْرِي قَالَ أَرْبَعِينَ يَوْمًا أَوْ شَهْرًا أَوْ سَنَةً",
+      "source_hash_sha256": "5c853d69b3f47aabbb84fe04aed8e1debfb84a270ccc4db354611bee939c77d3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya dit : J’ai lu à Malik, d’après Abu al-Nadr, d’après Busr ibn Sa‘id, que Zayd ibn Khalid al-Juhani l’avait envoyé auprès d’Abu Juhaim pour lui demander ce qu’il avait entendu du Messager d’Allah ﷺ au sujet de celui qui passe devant une personne en prière. Abu Juhaim dit que le Messager d’Allah ﷺ avait dit : « Si celui qui passe devant une personne en prière savait ce qu’il encourt, il vaudrait mieux pour lui s’arrêter quarante plutôt que de passer devant elle. » Abu al-Nadr dit : « Je ne sais pas s’il a dit quarante jours, mois ou années. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ecfc3f23-2dfc-4910-80a0-65a9db643254",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:507b",
+      "reference": "Sahih Muslim, hadith 507 b, book 4, باب مَنْعِ الْمَارِّ بَيْنَ يَدَىِ الْمُصَلِّي ‏",
+      "title": "باب مَنْعِ الْمَارِّ بَيْنَ يَدَىِ الْمُصَلِّي ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ هَاشِمِ بْنِ حَيَّانَ الْعَبْدِيُّ، حَدَّثَنَا وَكِيعٌ، عَنْ سُفْيَانَ، عَنْ سَالِمٍ أَبِي النَّضْرِ، عَنْ بُسْرِ بْنِ سَعِيدٍ، أَنَّ زَيْدَ بْنَ خَالِدٍ الْجُهَنِيَّ، أَرْسَلَ إِلَى أَبِي جُهَيْمٍ الأَنْصَارِيِّ مَا سَمِعْتَ النَّبِيَّ صلى الله عليه وسلم يَقُولُ فَذَكَرَ بِمَعْنَى حَدِيثِ مَالِكٍ ‏.‏",
+      "source_hash_sha256": "937b36145eebe300353c29bff44de8d6b495d812c8be2b0e84e23d1d1581dbe7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ef06fe6f-e3c2-494b-884e-c7c80dbd88fe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:508",
+      "reference": "Sahih Muslim, hadith 508, book 4, باب دُنُوِّ الْمُصَلِّي مِنَ السُّتْرَةِ ‏",
+      "title": "باب دُنُوِّ الْمُصَلِّي مِنَ السُّتْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يَعْقُوبُ بْنُ إِبْرَاهِيمَ الدَّوْرَقِيُّ، حَدَّثَنَا ابْنُ أَبِي حَازِمٍ، حَدَّثَنِي أَبِي، عَنْ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ، قَالَ كَانَ بَيْنَ مُصَلَّى رَسُولِ اللَّهِ صلى الله عليه وسلم وَبَيْنَ الْجِدَارِ مَمَرُّ الشَّاةِ ‏.‏",
+      "source_hash_sha256": "c7919b7e9087e776d7bea97f0f19938e31e37c978f6c4de7a3ab502988d23b7c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ya‘qub ibn Ibrahim al-Dawraqi m’a rapporté : Ibn Abi Hazim nous a rapporté : mon père m’a rapporté, d’après Sahl ibn Sa‘d al-Sa‘idi, qui dit : « Entre le lieu où le Messager d’Allah ﷺ priait et le mur, il y avait juste le passage d’un mouton. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1b5c8030-e29d-4c61-b111-c7a77c90b352",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:509a",
+      "reference": "Sahih Muslim, hadith 509 a, book 4, باب دُنُوِّ الْمُصَلِّي مِنَ السُّتْرَةِ ‏",
+      "title": "باب دُنُوِّ الْمُصَلِّي مِنَ السُّتْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ ابْنُ الْمُثَنَّى، حَدَّثَنَا حَمَّادُ بْنُ مَسْعَدَةَ، - عَنْ يَزِيدَ، - يَعْنِي ابْنَ أَبِي عُبَيْدٍ - عَنْ سَلَمَةَ، - وَهُوَ ابْنُ الأَكْوَعِ أَنَّهُ كَانَ يَتَحَرَّى مَوْضِعَ مَكَانِ الْمُصْحَفِ يُسَبِّحُ فِيهِ ‏.‏ وَذَكَرَ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ يَتَحَرَّى ذَلِكَ الْمَكَانَ وَكَانَ بَيْنَ الْمِنْبَرِ وَالْقِبْلَةِ قَدْرُ مَمَرِّ الشَّاةِ ‏.‏",
+      "source_hash_sha256": "a44faceb34742b4c79d3192817d11f3f1b9ff3c875dfe8a865120994ff944a97",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishaq ibn Ibrahim et Muhammad ibn al-Muthanna nous ont rapporté — la formulation est celle d’Ibn al-Muthanna. Ishaq dit : Hammad ibn Mas‘ada nous a informés ; Ibn al-Muthanna dit : Hammad ibn Mas‘ada nous a rapporté, d’après Yazid — Ibn Abi Ubayd —, d’après Salama — Ibn al-Akwa‘ —, qui avait l’habitude de choisir l’endroit où se trouvait le mushaf pour y prier. Il mentionna que le Messager d’Allah ﷺ choisissait également cet endroit et qu’entre la chaire et la direction de la prière, il y avait la largeur du passage d’un mouton.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "98aa7214-bf1c-45c1-8a82-b5a056f22b06",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:509b",
+      "reference": "Sahih Muslim, hadith 509 b, book 4, باب دُنُوِّ الْمُصَلِّي مِنَ السُّتْرَةِ ‏",
+      "title": "باب دُنُوِّ الْمُصَلِّي مِنَ السُّتْرَةِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَاهُ مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مَكِّيٌّ، قَالَ يَزِيدُ أَخْبَرَنَا قَالَ كَانَ سَلَمَةُ يَتَحَرَّى الصَّلاَةَ عِنْدَ الأُسْطُوَانَةِ الَّتِي عِنْدَ الْمُصْحَفِ فَقُلْتُ لَهُ يَا أَبَا مُسْلِمٍ أَرَاكَ تَتَحَرَّى الصَّلاَةَ عِنْدَ هَذِهِ الأُسْطُوَانَةِ ‏.‏ قَالَ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَتَحَرَّى الصَّلاَةَ عِنْدَهَا ‏.‏",
+      "source_hash_sha256": "242490837bb35156789733bfae3c5a9546318c3d6d71460bd56350f6d33607a8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Makki nous a rapporté ; Yazid dit : « Salama avait l’habitude de choisir pour la prière la colonne située près du mushaf. » Je lui dis : « Abu Muslim, je te vois choisir cette colonne pour prier. » Il répondit : « J’ai vu le Prophète ﷺ choisir cet endroit pour prier. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8b4c555a-c84e-4025-91d0-ea2b503281ff",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:510a",
+      "reference": "Sahih Muslim, hadith 510 a, book 4, باب قَدْرِ مَا يَسْتُرُ الْمُصَلِّيَ ‏‏",
+      "title": "باب قَدْرِ مَا يَسْتُرُ الْمُصَلِّيَ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا إِسْمَاعِيلُ ابْنُ عُلَيَّةَ، ح قَالَ وَحَدَّثَنِي زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ يُونُسَ، عَنْ حُمَيْدِ بْنِ هِلاَلٍ، عَنْ عَبْدِ اللَّهِ بْنِ الصَّامِتِ، عَنْ أَبِي ذَرٍّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِذَا قَامَ أَحَدُكُمْ يُصَلِّي فَإِنَّهُ يَسْتُرُهُ إِذَا كَانَ بَيْنَ يَدَيْهِ مِثْلُ آخِرَةِ الرَّحْلِ فَإِذَا لَمْ يَكُنْ بَيْنَ يَدَيْهِ مِثْلُ آخِرَةِ الرَّحْلِ فَإِنَّهُ يَقْطَعُ صَلاَتَهُ الْحِمَارُ وَالْمَرْأَةُ وَالْكَلْبُ الأَسْوَدُ ‏\"‏ ‏.‏ قُلْتُ يَا أَبَا ذَرٍّ مَا بَالُ الْكَلْبِ الأَسْوَدِ مِنَ الْكَلْبِ الأَحْمَرِ مِنَ الْكَلْبِ الأَصْفَرِ قَالَ يَا ابْنَ أَخِي سَأَلْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم كَمَا سَأَلْتَنِي فَقَالَ ‏\"‏ الْكَلْبُ الأَسْوَدُ شَيْطَانٌ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e8022c696bf0ce19227a3f2c0afa0fc13748284139342d08d321eb61acdb3b08",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abu Bakr ibn Abi Shayba nous a rapporté : Isma‘il ibn Ulayya nous a rapporté. Zuhayr ibn Harb m’a également rapporté : Isma‘il ibn Ibrahim nous a rapporté, d’après Yunus, d’après Humayd ibn Hilal, d’après Abdullah ibn al-Samit, d’après Abu Dharr, qui dit que le Messager d’Allah ﷺ a dit : « Lorsque l’un de vous se lève pour prier, un objet placé devant lui le protège s’il est de la taille de l’arrière d’une selle. S’il n’a pas devant lui un objet de cette taille, un âne, une femme ou un chien noir interrompra sa prière. » Je demandai : « Abu Dharr, pourquoi le chien noir plutôt que le chien roux ou jaune ? » Il répondit : « Mon neveu, j’ai interrogé le Messager d’Allah ﷺ comme tu m’interroges. Il a répondu : “Le chien noir est un démon.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ecfc3f23-2dfc-4910-80a0-65a9db643254",
+      "reason": "La source ne reprend pas le contenu du hadith précédent et n’en indique que le sens général. Garder la traduction en attente d’un texte source complet vérifié."
+    }
+  ]
+}
