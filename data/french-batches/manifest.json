@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 6972,
     "hadithDatabaseMissing": 7665,
     "hadithLocalRemaining": 7657,
-    "hadithNeedsMo": 298,
+    "hadithNeedsMo": 300,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43087,6 +43087,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0684",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0684.json",
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "two incomplete report variants held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "blocked"
     }
   ],
   "blockers": [
@@ -51901,6 +51914,16 @@
     {
       "source_id": "c00faa64-4cdc-41fe-9f1e-a60e0cb095e4",
       "reason": "Cette entrée ne donne qu’une variante qui renvoie au récit précédent (« comme sa version ») sans en reproduire le contenu complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "2523878d-892f-4a3a-a878-0b357d441e62",
+      "reason": "Cette entrée renvoie au récit précédent (« rapporte le récit dans une version semblable ») et ne reproduit que quelques ajouts, sans donner le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "ffcf1a46-14bf-4091-aba1-4b0a590c670e",
+      "reason": "Cette entrée renvoie au récit précédent (« rapporte le récit dans une version semblable ») et ne reproduit que quelques ajouts, sans donner le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
     }
   ],

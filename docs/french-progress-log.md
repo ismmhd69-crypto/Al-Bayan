@@ -10546,3 +10546,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0683 saves two private French drafts: the mourning rule reported through Safiyya and the account of Uwaymir and the mutual oath procedure. Muslim 1490b–d only refer back to a preceding report and remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1492b–1492c
+
+- FR-LIB-HAD-MUSLIM-0684 holds both entries blank under Needs Mo. They refer to the preceding full report and provide only selected additions, not enough to translate the complete account safely.
+- Both source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

@@ -1,0 +1,72 @@
+{
+  "batch_id": "HADITH-MUSLIM-0684",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:49:08.398Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "2523878d-892f-4a3a-a878-0b357d441e62",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1492b",
+      "reference": "Sahih Muslim, hadith 1492 b, book 19, باب ‏",
+      "title": "باب ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي سَهْلُ بْنُ سَعْدٍ الأَنْصَارِيُّ، أَنَّ عُوَيْمِرًا الأَنْصَارِيَّ، مِنْ بَنِي الْعَجْلاَنِ أَتَى عَاصِمَ بْنَ عَدِيٍّ ‏.‏ وَسَاقَ الْحَدِيثَ بِمِثْلِ حَدِيثِ مَالِكٍ وَأَدْرَجَ فِي الْحَدِيثِ قَوْلَهُ وَكَانَ فِرَاقُهُ إِيَّاهَا بَعْدُ سُنَّةً فِي الْمُتَلاَعِنَيْنِ ‏.‏ وَزَادَ فِيهِ قَالَ سَهْلٌ فَكَانَتْ حَامِلاً فَكَانَ ابْنُهَا يُدْعَى إِلَى أُمِّهِ ‏.‏ ثُمَّ جَرَتِ السُّنَّةُ أَنَّهُ يَرِثُهَا وَتَرِثُ مِنْهُ مَا فَرَضَ اللَّهُ لَهَا ‏.‏",
+      "source_hash_sha256": "0734d7d8490220306582a0b632b9b357f49a3d9cd2e53f0474d69c30edba8f41",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ffcf1a46-14bf-4091-aba1-4b0a590c670e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1492c",
+      "reference": "Sahih Muslim, hadith 1492 c, book 19, باب ‏",
+      "title": "باب ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي ابْنُ شِهَابٍ، عَنِ الْمُتَلاَعِنَيْنِ، وَعَنِ السُّنَّةِ، فِيهِمَا عَنْ حَدِيثِ، سَهْلِ بْنِ سَعْدٍ أَخِي بَنِي سَاعِدَةَ أَنَّ رَجُلاً، مِنَ الأَنْصَارِ جَاءَ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ أَرَأَيْتَ رَجُلاً وَجَدَ مَعَ امْرَأَتِهِ رَجُلاً وَذَكَرَ الْحَدِيثَ بِقِصَّتِهِ ‏.‏ وَزَادَ فِيهِ فَتَلاَعَنَا فِي الْمَسْجِدِ وَأَنَا شَاهِدٌ ‏.‏ وَقَالَ فِي الْحَدِيثِ فَطَلَّقَهَا ثَلاَثًا قَبْلَ أَنْ يَأْمُرَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏.‏ فَفَارَقَهَا عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ ذَاكُمُ التَّفْرِيقُ بَيْنَ كُلِّ مُتَلاَعِنَيْنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "0754e998684e9d8f5d2ade0e2f1beca5f5d3e88191846332d89ba6a9080ebd29",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "2523878d-892f-4a3a-a878-0b357d441e62",
+      "reason": "Cette entrée renvoie au récit précédent (« rapporte le récit dans une version semblable ») et ne reproduit que quelques ajouts, sans donner le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "ffcf1a46-14bf-4091-aba1-4b0a590c670e",
+      "reason": "Cette entrée renvoie au récit précédent (« rapporte le récit dans une version semblable ») et ne reproduit que quelques ajouts, sans donner le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
