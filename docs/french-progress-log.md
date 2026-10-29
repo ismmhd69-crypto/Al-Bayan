@@ -812,3 +812,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-158` saves six private French drafts for Bukhari 883–888. They preserve the Friday preparations and the narrator’s distinction between what he could confirm as obligatory and what he could not confirm, as well as the report about the striped garment and Umar’s later gift.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 825 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 42. Total local hadith rows not drafted: 13,804, including held records.
+### 2026-10-29: Bukhari 889–894 source review
+
+- `FR-LIB-HAD-BUKHARI-159` saves five private French drafts for Bukhari 889–890 and 892–894. Bukhari 891 remains blank under Needs Mo because it quotes Quran 32:1 and 76:1; no approved, attributed French Quran translation is available.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and the reason-specific Quran hold. Five local drafts were added; one report is held. No database writes or publication occurred. Bukhari local drafts: 830 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,799, including held records.
