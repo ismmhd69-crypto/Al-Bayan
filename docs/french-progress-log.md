@@ -10566,3 +10566,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0687 saves three private French drafts about the mutual oath procedure, separation, and lineage. Muslim 1494c is chain-only, 1495a contains a Quran quotation, and 1495b refers to a preceding report; all three remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1497b–1499a
+
+- FR-LIB-HAD-MUSLIM-0688 saves four private French drafts about the mutual oath reports and Sa‘d ibn Ubada’s questions. Muslim 1497b refers to the preceding report, and 1499a contains a Quran quotation; both remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

@@ -58,14 +58,14 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 643,
+    "hadithMuslimDrafted": 647,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 6979,
+    "hadithLocalDrafted": 6983,
     "hadithDatabaseMissing": 7665,
-    "hadithLocalRemaining": 7650,
-    "hadithNeedsMo": 306,
+    "hadithLocalRemaining": 7646,
+    "hadithNeedsMo": 308,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -43139,6 +43139,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-0688",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0688.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four complete reports translated as private drafts; one Quran-quoting report and one incomplete variant held blank under Needs Mo; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -51993,6 +52006,16 @@
     {
       "source_id": "32d1e9af-6956-404d-802f-a424a25933d0",
       "reason": "Cette entrée ne reproduit pas le récit complet et se limite à une chaîne de transmission ou à une référence au récit précédent. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "4e415f4d-1141-47b8-97a2-68bedaae055c",
+      "reason": "Cette entrée renvoie au récit précédent et n’en donne qu’une variante ou un ajout, sans reproduire le récit complet. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "15984bfa-4e85-4938-b54a-9db9773a764f",
+      "reason": "Cette source contient une citation coranique explicite sur les actes immoraux apparents et cachés. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
       "status": "blocked"
     }
   ],
