@@ -5906,3 +5906,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Bukhari 6280–6287
 
 - FR-LIB-HAD-BUKHARI-1155 saves six private French drafts about Abû Turâb, daily customs, and family reports. No database writes or publication occurred. Bukhari local drafts: 5,263 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 773. Total local hadith rows not drafted: 9,364, including held records.
+
+### 2026-10-29: Bukhari 6288–6293
+
+- FR-LIB-HAD-BUKHARI-1156 saves six private French drafts about private conversations and patience. No database writes or publication occurred. Bukhari local drafts: 5,269 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 773. Total local hadith rows not drafted: 9,358, including held records.
