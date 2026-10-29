@@ -1271,3 +1271,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-267` saves six private French drafts for Bukhari 1531–1536. They preserve the appointment of Dhat Irq, the Prophet’s stops and prayer routes, and Ya‘la’s account of the revelation at al-Ji‘rana. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,411 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 78. Total local hadith rows not drafted: 13,218, including held records.
+
+### 2026-10-29: Bukhari 1537–1543 source review
+
+- `FR-LIB-HAD-BUKHARI-268` saves six private French drafts for Bukhari 1537 and 1539–1543. They preserve the reports about perfume during ihram, clothing restrictions, and the talbiya during the journey from Arafat. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,417 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 78. Total local hadith rows not drafted: 13,212, including held records.
