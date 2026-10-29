@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-MUSLIM-1093",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:10:44.048Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "bcf5f613-4b7b-4d0a-a1d9-51879c982b9b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2344b",
+      "reference": "Sahih Muslim, hadith 2344 b, book 43, باب شَيْبِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب شَيْبِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ سِمَاكٍ، أَنَّهُ سَمِعَ جَابِرَ بْنَ سَمُرَةَ، يَقُولُ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم قَدْ شَمِطَ مُقَدَّمُ رَأْسِهِ وَلِحْيَتِهِ وَكَانَ إِذَا ادَّهَنَ لَمْ يَتَبَيَّنْ وَإِذَا شَعِثَ رَأْسُهُ تَبَيَّنَ وَكَانَ كَثِيرَ شَعْرِ اللِّحْيَةِ فَقَالَ رَجُلٌ وَجْهُهُ مِثْلُ السَّيْفِ قَالَ لاَ بَلْ كَانَ مِثْلَ الشَّمْسِ وَالْقَمَرِ وَكَانَ مُسْتَدِيرًا وَرَأَيْتُ الْخَاتَمَ عِنْدَ كَتِفِهِ مِثْلَ بَيْضَةِ الْحَمَامَةِ يُشْبِهُ جَسَدَهُ ‏.‏",
+      "source_hash_sha256": "fecb78c39401b0c13c0001880a8d306e7f4d8aca50427992d11d4ec91d7085b0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn Samura rapporte : « Le Messager d’Allah ﷺ avait des cheveux blancs sur le devant de la tête et dans la barbe. Lorsqu’il huilait ses cheveux, ils ne se voyaient pas ; lorsqu’ils étaient ébouriffés, ils apparaissaient. Il avait une barbe abondante. » Un homme dit : « Son visage était comme une épée. » Jâbir répondit : « Non, il était comme le soleil et la lune, et il était rond. » J’ai vu le sceau près de son épaule ; il ressemblait à un œuf de pigeon et avait la couleur de son corps.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "06671d7e-495d-460a-a02d-9ecb463b67d2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2344c",
+      "reference": "Sahih Muslim, hadith 2344 c, book 43, باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سِمَاكٍ، قَالَ سَمِعْتُ جَابِرَ بْنَ سَمُرَةَ، قَالَ رَأَيْتُ خَاتِمًا فِي ظَهْرِ رَسُولِ اللَّهِ صلى الله عليه وسلم كَأَنَّهُ بَيْضَةُ حَمَامٍ ‏.‏",
+      "source_hash_sha256": "499062ed810a1e064fa955e10615341fccc337e188176bfadba5b3715f01ff33",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn Samura rapporte : « J’ai vu sur le dos du Messager d’Allah ﷺ un sceau qui ressemblait à un œuf de pigeon. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a9b03c44-2f72-4661-b1dc-4ec6473887a4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2344d",
+      "reference": "Sahih Muslim, hadith 2344 d, book 43, باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُوسَى، أَخْبَرَنَا حَسَنُ بْنُ صَالِحٍ، عَنْ سِمَاكٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "3fdc51ed389a14cecf264248587ceb3589b4f13c918a57b72805885105cf66b0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0a0a3591-4b02-4e13-88a6-d15762f237ae",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2345",
+      "reference": "Sahih Muslim, hadith 2345, book 43, باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَمُحَمَّدُ بْنُ عَبَّادٍ، قَالاَ حَدَّثَنَا حَاتِمٌ، - وَهُوَ ابْنُ إِسْمَاعِيلَ - عَنِ الْجَعْدِ بْنِ عَبْدِ الرَّحْمَنِ، قَالَ سَمِعْتُ السَّائِبَ بْنَ يَزِيدَ، يَقُولُ ذَهَبَتْ بِي خَالَتِي إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ ابْنَ أُخْتِي وَجِعٌ ‏.‏ فَمَسَحَ رَأْسِي وَدَعَا لِي بِالْبَرَكَةِ ثُمَّ تَوَضَّأَ فَشَرِبْتُ مِنْ وَضُوئِهِ ثُمَّ قُمْتُ خَلْفَ ظَهْرِهِ فَنَظَرْتُ إِلَى خَاتِمِهِ بَيْنَ كَتِفَيْهِ مِثْلَ زِرِّ الْحَجَلَةِ ‏.‏",
+      "source_hash_sha256": "41ab23093bafce379f8070a579b036debbf918af27a8218cb348f6e568a4c707",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "As-Sâ’ib ibn Yazîd rapporte : « Ma tante m’emmena auprès du Messager d’Allah ﷺ et lui dit : “Messager d’Allah, le fils de ma sœur est malade.” Il me passa la main sur la tête et invoqua Allah de m’accorder Sa bénédiction. Puis il fit ses ablutions. Je bus de l’eau qui en restait, puis je me plaçai derrière lui et je vis, entre ses épaules, son sceau, qui ressemblait au bouton d’un dais.”",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c850a93e-597f-441a-ae98-a5172475f420",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2346",
+      "reference": "Sahih Muslim, hadith 2346, book 43, باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "title": "باب إِثْبَاتِ خَاتَمِ النُّبُوَّةِ وَصِفَتِهِ وَمَحِلِّهِ مِنْ جَسَدِهِ صلى الله عليه وسلم ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كَامِلٍ، حَدَّثَنَا حَمَّادٌ يَعْنِي ابْنَ زَيْدٍ، ح وَحَدَّثَنِي سُوَيْدُ بْنُ سَعِيدٍ، حَدَّثَنَا عَلِيُّ بْنُ مُسْهِرٍ، كِلاَهُمَا عَنْ عَاصِمٍ الأَحْوَلِ، ح وَحَدَّثَنِي حَامِدُ بْنُ عُمَرَ الْبَكْرَاوِيُّ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا عَبْدُ الْوَاحِدِ، - يَعْنِي ابْنَ زِيَادٍ - حَدَّثَنَا عَاصِمٌ، عَنْ عَبْدِ اللَّهِ بْنِ سَرْجِسَ، قَالَ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم وَأَكَلْتُ مَعَهُ خُبْزًا وَلَحْمًا - أَوْ قَالَ ثَرِيدًا - قَالَ فَقُلْتُ لَهُ أَسْتَغْفَرَ لَكَ النَّبِيُّ صلى الله عليه وسلم قَالَ نَعَمْ وَلَكَ ثُمَّ تَلاَ هَذِهِ الآيَةَ ‏[quran sura=\"47\" aya_start=\"19\" aya_end=\"19\"]{‏ وَاسْتَغْفِرْ لِذَنْبِكَ وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ‏}‏ قَالَ ثُمَّ دُرْتُ خَلْفَهُ فَنَظَرْتُ إِلَى خَاتَمِ النُّبُوَّةِ بَيْنَ كَتِفَيْهِ عِنْدَ نَاغِضِ كَتِفِهِ الْيُسْرَى جُمْعًا عَلَيْهِ خِيلاَنٌ كَأَمْثَالِ الثَّآلِيلِ ‏.‏",
+      "source_hash_sha256": "42d2f6ba81572906f5ff8b048ab86f5487f4e43d1ede573009c4937ff53d01d6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7d5df4d4-2007-40d8-b6a0-7f57104f6498",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2347a",
+      "reference": "Sahih Muslim, hadith 2347 a, book 43, باب فِي صِفَةِ النَّبِيِّ صلى الله عليه وسلم وَمَبْعَثِهِ وَسِنِّهِ ‏.‏",
+      "title": "باب فِي صِفَةِ النَّبِيِّ صلى الله عليه وسلم وَمَبْعَثِهِ وَسِنِّهِ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنْ رَبِيعَةَ بْنِ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّهُ سَمِعَهُ يَقُولُ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم لَيْسَ بِالطَّوِيلِ الْبَائِنِ وَلاَ بِالْقَصِيرِ وَلَيْسَ بِالأَبْيَضِ الأَمْهَقِ وَلاَ بِالآدَمِ وَلاَ بِالْجَعْدِ الْقَطَطِ وَلاَ بِالسَّبِطِ بَعَثَهُ اللَّهُ عَلَى رَأْسِ أَرْبَعِينَ سَنَةً فَأَقَامَ بِمَكَّةَ عَشْرَ سِنِينَ وَبِالْمَدِينَةِ عَشْرَ سِنِينَ وَتَوَفَّاهُ اللَّهُ عَلَى رَأْسِ سِتِّينَ سَنَةً وَلَيْسَ فِي رَأْسِهِ وَلِحْيَتِهِ عِشْرُونَ شَعْرَةً بَيْضَاءَ ‏.‏",
+      "source_hash_sha256": "c2e930e2ce522d4f1fefb9f14158133379323070d02fb1f28df14a79e3243368",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas ibn Mâlik rapporte avoir entendu le Messager d’Allah ﷺ dire : « Le Messager d’Allah n’était ni très grand ni petit. Son teint n’était ni d’une blancheur éclatante ni foncé. Ses cheveux n’étaient ni très bouclés ni raides. Allah l’envoya à l’âge de quarante ans. Il demeura dix ans à La Mecque et dix ans à Médine, puis Allah le rappela à Lui à l’âge de soixante ans. Il n’avait pas vingt cheveux blancs sur la tête et dans la barbe. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a9b03c44-2f72-4661-b1dc-4ec6473887a4",
+      "reason": "Cette entrée ne rapporte qu’une variante de transmission et renvoie au récit précédent sans en reprendre le contenu. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "c850a93e-597f-441a-ae98-a5172475f420",
+      "reason": "Ce récit contient une citation coranique intégrée. Garder la traduction française vide jusqu’à vérification de la traduction coranique autorisée et de son attribution.",
+      "status": "blocked"
+    }
+  ]
+}
