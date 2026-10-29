@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5619,
+    "hadithBukhariDrafted": 5623,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5619,
+    "hadithLocalDrafted": 5623,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9010,
-    "hadithNeedsMo": 809,
+    "hadithLocalRemaining": 9006,
+    "hadithNeedsMo": 811,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -25909,6 +25909,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "five private drafts; one Needs Mo hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1224",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1224.json",
+      "sourceIds": [
+        "6c21fa64-ffe0-47ba-a943-1043f3fb6c61",
+        "0ea3004c-2237-4231-b2ac-98cf24d183bb",
+        "e4d4aab4-5c9a-4734-9259-d9f62713a761",
+        "1e16941d-7ea9-4b0e-9903-88d9538b0f8e",
+        "623badd8-6a37-4a70-8390-fa0a5f860118",
+        "2ee54be1-8e9b-4350-a20a-a9b878ee6117"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; two complete reports held for direct Quran quotations. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29151,11 +29172,23 @@
       "scope": "Sahih al-Bukhari 6672: direct quotation of Quran 18:73",
       "status": "blocked",
       "reason": "The report directly quotes Quran 18:73. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6676-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 6676: direct quotation of Quran 3:77",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6679-QURAN-24-11-20-24-22",
+      "scope": "Sahih al-Bukhari 6679: direct quotations of Quran 24:11–20 and 24:22",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 24:11–20 and 24:22. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5619,
-  "hadithLocalDrafted": 5619,
-  "hadithLocalRemaining": 9010,
+  "hadithBukhariDrafted": 5623,
+  "hadithLocalDrafted": 5623,
+  "hadithLocalRemaining": 9006,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29540,6 +29573,18 @@
       "scope": "Sahih al-Bukhari 6672: direct quotation of Quran 18:73",
       "status": "blocked",
       "reason": "The report directly quotes Quran 18:73. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6676-QURAN-3-77",
+      "scope": "Sahih al-Bukhari 6676: direct quotation of Quran 3:77",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 3:77. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6679-QURAN-24-11-20-24-22",
+      "scope": "Sahih al-Bukhari 6679: direct quotations of Quran 24:11–20 and 24:22",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 24:11–20 and 24:22. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
