@@ -33,7 +33,7 @@ for (const item of batch.items) {
   if (hash !== item.source_hash_sha256) errors.push(`source_hash_mismatch:${item.source_id}`);
   const needsMo = batch.needs_mo?.some((entry) => entry.source_id === item.source_id && entry.reason.trim());
   if (!item.text_french.trim() && !needsMo) errors.push(`empty_french_translation:${item.source_id}`);
-  if (needsMo && item.draft_status !== "needs_mo_approved_french_quran_translation") errors.push(`needs_mo_status_mismatch:${item.source_id}`);
+  if (needsMo && (!item.draft_status.startsWith("needs_mo_") || item.text_french.trim())) errors.push(`needs_mo_record_must_have_reason_specific_status_and_no_translation:${item.source_id}`);
   if (!needsMo && item.draft_status !== "private_local_ai_draft") errors.push(`draft_status_mismatch:${item.source_id}`);
   if (/<\/?[a-z][^>]*>/iu.test(item.text_french)) errors.push(`raw_markup_in_french:${item.source_id}`);
   if (item.existing_french_rows !== 0) errors.push(`existing_french_row_must_not_be_overwritten:${item.source_id}`);

@@ -56,15 +56,15 @@
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
     "hardcodedVisitorCopyDrafted": 24,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 205,
+    "hadithBukhariDrafted": 210,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 205,
+    "hadithLocalDrafted": 210,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14424,
-    "hadithNeedsMo": 13,
+    "hadithLocalRemaining": 14419,
+    "hadithNeedsMo": 14,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -1307,7 +1307,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local AI drafts"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-041",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-041.json",
+      "sourceIds": ["11605ffc-8a23-42a4-b4b3-079a8bbfa5ff", "f6ee5006-c655-4da8-bf8f-8f5f56d3407c", "9529b054-4b2b-40f9-9429-1ca68399c9a7", "6a2ad781-a751-4a41-9471-16bd5ccc61db", "863a8e22-7967-4777-8286-96957fc68b8a", "056c8f2e-8ce5-4414-a29a-b8f86515c2a8"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, references, rights, private status, and five complete translations passed; Bukhari 221 held because the exported source has no hadith text",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "five private drafts; one Needs Mo"
     }
+
   ],
   "blockers": [
     {
@@ -1327,6 +1342,13 @@
       "scope": "Hadith records containing Quran quotations",
       "status": "blocked",
       "reason": "The current application Quran source configuration exposes English and German translations only. Thirteen hadiths are held until an approved, attributed French Quran translation is confirmed. No French Quran text was generated or saved."
+    },
+    {
+      "id": "ARABIC-HADITH-INCOMPLETE-MATN",
+      "scope": "Hadith records whose exported Arabic contains no hadith text",
+      "status": "blocked",
+      "reason": "Bukhari 221 currently contains only a narrator chain ending 'from the Prophet' and has no hadith text to translate. Keep the record on hold until a complete source wording is confirmed."
     }
+
   ]
 }
