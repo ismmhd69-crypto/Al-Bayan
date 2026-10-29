@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4693,
+    "hadithBukhariDrafted": 4698,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4693,
+    "hadithLocalDrafted": 4698,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9936,
-    "hadithNeedsMo": 744,
+    "hadithLocalRemaining": 9931,
+    "hadithNeedsMo": 745,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -21979,6 +21979,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1028",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1028.json",
+      "sourceIds": [
+        "0e4c5411-1b66-4f38-8e9d-da5e83144df9",
+        "d54a32c4-a735-458e-a9ee-057d4111c0f5",
+        "985c40f9-4f10-44b3-b466-9148a665fe79",
+        "b3625fdf-37d6-46ec-94df-1c70028a20da",
+        "e25d8db3-e1e5-486c-8daa-53a63c4f3ef8",
+        "d54bf083-a32b-4fa5-a45b-1fce22d71fb0"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -25009,5 +25030,13 @@
   ],
   "hadithBukhariDrafted": 4523,
   "hadithLocalDrafted": 4523,
-  "hadithLocalRemaining": 10144
+  "hadithLocalRemaining": 10144,
+  "needsMo": [
+    {
+      "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5657: additional report about Abû Tâlib is truncated",
+      "status": "blocked",
+      "reason": "The exported Arabic stops before the report contents. Keep the item blank until a complete source is available."
+    }
+  ]
 }

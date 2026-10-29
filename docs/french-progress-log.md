@@ -5250,3 +5250,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1027 saves six private French drafts on illness, visiting the sick, prescribed conduct, and Umm Zufar’s report. Narrator chains and the embedded alternate report are retained.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,693 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 744. Total local hadith rows not drafted: 9,936, including held records.
+
+
+### 2026-10-29: Bukhari 5653–5658
+
+- FR-LIB-HAD-BUKHARI-1028 saves five private French drafts. Hadith 5657 remains blank because the additional report about Abû Tâlib is truncated in the export; it is flagged for Mo.
+- The five drafts passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,698 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,931, including held records.
