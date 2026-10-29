@@ -11342,3 +11342,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1780c
 
 - FR-LIB-HAD-MUSLIM-0845 saves one private French draft of the report about the conquest of Mecca. It preserves the chain, the deployment details, all three safe-conduct conditions, and the Ansâr’s exchange with the Prophet. No Quran quotation appears in this entry. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1781a-1783b
+
+- FR-LIB-HAD-MUSLIM-0846 saves four private French drafts: two reports about the conquest of Mecca and two accounts of the al-Hudaybiya treaty. The two variants that quote or directly refer to Quranic wording remain entirely blank under Needs Mo pending an attributed and authorized French Quran translation. No database write or publication occurred.
