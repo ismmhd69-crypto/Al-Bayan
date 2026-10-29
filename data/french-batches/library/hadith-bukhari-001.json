@@ -27,8 +27,10 @@
         "expires_at": null
       },
       "text_french": "Al-Humaydi, ‘Abd Allah ibn al-Zubayr, nous a rapporté. Il a dit : Sufyan nous a rapporté ; il a dit : Yahya ibn Sa‘id al-Ansari nous a rapporté ; il a dit : Muhammad ibn Ibrahim al-Taymi m’a informé qu’il avait entendu ‘Alqama ibn Waqqas al-Laythi dire : « J’ai entendu ‘Umar ibn al-Khattab (qu’Allah l’agrée), alors qu’il était sur le minbar, dire : “J’ai entendu le Messager d’Allah ﷺ dire : ‘Les actes ne valent que par les intentions, et chacun n’aura que ce qu’il a eu l’intention de faire. Celui dont l’émigration vise un bien de ce bas monde qu’il obtiendra, ou une femme qu’il épousera, son émigration sera pour ce en vue de quoi il a émigré.’” »",
-      "draft_status": "missing_translation_private_local_draft",
-      "database_inserted": false
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
     },
     {
       "source_id": "8d51995a-4d75-4e55-8ef0-00ba56262b9a",
@@ -49,9 +51,13 @@
         "expires_at": null
       },
       "text_french": "‘Abd Allah ibn Yusuf nous a rapporté. Il a dit : Malik nous a informés, d’après Hisham ibn ‘Urwa, d’après son père, d’après ‘Aïcha, Mère des croyants (qu’Allah l’agrée), qu’al-Harith ibn Hisham demanda au Messager d’Allah : « Ô Messager d’Allah, comment la révélation vous parvient-elle ? » Le Messager d’Allah répondit : « Parfois, elle me vient comme le tintement d’une cloche. C’est alors ce qui m’est le plus pénible ; puis elle cesse et j’ai retenu ce qu’elle disait. Parfois, l’ange se présente à moi sous une apparence humaine et me parle ; je comprends alors ce qu’il dit. » ‘Aïcha ajouta : « Je l’ai vu recevoir la révélation alors que le jour était extrêmement froid. Lorsqu’elle cessait, son front ruisselait de sueur. »",
-      "draft_status": "missing_translation_private_local_draft",
-      "database_inserted": false
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
     }
   ],
-  "needs_mo": []
+  "needs_mo": [],
+  "public_enabled": false,
+  "human_reviewed": false
 }

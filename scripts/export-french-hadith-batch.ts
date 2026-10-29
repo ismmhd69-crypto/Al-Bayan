@@ -32,6 +32,32 @@ async function query(sql: string) {
 }
 
 async function main() {
+  if (fs.existsSync(out)) throw new Error("output_path_already_exists");
+  const priorDraftIds = new Set<string>();
+  let cursorNumber = 0;
+  let cursorSuffix = "";
+  if (fs.existsSync(directory)) {
+    const collectionPrefix = collection === "Sahih al-Bukhari" ? "hadith-bukhari-" : "hadith-muslim-";
+    for (const name of fs.readdirSync(directory).filter((name) => name.startsWith(collectionPrefix) && /^hadith-(?:bukhari|muslim)-\d+\.json$/u.test(name))) {
+      const prior = JSON.parse(fs.readFileSync(path.join(directory, name), "utf8")) as { items?: Array<{ source_id?: string; url?: string; text_french?: string; draft_status?: string }>; needs_mo?: Array<{ source_id?: string; url?: string }> };
+      const processed: Array<{ source_id?: string; url?: string }> = [];
+      for (const item of prior.items ?? []) {
+        if (item.text_french?.trim() || item.draft_status === "needs_mo_approved_french_quran_translation") processed.push(item);
+        else throw new Error("prior_source_batch_has_pending_translations");
+      }
+      processed.push(...(prior.needs_mo ?? []));
+      for (const item of processed) {
+        if (item.source_id) priorDraftIds.add(item.source_id);
+        const match = item.url?.match(/:(\d+)([a-z]*)$/iu);
+        if (!match) continue;
+        const number = Number(match[1]), suffix = match[2].toLowerCase();
+        if (number > cursorNumber || number === cursorNumber && suffix.localeCompare(cursorSuffix) > 0) {
+          cursorNumber = number;
+          cursorSuffix = suffix;
+        }
+      }
+    }
+  }
   const [sourceResult, rightsResult] = await Promise.all([
     query(`select s.id, s.kind, s.collection, s.url, s.reference, s.title, s.text_original, s.published,
       count(t.id)::int as french_rows,
@@ -39,6 +65,9 @@ async function main() {
       from public.sources s
       left join public.source_translations t on t.source_id=s.id and t.lang='fr'
       where s.kind='hadith' and s.collection='${collection}'
+        and (substring(s.url from ':([0-9]+)[a-z]*$')::integer > ${cursorNumber}
+          or (substring(s.url from ':([0-9]+)[a-z]*$')::integer = ${cursorNumber}
+            and lower(coalesce(substring(s.url from ':[0-9]+([a-z]*)$'), '')) > '${cursorSuffix}'))
       group by s.id
       having count(t.id)=0 or count(t.id) filter (where nullif(btrim(t.text), '') is null)>0
       order by substring(s.url from ':([0-9]+)[a-z]*$')::integer nulls last, s.url, s.id
@@ -80,18 +109,11 @@ async function main() {
         expires_at: permission.expires_at,
       },
       text_french: "",
-      draft_status: "missing_translation_private_local_draft",
+      draft_status: "source_export_waiting_for_translation",
       database_inserted: false,
+      translation_published: false,
+      human_reviewed: false,
     });
-  }
-  const priorDraftIds = new Set<string>();
-  if (fs.existsSync(directory)) {
-    for (const name of fs.readdirSync(directory).filter((name) => /^hadith-(?:bukhari|muslim)-\d+\.json$/u.test(name) && name !== path.basename(out))) {
-      const prior = JSON.parse(fs.readFileSync(path.join(directory, name), "utf8")) as { items?: Array<{ source_id?: string; text_french?: string; draft_status?: string }> };
-      for (const item of prior.items ?? []) {
-        if (item.source_id && (item.text_french?.trim() || item.draft_status?.startsWith("needs_mo"))) priorDraftIds.add(item.source_id);
-      }
-    }
   }
   const candidates = items.filter((item) => !priorDraftIds.has(item.source_id));
   const selected: typeof items = [];
@@ -112,6 +134,8 @@ async function main() {
     exported_at: new Date().toISOString(),
     read_only_export: true,
     translation_index_enabled: false,
+    public_enabled: false,
+    human_reviewed: false,
     max_source_chars_for_multi_item_batch: maxSourceChars,
     items: selected,
     needs_mo: needsMo,

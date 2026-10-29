@@ -56,14 +56,15 @@
     "privatePreviewLearningContent": "32 New to Islam lessons, 21 Hard Questions articles, and 44 prepared-answer drafts; local preview only",
     "hardcodedVisitorCopyDrafted": 24,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 2,
+    "hadithBukhariDrafted": 15,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 2,
+    "hadithLocalDrafted": 15,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 14627,
+    "hadithLocalRemaining": 14614,
+    "hadithNeedsMo": 4,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -760,6 +761,76 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local AI draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-002",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-002.json",
+      "sourceIds": ["aac6a21a-f8f8-4ebc-8ab4-7342f1a50da3"],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hash, ID, URL, reference, publication state, rights, private status, and Needs Mo reason passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-003",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-003.json",
+      "sourceIds": ["e6fab8de-a043-4b83-9da4-4983974526ac", "7c07c22f-ce1f-4963-81cd-c70eac490f90", "834f2c23-8696-4b30-8c99-724b513aba40"],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, publication states, rights, private status, and Needs Mo reasons passed; complete translation reread against Arabic",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft; two Needs Mo for embedded Quran quotations"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-004",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-004.json",
+      "sourceIds": ["67ed0b56-fc0c-49b8-985b-eb22527c73b7"],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hash, ID, URL, reference, publication state, rights, private status, and Needs Mo reason passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "Needs Mo: embedded Quran quotation"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-005",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-005.json",
+      "sourceIds": ["bc20046e-0669-490c-b5d7-722b5a7a8ea5", "de6ca447-faaf-4524-a83a-a64cd3e738da", "83978758-bcb8-4f85-a1e6-6257a083bf6c", "bfc6b6a5-067d-459c-ab93-a6ff1c4cf11d", "d1cd3ced-e29b-43f5-9b9a-d7d5d0d259db", "bd0d879b-d6d2-4711-aec8-1744a57864e3"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, publication states, rights, private status, and complete French translations passed; each reread against Arabic",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local AI drafts"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-006",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-006.json",
+      "sourceIds": ["1cab0fca-8c72-4912-8bea-dc69d5df3c86", "9ac67fc6-0811-4bae-a599-76ccbe29a0a7", "36aee9ae-886a-457f-ab2f-4b7a45b3336d", "78207201-3fed-4e57-ad63-1435023f3f77", "c87bcf81-a39e-4c1c-b37b-f2a6881bd200", "659a3d16-0046-4882-9422-4392fdc83b3e"],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic source hashes, IDs, URLs, publication states, rights, private status, and complete French translations passed; each reread against Arabic",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local AI drafts"
     }
   ],
   "blockers": [
@@ -774,6 +845,12 @@
       "scope": "Sahih al-Bukhari and Sahih Muslim source rows from sunnah.com",
       "status": "blocked",
       "reason": "Live editorial.source_rights metadata permits AI processing but sets translation_index_allowed=false. Keep French drafts in private local files; do not insert them into source_translations or publish them."
+    },
+    {
+      "id": "QURAN-FR-EMBEDDED-QUOTES",
+      "scope": "Hadith records containing Quran quotations",
+      "status": "blocked",
+      "reason": "The current application Quran source configuration exposes English and German translations only. Four hadiths are held until an approved, attributed French Quran translation is confirmed. No French Quran text was generated or saved."
     }
   ]
 }
