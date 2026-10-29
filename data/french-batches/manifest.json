@@ -15427,6 +15427,21 @@
       "published": 0,
       "status": "local draft"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-704",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-704.json",
+      "sourceIds": ["612bd37c-9bc7-47b9-ba2f-11be61f5dbaa", "893390e9-d197-4662-80b5-bc047fbf78d2", "7c762769-bc3e-4da0-9168-6aea676c902e", "a4bb360d-00d9-4d48-b74b-e1e2d5eb1f5d", "e0d30745-6986-4958-9f86-34fdf666d449", "c993137e-65fe-4707-8308-46d94f5b4c58"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five Arabic originals and hashes, IDs, references, rights metadata and private unpublished drafts passed; Quran-quote record remains blank pending an approved attributed French Quran translation",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    }
   ],
   "blockers": [
     {
@@ -15568,8 +15583,14 @@
       "scope": "Sahih al-Bukhari 3925: direct quotation of Quran 87:1",
       "status": "blocked",
       "reason": "The report directly quotes Quran 87:1. It remains blank in FR-LIB-HAD-BUKHARI-701 until an approved, attributed French Quran translation is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-3945-QURAN-15-91",
+      "scope": "Sahih al-Bukhari 3945: direct quotation of Quran 15:91",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 15:91. It remains blank in FR-LIB-HAD-BUKHARI-704 until an approved, attributed French Quran translation is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3511,
-  "hadithLocalDrafted": 3511,
-  "hadithLocalRemaining": 11146
+  "hadithBukhariDrafted": 3516,
+  "hadithLocalDrafted": 3516,
+  "hadithLocalRemaining": 11141
 }
