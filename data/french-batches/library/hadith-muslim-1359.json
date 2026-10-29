@@ -1,0 +1,185 @@
+{
+  "batch_id": "HADITH-MUSLIM-1359",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:50:38.562Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "aceed2ee-ae3c-4515-a30e-35f1524755b4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3019c",
+      "reference": "Sahih Muslim, hadith 3019 c, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ ‏.‏",
+      "source_hash_sha256": "5c5f96c3b25e6c7c94bca2a37748d5e94f86b13bc8102debcd0c17fc51b59af5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f481fbfa-fb6c-41fd-9869-d1648e17b0cd",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3020",
+      "reference": "Sahih Muslim, hadith 3020, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، عَنْ هِشَامٍ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، فِي قَوْلِهِ عَزَّ وَجَلَّ ‏[quran sura=\"33\" aya_start=\"10\" aya_end=\"10\"]{‏ إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ وَإِذْ زَاغَتِ الأَبْصَارُ وَبَلَغَتِ الْقُلُوبُ الْحَنَاجِرَ‏}‏ قَالَتْ كَانَ ذَلِكَ يَوْمَ الْخَنْدَقِ ‏.‏",
+      "source_hash_sha256": "55578dcfe1c234bad066146cf761211fb922cc333ae81b9698bb00dbcf5173f3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0fa37953-9c7c-402c-b476-1189c93ae984",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3021a",
+      "reference": "Sahih Muslim, hadith 3021 a, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدَةُ بْنُ سُلَيْمَانَ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، ‏[quran sura=\"4\" aya_start=\"128\" aya_end=\"128\"]{‏ وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا‏}‏ الآيَةَ قَالَتْ أُنْزِلَتْ فِي الْمَرْأَةِ تَكُونُ عِنْدَ الرَّجُلِ فَتَطُولُ صُحْبَتُهَا فَيُرِيدُ طَلاَقَهَا فَتَقُولُ لاَ تُطَلِّقْنِي وَأَمْسِكْنِي وَأَنْتَ فِي حِلٍّ مِنِّي ‏.‏ فَنَزَلَتْ هَذِهِ الآيَةُ ‏.‏",
+      "source_hash_sha256": "4dad48c6f23f77240276c9590eae0e61f89073d148dbec6c8373487017b18906",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "506d1bd8-5aac-488e-bb4a-a0f3508c1265",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3021b",
+      "reference": "Sahih Muslim, hadith 3021 b, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا هِشَامٌ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، فِي قَوْلِهِ عَزَّ وَجَلَّ ‏[quran sura=\"4\" aya_start=\"128\" aya_end=\"128\"]{‏ وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا‏}‏ قَالَتْ نَزَلَتْ فِي الْمَرْأَةِ تَكُونُ عِنْدَ الرَّجُلِ فَلَعَلَّهُ أَنْ لاَ يَسْتَكْثِرَ مِنْهَا وَتَكُونُ لَهَا صُحْبَةٌ وَوَلَدٌ فَتَكْرَهُ أَنْ يُفَارِقَهَا فَتَقُولُ لَهُ أَنْتَ فِي حِلٍّ مِنْ شَأْنِي ‏.‏",
+      "source_hash_sha256": "17f66498c9140f7555195e61f02d094e7251a041360eefdd7c95887622ef5ea0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9351731e-fcc0-44cf-91a0-79e271e68d7a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3022a",
+      "reference": "Sahih Muslim, hadith 3022 a, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، قَالَ قَالَتْ لِي عَائِشَةُ يَا ابْنَ أُخْتِي أُمِرُوا أَنْ يَسْتَغْفِرُوا، لأَصْحَابِ النَّبِيِّ صلى الله عليه وسلم فَسَبُّوهُمْ ‏.‏",
+      "source_hash_sha256": "5eaabe6068db94dc0ce38f678a2d8578c894c8d441b49e93edfc785aa5398cc4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "ʿÂ’isha dit à ʿUrwa, son neveu : « Il leur avait été ordonné de demander pardon pour les Compagnons du Prophète ﷺ, mais ils les ont insultés. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "522c49b7-a53a-4643-a0d5-036a1359863c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3022b",
+      "reference": "Sahih Muslim, hadith 3022 b, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنَا هِشَامٌ، بِهَذَا الإِسْنَادِ مِثْلَهُ ‏.‏",
+      "source_hash_sha256": "571872ddd88fcd93bfdb2a45591cf9ed7e209423492c64cc6a42d046d3fd01ef",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "aceed2ee-ae3c-4515-a30e-35f1524755b4",
+      "status": "blocked",
+      "reason": "Cette entrée ne contient qu’une chaîne de transmission et renvoie à une version précédente sans reproduire le récit. La traduction française reste en attente du texte intégral."
+    },
+    {
+      "source_id": "f481fbfa-fb6c-41fd-9869-d1648e17b0cd",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 33:10 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "0fa37953-9c7c-402c-b476-1189c93ae984",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 4:128 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "506d1bd8-5aac-488e-bb4a-a0f3508c1265",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 4:128 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "522c49b7-a53a-4643-a0d5-036a1359863c",
+      "status": "blocked",
+      "reason": "Cette entrée renvoie seulement à une version précédente et ne reproduit pas le texte du récit. La traduction française reste en attente du texte intégral."
+    }
+  ]
+}
