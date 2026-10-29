@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0044",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:05:54.457Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "37b2bc1b-f260-4ca7-a43a-ef809c55df39",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:110c",
+      "reference": "Sahih Muslim, hadith 110 c, book 1, باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "title": "باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَإِسْحَاقُ بْنُ مَنْصُورٍ، وَعَبْدُ الْوَارِثِ بْنُ عَبْدِ الصَّمَدِ، كُلُّهُمْ عَنْ عَبْدِ الصَّمَدِ بْنِ عَبْدِ الْوَارِثِ، عَنْ شُعْبَةَ، عَنْ أَيُّوبَ، عَنْ أَبِي قِلاَبَةَ، عَنْ ثَابِتِ بْنِ الضَّحَّاكِ الأَنْصَارِيِّ، ح",
+      "source_hash_sha256": "5f910e1427e50c59a717d464904ee56e31a06096900eedd21ec6238c1d0a5a92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "La source arabe s’interrompt après la chaîne de transmission, avant le texte du hadith. Garder la traduction française en attente jusqu’à ce qu’une source complète et vérifiée soit disponible."
+    },
+    {
+      "source_id": "9c883dc1-3911-4dbf-880f-99c0d08e01b4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:110d",
+      "reference": "Sahih Muslim, hadith 110 d, book 1, باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "title": "باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، عَنْ عَبْدِ الرَّزَّاقِ، عَنِ الثَّوْرِيِّ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ أَبِي قِلاَبَةَ، عَنْ ثَابِتِ بْنِ الضَّحَّاكِ، قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ مَنْ حَلَفَ بِمِلَّةٍ سِوَى الإِسْلاَمِ كَاذِبًا مُتَعَمِّدًا فَهُوَ كَمَا قَالَ وَمَنْ قَتَلَ نَفْسَهُ بِشَىْءٍ عَذَّبَهُ اللَّهُ بِهِ فِي نَارِ جَهَنَّمَ ‏\"‏ ‏.‏ هَذَا حَدِيثُ سُفْيَانَ ‏.‏ وَأَمَّا شُعْبَةُ فَحَدِيثُهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ حَلَفَ بِمِلَّةٍ سِوَى الإِسْلاَمِ كَاذِبًا فَهُوَ كَمَا قَالَ وَمَنْ ذَبَحَ نَفْسَهُ بِشَىْءٍ ذُبِحَ بِهِ يَوْمَ الْقِيَامَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2b4e3402f2301d69468ade0ae087b6aead0f87c050fef750b92228160efa5f2b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Prophète a dit : « Celui qui jure sciemment et faussement par une religion autre que l’islam est tel qu’il l’a déclaré. Celui qui se tue par un moyen sera puni par Dieu dans le Feu de l’Enfer au moyen du même. » C’est la version de Sufyan. Dans celle de Shu‘ba, le Messager de Dieu dit : « Celui qui jure faussement par une religion autre que l’islam est tel qu’il l’a déclaré. Celui qui se tue par un moyen sera tué par ce moyen le Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6bb2c689-92aa-4efc-8871-6198f62934af",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:111",
+      "reference": "Sahih Muslim, hadith 111, book 1, باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "title": "باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، وَعَبْدُ بْنُ حُمَيْدٍ، جَمِيعًا عَنْ عَبْدِ الرَّزَّاقِ، - قَالَ ابْنُ رَافِعٍ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، - أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، عَنِ ابْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ شَهِدْنَا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم حُنَيْنًا فَقَالَ لِرَجُلٍ مِمَّنْ يُدْعَى بِالإِسْلاَمِ ‏\"‏ هَذَا مِنْ أَهْلِ النَّارِ ‏\"‏ فَلَمَّا حَضَرْنَا الْقِتَالَ قَاتَلَ الرَّجُلُ قِتَالاً شَدِيدًا فَأَصَابَتْهُ جِرَاحَةٌ فَقِيلَ يَا رَسُولَ اللَّهِ الرَّجُلُ الَّذِي قُلْتَ لَهُ آنِفًا ‏\"‏ إِنَّهُ مِنْ أَهْلِ النَّارِ ‏\"‏ فَإِنَّهُ قَاتَلَ الْيَوْمَ قِتَالاً شَدِيدًا وَقَدْ مَاتَ ‏.‏ فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِلَى النَّارِ ‏\"‏ فَكَادَ بَعْضُ الْمُسْلِمِينَ أَنْ يَرْتَابَ فَبَيْنَمَا هُمْ عَلَى ذَلِكَ إِذْ قِيلَ إِنَّهُ لَمْ يَمُتْ وَلَكِنَّ بِهِ جِرَاحًا شَدِيدًا فَلَمَّا كَانَ مِنَ اللَّيْلِ لَمْ يَصْبِرْ عَلَى الْجِرَاحِ فَقَتَلَ نَفْسَهُ فَأُخْبِرَ النَّبِيُّ صلى الله عليه وسلم بِذَلِكَ فَقَالَ ‏\"‏ اللَّهُ أَكْبَرُ أَشْهَدُ أَنِّي عَبْدُ اللَّهِ وَرَسُولُهُ ‏\"‏ ‏.‏ ثُمَّ أَمَرَ بِلاَلاً فَنَادَى فِي النَّاسِ ‏\"‏ إِنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ وَإِنَّ اللَّهَ يُؤَيِّدُ هَذَا الدِّينَ بِالرَّجُلِ الْفَاجِرِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6acd27d763e37f38d2d4da9a9608dc66d2bb651192575c37a041d196afd27a71",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Nous étions à Hunayn avec le Messager de Dieu. Il dit d’un homme qui se réclamait de l’islam : « Celui-ci est destiné au Feu. » Au combat, cet homme se battit avec acharnement et fut blessé. On dit : « Messager de Dieu, l’homme dont tu as dit qu’il était destiné au Feu a combattu aujourd’hui avec acharnement et il est mort. » Le Prophète répondit : « Il est destiné au Feu. » Certains musulmans en furent presque troublés. Puis on apprit qu’il n’était pas mort, mais grièvement blessé. Pendant la nuit, il ne supporta pas ses blessures et se donna la mort. On en informa le Prophète, qui dit : « Dieu est le plus grand ! J’atteste que je suis le serviteur de Dieu et Son Messager. » Il ordonna ensuite à Bilal d’annoncer aux gens : « N’entrera au Paradis qu’une âme musulmane, et Dieu soutient cette religion même par l’homme pervers. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "28549edc-5df6-43d0-bf2f-31f3d236be9f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:112",
+      "reference": "Sahih Muslim, hadith 112, book 1, باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "title": "باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَعْقُوبُ، - وَهُوَ ابْنُ عَبْدِ الرَّحْمَنِ الْقَارِيُّ - حَىٌّ مِنَ الْعَرَبِ - عَنْ أَبِي حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم الْتَقَى هُوَ وَالْمُشْرِكُونَ فَاقْتَتَلُوا ‏.‏ فَلَمَّا مَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِلَى عَسْكَرِهِ وَمَالَ الآخَرُونَ إِلَى عَسْكَرِهِمْ وَفِي أَصْحَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم رَجُلٌ لاَ يَدَعُ لَهُمْ شَاذَّةً إِلاَّ اتَّبَعَهَا يَضْرِبُهَا بِسَيْفِهِ فَقَالُوا مَا أَجْزَأَ مِنَّا الْيَوْمَ أَحَدٌ كَمَا أَجْزَأَ فُلاَنٌ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَمَا إِنَّهُ مِنْ أَهْلِ النَّارِ ‏\"‏ ‏.‏ فَقَالَ رَجُلٌ مِنَ الْقَوْمِ أَنَا صَاحِبُهُ أَبَدًا ‏.‏ قَالَ فَخَرَجَ مَعَهُ كُلَّمَا وَقَفَ وَقَفَ مَعَهُ وَإِذَا أَسْرَعَ أَسْرَعَ مَعَهُ - قَالَ - فَجُرِحَ الرَّجُلُ جُرْحًا شَدِيدًا فَاسْتَعْجَلَ الْمَوْتَ فَوَضَعَ نَصْلَ سَيْفِهِ بِالأَرْضِ وَذُبَابَهُ بَيْنَ ثَدْيَيْهِ ثُمَّ تَحَامَلَ عَلَى سَيْفِهِ فَقَتَلَ نَفْسَهُ فَخَرَجَ الرَّجُلُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ أَشْهَدُ أَنَّكَ رَسُولُ اللَّهِ ‏.‏ قَالَ ‏\"‏ وَمَا ذَاكَ ‏\"‏ ‏.‏ قَالَ الرَّجُلُ الَّذِي ذَكَرْتَ آنِفًا أَنَّهُ مِنْ أَهْلِ النَّارِ فَأَعْظَمَ النَّاسُ ذَلِكَ فَقُلْتُ أَنَا لَكُمْ بِهِ فَخَرَجْتُ فِي طَلَبِهِ حَتَّى جُرِحَ جُرْحًا شَدِيدًا فَاسْتَعْجَلَ الْمَوْتَ فَوَضَعَ نَصْلَ سَيْفِهِ بِالأَرْضِ وَذُبَابَهُ بَيْنَ ثَدْيَيْهِ ثُمَّ تَحَامَلَ عَلَيْهِ فَقَتَلَ نَفْسَهُ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم عِنْدَ ذَلِكَ ‏\"‏ إِنَّ الرَّجُلَ لَيَعْمَلُ عَمَلَ أَهْلِ الْجَنَّةِ فِيمَا يَبْدُو لِلنَّاسِ وَهُوَ مِنْ أَهْلِ النَّارِ وَإِنَّ الرَّجُلَ لَيَعْمَلُ عَمَلَ أَهْلِ النَّارِ فِيمَا يَبْدُو لِلنَّاسِ وَهُوَ مِنْ أَهْلِ الْجَنَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a01bce9a15a1dccd220850e33f69445b0e17ccc45653bc89c267ad66d949dee6",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager de Dieu affronta les associateurs au combat. Lorsqu’il se replia vers son camp, et que les autres regagnèrent le leur, un homme parmi ses compagnons poursuivait chaque ennemi isolé et le frappait de son épée. Les gens dirent : « Aucun de nous n’a été aussi efficace aujourd’hui qu’untel. » Le Messager de Dieu répondit : « Pourtant, il est destiné au Feu. » Un homme dit : « Je vais le suivre. » Il l’accompagna partout. L’homme fut grièvement blessé et, pressé d’en finir, plaça la pointe de son épée au sol, en orienta l’extrémité contre sa poitrine, puis s’appuya dessus et se tua. Celui qui l’avait suivi vint trouver le Messager de Dieu et dit : « J’atteste que tu es le Messager de Dieu. » Il demanda : « Qu’est-ce donc ? » L’homme répondit que celui qui avait été déclaré destiné au Feu s’était tué ainsi. Les gens en furent bouleversés ; il expliqua qu’il l’avait suivi jusqu’à sa blessure et son suicide. Le Messager de Dieu dit alors : « Un homme peut accomplir, en apparence aux yeux des gens, les actes des gens du Paradis alors qu’il est destiné au Feu ; et un homme peut accomplir, en apparence aux yeux des gens, les actes des gens du Feu alors qu’il est destiné au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e7f5fe94-e88c-457d-aba0-1d2646f7b800",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:112b",
+      "reference": "Sahih Muslim, hadith 112 b, book 46, بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "title": "بَاب كَيْفِيَّةِ خَلْقِ الْآدَمِيِّ فِي بَطْنِ أُمِّهِ وَكِتَابَةِ رِزْقِهِ وَأَجَلِهِ وَعَمَلِهِ وَشَقَاوَتِهِ وَسَعَادَتِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَعْقُوبُ، - يَعْنِي ابْنَ عَبْدِ الرَّحْمَنِ الْقَارِيَّ - عَنْ أَبِي حَازِمٍ، عَنْ سَهْلِ بْنِ سَعْدٍ السَّاعِدِيِّ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الرَّجُلَ لَيَعْمَلُ عَمَلَ أَهْلِ الْجَنَّةِ فِيمَا يَبْدُو لِلنَّاسِ وَهُوَ مِنْ أَهْلِ النَّارِ ‏.‏ وَإِنَّ الرَّجُلَ لَيَعْمَلُ عَمَلَ أَهْلِ النَّارِ فِيمَا يَبْدُو لِلنَّاسِ وَهُوَ مِنْ أَهْلِ الْجَنَّةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "6c099fbe8c50207d35789547189af5bed398986b3445c8a8ad48a74f54622d2a",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager de Dieu a dit : « Un homme peut accomplir, en apparence aux yeux des gens, les actes des gens du Paradis alors qu’il est destiné au Feu ; et un homme peut accomplir, en apparence aux yeux des gens, les actes des gens du Feu alors qu’il est destiné au Paradis. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "d89da6e8-0304-4c2e-978a-dedf8fe3531c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:113a",
+      "reference": "Sahih Muslim, hadith 113 a, book 1, باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "title": "باب غِلَظِ تَحْرِيمِ قَتْلِ الإِنْسَانِ نَفْسَهُ وَإِنَّ مَنْ قَتَلَ نَفْسَهُ بِشَيْءٍ عُذِّبَ بِهِ فِي النَّارِ وَأَنَّهُ لاَ يَدْخُلُ الْجَنَّةَ إِلاَّ نَفْسٌ مُسْلِمَةٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا الزُّبَيْرِيُّ، - وَهُوَ مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ - حَدَّثَنَا شَيْبَانُ، قَالَ سَمِعْتُ الْحَسَنَ، يَقُولُ ‏\"‏ إِنَّ رَجُلاً مِمَّنْ كَانَ قَبْلَكُمْ خَرَجَتْ بِهِ قَرْحَةٌ فَلَمَّا آذَتْهُ انْتَزَعَ سَهْمًا مِنْ كِنَانَتِهِ فَنَكَأَهَا فَلَمْ يَرْقَإِ الدَّمُ حَتَّى مَاتَ ‏.‏ قَالَ رَبُّكُمْ قَدْ حَرَّمْتُ عَلَيْهِ الْجَنَّةَ ‏\"‏ ‏.‏ ثُمَّ مَدَّ يَدَهُ إِلَى الْمَسْجِدِ فَقَالَ إِي وَاللَّهِ لَقَدْ حَدَّثَنِي بِهَذَا الْحَدِيثِ جُنْدَبٌ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فِي هَذَا الْمَسْجِدِ ‏.‏",
+      "source_hash_sha256": "51034709f70744855f65d9a8600be1fa5040f3cb564dba69b24fba52ecf6c9c4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager de Dieu a dit : « Un homme d’avant vous fut atteint d’un abcès. Comme la douleur le faisait souffrir, il prit une flèche de son carquois et perça l’abcès. Le sang ne s’arrêta pas jusqu’à sa mort. Votre Seigneur dit alors : “Je lui ai interdit le Paradis.” » Puis al-Hasan tendit la main vers la mosquée et dit : « Oui, par Dieu, Jundab m’a bien rapporté ce hadith du Messager de Dieu dans cette mosquée. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "37b2bc1b-f260-4ca7-a43a-ef809c55df39",
+      "reason": "La source arabe s’interrompt après la chaîne de transmission, avant le texte du hadith. Garder la traduction française en attente jusqu’à ce qu’une source complète et vérifiée soit disponible."
+    }
+  ]
+}
