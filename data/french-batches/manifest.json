@@ -19296,6 +19296,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-898",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-898.json",
+      "sourceIds": [
+        "300663de-e313-4abe-bfec-6832fab67e06"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21662,6 +21678,12 @@
       "scope": "Sahih al-Bukhari 4911: direct Quran quotation from 33:21",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 33:21. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-897, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4913-LONG-SOURCE",
+      "scope": "Sahih al-Bukhari 4913: unusually long multi-scene report requiring a separate completeness review",
+      "status": "blocked",
+      "reason": "Hadith 4913 est un récit exceptionnellement long (3 759 caractères arabes) comprenant plusieurs chaînes et longues scènes rapportées au discours indirect. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-898 en attente d’une révision distincte de la source et de sa couverture."
     }
   ],
   "hadithBukhariDrafted": 4063,
