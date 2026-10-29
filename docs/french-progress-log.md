@@ -7297,3 +7297,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0038 saves 1 private French draft. Hadith 96a directly quotes Quran 8:39, so its full translation remains blank and marked Needs Mo pending an approved, attributed French Quran translation with usage permission. No database writes or publication occurred.
 - Both source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 185 of 7,366. Hadith Needs Mo: 181. Total local hadith rows not drafted: 8,108, including held records.
+
+### 2026-10-29: Muslim 97
+
+- FR-LIB-HAD-MUSLIM-0039 saves the deferred long source as a private French draft in its own single-item batch. No database writes or publication occurred.
+- The source hash is retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 186 of 7,366. Hadith Needs Mo: 181. Total local hadith rows not drafted: 8,107, including held records.
