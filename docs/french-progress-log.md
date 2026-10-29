@@ -2976,3 +2976,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-612` saves five private French drafts about Quraysh and the Prophet’s lineage. Bukhari 3499 remains blank because the exact meaning of الفدادين is not confirmed; it shares the unresolved term held in 3498.
 - All six records passed the focused validator, including the source-wording hold. No database writes or publication occurred. Bukhari local drafts: 3,125 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 11,532, including held records.
+
+### 2026-10-29: Bukhari 3505–3510
+
+- `FR-LIB-HAD-BUKHARI-613` saves six private French drafts about ‘Â’isha, the Qur’an’s codification, and the ‘Abd al-Qays delegation.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,131 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 225. Total local hadith rows not drafted: 11,526, including held records.
