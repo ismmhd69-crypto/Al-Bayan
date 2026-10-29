@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-1142",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T21:23:45.069Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "f5251bd7-5032-4b5d-a5f6-26aa506e0e09",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2464e",
+      "reference": "Sahih Muslim, hadith 2464 e, book 44, باب مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ وَأُمِّهِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمَا ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ وَأُمِّهِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ، بَشَّارٍ قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ إِبْرَاهِيمَ، عَنْ مَسْرُوقٍ، قَالَ ذَكَرُوا ابْنَ مَسْعُودٍ عِنْدَ عَبْدِ اللَّهِ بْنِ عَمْرٍو فَقَالَ ذَاكَ رَجُلٌ لاَ أَزَالُ أُحِبُّهُ بَعْدَ مَا سَمِعْتُ مِنْ رَسُولِ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ اسْتَقْرِئُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنِ ابْنِ مَسْعُودٍ وَسَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ وَأُبَىِّ بْنِ كَعْبٍ وَمُعَاذِ بْنِ جَبَلٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "8f0ffad45d82d288497ae1f7726b83129cf6cec7c2269cb6f375bd00b6f4473c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Masruq dit : « On évoqua Ibn Mas‘ud auprès d’Abdullah ibn Amr. Celui-ci dit : “Je continuerai d’aimer cet homme depuis ce que j’ai entendu le Messager d’Allah ﷺ dire : ‘Apprenez le Coran auprès de quatre hommes : Ibn Mas‘ud, Salim l’affranchi d’Abû Hudhayfa, Ubayy ibn Ka‘b et Muadh ibn Jabal.’” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "63d3d29f-bd1e-43d0-b0ac-9d64d4820615",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2464f",
+      "reference": "Sahih Muslim, hadith 2464 f, book 44, باب مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ وَأُمِّهِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمَا ‏‏",
+      "title": "باب مِنْ فَضَائِلِ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ وَأُمِّهِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمَا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، بِهَذَا الإِسْنَادِ وَزَادَ قَالَ شُعْبَةُ بَدَأَ بِهَذَيْنِ لاَ أَدْرِي بِأَيِّهِمَا بَدَأَ ‏.‏",
+      "source_hash_sha256": "b7520f7833e3e4be1310c8d613119e9938f0f9d88bd45def922502d9a20a0254",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_transmission_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e9e90234-b901-453d-badb-45fc1fd43da0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2465a",
+      "reference": "Sahih Muslim, hadith 2465 a, book 44, باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "title": "باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا أَبُو دَاوُدَ، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، قَالَ سَمِعْتُ أَنَسًا، يَقُولُ جَمَعَ الْقُرْآنَ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم أَرْبَعَةٌ كُلُّهُمْ مِنَ الأَنْصَارِ مُعَاذُ بْنُ جَبَلٍ وَأُبَىُّ بْنُ كَعْبٍ وَزَيْدُ بْنُ ثَابِتٍ وَأَبُو زَيْدٍ ‏.‏ قَالَ قَتَادَةُ قُلْتُ لأَنَسٍ مَنْ أَبُو زَيْدٍ قَالَ أَحَدُ عُمُومَتِي ‏.‏",
+      "source_hash_sha256": "cfe4fc515be028c6d5a908da36d0000ac70102ce44736732cf4302690bd9ff44",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas dit : « Quatre hommes, tous des Ansar, réunirent le Coran à l’époque du Messager d’Allah ﷺ : Muadh ibn Jabal, Ubayy ibn Ka‘b, Zayd ibn Thabit et Abû Zayd. » Qatada demanda à Anas : « Qui était Abû Zayd ? » Il répondit : « L’un de mes oncles. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5ffdbc2b-8cf3-460f-ba27-bd19ba872bcb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2465b",
+      "reference": "Sahih Muslim, hadith 2465 b, book 44, باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "title": "باب مِنْ فَضَائِلِ أُبَىِّ بْنِ كَعْبٍ وَجَمَاعَةٍ مِنَ الأَنْصَارِ رَضِيَ اللَّهُ تَعَالَى عَنْهُمْ ‏.‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ مَعْبَدٍ حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا قَتَادَةُ، قَالَ قُلْتُ لأَنَسِ بْنِ مَالِكٍ مَنْ جَمَعَ الْقُرْآنَ عَلَى عَهْدِ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ أَرْبَعَةٌ كُلُّهُمْ مِنَ الأَنْصَارِ أُبَىُّ بْنُ كَعْبٍ وَمُعَاذُ بْنُ جَبَلٍ وَزَيْدُ بْنُ ثَابِتٍ وَرَجُلٌ مِنَ الأَنْصَارِ يُكْنَى أَبَا زَيْدٍ ‏.‏",
+      "source_hash_sha256": "4533122bedb6fd05e67e7036dda8a4db8c03c3a4170af699f120692806b86e95",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qatada demanda à Anas ibn Malik : « Qui a réuni le Coran à l’époque du Messager d’Allah ﷺ ? » Il répondit : « Quatre hommes, tous des Ansar : Ubayy ibn Ka‘b, Muadh ibn Jabal, Zayd ibn Thabit et un homme des Ansar surnommé Abû Zayd. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ae46f985-ae9e-4d1c-9cdc-c087e04068ca",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2466a",
+      "reference": "Sahih Muslim, hadith 2466 a, book 44, باب مِنْ فَضَائِلِ سَعْدِ بْنِ مُعَاذٍ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ سَعْدِ بْنِ مُعَاذٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرَ بْنَ عَبْدِ اللَّهِ، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَجَنَازَةُ سَعْدِ بْنِ مُعَاذٍ بَيْنَ أَيْدِيهِمْ ‏\"‏ اهْتَزَّ لَهَا عَرْشُ الرَّحْمَنِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "aa3e30f4ecff8e28eb2067f4798c2b70c4d569d757f77832e2c877d3101c4fb8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Alors que le corps de Sa‘d ibn Muadh était devant eux, le Messager d’Allah ﷺ dit : « Le Trône du Tout Miséricordieux a tremblé pour lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "de8a27ac-3820-4f5b-849d-b60fccb53826",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2466b",
+      "reference": "Sahih Muslim, hadith 2466 b, book 44, باب مِنْ فَضَائِلِ سَعْدِ بْنِ مُعَاذٍ رضى الله عنه ‏‏",
+      "title": "باب مِنْ فَضَائِلِ سَعْدِ بْنِ مُعَاذٍ رضى الله عنه ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرٌو النَّاقِدُ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ إِدْرِيسَ الأَوْدِيُّ، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي، سُفْيَانُ عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ اهْتَزَّ عَرْشُ الرَّحْمَنِ لِمَوْتِ سَعْدِ بْنِ مُعَاذٍ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4067a3d299b6a2fd3e8f227cca19235aca3a0ca67a8d994b0d80040fb6ff7f08",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Le Messager d’Allah ﷺ dit : « Le Trône du Tout Miséricordieux a tremblé à la mort de Sa‘d ibn Muadh. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "63d3d29f-bd1e-43d0-b0ac-9d64d4820615",
+      "reason": "Cette entrée n’ajoute qu’une précision sur l’ordre des deux premiers noms du récit précédent, sans en reproduire le contenu complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
