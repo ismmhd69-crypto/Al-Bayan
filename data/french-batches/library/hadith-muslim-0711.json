@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-MUSLIM-0711",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:57:56.239Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "8deaa54d-d369-41a7-9d15-b28b56c0cd9b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536u",
+      "reference": "Sahih Muslim, hadith 1536 u, book 21, باب كِرَاءِ الأَرْضِ ‏‏",
+      "title": "باب كِرَاءِ الأَرْضِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى بْنُ حَمَّادٍ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ سُلَيْمَانَ، حَدَّثَنَا أَبُو سُفْيَانَ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ كَانَتْ لَهُ أَرْضٌ فَلْيَهَبْهَا أَوْ لِيُعِرْهَا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "7b3bb35e8cb55b0bbcca1a5bdd079ae5ac33be15b517084d3e339c2702e07113",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté : Yahya ibn Hammad nous a rapporté : Abu Awana nous a rapporté, d’après Sulayman, qui nous a rapporté, d’après Abu Sufyan, d’après Jabir, qui dit : « J’ai entendu le Prophète dire : Que celui qui possède une terre la donne ou la prête à quelqu’un. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c1cecca1-79a1-4676-bdd5-ecda3d8d07af",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536v",
+      "reference": "Sahih Muslim, hadith 1536 v, book 21, باب كِرَاءِ الأَرْضِ ‏‏",
+      "title": "باب كِرَاءِ الأَرْضِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ حَجَّاجُ بْنُ الشَّاعِرِ، حَدَّثَنَا أَبُو الْجَوَّابِ، حَدَّثَنَا عَمَّارُ بْنُ رُزَيْقٍ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ غَيْرَ أَنَّهُ قَالَ ‏\"‏ فَلْيَزْرَعْهَا أَوْ فَلْيُزْرِعْهَا رَجُلاً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "33d33e2f0eb26b085b00b8545f7d9927f94803d848558919fe156a4c460da219",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "93f1f274-e770-43c9-a04c-8eb9b8c4a739",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536w",
+      "reference": "Sahih Muslim, hadith 1536 w, book 21, باب كِرَاءِ الأَرْضِ ‏‏",
+      "title": "باب كِرَاءِ الأَرْضِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي هَارُونُ بْنُ سَعِيدٍ الأَيْلِيُّ، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي عَمْرٌو، - وَهُوَ ابْنُ الْحَارِثِ - أَنَّ بُكَيْرًا، حَدَّثَهُ أَنَّ عَبْدَ اللَّهِ بْنَ أَبِي سَلَمَةَ حَدَّثَهُ عَنِ النُّعْمَانِ بْنِ أَبِي عَيَّاشٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم نَهَى عَنْ كِرَاءِ الأَرْضِ ‏.‏ قَالَ بُكَيْرٌ وَحَدَّثَنِي نَافِعٌ، أَنَّهُ سَمِعَ ابْنَ عُمَرَ، يَقُولُ كُنَّا نُكْرِي أَرْضَنَا ثُمَّ تَرَكْنَا ذَلِكَ حِينَ سَمِعْنَا حَدِيثَ رَافِعِ بْنِ خَدِيجٍ ‏.‏",
+      "source_hash_sha256": "57feb8aa3d23a331789227d9e74cd16bbb68ac1f388b27818853d7fd21c3b0c9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Harun ibn Sa‘id al-Ayli m’a rapporté : Ibn Wahb nous a rapporté : Amr — Ibn al-Harith — m’a informé que Bukayr lui avait rapporté qu’Abd Allah ibn Abi Salama lui avait rapporté, d’après al-Nu‘man ibn Abi Ayyash, d’après Jabir ibn Abd Allah, que le Messager d’Allah avait interdit de louer les terres. Bukayr dit : « Nafi m’a également rapporté qu’il avait entendu Ibn Umar dire : “Nous louions nos terres, puis nous avons abandonné cette pratique lorsque nous avons entendu le récit de Rafi ibn Khadij.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "65d9f483-cb9f-48d7-a4f1-6bd9cc66212a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536x",
+      "reference": "Sahih Muslim, hadith 1536 x, book 21, باب كِرَاءِ الأَرْضِ ‏‏",
+      "title": "باب كِرَاءِ الأَرْضِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا يَحْيَى بْنُ يَحْيَى، أَخْبَرَنَا أَبُو خَيْثَمَةَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ بَيْعِ الأَرْضِ الْبَيْضَاءِ سَنَتَيْنِ أَوْ ثَلاَثًا ‏.‏",
+      "source_hash_sha256": "14c7c0cc650fbfa13842199cdce4708fc4d98db6d380c46ac03915ba534781ac",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Yahya ibn Yahya nous a rapporté : Abu Khaythama nous a informés, d’après Abu al-Zubayr, d’après Jabir, qui dit : « Le Messager d’Allah a interdit de vendre une terre nue pour deux ou trois années. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ee6cd37f-f8bb-4820-bdfd-f6131eddcb2c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536y",
+      "reference": "Sahih Muslim, hadith 1536 y, book 21, باب كِرَاءِ الأَرْضِ ‏‏",
+      "title": "باب كِرَاءِ الأَرْضِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، وَأَبُو بَكْرِ بْنُ شَيْبَةَ وَعَمْرٌو النَّاقِدُ وَزُهَيْرُ بْنُ حَرْبٍ قَالُوا حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ حُمَيْدٍ الأَعْرَجِ، عَنْ سُلَيْمَانَ بْنِ عَتِيقٍ، عَنْ جَابِرٍ، قَالَ نَهَى النَّبِيُّ صلى الله عليه وسلم عَنْ بَيْعِ السِّنِينَ ‏.‏ وَفِي رِوَايَةِ ابْنِ أَبِي شَيْبَةَ عَنْ بَيْعِ الثَّمَرِ سِنِينَ ‏.‏",
+      "source_hash_sha256": "0d6f732031bb1481e0e9bfb1e29c255a637b840cbe1718ff13a9964f94ef8f2b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sa‘id ibn Mansur, Abu Bakr ibn Shayba, Amr al-Naqid et Zuhayr ibn Harb nous ont rapporté : Sufyan ibn Uyayna nous a rapporté, d’après Humayd al-A‘raj, d’après Sulayman ibn Atiq, d’après Jabir, qui dit : « Le Prophète a interdit les ventes conclues pour plusieurs années. » Dans la version d’Ibn Abi Shayba, on lit : « la vente des fruits pour plusieurs années. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "c712bbbd-80f7-49d0-8838-b92a58ee57cf",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1536z",
+      "reference": "Sahih Muslim, hadith 1536 z, book 21, باب كِرَاءِ الأَرْضِ ‏‏",
+      "title": "باب كِرَاءِ الأَرْضِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا الْحَسَنُ الْحُلْوَانِيُّ، حَدَّثَنَا أَبُو تَوْبَةَ، حَدَّثَنَا مُعَاوِيَةُ، عَنْ يَحْيَى بْنِ أَبِي كَثِيرٍ، أَنَّ يَزِيدَ بْنَ نُعَيْمٍ، أَخْبَرَهُ أَنَّ جَابِرَ بْنَ عَبْدِ اللَّهِ أَخْبَرَهُ أَنَّهُ، سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَنْهَى عَنِ الْمُزَابَنَةِ وَالْحُقُولِ ‏.‏ فَقَالَ جَابِرُ بْنُ عَبْدِ اللَّهِ الْمُزَابَنَةُ الثَّمَرُ بِالتَّمْرِ ‏.‏ وَالْحُقُولُ كِرَاءُ الأَرْضِ ‏.‏",
+      "source_hash_sha256": "4c660e5322a9042490dd9758f4027e8361483a2a6ec62784e63c3bd64c2db1d1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Hasan al-Hulwani nous a rapporté : Abu Tawba nous a rapporté : Muawiya nous a rapporté, d’après Yahya ibn Abi Kathir, que Yazid ibn Nu‘aym lui avait rapporté que Jabir ibn Abd Allah lui avait raconté avoir entendu le Messager d’Allah interdire les ventes dites muzabana et huqul. Jabir ibn Abd Allah dit : « La muzabana consiste à échanger des fruits contre des dattes. Les huqul désignent la location des terres. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c1cecca1-79a1-4676-bdd5-ecda3d8d07af",
+      "reason": "Cette entrée ne donne qu’une variante du rapport précédent, avec une autre formulation, sans contenu suffisamment indépendant. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
