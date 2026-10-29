@@ -8311,3 +8311,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0237 contains six variant-only entries with alternate wording for the instruction to seek what is correct when uncertain in prayer. None repeats the full report, so all six remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Draft totals remain 950 Muslim and 7,286 overall, with 7,343 remaining and 456 Needs Mo items.
+
+### 2026-10-29: Muslim 572h–572m
+
+- FR-LIB-HAD-MUSLIM-0238 saves five private French drafts about the Prophet’s ﷺ and Alqama’s prostrations after an extra prayer unit. Muslim 572i contains only the brief statement that Alqama prayed five units and lacks the rest of the report, so it remains blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 955 Muslim drafts, 7,291 total hadith drafts, 7,338 remaining, and 457 Needs Mo items.
