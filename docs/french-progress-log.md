@@ -1961,3 +1961,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-409` saves six private French drafts for Bukhari 2375–2380, covering the account of ‘Alî’s camels, the Bahrain allocations, camel milking at the watering place, palm fruit and property sold with an enslaved person, and ‘arâyâ sales.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,154 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 129. Total local hadith rows not drafted: 12,475, including held records.
+
+### 2026-10-29: Bukhari 2381–2387 source review
+
+- `FR-LIB-HAD-BUKHARI-410` saves six private French drafts for Bukhari 2381–2383 and 2385–2387. They cover land and harvest sales, the ‘arâyâ exception, Jâbir’s camel sale, a deferred food purchase secured by armor, and the intent behind borrowing people’s property.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,160 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 129. Total local hadith rows not drafted: 12,469, including held records.
