@@ -65,7 +65,7 @@
     "hadithLocalDrafted": 1791,
     "hadithDatabaseMissing": 14629,
     "hadithLocalRemaining": 12838,
-    "hadithNeedsMo": 292,
+    "hadithNeedsMo": 293,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -15997,6 +15997,21 @@
       "published": 0,
       "status": "local draft with holds"
     }
+,
+    {
+      "id": "FR-LIB-HAD-BUKHARI-742",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-742.json",
+      "sourceIds": ["40eebdca-8477-4979-ab75-8d188137c392", "f821a22e-f644-4846-9188-b4896a74ab1c", "d66891bd-5830-458b-aea4-93679a59533c", "65b6d830-281d-48ed-b5d9-d1c9f6285500", "baba6184-b8bd-469c-a9b3-abb9b3c4d87b", "c28bbe12-adde-4d6a-ba18-725e2815f543"],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
+    }
   ],
   "blockers": [
     {
@@ -16332,8 +16347,15 @@
       "status": "blocked",
       "reason": "The report includes wording of a passage described as Quran recitation, though its recitation was later abrogated. It remains blank in FR-LIB-HAD-BUKHARI-741 until an approved, attributed French Quran translation is confirmed."
     }
+,
+    {
+      "id": "HADITH-BUKHARI-4103-QURAN-33-10",
+      "scope": "Sahih al-Bukhari 4103: direct quotation of Quran 33:10",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 33:10. It remains blank in FR-LIB-HAD-BUKHARI-742 until an approved, attributed French Quran translation is confirmed."
+    }
   ],
-  "hadithBukhariDrafted": 3627,
-  "hadithLocalDrafted": 3627,
-  "hadithLocalRemaining": 11030
+  "hadithBukhariDrafted": 3632,
+  "hadithLocalDrafted": 3632,
+  "hadithLocalRemaining": 11025
 }
