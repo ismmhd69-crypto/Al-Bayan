@@ -1522,3 +1522,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-318` saves five private French drafts for Bukhari 1846, 1847 and 1849–1851. Bukhari 1848 remains blank under Needs Mo because this detached, very short excerpt does not identify clearly what the Prophet invalidated after a tooth was pulled.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the reason-specific hold. No database writes or publication occurred. Bukhari local drafts: 1,686 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 101. Total local hadith rows not drafted: 12,943, including held records.
+### 2026-10-29: Bukhari 1852–1857 source review
+
+- `FR-LIB-HAD-BUKHARI-319` saves five private French drafts for Bukhari 1852 and 1854–1857. Bukhari 1853 remains blank under Needs Mo because the exported Arabic record stops after “a woman” before the report begins. No neighboring wording was used to fill the gap.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata, private unpublished state and the reason-specific hold. No database writes or publication occurred. Bukhari local drafts: 1,691 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 102. Total local hadith rows not drafted: 12,938, including held records.

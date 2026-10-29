@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-319",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:02:05.884Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "69f56715-b454-44e9-84eb-381456153c63",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1852",
+      "reference": "Sahih al-Bukhari, hadith 1852, book 28, باب الْحَجِّ وَالنُّذُورِ عَنِ الْمَيِّتِ وَالرَّجُلُ يَحُجُّ عَنِ الْمَرْأَةِ‏",
+      "title": "باب الْحَجِّ وَالنُّذُورِ عَنِ الْمَيِّتِ وَالرَّجُلُ يَحُجُّ عَنِ الْمَرْأَةِ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا أَبُو عَوَانَةَ، عَنْ أَبِي بِشْرٍ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ أَنَّ امْرَأَةً، مِنْ جُهَيْنَةَ جَاءَتْ إِلَى النَّبِيِّ صلى الله عليه وسلم فَقَالَتْ إِنَّ أُمِّي نَذَرَتْ أَنْ تَحُجَّ، فَلَمْ تَحُجَّ حَتَّى مَاتَتْ أَفَأَحُجُّ عَنْهَا قَالَ ‏\"‏ نَعَمْ‏.‏ حُجِّي عَنْهَا، أَرَأَيْتِ لَوْ كَانَ عَلَى أُمِّكِ دَيْنٌ أَكُنْتِ قَاضِيَةً اقْضُوا اللَّهَ، فَاللَّهُ أَحَقُّ بِالْوَفَاءِ ‏\"‏‏.‏",
+      "source_hash_sha256": "1f355330ab768c07051f15e4d0060845417bb59cbb8dbc5f73348ad2bd56ccb3",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Mûsâ ibn Ismâ‘îl, Abû ‘Awâna, Abû Bishr, Sa‘îd ibn Jubayr et Ibn ‘Abbâs.\n\nUne femme de la tribu de Juhayna vint trouver le Prophète et lui dit : « Ma mère avait fait le vœu d’accomplir le pèlerinage, mais elle est morte avant de l’avoir fait. Puis-je l’accomplir pour elle ? » Il répondit : « Oui, accomplis le pèlerinage pour elle. Que penses-tu : si ta mère avait eu une dette, l’aurais-tu réglée ? Acquittez-vous de la dette envers Allah, car Allah est plus digne que quiconque que l’on s’acquitte envers Lui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ff1a0cec-5292-4eb4-8724-35a7156b6adf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1853",
+      "reference": "Sahih al-Bukhari, hadith 1853, book 28, باب الْحَجِّ عَمَّنْ لاَ يَسْتَطِيعُ الثُّبُوتَ عَلَى الرَّاحِلَةِ",
+      "title": "باب الْحَجِّ عَمَّنْ لاَ يَسْتَطِيعُ الثُّبُوتَ عَلَى الرَّاحِلَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو عَاصِمٍ، عَنِ ابْنِ جُرَيْجٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنِ ابْنِ عَبَّاسٍ، عَنِ الْفَضْلِ بْنِ عَبَّاسٍ ـ رضى الله عنهم ـ أَنَّ امْرَأَةً، ح‏.‏",
+      "source_hash_sha256": "f20a46e6be54806a0acd55de1a77eb940f693e0eadcaad9c923ae3898e740db0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source_fragment",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "07b314a0-e84a-49ef-b9a8-cd605e938e9f",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1854",
+      "reference": "Sahih al-Bukhari, hadith 1854, book 28, باب الْحَجِّ عَمَّنْ لاَ يَسْتَطِيعُ الثُّبُوتَ عَلَى الرَّاحِلَةِ",
+      "title": "باب الْحَجِّ عَمَّنْ لاَ يَسْتَطِيعُ الثُّبُوتَ عَلَى الرَّاحِلَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي سَلَمَةَ، حَدَّثَنَا ابْنُ شِهَابٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ جَاءَتِ امْرَأَةٌ مِنْ خَثْعَمَ، عَامَ حَجَّةِ الْوَدَاعِ، قَالَتْ يَا رَسُولَ اللَّهِ إِنَّ فَرِيضَةَ اللَّهِ عَلَى عِبَادِهِ فِي الْحَجِّ أَدْرَكَتْ أَبِي شَيْخًا كَبِيرًا، لاَ يَسْتَطِيعُ أَنْ يَسْتَوِيَ عَلَى الرَّاحِلَةِ فَهَلْ يَقْضِي عَنْهُ أَنْ أَحُجَّ عَنْهُ قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏",
+      "source_hash_sha256": "c5bcf4ccca3501d7b6da4e199348f79e31aca6f90b14d6af1726d74cd4811193",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Mûsâ ibn Ismâ‘îl, ‘Abd al-‘Azîz ibn Abî Salama, Ibn Shihâb, Sulaymân ibn Yasâr et Ibn ‘Abbâs.\n\nIbn ‘Abbâs rapporte qu’une femme de la tribu de Khath‘am vint, l’année du pèlerinage d’adieu, et dit : « Messager d’Allah, l’obligation du pèlerinage qu’Allah a imposée à Ses serviteurs s’est appliquée à mon père alors qu’il était un vieil homme incapable de se tenir sur sa monture. Puis-je accomplir le pèlerinage pour lui ? » Il répondit : « Oui. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "3bf68cd2-6300-4b80-8008-796527e0b829",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1855",
+      "reference": "Sahih al-Bukhari, hadith 1855, book 28, باب حَجِّ الْمَرْأَةِ عَنِ الرَّجُلِ",
+      "title": "باب حَجِّ الْمَرْأَةِ عَنِ الرَّجُلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مَسْلَمَةَ، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ كَانَ الْفَضْلُ رَدِيفَ النَّبِيِّ صلى الله عليه وسلم فَجَاءَتِ امْرَأَةٌ مِنْ خَثْعَمٍ، فَجَعَلَ الْفَضْلُ يَنْظُرُ إِلَيْهَا، وَتَنْظُرُ إِلَيْهِ فَجَعَلَ النَّبِيُّ صلى الله عليه وسلم يَصْرِفُ وَجْهَ الْفَضْلِ إِلَى الشِّقِّ الآخَرِ، فَقَالَتْ إِنَّ فَرِيضَةَ اللَّهِ أَدْرَكَتْ أَبِي شَيْخًا كَبِيرًا، لاَ يَثْبُتُ عَلَى الرَّاحِلَةِ، أَفَأَحُجُّ عَنْهُ قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏ وَذَلِكَ فِي حَجَّةِ الْوَدَاعِ‏.‏",
+      "source_hash_sha256": "279dab9d08c1d00cb067f30047b3434e5c384f9dadc223db9264b2a4dc083120",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Maslama, Mâlik, Ibn Shihâb, Sulaymân ibn Yasâr et ‘Abd Allâh ibn ‘Abbâs.\n\n‘Abd Allâh ibn ‘Abbâs rapporte qu’al-Fadl était assis derrière le Prophète sur sa monture. Une femme de Khath‘am arriva. Al-Fadl se mit à la regarder, et elle le regardait. Le Prophète détourna alors le visage d’al-Fadl de l’autre côté. La femme dit : « L’obligation du pèlerinage qu’Allah a imposée a concerné mon père alors qu’il est un vieil homme incapable de rester sur sa monture. Puis-je accomplir le pèlerinage pour lui ? » Il répondit : « Oui. » Cela eut lieu pendant le pèlerinage d’adieu.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a56682c4-b667-4072-a8a7-09d20e53340e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1856",
+      "reference": "Sahih al-Bukhari, hadith 1856, book 28, باب حَجِّ الصِّبْيَانِ",
+      "title": "باب حَجِّ الصِّبْيَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو النُّعْمَانِ، حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ، عَنْ عُبَيْدِ اللَّهِ بْنِ أَبِي يَزِيدَ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ ـ رضى الله عنهما ـ يَقُولُ بَعَثَنِي ـ أَوْ قَدَّمَنِي ـ النَّبِيُّ صلى الله عليه وسلم فِي الثَّقَلِ مِنْ جَمْعٍ بِلَيْلٍ‏.‏",
+      "source_hash_sha256": "4ab0c682b0c2355fe14a70b48abacdb81575b68ee3f8244b13387c8ab346e387",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû an-Nu‘mân, Hammâd ibn Zayd, ‘Ubayd Allâh ibn Abî Yazîd et Ibn ‘Abbâs.\n\nIbn ‘Abbâs rapporte : Le Prophète m’envoya, ou me fit partir en avant, avec le groupe des bagages depuis Jam‘, de nuit.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "38b9d1e3-f362-45c4-82f4-1aef2f0e725c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:1857",
+      "reference": "Sahih al-Bukhari, hadith 1857, book 28, باب حَجِّ الصِّبْيَانِ",
+      "title": "باب حَجِّ الصِّبْيَانِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْحَاقُ، أَخْبَرَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ أَخِي ابْنِ شِهَابٍ، عَنْ عَمِّهِ، أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ أَقْبَلْتُ وَقَدْ نَاهَزْتُ الْحُلُمَ، أَسِيرُ عَلَى أَتَانٍ لِي، وَرَسُولُ اللَّهِ صلى الله عليه وسلم قَائِمٌ يُصَلِّي بِمِنًى، حَتَّى سِرْتُ بَيْنَ يَدَىْ بَعْضِ الصَّفِّ الأَوَّلِ، ثُمَّ نَزَلْتُ عَنْهَا فَرَتَعَتْ، فَصَفَفْتُ مَعَ النَّاسِ وَرَاءَ رَسُولِ اللَّهِ صلى الله عليه وسلم‏.‏ وَقَالَ يُونُسُ عَنِ ابْنِ شِهَابٍ بِمِنًى فِي حَجَّةِ الْوَدَاعِ‏.‏",
+      "source_hash_sha256": "0efa10425f72f653ff39df6dc5a2b197a33a1691d089f46a7ce9fc68c3ead9e4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ishâq, Ya‘qûb ibn Ibrâhîm, le neveu d’Ibn Shihâb, son oncle Ibn Shihâb, ‘Ubayd Allâh ibn ‘Abd Allâh ibn ‘Utba ibn Mas‘ûd et ‘Abd Allâh ibn ‘Abbâs.\n\nIbn ‘Abbâs rapporte : J’arrivai alors que j’approchais de la puberté, monté sur une ânesse. Le Messager d’Allah se tenait debout en prière à Minâ. Je passai devant une partie du premier rang, puis je descendis de l’ânesse et la laissai brouter. Je rejoignis ensuite les gens et me plaçai derrière le Messager d’Allah. Yûnus rapporte, d’après Ibn Shihâb, que cela eut lieu à Minâ pendant le pèlerinage d’adieu.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ff1a0cec-5292-4eb4-8724-35a7156b6adf",
+      "reason": "This exported source record ends mid-transmission after the words “that a woman”, with no report text. Keep it blank; do not reconstruct the missing hadith from adjacent records."
+    }
+  ]
+}
