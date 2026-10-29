@@ -10321,3 +10321,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0638 saves four private French drafts about the Prophet’s marriage gifts and wedding meals. Muslim 1425b and 1427d only refer to previous reports and provide wording variants, so they remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1427e–1428c
+
+- FR-LIB-HAD-MUSLIM-0639 saves three private French drafts about Abd al-Rahman ibn Awf’s marriage and the wedding banquet for Zaynab. Muslim 1427g is only a cross-reference with a wording detail; 1428a cites only the start of a Quran verse, and 1428b contains Quran quotations. Those three entries remain blank under Needs Mo until the source or approved Quran translation and rights are confirmed.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.

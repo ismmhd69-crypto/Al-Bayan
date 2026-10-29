@@ -42202,6 +42202,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0639",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0639.json",
+      "sourceIds": [
+        "c345b2a4-b5a0-421c-8143-5cf623d3bf9a",
+        "c0437662-35d4-4411-b063-2f69cc621bb4",
+        "df017970-03a9-40ea-90dd-9757992bca91",
+        "09d25ebf-08fe-4aac-80e7-9f6cc87483ca",
+        "f1bd17f7-1a88-4ebb-850a-f3ec9e3ddd0f",
+        "fc5970be-f242-42fd-ae20-7624a1a3dbb9"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, one incomplete cross-reference and two Quran-quoted reports held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46509,8 +46530,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8885,
-  "hadithLocalRemaining": 5744,
+  "hadithLocalDrafted": 8888,
+  "hadithLocalRemaining": 5741,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50567,10 +50588,25 @@
       "source_id": "8f715a74-e53d-456c-b6c4-2df5a8c88436",
       "reason": "Cette entrée ne reprend pas le récit complet et renvoie à la version précédente (« بِهَذَا الْحَدِيثِ »), en n’ajoutant qu’une variante. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "df017970-03a9-40ea-90dd-9757992bca91",
+      "reason": "Cette entrée renvoie au rapport précédent (« بِهَذَا الإِسْنَادِ ») et ne donne qu’une variante sur la personne qui précise que la dot était en or. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "09d25ebf-08fe-4aac-80e7-9f6cc87483ca",
+      "reason": "Cette source cite le début d’un verset coranique puis indique « le verset ». Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "f1bd17f7-1a88-4ebb-850a-f3ec9e3ddd0f",
+      "reason": "Cette source contient des citations coraniques explicites de la sourate 33, verset 53. Garder toute la traduction française vide jusqu’à confirmation d’une traduction coranique française approuvée et de ses droits.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2549,
+  "hadithMuslimDrafted": 2552,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1104
+  "hadithNeedsMo": 1107
 }
