@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-427",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T05:54:29.348Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c56e77c6-542a-42ce-9923-f6a47268c80a",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2475",
+      "reference": "Sahih al-Bukhari, hadith 2475, book 46, باب النُّهْبَى بِغَيْرِ إِذْنِ صَاحِبِهِ",
+      "title": "باب النُّهْبَى بِغَيْرِ إِذْنِ صَاحِبِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ، قَالَ حَدَّثَنِي اللَّيْثُ، حَدَّثَنَا عُقَيْلٌ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي بَكْرِ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لاَ يَزْنِي الزَّانِي حِينَ يَزْنِي وَهْوَ مُؤْمِنٌ، وَلاَ يَشْرَبُ الْخَمْرَ حِينَ يَشْرَبُ وَهْوَ مُؤْمِنٌ، وَلاَ يَسْرِقُ حِينَ يَسْرِقُ وَهْوَ مُؤْمِنٌ، وَلاَ يَنْتَهِبُ نُهْبَةً يَرْفَعُ النَّاسُ إِلَيْهِ فِيهَا أَبْصَارَهُمْ حِينَ يَنْتَهِبُهَا وَهْوَ مُؤْمِنٌ ‏\"‏‏.‏ وَعَنْ سَعِيدٍ وَأَبِي سَلَمَةَ عَنْ أَبِي هُرَيْرَةَ عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ إِلاَّ النُّهْبَةَ‏.‏",
+      "source_hash_sha256": "b932ac85387b548d29c660999c3f4b2c7d991f27fd01dedcd98f16cfc39371d9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Sa‘îd ibn ‘Ufayr, al-Layth, ‘Uqayl, Ibn Shihâb, Abû Bakr ibn ‘Abd al-Rahmân et Abû Hurayra.\n\nLe Prophète a dit : « Celui qui commet l’adultère ne le commet pas en étant croyant ; celui qui boit du vin ne le boit pas en étant croyant ; celui qui vole ne vole pas en étant croyant ; et celui qui pille un bien sous les regards des gens ne le fait pas en étant croyant. » Sa‘îd et Abû Salama rapportent la même version d’après Abû Hurayra, à l’exception de la mention du pillage.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9331f33f-0e82-4707-a016-cf043fe44871",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2476",
+      "reference": "Sahih al-Bukhari, hadith 2476, book 46, باب كَسْرِ الصَّلِيبِ وَقَتْلِ الْخِنْزِيرِ",
+      "title": "باب كَسْرِ الصَّلِيبِ وَقَتْلِ الْخِنْزِيرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا الزُّهْرِيُّ، قَالَ أَخْبَرَنِي سَعِيدُ بْنُ الْمُسَيَّبِ، سَمِعَ أَبَا هُرَيْرَةَ ـ رضى الله عنه ـ عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ تَقُومُ السَّاعَةُ حَتَّى يَنْزِلَ فِيكُمُ ابْنُ مَرْيَمَ حَكَمًا مُقْسِطًا، فَيَكْسِرَ الصَّلِيبَ، وَيَقْتُلَ الْخِنْزِيرَ، وَيَضَعَ الْجِزْيَةَ، وَيَفِيضَ الْمَالُ حَتَّى لاَ يَقْبَلَهُ أَحَدٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "ef12ad85cd047d143747423157c29c9013d64034256bd0c9a1525db86cc416d1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Alî ibn ‘Abd Allâh, Sufyân, al-Zuhrî, Sa‘îd ibn al-Musayyib et Abû Hurayra.\n\nLe Messager d’Allah a dit : « L’Heure ne viendra pas avant que le fils de Maryam ne descende parmi vous comme un juge équitable : il brisera la croix, tuera le porc, abolira la jizya et les richesses abonderont au point que personne n’en voudra. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2897d216-8d75-47eb-9eed-0528daa55142",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2477",
+      "reference": "Sahih al-Bukhari, hadith 2477, book 46, بَابُ هَلْ تُكْسَرُ الدِّنَانُ الَّتِي فِيهَا الْخَمْرُ أَوْ تُخَرَّقُ الزِّقَاقُ",
+      "title": "بَابُ هَلْ تُكْسَرُ الدِّنَانُ الَّتِي فِيهَا الْخَمْرُ أَوْ تُخَرَّقُ الزِّقَاقُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو عَاصِمٍ الضَّحَّاكُ بْنُ مَخْلَدٍ، عَنْ يَزِيدَ بْنِ أَبِي عُبَيْدٍ، عَنْ سَلَمَةَ بْنِ الأَكْوَعِ ـ رضى الله عنه ـ أَنَّ النَّبِيَّ صلى الله عليه وسلم رَأَى نِيرَانًا تُوقَدُ يَوْمَ خَيْبَرَ‏.‏ قَالَ ‏\"‏ عَلَى مَا تُوقَدُ هَذِهِ النِّيرَانُ ‏\"‏‏.‏ قَالُوا عَلَى الْحُمُرِ الإِنْسِيَّةِ‏.‏ قَالَ ‏\"‏ اكْسِرُوهَا، وَأَهْرِقُوهَا ‏\"‏‏.‏ قَالُوا أَلاَ نُهْرِيقُهَا وَنَغْسِلُهَا قَالَ ‏\"‏ اغْسِلُوا ‏\"‏‏.‏ قَالَ أَبُو عَبْد اللَّهِ كَانَ ابْنُ أَبِي أُوَيْسٍ يَقُولُ الْحُمُرِ الْأَنْسِيَّةِ بِنَصْبِ الْأَلِفِ وَالنُّونِ",
+      "source_hash_sha256": "09627466413d16e1bcca0e801b74b1fefe1188d74e0591f6f4be649de88f7867",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Abû ‘Âsim al-Dahhâk ibn Makhlad et Yazîd ibn Abî ‘Ubayd, d’après Salama ibn al-Akwa‘.\n\nLe Prophète aperçut des feux allumés le jour de Khaybar et demanda : « Pourquoi ces feux sont-ils allumés ? » On lui répondit : « Pour cuire des ânes domestiques. » Il dit : « Brisez les marmites et versez-en le contenu. » On demanda : « Ne pouvons-nous pas simplement les vider et les laver ? » Il répondit : « Lavez-les. » Abû ‘Abd Allâh précise qu’Ibn Abî Uways prononçait le nom des ânes domestiques avec une certaine déclinaison grammaticale.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "def696d8-894d-4c80-b89c-c5a04b541677",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2478",
+      "reference": "Sahih al-Bukhari, hadith 2478, book 46, بَابُ هَلْ تُكْسَرُ الدِّنَانُ الَّتِي فِيهَا الْخَمْرُ أَوْ تُخَرَّقُ الزِّقَاقُ",
+      "title": "بَابُ هَلْ تُكْسَرُ الدِّنَانُ الَّتِي فِيهَا الْخَمْرُ أَوْ تُخَرَّقُ الزِّقَاقُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا ابْنُ أَبِي نَجِيحٍ، عَنْ مُجَاهِدٍ، عَنْ أَبِي مَعْمَرٍ، عَنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ ـ رضى الله عنه ـ قَالَ دَخَلَ النَّبِيُّ صلى الله عليه وسلم مَكَّةَ، وَحَوْلَ الْكَعْبَةِ ثَلاَثُمِائَةٍ وَسِتُّونَ نُصُبًا فَجَعَلَ يَطْعَنُهَا بِعُودٍ فِي يَدِهِ وَجَعَلَ يَقُولُ ‏[quran sura=\"17\" aya_start=\"81\" aya_end=\"81\"]{‏جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ‏}‏ الآيَةَ‏.‏",
+      "source_hash_sha256": "0f3b2e02b73aa3e621980e3115dbb7221e1249225001cca3834ca36ff5495582",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ec7d3168-fafa-46a0-a020-7e9a153ad6cc",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2479",
+      "reference": "Sahih al-Bukhari, hadith 2479, book 46, بَابُ هَلْ تُكْسَرُ الدِّنَانُ الَّتِي فِيهَا الْخَمْرُ أَوْ تُخَرَّقُ الزِّقَاقُ",
+      "title": "بَابُ هَلْ تُكْسَرُ الدِّنَانُ الَّتِي فِيهَا الْخَمْرُ أَوْ تُخَرَّقُ الزِّقَاقُ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ الْمُنْذِرِ، حَدَّثَنَا أَنَسُ بْنُ عِيَاضٍ، عَنْ عُبَيْدِ اللَّهِ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمِ، عَنْ أَبِيهِ الْقَاسِمِ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّهَا كَانَتِ اتَّخَذَتْ عَلَى سَهْوَةٍ لَهَا سِتْرًا فِيهِ تَمَاثِيلُ، فَهَتَكَهُ النَّبِيُّ صلى الله عليه وسلم، فَاتَّخَذَتْ مِنْهُ نُمْرُقَتَيْنِ، فَكَانَتَا فِي الْبَيْتِ يَجْلِسُ عَلَيْهِمَا‏.‏",
+      "source_hash_sha256": "f025d820ef87d6a057185b63f748178e57d239a3ecf2e3e163436f38025d9ae1",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ibrâhîm ibn al-Mundhir, Anas ibn ‘Iyâd, ‘Ubayd Allâh, ‘Abd al-Rahmân ibn al-Qâsim, son père al-Qâsim, et ‘Â’isha.\n\n‘Â’isha avait installé dans une niche de sa maison un rideau décoré d’images. Le Prophète le déchira. Elle en fit ensuite deux coussins, que l’on plaça dans la maison et sur lesquels on s’asseyait.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "777d40ba-250b-4de0-a632-560487d40857",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:2480",
+      "reference": "Sahih al-Bukhari, hadith 2480, book 46, باب مَنْ قَاتَلَ دُونَ مَالِهِ",
+      "title": "باب مَنْ قَاتَلَ دُونَ مَالِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يَزِيدَ، حَدَّثَنَا سَعِيدٌ ـ هُوَ ابْنُ أَبِي أَيُّوبَ ـ قَالَ حَدَّثَنِي أَبُو الأَسْوَدِ، عَنْ عِكْرِمَةَ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو ـ رضى الله عنهما ـ قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ مَنْ قُتِلَ دُونَ مَالِهِ فَهُوَ شَهِيدٌ ‏\"‏‏.‏",
+      "source_hash_sha256": "7fa2b6ab2ee9b0b284e83c5b43c7aebc978e23d5382d404a4323f63974e34f1e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : ‘Abd Allâh ibn Yazîd, Sa‘îd — c’est-à-dire Ibn Abî Ayyûb —, Abû al-Aswad, ‘Ikrima et ‘Abd Allâh ibn ‘Amr.\n\nJ’ai entendu le Prophète dire : « Celui qui est tué en défendant ses biens est un martyr. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "def696d8-894d-4c80-b89c-c5a04b541677",
+      "reason": "This report directly quotes Quran 17:81. Keep the full report blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}

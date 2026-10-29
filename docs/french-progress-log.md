@@ -2046,3 +2046,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-426` saves six private French drafts for Bukhari 2469–2474, covering the Prophet’s month-long vow, Jâbir’s camel, road cleanliness and widths, and the prohibition on looting and mutilation.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,239 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 136. Total local hadith rows not drafted: 12,390, including held records.
+
+### 2026-10-29: Bukhari 2475–2480 source review
+
+- `FR-LIB-HAD-BUKHARI-427` saves five private French drafts for Bukhari 2475–2477 and 2479–2480. Bukhari 2478 directly quotes Quran 17:81; its full French report remains blank and Needs Mo until an approved, attributed French Quran translation is confirmed.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,244 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 137. Total local hadith rows not drafted: 12,385, including held records.
