@@ -5262,3 +5262,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1029 saves six private French drafts, including the full visit to Sa‘d ibn ‘Ubâda and the exchange in the mixed gathering.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,704 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,925, including held records.
+
+
+### 2026-10-29: Bukhari 5665–5670
+
+- FR-LIB-HAD-BUKHARI-1030 saves six private French drafts, preserving the parallel transmission chains and the narration about the writing requested near the Prophet’s final illness.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,710 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 745. Total local hadith rows not drafted: 9,919, including held records.
