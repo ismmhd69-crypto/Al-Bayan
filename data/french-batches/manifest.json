@@ -36365,6 +36365,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0355",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0355.json",
+      "sourceIds": [
+        "bde1b94a-1665-45a0-a218-061663ac64f9",
+        "f59347e1-cee0-4cf2-a210-4e03fb2a7167",
+        "dfa0c628-08fb-46e6-b746-4bac5a655a82",
+        "040c5065-01b0-4913-b50a-fd09db621038"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "focused batch validation passed; one incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -40672,8 +40691,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7744,
-  "hadithLocalRemaining": 6885,
+  "hadithLocalDrafted": 7747,
+  "hadithLocalRemaining": 6882,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -43260,10 +43279,16 @@
       "scope": "Sahih Muslim 827H: incomplete cross-reference variant",
       "status": "blocked",
       "reason": "La source ne donne qu’une variante de durée du voyage dans le récit précédent, sans en reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0355-830B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 830b: incomplete cross-reference variant",
+      "status": "blocked",
+      "reason": "La source indique que le Messager d’Allah ﷺ a prié avec eux la prière de l’après-midi, puis renvoie simplement au récit précédent sans reprendre son contenu. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant."
     }
   ],
-  "hadithMuslimDrafted": 1408,
+  "hadithMuslimDrafted": 1411,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 667
+  "hadithNeedsMo": 668
 }
