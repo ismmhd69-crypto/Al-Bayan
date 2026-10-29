@@ -8151,3 +8151,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0205 saves five private French drafts about the posture in prostration and placing an object in front during prayer. Muslim 498 quotes Quran 1:2 and remains blank pending an approved, attributed French Quran translation with permitted use. The exporter deferred one long source for a separate batch.
 - All six exported source hashes are retained; the focused validator passed. No database write or publication occurred. Counts now show 834 Muslim drafts, 7,170 total hadith drafts, 7,459 remaining, and 403 Needs Mo items.
+
+### 2026-10-29: Muslim 500a
+
+- FR-LIB-HAD-MUSLIM-0206 saves one private French draft about the object placed in front of someone praying. The exporter deferred a later long source; it will be processed alone when it becomes next in sequence.
+- The source hash is retained; the focused validator passed. No database write or publication occurred. Counts now show 835 Muslim drafts, 7,171 total hadith drafts, 7,458 remaining, and 403 Needs Mo items.

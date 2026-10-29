@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-MUSLIM-0206",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T15:29:50.425Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b7b79f88-9be2-4c1d-b08e-25bc24d440ce",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:500a",
+      "reference": "Sahih Muslim, hadith 500 a, book 4, باب سُتْرَةِ الْمُصَلِّي ‏",
+      "title": "باب سُتْرَةِ الْمُصَلِّي ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يَزِيدَ، أَخْبَرَنَا سَعِيدُ بْنُ أَبِي أَيُّوبَ، عَنْ أَبِي الأَسْوَدِ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، أَنَّهَا قَالَتْ سُئِلَ رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ سُتْرَةِ الْمُصَلِّي فَقَالَ ‏\"‏ مِثْلُ مُؤْخِرَةِ الرَّحْلِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "d4f586bedeadafdb7e65b169b687cfd3177d634afc1ee9ae36a2878c9c43099d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Zuhayr ibn Harb nous a rapporté : Abdullah ibn Yazid nous a rapporté : Sa‘id ibn Abi Ayyub nous a informés, d’après Abu al-Aswad, d’après Urwa, d’après Aïcha, qui dit : « On interrogea le Messager d’Allah ﷺ au sujet de l’objet placé devant celui qui prie. Il répondit : “Quelque chose de la taille de l’arrière d’une selle.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}
