@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-673",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:46:49.554Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "3cf4f449-133c-4502-a104-4a508ac8ac54",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3808",
+      "reference": "Sahih al-Bukhari, hadith 3808, book 63, باب مَنَاقِبُ أُبَىِّ بْنِ كَعْبٍ رضى الله عنه",
+      "title": "باب مَنَاقِبُ أُبَىِّ بْنِ كَعْبٍ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو الْوَلِيدِ، حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ مُرَّةَ، عَنْ إِبْرَاهِيمَ، عَنْ مَسْرُوقٍ، قَالَ ذُكِرَ عَبْدُ اللَّهِ بْنُ مَسْعُودٍ عِنْدَ عَبْدِ اللَّهِ بْنِ عَمْرٍو فَقَالَ ذَاكَ رَجُلٌ لاَ أَزَالُ أُحِبُّهُ، سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ ‏\"‏ خُذُوا الْقُرْآنَ مِنْ أَرْبَعَةٍ مِنْ عَبْدِ اللَّهِ بْنِ مَسْعُودٍ ـ فَبَدَأَ بِهِ ـ وَسَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ، وَمُعَاذِ بْنِ جَبَلٍ، وَأُبَىِّ بْنِ كَعْبٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "b61f8d55b3eac209272c8c924a9b6cce4e7b27759afb9ab68af1646914dacfbc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Masrûq rapporte que l’on parla de ‘Abd Allâh ibn Mas‘ûd devant ‘Abd Allâh ibn ‘Amr. Celui-ci dit : « C’est un homme que je ne cesserai d’aimer. J’ai entendu le Prophète dire : “Recevez le Coran de quatre personnes : ‘Abd Allâh ibn Mas‘ûd — qu’il nomma en premier —, Sâlim, l’affranchi d’Abû Hudhayfa, Mu‘âdh ibn Jabal et Ubayy ibn Ka‘b.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "544d9a40-55ca-4a54-9e8b-069f536e43b5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3809",
+      "reference": "Sahih al-Bukhari, hadith 3809, book 63, باب مَنَاقِبُ أُبَىِّ بْنِ كَعْبٍ رضى الله عنه",
+      "title": "باب مَنَاقِبُ أُبَىِّ بْنِ كَعْبٍ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا غُنْدَرٌ، قَالَ سَمِعْتُ شُعْبَةَ، سَمِعْتُ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ ـ رضى الله عنه ـ قَالَ النَّبِيُّ صلى الله عليه وسلم لِأُبَيٍّ ‏\"‏ إِنَّ اللَّهَ أَمَرَنِي أَنْ أَقْرَأَ عَلَيْكَ ‏[quran sura=\"98\" aya_start=\"1\" aya_end=\"1\"]{‏لَمْ يَكُنِ الَّذِينَ كَفَرُوا‏}‏ ‏\"‏‏.‏ قَالَ وَسَمَّانِي قَالَ ‏\"‏ نَعَمْ ‏\"‏ فَبَكَى‏.‏",
+      "source_hash_sha256": "a69c14f372c9cc5db81eb47ae5b5b7ae35c92787f6e7f5db58db3d4e82423bca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "430da8c2-2253-4d73-b423-f80fb3ba90f3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3810",
+      "reference": "Sahih al-Bukhari, hadith 3810, book 63, باب مَنَاقِبُ زَيْدِ بْنِ ثَابِتٍ رضى الله عنه",
+      "title": "باب مَنَاقِبُ زَيْدِ بْنِ ثَابِتٍ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا يَحْيَى، حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ جَمَعَ الْقُرْآنَ عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم أَرْبَعَةٌ، كُلُّهُمْ مِنَ الأَنْصَارِ أُبَىٌّ، وَمُعَاذُ بْنُ جَبَلٍ، وَأَبُو زَيْدٍ، وَزَيْدُ بْنُ ثَابِتٍ‏.‏ قُلْتُ لأَنَسِ مَنْ أَبُو زَيْدٍ قَالَ أَحَدُ عُمُومَتِي‏.‏",
+      "source_hash_sha256": "788c7a80d0e0dddad7be93b55653e0da8c8cb53f191359028f46202034792ada",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte que quatre hommes parmi les Ansâr avaient appris le Coran à l’époque du Prophète : Ubayy, Mu‘âdh ibn Jabal, Abû Zayd et Zayd ibn Thâbit. Je demandai à Anas : « Qui était Abû Zayd ? » Il répondit : « L’un de mes oncles. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "67fc4970-e0cd-4c81-bec1-e7585bece917",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3811",
+      "reference": "Sahih al-Bukhari, hadith 3811, book 63, باب مَنَاقِبُ أَبِي طَلْحَةَ رضى الله عنه",
+      "title": "باب مَنَاقِبُ أَبِي طَلْحَةَ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، عَنْ أَنَسٍ ـ رضى الله عنه ـ قَالَ لَمَّا كَانَ يَوْمُ أُحُدٍ انْهَزَمَ النَّاسُ عَنِ النَّبِيِّ صلى الله عليه وسلم وَأَبُو طَلْحَةَ بَيْنَ يَدَىِ النَّبِيِّ صلى الله عليه وسلم مُجَوِّبٌ بِهِ عَلَيْهِ بِحَجَفَةٍ لَهُ، وَكَانَ أَبُو طَلْحَةَ رَجُلاً رَامِيًا شَدِيدَ الْقِدِّ، يَكْسِرُ يَوْمَئِذٍ قَوْسَيْنِ أَوْ ثَلاَثًا، وَكَانَ الرَّجُلُ يَمُرُّ مَعَهُ الْجَعْبَةُ مِنَ النَّبْلِ فَيَقُولُ انْشُرْهَا لأَبِي طَلْحَةَ‏.‏ فَأَشْرَفَ النَّبِيُّ صلى الله عليه وسلم يَنْظُرُ إِلَى الْقَوْمِ، فَيَقُولُ أَبُو طَلْحَةَ يَا نَبِيَّ اللَّهِ بِأَبِي أَنْتَ وَأُمِّي، لاَ تُشْرِفْ يُصِيبُكَ سَهْمٌ مِنْ سِهَامِ الْقَوْمِ، نَحْرِي دُونَ نَحْرِكَ‏.‏ وَلَقَدْ رَأَيْتُ عَائِشَةَ بِنْتَ أَبِي بَكْرٍ وَأُمَّ سُلَيْمٍ وَإِنَّهُمَا لَمُشَمِّرَتَانِ، أَرَى خَدَمَ سُوقِهِمَا، تُنْقِزَانِ الْقِرَبَ عَلَى مُتُونِهِمَا، تُفْرِغَانِهِ فِي أَفْوَاهِ الْقَوْمِ، ثُمَّ تَرْجِعَانِ فَتَمْلآنِهَا، ثُمَّ تَجِيآنِ فَتُفْرِغَانِهِ فِي أَفْوَاهِ الْقَوْمِ، وَلَقَدْ وَقَعَ السَّيْفُ مِنْ يَدَىْ أَبِي طَلْحَةَ إِمَّا مَرَّتَيْنِ، وَإِمَّا ثَلاَثًا‏.‏",
+      "source_hash_sha256": "051f685f09259e6e3a9616da0acf93864d77d1436508ce2a647f24fcc603c12e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Anas rapporte qu’au jour d’Uhud, les gens s’éloignèrent du Prophète, tandis qu’Abû Talha se tenait devant lui en le protégeant avec son bouclier. Abû Talha était un archer habile et vigoureux. Ce jour-là, il brisa deux ou trois arcs. Chaque homme qui passait avec un carquois de flèches lui disait : « Étale-les pour Abû Talha. » Le Prophète se pencha pour regarder les gens. Abû Talha lui dit : « Que mon père et ma mère soient sacrifiés pour toi, ô Prophète de Dieu ! Ne te penche pas, de peur qu’une flèche ennemie ne t’atteigne. Ma poitrine est devant la tienne. » J’ai vu ‘Â’isha, fille d’Abû Bakr, et Umm Sulaym, les vêtements retroussés jusqu’aux jambes, portant des outres sur leur dos et versant de l’eau dans la bouche des combattants. Elles retournaient les remplir et revenaient leur en donner. L’épée d’Abû Talha lui échappa des mains deux ou trois fois.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bff8ab85-5ba1-4a71-95f9-6e69310a6a17",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3812",
+      "reference": "Sahih al-Bukhari, hadith 3812, book 63, باب مَنَاقِبُ عَبْدِ اللَّهِ بْنِ سَلاَمٍ رضى الله عنه",
+      "title": "باب مَنَاقِبُ عَبْدِ اللَّهِ بْنِ سَلاَمٍ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ سَمِعْتُ مَالِكًا، يُحَدِّثُ عَنْ أَبِي النَّضْرِ، مَوْلَى عُمَرَ بْنِ عُبَيْدِ اللَّهِ عَنْ عَامِرِ بْنِ سَعْدِ بْنِ أَبِي وَقَّاصٍ، عَنْ أَبِيهِ، قَالَ مَا سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقُولُ لأَحَدٍ يَمْشِي عَلَى الأَرْضِ إِنَّهُ مِنْ أَهْلِ الْجَنَّةِ‏.‏ إِلاَّ لِعَبْدِ اللَّهِ بْنِ سَلاَمٍ قَالَ وَفِيهِ نَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"46\" aya_start=\"10\" aya_end=\"10\"]{‏وَشَهِدَ شَاهِدٌ مِنْ بَنِي إِسْرَائِيلَ‏}‏ الآيَةَ‏.‏ قَالَ لاَ أَدْرِي قَالَ مَالِكٌ الآيَةَ أَوْ فِي الْحَدِيثِ‏.‏",
+      "source_hash_sha256": "72d2db8dae155e6c08326abbf23a5ea02a5589a7363debdb148871452fcc0e68",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "f9df27c8-084a-4519-aae8-ae5666b5e44b",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3813",
+      "reference": "Sahih al-Bukhari, hadith 3813, book 63, باب مَنَاقِبُ عَبْدِ اللَّهِ بْنِ سَلاَمٍ رضى الله عنه",
+      "title": "باب مَنَاقِبُ عَبْدِ اللَّهِ بْنِ سَلاَمٍ رضى الله عنه",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ، حَدَّثَنَا أَزْهَرُ السَّمَّانُ، عَنِ ابْنِ عَوْنٍ، عَنْ مُحَمَّدٍ، عَنْ قَيْسِ بْنِ عُبَادٍ، قَالَ كُنْتُ جَالِسًا فِي مَسْجِدِ الْمَدِينَةِ، فَدَخَلَ رَجُلٌ عَلَى وَجْهِهِ أَثَرُ الْخُشُوعِ، فَقَالُوا هَذَا رَجُلٌ مِنْ أَهْلِ الْجَنَّةِ‏.‏ فَصَلَّى رَكْعَتَيْنِ تَجَوَّزَ فِيهِمَا ثُمَّ خَرَجَ، وَتَبِعْتُهُ فَقُلْتُ إِنَّكَ حِينَ دَخَلْتَ الْمَسْجِدَ قَالُوا هَذَا رَجُلٌ مِنْ أَهْلِ الْجَنَّةِ‏.‏ قَالَ وَاللَّهِ مَا يَنْبَغِي لأَحَدٍ أَنْ يَقُولَ مَا لاَ يَعْلَمُ وَسَأُحَدِّثُكَ لِمَ ذَاكَ رَأَيْتُ رُؤْيَا عَلَى عَهْدِ النَّبِيِّ صلى الله عليه وسلم فَقَصَصْتُهَا عَلَيْهِ، وَرَأَيْتُ كَأَنِّي فِي رَوْضَةٍ ـ ذَكَرَ مِنْ سَعَتِهَا وَخُضْرَتِهَا ـ وَسْطَهَا عَمُودٌ مِنْ حَدِيدٍ، أَسْفَلُهُ فِي الأَرْضِ وَأَعْلاَهُ فِي السَّمَاءِ، فِي أَعْلاَهُ عُرْوَةٌ فَقِيلَ لَهُ ارْقَهْ‏.‏ قُلْتُ لاَ أَسْتَطِيعُ‏.‏ فَأَتَانِي مِنْصَفٌ فَرَفَعَ ثِيَابِي مِنْ خَلْفِي، فَرَقِيتُ حَتَّى كُنْتُ فِي أَعْلاَهَا، فَأَخَذْتُ بِالْعُرْوَةِ، فَقِيلَ لَهُ اسْتَمْسِكْ‏.‏ فَاسْتَيْقَظْتُ وَإِنَّهَا لَفِي يَدِي، فَقَصَصْتُهَا عَلَى النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ تِلْكَ الرَّوْضَةُ الإِسْلاَمُ، وَذَلِكَ الْعَمُودُ عَمُودُ الإِسْلاَمِ، وَتِلْكَ الْعُرْوَةُ عُرْوَةُ الْوُثْقَى، فَأَنْتَ عَلَى الإِسْلاَمِ حَتَّى تَمُوتَ ‏\"‏‏.‏ وَذَاكَ الرَّجُلُ عَبْدُ اللَّهِ بْنُ سَلاَمٍ‏.‏ وَقَالَ لِي خَلِيفَةُ حَدَّثَنَا مُعَاذٌ، حَدَّثَنَا ابْنُ عَوْنٍ، عَنْ مُحَمَّدٍ، حَدَّثَنَا قَيْسُ بْنُ عُبَادٍ، عَنِ ابْنِ سَلاَمٍ، قَالَ وَصِيفٌ مَكَانَ مِنْصَفٌ‏.‏",
+      "source_hash_sha256": "a42fbaffe0633d5363f80acc91e7ccf96a0e2fabd98ff301f3ba9ffb71510ba7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qays ibn ‘Abbâd rapporte qu’il était assis dans la mosquée de Médine lorsqu’un homme au visage empreint de recueillement entra. Les gens dirent : « Voici un homme du Paradis. » Il pria brièvement deux unités, puis sortit. Je le suivis et lui dis : « Quand tu es entré dans la mosquée, les gens ont dit que tu étais un homme du Paradis. » Il répondit : « Par Dieu, nul ne devrait affirmer ce qu’il ne sait pas. Je vais t’expliquer pourquoi ils ont dit cela. À l’époque du Prophète, j’ai fait un rêve que je lui ai raconté. Je me voyais dans un jardin vaste et verdoyant, au milieu duquel se dressait une colonne de fer, dont le pied était dans la terre et le sommet dans le ciel. À son sommet se trouvait une poignée. On me dit : “Monte.” Je répondis : “Je ne peux pas.” Un serviteur vint alors, souleva mes vêtements par-derrière, et je grimpai jusqu’en haut. Je saisis la poignée et l’on me dit : “Tiens-la fermement.” Je me réveillai alors qu’elle était encore dans ma main. Je racontai ce rêve au Prophète, qui dit : “Ce jardin, c’est l’islam ; cette colonne, c’est la colonne de l’islam ; et cette poignée, c’est l’attache la plus solide. Tu demeureras dans l’islam jusqu’à ta mort.” » Cet homme était ‘Abd Allâh ibn Salâm. Une autre transmission rapporte que le mot utilisé était « serviteur » plutôt que « aide ».",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "544d9a40-55ca-4a54-9e8b-069f536e43b5",
+      "url": "https://sunnah.com/bukhari:3809",
+      "reason": "The report quotes Quran 98:1. No approved, attributed French Quran translation has been confirmed. The complete hadith is held blank rather than creating unapproved French Quran wording."
+    },
+    {
+      "source_id": "bff8ab85-5ba1-4a71-95f9-6e69310a6a17",
+      "url": "https://sunnah.com/bukhari:3812",
+      "reason": "The report quotes Quran 46:10. No approved, attributed French Quran translation has been confirmed. The complete hadith is held blank rather than creating unapproved French Quran wording."
+    }
+  ]
+}

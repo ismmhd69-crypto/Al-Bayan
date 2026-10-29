@@ -3276,3 +3276,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-672` saves six private French drafts about Sa‘d ibn Mu‘âdh, the Ansâr and Mu‘âdh ibn Jabal.
 - All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,392 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 247. Total local hadith rows not drafted: 11,265, including held records.
+
+### 2026-10-29: Bukhari 3808–3813
+
+- `FR-LIB-HAD-BUKHARI-673` saves four private French drafts about Ubayy ibn Ka‘b, Zayd ibn Thâbit, Abû Talha and ‘Abd Allâh ibn Salâm. Bukhari 3809 and 3812 remain blank because they quote Quran 98:1 and 46:10; no approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including both Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,396 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 249. Total local hadith rows not drafted: 11,261, including held records.
