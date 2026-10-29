@@ -5566,3 +5566,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1084 saves the deferred long report as one private French draft, retaining all three men’s accounts and the events in the cave.
 - The record passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,991 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 753. Total local hadith rows not drafted: 9,638, including held records.
+
+### 2026-10-29: Bukhari 5975–5980
+
+- FR-LIB-HAD-BUKHARI-1085 saves five private French drafts about parents and family ties. Bukhari 5978 is held blank because it directly quotes Quran 60:8.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 4,996 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 754. Total local hadith rows not drafted: 9,633, including held records.

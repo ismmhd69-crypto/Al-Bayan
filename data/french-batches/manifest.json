@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4997,
+    "hadithBukhariDrafted": 5002,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4997,
+    "hadithLocalDrafted": 5002,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9632,
-    "hadithNeedsMo": 753,
+    "hadithLocalRemaining": 9627,
+    "hadithNeedsMo": 754,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23141,6 +23141,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1085",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1085.json",
+      "sourceIds": [
+        "a5b4b221-bbd7-4f5b-a8e9-417c38f1270f",
+        "6747a901-66ce-41d1-919c-7cf42d3ff179",
+        "48f9d39d-a706-4fe1-b2b2-c0bfa4b1994f",
+        "c4b638b5-48f6-464e-8603-483e654314f7",
+        "00230c87-3836-4de9-8858-41a72e3f4cbf",
+        "624ca264-f816-441d-a68f-dc2169acd2be"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one direct Quran quotation held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26226,6 +26247,12 @@
       "scope": "Sahih al-Bukhari 5956: excerpt begins with a continuation and omits its narrator and context",
       "status": "blocked",
       "reason": "The exported source is only a continuation fragment. Keep the item blank until the complete report is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5978-QURAN-60-8",
+      "scope": "Sahih al-Bukhari 5978 direct quotation of Quran 60:8",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 60:8. Keep the complete item blank pending an approved attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }
