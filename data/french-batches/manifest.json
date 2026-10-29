@@ -42467,6 +42467,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0652",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0652.json",
+      "sourceIds": [
+        "497e035a-0423-4718-8464-cde8e218ecc4",
+        "ca8811f8-fb9e-4e02-9b5b-6031213dad1a",
+        "e3fa52f3-86ef-4f52-a512-3fd85dc404b0",
+        "1ccd80cf-c945-4ff7-9f3d-2aeec893408e",
+        "5de71884-0234-43a4-998c-98f78730ff60",
+        "39166ab1-2dad-494f-a72f-e0236257eabe"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: six records; Arabic originals and hashes, IDs, three private unpublished drafts, three incomplete cross-reference variants held blank under Needs Mo, rights flags, and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -46774,8 +46795,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8929,
-  "hadithLocalRemaining": 5700,
+  "hadithLocalDrafted": 8932,
+  "hadithLocalRemaining": 5697,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -50962,10 +50983,25 @@
       "source_id": "42c67c7d-69a6-463a-a088-be3a0f0cf834",
       "reason": "Cette entrée renvoie au récit précédent sur la ghila et le coït interrompu et ne fournit qu’une variante de terme. Garder toute la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "ca8811f8-fb9e-4e02-9b5b-6031213dad1a",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie uniquement à la version précédente de Hisham ibn Urwa. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "1ccd80cf-c945-4ff7-9f3d-2aeec893408e",
+      "reason": "Cette entrée renvoie au sens du récit de Malik et n’ajoute qu’une question et une réponse de formulation, sans reproduire le récit complet. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "39166ab1-2dad-494f-a72f-e0236257eabe",
+      "reason": "Cette entrée décrit seulement une version abrégée par renvoi à un récit antérieur, avec une précision sur le lien de parenté de lait. Garder toute la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2593,
+  "hadithMuslimDrafted": 2596,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1130
+  "hadithNeedsMo": 1133
 }

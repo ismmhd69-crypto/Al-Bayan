@@ -1,0 +1,172 @@
+{
+  "batch_id": "HADITH-MUSLIM-0652",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T18:39:22.029Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "497e035a-0423-4718-8464-cde8e218ecc4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1444b",
+      "reference": "Sahih Muslim, hadith 1444 b, book 17, باب يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ الْوِلاَدَةِ ‏",
+      "title": "باب يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ الْوِلاَدَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، حَدَّثَنَا أَبُو أُسَامَةَ، ح وَحَدَّثَنِي أَبُو مَعْمَرٍ، إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ الْهُذَلِيُّ حَدَّثَنَا عَلِيُّ بْنُ هَاشِمِ بْنِ الْبَرِيدِ، جَمِيعًا عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي، بَكْرٍ عَنْ عَمْرَةَ، عَنْ عَائِشَةَ، قَالَتْ قَالَ لِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ الْوِلاَدَةِ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "2481f7c4de2cc13ce143ca7dbe2b9855a490a0a7289edd2bc76cabd3a87f9d72",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte que le Messager d’Allah lui dit : « L’allaitement crée les mêmes interdictions que la filiation. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ca8811f8-fb9e-4e02-9b5b-6031213dad1a",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1444c",
+      "reference": "Sahih Muslim, hadith 1444 c, book 17, باب يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ الْوِلاَدَةِ ‏",
+      "title": "باب يَحْرُمُ مِنَ الرَّضَاعَةِ مَا يَحْرُمُ مِنَ الْوِلاَدَةِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِيهِ إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي عَبْدُ اللَّهِ بْنُ أَبِي بَكْرٍ، بِهَذَا الإِسْنَادِ ‏.‏ مِثْلَ حَدِيثِ هِشَامِ بْنِ عُرْوَةَ ‏.‏",
+      "source_hash_sha256": "f0776187e060b64a631598c7c5306e3d4876ee6a23ecbb1c8eab03da2e259311",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e3fa52f3-86ef-4f52-a512-3fd85dc404b0",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1445a",
+      "reference": "Sahih Muslim, hadith 1445 a, book 17, باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "title": "باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ يَحْيَى، قَالَ قَرَأْتُ عَلَى مَالِكٍ عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، أَنَّهَا أَخْبَرَتْهُ أَنَّ أَفْلَحَ - أَخَا أَبِي الْقُعَيْسِ - جَاءَ يَسْتَأْذِنُ عَلَيْهَا وَهُوَ عَمُّهَا مِنَ الرَّضَاعَةِ بَعْدَ أَنْ أُنْزِلَ الْحِجَابُ قَالَتْ فَأَبَيْتُ أَنْ آذَنَ لَهُ فَلَمَّا جَاءَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَخْبَرْتُهُ بِالَّذِي صَنَعْتُ فَأَمَرَنِي أَنْ آذَنَ لَهُ عَلَىَّ ‏.‏",
+      "source_hash_sha256": "4a59e888c876f8d0c453adb439f05c654fb804e6bea40ee2734b7a4ca0fd60c7",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte qu’Aflah, le frère d’Abu al-Qays et son oncle de lait, vint lui demander la permission d’entrer après la révélation du voile. Elle refusa de l’autoriser. Lorsque le Messager d’Allah arriva, elle lui raconta ce qu’elle avait fait et il lui ordonna de laisser Aflah entrer auprès d’elle.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1ccd80cf-c945-4ff7-9f3d-2aeec893408e",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1445b",
+      "reference": "Sahih Muslim, hadith 1445 b, book 17, باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "title": "باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، قَالَتْ أَتَانِي عَمِّي مِنَ الرَّضَاعَةِ أَفْلَحُ بْنُ أَبِي قُعَيْسٍ ‏.‏ فَذَكَرَ بِمَعْنَى حَدِيثِ مَالِكٍ وَزَادَ قُلْتُ إِنَّمَا أَرْضَعَتْنِي الْمَرْأَةُ وَلَمْ يُرْضِعْنِي الرَّجُلُ قَالَ ‏\"‏ تَرِبَتْ يَدَاكِ أَوْ يَمِينُكِ‏\"‏ ‏.‏",
+      "source_hash_sha256": "ced44113cb01b61b636296949a1f526899e018e82c299c11a1791c2a3b6b46a4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5de71884-0234-43a4-998c-98f78730ff60",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1445c",
+      "reference": "Sahih Muslim, hadith 1445 c, book 17, باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "title": "باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنِي حَرْمَلَةُ بْنُ يَحْيَى، حَدَّثَنَا ابْنُ وَهْبٍ، أَخْبَرَنِي يُونُسُ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ، أَخْبَرَتْهُ أَنَّهُ، جَاءَ أَفْلَحُ أَخُو أَبِي الْقُعَيْسِ يَسْتَأْذِنُ عَلَيْهَا بَعْدَ مَا نَزَلَ الْحِجَابُ - وَكَانَ أَبُو الْقُعَيْسِ أَبَا عَائِشَةَ مِنَ الرَّضَاعَةِ - قَالَتْ عَائِشَةُ فَقُلْتُ وَاللَّهِ لاَ آذَنُ لأَفْلَحَ حَتَّى أَسْتَأْذِنَ رَسُولَ اللَّهِ صلى الله عليه وسلم فَإِنَّ أَبَا الْقُعَيْسِ لَيْسَ هُوَ أَرْضَعَنِي وَلَكِنْ أَرْضَعَتْنِي امْرَأَتُهُ - قَالَتْ عَائِشَةُ - فَلَمَّا دَخَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم قُلْتُ يَا رَسُولَ اللَّهِ إِنَّ أَفْلَحَ أَخَا أَبِي الْقُعَيْسِ جَاءَنِي يَسْتَأْذِنُ عَلَىَّ فَكَرِهْتُ أَنْ آذَنَ لَهُ حَتَّى أَسْتَأْذِنَكَ - قَالَتْ - فَقَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ ائْذَنِي لَهُ ‏\"‏ ‏.‏ قَالَ عُرْوَةُ فَبِذَلِكَ كَانَتْ عَائِشَةُ تَقُولُ حَرِّمُوا مِنَ الرَّضَاعَةِ مَا تُحَرِّمُونَ مِنَ النَّسَبِ ‏.‏",
+      "source_hash_sha256": "458406d22cb81d33dfb9be41f6f4241f50da88ec76d4fb464a0a8e288047bc89",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Aïcha rapporte qu’Aflah, le frère d’Abu al-Qays, vint lui demander la permission d’entrer après la révélation du voile. Abu al-Qays était le père de lait d’Aïcha. Elle dit : « Par Allah, je ne laisserai pas Aflah entrer avant d’avoir demandé la permission au Messager d’Allah. Abu al-Qays ne m’a pas allaitée ; c’est son épouse qui l’a fait. » Lorsque le Messager d’Allah entra, elle lui expliqua qu’Aflah était venu et qu’elle avait attendu son autorisation. Le Prophète dit : « Laisse-le entrer. » Urwa rapporte que c’est pour cette raison qu’Aïcha disait : « Considérez comme interdit par l’allaitement ce qui l’est par la parenté. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "39166ab1-2dad-494f-a72f-e0236257eabe",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:1445d",
+      "reference": "Sahih Muslim, hadith 1445 d, book 17, باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "title": "باب تَحْرِيمِ الرَّضَاعَةِ مِنْ مَاءِ الْفَحْلِ ‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ عَبْدُ بْنُ حُمَيْدٍ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، بِهَذَا الإِسْنَادِ جَاءَ أَفْلَحُ أَخُو أَبِي الْقُعَيْسِ يَسْتَأْذِنُ عَلَيْهَا ‏.‏ بِنَحْوِ حَدِيثِهِمْ وَفِيهِ ‏\"‏ فَإِنَّهُ عَمُّكِ تَرِبَتْ يَمِينُكِ ‏\"‏ ‏.‏ وَكَانَ أَبُو الْقُعَيْسِ زَوْجَ الْمَرْأَةِ الَّتِي أَرْضَعَتْ عَائِشَةَ ‏.‏",
+      "source_hash_sha256": "93bac2c65145b823ef814687e2a02b82e2e341d4dfb0c70292a0c4cbea5e4eb9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "ca8811f8-fb9e-4e02-9b5b-6031213dad1a",
+      "reason": "Cette entrée ne reproduit pas le récit et renvoie uniquement à la version précédente de Hisham ibn Urwa. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "1ccd80cf-c945-4ff7-9f3d-2aeec893408e",
+      "reason": "Cette entrée renvoie au sens du récit de Malik et n’ajoute qu’une question et une réponse de formulation, sans reproduire le récit complet. Garder la traduction française vide jusqu’à validation de la source complète."
+    },
+    {
+      "source_id": "39166ab1-2dad-494f-a72f-e0236257eabe",
+      "reason": "Cette entrée décrit seulement une version abrégée par renvoi à un récit antérieur, avec une précision sur le lien de parenté de lait. Garder toute la traduction française vide jusqu’à validation de la source complète."
+    }
+  ]
+}
