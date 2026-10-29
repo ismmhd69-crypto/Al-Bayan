@@ -18655,6 +18655,22 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-866",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-866.json",
+      "sourceIds": [
+        "8104a4a8-6507-4418-a9ca-aabf0c46716d"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic original and hash, ID, reference, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -20289,6 +20305,12 @@
       "scope": "Sahih al-Bukhari 4749: direct Quran quotation from 24:11",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 24:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-865, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4750-QURAN-LONG-12-18-24-11",
+      "scope": "Sahih al-Bukhari 4750: very long report with direct Quran quotations from 12:18 and 24:11",
+      "status": "blocked",
+      "reason": "Hadith 4750 est un rapport très long qui cite directement Quran 12:18 et 24:11. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-866, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4023,
