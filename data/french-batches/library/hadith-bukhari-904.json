@@ -1,0 +1,190 @@
+{
+  "batch_id": "HADITH-BUKHARI-904",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T09:42:22.641Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "c48aea76-4459-4608-9ab3-6b7708efbfb8",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4943",
+      "reference": "Sahih al-Bukhari, hadith 4943, book 65, باب ‏ {‏وَالنَّهَارِ إِذَا تَجَلَّى‏} ‏",
+      "title": "باب ‏ {‏وَالنَّهَارِ إِذَا تَجَلَّى‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قَبِيصَةُ بْنُ عُقْبَةَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ، عَنْ عَلْقَمَةَ، قَالَ دَخَلْتُ فِي نَفَرٍ مِنْ أَصْحَابِ عَبْدِ اللَّهِ الشَّأْمَ فَسَمِعَ بِنَا أَبُو الدَّرْدَاءِ فَأَتَانَا فَقَالَ أَفِيكُمْ مَنْ يَقْرَأُ فَقُلْنَا نَعَمْ‏.‏ قَالَ فَأَيُّكُمْ أَقْرَأُ فَأَشَارُوا إِلَىَّ فَقَالَ اقْرَأْ‏.‏ فَقَرَأْتُ ‏{‏وَاللَّيْلِ إِذَا يَغْشَى * وَالنَّهَارِ إِذَا تَجَلَّى * وَالذَّكَرِ وَالأُنْثَى‏}‏‏.‏ قَالَ أَنْتَ سَمِعْتَهَا مِنْ فِي صَاحِبِكَ قُلْتُ نَعَمْ‏.‏ قَالَ وَأَنَا سَمِعْتُهَا مِنْ فِي النَّبِيِّ صلى الله عليه وسلم وَهَؤُلاَءِ يَأْبَوْنَ عَلَيْنَا‏.‏",
+      "source_hash_sha256": "181b7c1baaf5ba0fab9e52644372165e5e1a1311b68cbc7f6610a1532d30a9c4",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "6eef03fc-6f4f-4e2a-84c0-361158640d0e",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4944",
+      "reference": "Sahih al-Bukhari, hadith 4944, book 65, باب ‏ {‏وَمَا خَلَقَ الذَّكَرَ وَالأُنْثَى‏} ‏",
+      "title": "باب ‏ {‏وَمَا خَلَقَ الذَّكَرَ وَالأُنْثَى‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُمَرُ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، عَنْ إِبْرَاهِيمَ، قَالَ قَدِمَ أَصْحَابُ عَبْدِ اللَّهِ عَلَى أَبِي الدَّرْدَاءِ فَطَلَبَهُمْ فَوَجَدَهُمْ فَقَالَ أَيُّكُمْ يَقْرَأُ عَلَى قِرَاءَةِ عَبْدِ اللَّهِ قَالَ كُلُّنَا‏.‏ قَالَ فَأَيُّكُمْ يَحْفَظُ وَأَشَارُوا إِلَى عَلْقَمَةَ‏.‏ قَالَ كَيْفَ سَمِعْتَهُ يَقْرَأُ ‏[quran sura=\"92\" aya_start=\"1\" aya_end=\"1\"]{‏وَاللَّيْلِ إِذَا يَغْشَى‏}‏‏.‏ قَالَ عَلْقَمَةُ ‏{‏وَالذَّكَرِ وَالأُنْثَى‏}‏‏.‏ قَالَ أَشْهَدُ أَنِّي سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ هَكَذَا، وَهَؤُلاَءِ يُرِيدُونِي عَلَى أَنْ أَقْرَأَ ‏[quran sura=\"92\" aya_start=\"3\" aya_end=\"3\"]{‏وَمَا خَلَقَ الذَّكَرَ وَالأُنْثَى‏}‏ وَاللَّهِ لاَ أُتَابِعُهُمْ‏.‏",
+      "source_hash_sha256": "be3b0a0f91fb9a5d8768dc5b5ffea481974b32e1f45d8f90b3f7bbbdb20704e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4cd6deb2-2a64-4ae9-9889-11454c4178c3",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4945",
+      "reference": "Sahih al-Bukhari, hadith 4945, book 65, باب قَوْلُهُ ‏ {‏فَأَمَّا مَنْ أَعْطَى وَاتَّقَى‏} ‏",
+      "title": "باب قَوْلُهُ ‏ {‏فَأَمَّا مَنْ أَعْطَى وَاتَّقَى‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو نُعَيْمٍ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ السُّلَمِيِّ، عَنْ عَلِيٍّ ـ رضى الله عنه ـ قَالَ كُنَّا مَعَ النَّبِيِّ صلى الله عليه وسلم فِي بَقِيعِ الْغَرْقَدِ فِي جَنَازَةٍ فَقَالَ ‏\"‏ مَا مِنْكُمْ مِنْ أَحَدٍ إِلاَّ وَقَدْ كُتِبَ مَقْعَدُهُ مِنَ الْجَنَّةِ وَمَقْعَدُهُ مِنَ النَّارِ ‏\"‏‏.‏ فَقَالُوا يَا رَسُولَ اللَّهِ أَفَلاَ نَتَّكِلُ فَقَالَ ‏\"‏ اعْمَلُوا فَكُلٌّ مُيَسَّرٌ ‏\"‏‏.‏ ثُمَّ قَرَأَ ‏[quran sura=\"92\" aya_start=\"5\" aya_end=\"6\"]{‏فَأَمَّا مَنْ أَعْطَى وَاتَّقَى * وَصَدَّقَ بِالْحُسْنَى‏}‏ إِلَى قَوْلِهِ ‏{‏لِلْعُسْرَى‏}‏",
+      "source_hash_sha256": "c6577b646fd7ae9e27caa1336acfed57b4cc1acadfed76f19eb32cae3020d14f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "7c97fe4c-127a-49b8-be2e-c4efff76e7a0",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4945b",
+      "reference": "Sahih al-Bukhari, hadith 4945b, book 65, بَابُ: {وَصَدَّقَ بِالْحُسْنَى}",
+      "title": "بَابُ: {وَصَدَّقَ بِالْحُسْنَى}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عَبْدُ الْوَاحِدِ، حَدَّثَنَا الأَعْمَشُ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ عَلِيٍّ ـ رضى الله عنه ـ قَالَ كُنَّا قُعُودًا عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ‏.‏",
+      "source_hash_sha256": "27fa51c61ed88c1293f3fbe9f7fa124e9b373b0d647f9338a4a3033821b2d8ae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_incomplete_source",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "faa8ef86-d0ca-40a6-bb05-004929246145",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4946",
+      "reference": "Sahih al-Bukhari, hadith 4946, book 65, باب ‏ {‏فَسَنُيَسِّرُهُ لِلْيُسْرَى‏} ‏",
+      "title": "باب ‏ {‏فَسَنُيَسِّرُهُ لِلْيُسْرَى‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا بِشْرُ بْنُ خَالِدٍ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ سُلَيْمَانَ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ السُّلَمِيِّ، عَنْ عَلِيٍّ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم‏.‏ أَنَّهُ كَانَ فِي جَنَازَةٍ فَأَخَذَ عُودًا يَنْكُتُ فِي الأَرْضِ فَقَالَ ‏\"‏ مَا مِنْكُمْ مِنْ أَحَدٍ إِلاَّ وَقَدْ كُتِبَ مَقْعَدُهُ مِنَ النَّارِ أَوْ مِنَ الْجَنَّةِ ‏\"‏‏.‏ قَالُوا يَا رَسُولَ اللَّهِ أَفَلاَ نَتَّكِلُ قَالَ ‏\"‏ اعْمَلُوا فَكُلٌّ مُيَسَّرٌ ‏[quran sura=\"92\" aya_start=\"5\" aya_end=\"6\"]{‏فَأَمَّا مَنْ أَعْطَى وَاتَّقَى * وَصَدَّقَ بِالْحُسْنَى‏}‏ الآيَةَ‏.‏ قَالَ شُعْبَةُ وَحَدَّثَنِي بِهِ مَنْصُورٌ فَلَمْ أُنْكِرْهُ مِنْ حَدِيثِ سُلَيْمَانَ‏\"‏‏.‏",
+      "source_hash_sha256": "4a6ae8e31e132f82486311e2529a4a6876ecb6df6ea5f9a97cebb3eadbaac61f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5eea462c-062c-42eb-bfd3-01920beb35cf",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4947",
+      "reference": "Sahih al-Bukhari, hadith 4947, book 65, باب قَوْلِهِ ‏ {‏وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَى‏} ‏",
+      "title": "باب قَوْلِهِ ‏ {‏وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَى‏} ‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى، حَدَّثَنَا وَكِيعٌ، عَنِ الأَعْمَشِ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنْ أَبِي عَبْدِ الرَّحْمَنِ، عَنْ عَلِيٍّ ـ عَلَيْهِ السَّلاَمُ ـ قَالَ كُنَّا جُلُوسًا عِنْدَ النَّبِيِّ صلى الله عليه وسلم فَقَالَ ‏\"‏ مَا مِنْكُمْ مِنْ أَحَدٍ إِلاَّ وَقَدْ كُتِبَ مَقْعَدُهُ مِنَ الْجَنَّةِ وَمَقْعَدُهُ مِنَ النَّارِ ‏\"‏‏.‏ فَقُلْنَا يَا رَسُولَ اللَّهِ أَفَلاَ نَتَّكِلُ قَالَ ‏\"‏ لاَ، اعْمَلُوا فَكُلٌّ مُيَسَّرٌ ‏\"‏‏.‏ ثُمَّ قَرَأَ ‏[quran sura=\"92\" aya_start=\"5\" aya_end=\"7\"]{‏فَأَمَّا مَنْ أَعْطَى وَاتَّقَى * وَصَدَّقَ بِالْحُسْنَى * فَسَنُيَسِّرُهُ لِلْيُسْرَى‏}‏ إِلَى قَوْلِهِ ‏[quran sura=\"92\" aya_start=\"10\" aya_end=\"10\"]{‏فَسَنُيَسِّرُهُ لِلْعُسْرَى‏}‏",
+      "source_hash_sha256": "5970aa365ab42e2f992adfc51be4b802baefac8749b691a6a950da387759c566",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "c48aea76-4459-4608-9ab3-6b7708efbfb8",
+      "url": "https://sunnah.com/bukhari:4943",
+      "reason": "Le rapport cite directement Quran 92:1-3 (citation directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "6eef03fc-6f4f-4e2a-84c0-361158640d0e",
+      "url": "https://sunnah.com/bukhari:4944",
+      "reason": "Le rapport cite directement Quran 92:1, 92:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "4cd6deb2-2a64-4ae9-9889-11454c4178c3",
+      "url": "https://sunnah.com/bukhari:4945",
+      "reason": "Le rapport cite directement Quran 92:5-6. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "7c97fe4c-127a-49b8-be2e-c4efff76e7a0",
+      "url": "https://sunnah.com/bukhari:4945b",
+      "reason": "Le texte source de Sahih al-Bukhari 4945b est un fragment de transmission : « il mentionna le récit ». Le récit lui-même manque. La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-904 jusqu’à clarification."
+    },
+    {
+      "source_id": "faa8ef86-d0ca-40a6-bb05-004929246145",
+      "url": "https://sunnah.com/bukhari:4946",
+      "reason": "Le rapport cite directement Quran 92:5-6. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "source_id": "5eea462c-062c-42eb-bfd3-01920beb35cf",
+      "url": "https://sunnah.com/bukhari:4947",
+      "reason": "Le rapport cite directement Quran 92:5-7, 92:10. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    }
+  ]
+}

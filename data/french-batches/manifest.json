@@ -19417,6 +19417,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local hold"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-904",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-904.json",
+      "sourceIds": [
+        "c48aea76-4459-4608-9ab3-6b7708efbfb8",
+        "6eef03fc-6f4f-4e2a-84c0-361158640d0e",
+        "4cd6deb2-2a64-4ae9-9889-11454c4178c3",
+        "7c97fe4c-127a-49b8-be2e-c4efff76e7a0",
+        "faa8ef86-d0ca-40a6-bb05-004929246145",
+        "5eea462c-062c-42eb-bfd3-01920beb35cf"
+      ],
+      "translated": 0,
+      "inserted": 0,
+      "preserved": 6,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local hold"
     }
   ],
   "blockers": [
@@ -21909,6 +21930,42 @@
       "scope": "Sahih al-Bukhari 4942: direct Quran wording from 91:1",
       "status": "blocked",
       "reason": "Le rapport cite directement Quran 91:1. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-903, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4943-QURAN-92-1-3-UNMARKED",
+      "scope": "Sahih al-Bukhari 4943: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 92:1-3 (citation directe sans marqueur). Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4944-QURAN-92-1-92-3",
+      "scope": "Sahih al-Bukhari 4944: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 92:1, 92:3. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4945-QURAN-92-5-6",
+      "scope": "Sahih al-Bukhari 4945: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 92:5-6. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4945b-INCOMPLETE-SOURCE-FRAGMENT",
+      "scope": "Sahih al-Bukhari 4945b: incomplete source fragment",
+      "status": "blocked",
+      "reason": "Le texte source de Sahih al-Bukhari 4945b est un fragment de transmission : « il mentionna le récit ». Le récit lui-même manque. La traduction complète reste vide dans FR-LIB-HAD-BUKHARI-904 jusqu’à clarification."
+    },
+    {
+      "id": "HADITH-BUKHARI-4946-QURAN-92-5-6",
+      "scope": "Sahih al-Bukhari 4946: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 92:5-6. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
+    },
+    {
+      "id": "HADITH-BUKHARI-4947-QURAN-92-5-7-92-10",
+      "scope": "Sahih al-Bukhari 4947: direct Quran wording",
+      "status": "blocked",
+      "reason": "Le rapport cite directement Quran 92:5-7, 92:10. Le texte complet reste vide dans FR-LIB-HAD-BUKHARI-904, dans l’attente d’une traduction française approuvée et attribuée."
     }
   ],
   "hadithBukhariDrafted": 4073,
