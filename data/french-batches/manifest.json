@@ -35616,6 +35616,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0319",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0319.json",
+      "sourceIds": [
+        "bd4fc599-5cd8-4b9a-9001-91158f75b9dc",
+        "ad3c4b21-f904-4eca-9fa4-22e2278b7d76",
+        "9fa986e4-4604-4c27-90a4-8cb74c5b225c",
+        "6e407ac6-1b7d-48c7-86ca-092198002dd9",
+        "9a90bea1-f59b-4806-98ed-143c76201bcb",
+        "a462f714-93ff-43bd-9446-6123c4739b85"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "pending focused batch validation; one incomplete cross-reference held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -39923,8 +39944,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 7607,
-  "hadithLocalRemaining": 7022,
+  "hadithLocalDrafted": 7612,
+  "hadithLocalRemaining": 7017,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -42085,10 +42106,16 @@
       "scope": "Sahih Muslim 738c: incomplete variant report",
       "status": "blocked",
       "reason": "La source renvoie au même récit que la version précédente et n’en donne qu’une précision divergente sur le nombre d’unités accomplies debout, sans reprendre le contenu complet. Garder la traduction française vide jusqu’à disponibilité du récit intégral correspondant."
+    },
+    {
+      "id": "HADITH-MUSLIM-0319-743B-SOURCE-INTEGRITY",
+      "scope": "Sahih Muslim 743b: incomplete cross-reference",
+      "status": "blocked",
+      "reason": "La source ne reprend pas le récit de la version précédente et renvoie seulement à celui-ci. Garder la traduction française vide jusqu’à disponibilité d’un texte complet vérifié."
     }
   ],
-  "hadithMuslimDrafted": 1271,
+  "hadithMuslimDrafted": 1276,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 596
+  "hadithNeedsMo": 597
 }
