@@ -59,18 +59,18 @@
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
     "hadithBukhariDrafted": 6336,
-    "hadithMuslimDrafted": 4951,
+    "hadithMuslimDrafted": 4955,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 11287,
+    "hadithLocalDrafted": 11291,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 3342,
-    "hadithNeedsMo": 2802,
+    "hadithLocalRemaining": 3338,
+    "hadithNeedsMo": 2804,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No inserts: the live lang constraint accepts only ar, en, and de; Sunnah.com rights permit AI processing but set translation_index_allowed=false. Schema changes are forbidden.",
-    "hadithSourcesProcessed": 14089,
-    "hadithSourcesNotYetExported": 540
+    "hadithSourcesProcessed": 14095,
+    "hadithSourcesNotYetExported": 534
   },
   "batches": [
     {
@@ -50988,6 +50988,30 @@
       "failed": 0,
       "remaining": 3342,
       "validation": "Two complete reports translated. Four chain-only, partial, summary, or Quran-quotation entries held blank with reasons. Focused validator and git diff check passed. Private local drafts only.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1264",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1264.json",
+      "sourceIds": [
+        "0b9d0fa4-ee58-4f67-bd1c-b2fc7c961e1c",
+        "f5ca27e7-bff9-4cb6-a420-27537534b382",
+        "0cd6fc8c-f08b-4252-a25b-eae7ead6e599",
+        "2c81e3f5-a688-4227-9167-0b9c295d455a",
+        "c63e1f42-530c-4b44-a6ab-3322a7c67e82",
+        "65d5bdca-3f25-42e2-821a-4e817f58d18f"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "held": 2,
+      "failed": 0,
+      "remaining": 3338,
+      "validation": "Four complete reports translated. A Quran quotation and a reference-only variant held blank with reasons. Focused validator and git diff check passed. Private local drafts only.",
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
