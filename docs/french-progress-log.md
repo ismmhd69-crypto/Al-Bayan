@@ -9636,3 +9636,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0501 saves three private French drafts about the Prophet’s fasting habits and the recommended balance between fasting and breaking the fast. Muslim 1157d refers to the previous report without reproducing it and remains blank under Needs Mo.
 - All four source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1159b
+
+- FR-LIB-HAD-MUSLIM-0502 saves one private French draft for the 2,306-character report about ‘Abd Allah ibn ‘Amr’s fasting and Quran recitation, including the Prophet’s guidance to balance worship with family, visitors, and bodily needs. The long source was isolated and translated in full.
+- The source hash is retained. Focused validation is pending. No database write or publication occurred.
