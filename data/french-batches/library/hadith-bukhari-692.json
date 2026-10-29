@@ -1,0 +1,170 @@
+{
+  "batch_id": "HADITH-BUKHARI-692",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T07:55:47.140Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "eade6585-8433-4c7b-8b00-5349c8da01e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3888",
+      "reference": "Sahih al-Bukhari, hadith 3888, book 63, باب الْمِعْرَاجِ",
+      "title": "باب الْمِعْرَاجِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا الْحُمَيْدِيُّ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا عَمْرٌو، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ فِي قَوْلِهِ تَعَالَى ‏[quran sura=\"17\" aya_start=\"60\" aya_end=\"60\"]{‏وَمَا جَعَلْنَا الرُّؤْيَا الَّتِي أَرَيْنَاكَ إِلاَّ فِتْنَةً لِلنَّاسِ‏}‏ قَالَ هِيَ رُؤْيَا عَيْنٍ، أُرِيَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم لَيْلَةَ أُسْرِيَ بِهِ إِلَى بَيْتِ الْمَقْدِسِ‏.‏ قَالَ وَالشَّجَرَةَ الْمَلْعُونَةَ فِي الْقُرْآنِ قَالَ هِيَ شَجَرَةُ الزَّقُّومِ‏.‏",
+      "source_hash_sha256": "f9fb537a20ff106922ed07e0dd9a2f4a89f1f82cad75fd052ade0973a306e6c0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ce13e940-2fa5-4fd2-a76e-e3185b67de6d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3889",
+      "reference": "Sahih al-Bukhari, hadith 3889, book 63, باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "title": "باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا عَنْبَسَةُ، حَدَّثَنَا يُونُسُ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عَبْدُ الرَّحْمَنِ بْنُ عَبْدِ اللَّهِ بْنِ كَعْبِ بْنِ مَالِكٍ، أَنَّ عَبْدَ اللَّهِ بْنَ كَعْبٍ ـ وَكَانَ قَائِدَ كَعْبٍ حِينَ عَمِيَ ـ قَالَ سَمِعْتُ كَعْبَ بْنَ مَالِكٍ يُحَدِّثُ حِينَ تَخَلَّفَ عَنِ النَّبِيِّ صلى الله عليه وسلم فِي غَزْوَةِ تَبُوكَ‏.‏ بِطُولِهِ، قَالَ ابْنُ بُكَيْرٍ فِي حَدِيثِهِ وَلَقَدْ شَهِدْتُ مَعَ النَّبِيِّ صلى الله عليه وسلم لَيْلَةَ الْعَقَبَةِ حِينَ تَوَاثَقْنَا عَلَى الإِسْلاَمِ، وَمَا أُحِبُّ أَنَّ لِي بِهَا مَشْهَدَ بَدْرٍ وَإِنْ كَانَتْ بَدْرٌ، أَذْكَرَ فِي النَّاسِ مِنْهَا‏.‏",
+      "source_hash_sha256": "559602441b4a969d8a312a6d06578fca81b704e5ce7ac796b21cc50777fad016",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Abd Allâh ibn Ka‘b rapporte que son père Ka‘b ibn Mâlik lui raconta en détail son absence lors de l’expédition de Tabûk. Ibn Bukayr ajoute à sa transmission : « J’ai assisté avec le Prophète à la nuit du pacte d’al-‘Aqaba, lorsque nous nous sommes engagés pour l’islam. Je ne voudrais pas échanger cette participation contre celle de Badr, même si la bataille de Badr est davantage évoquée par les gens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "55756fed-1b4c-41eb-b608-50f08616bf8c",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3890",
+      "reference": "Sahih al-Bukhari, hadith 3890, book 63, باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "title": "باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ كَانَ عَمْرٌو يَقُولُ سَمِعْتُ جَابِرَ بْنَ عَبْدِ اللَّهِ ـ رضى الله عنهما ـ يَقُولُ شَهِدَ بِي خَالاَىَ الْعَقَبَةَ‏.‏ قَالَ أَبُو عَبْدِ اللَّهِ قَالَ ابْنُ عُيَيْنَةَ أَحَدُهُمَا الْبَرَاءُ بْنُ مَعْرُورٍ‏.‏",
+      "source_hash_sha256": "f84832807e80223b82a7c0b92a6f8227205fbf9ce2e2c233f9b0f9674697d05d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir ibn ‘Abd Allâh rapporte : « Mes deux oncles maternels m’ont accompagné au pacte d’al-‘Aqaba. » Abû ‘Abd Allâh rapporte qu’Ibn ‘Uyayna précisa que l’un d’eux était al-Barâ’ ibn Ma‘rûr.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "492ebbec-5bcf-4736-ab07-5e50df9f61ed",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3891",
+      "reference": "Sahih al-Bukhari, hadith 3891, book 63, باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "title": "باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا هِشَامٌ، أَنَّ ابْنَ جُرَيْجٍ، أَخْبَرَهُمْ قَالَ عَطَاءٌ قَالَ جَابِرٌ أَنَا وَأَبِي، وَخَالِي، مِنْ أَصْحَابِ الْعَقَبَةِ‏.‏",
+      "source_hash_sha256": "5bb1718e5c67d4a06847fe4c1b4dc13a16d7864292438ee6c0a117eade483df0",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Jâbir rapporte : « Mon père, mon oncle maternel et moi faisions partie des compagnons du pacte d’al-‘Aqaba. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "94ad3c73-ba63-475b-9547-95761c8288c1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3892",
+      "reference": "Sahih al-Bukhari, hadith 3892, book 63, باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "title": "باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ مَنْصُورٍ، أَخْبَرَنَا يَعْقُوبُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا ابْنُ أَخِي ابْنِ شِهَابٍ، عَنْ عَمِّهِ، قَالَ أَخْبَرَنِي أَبُو إِدْرِيسَ، عَائِذُ اللَّهِ أَنَّ عُبَادَةَ بْنَ الصَّامِتِ ـ مِنَ الَّذِينَ شَهِدُوا بَدْرًا مَعَ رَسُولِ اللَّهِ صلى الله عليه وسلم ـ وَمِنْ أَصْحَابِهِ لَيْلَةَ الْعَقَبَةِ ـ أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ وَحَوْلَهُ عِصَابَةٌ مِنْ أَصْحَابِهِ ‏\"‏ تَعَالَوْا بَايِعُونِي عَلَى أَنْ لاَ تُشْرِكُوا بِاللَّهِ شَيْئًا، وَلاَ تَسْرِقُوا، وَلاَ تَزْنُوا، وَلاَ تَقْتُلُوا أَوْلاَدَكُمْ، وَلاَ تَأْتُونَ بِبُهْتَانٍ تَفْتَرُونَهُ بَيْنَ أَيْدِيكُمْ وَأَرْجُلِكُمْ، وَلاَ تَعْصُونِي فِي مَعْرُوفٍ، فَمَنْ وَفَى مِنْكُمْ فَأَجْرُهُ عَلَى اللَّهِ، وَمَنْ أَصَابَ مِنْ ذَلِكَ شَيْئًا فَعُوقِبَ بِهِ فِي الدُّنْيَا فَهْوَ لَهُ كَفَّارَةٌ، وَمَنْ أَصَابَ مِنْ ذَلِكَ شَيْئًا فَسَتَرَهُ اللَّهُ فَأَمْرُهُ إِلَى اللَّهِ، إِنْ شَاءَ عَاقَبَهُ، وَإِنْ شَاءَ عَفَا عَنْهُ ‏\"‏‏.‏ قَالَ فَبَايَعْتُهُ عَلَى ذَلِكَ‏.‏",
+      "source_hash_sha256": "6618e6a3948eeae2fd6e43b9c0c990c04f1e9ff27e73f0fc752bcfad828585af",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubâda ibn al-Sâmit rapporte : « Je faisais partie des chefs qui prêtèrent serment d’allégeance au Messager de Dieu. Nous lui promîmes de n’associer personne à Dieu, de ne pas voler, de ne pas commettre l’adultère, de ne pas tuer une âme que Dieu a rendue sacrée et de ne pas piller. Nous nous engageâmes à respecter ces conditions en échange du Paradis si nous les observions. Si nous en transgressions une, notre jugement reviendrait à Dieu. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9294b8c2-0492-4822-975b-0f77e83d36a6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3893",
+      "reference": "Sahih al-Bukhari, hadith 3893, book 63, باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "title": "باب وُفُودُ الأَنْصَارِ إِلَى النَّبِيِّ صلى الله عليه وسلم بِمَكَّةَ وَبَيْعَةُ الْعَقَبَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ أَبِي الْخَيْرِ، عَنِ الصُّنَابِحِيِّ، عَنْ عُبَادَةَ بْنِ الصَّامِتِ ـ رضى الله عنه ـ أَنَّهُ قَالَ إِنِّي مِنَ النُّقَبَاءِ الَّذِينَ بَايَعُوا رَسُولَ اللَّهِ صلى الله عليه وسلم‏.‏ وَقَالَ بَايَعْنَاهُ عَلَى أَنْ لاَ نُشْرِكَ بِاللَّهِ شَيْئًا، وَلاَ نَسْرِقَ، وَلاَ نَزْنِيَ، وَلاَ نَقْتُلَ النَّفْسَ الَّتِي حَرَّمَ اللَّهُ، وَلاَ نَنْتَهِبَ، وَلاَ نَعْصِيَ بِالْجَنَّةِ إِنْ فَعَلْنَا ذَلِكَ، فَإِنْ غَشِينَا مِنْ ذَلِكَ شَيْئًا كَانَ قَضَاءُ ذَلِكَ إِلَى اللَّهِ‏.‏",
+      "source_hash_sha256": "f0bf21ed79a3daca99dba649f4dba4689521185f5d870ed715b07b43f962eb26",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "eade6585-8433-4c7b-8b00-5349c8da01e6",
+      "url": "https://sunnah.com/bukhari:3888",
+      "reason": "The report quotes Quran 17:60. No approved, attributed French Quran translation has been confirmed. The complete hadith is held blank rather than creating unapproved French Quran wording."
+    },
+    {
+      "source_id": "9294b8c2-0492-4822-975b-0f77e83d36a6",
+      "url": "https://sunnah.com/bukhari:3893",
+      "reason": "The report directly quotes Quranic wording from 6:151, ولا تقتلوا النفس التي حرم الله. No approved, attributed French Quran translation has been confirmed. The complete hadith is held blank rather than creating unapproved French Quran wording."
+    }
+  ]
+}

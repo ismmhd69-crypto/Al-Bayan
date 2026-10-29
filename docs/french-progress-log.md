@@ -3371,3 +3371,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-691` saves one private French draft of the extended night-journey and daily-prayers report. It is kept as a single-item batch because of its length.
 - The record passed the focused validator, including its Arabic hash, ID, reference, rights metadata and private unpublished long-text state. No database writes or publication occurred. Bukhari local drafts: 3,462 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 257. Total local hadith rows not drafted: 11,195, including held records.
+
+### 2026-10-29: Bukhari 3888–3893
+
+- `FR-LIB-HAD-BUKHARI-692` saves four private French drafts about the Night Journey and the pledge at al-‘Aqaba. Bukhari 3888 and 3893 remain blank because they quote Quran 17:60 and 6:151; no approved, attributed French Quran translation is confirmed.
+- All six records passed the focused validator, including both Quran-quote holds. No database writes or publication occurred. Bukhari local drafts: 3,466 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 259. Total local hadith rows not drafted: 11,191, including held records.
