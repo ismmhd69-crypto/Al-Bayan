@@ -836,3 +836,7 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-164` saves six private French drafts for Bukhari 920–925. They preserve the statement about sermons, Asma’s detailed account of the long prayer and grave questioning, the allocation report, and the congregation’s repeated night prayers before the Prophet ﷺ stopped joining them publicly.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 860 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,769, including held records.
+### 2026-10-29: Bukhari 926–931 source review
+
+- `FR-LIB-HAD-BUKHARI-165` saves six private French drafts for Bukhari 926–931. The translations preserve the closing advice to accept good conduct and overlook errors, the structure of two Friday sermons, and the instruction to pray two units when arriving during the sermon.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No Needs Mo item was identified. No database writes or publication occurred. Bukhari local drafts: 866 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 43. Total local hadith rows not drafted: 13,763, including held records.
