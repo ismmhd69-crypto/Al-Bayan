@@ -699,3 +699,9 @@ Scope: private local preparation only. French remains absent from public locale 
 - `FR-LIB-HAD-BUKHARI-131` saved private French drafts for Bukhari 724–729. The reports preserve the reminder about straight rows, the narrator’s observed shoulder-and-foot positioning, Ibn Abbas being moved to the imam’s right, the mother’s place behind the two worshippers, and the reason the Prophet did not continue leading the night prayer publicly.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata, private unpublished state and report structure. No Needs Mo item was identified. No database writes or publication occurred.
 - Bukhari local drafts: 679 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,950, including held records.
+
+### 2026-10-29: Bukhari 730–735 source review
+
+- `FR-LIB-HAD-BUKHARI-132` saved private French drafts for Bukhari 730–735. The translations preserve the uncertainty about the Ramadan prayer room’s material, the sitting prayer after an injury, and the distinct instructions to follow the imam’s movements.
+- The six-record batch passed the focused validator for Arabic hashes, rights metadata, private unpublished state and narration variants. No Needs Mo item was identified. No database writes or publication occurred.
+- Bukhari local drafts: 685 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 32. Total local hadith rows not drafted: 13,944, including held records.
