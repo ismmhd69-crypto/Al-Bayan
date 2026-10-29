@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-727",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T08:17:47.889Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "513cc60e-23c8-4883-988a-7e2959842626",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:4038",
+      "reference": "Sahih al-Bukhari, hadith 4038, book 64, باب قَتْلُ أَبِي رَافِعٍ عَبْدِ اللَّهِ بْنِ أَبِي الْحُقَيْقِ وَيُقَالُ سَلاَّمُ بْنُ أَبِي الْحُقَيْقِ كَانَ بِخَيْبَرَ، وَيُقَالُ فِي حِصْنٍ لَهُ بِأَرْضِ الْحِجَازِ",
+      "title": "باب قَتْلُ أَبِي رَافِعٍ عَبْدِ اللَّهِ بْنِ أَبِي الْحُقَيْقِ وَيُقَالُ سَلاَّمُ بْنُ أَبِي الْحُقَيْقِ كَانَ بِخَيْبَرَ، وَيُقَالُ فِي حِصْنٍ لَهُ بِأَرْضِ الْحِجَازِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي إِسْحَاقُ بْنُ نَصْرٍ، حَدَّثَنَا يَحْيَى بْنُ آدَمَ، حَدَّثَنَا ابْنُ أَبِي زَائِدَةَ، عَنْ أَبِيهِ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ ـ رضى الله عنهما ـ قَالَ بَعَثَ رَسُولُ اللَّهِ صلى الله عليه وسلم رَهْطًا إِلَى أَبِي رَافِعٍ فَدَخَلَ عَلَيْهِ عَبْدُ اللَّهِ بْنُ عَتِيكٍ بَيْتَهُ لَيْلاً وَهْوَ نَائِمٌ فَقَتَلَهُ‏.‏",
+      "source_hash_sha256": "3079b80fec3350dd8a1690a804dab9ea8eb7d8c6f8c2ad37725e7f54d5f84c96",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Al-Barâʾ ibn ʿÂzib rapporte que le Messager de Dieu envoya un groupe d’hommes auprès d’Abû Râfiʿ. ʿAbd Allâh ibn ʿAtîk entra de nuit chez lui, alors qu’il dormait, et le tua.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

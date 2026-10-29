@@ -3546,3 +3546,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-726` saves one private French draft, preserving the transmission variants about the loan amount, the companions and the encounter.
 - The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,577 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,080, including held records.
+
+### 2026-10-29: Bukhari 4038
+
+- `FR-LIB-HAD-BUKHARI-727` saves one private French draft of the short report about the mission to Abû Râfiʿ.
+- The record passed the focused validator for Arabic hash, ID, reference, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,578 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 283. Total local hadith rows not drafted: 11,079, including held records.
