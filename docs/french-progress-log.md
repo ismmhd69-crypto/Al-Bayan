@@ -4853,3 +4853,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-962 saves four private French drafts. Hadith 5266 (Quran 33:21) and 5267 (Quran 66:1 and 66:3–4) remain blank under the Quran translation rights hold; both are recorded for Mo.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,317 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 717. Total local hadith rows not drafted: 10,350, including held records.
+
+
+### 2026-10-29: Bukhari 5271, 5273–5277
+
+- FR-LIB-HAD-BUKHARI-963 saves five private French drafts. Hadith 5277 remains blank because the source excerpt only says the report was mentioned and omits the report; this is recorded for Mo.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,322 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 718. Total local hadith rows not drafted: 10,345, including held records.

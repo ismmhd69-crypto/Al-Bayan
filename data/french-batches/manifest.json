@@ -20628,6 +20628,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft with holds"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-963",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-963.json",
+      "sourceIds": [
+        "8486642b-0c55-4f9a-8887-6ed908f2e289",
+        "10f26028-dd55-4f48-b5c6-5c8f3d5952a2",
+        "3a9d5ad3-0e8c-4949-a4f6-58737bf6ec8d",
+        "042f37cd-7b51-4f96-8e09-3b4452014e45",
+        "e4807bbe-f7f1-4401-8415-b1059ce2280f",
+        "881af53f-2196-41a4-8893-56e1935120ab"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 1,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with holds"
     }
   ],
   "blockers": [
@@ -23576,9 +23597,15 @@
       "scope": "Sahih al-Bukhari 5267: direct Quran quotation from 66:1, 66:3–4",
       "status": "blocked",
       "reason": "The report directly quotes Quran 66:1, 66:3–4. Keep the complete translation blank pending an approved, attributed French Quran translation."
+    },
+    {
+      "id": "HADITH-BUKHARI-5277-INCOMPLETE-SOURCE",
+      "scope": "Sahih al-Bukhari 5277: excerpt only says the hadith was mentioned",
+      "status": "blocked",
+      "reason": "The source excerpt omits the actual report. Keep the translation blank until a complete source is available."
     }
   ],
-  "hadithBukhariDrafted": 4317,
-  "hadithLocalDrafted": 4317,
-  "hadithLocalRemaining": 10350
+  "hadithBukhariDrafted": 4322,
+  "hadithLocalDrafted": 4322,
+  "hadithLocalRemaining": 10345
 }
