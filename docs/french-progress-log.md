@@ -11562,3 +11562,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1913b-1914e
 
 - FR-LIB-HAD-MUSLIM-0900 saves five private French drafts about border guard duty and removing hazards from a road. The five reported categories of martyrdom and the distinct branch-removal accounts are preserved. One chain-only cross-reference remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1915a-1917
+
+- FR-LIB-HAD-MUSLIM-0901 saves four private French drafts about categories of martyrdom and plague. The report citing Quran 8:60 and a chain-only reference remain blank under Needs Mo with specific reasons. No database write or publication occurred.
