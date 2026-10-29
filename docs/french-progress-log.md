@@ -11986,3 +11986,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2121c-2123a
 
 - FR-LIB-HAD-MUSLIM-1006 saves four complete private French drafts about road etiquette and hair additions. Two transmission or wording variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2123b-2125d
+
+- FR-LIB-HAD-MUSLIM-1007 saves two complete private French drafts about hair extensions and adornment. One Quran quotation and three incomplete variants remain blank with specific Needs Mo reasons. No database write or publication occurred.
