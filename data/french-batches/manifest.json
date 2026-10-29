@@ -16563,6 +16563,28 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-773",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-773.json",
+  "sourceIds": [
+    "f9058c40-e9d9-43c4-a517-c4ece5572226",
+    "cbdb2edc-a4fd-4217-9a6b-dff0c01ccb5c",
+    "a184464c-00a3-42db-b5be-f4d14afa1f5d",
+    "82a35820-748e-49b0-8595-c9f5e48c6a9c",
+    "f30b4e09-d76b-483c-8600-510d34b4d32a",
+    "50b0f58e-eb92-4366-8afe-9151322da9d2"
+  ],
+  "translated": 5,
+  "inserted": 0,
+  "preserved": 1,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -17022,8 +17044,16 @@
   "status": "blocked",
   "id": "HADITH-BUKHARI-4239-UNCLEAR-POETRY"
 }
+
+,
+    {
+  "id": "HADITH-BUKHARI-4267-UNCLEAR-LAMENT",
+  "scope": "Sahih al-Bukhari 4267: abbreviated lament with unspecified words",
+  "status": "blocked",
+  "reason": "The report includes an abbreviated lament, وا جبلاه واكذا وكذا, without the specific words listed. Its wording and intended sense are unclear, so the complete record remains blank in FR-LIB-HAD-BUKHARI-773 pending clarification."
+}
   ],
-  "hadithBukhariDrafted": 3764,
-  "hadithLocalDrafted": 3764,
-  "hadithLocalRemaining": 10893
+  "hadithBukhariDrafted": 3769,
+  "hadithLocalDrafted": 3769,
+  "hadithLocalRemaining": 10888
 }

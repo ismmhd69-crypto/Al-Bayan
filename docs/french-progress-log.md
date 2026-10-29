@@ -3776,3 +3776,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-772` saves six private French drafts about the ʿumra of rattrapage and the expedition of Muʾta.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,764 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,893, including held records.
+
+### 2026-10-29: Bukhari 4265–4270
+
+- `FR-LIB-HAD-BUKHARI-773` saves five private French drafts. Hadith 4267 remains blank because its report abbreviates an unclear lament; the hold is recorded for Mo.
+- All six records passed the focused validator, including the private hold. No database writes or publication occurred. Bukhari local drafts: 3,769 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 311. Total local hadith rows not drafted: 10,888, including held records.
