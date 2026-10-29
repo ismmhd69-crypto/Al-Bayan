@@ -13876,6 +13876,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-623",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-623.json",
+      "sourceIds": [
+        "ffb92850-82db-4f4c-9796-fc8178579aaf",
+        "39b45719-b904-41b2-ae07-9a714e7cc8fe",
+        "3df90a9a-54c9-46cf-848d-66bc1b8c5422",
+        "9d5e32ad-138c-44d9-8dfb-62409cece35f",
+        "df174b6e-7bb9-41da-80f8-4c4f5206c35b",
+        "1a28d49f-559c-4a00-9e03-22992bda41b6"
+      ],
+      "translated": 6,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -13964,7 +13985,7 @@
       "status": "blocked",
       "reason": "The local Arabic phrase is ambiguous and appears damaged. The full report remains blank in FR-LIB-HAD-BUKHARI-619 until the exact wording is confirmed."
     }  ],
-  "hadithBukhariDrafted": 3175,
-  "hadithLocalDrafted": 3175,
-  "hadithLocalRemaining": 11482
+  "hadithBukhariDrafted": 3181,
+  "hadithLocalDrafted": 3181,
+  "hadithLocalRemaining": 11476
 }
