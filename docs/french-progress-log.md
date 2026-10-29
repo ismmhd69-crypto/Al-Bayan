@@ -10311,3 +10311,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0636 saves six private French drafts about a woman’s consent to marriage and the reports about Aisha’s age. The distinct ages and wording in each source variant are retained as reported.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1422d–1425a
+
+- FR-LIB-HAD-MUSLIM-0637 saves five private French drafts preserving the source reports on Aisha’s age, marriage in Shawwal, and marriage proposals and dowries. Muslim 1423b only notes an omitted detail and remains blank under Needs Mo. The memorized Quran in 1425a is mentioned without a Quranic quotation.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation passed. No database write or publication occurred.
