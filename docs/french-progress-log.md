@@ -3351,3 +3351,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-687` holds one long private record blank because its appended commentary includes Quranic wording and no approved, attributed French Quran translation is confirmed. It remains a single-item batch because of its length.
 - The record passed the focused validator, including its Arabic hash, ID, reference, rights metadata and private unpublished long-text hold. No database writes or publication occurred. Bukhari local drafts: 3,448 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 256. Total local hadith rows not drafted: 11,209, including held records.
+
+### 2026-10-29: Bukhari 3873–3878
+
+- `FR-LIB-HAD-BUKHARI-688` saves six private French drafts about the Abyssinian migration and the death of the Negus.
+- All six records passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 3,454 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 256. Total local hadith rows not drafted: 11,203, including held records.
