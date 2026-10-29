@@ -39363,6 +39363,25 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0501",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0501.json",
+      "sourceIds": [
+        "ba0b252e-9fc7-4317-bc80-58b6eed6cbc5",
+        "6956f073-e1a1-403e-90a6-fad8f094834b",
+        "eeb87c49-0c12-4706-9efc-60cb7a8834d7",
+        "ec73a979-997e-43fa-a8ab-261bf0dcc47c"
+      ],
+      "translated": 3,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "four records passed focused validation; Arabic originals and hashes, IDs, private unpublished AI-draft state, rights flags, and single-item long-text rule passed; Muslim 1157d held blank under Needs Mo",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -43670,8 +43689,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8302,
-  "hadithLocalRemaining": 6327,
+  "hadithLocalDrafted": 8305,
+  "hadithLocalRemaining": 6324,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -46793,10 +46812,15 @@
       "source_id": "262b17c9-1ee0-4531-b012-f47e09480421",
       "reason": "La source ne rapporte qu’une variante de chaîne et une précision (« un mois consécutif ») sans reproduire le récit complet. Garder la traduction française vide jusqu’à disponibilité du texte intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "6956f073-e1a1-403e-90a6-fad8f094834b",
+      "reason": "La source renvoie au récit précédent (« une version semblable ») sans en reproduire le contenu intégral. Garder la traduction française vide jusqu’à disponibilité du texte complet correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 1966,
+  "hadithMuslimDrafted": 1969,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 917
+  "hadithNeedsMo": 918
 }

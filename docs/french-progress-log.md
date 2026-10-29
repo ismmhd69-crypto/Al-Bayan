@@ -9631,3 +9631,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0500 saves four private French drafts about the Prophet’s fasting habits. Muslim 1156d refers back to the prior report, and 1157b gives only a transmission variant; both remain blank under Needs Mo.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1157c–1159a
+
+- FR-LIB-HAD-MUSLIM-0501 saves three private French drafts about the Prophet’s fasting habits and the recommended balance between fasting and breaking the fast. Muslim 1157d refers to the previous report without reproducing it and remains blank under Needs Mo.
+- All four source hashes are retained. Focused validation is pending. No database write or publication occurred.
