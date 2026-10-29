@@ -1,0 +1,162 @@
+{
+  "batch_id": "HADITH-MUSLIM-1230",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:00:56.064Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "ab4fd043-76bb-4527-8aba-847f82a43fdb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2675a",
+      "reference": "Sahih Muslim, hadith 2675 a, book 48, باب الْحَثِّ عَلَى ذِكْرِ اللَّهِ تَعَالَى",
+      "title": "باب الْحَثِّ عَلَى ذِكْرِ اللَّهِ تَعَالَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَزُهَيْرُ بْنُ حَرْبٍ، - وَاللَّفْظُ لِقُتَيْبَةَ - قَالاَ حَدَّثَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ يَقُولُ اللَّهُ عَزَّ وَجَلَّ أَنَا عِنْدَ ظَنِّ عَبْدِي بِي وَأَنَا مَعَهُ حِينَ يَذْكُرُنِي إِنْ ذَكَرَنِي فِي نَفْسِهِ ذَكَرْتُهُ فِي نَفْسِي وَإِنْ ذَكَرَنِي فِي مَلإٍ ذَكَرْتُهُ فِي مَلإٍ هُمْ خَيْرٌ مِنْهُمْ وَإِنْ تَقَرَّبَ مِنِّي شِبْرًا تَقَرَّبْتُ إِلَيْهِ ذِرَاعًا وَإِنْ تَقَرَّبَ إِلَىَّ ذِرَاعًا تَقَرَّبْتُ مِنْهُ بَاعًا وَإِنْ أَتَانِي يَمْشِي أَتَيْتُهُ هَرْوَلَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4e0c2376c5a447972493aab8347da9af33b5ba72a2465ec28aa6e2c0ce3fa49b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Saʿīd et Zuhayr ibn Ḥarb nous ont rapporté — le libellé est celui de Qutayba. Ils ont dit : Jarīr nous a rapporté, d’après al-Aʿmash, d’après Abū Ṣāliḥ, d’après Abū Hurayra, qui a dit que le Messager d’Allah ﷺ a rapporté ces paroles d’Allah, Puissant et Majestueux : « Je suis selon l’opinion que Mon serviteur a de Moi, et Je suis avec lui lorsqu’il se souvient de Moi. S’il se souvient de Moi en lui-même, Je me souviens de lui en Moi-même; s’il se souvient de Moi dans une assemblée, Je me souviens de lui dans une assemblée meilleure que la leur. S’il s’approche de Moi d’un empan, Je m’approche de lui d’une coudée; s’il s’approche de Moi d’une coudée, Je m’approche de lui d’une brassée. S’il vient à Moi en marchant, Je viens à lui avec empressement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b18e6106-3d6e-466b-b8f8-9c71cb425f0f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2675b",
+      "reference": "Sahih Muslim, hadith 2675 b, book 48, باب الْحَثِّ عَلَى ذِكْرِ اللَّهِ تَعَالَى",
+      "title": "باب الْحَثِّ عَلَى ذِكْرِ اللَّهِ تَعَالَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ قَالاَ حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ ‏\"‏ وَإِنْ تَقَرَّبَ إِلَىَّ ذِرَاعًا تَقَرَّبْتُ مِنْهُ بَاعًا ‏\"‏ ‏.‏",
+      "source_hash_sha256": "4166f3b683cb57cd4fa26dbad41a712a963e78d2cb8bb8fb46202adc3da3a83d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "cc90953d-654b-4ed4-9edf-8b89bda49432",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2675c",
+      "reference": "Sahih Muslim, hadith 2675 c, book 48, باب الْحَثِّ عَلَى ذِكْرِ اللَّهِ تَعَالَى",
+      "title": "باب الْحَثِّ عَلَى ذِكْرِ اللَّهِ تَعَالَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، حَدَّثَنَا مَعْمَرٌ، عَنْ هَمَّامِ بْنِ مُنَبِّهٍ، قَالَ هَذَا مَا حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ أَحَادِيثَ مِنْهَا وَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ قَالَ إِذَا تَلَقَّانِي عَبْدِي بِشِبْرٍ تَلَقَّيْتُهُ بِذِرَاعٍ وَإِذَا تَلَقَّانِي بِذِرَاعٍ تَلَقَّيْتُهُ بِبَاعٍ وَإِذَا تَلَقَّانِي بِبَاعٍ أَتَيْتُهُ بِأَسْرَعَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "185cc845f7eca0588b1a4a3d53cd818d3c6f63241d88eb155733c2d57cc8a459",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn Rāfiʿ nous a rapporté : ʿAbd al-Razzāq nous a rapporté : Maʿmar nous a rapporté, d’après Hammām ibn Munabbih, qui a dit : Voici ce qu’Abū Hurayra nous a rapporté du Messager d’Allah ﷺ. Il mentionna plusieurs récits, dont celui-ci : Le Messager d’Allah ﷺ a dit : « Allah dit : “Si Mon serviteur vient à Moi d’un empan, Je viens à lui d’une coudée; s’il vient à Moi d’une coudée, Je viens à lui d’une brassée; et s’il vient à Moi d’une brassée, Je viens à lui plus rapidement encore.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "b0eb9b57-f458-4e8d-8a88-43ffb6a9fb80",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2675d",
+      "reference": "Sahih Muslim, hadith 2675 d, book 48, باب فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ تَعَالَى",
+      "title": "باب فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ تَعَالَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو كُرَيْبٍ، مُحَمَّدُ بْنُ الْعَلاَءِ حَدَّثَنَا وَكِيعٌ، عَنْ جَعْفَرِ بْنِ بُرْقَانَ، عَنْ يَزِيدَ، بْنِ الأَصَمِّ عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ إِنَّ اللَّهَ يَقُولُ أَنَا عِنْدَ ظَنِّ عَبْدِي بِي وَأَنَا مَعَهُ إِذَا دَعَانِي ‏\"‏ ‏.‏",
+      "source_hash_sha256": "427baef999aad241547fdfd01ba707d5291f27e8d4e96bd2369ca8e54202cd89",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abū Kurayb Muḥammad ibn al-ʿAlāʾ nous a rapporté : Wakīʿ nous a rapporté, d’après Jaʿfar ibn Burqān, d’après Yazīd ibn al-Aṣamm, d’après Abū Hurayra, qui a dit que le Messager d’Allah ﷺ a dit : « Allah dit : “Je suis selon l’opinion que Mon serviteur a de Moi, et Je suis avec lui lorsqu’il M’invoque.” »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ed93f268-93e2-4d6b-8a4a-4da6793d00f5",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2675e",
+      "reference": "Sahih Muslim, hadith 2675 e, book 48, باب فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ تَعَالَى",
+      "title": "باب فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ تَعَالَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارِ بْنِ عُثْمَانَ الْعَبْدِيُّ، حَدَّثَنَا يَحْيَى، - يَعْنِي ابْنَ سَعِيدٍ - وَابْنُ أَبِي عَدِيٍّ عَنْ سُلَيْمَانَ، - وَهُوَ التَّيْمِيُّ - عَنْ أَنَسِ بْنِ مَالِكٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ إِذَا تَقَرَّبَ عَبْدِي مِنِّي شِبْرًا تَقَرَّبْتُ مِنْهُ ذِرَاعًا وَإِذَا تَقَرَّبَ مِنِّي ذِرَاعًا تَقَرَّبْتُ مِنْهُ بَاعًا - أَوْ بُوعًا - وَإِذَا أَتَانِي يَمْشِي أَتَيْتُهُ هَرْوَلَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "423970759c5a000fe2d45fa2310f2f5c2b8783b23d2afef0a39e3bb75895fe72",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muḥammad ibn Bashshār ibn ʿUthmān al-ʿAbdī nous a rapporté : Yaḥyā — c’est-à-dire ibn Saʿīd — et Ibn Abī ʿAdī nous ont rapporté, d’après Sulaymān — c’est-à-dire al-Taymī —, d’après Anas ibn Mālik, d’après Abū Hurayra, d’après le Prophète ﷺ, qui a dit qu’Allah, Puissant et Majestueux, a dit : « Si Mon serviteur s’approche de Moi d’un empan, Je m’approche de lui d’une coudée; s’il s’approche de Moi d’une coudée, Je m’approche de lui d’une brassée — ou d’une mesure équivalente. S’il vient à Moi en marchant, Je viens à lui avec empressement. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0dc58d51-6c45-4cda-83d5-fc79b182e0f3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2675f",
+      "reference": "Sahih Muslim, hadith 2675 f, book 48, باب فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ تَعَالَى",
+      "title": "باب فَضْلِ الذِّكْرِ وَالدُّعَاءِ وَالتَّقَرُّبِ إِلَى اللَّهِ تَعَالَى",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى الْقَيْسِيُّ، حَدَّثَنَا مُعْتَمِرٌ، عَنْ أَبِيهِ، بِهَذَا الإِسْنَادِ وَلَمْ يَذْكُرْ ‏\"‏ إِذَا أَتَانِي يَمْشِي أَتَيْتُهُ هَرْوَلَةً ‏\"‏ ‏.‏",
+      "source_hash_sha256": "9b4b0096f1905c1f45c698bd5cec89038d065e759c2a46f800bfd494be9e486f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_wording_variant",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    { "source_id": "b18e6106-3d6e-466b-b8f8-9c71cb425f0f", "reason": "Cette entrée ne donne que la chaîne et une phrase indiquant l’omission d’un passage de la version précédente. Garder la traduction française vide.", "status": "blocked" },
+    { "source_id": "0dc58d51-6c45-4cda-83d5-fc79b182e0f3", "reason": "Cette entrée ne donne que la chaîne et signale l’omission d’une formule de la version précédente, sans reproduire le texte complet. Garder la traduction française vide.", "status": "blocked" }
+  ]
+}
