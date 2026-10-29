@@ -7117,3 +7117,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0002 saves 4 private French drafts. Hadith 8e and hadith 10 quote Quran 31:34; both complete translations remain blank under Needs Mo pending confirmation of an approved, attributed French Quran translation and permitted use. No database writes or publication occurred.
 - All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 5 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,288, including held records.
+
+### 2026-10-29: Muslim 11a–13b
+
+- FR-LIB-HAD-MUSLIM-0003 saves 6 private French drafts: reports on the obligatory prayers, the pillars of Islam, the Bedouin delegation, and a variant chain for the Hadith of Gabriel. No database writes or publication occurred.
+- All 6 source hashes are retained and the focused batch validator passed. Bukhari local drafts: 6,336 of 7,263. Muslim local drafts: 11 of 7,366. Hadith Needs Mo: 172. Total local hadith rows not drafted: 8,282, including held records.
