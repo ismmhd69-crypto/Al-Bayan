@@ -9841,3 +9841,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0542 saves three private French drafts about Abu Musa’s rites and Umar’s view of tamattu. Muslim 1221b and 1221d are incomplete variants, and 1221c quotes Quran 2:196; all three remain blank under Needs Mo.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1223b–1224d
+
+- FR-LIB-HAD-MUSLIM-0543 saves five private French drafts about tamattu and reports on its status among the Companions. Muslim 1223b contains only a transmission-chain cross-reference and remains blank under Needs Mo.
+- All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
