@@ -5581,3 +5581,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1087 saves four private French drafts about kinship ties. Bukhari 5987 is held blank for its direct Quran quotation; 5990 is held because the Arabic has a gap in the report.
 - Four records passed the focused validator; both held items remain blank. No database writes or publication occurred. Bukhari local drafts: 5,005 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 757. Total local hadith rows not drafted: 9,624, including held records.
+
+### 2026-10-29: Bukhari 5993–5998
+
+- FR-LIB-HAD-BUKHARI-1088 saves five private French drafts about children, kindness, and family bonds. Bukhari 5993 is held because the closing phrase about how long the shirt remained is unclear.
+- Five records passed the focused validator; the held item remains blank. No database writes or publication occurred. Bukhari local drafts: 5,010 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 758. Total local hadith rows not drafted: 9,619, including held records.

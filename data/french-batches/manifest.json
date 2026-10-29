@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5011,
+    "hadithBukhariDrafted": 5016,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5011,
+    "hadithLocalDrafted": 5016,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9618,
-    "hadithNeedsMo": 757,
+    "hadithLocalRemaining": 9613,
+    "hadithNeedsMo": 758,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -23204,6 +23204,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1088",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1088.json",
+      "sourceIds": [
+        "4d968b09-ba37-45d6-a24e-810b7af0c6e5",
+        "32999166-0a7a-4677-9861-5fcc784a62ac",
+        "5132d7ec-239e-482b-9cae-d14461b01314",
+        "5ad03997-5427-43e0-9123-3505fbb0e083",
+        "a2214a08-65cf-45c8-a406-b4d63c1bd2ff",
+        "7bb80142-f46c-4b32-b4d7-534b267ece63"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five records passed the focused validator; one unclear source held blank. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -26313,6 +26334,12 @@
       "scope": "Sahih al-Bukhari 5990: Arabic contains a gap after إن آل أبي",
       "status": "blocked",
       "reason": "The exported Arabic is incomplete at this point and the missing wording affects the report. Keep the item blank until the source is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5993-UNCLEAR-SOURCE",
+      "scope": "Sahih al-Bukhari 5993: closing phrase about how long the shirt remained is unclear",
+      "status": "blocked",
+      "reason": "The exported wording is incomplete or unclear. Keep the entire item blank until the source is confirmed."
     }
   ]
 }
