@@ -40154,6 +40154,24 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "HADITH-MUSLIM-0539",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-0539.json",
+      "sourceIds": [
+        "82547cc3-f834-4faa-8557-a710442d45cb",
+        "b132e898-c8f8-4071-84d3-86c382ed8d27",
+        "d21a37b6-7f18-4cd9-8f53-e226c3695bbc"
+      ],
+      "translated": 1,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Focused French hadith batch validation passed: three records; source hashes and IDs preserved; one private unpublished draft; direct Quran quote and incomplete variant held blank under Needs Mo; rights flags and single-item long-text rule passed.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "private local draft"
     }
   ],
   "blockers": [
@@ -44461,8 +44479,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 8475,
-  "hadithLocalRemaining": 6154,
+  "hadithLocalDrafted": 8476,
+  "hadithLocalRemaining": 6153,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -47829,10 +47847,20 @@
       "source_id": "f90245ec-238a-4f4e-822e-745e348c1e72",
       "reason": "La source reprend une partie du récit antérieur et renvoie ensuite au récit d’al-Layth au lieu de reproduire le texte complet. Garder toute la traduction française vide jusqu’à disponibilité du contenu intégral correspondant.",
       "status": "blocked"
+    },
+    {
+      "source_id": "b132e898-c8f8-4071-84d3-86c382ed8d27",
+      "reason": "La source cite directement un passage du Coran 2:196. Garder toute la traduction française vide jusqu’à approbation d’une traduction coranique française attribuée et confirmation des droits d’utilisation.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "d21a37b6-7f18-4cd9-8f53-e226c3695bbc",
+      "reason": "La source reprend seulement une chaîne de transmission et une variante de formulation d’un récit précédent, sans en rapporter le texte intégral. Garder toute la traduction française vide jusqu’à disponibilité du contenu complet correspondant.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 2139,
+  "hadithMuslimDrafted": 2140,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 966
+  "hadithNeedsMo": 968
 }

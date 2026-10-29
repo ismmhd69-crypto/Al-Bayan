@@ -9821,3 +9821,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0538 saves six private French drafts about Hajj rites after the umra and reports on the rites of tamattu. All six source texts are complete.
 - All six source hashes are retained. Focused batch validation passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1216e–1217b
+
+- FR-LIB-HAD-MUSLIM-0539 saves one private French draft. Muslim 1217a directly quotes Quran 2:196 and 1217b is an abbreviated variant; both remain blank under Needs Mo.
+- All three source hashes are retained. Focused batch validation passed. No database write or publication occurred.
