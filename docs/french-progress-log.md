@@ -1441,3 +1441,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-301` saves six private French drafts for Bukhari 1738–1743. Brief source fragments in 1738 and 1743 remain brief in French; no missing context was added. The other records preserve the farewell-sermon wording and transmission details. No Needs Mo item was identified.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,592 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,036, including held records.
+
+### 2026-10-29: Bukhari 1744–1749 source review
+
+- `FR-LIB-HAD-BUKHARI-302` saves six private French drafts for Bukhari 1744–1749. The brief permission wording in 1744 remains a fragment, and the references to al-Baqara in later reports are preserved without inserting Quran text. No Needs Mo item was identified.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 1,598 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 93. Total local hadith rows not drafted: 13,030, including held records.
