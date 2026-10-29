@@ -5136,3 +5136,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1009 saves six private French drafts. The variant chain and “it reached us” wording in 5539 are preserved.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,575 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 727. Total local hadith rows not drafted: 10,054, including held records.
+
+
+### 2026-10-29: Bukhari 5544–5549
+
+- FR-LIB-HAD-BUKHARI-1010 saves six private French drafts. Variant wording and narrator uncertainty are retained.
+- All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,581 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 727. Total local hadith rows not drafted: 10,048, including held records.
