@@ -3741,3 +3741,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-765` saves six private French drafts about the Khaybar booty and the migration by sea from Abyssinia.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 3,741 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 307. Total local hadith rows not drafted: 10,916, including held records.
+
+### 2026-10-29: Bukhari 4235–4239
+
+- `FR-LIB-HAD-BUKHARI-766` saves two private French drafts. Hadiths 4237–4239 remain blank because they contain unclear poetic taunts; 4237 also omits what was requested of the Prophet. The holds are recorded for Mo.
+- All five records passed the focused validator, including the private holds. No database writes or publication occurred. Bukhari local drafts: 3,743 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 310. Total local hadith rows not drafted: 10,914, including held records.

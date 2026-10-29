@@ -16425,6 +16425,27 @@
   "published": 0,
   "status": "local draft"
 }
+,
+    {
+  "id": "FR-LIB-HAD-BUKHARI-766",
+  "contentType": "hadith",
+  "language": "fr",
+  "artifact": "data/french-batches/library/hadith-bukhari-766.json",
+  "sourceIds": [
+    "152304db-719e-4d5c-977e-c195b9573f2e",
+    "30d2b22b-5356-4361-bf57-40b482b282f5",
+    "a53975c7-2970-4af0-94be-37f9b5a6cd1f",
+    "42adfa60-14a5-4e51-b23e-bd5054775e53",
+    "28b71ac1-66e3-4f76-856f-97f4fd48f185"
+  ],
+  "translated": 2,
+  "inserted": 0,
+  "preserved": 3,
+  "validation": "Arabic originals and hashes, IDs, references, rights metadata and private unpublished state passed",
+  "humanReviewed": 0,
+  "published": 0,
+  "status": "local draft with holds"
+}
   ],
   "blockers": [
     {
@@ -16864,8 +16885,28 @@
   "reason": "The report directly quotes Quran 37:177. It remains blank in FR-LIB-HAD-BUKHARI-760 until an approved, attributed French Quran translation is confirmed.",
   "status": "blocked"
 }
+
+,
+    {
+  "reason": "The report ends with a poetic taunt whose wording and meaning are unclear. The request made to the Prophet is also left unspecified in the source record. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-766 pending clarification.",
+  "scope": "Sahih al-Bukhari 4237: unclear poetic taunt and omitted request",
+  "status": "blocked",
+  "id": "HADITH-BUKHARI-4237-UNCLEAR-POETRY"
+},
+    {
+  "reason": "The report includes the unclear poetic taunt يا وبر تحدر من رأس ضأن. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-766 pending clarification.",
+  "scope": "Sahih al-Bukhari 4238: unclear poetic taunt",
+  "status": "blocked",
+  "id": "HADITH-BUKHARI-4238-UNCLEAR-POETRY"
+},
+    {
+  "reason": "The report includes the unclear poetic taunt يا وبر تدأدأ من قدوم ضأن. The complete hadith remains blank in FR-LIB-HAD-BUKHARI-766 pending clarification.",
+  "scope": "Sahih al-Bukhari 4239: unclear poetic taunt",
+  "status": "blocked",
+  "id": "HADITH-BUKHARI-4239-UNCLEAR-POETRY"
+}
   ],
-  "hadithBukhariDrafted": 3741,
-  "hadithLocalDrafted": 3741,
-  "hadithLocalRemaining": 10916
+  "hadithBukhariDrafted": 3743,
+  "hadithLocalDrafted": 3743,
+  "hadithLocalRemaining": 10914
 }
