@@ -1,0 +1,164 @@
+{
+  "batch_id": "HADITH-BUKHARI-556",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T06:48:22.474Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "09d151ee-aadd-4a6c-ac0c-6917e7d99c1d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3199",
+      "reference": "Sahih al-Bukhari, hadith 3199, book 59, باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "title": "باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، حَدَّثَنَا سُفْيَانُ، عَنِ الأَعْمَشِ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي ذَرٍّ ـ رضى الله عنه ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم لأَبِي ذَرٍّ حِينَ غَرَبَتِ الشَّمْسُ ‏\"‏ تَدْرِي أَيْنَ تَذْهَبُ ‏\"‏‏.‏ قُلْتُ اللَّهُ وَرَسُولُهُ أَعْلَمُ‏.‏ قَالَ ‏\"‏ فَإِنَّهَا تَذْهَبُ حَتَّى تَسْجُدَ تَحْتَ الْعَرْشِ، فَتَسْتَأْذِنَ فَيُؤْذَنَ لَهَا، وَيُوشِكُ أَنْ تَسْجُدَ فَلاَ يُقْبَلَ مِنْهَا، وَتَسْتَأْذِنَ فَلاَ يُؤْذَنَ لَهَا، يُقَالُ لَهَا ارْجِعِي مِنْ حَيْثُ جِئْتِ‏.‏ فَتَطْلُعُ مِنْ مَغْرِبِهَا، فَذَلِكَ قَوْلُهُ تَعَالَى ‏[quran sura=\"36\" aya_start=\"38\" aya_end=\"38\"]{‏وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَهَا ذَلِكَ تَقْدِيرُ الْعَزِيزِ الْعَلِيمِ ‏}‏‏\"‏‏.‏",
+      "source_hash_sha256": "45f1057e0f7b88157236d3ee42463888a4d81b64a1b0107a16404416aaa2e6bc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_embedded_quran_quote_translation_unavailable",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0a40353d-0182-4975-9f64-825e58265894",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3200",
+      "reference": "Sahih al-Bukhari, hadith 3200, book 59, باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "title": "باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ الْمُخْتَارِ، حَدَّثَنَا عَبْدُ اللَّهِ الدَّانَاجُ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الشَّمْسُ وَالْقَمَرُ مُكَوَّرَانِ يَوْمَ الْقِيَامَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "b238ae03febafda628cda6c56ff8a8ab7e3a119e7fc352f6f0f80fc3e8ed049d",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Musaddad, ‘Abd al-‘Azîz ibn al-Mukhtâr, ‘Abd Allah al-Dânâj et Abû Salama ibn ‘Abd al-Rahmân, d’après Abû Hurayra. Le Prophète dit : « Le soleil et la lune seront enroulés au Jour de la Résurrection. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9e30fecd-570d-4a09-a177-332fb8b5f652",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3201",
+      "reference": "Sahih al-Bukhari, hadith 3201, book 59, باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "title": "باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ سُلَيْمَانَ، قَالَ حَدَّثَنِي ابْنُ وَهْبٍ، قَالَ أَخْبَرَنِي عَمْرٌو، أَنَّ عَبْدَ الرَّحْمَنِ بْنَ الْقَاسِمِ، حَدَّثَهُ عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ أَنَّهُ كَانَ يُخْبِرُ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الشَّمْسَ وَالْقَمَرَ لاَ يَخْسِفَانِ لِمَوْتِ أَحَدٍ وَلاَ لِحَيَاتِهِ، وَلَكِنَّهُمَا آيَتَانِ مِنْ آيَاتِ اللَّهِ، فَإِذَا رَأَيْتُمُوهُمَا فَصَلُّوا ‏\"‏‏.‏",
+      "source_hash_sha256": "071033973caf14216f0a063dd7ba59afea5bf2c4a260fd3870ea34a4432dc927",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Sulaymân, Ibn Wahb, ‘Amr, ‘Abd al-Rahmân ibn al-Qâsim, son père et ‘Abd Allah ibn ‘Umar. Celui-ci rapportait ces paroles du Prophète : « Le soleil et la lune ne s’éclipsent ni pour la mort ni pour la naissance de qui que ce soit. Ce sont deux signes parmi les signes d’Allah. Lorsque vous les voyez, accomplissez la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "9519f2ef-791a-4300-892d-cbfe72fe2949",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3202",
+      "reference": "Sahih al-Bukhari, hadith 3202, book 59, باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "title": "باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا إِسْمَاعِيلُ بْنُ أَبِي أُوَيْسٍ، قَالَ حَدَّثَنِي مَالِكٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ إِنَّ الشَّمْسَ وَالْقَمَرَ آيَتَانِ مِنْ آيَاتِ اللَّهِ، لاَ يَخْسِفَانِ لِمَوْتِ أَحَدٍ وَلاَ لِحَيَاتِهِ، فَإِذَا رَأَيْتُمْ ذَلِكَ فَاذْكُرُوا اللَّهَ ‏\"‏‏.‏",
+      "source_hash_sha256": "fbac7bfafb04ca17279814afe23e6f2a4a8240b18242b0e66ce9e580edc7332b",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Ismâ‘îl ibn Abî Uways, Mâlik, Zayd ibn Aslam, ‘Atâ’ ibn Yasâr et ‘Abd Allah ibn ‘Abbâs. Le Prophète dit : « Le soleil et la lune sont deux signes parmi les signes d’Allah. Ils ne s’éclipsent ni pour la mort ni pour la naissance de qui que ce soit. Lorsque vous voyez cela, évoquez Allah. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "306c2905-d314-4a4b-b5ea-9e94ed0eb631",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3203",
+      "reference": "Sahih al-Bukhari, hadith 3203, book 59, باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "title": "باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، قَالَ أَخْبَرَنِي عُرْوَةُ، أَنَّ عَائِشَةَ ـ رضى الله عنها ـ أَخْبَرَتْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم يَوْمَ خَسَفَتِ الشَّمْسُ قَامَ فَكَبَّرَ وَقَرَأَ قِرَاءَةً طَوِيلَةً، ثُمَّ رَكَعَ رُكُوعًا طَوِيلاً ثُمَّ رَفَعَ رَأْسَهُ فَقَالَ ‏\"‏ سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ ‏\"‏ وَقَامَ كَمَا هُوَ، فَقَرَأَ قِرَاءَةً طَوِيلَةً وَهْىَ أَدْنَى مِنَ الْقِرَاءَةِ الأُولَى، ثُمَّ رَكَعَ رُكُوعًا طَوِيلاً وَهْىَ أَدْنَى مِنَ الرَّكْعَةِ الأُولَى، ثُمَّ سَجَدَ سُجُودًا طَوِيلاً، ثُمَّ فَعَلَ فِي الرَّكْعَةِ الآخِرَةِ مِثْلَ ذَلِكَ، ثُمَّ سَلَّمَ وَقَدْ تَجَلَّتِ الشَّمْسُ، فَخَطَبَ النَّاسَ، فَقَالَ فِي كُسُوفِ الشَّمْسِ وَالْقَمَرِ ‏\"‏ إِنَّهُمَا آيَتَانِ مِنْ آيَاتِ اللَّهِ، لاَ يَخْسِفَانِ لِمَوْتِ أَحَدٍ، وَلاَ لِحَيَاتِهِ، فَإِذَا رَأَيْتُمُوهُمَا فَافْزَعُوا إِلَى الصَّلاَةِ ‏\"‏‏.‏",
+      "source_hash_sha256": "1286f87a9399be04a17a11a1c1f5c30109954e35cc52ccd4c576086ca78f981f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Yahyâ ibn Bukayr, al-Layth, ‘Uqayl, Ibn Shihâb, ‘Urwa et ‘Â’isha. Le jour de l’éclipse solaire, le Messager d’Allah se leva, prononça le takbîr et récita longuement. Puis il s’inclina longuement. Il releva la tête et dit : « Allah entend celui qui Le loue. » Il se tint debout et récita longuement, mais moins longtemps que lors de la première récitation. Puis il s’inclina longuement, mais moins longtemps que lors de la première inclinaison, et se prosterna longuement. Il fit ensuite de même pendant la dernière unité de prière, puis prononça le salut final alors que le soleil était redevenu visible. Il s’adressa alors aux gens au sujet des éclipses du soleil et de la lune et dit : « Ce sont deux signes parmi les signes d’Allah. Ils ne s’éclipsent ni pour la mort ni pour la naissance de qui que ce soit. Lorsque vous les voyez, empressez-vous d’accomplir la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8ba7d690-99f8-4f69-91ee-9e4ac748f293",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:3204",
+      "reference": "Sahih al-Bukhari, hadith 3204, book 59, باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "title": "باب صِفَةِ الشَّمْسِ وَالْقَمَرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى، عَنْ إِسْمَاعِيلَ، قَالَ حَدَّثَنِي قَيْسٌ، عَنْ أَبِي مَسْعُودٍ ـ رضى الله عنه ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ الشَّمْسُ وَالْقَمَرُ لاَ يَنْكَسِفَانِ لِمَوْتِ أَحَدٍ وَلاَ لِحَيَاتِهِ، وَلَكِنَّهُمَا آيَتَانِ مِنْ آيَاتِ اللَّهِ، فَإِذَا رَأَيْتُمُوهُمَا فَصَلُّوا ‏\"‏‏.‏",
+      "source_hash_sha256": "af0b541dfbdc7a6c5eb66d6b1534ba332b47863497e2099967cb0c1f0020b337",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Chaîne de transmission : Muhammad ibn al-Muthannâ, Yahyâ, Ismâ‘îl, Qays et Abû Mas‘ûd. Le Prophète dit : « Le soleil et la lune ne s’éclipsent ni pour la mort ni pour la naissance de qui que ce soit. Ce sont deux signes parmi les signes d’Allah. Lorsque vous les voyez, accomplissez la prière. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "09d151ee-aadd-4a6c-ac0c-6917e7d99c1d",
+      "reason": "This report directly quotes Quran 36:38 in the Prophet’s statement. Keep the full hadith blank until an approved, attributed French Quran translation is confirmed."
+    }
+  ]
+}
