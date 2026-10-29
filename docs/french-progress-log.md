@@ -8671,3 +8671,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0308 saves six private French drafts about returning from travel and the Duha prayer.
 - All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1230 Muslim drafts, 7566 total hadith drafts, 7063 remaining, and 577 Needs Mo items.
+
+### 2026-10-29: Muslim 719b–721b
+
+- FR-LIB-HAD-MUSLIM-0309 saves three private French drafts about the Duha prayer and daily acts of charity. Muslim 719b, 719d and 721b only refer to another report and remain blank under Needs Mo.
+- All six source hashes are retained. Focused validation is pending. No database write or publication occurred. Counts now show 1233 Muslim drafts, 7569 total hadith drafts, 7060 remaining, and 580 Needs Mo items.
