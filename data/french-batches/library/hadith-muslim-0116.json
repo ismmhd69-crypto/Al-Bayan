@@ -1,0 +1,165 @@
+{
+  "batch_id": "HADITH-MUSLIM-0116",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T14:40:26.528Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "fa487644-1c64-43bd-b8d7-bc2979815bc8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:259a",
+      "reference": "Sahih Muslim, hadith 259a, book 2, باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "title": "باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، حَدَّثَنَا يَحْيَى يَعْنِي ابْنَ سَعِيدٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي جَمِيعًا، عَنْ عُبَيْدِ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَحْفُوا الشَّوَارِبَ وَأَعْفُوا اللِّحَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "e9237a67e94687b2ba8eaaf28e4487eaae4386a370e81ec7765f7a5a22574796",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn al-Muthanna nous a rapporté, d’après Yahya — c’est-à-dire Ibn Sa‘id. H. Ibn Numayr nous a rapporté, d’après son père. Tous deux rapportent d’après ‘Ubayd Allah, d’après Nafi‘, d’après Ibn ‘Umar, qui rapporte que le Prophète ﷺ a dit : « Taillez court vos moustaches et laissez pousser vos barbes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "2a652a66-7fcc-4028-bb3c-d7efeb3025c2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:259b",
+      "reference": "Sahih Muslim, hadith 259b, book 2, باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "title": "باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ قُتَيْبَةُ بْنُ سَعِيدٍ، عَنْ مَالِكِ بْنِ أَنَسٍ، عَنْ أَبِي بَكْرِ بْنِ نَافِعٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ أَمَرَ بِإِحْفَاءِ الشَّوَارِبِ وَإِعْفَاءِ اللِّحْيَةِ ‏.‏",
+      "source_hash_sha256": "a1a29bd3fba735c42b3807a9da0abacc9b6e9864acffa48908d47fbe0c5c63e8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id nous a rapporté, d’après Malik ibn Anas, d’après Abû Bakr ibn Nafi‘, d’après son père, d’après Ibn ‘Umar, qui rapporta que le Prophète ﷺ avait ordonné de tailler court les moustaches et de laisser pousser la barbe.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "4ca67527-c511-4b02-a3b0-c65fda5f4f67",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:259c",
+      "reference": "Sahih Muslim, hadith 259c, book 2, باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "title": "باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سَهْلُ بْنُ عُثْمَانَ، حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، عَنْ عُمَرَ بْنِ مُحَمَّدٍ، حَدَّثَنَا نَافِعٌ، عَنِ ابْنِ عُمَرَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ خَالِفُوا الْمُشْرِكِينَ أَحْفُوا الشَّوَارِبَ وَأَوْفُوا اللِّحَى ‏\"‏ ‏.‏",
+      "source_hash_sha256": "a1f5c010a43673363cbe25affc777dab8f671ffd5ba429feec5c12d669214aaa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sahl ibn ‘Uthman nous a rapporté, d’après Yazid ibn Zuray‘, d’après ‘Umar ibn Muhammad, qui nous a rapporté, d’après Nafi‘, d’après Ibn ‘Umar, que le Messager de Dieu ﷺ a dit : « Distinguez-vous des polythéistes : taillez court vos moustaches et laissez pousser pleinement vos barbes. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "23bc12e1-a1cf-476f-bd2a-027937654da1",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:260",
+      "reference": "Sahih Muslim, hadith 260, book 2, باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "title": "باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي أَبُو بَكْرِ بْنُ إِسْحَاقَ، أَخْبَرَنَا ابْنُ أَبِي مَرْيَمَ، أَخْبَرَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، أَخْبَرَنِي الْعَلاَءُ بْنُ عَبْدِ الرَّحْمَنِ بْنِ يَعْقُوبَ، مَوْلَى الْحُرَقَةِ عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ جُزُّوا الشَّوَارِبَ وَأَرْخُوا اللِّحَى خَالِفُوا الْمَجُوسَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "132e3d1281da210e29b26f8aaaef689e48f7b4a0a532dc9bd1e73ce39fdf4463",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Ishaq m’a rapporté, d’après Ibn Abî Maryam, qui nous a informés, d’après Muhammad ibn Ja‘far, qui m’a informé, d’après al-‘Ala ibn ‘Abd al-Rahman ibn Ya‘qub, l’affranchi des Banu al-Huraqa, d’après son père, d’après Abû Hurayra, qui a dit : Le Messager de Dieu ﷺ a dit : « Taillez vos moustaches, laissez pousser vos barbes et distinguez-vous des mazdéens. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "bd59a8fb-b862-4768-b10d-9f20db80d2b4",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:261a",
+      "reference": "Sahih Muslim, hadith 261a, book 2, باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "title": "باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ وَزُهَيْرُ بْنُ حَرْبٍ قَالُوا حَدَّثَنَا وَكِيعٌ، عَنْ زَكَرِيَّاءَ بْنِ أَبِي زَائِدَةَ، عَنْ مُصْعَبِ بْنِ شَيْبَةَ، عَنْ طَلْقِ بْنِ حَبِيبٍ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ، قَالَتْ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَشْرٌ مِنَ الْفِطْرَةِ قَصُّ الشَّارِبِ وَإِعْفَاءُ اللِّحْيَةِ وَالسِّوَاكُ وَاسْتِنْشَاقُ الْمَاءِ وَقَصُّ الأَظْفَارِ وَغَسْلُ الْبَرَاجِمِ وَنَتْفُ الإِبْطِ وَحَلْقُ الْعَانَةِ وَانْتِقَاصُ الْمَاءِ ‏\"‏ ‏.‏ قَالَ زَكَرِيَّاءُ قَالَ مُصْعَبٌ وَنَسِيتُ الْعَاشِرَةَ إِلاَّ أَنْ تَكُونَ الْمَضْمَضَةَ ‏.‏ زَادَ قُتَيْبَةُ قَالَ وَكِيعٌ انْتِقَاصُ الْمَاءِ يَعْنِي الاِسْتِنْجَاءَ ‏.‏",
+      "source_hash_sha256": "fd70c2820f21755cb74c9c19a9945382d66047c8a86586f56ff86ce7f112ebe2",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba ibn Sa‘id, Abû Bakr ibn Abî Shayba et Zuhayr ibn Harb nous ont rapporté. Ils dirent : Waki‘ nous a rapporté, d’après Zakariyya ibn Abî Za’ida, d’après Mus‘ab ibn Shayba, d’après Talq ibn Habib, d’après ‘Abd Allah ibn al-Zubayr, d’après ‘A’isha, qui a dit : Le Messager de Dieu ﷺ a dit : « Dix pratiques relèvent de la fitra : tailler la moustache, laisser pousser la barbe, utiliser le siwak, aspirer de l’eau par le nez, couper les ongles, laver les articulations des doigts, épiler les poils des aisselles, raser les poils pubiens et se nettoyer à l’eau après avoir fait ses besoins. » Zakariyya dit que Mus‘ab ajouta : « J’ai oublié la dixième, à moins qu’il ne s’agisse du rinçage de la bouche. » Qutayba ajouta que Waki‘ expliqua que « se nettoyer à l’eau » signifiait se nettoyer après avoir fait ses besoins.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "12c1230b-4539-415a-a2a6-c297c8eeea3f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:261b",
+      "reference": "Sahih Muslim, hadith 261b, book 2, باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "title": "باب خِصَالِ الْفِطْرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَاهُ أَبُو كُرَيْبٍ، أَخْبَرَنَا ابْنُ أَبِي زَائِدَةَ، عَنْ أَبِيهِ، عَنْ مُصْعَبِ بْنِ شَيْبَةَ، فِي هَذَا الإِسْنَادِ مِثْلَهُ غَيْرَ أَنَّهُ قَالَ قَالَ أَبُوهُ وَنَسِيتُ الْعَاشِرَةَ ‏.‏",
+      "source_hash_sha256": "a24725cb83f35d793ba39001049cf45889e0f9710a0146d552e85ace0c30ea0e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_source_integrity",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo_reason": "La source arabe ne reprend que la chaîne de transmission, indique un récit semblable et précise que son père a oublié la dixième pratique, sans donner le texte du récit. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "12c1230b-4539-415a-a2a6-c297c8eeea3f",
+      "reason": "La source arabe ne reprend que la chaîne de transmission, indique un récit semblable et précise que son père a oublié la dixième pratique, sans donner le texte du récit. Garder la traduction en attente d’un texte complet vérifié."
+    }
+  ]
+}
