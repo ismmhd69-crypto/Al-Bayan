@@ -1,0 +1,39 @@
+{
+  "batch_id": "HADITH-BUKHARI-1053",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T10:42:09.343Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "b7e6f7df-c71b-47c5-bfd9-82bf5a99b872",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:5806",
+      "reference": "Sahih al-Bukhari, hadith 5806, book 77, باب الْعَمَائِمِ",
+      "title": "باب الْعَمَائِمِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا سُفْيَانُ، قَالَ سَمِعْتُ الزُّهْرِيَّ، قَالَ أَخْبَرَنِي سَالِمٌ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ لاَ يَلْبَسُ الْمُحْرِمُ الْقَمِيصَ، وَلاَ الْعِمَامَةَ، وَلاَ السَّرَاوِيلَ، وَلاَ الْبُرْنُسَ، وَلاَ ثَوْبًا مَسَّهُ زَعْفَرَانٌ، وَلاَ وَرْسٌ، وَلاَ الْخُفَّيْنِ، إِلاَّ لِمَنْ لَمْ يَجِدِ النَّعْلَيْنِ، فَإِنْ لَمْ يَجِدْهُمَا فَلْيَقْطَعْهُمَا أَسْفَلَ مِنَ الْكَعْبَيْنِ ‏\"‏‏.‏",
+      "source_hash_sha256": "5d8847fdcc8154edf39f4805671ee44781cca0ee49cd56e5fda72e69a0381a98",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Alî ibn ‘Abd Allâh nous a rapporté : Sufyân nous a rapporté : J’ai entendu al-Zuhrî dire : Sâlim m’a informé, d’après son père, d’après le Prophète (qu’Allah le bénisse et lui accorde la paix), qui a dit : « Le pèlerin en état de sacralisation ne porte ni chemise, ni turban, ni pantalon, ni burnous, ni vêtement touché par le safran ou le wars, ni bottes, sauf s’il ne trouve pas de sandales. S’il n’en trouve pas, qu’il coupe ses bottes sous les chevilles. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": []
+}

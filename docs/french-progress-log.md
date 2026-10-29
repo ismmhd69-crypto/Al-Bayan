@@ -5400,3 +5400,9 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-BUKHARI-1052 saves six private French drafts on clothing and pilgrimage attire. Chain and source details are retained.
 - All six records passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,834 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,795, including held records.
+
+
+### 2026-10-29: Bukhari 5806
+
+- FR-LIB-HAD-BUKHARI-1053 saves one private French draft. The exporter returned one eligible record; the flagged long source remains deferred for separate handling.
+- The draft passed the focused validator. No database writes or publication occurred. Bukhari local drafts: 4,835 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 749. Total local hadith rows not drafted: 9,794, including held records.
