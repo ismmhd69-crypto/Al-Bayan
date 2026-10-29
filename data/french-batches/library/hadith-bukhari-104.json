@@ -1,0 +1,141 @@
+{
+  "batch_id": "HADITH-BUKHARI-104",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T02:39:10.441Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a8974a9a-1bd6-4727-87a5-5a5cb9c136e6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:572",
+      "reference": "Sahih al-Bukhari, hadith 572, book 9, باب وَقْتِ الْعِشَاءِ إِلَى نِصْفِ اللَّيْلِ",
+      "title": "باب وَقْتِ الْعِشَاءِ إِلَى نِصْفِ اللَّيْلِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَبْدُ الرَّحِيمِ الْمُحَارِبِيُّ، قَالَ حَدَّثَنَا زَائِدَةُ، عَنْ حُمَيْدٍ الطَّوِيلِ، عَنْ أَنَسٍ، قَالَ أَخَّرَ النَّبِيُّ صلى الله عليه وسلم صَلاَةَ الْعِشَاءِ إِلَى نِصْفِ اللَّيْلِ، ثُمَّ صَلَّى ثُمَّ قَالَ ‏\"‏ قَدْ صَلَّى النَّاسُ وَنَامُوا، أَمَا إِنَّكُمْ فِي صَلاَةٍ مَا انْتَظَرْتُمُوهَا ‏\"‏‏.‏ وَزَادَ ابْنُ أَبِي مَرْيَمَ أَخْبَرَنَا يَحْيَى بْنُ أَيُّوبَ حَدَّثَنِي حُمَيْدٌ سَمِعَ أَنَسًا كَأَنِّي أَنْظُرُ إِلَى وَبِيصِ خَاتَمِهِ لَيْلَتَئِذٍ‏.‏",
+      "source_hash_sha256": "b95f7f1181320d5756aefbbcd0eefb1d14af6489befcfb5b84c5dd9cd0bbc892",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abd ar-Rahim al-Muharibi nous a rapporté, en disant : Za’ida nous a rapporté, d’après Humayd at-Tawil, d’après Anas, qui a dit : « Le Prophète, qu’Allah le bénisse et lui accorde la paix, retarda la prière de la nuit jusqu’au milieu de la nuit. Il pria, puis dit : “Les gens ont prié et se sont endormis. Tant que vous attendez cette prière, vous êtes en prière.” » Ibn Abi Maryam ajouta : Yahya ibn Ayyub nous a informés : Humayd m’a rapporté avoir entendu Anas dire : « Comme si je voyais encore, cette nuit-là, le reflet de sa bague. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "944b068e-c0e7-484a-9b39-3b0cc63c3cc6",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:573",
+      "reference": "Sahih al-Bukhari, hadith 573, book 9, باب فَضْلِ صَلاَةِ الْفَجْرِ",
+      "title": "باب فَضْلِ صَلاَةِ الْفَجْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسَدَّدٌ، قَالَ حَدَّثَنَا يَحْيَى، عَنْ إِسْمَاعِيلَ، حَدَّثَنَا قَيْسٌ، قَالَ لِي جَرِيرُ بْنُ عَبْدِ اللَّهِ كُنَّا عِنْدَ النَّبِيِّ صلى الله عليه وسلم إِذْ نَظَرَ إِلَى الْقَمَرِ لَيْلَةَ الْبَدْرِ فَقَالَ ‏\"‏ أَمَا إِنَّكُمْ سَتَرَوْنَ رَبَّكُمْ كَمَا تَرَوْنَ هَذَا، لاَ تُضَامُّونَ ـ أَوْ لاَ تُضَاهُونَ ـ فِي رُؤْيَتِهِ، فَإِنِ اسْتَطَعْتُمْ أَنْ لاَ تُغْلَبُوا عَلَى صَلاَةٍ قَبْلَ طُلُوعِ الشَّمْسِ، وَقَبْلَ غُرُوبِهَا فَافْعَلُوا ‏\"‏‏.‏ ثُمَّ قَالَ ‏\"‏ فَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ الشَّمْسِ وَقَبْلَ غُرُوبِهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "5616d1dc420eff185187d64f68ab96a4f17f260660279ea51a292a60e6082a38",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_approved_french_quran_translation",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "fcf3c0ad-4803-4b71-b54c-330b19b315af",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:574",
+      "reference": "Sahih al-Bukhari, hadith 574, book 9, باب فَضْلِ صَلاَةِ الْفَجْرِ",
+      "title": "باب فَضْلِ صَلاَةِ الْفَجْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا هُدْبَةُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا هَمَّامٌ، حَدَّثَنِي أَبُو جَمْرَةَ، عَنْ أَبِي بَكْرِ بْنِ أَبِي مُوسَى، عَنْ أَبِيهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ صَلَّى الْبَرْدَيْنِ دَخَلَ الْجَنَّةَ ‏\"‏‏.‏ وَقَالَ ابْنُ رَجَاءٍ حَدَّثَنَا هَمَّامٌ عَنْ أَبِي جَمْرَةَ أَنَّ أَبَا بَكْرِ بْنَ عَبْدِ اللَّهِ بْنِ قَيْسٍ أَخْبَرَهُ بِهَذَا‏.‏ حَدَّثَنَا إِسْحَاقُ، عَنْ حَبَّانَ، حَدَّثَنَا هَمَّامٌ، حَدَّثَنَا أَبُو جَمْرَةَ، عَنْ أَبِي بَكْرِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ صلى الله عليه وسلم مِثْلَهُ‏.‏",
+      "source_hash_sha256": "50384d18e7f6291b2e10f2123f88323ce758ffa8b308c9ee54892f30a5598f1e",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hudba ibn Khalid nous a rapporté, en disant : Hammam nous a rapporté : Abou Jamra m’a rapporté, d’après Abou Bakr ibn Abi Musa, d’après son père, que le Messager d’Allah, qu’Allah le bénisse et lui accorde la paix, a dit : « Celui qui accomplit les deux prières dites al-bardayn entrera au Paradis. » Ibn Raja a dit : Hammam nous a rapporté, d’après Abou Jamra, qu’Abou Bakr ibn Abd Allah ibn Qays lui avait rapporté cette parole. Ishaq nous a rapporté, d’après Habban, qui a dit : Hammam nous a rapporté, d’après Abou Jamra, d’après Abou Bakr ibn Abd Allah, d’après son père, d’après le Prophète, une parole semblable.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0bab21b6-8444-47b7-80ca-698e0d67a8b1",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:575",
+      "reference": "Sahih al-Bukhari, hadith 575, book 9, باب وَقْتِ الْفَجْرِ",
+      "title": "باب وَقْتِ الْفَجْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عَمْرُو بْنُ عَاصِمٍ، قَالَ حَدَّثَنَا هَمَّامٌ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ زَيْدَ بْنَ ثَابِتٍ، حَدَّثَهُ أَنَّهُمْ، تَسَحَّرُوا مَعَ النَّبِيِّ صلى الله عليه وسلم ثُمَّ قَامُوا إِلَى الصَّلاَةِ‏.‏ قُلْتُ كَمْ بَيْنَهُمَا قَالَ قَدْرُ خَمْسِينَ أَوْ سِتِّينَ ـ يَعْنِي آيَةً ـ ح‏.‏",
+      "source_hash_sha256": "7cd7f49018159c4e5822de3c9211ac3602dafcbc210eac085ae687f47014b88c",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Amr ibn Asim nous a rapporté, en disant : Hammam nous a rapporté, d’après Qatada, d’après Anas, que Zayd ibn Thabit lui avait rapporté qu’ils avaient pris le repas avant l’aube avec le Prophète, qu’Allah le bénisse et lui accorde la paix, puis s’étaient levés pour la prière. Je demandai : « Combien de temps séparait les deux ? » Il répondit : « Le temps de réciter cinquante ou soixante versets. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "470dfd89-9f92-4c34-9a83-6d6a1ef077fd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:576",
+      "reference": "Sahih al-Bukhari, hadith 576, book 9, باب وَقْتِ الْفَجْرِ",
+      "title": "باب وَقْتِ الْفَجْرِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا حَسَنُ بْنُ صَبَّاحٍ، سَمِعَ رَوْحًا، حَدَّثَنَا سَعِيدٌ، عَنْ قَتَادَةَ، عَنْ أَنَسِ بْنِ مَالِكٍ، أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم وَزَيْدَ بْنَ ثَابِتٍ تَسَحَّرَا، فَلَمَّا فَرَغَا مِنْ سَحُورِهِمَا قَامَ نَبِيُّ اللَّهِ صلى الله عليه وسلم إِلَى الصَّلاَةِ فَصَلَّى‏.‏ قُلْنَا لأَنَسٍ كَمْ كَانَ بَيْنَ فَرَاغِهِمَا مِنْ سَحُورِهِمَا وَدُخُولِهِمَا فِي الصَّلاَةِ قَالَ قَدْرُ مَا يَقْرَأُ الرَّجُلُ خَمْسِينَ آيَةً‏.‏",
+      "source_hash_sha256": "96e33e424f0c36564dc334df1ba9bb0300f952ede89959011dce8fa56b3d6abc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Hasan ibn Sabbah entendit Rawh nous rapporter : Sa‘id nous rapporta, d’après Qatada, d’après Anas ibn Malik, que le Prophète d’Allah, qu’Allah le bénisse et lui accorde la paix, et Zayd ibn Thabit prirent le repas avant l’aube. Lorsqu’ils eurent terminé, le Prophète d’Allah se leva pour la prière et l’accomplit. Nous demandâmes à Anas : « Combien de temps s’écoula entre la fin de leur repas et leur entrée en prière ? » Il répondit : « Le temps qu’un homme mette à réciter cinquante versets. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "944b068e-c0e7-484a-9b39-3b0cc63c3cc6",
+      "url": "https://sunnah.com/bukhari:573",
+      "reason": "Hadith embeds Quran 50:39. The current Quran translation configuration exposes English and German only. Do not generate or permanently store a French Quran translation."
+    }
+  ]
+}
