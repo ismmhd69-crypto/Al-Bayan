@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 4653,
+    "hadithBukhariDrafted": 4658,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 4653,
+    "hadithLocalDrafted": 4658,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 9976,
-    "hadithNeedsMo": 728,
+    "hadithLocalRemaining": 9971,
+    "hadithNeedsMo": 729,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -21832,6 +21832,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1021",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1021.json",
+      "sourceIds": [
+        "38351664-d3d6-4348-8749-ba8f573764f3",
+        "129f8645-a6f4-4e5e-b7ee-250eb5e5efeb",
+        "bc4e4536-0410-4c8d-8df3-267d36c7858f",
+        "2bbdb705-33f6-4ba9-9593-136340b5d855",
+        "98245307-0e8c-423b-83a9-908f750d0278",
+        "eb57f959-2be1-4112-abe8-9f3dac4d5414"
+      ],
+      "translated": 5,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Five drafts passed; one report quoting Quran 3:92 directly is held for Mo; all Arabic hashes and private unpublished states passed",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft with Needs Mo"
     }
   ],
   "blockers": [
@@ -24852,6 +24873,12 @@
       "scope": "Sahih al-Bukhari 5568 closing clause",
       "status": "blocked",
       "reason": "The exported Arabic ends by saying an event occurred after the narrator left but does not state what happened. Keep the entire report blank in FR-LIB-HAD-BUKHARI-1014 until the full source is confirmed."
+    },
+    {
+      "id": "HADITH-BUKHARI-5611-QURAN-QUOTE",
+      "scope": "Sahih al-Bukhari 5611 direct quotations of Quran 3:92",
+      "status": "blocked",
+      "reason": "The report quotes Quran 3:92 directly twice. Keep the complete translation blank until an approved attributed French Quran translation and permitted use are confirmed."
     }
   ],
   "hadithBukhariDrafted": 4523,
