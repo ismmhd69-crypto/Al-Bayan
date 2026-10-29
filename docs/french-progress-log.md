@@ -2186,3 +2186,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - `FR-LIB-HAD-BUKHARI-454` saves six private French drafts for Bukhari 2639–2644, covering divorce, a report of milk kinship, judgment by outward conduct, and testimony at funerals.
 - The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,397 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,232, including held records.
+
+### 2026-10-29: Bukhari 2645–2650 source review
+
+- `FR-LIB-HAD-BUKHARI-455` saves six private French drafts for Bukhari 2645–2650, covering milk kinship, a theft report, legal testimony, and equal treatment of children in gifts.
+- The six-record batch passed the focused validator for Arabic hashes, IDs, references, rights metadata and private unpublished state. No database writes or publication occurred. Bukhari local drafts: 2,403 of 7,263. Muslim local drafts: 0 of 7,366. Hadith Needs Mo: 139. Total local hadith rows not drafted: 12,226, including held records.
