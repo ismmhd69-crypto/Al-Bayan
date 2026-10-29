@@ -1,0 +1,190 @@
+{
+  "batch_id": "HADITH-MUSLIM-1361",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T22:51:08.333Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "a58f5cc2-4e0a-4ca9-85b1-c21ffd2c8e4c",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3024b",
+      "reference": "Sahih Muslim, hadith 3024 b, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا أَبُو عُمَيْسٍ، بِهَذَا الإِسْنَادِ مِثْلَهُ وَقَالَ آخِرَ سُورَةٍ وَقَالَ عَبْدُ الْمَجِيدِ وَلَمْ يَقُلِ ابْنِ سُهَيْلٍ ‏.‏",
+      "source_hash_sha256": "c3c4d0afb17667e2a7bc824164ddccc9c0d4e943cecafdddd6d6e80ad37faf5f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_reference_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "5b9776b0-7528-422f-9850-b515047b130f",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3025",
+      "reference": "Sahih Muslim, hadith 3025, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ، وَأَحْمَدُ بْنُ عَبْدَةَ الضَّبِّيُّ، - وَاللَّفْظُ لاِبْنِ أَبِي شَيْبَةَ - قَالَ حَدَّثَنَا وَقَالَ الآخَرَانِ، أَخْبَرَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَقِيَ نَاسٌ مِنَ الْمُسْلِمِينَ رَجُلاً فِي غُنَيْمَةٍ لَهُ فَقَالَ السَّلاَمُ عَلَيْكُمْ ‏.‏ فَأَخَذُوهُ فَقَتَلُوهُ وَأَخَذُوا تِلْكَ الْغُنَيْمَةَ فَنَزَلَتْ ‏[quran sura=\"4\" aya_start=\"94\" aya_end=\"94\"]{‏ وَلاَ تَقُولُوا لِمَنْ أَلْقَى إِلَيْكُمُ السَّلَمَ لَسْتَ مُؤْمِنًا‏}‏ وَقَرَأَهَا ابْنُ عَبَّاسٍ السَّلاَمَ ‏.‏",
+      "source_hash_sha256": "a16fd16bf045a25a6af4bd16141b10d487359b0488f3ce14305ab48d373115e5",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e693c12f-809c-47dd-9d1d-c5b39649dceb",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3026",
+      "reference": "Sahih Muslim, hadith 3026, book 56, كتاب التفسير",
+      "title": "كتاب التفسير",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا غُنْدَرٌ، عَنْ شُعْبَةَ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، وَابْنُ بَشَّارٍ - وَاللَّفْظُ لاِبْنِ الْمُثَنَّى - قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، عَنْ شُعْبَةَ، عَنْ أَبِي إِسْحَاقَ، قَالَ سَمِعْتُ الْبَرَاءَ، يَقُولُ كَانَتِ الأَنْصَارُ إِذَا حَجُّوا فَرَجَعُوا لَمْ يَدْخُلُوا الْبُيُوتَ إِلاَّ مِنْ ظُهُورِهَا - قَالَ - فَجَاءَ رَجُلٌ مِنَ الأَنْصَارِ فَدَخَلَ مِنْ بَابِهِ فَقِيلَ لَهُ فِي ذَلِكَ فَنَزَلَتْ هَذِهِ الآيَةُ ‏[quran sura=\"2\" aya_start=\"189\" aya_end=\"189\"]{‏وَلَيْسَ الْبِرُّ بِأَنْ تَأْتُوا الْبُيُوتَ مِنْ ظُهُورِهَا‏}‏ ‏.‏",
+      "source_hash_sha256": "d9df5793b1bbf9664eab99511e37735cdeaea686985a483afeda268faa7f87fa",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "e0102430-097b-48cd-8e7c-74087c296b79",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3027",
+      "reference": "Sahih Muslim, hadith 3027, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَنْ تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ اللَّهِ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏ أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَنْ تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ اللَّهِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنِي يُونُسُ بْنُ عَبْدِ الأَعْلَى الصَّدَفِيُّ، أَخْبَرَنَا عَبْدُ اللَّهِ بْنُ وَهْبٍ، أَخْبَرَنِي عَمْرُو، بْنُ الْحَارِثِ عَنْ سَعِيدِ بْنِ أَبِي هِلاَلٍ، عَنْ عَوْنِ بْنِ عَبْدِ اللَّهِ، عَنْ أَبِيهِ، أَنَّ ابْنَ مَسْعُودٍ، قَالَ مَا كَانَ بَيْنَ إِسْلاَمِنَا وَبَيْنَ أَنْ عَاتَبَنَا اللَّهُ بِهَذِهِ الآيَةِ ‏[quran sura=\"57\" aya_start=\"16\" aya_end=\"16\"]{‏ أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَنْ تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ اللَّهِ‏}‏ إِلاَّ أَرْبَعُ سِنِينَ ‏.‏",
+      "source_hash_sha256": "ef5328b2d8eb1798597b3cfce885de3da5babab06dd7aba021bada7e88e2c0ae",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8b1f6784-8f0e-495f-9600-9014258439a3",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3028",
+      "reference": "Sahih Muslim, hadith 3028, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏خُذُوا زِينَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏خُذُوا زِينَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، ح وَحَدَّثَنِي أَبُو بَكْرِ بْنُ نَافِعٍ، - وَاللَّفْظُ لَهُ - حَدَّثَنَا غُنْدَرٌ، حَدَّثَنَا شُعْبَةُ، عَنْ سَلَمَةَ بْنِ كُهَيْلٍ، عَنْ مُسْلِمٍ الْبَطِينِ، عَنْ سَعِيدِ بْنِ، جُبَيْرٍ عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَتِ الْمَرْأَةُ تَطُوفُ بِالْبَيْتِ وَهِيَ عُرْيَانَةٌ فَتَقُولُ مَنْ يُعِيرُنِي تِطْوَافًا تَجْعَلُهُ عَلَى فَرْجِهَا وَتَقُولُ الْيَوْمَ يَبْدُو بَعْضُهُ أَوْ كُلُّهُ فَمَا بَدَا مِنْهُ فَلاَ أُحِلُّهُ فَنَزَلَتْ هَذِهِ الآيَةَ ‏[quran sura=\"7\" aya_start=\"31\" aya_end=\"31\"]{‏ خُذُوا زِينَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ‏}‏",
+      "source_hash_sha256": "a80c70c65e59dc4cb0fe3db450b25767158db93daeea1c092cafb12ac471cbbc",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "20489fd3-b4bc-4f2a-a9f5-281af344daee",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:3029a",
+      "reference": "Sahih Muslim, hadith 3029 a, book 56, باب فِي قَوْلِهِ تَعَالَى ‏ {‏وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ}",
+      "title": "باب فِي قَوْلِهِ تَعَالَى ‏ {‏وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ}",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ جَمِيعًا عَنْ أَبِي مُعَاوِيَةَ، - وَاللَّفْظُ لأَبِي كُرَيْبٍ - حَدَّثَنَا أَبُو مُعَاوِيَةَ، حَدَّثَنَا الأَعْمَشُ، عَنْ أَبِي سُفْيَانَ، عَنْ جَابِرٍ، قَالَ كَانَ عَبْدُ اللَّهِ بْنُ أُبَىٍّ ابْنُ سَلُولَ يَقُولُ لِجَارِيَةٍ لَهُ اذْهَبِي فَابْغِينَا شَيْئًا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏[quran sura=\"24\" aya_start=\"33\" aya_end=\"33\"]{‏ وَلاَ تُكْرِهُوا فَتَيَاتِكُمْ عَلَى الْبِغَاءِ إِنْ أَرَدْنَ تَحَصُّنًا لِتَبْتَغُوا عَرَضَ الْحَيَاةِ الدُّنْيَا وَمَنْ يُكْرِهْهُنَّ فَإِنَّ اللَّهَ مِنْ بَعْدِ إِكْرَاهِهِنَّ‏}‏ لَهُنَّ ‏{‏ غَفُورٌ رَحِيمٌ‏}‏",
+      "source_hash_sha256": "2506e3eae5df37d9077abc294688bc904ba41e36f9776bf65e175b6cf376bb96",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_quote",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "a58f5cc2-4e0a-4ca9-85b1-c21ffd2c8e4c",
+      "status": "blocked",
+      "reason": "Cette entrée ne reproduit pas le récit annoncé : elle fournit des chaînes de transmission et une note de variante concernant la sourate citée dans la version précédente. La traduction française reste en attente du texte intégral."
+    },
+    {
+      "source_id": "5b9776b0-7528-422f-9850-b515047b130f",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 4:94 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "e693c12f-809c-47dd-9d1d-c5b39649dceb",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 2:189 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "e0102430-097b-48cd-8e7c-74087c296b79",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 57:16 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "8b1f6784-8f0e-495f-9600-9014258439a3",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 7:31 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    },
+    {
+      "source_id": "20489fd3-b4bc-4f2a-a9f5-281af344daee",
+      "status": "blocked",
+      "reason": "Le récit intègre une citation du verset 24:33 du Coran. La formulation française autorisée et l’attribution de la citation doivent être confirmées avant de traduire le rapport."
+    }
+  ]
+}
