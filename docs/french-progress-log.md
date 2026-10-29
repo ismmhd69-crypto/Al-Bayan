@@ -11738,3 +11738,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 2003a-2003f
 
 - FR-LIB-HAD-MUSLIM-0944 saves five private French drafts about intoxicating drinks and the consequence of drinking without repentance. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.
+
+### 2026-10-29: Muslim 2003g-2004d
+
+- FR-LIB-HAD-MUSLIM-0945 saves five private French drafts about repentance and the time limits for drinking prepared nabîdh. Different schedules and instructions for leftovers are preserved. One chain-only entry remains blank under Needs Mo. No Quran verse is quoted. No database write or publication occurred.

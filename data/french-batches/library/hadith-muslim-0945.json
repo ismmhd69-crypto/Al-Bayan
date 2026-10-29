@@ -1,0 +1,166 @@
+{
+  "batch_id": "HADITH-MUSLIM-0945",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T20:32:58.577Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "92da7b89-2214-418b-9d67-6ce7e2dad295",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003g",
+      "reference": "Sahih Muslim, hadith 2003 g, book 36, باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "title": "باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ نُمَيْرٍ، ح وَحَدَّثَنَا ابْنُ نُمَيْرٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا عُبَيْدُ اللَّهِ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ مَنْ شَرِبَ الْخَمْرَ فِي الدُّنْيَا لَمْ يَشْرَبْهَا فِي الآخِرَةِ إِلاَّ أَنْ يَتُوبَ ‏\"‏ ‏.‏",
+      "source_hash_sha256": "c8eb426c060c7d12e17dd55e4878ac093ac7ec420d8df20c2d9b8f55d82d591f",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba nous a rapporté : ‘Abd Allâh ibn Numayr nous a rapporté. Ibn Numayr nous a également rapporté : Mon père nous a rapporté : ‘Ubayd Allâh nous a rapporté, d’après Nâfi‘, d’après Ibn ‘Umar : Le Messager d’Allah a dit : « Celui qui boit du vin ici-bas n’en boira pas dans l’au-delà, à moins qu’il ne s’en repente. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "24506f54-3139-485c-8ef7-6c199ea85831",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2003h",
+      "reference": "Sahih Muslim, hadith 2003 h, book 36, باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "title": "باب عُقُوبَةِ مَنْ شَرِبَ الْخَمْرَ إِذَا لَمْ يَتُبْ مِنْهَا بِمَنْعِهِ إِيَّاهَا فِي الآخِرَةِ ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا ابْنُ أَبِي عُمَرَ، حَدَّثَنَا هِشَامٌ، - يَعْنِي ابْنَ سُلَيْمَانَ الْمَخْزُومِيَّ - عَنِ ابْنِ، جُرَيْجٍ أَخْبَرَنِي مُوسَى بْنُ عُقْبَةَ، عَنْ نَافِعٍ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صلى الله عليه وسلم بِمِثْلِ حَدِيثِ عُبَيْدِ اللَّهِ ‏.‏",
+      "source_hash_sha256": "4dc8d8222e318c92d2793dc0b56e0cb2e4b0b615de7fabb5e5e7e5f7c7f9b168",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_chain_only",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8d37d2cf-8ec8-415b-a00a-adf3bb74c59b",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2004a",
+      "reference": "Sahih Muslim, hadith 2004 a, book 36, باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "title": "باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا عُبَيْدُ اللَّهِ بْنُ مُعَاذٍ الْعَنْبَرِيُّ، حَدَّثَنَا أَبِي، حَدَّثَنَا شُعْبَةُ، عَنْ يَحْيَى بْنِ عُبَيْدٍ، أَبِي عُمَرَ الْبَهْرَانِيِّ قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُنْتَبَذُ لَهُ أَوَّلَ اللَّيْلِ فَيَشْرَبُهُ إِذَا أَصْبَحَ يَوْمَهُ ذَلِكَ وَاللَّيْلَةَ الَّتِي تَجِيءُ وَالْغَدَ وَاللَّيْلَةَ الأُخْرَى وَالْغَدَ إِلَى الْعَصْرِ فَإِنْ بَقِيَ شَىْءٌ سَقَاهُ الْخَادِمَ أَوْ أَمَرَ بِهِ فَصُبَّ ‏.‏",
+      "source_hash_sha256": "6855f2c5af3924948a6dbe12f88be72d0ca9171a9632515bbab6d3b6eba74b98",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "‘Ubayd Allâh ibn Mu‘âdh al-‘Anbarî nous a rapporté : Mon père nous a rapporté : Shu‘ba nous a rapporté, d’après Yahyâ ibn ‘Ubayd Abû ‘Umar al-Bahrânî, qui a dit : J’ai entendu Ibn ‘Abbâs dire : « On préparait du nabîdh pour le Messager d’Allah au début de la nuit. Il en buvait le lendemain, puis durant le jour et la nuit suivants, puis le jour d’après et la nuit suivante, jusqu’au milieu de l’après-midi. S’il en restait, il le donnait à boire à un serviteur ou ordonnait qu’on le verse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "0dff1d17-6e6c-4e0e-84c1-0a39c860a6b8",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2004b",
+      "reference": "Sahih Muslim, hadith 2004 b, book 36, باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "title": "باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ بَشَّارٍ، حَدَّثَنَا مُحَمَّدُ بْنُ جَعْفَرٍ، حَدَّثَنَا شُعْبَةُ، عَنْ يَحْيَى الْبَهْرَانِيِّ، قَالَ ذَكَرُوا النَّبِيذَ عِنْدَ ابْنِ عَبَّاسٍ فَقَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُنْتَبَذُ لَهُ فِي سِقَاءٍ - قَالَ شُعْبَةُ مِنْ لَيْلَةِ الاِثْنَيْنِ - فَيَشْرَبُهُ يَوْمَ الاِثْنَيْنِ وَالثَّلاَثَاءِ إِلَى الْعَصْرِ فَإِنْ فَضَلَ مِنْهُ شَىْءٌ سَقَاهُ الْخَادِمَ أَوْ صَبَّهُ ‏.‏",
+      "source_hash_sha256": "e39f9f7d53edca6c60aae0299d935222b89b49978bc48b701a507380041489f9",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muhammad ibn Bashshâr nous a rapporté : Muhammad ibn Ja‘far nous a rapporté : Shu‘ba nous a rapporté : Yahyâ al-Bahrânî a dit : On parla du nabîdh devant Ibn ‘Abbâs. Il dit : « On préparait du nabîdh pour le Messager d’Allah dans une outre — Shu‘ba précise : à partir du lundi soir. Il en buvait le lundi et le mardi jusqu’au milieu de l’après-midi. S’il en restait, il le donnait à boire au serviteur ou le versait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "ee0739ad-49d5-46c9-acb2-e53837468e05",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2004c",
+      "reference": "Sahih Muslim, hadith 2004 c, book 36, باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "title": "باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَأَبُو كُرَيْبٍ وَإِسْحَاقُ بْنُ إِبْرَاهِيمَ - وَاللَّفْظُ لأَبِي بَكْرٍ وَأَبِي كُرَيْبٍ - قَالَ إِسْحَاقُ أَخْبَرَنَا وَقَالَ الآخَرَانِ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ أَبِي عُمَرَ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُنْقَعُ لَهُ الزَّبِيبُ فَيَشْرَبُهُ الْيَوْمَ وَالْغَدَ وَبَعْدَ الْغَدِ إِلَى مَسَاءِ الثَّالِثَةِ ثُمَّ يَأْمُرُ بِهِ فَيُسْقَى أَوْ يُهَرَاقُ ‏.‏",
+      "source_hash_sha256": "43653bd3746c8fdee831c7d7dd62097d298ea89224a179c983eb9b860c63bc93",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Bakr ibn Abî Shayba, Abû Kurayb et Ishâq ibn Ibrâhîm nous ont rapporté — la formulation est celle d’Abû Bakr et d’Abû Kurayb. Ishâq a dit : Il nous a informés ; les deux autres ont dit : Abû Mu‘âwiya nous a rapporté, d’après al-A‘mash, d’après Abû ‘Umar, d’après Ibn ‘Abbâs : « On faisait tremper des raisins secs pour le Messager d’Allah. Il en buvait le jour même, le lendemain, puis le jour d’après jusqu’au soir du troisième jour. Ensuite, il ordonnait qu’on le donne à boire ou qu’on le verse. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "8f451103-3be1-4e7f-8d35-8f601c226cb2",
+      "kind": "hadith",
+      "collection": "Sahih Muslim",
+      "url": "https://sunnah.com/muslim:2004d",
+      "reference": "Sahih Muslim, hadith 2004 d, book 36, باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "title": "باب إِبَاحَةِ النَّبِيذِ الَّذِي لَمْ يَشْتَدَّ وَلَمْ يَصِرْ مُسْكِرًا ‏‏",
+      "source_published": true,
+      "text_original": "وَحَدَّثَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، أَخْبَرَنَا جَرِيرٌ، عَنِ الأَعْمَشِ، عَنْ يَحْيَى أَبِي عُمَرَ، عَنِ ابْنِ عَبَّاسٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم يُنْبَذُ لَهُ الزَّبِيبُ فِي السِّقَاءِ فَيَشْرَبُهُ يَوْمَهُ وَالْغَدَ وَبَعْدَ الْغَدِ فَإِذَا كَانَ مِسَاءُ الثَّالِثَةِ شَرِبَهُ وَسَقَاهُ فَإِنْ فَضَلَ شَىْءٌ أَهْرَاقَهُ ‏.‏",
+      "source_hash_sha256": "919b0344100d8e181c82c7a9bebda32d955c92a6c9fa8c803a74a1c6ed91b9ca",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Ishâq ibn Ibrâhîm nous a informés : Jarîr nous a rapporté, d’après al-A‘mash, d’après Yahyâ Abû ‘Umar, d’après Ibn ‘Abbâs, qui a dit : « On faisait tremper des raisins secs pour le Messager d’Allah dans une outre. Il en buvait le jour même, le lendemain et le jour suivant. Le soir du troisième jour, il en buvait et en servait. S’il en restait, il le versait. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "24506f54-3139-485c-8ef7-6c199ea85831",
+      "url": "https://sunnah.com/muslim:2003h",
+      "reason": "Cette entrée ne fournit que la chaîne de transmission du récit précédent et renvoie à son contenu sans variante distincte. Garder la traduction française vide jusqu’à validation du récit complet.",
+      "status": "blocked"
+    }
+  ]
+}
