@@ -11256,3 +11256,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0825 saves four private French drafts about extra shares of the khums and the combatant’s right to the belongings of a person he killed, including the full report from Hunayn and its wording variant. Muslim 1751a and 1751b provide only transmission chains and cross-references to the following report; both remain blank under Needs Mo.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1752-1756
+
+- FR-LIB-HAD-MUSLIM-0826 saves six private French drafts: the account of the two young Ansar who killed Abu Jahl, the report about Khalid and a combatant’s spoils, its distinct Mu’ta wording, two detailed campaign reports, and the ruling on shares from a locality. Narrator chains, repeated questions, quantities, and wording variants are preserved.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks are pending. No database write or publication occurred.
