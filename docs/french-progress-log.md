@@ -10846,3 +10846,8 @@ Scope: private local preparation only. French remains absent from public locale 
 
 - FR-LIB-HAD-MUSLIM-0743 saves six private French drafts about exchanges of dates and grain, along with reports on deferred exchanges. All six entries contain complete reports.
 - All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1596d–1599c
+
+- FR-LIB-HAD-MUSLIM-0744 saves four private French drafts on deferred exchange, usury and doubtful matters. Muslim 1599b–c only refer to the preceding report and remain blank under Needs Mo.
+- All six source IDs and hashes are recorded in the batch artifact and manifest. Focused batch validation and diff checks passed. No database write or publication occurred.
