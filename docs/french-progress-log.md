@@ -11318,3 +11318,7 @@ Scope: private local preparation only. French remains absent from public locale 
 ### 2026-10-29: Muslim 1773b-1774c
 
 - FR-LIB-HAD-MUSLIM-0839 saves four private French drafts: a report variant adding Caesar’s journey and wording details, the report about letters to rulers, and two variants omitting its qualification about the Negus. No Quran quotation appears in these entries. No database write or publication occurred.
+
+### 2026-10-29: Muslim 1775a
+
+- FR-LIB-HAD-MUSLIM-0840 saves one private French draft of the complete report about Hunayn. It preserves the chain, the sequence of the battle, the calls to the Companions of the Acacia and the Ansâr, and ‘Abbâs’s observations. No Quran quotation appears in this source entry. No database write or publication occurred.
