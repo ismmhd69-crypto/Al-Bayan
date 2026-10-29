@@ -57,15 +57,15 @@
     "hardcodedVisitorCopyDrafted": 461,
     "websiteNeedsMo": 6,
     "hadithHumanReviewed": 0,
-    "hadithBukhariDrafted": 5672,
+    "hadithBukhariDrafted": 5676,
     "hadithMuslimDrafted": 0,
     "hadithDatabaseInserted": 0,
     "hadithMuslimTotal": 7366,
     "hadithBukhariTotal": 7263,
-    "hadithLocalDrafted": 5672,
+    "hadithLocalDrafted": 5676,
     "hadithDatabaseMissing": 14629,
-    "hadithLocalRemaining": 8957,
-    "hadithNeedsMo": 816,
+    "hadithLocalRemaining": 8953,
+    "hadithNeedsMo": 818,
     "hadithPublished": 0,
     "hadithDatabaseWritePolicy": "No writes: French is outside the live lang constraint; sunnah.com rights allow AI processing but disallow translation indexing."
   },
@@ -26149,6 +26149,27 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "private local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-BUKHARI-1236",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-bukhari-1236.json",
+      "sourceIds": [
+        "dd7562e8-438d-4f69-b173-1d881d9b58b5",
+        "1bbcb54b-bf18-42c2-a8cc-50423bb3c70d",
+        "963b2129-fe98-42ed-9fca-f214c1ac07dd",
+        "a6390750-e60d-4933-b281-1526ea94dce2",
+        "416f0e75-6c96-429a-b7d9-86db99485bc2",
+        "7624e61e-3277-4671-876e-511d57193033"
+      ],
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 0,
+      "validation": "Four complete French drafts; two reports held in full for direct Quran quotations. Source hashes retained. Focused batch validator passed. No database writes.",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "four private drafts; two Needs Mo holds"
     }
   ],
   "blockers": [
@@ -29433,11 +29454,23 @@
       "scope": "Sahih al-Bukhari 6728: 2,827-character report directly quoting Quran 59:6",
       "status": "blocked",
       "reason": "The report directly quotes Quran 59:6. Keep the complete translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6736-QURAN-6-56",
+      "scope": "Sahih al-Bukhari 6736: direct quotation of Quran 6:56",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:56. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6739-QURAN-4-11",
+      "scope": "Sahih al-Bukhari 6739: direct quotation of Quran 4:11",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:11. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ],
-  "hadithBukhariDrafted": 5672,
-  "hadithLocalDrafted": 5672,
-  "hadithLocalRemaining": 8957,
+  "hadithBukhariDrafted": 5676,
+  "hadithLocalDrafted": 5676,
+  "hadithLocalRemaining": 8953,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -29864,6 +29897,18 @@
       "scope": "Sahih al-Bukhari 6728: 2,827-character report directly quoting Quran 59:6",
       "status": "blocked",
       "reason": "The report directly quotes Quran 59:6. Keep the complete translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6736-QURAN-6-56",
+      "scope": "Sahih al-Bukhari 6736: direct quotation of Quran 6:56",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 6:56. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
+    },
+    {
+      "id": "HADITH-BUKHARI-6739-QURAN-4-11",
+      "scope": "Sahih al-Bukhari 6739: direct quotation of Quran 4:11",
+      "status": "blocked",
+      "reason": "The report directly quotes Quran 4:11. Keep the complete French translation blank pending an approved, attributed French Quran translation and confirmation of permitted use."
     }
   ]
 }

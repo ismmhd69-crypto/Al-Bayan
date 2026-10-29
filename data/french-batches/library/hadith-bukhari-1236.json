@@ -1,0 +1,174 @@
+{
+  "batch_id": "HADITH-BUKHARI-1236",
+  "content_type": "hadith",
+  "language": "fr",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "exported_at": "2026-10-29T12:08:02.481Z",
+  "read_only_export": true,
+  "translation_index_enabled": false,
+  "public_enabled": false,
+  "human_reviewed": false,
+  "max_source_chars_for_multi_item_batch": 2000,
+  "items": [
+    {
+      "source_id": "dd7562e8-438d-4f69-b173-1d881d9b58b5",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6735",
+      "reference": "Sahih al-Bukhari, hadith 6735, book 85, باب مِيرَاثِ ابْنِ الاِبْنِ، إِذَا لَمْ يَكُنِ ابْنٌ",
+      "title": "باب مِيرَاثِ ابْنِ الاِبْنِ، إِذَا لَمْ يَكُنِ ابْنٌ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا وُهَيْبٌ، حَدَّثَنَا ابْنُ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَهْوَ لأَوْلَى رَجُلٍ ذَكَرٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "adf8ce442593f1f7f6c33153c7932f344005cdcbd96e0271532cf1106c7b26cd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Muslim ibn Ibrâhîm nous a rapporté ; Wuhayb nous a rapporté ; Ibn Tâwûs nous a rapporté, d’après son père, d’après Ibn ‘Abbâs, qui a dit : Le Messager d’Allah ﷺ a dit : « Attribuez les parts prescrites à ceux qui y ont droit ; ce qui reste revient au plus proche parent masculin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "1bbcb54b-bf18-42c2-a8cc-50423bb3c70d",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6736",
+      "reference": "Sahih al-Bukhari, hadith 6736, book 85, باب مِيرَاثِ ابْنَةِ ابْنٍ مَعَ ابْنَةٍ",
+      "title": "باب مِيرَاثِ ابْنَةِ ابْنٍ مَعَ ابْنَةٍ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا آدَمُ، حَدَّثَنَا شُعْبَةُ، حَدَّثَنَا أَبُو قَيْسٍ، سَمِعْتُ هُزَيْلَ بْنَ شُرَحْبِيلَ، قَالَ سُئِلَ أَبُو مُوسَى عَنِ ابْنَةٍ وَابْنَةِ ابْنٍ وَأُخْتٍ، فَقَالَ لِلاِبْنَةِ النِّصْفُ وَلِلأُخْتِ النِّصْفُ، وَأْتِ ابْنَ مَسْعُودٍ فَسَيُتَابِعُنِي‏.‏ فَسُئِلَ ابْنُ مَسْعُودٍ وَأُخْبِرَ بِقَوْلِ أَبِي مُوسَى، فَقَالَ لَقَدْ ضَلَلْتُ إِذًا وَمَا أَنَا مِنَ الْمُهْتَدِينَ،، أَقْضِي فِيهَا بِمَا قَضَى النَّبِيُّ صلى الله عليه وسلم ‏\"‏ لِلاِبْنَةِ النِّصْفُ، وَلاِبْنَةِ ابْنٍ السُّدُسُ تَكْمِلَةَ الثُّلُثَيْنِ، وَمَا بَقِيَ فَلِلأُخْتِ ‏\"‏‏.‏ فَأَتَيْنَا أَبَا مُوسَى فَأَخْبَرْنَاهُ بِقَوْلِ ابْنِ مَسْعُودٍ، فَقَالَ لاَ تَسْأَلُونِي مَا دَامَ هَذَا الْحَبْرُ فِيكُمْ‏.‏",
+      "source_hash_sha256": "33ab2452b99b2dff7c4f4e9de683576ee91b965827b6aa81b4e39e9192d78b92",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le Coran 6:56. Garder l’intégralité de sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    },
+    {
+      "source_id": "963b2129-fe98-42ed-9fca-f214c1ac07dd",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6737",
+      "reference": "Sahih al-Bukhari, hadith 6737, book 85, باب مِيرَاثِ الْجَدِّ مَعَ الأَبِ وَالإِخْوَةِ",
+      "title": "باب مِيرَاثِ الْجَدِّ مَعَ الأَبِ وَالإِخْوَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا سُلَيْمَانُ بْنُ حَرْبٍ، حَدَّثَنَا وُهَيْبٌ، عَنِ ابْنِ طَاوُسٍ، عَنْ أَبِيهِ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏\"‏ أَلْحِقُوا الْفَرَائِضَ بِأَهْلِهَا فَمَا بَقِيَ فَلأَوْلَى رَجُلٍ ذَكَرٍ ‏\"‏‏.‏",
+      "source_hash_sha256": "abc6b294f4797075958c24afa0cb9aee602d23d694dab83017c402fafd6d1087",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Sulaymân ibn Harb nous a rapporté ; Wuhayb nous a rapporté, d’après Ibn Tâwûs, d’après son père, d’après Ibn ‘Abbâs — qu’Allah les agrée tous deux —, d’après le Prophète ﷺ, qui a dit : « Attribuez les parts prescrites à ceux qui y ont droit ; ce qui reste revient au plus proche parent masculin. »",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "a6390750-e60d-4933-b281-1526ea94dce2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6738",
+      "reference": "Sahih al-Bukhari, hadith 6738, book 85, باب مِيرَاثِ الْجَدِّ مَعَ الأَبِ وَالإِخْوَةِ",
+      "title": "باب مِيرَاثِ الْجَدِّ مَعَ الأَبِ وَالإِخْوَةِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا أَبُو مَعْمَرٍ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا أَيُّوبُ، عَنْ عِكْرِمَةَ، عَنِ ابْنِ عَبَّاسٍ، قَالَ أَمَّا الَّذِي قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ لَوْ كُنْتُ مُتَّخِذًا مِنْ هَذِهِ الأُمَّةِ خَلِيلاً لاَتَّخَذْتُهُ، وَلَكِنْ خُلَّةُ الإِسْلاَمِ أَفْضَلُ ‏\"‏‏.‏ أَوْ قَالَ ‏\"‏ خَيْرٌ ‏\"‏‏.‏ فَإِنَّهُ أَنْزَلَهُ أَبًا‏.‏ أَوْ قَالَ قَضَاهُ أَبًا‏.‏",
+      "source_hash_sha256": "401993987308f4b2b24b96e64fe2c4f8576335165ca3e73ef14bf2d319e30acd",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Abû Ma‘mar nous a rapporté ; ‘Abd al-Wârith nous a rapporté ; Ayyûb nous a rapporté, d’après ‘Ikrima, d’après Ibn ‘Abbâs, qui a dit : Le Messager d’Allah ﷺ a dit : « Si je devais prendre un ami intime parmi les membres de cette communauté, je le prendrais ; mais l’amitié intime que donne l’islam est meilleure » — ou a-t-il dit : « meilleure encore » ? Il le tenait pour un père — ou, selon une autre formulation, le considérait comme un père.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    },
+    {
+      "source_id": "416f0e75-6c96-429a-b7d9-86db99485bc2",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6739",
+      "reference": "Sahih al-Bukhari, hadith 6739, book 85, باب مِيرَاثِ الزَّوْجِ مَعَ الْوَلَدِ وَغَيْرِهِ",
+      "title": "باب مِيرَاثِ الزَّوْجِ مَعَ الْوَلَدِ وَغَيْرِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا مُحَمَّدُ بْنُ يُوسُفَ، عَنْ وَرْقَاءَ، عَنِ ابْنِ أَبِي نَجِيحٍ، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ ـ رضى الله عنهما ـ قَالَ كَانَ الْمَالُ لِلْوَلَدِ، وَكَانَتِ الْوَصِيَّةُ لِلْوَالِدَيْنِ، فَنَسَخَ اللَّهُ مِنْ ذَلِكَ مَا أَحَبَّ، فَجَعَلَ لِلذَّكَرِ مِثْلَ حَظِّ الأُنْثَيَيْنِ، وَجَعَلَ لِلأَبَوَيْنِ لِكُلِّ وَاحِدٍ مِنْهُمَا السُّدُسُ، وَجَعَلَ لِلْمَرْأَةِ الثُّمُنَ وَالرُّبُعَ، وَلِلزَّوْجِ الشَّطْرَ وَالرُّبُعَ‏.‏",
+      "source_hash_sha256": "2f0e9baae21411569de8b410a34966434d9b7dd545ce0c12ef7acf63862a4ecb",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "",
+      "draft_status": "needs_mo_quran_translation_rights",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false,
+      "needs_mo": true,
+      "needs_mo_reason": "Ce récit cite directement le Coran 4:11 (« au garçon, une part équivalente à celle de deux filles »). Garder l’intégralité de sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    },
+    {
+      "source_id": "7624e61e-3277-4671-876e-511d57193033",
+      "kind": "hadith",
+      "collection": "Sahih al-Bukhari",
+      "url": "https://sunnah.com/bukhari:6740",
+      "reference": "Sahih al-Bukhari, hadith 6740, book 85, باب مِيرَاثِ الْمَرْأَةِ وَالزَّوْجِ مَعَ الْوَلَدِ وَغَيْرِهِ",
+      "title": "باب مِيرَاثِ الْمَرْأَةِ وَالزَّوْجِ مَعَ الْوَلَدِ وَغَيْرِهِ",
+      "source_published": true,
+      "text_original": "حَدَّثَنَا قُتَيْبَةُ، حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنِ ابْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ قَالَ قَضَى رَسُولُ اللَّهِ صلى الله عليه وسلم فِي جَنِينِ امْرَأَةٍ مِنْ بَنِي لَحْيَانَ سَقَطَ مَيِّتًا بِغُرَّةٍ عَبْدٍ أَوْ أَمَةٍ‏.‏ ثُمَّ إِنَّ الْمَرْأَةَ الَّتِي قَضَى عَلَيْهَا بِالْغُرَّةِ تُوُفِّيَتْ، فَقَضَى رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ بِأَنَّ مِيرَاثَهَا لِبَنِيهَا وَزَوْجِهَا، وَأَنَّ الْعَقْلَ عَلَى عَصَبَتِهَا ‏\"‏‏.‏",
+      "source_hash_sha256": "809bf56f9dd258ee0aad136cbaa7e508bd8ba8b27c15dd33dd9ec603df6516c8",
+      "existing_french_rows": 0,
+      "rights": {
+        "owner": "sunnah.com",
+        "status": "granted",
+        "ai_processing_allowed": true,
+        "translation_index_allowed": false,
+        "expires_at": null
+      },
+      "text_french": "Qutayba nous a rapporté ; al-Layth nous a rapporté, d’après Ibn Shihâb, d’après Ibn al-Musayyib, d’après Abû Hurayra, qui a dit : Le Messager d’Allah ﷺ a statué au sujet du fœtus d’une femme des Banû Lihyân, expulsé mort, qu’une ghurra — l’indemnité forfaitaire correspondant à un esclave ou à une esclave — devait être versée. Puis la femme à la charge de laquelle cette ghurra avait été imposée mourut. Le Messager d’Allah ﷺ statua alors que son héritage reviendrait à ses fils et à son mari, et que l’indemnité de sang (al-‘aql) incomberait à ses agnats.",
+      "draft_status": "private_local_ai_draft",
+      "database_inserted": false,
+      "translation_published": false,
+      "human_reviewed": false
+    }
+  ],
+  "needs_mo": [
+    {
+      "source_id": "1bbcb54b-bf18-42c2-a8cc-50423bb3c70d",
+      "url": "https://sunnah.com/bukhari:6736",
+      "reason": "Ce récit cite directement le Coran 6:56. Garder l’intégralité de sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    },
+    {
+      "source_id": "416f0e75-6c96-429a-b7d9-86db99485bc2",
+      "url": "https://sunnah.com/bukhari:6739",
+      "reason": "Ce récit cite directement le Coran 4:11 (« au garçon, une part équivalente à celle de deux filles »). Garder l’intégralité de sa traduction en attente d’une traduction française du Coran approuvée, attribuée et dont l’usage est autorisé."
+    }
+  ]
+}
