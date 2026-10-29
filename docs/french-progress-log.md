@@ -13736,3 +13736,9 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - Six complete reports are translated into private French drafts.
 - Focused French hadith validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Six private local drafts saved.
 - Reconciled saved records: 6341 Bukhari and 5263 Muslim drafts (11604 total); 3007 held Needs Mo; 14629 sources represented; 0 not yet exported. Local records without French drafts: 3025. All 14,629 remain missing from the live French table.
+
+### 2026-10-30: Bukhari 6932-6937, batch 1385
+
+- Six reports are included. Four complete reports without embedded Quran quotations are translated. Two reports containing Quran quotations remain blank under Needs Mo until the French wording and attribution are confirmed.
+- Focused French hadith validator and git diff check passed. Inserted: 0; preserved: 0; failed: 0; published: 0; human-reviewed: 0. Four private local drafts saved.
+- Reconciled saved records: 6345 Bukhari and 5263 Muslim drafts (11608 total); 3009 held Needs Mo; 14629 sources represented; 0 not yet exported. Local records without French drafts: 3021. All 14,629 remain missing from the live French table.
