@@ -48183,6 +48183,19 @@
       "humanReviewed": 0,
       "published": 0,
       "status": "local draft"
+    },
+    {
+      "id": "FR-LIB-HAD-MUSLIM-1092",
+      "contentType": "hadith",
+      "language": "fr",
+      "artifact": "data/french-batches/library/hadith-muslim-1092.json",
+      "translated": 4,
+      "inserted": 0,
+      "preserved": 2,
+      "validation": "four complete reports translated as private drafts; two transmission-only variants left blank with specific Needs Mo reasons; source IDs and hashes preserved",
+      "humanReviewed": 0,
+      "published": 0,
+      "status": "local draft"
     }
   ],
   "blockers": [
@@ -52490,8 +52503,8 @@
     }
   ],
   "hadithBukhariDrafted": 6336,
-  "hadithLocalDrafted": 9649,
-  "hadithLocalRemaining": 4877,
+  "hadithLocalDrafted": 9653,
+  "hadithLocalRemaining": 4873,
   "needsMo": [
     {
       "id": "HADITH-BUKHARI-5657-INCOMPLETE-SOURCE",
@@ -58113,10 +58126,20 @@
       "source_id": "dcfd4f5b-5dc7-459f-ab14-807cb720c424",
       "reason": "Cette entrée ne reproduit pas le contenu du récit et renvoie seulement à une version similaire. Garder la traduction française vide jusqu’à validation de la source complète.",
       "status": "blocked"
+    },
+    {
+      "source_id": "11167a84-3e01-429a-a812-835c22fd337a",
+      "reason": "Cette entrée ne donne que la chaîne de transmission sans reprendre le contenu du récit. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
+    },
+    {
+      "source_id": "7ecd0278-d041-4672-8b9d-c5a8934094c6",
+      "reason": "Cette entrée ne rapporte qu’une variante de transmission qui précise une omission, sans reproduire le récit. Garder la traduction française vide jusqu’à validation de la source complète.",
+      "status": "blocked"
     }
   ],
-  "hadithMuslimDrafted": 3486,
+  "hadithMuslimDrafted": 3490,
   "hadithDatabaseMissing": 7073,
   "hadithDatabaseInserted": 0,
-  "hadithNeedsMo": 1451
+  "hadithNeedsMo": 1453
 }
