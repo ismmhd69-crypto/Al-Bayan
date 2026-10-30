@@ -13,3 +13,9 @@
 .integrity { border-inline-start: 3px solid var(--gold); padding: .75rem; background: var(--gold-soft); color: var(--ink); }
 @keyframes rotate { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+
+/* The spinner shows which phase is running (Mo, 2026-10-30): Quran green, Sunnah blue, scholars gray, Bayan's summary yellow. */
+.quran .spinner { border-block-start-color: var(--quran-accent); }
+.hadith .spinner { border-block-start-color: var(--sunnah-accent); }
+.scholar .spinner { border-block-start-color: var(--scholar-accent); }
+.summary .spinner { border-block-start-color: #eab308; }

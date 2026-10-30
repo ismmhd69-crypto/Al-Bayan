@@ -113,3 +113,5 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
   - Google Search Console: Domain ownership verified for `askbayan.org` via Namecheap DNS TXT record. Submitted `https://askbayan.org/sitemap.xml` (Status: Success, 126 URLs discovered). Live URL inspection passed and indexing requested for key pages.
   - Bing Webmaster Tools (Bing, DuckDuckGo, Copilot): Verified via `public/BingSiteAuth.xml` (HTTP 200). Submitted `https://askbayan.org/sitemap.xml` (Status: Success, 0 errors, 0 warnings, 126 URLs discovered).
 
+
+- 2026-10-30 Music: Mo removed music from the refused topics in `data/view-decisions.ts`. The approved scholars in the library agree, so Ask answers it with named, linked sources. The prepared "is-music-haram" page stays held until Mo reviews it. Tawassul stays refused.

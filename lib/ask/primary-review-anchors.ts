@@ -45,8 +45,11 @@ export function resolvePrimaryReviewAnchors(raw: unknown, items: Claim[], serial
     // Seen live 28 October: one mislabelled "no" ended a whole answer as checker_failure.
     const anchor = choices[row.claim_id].find(a => a.anchor_id === f.source_anchor_id && a.source_id === f.source_id)
       ?? (!yes ? choices[row.claim_id].find(a => a.anchor_id === f.source_anchor_id) : undefined);
-    if (yes ? f.category !== "source_support" || f.claim_quote !== "" || f.source_id !== "" || f.source_anchor_id !== "" : !anchor) return null;
-    rows.push({ ...row, finding: { category: f.category, claim_quote: f.claim_quote, source_id: yes ? f.source_id : anchor!.source_id, source_quote: yes ? "" : anchor!.original_excerpt } });
+    // A full "yes" that quotes no problem may carry a leftover excerpt label, alone or with its own matching
+    // source (seen from Gemini Flash-Lite, 2026-10-30): it found nothing wrong. A "yes" that quotes a problem,
+    // or names a source that does not match the label, contradicts itself and is still refused.
+    if (yes ? f.category !== "source_support" || f.claim_quote !== "" || (f.source_id !== "" && !anchor) : !anchor) return null;
+    rows.push({ ...row, finding: { category: f.category, claim_quote: f.claim_quote, source_id: yes ? "" : anchor!.source_id, source_quote: yes ? "" : anchor!.original_excerpt } });
   }
   return seen.size === items.length ? { ...r, audit_contract: "field_verdicts_v2", claim_assessments: rows } : null;
 }

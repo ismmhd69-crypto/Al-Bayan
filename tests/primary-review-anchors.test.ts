@@ -55,3 +55,31 @@ it("still rejects a mismatched source on an approval", () => {
   row.conditions_preserved = "yes"; row.finding = { category: "source_support", claim_quote: "", source_id: "S2", source_anchor_id: "C1E1" };
   expect(normalizeRichReview(raw, items, serialized, true)).toBeNull();
 });
+
+function approved() {
+  return { audit_contract: PRIMARY_ANCHOR_CONTRACT, claim_assessments: [{ claim_id: "C1", source_ids: ["S1"],
+    ...Object.fromEntries(CLAIM_AUDIT_FIELDS.map(f => [f, "yes"])), explanation: "",
+    finding: { category: "source_support", claim_quote: "", source_id: "", source_anchor_id: "C1E1" },
+  }] };
+}
+it("ignores only a leftover excerpt label on a full yes with an otherwise empty finding", () => {
+  const parsed: any = normalizeRichReview(approved(), items, serialized, true);
+  expect(parsed.claim_assessments[0].finding).toMatchObject({ category: "source_support", claim_quote: "", source_id: "", source_quote: "" });
+});
+it("still refuses a yes with a real finding, and never turns a negative into an approval", () => {
+  const quoted = approved(); quoted.claim_assessments[0].finding.claim_quote = items[0].text;
+  expect(normalizeRichReview(quoted, items, serialized, true)).toBeNull();
+  const category = approved(); category.claim_assessments[0].finding.category = "missing_qualification";
+  expect(normalizeRichReview(category, items, serialized, true)).toBeNull();
+  const unsure = approved(); (unsure.claim_assessments[0] as any).direct_support = "unsure";
+  expect(normalizeRichReview(unsure, items, serialized, true)).toBeNull();
+  const noAnchor = negative(); noAnchor.claim_assessments[0].finding.source_anchor_id = "nope";
+  expect(normalizeRichReview(noAnchor, items, serialized, true)).toBeNull();
+});
+
+it("accepts a full yes that points at the excerpt it read, but refuses a label and source that disagree", () => {
+  const matching = approved(); matching.claim_assessments[0].finding.source_id = "S1";
+  expect((normalizeRichReview(matching, items, serialized, true) as any).claim_assessments[0].finding).toMatchObject({ source_id: "", source_quote: "" });
+  const mismatched = approved(); mismatched.claim_assessments[0].finding.source_id = "S2";
+  expect(normalizeRichReview(mismatched, items, serialized, true)).toBeNull();
+});

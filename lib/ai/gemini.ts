@@ -1,6 +1,8 @@
 import { askTimeout } from "@/lib/ask/timing";
 import { modelFetch } from "./transport";
 import { recordLocalAskEvent } from "@/lib/ask/local-trace";
+import { emitAiTrace } from "@/lib/ask/trace-context";
+import { VERTEX_PRICES } from "./price-ceiling";
 import "server-only";
 import type { AIProvider, JsonRequest, JsonSchema } from "./types";
 
@@ -28,7 +30,9 @@ function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
     case "array":
       return { type: "ARRAY", items: toGeminiSchema(s.items) };
     case "string":
-      return s.enum ? { type: "STRING", enum: s.enum } : { type: "STRING" };
+      // Google refuses an empty enum value (seen 2026-10-30); such a field goes as plain text and the
+      // caller's own parser still validates it.
+      return s.enum && !s.enum.includes("") ? { type: "STRING", enum: s.enum } : { type: "STRING" };
     default:
       return { type: s.type.toUpperCase() };
   }
@@ -52,11 +56,18 @@ async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): P
 /** Google said "busy", "slow down" or "no access" on this door, so another door may still work. */
 export class GoogleBusyError extends Error {}
 
+/** Gemini's thinking counts toward each step's limit and was cutting steps off before they answered (seen
+ * 2026-10-30), so small and large steps get more room. A number is still always sent: the spending guard
+ * reserves money from it. Other providers keep the limits the caller asked for. */
+export function geminiOutputLimit(requested: number): number {
+  return requested <= 2000 ? 4000 : requested >= 9000 ? Math.max(requested, 16000) : requested;
+}
+
 export function createGemini(apiKey: string, model: string, door: keyof typeof ENDPOINTS = "gemini"): AIProvider {
   const ENDPOINT = ENDPOINTS[door];
   return {
     id: `${door}/${model}`,
-    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, thinking, signal }: JsonRequest) {
+    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, thinking, thinkingLevel, signal }: JsonRequest) {
       const res = await withRetry(() => modelFetch(`${ENDPOINT}/${model}:generateContent`, {
         method: "POST",
         headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
@@ -67,10 +78,12 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
           contents: [{ role: "user", parts: [{ text: prompt }] }],
           generationConfig: {
             temperature: 0,
-            maxOutputTokens,
+            maxOutputTokens: geminiOutputLimit(maxOutputTokens),
             responseMimeType: "application/json",
             responseSchema: toGeminiSchema(schema),
-            ...(thinking ? { thinkingConfig: { thinkingLevel: thinking } } : {}),
+            // 2.5 models list low, medium and high but not minimal, and Flash-Lite's default is off.
+            ...(thinkingLevel ? { thinkingConfig: { thinkingLevel } }
+              : thinking && !(model.startsWith("gemini-2.5") && thinking === "minimal") ? { thinkingConfig: { thinkingLevel: thinking } } : {}),
           },
         }),
       }), signal);
@@ -80,8 +93,12 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
       if (res.status === 401 || res.status === 403) throw new GoogleBusyError(`${door} unavailable (${res.status})`);
       if (!res.ok) throw new Error(`${door} request failed with status ${res.status}`);
       const data = (await res.json()) as {
-        candidates?: { content?: { parts?: { text?: string; thought?: boolean }[] } }[];
+        candidates?: { content?: { parts?: { text?: string; thought?: boolean }[] }; finishReason?: string }[];
+        usageMetadata?: { promptTokenCount?: number; candidatesTokenCount?: number; thoughtsTokenCount?: number };
       };
+      const usage = data.usageMetadata, price = VERTEX_PRICES[model], output = (usage?.candidatesTokenCount ?? 0) + (usage?.thoughtsTokenCount ?? 0);
+      emitAiTrace("model_usage", { model: `${door}/${model}`, prompt_tokens: usage?.promptTokenCount, completion_tokens: output, reasoning_tokens: usage?.thoughtsTokenCount,
+        finish_reason: data.candidates?.[0]?.finishReason, ...(price ? { cost_usd: ((usage?.promptTokenCount ?? 0) * price.prompt + output * price.completion) / 1_000_000 } : {}) });
       const text = data.candidates?.[0]?.content?.parts?.filter(p => !p.thought).map((p) => p.text ?? "").join("") ?? "";
       recordLocalAskEvent("provider_visible_output", { model: `${door}/${model}`, content: text });
       try {

@@ -107,6 +107,21 @@ export function parseRichClaims(raw: unknown, group: RichGroup, pack: EvidencePa
   return parsed.claims;
 }
 
+/** Sentence-level rule breaks (Mo, 2026-10-30): keep the sentences that pass alone, then re-run every summary
+ * rule on the kept set, including that each differing scholarly position stays cited. Nothing here approves
+ * meaning: the kept sentences still need the full final review. Null when there is nothing safe to keep. */
+export function keepRuleAbidingSummary(raw: unknown, pack: EvidencePackage, language: Locale): Claim[] | null {
+  if (!Array.isArray(raw)) return null;
+  const { scholarDifference: _whole, ...singleSentence } = pack;
+  // Two sentences in one row become two rows with the same citations; each is judged by itself.
+  const rows = raw.flatMap(row => {
+    const text = (row as { text?: unknown } | null)?.text;
+    return typeof text === "string" ? text.split(/(?<=[.!?؟])\s+/u).filter(part => part.trim()).map(part => ({ ...(row as object), text: part })) : [row];
+  });
+  const kept = rows.filter(row => parseRichClaims([row], "summary", singleSentence, language)?.length === 1).slice(0, 4);
+  return kept.length && (kept.length < raw.length || rows.length > raw.length) ? parseRichClaims(kept, "summary", pack, language) : null;
+}
+
 /** Coverage may include the checked final synthesis, but every summary citation must also
  * occur in a checked explanation. Original source-to-point support remains mandatory. */
 export function richCoverageChecked(raw: unknown, items: Claim[], pack: EvidencePackage, summaryCount = 0,
@@ -167,6 +182,9 @@ export async function runRichAnswer(pack: EvidencePackage, language: Locale, dep
   const pending = new AbortController(), signal = AbortSignal.any([parentSignal, pending.signal]);
   const started = Date.now(), deadlineAt = started + budgetMs;
   let correctionUsed = false;
+  // Bounded retries (Mo, 2026-10-30): one checker retry per review and one extra summary rewrite. The session
+  // limits on calls and money still apply, and nothing is published unless the full final review passes.
+  let checkerRetry = false, lastChanceRepair = false;
   const conclusion: NonNullable<import("./progressive-checkpoint").ProgressiveCheckpoint["conclusion"]> = deps.progressiveCheckpoint
     ? (deps.progressiveCheckpoint.conclusion ??= { drafts: 0, meaningUsed: false, editorialUsed: false })
     : { drafts: 0, meaningUsed: false, editorialUsed: false };
@@ -305,7 +323,7 @@ Return only the requested structured output. Return next_step: [] with no extra 
       return writingRequest;
     };
     const reuseConclusion = conclusionOnly && !feedback && !pending && conclusion.drafts > 0 && conclusion.raw !== undefined;
-    if (conclusionOnly && !reuseConclusion && !pending && conclusion.drafts >= (deps.simpleResearch ? 2 : 3)) {
+    if (conclusionOnly && !reuseConclusion && !pending && conclusion.drafts >= (deps.simpleResearch ? (lastChanceRepair ? 4 : 2) : 3)) {
       failureKind = "spending_limit";
       writerFailures.set("summary", { reasons: ["writer_failed"], draft: null }); return null;
     }
@@ -542,7 +560,8 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
     const request = richReviewRequest({ items, language, full, question, serialized,
       guidance, translationCandidates, summaryCount, earlierCount: emitted.flatMap(s => s.claims).length, sourceStage, signal, deriveAuditReasons: deps.deriveAuditReasons || originalsOnly, publishedOriginalIds: [...publishedOriginals],
       ...(originalsOnly && full && summaryCount ? { previousReview: previousReviewFor(items) } : {}) });
-    const wire = await abortable(deps.verifier.generateJson(request), signal);
+    // A retry with the same settings gives the same reply, and overthinking is what cut the reply off.
+    const wire = await abortable(deps.verifier.generateJson(checkerRetry ? { ...request, thinkingLevel: "minimal" } : request), signal);
     const raw = normalizeRichReview(wire, items, serialized, originalsOnly, code => diagnostic("screening", `checker_invalid_${code}`));
     if (originalsOnly && full && summaryCount && raw && typeof raw === "object" && !Array.isArray(raw)) previousSummaryReview = { items: structuredClone(items), raw: raw as Record<string, unknown> };
     if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
@@ -691,7 +710,13 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
         return { ok: false, supported: false, withdraw: (full || sourceStage) && boundaries.blocked.some(id => Number(id.slice(1)) <= emitted.flatMap(s => s.claims).length),
           reasons: boundaries.reasons, feedback, safeClaimIds: [] };
       }
-      const verdict = await verifyOnce(items, full, summaryCount, sourceStage);
+      let verdict = await verifyOnce(items, full, summaryCount, sourceStage);
+      // A broken or cut-off reply says nothing about the sentences, so ask once more before giving up.
+      if (deps.simpleResearch && verdict.reasons?.includes("checker_failed") && !signal.aborted) {
+        diagnostic("screening", "checker_retry");
+        checkerRetry = true;
+        try { verdict = await verifyOnce(items, full, summaryCount, sourceStage); } finally { checkerRetry = false; }
+      }
       if (!verdict.ok) { failureKind = reviewFailureCategory(verdict.reasons ?? []); diagnostic("screening", failureKind); }
       const referents = checkCaseReferents(items, pack.passages.map(sourceText));
       const named = checkScholarAttributions(items, scholarIdentities, language);
@@ -748,8 +773,8 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
     const editorial = failures.length > 0 && failures.every(f => f.reasons.length && f.reasons.every(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r)));
     // Simple flow: one meaning correction, plus one free wording-only fix (copy or quotation) that
     // happens before the second review and never earns another review or meaning correction.
-    if ((!conclusionRepair && correctionUsed) || conclusionRepair && (deps.simpleResearch && (editorial ? conclusion.editorialUsed : (conclusion.meaningUsed || conclusion.editorialUsed || deps.progressiveCheckpoint?.simple?.correctionUsed))
-      || conclusion.drafts >= (deps.simpleResearch ? (editorial ? 3 : 2) : 3) || (editorial ? conclusion.editorialUsed : conclusion.meaningUsed))
+    if (!lastChanceRepair && ((!conclusionRepair && correctionUsed) || conclusionRepair && (deps.simpleResearch && (editorial ? conclusion.editorialUsed : (conclusion.meaningUsed || conclusion.editorialUsed || deps.progressiveCheckpoint?.simple?.correctionUsed))
+      || conclusion.drafts >= (deps.simpleResearch ? (editorial ? 3 : 2) : 3) || (editorial ? conclusion.editorialUsed : conclusion.meaningUsed)))
       || deadlineAt - Date.now() <= 10_000 || signal.aborted || !groups.length) return null;
     const copyPatches = new Map<RichGroup, CopyPatch>();
     const sentencePatches: unknown[] = [];
@@ -1075,6 +1100,25 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
     if (patient?.committedSources && writerFailures.get("summary")?.reasons.every(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r))) {
       synthesis = await repair(["summary"], [], synthesis);
     }
+    // Seen live 2026-10-30: one sentence crediting the Prophet with no hadith cited, twice, lost a whole summary.
+    const salvageSummary = () => {
+      const summaryFailure = writerFailures.get("summary");
+      if (!deps.simpleResearch || !summaryFailure?.reasons.length || !summaryFailure.reasons.every(r => ["source_attribution", "copied_source", "quotation", "unattributed_ruling", "multiple_sentences", "claim_length"].includes(r))) return;
+      const kept = keepRuleAbidingSummary((summaryFailure.draft as { summary?: unknown } | null)?.summary, pack, language);
+      if (kept) {
+        diagnostic("draft", "summary_rule_breaking_sentences_dropped", { count: kept.length });
+        writerFailures.delete("summary");
+        synthesis = { summary: kept };
+      }
+    };
+    salvageSummary();
+    if (deps.simpleResearch && !lastChanceRepair && !summarySourceChanged && !signal.aborted && (!synthesis?.summary?.length || writerFailures.has("summary"))) {
+      lastChanceRepair = true;
+      diagnostic("draft", "summary_last_chance");
+      const corrected = await repair(["summary"], ["failed_summary_draft"], synthesis);
+      if (corrected) synthesis = corrected;
+      salvageSummary();
+    }
     if (!synthesis?.summary?.length || writerFailures.has("summary")) {
       if (writerFailures.get("summary")?.reasons.some(r => ["copied_source", "quotation", "unattributed_ruling"].includes(r))) failureKind = "wording_rejected";
       return fail(false);
@@ -1127,12 +1171,28 @@ When writing summary, the next-step footer is OPTIONAL, represented by a require
       const failures = "feedback" in final ? final.feedback?.support_failures ?? [] : [];
       const failed = new Set(failures.map(f => Number(f.claim_id.slice(1)) - 1 - checkedItems.length));
       const kept = synthesis.summary.filter((_, i) => !failed.has(i));
-      if (failures.length && [...failed].every(i => i >= 0 && i < synthesis!.summary.length) && kept.length) {
+      // The kept set must still pass every summary rule, including that each differing scholarly position stays cited.
+      const rulesHold = !!kept.length && !!parseRichClaims(kept.map(c => ({ text: c.text, source_ids: c.refs, requirement_id: c.requirementId })), "summary", pack, language);
+      if (failures.length && [...failed].every(i => i >= 0 && i < synthesis!.summary.length) && rulesHold) {
         diagnostic("screening", "summary_rejected_sentences_dropped", { count: synthesis.summary.length - kept.length });
         const reduced = await verify([...checkedItems, ...kept], true, kept.length);
         if (reduced.ok) { synthesis = { ...synthesis, summary: kept }; all = [...checkedItems, ...kept]; final = reduced; }
       }
     }
+    const copied = (claims: Claim[]) => claims.some(c => sourceCopyMatch(c.text, pack.passages.map(sourceText)));
+    if (deps.simpleResearch && !lastChanceRepair && !summarySourceChanged && !signal.aborted && !final.withdraw && !final.reasons?.includes("checker_failed") && (!final.ok || copied(synthesis.summary))) {
+      lastChanceRepair = true;
+      diagnostic("draft", "summary_last_chance");
+      const rewrite = await repair(["summary"], final.reasons?.length ? final.reasons : ["final_check_failed"], synthesis, "feedback" in final ? final.feedback : undefined);
+      if (rewrite) synthesis = rewrite;
+      salvageSummary();
+      if (synthesis?.summary?.length && !writerFailures.has("summary") && !copied(synthesis.summary)) {
+        const again = [...checkedItems, ...synthesis.summary];
+        const verdict = await verify(again, true, synthesis.summary.length);
+        all = again; final = verdict;
+      }
+    }
+    if (!synthesis?.summary?.length || writerFailures.has("summary")) return fail(false);
     if (deps.simpleResearch && synthesis.summary.some(c => sourceCopyMatch(c.text, pack.passages.map(sourceText)))) {
       failureKind = "wording_rejected"; diagnostic("screening", "summary_copy_not_corrected"); return fail(false);
     }

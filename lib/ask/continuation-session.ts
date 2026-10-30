@@ -4,7 +4,7 @@ import { currentModelPriority, ModelDispatchRefusal, type ModelTransport } from 
 import { abortable } from "./abort";
 import { emitAiTrace, currentAskStarted } from "./trace-context";
 import type { ProgressiveCheckpoint } from "./progressive-checkpoint";
-import { modelPriceCeiling, modelReservation } from "@/lib/ai/price-ceiling";
+import { modelPriceCeiling, modelReservation, VERTEX_PRICES } from "@/lib/ai/price-ceiling";
 import { localAskUnhurried } from "./settings";
 import { sourceRequestTimeout } from "./timing";
 import { remainingResearchMs } from "./research-runtime";
@@ -137,13 +137,22 @@ export function continuationTransport(session: ContinuationSession, send: ModelT
     if (session.held) throw new ResearchSessionStop("billing_uncertain");
     if (session.dispatchBlocked) throw new ResearchSessionStop("limit");
     if ([...session.attempts.values()].some(a => a.state === "reserved" && a.callerStopped)) throw new ResearchSessionStop("billing_uncertain");
-    if (url !== "https://openrouter.ai/api/v1/chat/completions" || init.method !== "POST" || typeof init.body !== "string") throw new ResearchSessionStop("limit");
+    // Direct Vertex (Mo, 2026-10-30): only a priced model, under every limit below.
+    const vertexModel = /^https:\/\/aiplatform\.googleapis\.com\/v1\/publishers\/google\/models\/([\w.-]+):generateContent$/.exec(url)?.[1];
+    const vertexPrice = vertexModel ? VERTEX_PRICES[vertexModel] : undefined;
+    if ((url !== "https://openrouter.ai/api/v1/chat/completions" && !vertexPrice) || init.method !== "POST" || typeof init.body !== "string") throw new ResearchSessionStop("limit");
     const body = JSON.parse(init.body);
-    if (!Number.isSafeInteger(body.max_tokens) || body.max_tokens <= 0 || body.stream || body.tools || body.plugins || !Array.isArray(body.messages)
-      || body.messages.some((m: { content?: unknown }) => typeof m.content !== "string") || !body.provider || body.provider.data_collection !== "deny") throw new ResearchSessionStop("limit");
-    // Ceiling is provider routing, not a price estimate. Reserve pessimistically
-    // using UTF-8 bytes, output allowance and margin, before any network dispatch.
-    body.provider = { ...body.provider, max_price: modelPriceCeiling(body.model) };
+    const maxTokens: number = vertexPrice ? body.generationConfig?.maxOutputTokens : body.max_tokens;
+    if (vertexPrice) {
+      if (!Number.isSafeInteger(maxTokens) || maxTokens <= 0 || body.tools || !Array.isArray(body.contents)) throw new ResearchSessionStop("limit");
+    } else {
+      if (!Number.isSafeInteger(body.max_tokens) || body.max_tokens <= 0 || body.stream || body.tools || body.plugins || !Array.isArray(body.messages)
+        || body.messages.some((m: { content?: unknown }) => typeof m.content !== "string") || !body.provider || body.provider.data_collection !== "deny") throw new ResearchSessionStop("limit");
+      // Ceiling is provider routing, not a price estimate. Reserve pessimistically
+      // using UTF-8 bytes, output allowance and margin, before any network dispatch.
+      body.provider = { ...body.provider, max_price: modelPriceCeiling(body.model) };
+    }
+    const label = vertexPrice ? `vertex/${vertexModel}` : `openrouter/${body.model}`;
     const encoded = JSON.stringify(body), fingerprint = digest(encoded), ordinal = (ordinals.get(fingerprint) ?? 0) + 1;
     ordinals.set(fingerprint, ordinal);
     let key = `${fingerprint}:${ordinal}`, previous = session.attempts.get(key);
@@ -161,14 +170,14 @@ export function continuationTransport(session: ContinuationSession, send: ModelT
     init.signal?.throwIfAborted();
     if (session.dispatchBlocked) throw new ResearchSessionStop("limit");
     if (session.held || !session.active || [...session.attempts.values()].some(a => a.state === "reserved" && a.callerStopped)) throw new ResearchSessionStop("billing_uncertain");
-    const reserved = modelReservation(body);
+    const reserved = modelReservation(vertexPrice ? { model: label, messages: [body.systemInstruction, body.contents], max_tokens: maxTokens } : body);
     const exposure = [...session.attempts.values()].reduce((sum, a) => sum + (a.cost ?? a.reserved), 0);
-    if (session.cacheOnly || session.calls >= (session.simple ? 9 : CONTINUATION_LIMITS.calls) || session.tokens + body.max_tokens > CONTINUATION_LIMITS.outputTokens
+    if (session.cacheOnly || session.calls >= (session.simple ? 9 : CONTINUATION_LIMITS.calls) || session.tokens + maxTokens > CONTINUATION_LIMITS.outputTokens
       || runCalls >= (unhurried ? CONTINUATION_LIMITS.calls : CONTINUATION_LIMITS.runCalls)
-      || runTokens + body.max_tokens > (unhurried ? CONTINUATION_LIMITS.outputTokens : CONTINUATION_LIMITS.runOutputTokens)
+      || runTokens + maxTokens > (unhurried ? CONTINUATION_LIMITS.outputTokens : CONTINUATION_LIMITS.runOutputTokens)
       || exposure + reserved > CONTINUATION_LIMITS.costUsd || session.bytes + encoded.length > CONTINUATION_LIMITS.bytes) throw new ResearchSessionStop("limit");
     const attempt: Attempt = { state: "reserved", reserved };
-    session.attempts.set(key, attempt); session.calls++; session.tokens += body.max_tokens; runCalls++; runTokens += body.max_tokens;
+    session.attempts.set(key, attempt); session.calls++; session.tokens += maxTokens; runCalls++; runTokens += maxTokens;
     const callerStopped = () => { attempt.callerStopped = true; pump(); };
     init.signal?.addEventListener("abort", callerStopped, { once: true });
     let responseReceived = false;
@@ -191,7 +200,11 @@ export function continuationTransport(session: ContinuationSession, send: ModelT
           chunks.push(chunk.value);
         }
       } finally { reader?.releaseLock(); }
-      const text = Buffer.concat(chunks).toString("utf8"), data = JSON.parse(text), cost = data?.usage?.cost;
+      const text = Buffer.concat(chunks).toString("utf8"), data = JSON.parse(text);
+      // Google does not charge a refused request; a successful one must report its token counts.
+      const googleUsage = data?.usageMetadata;
+      const cost = !vertexPrice ? data?.usage?.cost : !response.ok ? 0 : typeof googleUsage?.promptTokenCount === "number"
+        ? (googleUsage.promptTokenCount * vertexPrice.prompt + ((googleUsage.candidatesTokenCount ?? 0) + (googleUsage.thoughtsTokenCount ?? 0)) * vertexPrice.completion) / 1_000_000 : undefined;
       if (typeof data?.id === "string" && /^gen-[a-zA-Z0-9_-]{1,196}$/.test(data.id)) attempt.generation = data.id;
       attempt.body = text; attempt.status = response.status; attempt.contentType = response.headers.get("content-type") ?? "application/json";
       session.bytes += count;
@@ -200,9 +213,9 @@ export function continuationTransport(session: ContinuationSession, send: ModelT
         // This recorder exists only in opted-in PRIVATE local traces. Ordinary
         // telemetry receives the fixed category, never the error body/message.
         recordLocalAskEvent("provider_rejection_private", { http_status: response.status, generation: attempt.generation, error: data?.error });
-        emitAiTrace("provider_request_rejected", { model: `openrouter/${body.model}`, http_status: response.status, outcome, output_contract: body.response_format?.type === "json_schema" ? "schema" : "legacy" });
+        emitAiTrace("provider_request_rejected", { model: label, http_status: response.status, outcome, output_contract: vertexPrice || body.response_format?.type === "json_schema" ? "schema" : "legacy" });
       }
-      if (typeof cost !== "number" || !Number.isFinite(cost) || cost < 0) { emitAiTrace("billing_receipt_missing", { model: `openrouter/${body.model}`, http_status: response.status }); throw new Error("unknown_cost"); }
+      if (typeof cost !== "number" || !Number.isFinite(cost) || cost < 0) { emitAiTrace("billing_receipt_missing", { model: label, http_status: response.status }); throw new Error("unknown_cost"); }
       session.actualUsd += cost - (attempt.cost ?? 0); attempt.cost = cost;
       if (cost > reserved) { session.holdReason = "unexpected_cost"; throw new Error("unexpected_cost"); }
       attempt.state = "settled";
@@ -211,7 +224,7 @@ export function continuationTransport(session: ContinuationSession, send: ModelT
       if (error instanceof ModelDispatchRefusal && !responseReceived) {
         // The trusted outer guard certifies that this one attempt never left
         // the process. Preserve every other reservation and unresolved charge.
-        session.attempts.delete(key); session.calls--; session.tokens -= body.max_tokens; runCalls--; runTokens -= body.max_tokens;
+        session.attempts.delete(key); session.calls--; session.tokens -= maxTokens; runCalls--; runTokens -= maxTokens;
         session.dispatchBlocked = true;
         emitAiTrace("model_dispatch_refused", { reason: error.reason, dispatched: false });
         throw new ResearchSessionStop("limit");

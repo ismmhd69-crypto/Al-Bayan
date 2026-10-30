@@ -139,6 +139,26 @@ export async function searchQuran(queries: string[], limit: number, signal?: Abo
   return out.slice(0, limit);
 }
 
+/** One page of a visitor's own word search (Quran page). Returns verse keys only; the text is fetched
+ * afterwards by key. Not cached, because the words come from the visitor. */
+export async function searchQuranWords(query: string, page: number, size: number, signal?: AbortSignal): Promise<{ keys: string[]; hasMore: boolean }> {
+  return runSourceRequest(signal, TIMEOUT_MS, "quran_search", async requestSignal => {
+    const url = `${env.api}${quranSearchPath(query, [TRANSLATIONS.en.id, TRANSLATIONS.de.id], size, page)}`;
+    const res = await authedFetch(url, { signal: requestSignal, cache: "no-store" });
+    if (!res.ok) throw new Error(`Quran search failed with status ${res.status}`);
+    const data = (await res.json()) as { result?: { verses?: { key?: unknown; result_type?: unknown }[] }; pagination?: { total_pages?: unknown } };
+    requestSignal.throwIfAborted();
+    const verses = data.result?.verses;
+    if (!Array.isArray(verses)) throw new Error("Quran search response was not understood");
+    const keys = verses
+      .filter((v) => (v.result_type === undefined || v.result_type === "ayah") && typeof v.key === "string" && /^\d{1,3}:\d{1,3}$/.test(v.key))
+      .map((v) => v.key as string)
+      .filter(allowed);
+    const pages = data.pagination?.total_pages;
+    return { keys: [...new Set(keys)], hasMore: typeof pages === "number" ? page < pages : verses.length >= size };
+  });
+}
+
 // ---------- verses ----------
 
 const showable = (t: unknown): string | null => (typeof t === "string" && t.length > 0 && !/[<>]/.test(t) ? t : null);

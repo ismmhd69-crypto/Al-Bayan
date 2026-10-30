@@ -1,10 +1,10 @@
 /** Pure URL builder kept separate so the search contract can be tested without API credentials. */
-export function quranSearchPath(query: string, translationIds: readonly number[], size: number): string {
+export function quranSearchPath(query: string, translationIds: readonly number[], size: number, page = 1): string {
   const ids = translationIds.join(",");
   const params = new URLSearchParams({
     mode: "advanced",
     query,
-    page: "1",
+    page: String(page),
     size: String(size),
     get_text: "0",
     highlight: "0",
@@ -13,4 +13,3 @@ export function quranSearchPath(query: string, translationIds: readonly number[]
   });
   return `/search/api/v1/search?${params}`;
 }
-

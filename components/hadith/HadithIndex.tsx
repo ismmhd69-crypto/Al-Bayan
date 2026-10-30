@@ -7,6 +7,9 @@ import { ArrowRight, BookOpen, Compass, Search, ShieldCheck, X } from "lucide-re
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { HadithCollectionSummary } from "@/lib/hadith/types";
 import { searchHadith, type HadithSearchResult } from "@/lib/hadith/search";
+import { isWordQuery, useWordSearch } from "@/lib/search/use-word-search";
+import type { HadithWordHit } from "@/lib/hadith/word-search";
+import { Highlighted, WordSearchSection } from "@/components/search/WordSearchSection";
 
 interface HadithIndexProps {
   lang: Locale;
@@ -45,6 +48,11 @@ export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
 
   const isSearching = query.trim().length > 0;
   const isChoiceState = directMatches.length > 0 && directMatches.every((r) => r.type === "choice");
+
+  // Words typed are also searched in the hadith text (Arabic, or the English / German translation).
+  const word = useWordSearch<HadithWordHit>("/api/hadith/search", lang, query);
+  const wordActive = isWordQuery(query);
+  const nothingFound = directMatches.length === 0 && (!wordActive || (word.status === "done" && word.items.length === 0));
 
   // Form submit handler
   const handleLookup = (e: React.FormEvent) => {
@@ -224,10 +232,10 @@ export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
             );
           })}
         </section>
-      ) : directMatches.length === 0 ? (
-        // Empty State
+      ) : nothingFound ? (
+        // Empty State (no collection, reference or word matches)
         <div className="hadith-empty-state" role="status">
-          <p>{dict.noMatches}</p>
+          <p>{wordActive ? dict.wordNone : dict.noMatches}</p>
           <button
             type="button"
             className="hadith-btn hadith-btn--secondary"
@@ -240,7 +248,7 @@ export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
             {dict.clearSearch}
           </button>
         </div>
-      ) : (
+      ) : directMatches.length === 0 ? null : (
         // Search Results List (including Clear Choice for standalone numbers)
         <div id={resultsListId} role="listbox" aria-label={dict.title}>
           {isChoiceState && (
@@ -314,6 +322,37 @@ export function HadithIndex({ lang, dict, collections }: HadithIndexProps) {
             })}
           </div>
         </div>
+      )}
+
+      {isSearching && (
+        <WordSearchSection
+          labels={{ heading: dict.wordHeading, searching: dict.wordSearching, error: dict.wordError, retry: dict.wordRetry, more: dict.wordMore }}
+          status={word.status}
+          hasMore={word.hasMore}
+          count={word.items.length}
+          onMore={word.loadMore}
+          onRetry={word.retry}
+          note={word.items.some((h) => h.excerptLang !== "ar") ? dict.wordNote : undefined}
+        >
+          {word.items.map((hit) => (
+            <li key={`${hit.collection}:${hit.number}`}>
+              <Link href={`/${lang}/hadith/${hit.collection}/${hit.number}`} className="word-item">
+                <span className="word-item-ref">
+                  {hit.collection === "bukhari" ? dict.bukhari : dict.muslim}
+                  <small>{dict.hadithNumber.replace("{number}", hit.number)}</small>
+                </span>
+                <p
+                  className={hit.excerptLang === "ar" ? "word-item-ar" : "word-item-text"}
+                  lang={hit.excerptLang}
+                  dir={hit.excerptLang === "ar" ? "rtl" : "ltr"}
+                >
+                  <Highlighted text={hit.excerpt} />
+                </p>
+                {hit.chapter && <p className="word-item-chapter" lang="ar" dir="rtl">{hit.chapter}</p>}
+              </Link>
+            </li>
+          ))}
+        </WordSearchSection>
       )}
 
       <footer className="hadith-attribution">

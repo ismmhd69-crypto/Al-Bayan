@@ -7,6 +7,9 @@ import { ArrowRight, BookOpen, Compass, Search, X } from "lucide-react";
 import type { Dictionary, Locale } from "@/lib/i18n";
 import type { SurahSummary } from "@/lib/quran/types";
 import { searchQuran, type QuranSearchResult } from "@/lib/quran/search";
+import { isWordQuery, useWordSearch } from "@/lib/search/use-word-search";
+import type { QuranWordHit } from "@/lib/quran/word-search";
+import { WordSearchSection } from "@/components/search/WordSearchSection";
 
 interface SurahIndexProps {
   lang: Locale;
@@ -80,6 +83,10 @@ export function SurahIndex({ lang, dict, chapters }: SurahIndexProps) {
   };
 
   const isSearching = query.trim().length > 0;
+  // Words typed are also searched in the verses themselves (Arabic and the translations).
+  const word = useWordSearch<QuranWordHit>("/api/quran/search", lang, query);
+  const wordActive = isWordQuery(query);
+  const nothingFound = directMatches.length === 0 && (!wordActive || (word.status === "done" && word.items.length === 0));
   const activeResultId =
     activeIndex >= 0 && activeIndex < directMatches.length
       ? directMatches[activeIndex].id
@@ -203,10 +210,10 @@ export function SurahIndex({ lang, dict, chapters }: SurahIndexProps) {
             );
           })}
         </ul>
-      ) : directMatches.length === 0 ? (
-        // Empty State (no direct matches)
+      ) : nothingFound ? (
+        // Empty State (no surah, verse reference or word matches)
         <div className="quran-empty-state" role="status">
-          <p>{dict.noMatches}</p>
+          <p>{wordActive ? dict.wordNone : dict.noMatches}</p>
           <button
             type="button"
             className="quran-btn quran-btn--secondary"
@@ -219,7 +226,7 @@ export function SurahIndex({ lang, dict, chapters }: SurahIndexProps) {
             {dict.clearSearch}
           </button>
         </div>
-      ) : (
+      ) : directMatches.length === 0 ? null : (
         // Search Results List
         <div id={resultsListId} role="listbox" aria-label={dict.allSurahs}>
           {/* Verse matches shown with prominent jump card */}
@@ -317,6 +324,33 @@ export function SurahIndex({ lang, dict, chapters }: SurahIndexProps) {
               })}
           </ul>
         </div>
+      )}
+
+      {isSearching && (
+        <WordSearchSection
+          labels={{ heading: dict.wordHeading, searching: dict.wordSearching, error: dict.wordError, retry: dict.wordRetry, more: dict.wordMore }}
+          status={word.status}
+          hasMore={word.hasMore}
+          count={word.items.length}
+          onMore={word.loadMore}
+          onRetry={word.retry}
+        >
+          {word.items.map((hit) => {
+            const c = chaptersMap.get(hit.surah);
+            return (
+              <li key={hit.key}>
+                <Link href={`/${lang}/quran/${hit.surah}#ayah-${hit.verse}`} className="word-item">
+                  <span className="word-item-ref">
+                    {c ? (lang === "ar" ? c.nameArabic : c.nameSimple) : `${dict.surahNumber.replace("{number}", String(hit.surah))}`}
+                    <small>{hit.key}</small>
+                  </span>
+                  <p className="word-item-ar" lang="ar" dir="rtl" translate="no">{hit.arabic}</p>
+                  {hit.translation && <p className="word-item-text" lang={lang === "de" ? "de" : "en"} dir="ltr">{hit.translation}</p>}
+                </Link>
+              </li>
+            );
+          })}
+        </WordSearchSection>
       )}
 
       {/* Attribution Footer */}

@@ -180,14 +180,24 @@ export function getProvider(): AIProvider {
   return build(writerModels().map((entry) => parseEntry(entry, defaultProvider())));
 }
 
+// Thinking counts toward each step's output limit, so only the checker's large steps (evidence check, final
+// review) get the higher level; small steps such as the translation check would be cut off (Mo, 2026-10-30).
+const LARGE_STEP_OUTPUT_TOKENS = 4000;
+function withVerifierThinking(verifier: AIProvider): AIProvider {
+  const thinkingLevel = process.env.AI_VERIFIER_THINKING_LEVEL?.trim();
+  if (!thinkingLevel) return verifier;
+  return { ...verifier, generateJson: (request) => verifier.generateJson((request.maxOutputTokens ?? 0) >= LARGE_STEP_OUTPUT_TOKENS ? { ...request, thinkingLevel } : request) };
+}
+
 export function getVerifier(): AIProvider {
   const writer = writerModels().map((entry) => parseEntry(entry, defaultProvider()));
   const verifier = verifierModels().map((entry) => parseEntry(entry, process.env.AI_VERIFIER_PROVIDER ?? defaultProvider()));
   const writerIds = new Set(writer.map(identity));
   const shared = verifier.map(identity).filter((id) => writerIds.has(id));
   // Only Mo's explicitly selected same-model second passes are permitted.
-  const approvedSameModelSecondPass = new Set(["openrouter/openai/gpt-6-luna", "openrouter/anthropic/claude-haiku-5.5", "openrouter/deepseek/deepseek-v4-flash"]);
+  // Mo's decision (2026-10-30): measure Gemini Flash-Lite on Vertex for both passes.
+  const approvedSameModelSecondPass = new Set(["openrouter/openai/gpt-6-luna", "openrouter/anthropic/claude-haiku-5.5", "openrouter/deepseek/deepseek-v4-flash", "gemini/gemini-3.1-flash-lite", "gemini/gemini-2.5-flash-lite", "gemini/gemini-3.5-flash-lite"]);
   const unexpectedShared = shared.filter((id) => !approvedSameModelSecondPass.has(id));
   if (unexpectedShared.length > 0) throw new Error(`The verifier must be a different model from the writer (shared: ${unexpectedShared.join(", ")})`);
-  return build(verifier);
+  return withVerifierThinking(build(verifier));
 }

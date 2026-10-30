@@ -241,3 +241,38 @@ it("enforces the actual paid-send cap separately for each explicit run", async (
   await expect(third(url, different)).rejects.toThrow("research_limit");
   expect(send).toHaveBeenCalledTimes(CONTINUATION_LIMITS.runCalls + 2);
 });
+
+const vertexUrl = "https://aiplatform.googleapis.com/v1/publishers/google/models/gemini-3.1-flash-lite:generateContent";
+const vertexRequest = (): RequestInit => ({ method: "POST", body: JSON.stringify({ systemInstruction: { parts: [{ text: "s" }] }, contents: [{ role: "user", parts: [{ text: "p" }] }], generationConfig: { maxOutputTokens: 100 } }) });
+it("settles a direct Vertex call from Google's token counts under the same limits", async () => {
+  const { session } = start();
+  const send = vi.fn(async () => Response.json({ candidates: [], usageMetadata: { promptTokenCount: 1000, candidatesTokenCount: 200, thoughtsTokenCount: 100 } }));
+  expect((await continuationTransport(session, send)(vertexUrl, vertexRequest())).status).toBe(200);
+  expect(session.actualUsd).toBeCloseTo((1000 * 0.25 + 300 * 1.5) / 1_000_000, 10);
+  expect(session.calls).toBe(1);expect(session.tokens).toBe(100);
+});
+it("holds billing when Vertex reports no token counts, and charges nothing for a refused request", async () => {
+  const first = start();
+  await expect(continuationTransport(first.session, vi.fn(async () => Response.json({ candidates: [] })))(vertexUrl, vertexRequest())).rejects.toThrow("research_billing_uncertain");
+  expect(first.session.held).toBe(true);
+  const second = start();
+  expect((await continuationTransport(second.session, vi.fn(async () => Response.json({ error: { code: 429 } }, { status: 429 })))(vertexUrl, vertexRequest())).status).toBe(429);
+  expect(second.session.actualUsd).toBe(0);expect(second.session.held).toBeFalsy();
+});
+it("refuses a Vertex model with no listed price before sending anything", async () => {
+  const { session } = start(), send = vi.fn(async () => Response.json({}));
+  await expect(continuationTransport(session, send)(vertexUrl.replace("gemini-3.1-flash-lite", "gemini-4-argon"), vertexRequest())).rejects.toThrow("research_limit");
+  expect(send).not.toHaveBeenCalled();
+});
+it("settles Gemini 2.5 Flash-Lite at its own listed price", async () => {
+  const { session } = start();
+  const send = vi.fn(async () => Response.json({ candidates: [], usageMetadata: { promptTokenCount: 1000, candidatesTokenCount: 300 } }));
+  expect((await continuationTransport(session, send)(vertexUrl.replace("gemini-3.1-flash-lite", "gemini-2.5-flash-lite"), vertexRequest())).status).toBe(200);
+  expect(session.actualUsd).toBeCloseTo((1000 * 0.1 + 300 * 0.4) / 1_000_000, 10);
+});
+it("settles Gemini 3.5 Flash-Lite at its own listed price", async () => {
+  const { session } = start();
+  const send = vi.fn(async () => Response.json({ candidates: [], usageMetadata: { promptTokenCount: 1000, candidatesTokenCount: 200, thoughtsTokenCount: 100 } }));
+  expect((await continuationTransport(session, send)(vertexUrl.replace("gemini-3.1-flash-lite", "gemini-3.5-flash-lite"), vertexRequest())).status).toBe(200);
+  expect(session.actualUsd).toBeCloseTo((1000 * 0.3 + 300 * 2.5) / 1_000_000, 10);
+});

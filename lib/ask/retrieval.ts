@@ -208,19 +208,24 @@ export function parseQuestionFrame(raw: unknown): QuestionFrame | null {
     interpretations = labels.map((label, index) => ({ id: index === 0 ? "I1" : "I2", label }));
     if (interpretations.length && !interpretations.every((item) => answerRequirements.some((r) => r.interpretationId === item.id))) return null;
   }
+  // A meaning label with no meanings listed says nothing (seen from Gemini Flash-Lite, 2026-10-30): remove it.
+  if (!interpretations?.length) for (const r of answerRequirements) delete r.interpretationId;
   if (answerRequirements.some((r) => r.interpretationId && !interpretations?.some((i) => i.id === r.interpretationId))) return null;
   if (record.clarification_needed !== undefined && typeof record.clarification_needed !== "boolean") return null;
   if (record.checklist_status !== undefined && !["complete", "ambiguous", "too_complex"].includes(String(record.checklist_status))) return null;
 
   let backupQueries: QuestionFrame["backupQueries"];
   if (record.backup_queries !== undefined) {
-    if (!Array.isArray(record.backup_queries) || record.backup_queries.length > 6) return null;
+    if (!Array.isArray(record.backup_queries)) return null;
     backupQueries = [];
-    for (const q of record.backup_queries) {
+    // Search hints only, never evidence: a bad one is dropped and does not lose the plan (Mo, 2026-10-30).
+    for (const q of record.backup_queries.slice(0, 6)) {
+      // A bare "1" (seen from Gemini Flash-Lite, 2026-10-30) means R1.
+      if (q && typeof q === "object" && /^\d$/.test(String(q.requirementId))) q.requirementId = `R${q.requirementId}`;
       if (!q || typeof q !== "object" || !answerRequirements.some(r => r.id === q.requirementId)
         || !["quran", "hadith", "scholar"].includes(q.family) || !["en", "ar"].includes(q.language)
         || typeof q.text !== "string" || !q.text.trim() || q.text.length > 120
-        || q.language === "ar" && !/\p{Script=Arabic}/u.test(q.text)) return null;
+        || q.language === "ar" && !/\p{Script=Arabic}/u.test(q.text)) continue;
       backupQueries.push({ requirementId: q.requirementId, family: q.family, language: q.language, text: q.text.trim() });
     }
   }

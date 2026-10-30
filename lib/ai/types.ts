@@ -15,6 +15,8 @@ export type JsonRequest = {
   maxOutputTokens?: number;
   /** How much the model may "think" before answering; thinking uses up the output budget. */
   thinking?: "minimal" | "low";
+  /** Set only by the verifier chain (AI_VERIFIER_THINKING_LEVEL) on its large steps; Gemini only. */
+  thinkingLevel?: string;
   /** Overall deadline for the whole answer; the call is cancelled when it fires. */
   signal?: AbortSignal;
   /** Internal: use the configured backup for an already-budgeted correction of unreadable JSON. */

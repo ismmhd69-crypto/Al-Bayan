@@ -3,6 +3,7 @@ import { expect, it, vi } from "vitest";
 vi.mock("server-only",()=>({}));
 import { runSimplePipeline, simpleCandidatePool, simpleRecoveryQueries, sameResearchCandidates } from "@/lib/ask/simple-pipeline";
 import { runPipeline } from "@/lib/ask/core";
+import { keepRuleAbidingSummary, parseRichClaims } from "@/lib/ask/rich-engine";
 import { dependencies, pack, audit } from "./fixtures/rich";
 import { selectionReply } from "./fixtures/selection";
 import type { ProgressiveCheckpoint } from "@/lib/ask/progressive-checkpoint";
@@ -75,7 +76,7 @@ it("does not accept a review without the anchored audit contract",async()=>{
   const t=setup(), verify=t.deps.verifier.generateJson;
   t.deps.verifier.generateJson=async r=>{const value:any=await verify(r);if(!JSON.parse(r.prompt).candidates) delete value.audit_contract;return value;};
   const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
-  expect(result.status).toBe("incomplete");expect(t.requests).toHaveLength(3);expect(t.checkpoint.simple?.terminalNegative).toBe(true);
+  expect(result.status).toBe("incomplete");expect(t.requests).toHaveLength(4);expect(t.checkpoint.simple?.terminalNegative).toBe(true); // Includes the one checker retry.
   const before=t.requests.length;const repeated=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);expect(t.requests).toHaveLength(before);
   expect(repeated).toMatchObject({status:"incomplete",failureKind:result.status==="incomplete"?result.failureKind:undefined});
 });
@@ -84,7 +85,7 @@ it("blocks a grounded missing condition in the main review",async()=>{
   t.deps.verifier.generateJson=async r=>{const value:any=await verify(r),input=JSON.parse(r.prompt);if(!input.candidates){const row=value.claim_assessments[0],claim=input.claims[0];row.conditions_preserved="no";row.explanation="A necessary condition is missing.";row.finding={category:"missing_qualification",claim_quote:claim.claim,source_id:claim.source_ids[0],source_anchor_id:input.claim_evidence[0].negative_excerpt_choices[0].anchor_id};}return value;};
   const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
   expect(result.status).toBe("incomplete");expect(t.checkpoint.simple?.correctionUsed).toBe(true);
-  expect(t.requests.length).toBeLessThanOrEqual(5);expect(t.checkpoint.simple?.approved).toBeUndefined();
+  expect(t.requests.length).toBeLessThanOrEqual(7);expect(t.checkpoint.simple?.approved).toBeUndefined(); // Includes the one extra rewrite and its review.
   const count=t.requests.length, repeated=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
   expect(repeated).toMatchObject({status:"incomplete",failureKind:result.status==="incomplete"?result.failureKind:undefined});
   expect(t.requests).toHaveLength(count);
@@ -130,7 +131,7 @@ it.each(["checker_failure","copied_repair"])("never publishes copied provisional
     return {status:"answer",summary:{P0:{text:"Invented source wording solely for tests.",source_refs:[input.correction.summary_citation_choices[0].reference]}},next_step:[],no_answer_feedback:[]};};
   t.deps.verifier.generateJson=async r=>{const raw:any=await verify(r);if(!JSON.parse(r.prompt).candidates){reviews++;if(mode==="checker_failure")delete raw.audit_contract;}return raw;};
   const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
-  expect(result.status).toBe("incomplete");expect(t.shown).not.toContain("summary");expect(reviews).toBe(1);
+  expect(result.status).toBe("incomplete");expect(t.shown).not.toContain("summary");expect(reviews).toBe(mode==="checker_failure"?2:1); // A broken reply gets one retry.
 });
 it("uses one source-grounded review without the separate condition comparison form",async()=>{
   const t=setup(["quran"]);const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
@@ -436,6 +437,73 @@ it("drops a summary sentence that fails again after correction when the rest pas
   if(result.status==="rich_answer") expect(result.answer.sections.find(s=>s.group==="summary")?.claims.map(c=>c.text)).toEqual([first]);
 });
 
+const GOOD_SENTENCE="The source describes care as a thoughtful responsibility.",BAD_SENTENCE="Ibn Baz notes that the Prophet commanded care.";
+const scholar=pack.passages[2].id;
+it("removes only the sentence that credits the Prophet with no hadith cited, then runs the full review on the rest",async()=>{
+  const t=setup();let reviews=0;const verify=t.deps.verifier.generateJson;
+  t.deps.writer.generateJson=async r=>{t.requests.push(r);return {status:"answer",summary:[{text:GOOD_SENTENCE,source_ids:["Q2:183"],requirement_id:"R1"},{text:BAD_SENTENCE,source_ids:[scholar],requirement_id:"R1"}],next_step:[],no_answer_feedback:[]};};
+  t.deps.verifier.generateJson=async r=>{const input=JSON.parse(r.prompt);if(!input.candidates)reviews++;return verify(r);};
+  const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
+  expect(result.status).toBe("rich_answer");expect(reviews).toBe(1);
+  if(result.status==="rich_answer")expect(result.answer.sections.find(s=>s.group==="summary")?.claims.map(c=>c.text)).toEqual([GOOD_SENTENCE]);
+});
+it("stays incomplete when every summary sentence breaks the rule, and when the full review rejects what is left",async()=>{
+  const all=setup();
+  all.deps.writer.generateJson=async r=>{all.requests.push(r);return {status:"answer",summary:[{text:BAD_SENTENCE,source_ids:[scholar],requirement_id:"R1"}],next_step:[],no_answer_feedback:[]};};
+  expect((await runSimplePipeline("Explain care",frame,all.deps,signal(),hints)).status).toBe("incomplete");
+  const rest=setup(),verify=rest.deps.verifier.generateJson;
+  rest.deps.writer.generateJson=async r=>{rest.requests.push(r);return {status:"answer",summary:[{text:GOOD_SENTENCE,source_ids:["Q2:183"],requirement_id:"R1"},{text:BAD_SENTENCE,source_ids:[scholar],requirement_id:"R1"}],next_step:[],no_answer_feedback:[]};};
+  rest.deps.verifier.generateJson=async r=>{const raw:any=await verify(r),input=JSON.parse(r.prompt);if(input.candidates)return raw;
+    const row=raw.claim_assessments[0],claim=input.claims[0];row.direct_support="no";row.explanation="Not established.";
+    row.finding={category:"source_support",claim_quote:claim.claim,source_id:claim.source_ids[0],source_anchor_id:input.claim_evidence[0].negative_excerpt_choices[0].anchor_id};return raw;};
+  expect((await runSimplePipeline("Explain care",frame,rest.deps,signal(),hints)).status).toBe("incomplete");
+});
+it("refuses a kept summary that would leave a differing scholarly position uncited",()=>{
+  const differing={...pack,scholarDifference:{positions:{first:["Q2:183"],second:[scholar]}}} as any;
+  const rows=[{text:GOOD_SENTENCE,source_ids:["Q2:183"],requirement_id:"R1"},{text:BAD_SENTENCE,source_ids:[scholar],requirement_id:"R1"}];
+  expect(keepRuleAbidingSummary(rows,differing,"en")).toBeNull();
+  expect(parseRichClaims([rows[0]],"summary",differing,"en")).toBeNull();
+  expect(keepRuleAbidingSummary(rows,pack,"en")?.map(c=>c.text)).toEqual([GOOD_SENTENCE]);
+});
+it("retries a broken checker reply once, with thinking off, and publishes only on a valid approval",async()=>{
+  const t=setup(["quran"]),verify=t.deps.verifier.generateJson;const levels:unknown[]=[];let reviews=0;
+  t.deps.verifier.generateJson=async r=>{const input=JSON.parse(r.prompt);if(input.candidates)return verify(r);
+    reviews++;levels.push(r.thinkingLevel);return reviews===1?{cut_off:true}:verify(r);};
+  const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
+  expect(result.status).toBe("rich_answer");expect(levels).toEqual([undefined,"minimal"]);
+});
+it("stays incomplete when the checker reply is broken twice",async()=>{
+  const t=setup(["quran"]),verify=t.deps.verifier.generateJson;let reviews=0;
+  t.deps.verifier.generateJson=async r=>{const input=JSON.parse(r.prompt);if(input.candidates)return verify(r);reviews++;return {cut_off:true};};
+  expect((await runSimplePipeline("Explain care",frame,t.deps,signal(),hints)).status).toBe("incomplete");
+  expect(reviews).toBe(2);
+});
+it("splits a run-on summary sentence for free instead of failing, and still reviews the result",()=>{
+  const row={text:"The source describes care as a thoughtful responsibility. It also describes a daily practice.",source_ids:["Q2:183"],requirement_id:"R1"};
+  expect(keepRuleAbidingSummary([row],pack,"en")?.map(c=>c.text)).toEqual(["The source describes care as a thoughtful responsibility.","It also describes a daily practice."]);
+});
+it("rewrites the summary once more when the final review still rejects it, and publishes only what passes",async()=>{
+  const t=setup(["quran"]),verify=t.deps.verifier.generateJson;let reviews=0,writes=0;
+  const good="The source describes care as a thoughtful responsibility.";
+  t.deps.writer.generateJson=async r=>{t.requests.push(r);writes++;const input=JSON.parse(r.prompt);
+    if(input.correction)return {status:"answer",summary:{P0:{text:writes>=3?good:"The passage also promises an unlimited outcome.",source_refs:[input.correction.summary_citation_choices[0].reference]}},next_step:[],no_answer_feedback:[]};
+    return {status:"answer",summary:[{text:"The passage promises an unlimited outcome.",source_ids:["Q2:183"],requirement_id:"R1"}],next_step:[],no_answer_feedback:[]};};
+  t.deps.verifier.generateJson=async r=>{const raw:any=await verify(r),input=JSON.parse(r.prompt);if(input.candidates)return raw;
+    reviews++;if(reviews<=2){const row=raw.claim_assessments[0],claim=input.claims[0];row.direct_support="no";row.explanation="Not established.";
+      row.finding={category:"source_support",claim_quote:claim.claim,source_id:claim.source_ids[0],source_anchor_id:input.claim_evidence[0].negative_excerpt_choices[0].anchor_id};}
+    return raw;};
+  const result=await runSimplePipeline("Explain care",frame,t.deps,signal(),hints);
+  expect(result.status).toBe("rich_answer");expect(reviews).toBe(3);
+  if(result.status==="rich_answer")expect(result.answer.sections.find(s=>s.group==="summary")?.claims.map(c=>c.text)).toEqual([good]);
+});
+it("does not publish when the extra rewrite is rejected too",async()=>{
+  const t=setup(["quran"]),verify=t.deps.verifier.generateJson;let reviews=0;
+  t.deps.verifier.generateJson=async r=>{const raw:any=await verify(r),input=JSON.parse(r.prompt);if(input.candidates)return raw;reviews++;
+    const row=raw.claim_assessments[0],claim=input.claims[0];row.direct_support="no";row.explanation="Not established.";
+    row.finding={category:"source_support",claim_quote:claim.claim,source_id:claim.source_ids[0],source_anchor_id:input.claim_evidence[0].negative_excerpt_choices[0].anchor_id};return raw;};
+  expect((await runSimplePipeline("Explain care",frame,t.deps,signal(),hints)).status).toBe("incomplete");
+  expect(reviews).toBeLessThanOrEqual(4);
+});
 it("answers the better-supported meaning and names the other when two meanings cannot both be covered",async()=>{
   const t=setup(["quran"]);
   const twoMeanings:QuestionFrame={...frame,interpretations:[{id:"I1",label:"Daily care"},{id:"I2",label:"Formal duty"}],
