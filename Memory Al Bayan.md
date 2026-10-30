@@ -115,3 +115,5 @@ Project notes for Al-Bayan only. Nothing here relates to WiseFlow.
 
 
 - 2026-10-30 Music: Mo removed music from the refused topics in `data/view-decisions.ts`. The approved scholars in the library agree, so Ask answers it with named, linked sources. The prepared "is-music-haram" page stays held until Mo reviews it. Tawassul stays refused.
+
+- 2026-10-30 Ask follow-ups plan (`docs/ask-follow-ups-plan.md`, not built): Mo decided there is no separate religious reviewer. Answers rely on stored Quran, authentic hadith and approved scholars, attributed to them, and Mo reviews live test answers. Internal follow-up labels stay hidden from visitors.

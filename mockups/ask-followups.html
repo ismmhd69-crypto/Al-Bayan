@@ -1,0 +1,157 @@
+<title>Ask Follow-ups</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Noto+Naskh+Arabic:wght@400;600&display=swap">
+<style>
+/* Layout: Bayan's own Ask column, one real conversation from top to bottom, with a small tag on each reply showing what the system decided. */
+:root {
+  --bg: #f8fafc; --surface: #ffffff; --surface-2: #f1f5f9; --line: #e2e8f0; --line-2: #cbd5e1;
+  --ink: #0f172a; --ink-2: #334155; --ink-3: #64748b;
+  --accent: #27408b; --on-accent: #ffffff; --accent-soft: #edf1fa; --accent-line: #d3dcf0;
+  --tonal-bg: #dce3f7; --tonal-ink: #1b2f6b; --link: #2563eb;
+  --quran: #15803d; --sunnah: #2563eb; --sunnah-soft: #eef4ff; --scholar: #64748b; --scholar-soft: #f4f6f9;
+  --green-soft: #e8f6ee; --green-ink: #14532d; --amber-soft: #fbf3dc; --amber-ink: #6b4e00;
+  --f-body: "Hanken Grotesk", "Segoe UI", system-ui, sans-serif;
+  --f-display: "Newsreader", Georgia, serif;
+  --f-ar: "Noto Naskh Arabic", "Geeza Pro", "Segoe UI", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0b0d10; --surface: #15181d; --surface-2: #1a1e24; --line: #262a31; --line-2: #343a43;
+  --ink: #e6e8eb; --ink-2: #b4bac3; --ink-3: #8a919c;
+  --accent: #8ab4f8; --on-accent: #0b0d10; --accent-soft: #18222f; --accent-line: #2c3a52;
+  --tonal-bg: #1e2733; --tonal-ink: #d3e3fd; --link: #8ab4f8;
+  --quran: #4ade80; --sunnah: #8ab4f8; --sunnah-soft: #121822; --scholar: #9aa3af; --scholar-soft: #171a1f;
+  --green-soft: #13231a; --green-ink: #86efac; --amber-soft: #272010; --amber-ink: #f0cf78; color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0b0d10; --surface: #15181d; --surface-2: #1a1e24; --line: #262a31; --line-2: #343a43;
+  --ink: #e6e8eb; --ink-2: #b4bac3; --ink-3: #8a919c;
+  --accent: #8ab4f8; --on-accent: #0b0d10; --accent-soft: #18222f; --accent-line: #2c3a52;
+  --tonal-bg: #1e2733; --tonal-ink: #d3e3fd; --link: #8ab4f8;
+  --quran: #4ade80; --sunnah: #8ab4f8; --sunnah-soft: #121822; --scholar: #9aa3af; --scholar-soft: #171a1f;
+  --green-soft: #13231a; --green-ink: #86efac; --amber-soft: #272010; --amber-ink: #f0cf78; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 400 16px/1.6 var(--f-body); padding-block: 20px 110px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.page { max-width: 780px; margin-inline: auto; display: grid; gap: 22px; }
+.note { font-size: .86rem; color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+.note strong { color: var(--ink); }
+header.bar { display: flex; align-items: center; gap: 10px; }
+header.bar h1 { font: 600 1.3rem/1.2 var(--f-display); margin: 0; }
+.star { width: 24px; height: 24px; flex: none; }
+.user { justify-self: end; max-width: 80%; background: var(--accent); color: var(--on-accent); border-radius: 18px 18px 4px 18px; padding: 10px 16px; font-weight: 500; }
+.reply { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 18px; display: grid; gap: 14px; min-width: 0; }
+.tag { justify-self: start; display: inline-flex; align-items: center; gap: 7px; font-size: .78rem; font-weight: 600; padding: 4px 11px; border-radius: 999px; line-height: 1.4; }
+.tag svg { width: 14px; height: 14px; flex: none; }
+.tag.same { background: var(--green-soft); color: var(--green-ink); }
+.tag.more { background: var(--amber-soft); color: var(--amber-ink); }
+.tag.first { background: var(--tonal-bg); color: var(--tonal-ink); }
+.tag.fresh { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--line-2); }
+h2 { font: 600 1.15rem/1.3 var(--f-display); margin: 4px 0 -4px; }
+.src { border: 1px solid var(--line); border-inline-start: 3px solid var(--sunnah); border-radius: 12px; background: var(--surface); padding: 12px 14px; display: grid; gap: 7px; min-width: 0; scroll-margin-top: 12px; }
+.src.scholar { border-inline-start-color: var(--scholar); }
+.src:target { box-shadow: 0 0 0 2px var(--accent); }
+.src-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; align-items: baseline; font-size: .88rem; }
+.src-head a { font-size: .78rem; font-weight: 600; color: var(--ink-2); }
+.grade { font: 400 .86rem/1.6 var(--f-ar); color: var(--ink-3); }
+.ar { font: 400 1.04rem/1.95 var(--f-ar); margin: 0; }
+.tr { margin: 0; font-size: .95rem; color: var(--ink-2); }
+.small { font-size: .76rem; color: var(--ink-3); }
+.summary { background: var(--accent-soft); border: 1px solid var(--accent-line); border-radius: 14px; padding: 14px 16px; display: grid; gap: 8px; }
+.summary h2 { margin: 0; }
+.summary p, .plain p { margin: 0; }
+.plain { display: grid; gap: 9px; }
+.pill { display: inline-block; font-size: .72rem; font-weight: 600; text-decoration: none; padding: 1px 8px; border-radius: 6px; background: var(--tonal-bg); color: var(--tonal-ink); white-space: nowrap; }
+.pill.h { background: var(--sunnah-soft); color: var(--sunnah); border: 1px solid var(--line); }
+.pill.s { background: var(--scholar-soft); color: var(--ink-2); border: 1px solid var(--line); }
+.used { font-size: .82rem; color: var(--ink-3); border-top: 1px solid var(--line); padding-top: 10px; }
+.progress { display: flex; gap: 11px; align-items: flex-start; }
+.spinner { width: 16px; height: 16px; flex: none; margin-top: 4px; border: 2px solid var(--line-2); border-top-color: var(--quran); border-radius: 50%; animation: spin 1.3s linear infinite; }
+.progress strong { display: block; }
+.progress span.d { color: var(--ink-3); font-size: .88rem; }
+.divider { display: flex; align-items: center; gap: 10px; color: var(--ink-3); font-size: .78rem; font-weight: 600; }
+.divider::before, .divider::after { content: ""; flex: 1; border-top: 1px dashed var(--line-2); }
+.composer { position: fixed; inset: auto 0 0; padding: 10px max(16px, env(safe-area-inset-right, 0px)) calc(12px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); background: linear-gradient(to top, var(--bg) 70%, transparent); }
+.composer form { max-width: 780px; margin-inline: auto; display: flex; gap: 8px; background: var(--surface); border: 1px solid var(--line-2); border-radius: 18px; padding: 6px; }
+.composer input { flex: 1; min-width: 0; border: 0; background: none; color: var(--ink); font: inherit; padding: 8px 10px; outline: none; }
+.composer button { border: 0; border-radius: 999px; background: var(--accent); color: var(--on-accent); font: 600 .9rem var(--f-body); padding: 8px 16px; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+</style>
+
+<div class="page">
+  <p class="note"><strong>Mockup.</strong> The questions, hadith and Ibn Baz's words are real, from Bayan's library. The first summary is a real checked answer. The two follow-up replies are written by hand to show the layout, and have not been through the checker.</p>
+
+  <header class="bar">
+    <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="var(--accent)" stroke-width="2" d="M12 2l3 3h4v4l3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z"/><circle cx="12" cy="12" r="2.5" fill="#a77b2b"/></svg>
+    <h1>Ask</h1>
+  </header>
+
+  <div class="user">Can a woman travel without a mahram?</div>
+  <section class="reply" aria-label="First answer">
+    <span class="tag first"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>First question: full search</span>
+
+    <h2>From the Sunnah</h2>
+    <article class="src" id="h1341">
+      <div class="src-head"><strong>Muslim 1341a</strong><a href="https://sunnah.com/muslim:1341a">Read source ↗</a></div>
+      <div class="grade" lang="ar" dir="rtl">صحيح · رواه مسلم</div>
+      <p class="ar" lang="ar" dir="rtl">حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، وَزُهَيْرُ بْنُ حَرْبٍ، كِلاَهُمَا عَنْ سُفْيَانَ، - قَالَ أَبُو بَكْرٍ حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، - حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ أَبِي مَعْبَدٍ، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَخْطُبُ يَقُولُ ‏&quot;‏ لاَ يَخْلُوَنَّ رَجُلٌ بِامْرَأَةٍ إِلاَّ وَمَعَهَا ذُو مَحْرَمٍ وَلاَ تُسَافِرِ الْمَرْأَةُ إِلاَّ مَعَ ذِي مَحْرَمٍ ‏&quot;‏ ‏.‏ فَقَامَ رَجُلٌ فَقَالَ يَا رَسُولَ اللَّهِ إِنَّ امْرَأَتِي خَرَجَتْ حَاجَّةً وَإِنِّي اكْتُتِبْتُ فِي غَزْوَةِ كَذَا وَكَذَا ‏.‏ قَالَ ‏&quot;‏ انْطَلِقْ فَحُجَّ مَعَ امْرَأَتِكَ ‏&quot;‏ ‏.‏</p>
+      <p class="tr">Abu Bakr ibn Abi Shaybah and Zuhayr ibn Harb narrated to us, both from Sufyan. Abu Bakr said: Sufyan ibn Uyaynah narrated to us. Amr ibn Dinar narrated to us, from Abu Ma'bad. He said: I heard Ibn Abbas say: I heard the Prophet (peace be upon him) deliver a sermon saying: No man should be alone with a woman unless she has a mahram with her, and a woman should not travel except with a mahram. A man stood and said: Messenger of Allah, my wife has gone out for Hajj, while I have been enlisted for such-and-such expedition. He said: Go and perform Hajj with your wife.</p>
+      <span class="small">AI translation, check the Arabic original</span>
+    </article>
+    <article class="src" id="h1338">
+      <div class="src-head"><strong>Muslim 1338a</strong><a href="https://sunnah.com/muslim:1338a">Read source ↗</a></div>
+      <div class="grade" lang="ar" dir="rtl">صحيح · رواه مسلم</div>
+      <p class="ar" lang="ar" dir="rtl">حَدَّثَنَا زُهَيْرُ بْنُ حَرْبٍ، وَمُحَمَّدُ بْنُ الْمُثَنَّى، قَالاَ حَدَّثَنَا يَحْيَى، - وَهُوَ الْقَطَّانُ - عَنْ عُبَيْدِ اللَّهِ، أَخْبَرَنِي نَافِعٌ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏&quot;‏ لاَ تُسَافِرِ الْمَرْأَةُ ثَلاَثًا إِلاَّ وَمَعَهَا ذُو مَحْرَمٍ ‏&quot;‏ ‏.‏</p>
+      <p class="tr">Zuhayr ibn Harb and Muhammad ibn al-Muthanna narrated to us. They said: Yahya, al-Qattan, narrated to us, from Ubayd Allah. Nafi informed me, from Ibn Umar, that the Messenger of Allah (peace be upon him) said: A woman should not travel for three days except with a mahram accompanying her.</p>
+      <span class="small">AI translation, check the Arabic original</span>
+    </article>
+
+    <h2>Scholars' explanations</h2>
+    <article class="src scholar" id="s2651">
+      <div class="src-head"><strong>Ibn Baz</strong><a href="https://binbaz.org.sa/fatwas/2651/%D8%AD%D9%83%D9%85-%D8%AE%D8%B1%D9%88%D8%AC-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D8%A9-%D8%A7%D9%88-%D8%B3%D9%81%D8%B1%D9%87%D8%A7-%D8%A8%D8%AF%D9%88%D9%86-%D9%85%D8%AD%D8%B1%D9%85">Read source ↗</a></div>
+      <p class="tr">As for a woman traveling without a mahram, this is not permissible. The Lawgiver has stipulated this, and the Prophet (peace be upon him) has stipulated the prohibition of this. He said in the authentic hadith: 'A woman shall not travel except with a mahram.' When a man informed him that his wife had gone out for Hajj, and he had already signed up for some military expeditions, he said to him: 'Go back and perform Hajj with your wife.' So he sent him back from the expedition and ordered him to go with his wife for Hajj. The point is: her traveling without a mahram is not permissible, neither by plane, nor by car, nor by train, nor otherwise. As for her ordinary exit from her house to school, or to the market, or to such and such, it is likewise not permissible for her to be alone with a non-mahram (stranger).</p>
+      <span class="small">AI translation, check the Arabic original</span>
+    </article>
+
+    <div class="summary">
+      <h2>Bayan's summary</h2>
+      <p>The Prophet stated that a woman must not travel except accompanied by a mahram or her husband. <a class="pill h" href="#h1341">Muslim 1341a</a></p>
+      <p>According to Ibn Baz, the general prohibition against traveling without a mahram applies to all forms of travel, including Hajj. <a class="pill s" href="#s2651">Ibn Baz</a></p>
+    </div>
+  </section>
+
+  <div class="user">can you explain that in simpler words?</div>
+  <section class="reply" aria-label="Follow-up using the same sources">
+    <span class="tag same"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" aria-hidden="true"><path d="M5 13l4 4L19 7"/></svg>Follow-up: same sources, no new search</span>
+    <div class="plain">
+      <p>In these hadith, the Prophet ﷺ said a woman should travel with a mahram or her husband with her. <a class="pill h" href="#h1341">Muslim 1341a</a></p>
+      <p>Ibn Baz says this is not allowed without a mahram, and he points to the man the Prophet ﷺ sent back from a military expedition to go on Hajj with his wife. <a class="pill s" href="#s2651">Ibn Baz</a></p>
+    </div>
+    <p class="used">Based on the sources shown above. Tap a label to jump to its text.</p>
+  </section>
+
+  <div class="user">what if she goes to hajj with a group of women?</div>
+  <section class="reply" aria-label="Follow-up with a new search">
+    <span class="tag more"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Follow-up: searched for this new part</span>
+    <article class="src scholar" id="s14041">
+      <div class="src-head"><strong>Ibn Baz</strong><a href="https://binbaz.org.sa/fatwas/14041/%D8%AD%D9%83%D9%85-%D8%AD%D8%AC-%D8%A7%D9%84%D8%AE%D8%A7%D8%AF%D9%85%D8%A7%D8%AA-%D8%A8%D9%84%D8%A7-%D9%85%D8%AD%D8%B1%D9%85">Read source ↗</a></div>
+      <p class="ar" lang="ar" dir="rtl">الصواب أنهم يأثمون إلا بمحرم؛ لقول النبي ﷺ: لا تسافر المرأة إلا مع ذي محرم، وهو يعم سفر الحج وغيره. وليس على المرأة حج إذا لم تجد محرمًا يسافر معها، وقد رخص بعض العلماء في ذلك إذا كانت مع جماعة من النساء بصحبة رجال مؤمنين ولكن ليس عليه دليل، والصواب خلافه للحديث المذكور.</p>
+      <p class="tr">The correct view is that they commit a sin except with a mahram, due to the statement of the Prophet (peace be upon him): A woman must not travel except with a mahram. This encompasses Hajj travel and other travel. A woman is not obligated to perform Hajj if she does not find a mahram to travel with her. Some scholars have granted a concession in this regard if she is with a group of women in the company of believing men, but there is no evidence for it, and the correct view is contrary to it due to the aforementioned hadith.</p>
+      <span class="small">AI translation, check the Arabic original</span>
+    </article>
+    <div class="summary">
+      <h2>Bayan's summary</h2>
+      <p>Ibn Baz notes that some scholars allowed this when she travels with a group of women in the company of believing men, but he says it has no evidence, and that Hajj is not obligatory on a woman who finds no mahram. <a class="pill s" href="#s14041">Ibn Baz</a></p>
+    </div>
+  </section>
+
+  <div class="divider">New topic</div>
+  <div class="user">Can I combine prayers when I travel?</div>
+  <section class="reply" aria-label="New question, still searching">
+    <span class="tag fresh"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>New question: fresh search</span>
+    <div class="progress"><span class="spinner" aria-hidden="true"></span><div><strong>Checking the Quran sources and context…</strong><span class="d">Looking for relevant verses and checking their original text and surrounding context.</span></div></div>
+  </section>
+</div>
+
+<div class="composer"><form onsubmit="event.preventDefault()"><label for="q" hidden>Your question</label><input id="q" placeholder="Ask a follow-up or a new question…" autocomplete="off"><button type="submit">Ask</button></form></div>
