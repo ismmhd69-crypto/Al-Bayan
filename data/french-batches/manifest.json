@@ -1,7 +1,7 @@
 {
   "language": "fr",
   "scope": "private-fr-drafts; missing-only inserts authorized where existing schema and source rights permit; public activation forbidden",
-  "lastReconciled": "2026-10-29T22:56:14.328Z",
+  "lastReconciled": "2026-10-30T02:05:05.487Z",
   "publicActivationAllowed": false,
   "schemaChangesAllowed": false,
   "inventory": {
@@ -17,7 +17,7 @@
       "preparedAnswers": 44,
       "existingFrenchAssets": 0
     },
-    "lastLiveRecount": "2026-10-29T21:49:06.708Z"
+    "lastLiveRecount": "2026-10-30T02:05:05.487Z"
   },
   "statusDefinitions": {
     "missing": "No French translation exists.",
@@ -63799,5 +63799,18 @@
   "databaseInsertAuthorization": "Mo authorizes insert-only French AI drafts when existing schema and source rights permit. Current source_translations language constraint and Sunnah.com rights block insertion; no schema change is permitted.",
   "hadithSourcesProcessed": 14629,
   "hadithSourcesNotYetExported": 0,
-  "hadithPublished": 0
+  "hadithPublished": 0,
+  "fatwaProgress": {
+    "sources": 7388,
+    "existingFrenchRows": 0,
+    "privateDraftsSaved": 0,
+    "structurallyValidated": 0,
+    "eligibleForTranslation": 0,
+    "eligibleForInsert": 0,
+    "blocked": 7388,
+    "blockedReason": "All live fatwa source-rights records are short_quotes_only; they prohibit stored/indexed translations and allow only short unchanged Arabic quotations pending written permission. Live source_translations.lang constraint also excludes fr; schema changes are forbidden.",
+    "publishedSourcesIncludedInInventory": 7255,
+    "unpublishedSourcesIncludedInInventory": 133,
+    "rightsAudit": "data/french-batches/fatwa-rights-audit.json"
+  }
 }

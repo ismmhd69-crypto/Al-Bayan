@@ -13766,3 +13766,10 @@ Updated authorization and current boundary (2026-10-30): Mo authorizes insert-on
 - A source-ID typo had caused Muslim 3017b to receive another report’s French wording. The French field is now blank under Needs Mo, with the correct source ID and Quran wording hold. Later cumulative counts in the manifest and progress log were reconciled.
 - Focused French hadith validator and git diff check passed. No database writes, publication, or human review.
 - Current totals: 6347 Bukhari and 5270 Muslim private drafts (11617 total); 3012 held Needs Mo; 14629 source records represented; 3012 local records without French drafts.
+
+### 2026-10-30: Fatwa rights and schema inventory
+
+- Live read-only inventory confirmed 7,388 fatwa sources: 7,255 published and 133 unpublished. No French translations exist.
+- All source owners with fatwas are marked `short_quotes_only`; their live rights records permit only short, unchanged Arabic quotations and explicitly say translations are not stored or indexed. Written permission is pending. No fatwa source text was exported and no French translation was drafted. All 7,388 remain blocked pending rights permission.
+- The live `source_translations.lang` check still accepts only `ar`, `en`, and `de`; French inserts are structurally rejected. Schema changes are forbidden.
+- Read-only rights evidence is saved in `data/french-batches/fatwa-rights-audit.json`. Existing French rows preserved: 0; drafts: 0; inserted: 0; published: 0; human-reviewed: 0.

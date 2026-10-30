@@ -1,0 +1,98 @@
+{
+  "audit_date": "2026-10-30",
+  "project_ref": "jnietkyxgnocyizvjiel",
+  "read_only": true,
+  "source_inventory": {
+    "total": 7388,
+    "published": 7255,
+    "unpublished": 133,
+    "missing_rights": 0,
+    "missing_french": 7388,
+    "eligible_for_private_translation": 0,
+    "eligible_for_insert": 0
+  },
+  "database": {
+    "source_translations_lang_check": [
+      "ar",
+      "en",
+      "de"
+    ],
+    "french_insert_permitted": false,
+    "schema_changes_authorized": false
+  },
+  "rights_by_owner": [
+    {
+      "owner": "al-albany.com",
+      "source_count": 64,
+      "published": 64,
+      "unpublished": 0,
+      "rights_status": "short_quotes_only",
+      "max_quote_chars": 600,
+      "ai_processing_allowed": true,
+      "translation_index_allowed": false,
+      "translation_rights": "No translations are stored or indexed. Any translation shown is AI-drafted, labelled, and shown next to the Arabic original.",
+      "permission_evidence": "No written permission yet. Short, credited and linked quotations under the right to quote (German UrhG section 51). Decision by Mo, 2026-09-28; a permission letter is to be sent.",
+      "allowed_use": "Short quotations (at most 600 characters) of the Arabic original, shown unchanged with the scholar's name, the printed source and a link to the original page. Used for search on our server and as input to the AI steps that select and explain evidence. No full copies are stored.",
+      "attribution": "Legacy portal of Shaykh Muhammad Nasir al-Din al-Albani (al-albany.com)"
+    },
+    {
+      "owner": "binbaz.org.sa",
+      "source_count": 5421,
+      "published": 5315,
+      "unpublished": 106,
+      "rights_status": "short_quotes_only",
+      "max_quote_chars": 600,
+      "ai_processing_allowed": true,
+      "translation_index_allowed": false,
+      "translation_rights": "No translations are stored or indexed. Any translation shown is AI-drafted, labelled, and shown next to the Arabic original.",
+      "permission_evidence": "No written permission yet. Short, credited and linked quotations under the right to quote (German UrhG section 51). Decision by Mo, 2026-09-28; a permission letter is to be sent.",
+      "allowed_use": "Short quotations (at most 600 characters) of the Arabic original, shown unchanged with the scholar's name, the printed source and a link to the original page. Used for search on our server and as input to the AI steps that select and explain evidence. No full copies are stored.",
+      "attribution": "Official website of Shaykh Abdul-Aziz ibn Baz (binbaz.org.sa)"
+    },
+    {
+      "owner": "binothaimeen.net",
+      "source_count": 1874,
+      "published": 1847,
+      "unpublished": 27,
+      "rights_status": "short_quotes_only",
+      "max_quote_chars": 600,
+      "ai_processing_allowed": true,
+      "translation_index_allowed": false,
+      "translation_rights": "No translations are stored or indexed. Any translation shown is AI-drafted, labelled, and shown next to the Arabic original.",
+      "permission_evidence": "No written permission yet. Short, credited and linked quotations under the right to quote (German UrhG section 51). Decision by Mo, 2026-09-28; a permission letter is to be sent.",
+      "allowed_use": "Short quotations (at most 600 characters) of the Arabic original, shown unchanged with the scholar's name, the printed source and a link to the original page. Used for search on our server and as input to the AI steps that select and explain evidence. No full copies are stored.",
+      "attribution": "Official website of Shaykh Muhammad ibn Salih al-Uthaymeen (binothaimeen.net)"
+    },
+    {
+      "owner": "othmanalkhamees.com",
+      "source_count": 23,
+      "published": 23,
+      "unpublished": 0,
+      "rights_status": "short_quotes_only",
+      "max_quote_chars": 600,
+      "ai_processing_allowed": true,
+      "translation_index_allowed": false,
+      "translation_rights": "No translations are stored or indexed. Any translation shown is AI-drafted, labelled, and shown next to the Arabic original.",
+      "permission_evidence": "No written permission yet. Short, credited and linked quotations under the right to quote (German UrhG section 51). Decision by Mo, 2026-10-01; a permission letter is to be sent.",
+      "allowed_use": "Short quotations (at most 600 characters) of the Arabic original, shown unchanged with the scholar's name, the printed source and a link to the original page. Used for search on our server and as input to the AI steps that select and explain evidence. No full copies are stored.",
+      "attribution": "Official website of Shaykh Othman al-Khamis (othmanalkhamees.com)"
+    },
+    {
+      "owner": "sh-albarrak.com",
+      "source_count": 6,
+      "published": 6,
+      "unpublished": 0,
+      "rights_status": "short_quotes_only",
+      "max_quote_chars": 600,
+      "ai_processing_allowed": true,
+      "translation_index_allowed": false,
+      "translation_rights": "No translations are stored or indexed. Any translation shown is AI-drafted, labelled, and shown next to the Arabic original.",
+      "permission_evidence": "No written permission yet. Short, credited and linked quotations under the right to quote (German UrhG section 51). Decision by Mo, 2026-09-28; a permission letter is to be sent.",
+      "allowed_use": "Short quotations (at most 600 characters) of the Arabic original, shown unchanged with the scholar's name, the printed source and a link to the original page. Used for search on our server and as input to the AI steps that select and explain evidence. No full copies are stored.",
+      "attribution": "Official website of Shaykh Abdur-Rahman al-Barrak (sh-albarrak.com)"
+    }
+  ],
+  "decision": "hold all source text and translations; each fatwa rights record limits use to short unchanged Arabic quotations and explicitly says translations are not stored or indexed; full translation would exceed authorized quotation scope; pending written permission",
+  "database_writes": 0,
+  "publications": 0
+}
