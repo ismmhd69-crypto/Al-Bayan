@@ -1,5 +1,9 @@
 export const DIAGNOSTIC_STAGES = ["request", "prepared", "frame", "retrieval", "candidates", "selection", "selection_retry", "package", "draft", "screening", "screening_retry", "videos", "answer", "response", "ai", "display"] as const;
 export type DiagnosticStage = typeof DIAGNOSTIC_STAGES[number];
+export const FOLLOW_UP_DIAGNOSTICS = { search: "follow_up_search", parentUnavailable: "follow_up_parent_unavailable",
+  none: "follow_up_none", re_explain: "follow_up_re_explain", new_information: "follow_up_new_information", other_view: "follow_up_other_view",
+  explain: "follow_up_mode_explain", look_further: "follow_up_mode_look_further", reloadFailed: "follow_up_reload_failed",
+  explainFallback: "follow_up_explain_fallback_search", conditionKept: "follow_up_condition_kept" } as const;
 export type Diagnostic = (stage: DiagnosticStage, code: string, elapsedMs: number, details?: unknown) => void;
 export type DiagnosticContext = {
   requestId: string;

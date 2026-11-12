@@ -4,14 +4,27 @@ import { HADITH_LIBRARY_ID } from "./ids";
 import { getScholarTranslations } from "@/lib/sources/scholar-translations";
 import { getHadithWordsTranslations } from "@/lib/sources/hadith-words-translations";
 import { hadithSplitEnabled, splitHadith } from "@/lib/sources/hadith-split";
+import { FATWA_TITLE_TRANSLATIONS } from "@/data/fatwa-title-translations";
 
-function translatedScholar(item: ScholarItem, translations: Map<string, string>): ScholarItem {
+function translatedScholar(item: ScholarItem, translations: Map<string, string>, language: AnswerV2["language"]): ScholarItem {
   const text = translations.get(item.id.slice(1));
-  return text ? { ...item, translation: text } : item;
+  const rawId = item.id.startsWith("S") ? item.id.slice(1) : item.id;
+  const titleEntry = FATWA_TITLE_TRANSLATIONS[rawId];
+  let title = item.title;
+  if (language === "en" && titleEntry?.en) {
+    title = titleEntry.en;
+  } else if (language === "de" && titleEntry?.de) {
+    title = titleEntry.de;
+  }
+  return {
+    ...item,
+    title,
+    ...(text ? { translation: text } : {}),
+  };
 }
 
-function translatedView(view: ScholarView, translations: Map<string, string>): ScholarView {
-  return { ...view, scholars: view.scholars.map((item) => translatedScholar(item, translations)) };
+function translatedView(view: ScholarView, translations: Map<string, string>, language: AnswerV2["language"]): ScholarView {
+  return { ...view, scholars: view.scholars.map((item) => translatedScholar(item, translations, language)) };
 }
 
 /** Adds translations after validation, so they can never affect retrieval, evidence, or quote checks. */
@@ -60,14 +73,13 @@ export async function attachScholarTranslations(input: AnswerV2): Promise<Answer
     : answer.view_handling?.mode === "side_by_side" ? answer.view_handling.views : [];
   const scholars = [...answer.scholars, ...views.flatMap((view) => view.scholars)];
   const translations = await getScholarTranslations(scholars.map((item) => item.id.slice(1)), answer.language);
-  if (translations.size === 0) return answer;
   return {
     ...answer,
-    scholars: answer.scholars.map((item) => translatedScholar(item, translations)),
+    scholars: answer.scholars.map((item) => translatedScholar(item, translations, answer.language)),
     ...(answer.view_handling?.mode === "reviewed_main"
-      ? { view_handling: { ...answer.view_handling, other_views: answer.view_handling.other_views.map((view) => translatedView(view, translations)) } }
+      ? { view_handling: { ...answer.view_handling, other_views: answer.view_handling.other_views.map((view) => translatedView(view, translations, answer.language)) } }
       : answer.view_handling?.mode === "side_by_side"
-        ? { view_handling: { ...answer.view_handling, views: answer.view_handling.views.map((view) => translatedView(view, translations)) } }
+        ? { view_handling: { ...answer.view_handling, views: answer.view_handling.views.map((view) => translatedView(view, translations, answer.language)) } }
         : {}),
   };
 }

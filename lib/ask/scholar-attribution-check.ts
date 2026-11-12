@@ -24,6 +24,31 @@ export function scholarAttributionNames(sources: ScholarIdentity[], language: Lo
   return sources.map(s => ({ source_id: s.id, scholar_id: s.scholarId, full_name: s.name, short_name: short[s.scholarId] ?? s.name }));
 }
 
+// Words naming any authority. A sentence that already names one is never given another name by code.
+const OTHER_AUTHORITY = /\b(?:shaykh|sheikh|imam|scholars?|committee|prophet|messenger|quran|qur'an|hadith|sunnah|according)\b|\bibn\s+\p{L}+|\bal-\p{L}+|الشيخ|الإمام|العلماء|اللجنة|النبي|الرسول|رسول الله|القرآن|الحديث|السنة|ابن\s+\p{L}+|بحسب|وفق/iu;
+const KEEP_CAPITAL = /^(?:Allah|God|Islam|Muslims?|Ramadan|Hajj|Umrah|Zakat|Friday|Arabic|Quran)\b/u;
+
+/** Code repair, before any check (Mo's live test, 2026-11-12: whole summaries were lost because the writer left
+ * the scholar's name out of later sentences). Only for a sentence whose citations are ALL scholar sources by ONE
+ * scholar, which names no author or other authority at all. It adds "According to <name>, " (Arabic, at the end:
+ * "، كما بيّن الشيخ <name>"). This states whose source the sentence comes from; it is not evidence. The whole repaired sentence then
+ * goes through every normal check and the full review, and that exact wording is what can be published.
+ * German word order would change, so German is left as it is. */
+export function nameSingleScholar(text: string, refs: string[], sources: ScholarIdentity[], language: Locale): string {
+  if (language === "de" || !refs.length) return text;
+  const labels = scholarAttributionNames(sources, language);
+  const own = refs.map(id => labels.find(s => s.source_id === id));
+  if (own.some(s => !s) || new Set(own.map(s => s!.scholar_id)).size !== 1) return text;
+  if (!checkScholarAttributions([{ text, refs }], sources, language).blocked.length) return text;
+  if (OTHER_AUTHORITY.test(text)) return text;
+  const name = own[0]!.short_name;
+  // Arabic names the scholar at the end. Not "بحسب" ("depending on"): it is a condition word to the missing-condition
+  // guard, which would then stop checking the sentence (caught by tests/source-boundary-guards.test.ts).
+  const repaired = language === "ar" ? `${text.trim().replace(/[.!؟]+$/u, "")}، كما بيّن الشيخ ${name.replace(/^الشيخ\s+/u, "")}.`
+    : `According to ${name}, ${KEEP_CAPITAL.test(text) ? text : text.charAt(0).toLocaleLowerCase("en") + text.slice(1)}`;
+  return Array.from(repaired).length <= 300 ? repaired : text;
+}
+
 /** Negative-only identity check. A generic plural does not name a cited author.
  * Matching a name never establishes agreement, correct attribution or support.
  * Mixed-source synthesis and unknown citations remain with the normal checks. */

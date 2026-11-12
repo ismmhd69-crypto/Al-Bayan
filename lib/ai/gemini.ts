@@ -1,5 +1,5 @@
 import { askTimeout } from "@/lib/ask/timing";
-import { modelFetch } from "./transport";
+import { guardedTransport, modelFetch } from "./transport";
 import { recordLocalAskEvent } from "@/lib/ask/local-trace";
 import { emitAiTrace } from "@/lib/ask/trace-context";
 import { VERTEX_PRICES } from "./price-ceiling";
@@ -42,12 +42,18 @@ function toGeminiSchema(s: JsonSchema): Record<string, unknown> {
 // the fail-closed caller checks.
 async function withRetry(call: () => Promise<Response>, signal?: AbortSignal): Promise<Response> {
   let res = await call();
-  // One short retry: the model chain (lib/ai/index.ts) moves to the next model instead of waiting here.
-  const delays = [1500];
+  // Google's shared capacity is often free again within seconds (seen live 2026-11-12). In a guarded research
+  // session there is no other door, so wait twice; elsewhere the model chain moves on after one short wait.
+  // Every attempt still goes through the spending guard, which counts it toward the session's calls.
+  const delays = guardedTransport() ? [2000, 5000] : [1500];
   for (let attempt = 0; attempt < delays.length; attempt += 1) {
     if ((res.status !== 503 && res.status !== 429) || signal?.aborted) return res;
     if (process.env.ASK_DEBUG === "true") console.info(`gemini busy (${res.status}), retrying in ${delays[attempt]}ms`);
-    await new Promise((r) => setTimeout(r, delays[attempt]));
+    await new Promise<void>((resolve, reject) => {
+      const timer = setTimeout(() => { signal?.removeEventListener("abort", stop); resolve(); }, delays[attempt]);
+      const stop = () => { clearTimeout(timer); reject(signal?.reason); };
+      signal?.addEventListener("abort", stop, { once: true });
+    });
     res = await call();
   }
   return res;
@@ -67,7 +73,7 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
   const ENDPOINT = ENDPOINTS[door];
   return {
     id: `${door}/${model}`,
-    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, thinking, thinkingLevel, signal }: JsonRequest) {
+    async generateJson({ system, prompt, schema, maxOutputTokens = 2048, hardOutputCap, thinking, thinkingLevel, signal }: JsonRequest) {
       const res = await withRetry(() => modelFetch(`${ENDPOINT}/${model}:generateContent`, {
         method: "POST",
         headers: { "Content-Type": "application/json", "x-goog-api-key": apiKey },
@@ -78,7 +84,7 @@ export function createGemini(apiKey: string, model: string, door: keyof typeof E
           contents: [{ role: "user", parts: [{ text: prompt }] }],
           generationConfig: {
             temperature: 0,
-            maxOutputTokens: geminiOutputLimit(maxOutputTokens),
+            maxOutputTokens: hardOutputCap ? maxOutputTokens : geminiOutputLimit(maxOutputTokens),
             responseMimeType: "application/json",
             responseSchema: toGeminiSchema(schema),
             // 2.5 models list low, medium and high but not minimal, and Flash-Lite's default is off.

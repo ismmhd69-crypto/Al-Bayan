@@ -32,7 +32,9 @@ export function richSourceCards(section: RichSection) {
     ...section.sources.filter(s => s.evidence.kind !== "quran").map(s => [s])];
 }
 
-export function RichAnswerView({ sections, language, text, complete = false, guide = "ask_specific_followup", incomplete = false, withdrawn = false, technicalFailure = false, failureKind, cards = [], videos, patient, working = false, staged = false, publication, saveSlot }: {
+export function RichAnswerView({ sections, language, text, complete = false, guide = "ask_specific_followup", incomplete = false, withdrawn = false, technicalFailure = false, failureKind, cards = [], videos, patient, working = false, staged = false, publication, saveSlot, conversational }: {
+  /** A finished follow-up reply: natural text first, cards only for sources not already shown in the chat. */
+  conversational?: { repeated: Set<string> };
   sections: RichSection[]; language: Locale; text: Dictionary["ask"]; complete?: boolean; saveSlot?: React.ReactNode; guide?: RichGuide | null; incomplete?: boolean; withdrawn?: boolean; technicalFailure?: boolean; failureKind?: import("@/lib/ask/rich-answer").RichFailureKind | null; cards?: import("@/lib/ask/rich-answer").VerifiedQuranCard[]; videos?: RelatedVideos; patient?: PatientState; working?: boolean; staged?: boolean; publication?: PublicationState;
 }) {
   const prefix = useId();
@@ -65,13 +67,24 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
     : researching && !staged ? RICH_ORDER.filter(g => g !== "summary").map(group => sections.find(s => s.group === group) ?? { group, outcome: "not_checked" as const, claims: [], sources: [] })
     : RICH_ORDER.flatMap(group => sections.filter(s => s.group === group));
   const firstPending = researching ? ordered.findIndex(s => s.outcome === "not_checked") : -1;
-  const displayed: RichSection[] = ordered
+  const convo = conversational && complete && !researching ? conversational : undefined;
+  const fresh = (section: RichSection) => convo ? section.sources.filter(s => !convo.repeated.has(s.id)) : section.sources;
+  // A source shown earlier in the chat is linked, not repeated: jump to its card, or open the passage.
+  const earlierHref = (section: RichSection, ref: string) => section.sources.find(s => s.id === ref)?.evidence.url ?? "#";
+  const jumpToEarlier = (event: React.MouseEvent, ref: string) => {
+    const target = [...document.querySelectorAll<HTMLElement>("[data-source-id]")].find(el => el.dataset.sourceId === ref);
+    if (!target) return;
+    event.preventDefault(); target.scrollIntoView({ block: "center" }); target.focus({ preventScroll: true });
+  };
+  const staged_: RichSection[] = ordered
     .filter((_, index) => firstPending < 0 || index <= firstPending)
     .filter(section => section.group !== "summary" || (staged || !researching) && (complete || patient?.status === "complete"))
     .filter(section => section.outcome === "ready" && (section.claims.length > 0 || section.presentation === "originals" && section.sources.length > 0)
       || researching && section.outcome === "not_checked")
     .filter(section => !(cards.length > 0 && section.group === "quran" && section.outcome !== "ready"));
-  const problems = sections.filter(section => !section.omitted && (section.searchOutcome || ["failed_check", "timeout", "search_failed", "unavailable"].includes(section.outcome)));
+  const displayed = convo ? [...staged_.filter(s => s.group === "summary"), ...staged_.filter(s => s.group !== "summary" && fresh(s).length)] : staged_;
+  const firstNewSources = convo ? displayed.find(s => s.group !== "summary")?.group : undefined;
+  const problems =sections.filter(section => !section.omitted && (section.searchOutcome || ["failed_check", "timeout", "search_failed", "unavailable"].includes(section.outcome)));
   return <article className={styles.answer} dir={language === "ar" ? "rtl" : "ltr"}>
     {!withdrawn && cards.length > 0 && <section className={styles.section} aria-label={t.titles.quran}>
       <h2>{t.titles.quran}</h2><p className={styles.gap} role="status">{researching && "sourceCardWorking" in t ? t.sourceCardWorking : t.sourceCardNotice}</p>
@@ -83,26 +96,32 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
       </div> : null)}</div>)}</div>
     </section>}
     {!withdrawn && displayed.map(section => <section className={styles.section} key={section.group} aria-labelledby={`${prefix}-${section.group}`}>
-      <h2 id={`${prefix}-${section.group}`}><VerifiedText id={`${section.group}-title`}>{t.titles[section.group]}</VerifiedText></h2>
+      {firstNewSources === section.group && <p className={styles.gap}>{t.newSources}</p>}
+      <h2 id={`${prefix}-${section.group}`} className={convo && section.group === "summary" ? "sr-only" : undefined}><VerifiedText id={`${section.group}-title`}>{t.titles[section.group]}</VerifiedText></h2>
       {!!publication?.groups[section.group].notices.length && <p role="alert" className={styles.gap}>{language === "ar" ? "هذا القسم يحتاج إلى مراجعة. حُجب النص المتأثر، واحتُفظ بالمصادر المتاحة." : language === "de" ? "Dieser Abschnitt muss überprüft werden. Betroffene Inhalte sind ausgeblendet, die verfügbaren Quellenkarten bleiben erhalten." : "This section needs review. Affected content is hidden; available source cards are kept."}</p>}
       {patient && !patient.groups[section.group].section ? <p className={styles.gap} role="status" aria-live="polite">{patient.groups[section.group].reason === "evidence_changed" ? t.withdrawn : section.group === "summary" ? t.patientSummaryWaiting : t.patientStates[patient.groups[section.group].state]}</p> : <>
       {section.outcome !== "ready" ? <p className={styles.gap} role="status" aria-live="polite">{t.progress[section.group === "quran" ? "checking_quran" : section.group === "hadith" ? "checking_hadith" : "checking_scholar"]}</p> : <>
         {section.claims.map((claim, i) => publication?.groups[section.group].notices.some(n => n.claimIndexes.includes(i) || n.sourceIds.some(id => claim.refs.includes(id))) ? null : <RevealBlock id={`${section.group}-claim-${i}`} key={i}><p className={styles.claim} dir="auto"><VerifiedText id={`${section.group}-claim-${i}`}>{claim.text}</VerifiedText>{" "}
-          <AfterVerifiedText id={`${section.group}-claim-${i}`}><span className={styles.refs}>{claim.refs.map(ref => <a key={ref} href={`#${targetId(ref)}`} className={pillClass(ref)} onClick={() => {
+          <AfterVerifiedText id={`${section.group}-claim-${i}`}><span className={styles.refs}>{claim.refs.map(ref => convo?.repeated.has(ref)
+            ? <a key={ref} href={earlierHref(section, ref)} target="_blank" rel="noopener noreferrer" className={pillClass(ref)} onClick={event => jumpToEarlier(event, ref)}><bdi>{refLabel(section, ref)}</bdi></a>
+            : <a key={ref} href={`#${targetId(ref)}`} className={pillClass(ref)} onClick={() => {
             const target = document.getElementById(targetId(ref));
             target?.focus();
           }}><bdi>{refLabel(section, ref)}</bdi></a>)}</span></AfterVerifiedText>
         </p></RevealBlock>)}
         {section.group === "summary" && section.uncovered && <p className={styles.gap} role="note">{t.uncovered.replace("{label}", section.uncovered)}</p>}
-        <div className={styles.sources}>{richSourceCards({ ...section, sources: section.sources.filter(s => owners.get(s.id) === section.group) }).map(card => <RevealBlock id={`${section.group}-original-${card[0].id}`} key={card.map(s => s.id).join("-")}><div className={cardClass(section.group)}>{card.map(source => { const { id, evidence: e, displayTranslation: tr } = source; return <RevealBlock key={id} id={`${section.group}-original-${id}`}><div id={`${prefix}-${section.group}-${id}`} tabIndex={-1} className={styles.source}>
+        <div className={styles.sources}>{richSourceCards({ ...section, sources: fresh(section).filter(s => owners.get(s.id) === section.group) }).map(card => <RevealBlock id={`${section.group}-original-${card[0].id}`} key={card.map(s => s.id).join("-")}><div className={cardClass(section.group)}>{card.map(source => { const { id, evidence: e, displayTranslation: tr } = source; return <RevealBlock key={id} id={`${section.group}-original-${id}`}><div id={`${prefix}-${section.group}-${id}`} tabIndex={-1} data-source-id={id} className={styles.source}>
           <div className={styles.sourceHead}><strong><bdi>{refLabel(section, id)}</bdi></strong>
             <span className={styles.sourceTools}>{e.kind === "quran" && <VerseAudioButton verseKey={e.key} language={language} />}
             <a href={e.url} target="_blank" rel="noopener noreferrer">{t.source} ↗</a></span></div>
-          {e.kind === "scholar" && <p>{e.title || e.reference}</p>}
+          {e.kind === "scholar" && (source.displayTitle && language !== "ar"
+            ? <p lang={source.displayTitle.language}>{source.displayTitle.text} <small>· {t.aiTitle}</small></p>
+            : <p>{e.title || e.reference}</p>)}
           {e.kind === "hadith" && <p lang="ar" dir="rtl">{e.gradeAr} · {e.attributionAr}</p>}
           {hasDisplayTranslation(source) && language !== "ar" && <small>{tr?.status === "ready"
             ? tr.origin === "ai" ? t.aiTranslation : tr.reviewer && tr.reviewedAt ? t.humanReviewedTranslation : t.humanTranslation
             : tr?.status === "lookup_failed" ? t.translationLookupFailed : tr?.status === "not_checked" ? t.translationNotChecked : tr?.status === "rejected" ? t.translationRejected : t.missing}</small>}
+          {source.sourceUpdated && <p role="status">{t.sourceUpdated}</p>}
           {publication?.groups[section.group].notices.some(n => n.sourceIds.includes(id)) ? <p role="alert">{language === "ar" ? "تعذّر تأكيد هذا المصدر أثناء إعادة التحقق." : language === "de" ? "Diese Quelle konnte bei der erneuten Prüfung nicht bestätigt werden." : "This source could not be confirmed during rechecking."}</p> : <>
           {staged ? <>
             {!translationOnly(source, language) && <p lang="ar" dir="rtl">{e.kind === "quran"
@@ -125,7 +144,7 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
         </div></RevealBlock>; })}</div></RevealBlock>)}</div>
         {(() => {
           const otherSources = section.sources.filter(s => owners.get(s.id) !== section.group);
-          if (!otherSources.length) return null;
+          if (!otherSources.length || convo) return null;
           return (
             <details className={styles.citationsFold}>
               <summary className={styles.foldSummary}>
@@ -143,8 +162,8 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
             </details>
           );
         })()}
-        {section.sources.some(s => s.evidence.kind === "quran") && <small><a href={ATTRIBUTION.url} target="_blank" rel="noopener noreferrer">{ATTRIBUTION.text}</a></small>}
-        {(() => { const credit = hadithAttributionFor(section.sources.filter(s => s.evidence.kind === "hadith").map(s => s.id)); return credit && <small><a href={credit.url} target="_blank" rel="noopener noreferrer">{credit.text}</a></small>; })()}
+        {(convo ? section.group === "summary" ? [] : fresh(section) : section.sources).some(s => s.evidence.kind === "quran") && <small><a href={ATTRIBUTION.url} target="_blank" rel="noopener noreferrer">{ATTRIBUTION.text}</a></small>}
+        {(() => { const credit = hadithAttributionFor((convo ? section.group === "summary" ? [] : fresh(section) : section.sources).filter(s => s.evidence.kind === "hadith").map(s => s.id)); return credit && <small><a href={credit.url} target="_blank" rel="noopener noreferrer">{credit.text}</a></small>; })()}
       </>}
       </>}
     </section>)}
@@ -158,7 +177,11 @@ export function RichAnswerView({ sections, language, text, complete = false, gui
         <ul className="evidence">{videos.items.map(v => <VideoCard key={v.youtubeId} v={v} labels={text.video} />)}</ul>
       </div>
     </details>}
-    {!researching && (
+    {convo && <footer className={styles.answerFooter}>
+      <ReportProblem leading={saveSlot} lang={language} sourceIds={[...new Set(sections.flatMap(s => s.sources.map(source => source.id)))]} labels={text.report}
+        donateLabel={language === "ar" ? "ساهم في تكاليف الذكاء الاصطناعي لبيان" : language === "de" ? "Hilf mit, Bayans KI-Kosten zu decken" : "Help cover Bayan’s AI costs"} />
+    </footer>}
+    {!researching && !convo && (
       <footer className={styles.answerFooter}>
         {complete && <p className={styles.gap}>{language === "ar" ? "ليست هذه فتوى. لحالتك الخاصة، اسأل عالمًا مؤهلًا تثق به." : language === "de" ? "Keine Fatwa. Für deine persönliche Situation frage einen qualifizierten Gelehrten, dem du vertraust." : "Not a fatwa. For your personal situation, ask a qualified scholar you trust."}</p>}
         <p className={styles.notice} role={patient ? "status" : undefined}>{staged && publication && RICH_ORDER.some(g => publication.groups[g].notices.length) ? language === "ar" ? "تحتاج هذه الإجابة إلى مراجعة. احتُفظ بالمصادر، وحُجب النص المتأثر." : language === "de" ? "Diese Antwort muss überprüft werden. Die Quellenkarten bleiben erhalten, betroffene Inhalte sind ausgeblendet." : "This answer needs review. Source cards are kept and affected content is hidden." : patient ? patient.status === "paused" ? t.patientPaused : t.patientNotice : withdrawn ? t.withdrawn : incomplete && researchFailureText(language, failureKind) ? researchFailureText(language, failureKind) : incomplete && failureKind && failureKind in t.failures ? t.failures[failureKind as keyof typeof t.failures] : incomplete && technicalFailure ? t.technicalFailure : incomplete ? sections.some(s => s.outcome === "ready" && s.presentation === "originals") ? language === "ar" ? "المصادر المختارة متاحة أعلاه، لكن لم تكتمل خلاصة بيان." : language === "de" ? "Die ausgewählten Quellen stehen oben, aber Bayans Zusammenfassung konnte nicht fertiggestellt werden." : "The selected sources remain above, but Bayan’s summary could not be completed." : sections.some(s => s.outcome === "ready" && s.claims.length) ? t.incomplete : t.noCheckedSections : text.v2.review.automatic}</p>

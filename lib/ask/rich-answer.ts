@@ -14,7 +14,7 @@ export type RichGroup = typeof RICH_ORDER[number];
 export type GroupOutcome = "ready" | "no_direct_evidence" | "unavailable" | "timeout" | "search_failed" | "failed_check" | "not_checked";
 export type DisplayTranslation = { status: "ready"; text: string; language: "en" | "de"; origin: "ai" | "human"; original: string; originalHash: string; reviewer?: string; reviewedAt?: string }
   | { status: "unavailable" | "lookup_failed" | "not_checked" | "rejected" };
-export type RichSource = { id: string; evidence: Evidence; role?: "direct" | "background" | "limited_example"; requirementIds?: string[]; explanationRequirementIds?: string[]; displayTranslation?: DisplayTranslation };
+export type RichSource = { /** AI translation of a fatwa's heading (data/fatwa-title-translations.ts). Display only, never evidence. */ displayTitle?: { text: string; language: "en" | "de" }; id: string; evidence: Evidence; role?: "direct" | "background" | "limited_example"; requirementIds?: string[]; explanationRequirementIds?: string[]; displayTranslation?: DisplayTranslation; sourceUpdated?: boolean };
 export type VerifiedQuranCard = { id: string; group: "quran"; sources: RichSource[]; evidenceSnapshot: string };
 /** Shape and approved identity checks only. Server selection establishes context safety. */
 export function validVerifiedQuranCard(value: unknown): value is VerifiedQuranCard {
@@ -40,9 +40,9 @@ export type RichSection = { group: RichGroup; outcome: GroupOutcome; presentatio
   uncovered?: string };
 export type RichGuidance = { text: string; refs: string[]; kind: "learning" | "sourced_instruction" };
 export type RichGuide = "ask_specific_followup" | "clarify_application" | "study_evidence" | "learn_steps" | RichGuidance;
-type RichBase = { language: Locale; review: "automatic"; sections: RichSection[]; complete: true };
+type RichBase = { parentReference?: string; /** A follow-up shown as a short natural reply. Display only: checks are the same as any answer. */ conversational?: import("./follow-up").ConversationMode; checkedHashes?: Record<string, import("./passage-record").PassageRecord>; language: Locale; review: "automatic"; sections: RichSection[]; complete: true };
 export type RichAnswer = RichBase & ({ version: 3; guide: Exclude<RichGuide, RichGuidance>; videos?: never } | { version: 4; guide?: RichGuidance; videos?: RelatedVideos });
-export type RichProgress = "understanding" | "searching" | "checking_evidence" | "writing_quran" | "checking_quran" | "checking_hadith" | "checking_scholar" | "checking_remaining" | "correcting_summary" | "finding_videos" | "retrying_selection";
+export type RichProgress = "follow_up_search" | "follow_up_explain" | "understanding" | "searching" | "checking_evidence" | "writing_quran" | "checking_quran" | "checking_hadith" | "checking_scholar" | "checking_remaining" | "correcting_summary" | "finding_videos" | "retrying_selection";
 export type RichCallbacks = { progressive?: boolean; stable?: boolean; onIntegrity?: (notice: IntegrityNotice) => void; onGroupStatus?: (group: RichGroup, status: "searching" | "checking") => void; onCard?: (card: VerifiedQuranCard) => void; onCardWithdraw?: (id: string) => void; onSection?: (section: RichSection, evidenceSnapshot?: string) => void; onProgress?: (stage: RichProgress) => void; onWithdraw?: (group?: RichGroup) => void };
 export type RichFailureKind = "selection_failure" | "source_revalidation_unavailable" | "checker_failure" | "source_support" | "missing_qualification" | "context_needed" | "question_coverage" | "summary_provider_rejection" | "summary_timeout" | "writer_failure" | "checkpoint_incompatible" | "wording_rejected" | "spending_limit" | "billing_uncertain" | "cancelled" | "connection_interrupted" | "transport_failure" | "research_running";
 export function richFailureKind(value: unknown): RichFailureKind | null {
@@ -64,7 +64,7 @@ export type RichEvent = { request_id: string; sequence: number; version?: 2 | 3 
 );
 
 const outcomes = ["ready", "no_direct_evidence", "unavailable", "timeout", "search_failed", "failed_check", "not_checked"];
-const stages = ["understanding", "searching", "checking_evidence", "writing_quran", "checking_quran", "checking_hadith", "checking_scholar", "checking_remaining", "correcting_summary", "finding_videos", "retrying_selection"];
+const stages = ["follow_up_search", "follow_up_explain", "understanding", "searching", "checking_evidence", "writing_quran", "checking_quran", "checking_hadith", "checking_scholar", "checking_remaining", "correcting_summary", "finding_videos", "retrying_selection"];
 export function validRichGuidance(value: unknown, language: Locale, sourceIds: string[]): value is RichGuidance {
   const g = value as RichGuidance | null;
   return !!g && typeof g.text === "string" && g.text.trim().length > 0 && g.text.length <= 420 && inLanguage(g.text, language)
@@ -101,7 +101,8 @@ export function validRichSection(value: unknown, language?: Locale): value is Ri
     if (s.presentation !== undefined && (s.presentation !== "originals" || s.group === "summary" || s.claims.length > 0)) return false;
     if ((!s.claims.length && s.presentation !== "originals") || !s.sources.length || new Set(s.sources.map(x => x.id)).size !== s.sources.length) return false;
     if (s.presentation === "originals" && s.sources.some(x => x.evidence.kind !== s.group)) return false;
-    for (const { id, evidence: e, role, requirementIds, explanationRequirementIds, displayTranslation } of s.sources) {
+    for (const { id, evidence: e, role, requirementIds, explanationRequirementIds, displayTranslation, displayTitle } of s.sources) {
+      if (displayTitle !== undefined && (e.kind !== "scholar" || !validDisplayTitle(displayTitle, language))) return false;
       if (!e || typeof e.arabic !== "string" || !e.arabic.trim() || typeof e.url !== "string" || new URL(e.url).protocol !== "https:") return false;
       if (role !== undefined && !["direct", "background", "limited_example"].includes(role)) return false;
       if (role !== undefined && (!Array.isArray(requirementIds) || !Array.isArray(explanationRequirementIds)
@@ -120,10 +121,34 @@ export function validRichSection(value: unknown, language?: Locale): value is Ri
     }
     return s.claims.every(c => typeof c.text === "string" && c.text.length > 0 && c.text.length <= 300 && isSingleSentence(c.text)
       && (!language || inLanguage(c.text, language)) && /^R[1-4]$/.test(c.requirementId ?? "")
-      && Array.isArray(c.refs) && c.refs.length > 0 && c.refs.length <= 3 && !sourceKindMismatch(c.text, c.refs)
+      && Array.isArray(c.refs) && c.refs.length > 0 && c.refs.length <= 3 && !sourceKindMismatch(c.text, c.refs, s.sources.map(source => ({ id: source.id, arabic: source.evidence.arabic })))
       && c.refs.every(id => s.sources.some(source => source.id === id))
       && (s.group === "summary" || c.refs.some(id => s.sources.some(source => source.id === id && source.evidence.kind === s.group))));
   } catch { return false; }
+}
+
+function validCheckedHashes(value: unknown): value is Record<string, import("./passage-record").PassageRecord> {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return false;
+  const entries = Object.entries(value);
+  if (entries.length > 80) return false;
+  const hex = /^[a-f0-9]{64}$/;
+  return entries.every(([key, raw]) => {
+    const r = raw as import("./passage-record").PassageRecord | null;
+    return !!r && typeof r === "object" && !Array.isArray(r) && r.id === key
+      && ["quran", "hadith", "scholar"].includes(r.kind)
+      && (r.kind === "quran" ? /^Q\d{1,3}:\d{1,3}$/.test(r.id) && isRealVerse(Number(r.id.slice(1).split(":")[0]), Number(r.id.slice(1).split(":")[1]))
+        : new RegExp(`^${r.kind === "hadith" ? "SH" : "S"}[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$`, "i").test(r.id))
+      && typeof r.original === "string" && hex.test(r.original)
+      && (r.translation === undefined || typeof r.translation === "string" && hex.test(r.translation))
+      && (r.context === undefined || r.kind === "quran" && typeof r.context === "string" && hex.test(r.context));
+  });
+}
+
+/** One rule for adding and for accepting a translated fatwa heading, so a title can never invalidate an answer it was added to. */
+export function validDisplayTitle(value: unknown, language?: Locale): value is NonNullable<RichSource["displayTitle"]> {
+  const t = value as RichSource["displayTitle"];
+  return !!t && typeof t.text === "string" && t.text.trim().length > 0 && t.text.length <= 300 && (t.language === "en" || t.language === "de")
+    && (!language || t.language === language);
 }
 
 export function validRichAnswer(value: unknown): value is RichAnswer {
@@ -131,7 +156,7 @@ export function validRichAnswer(value: unknown): value is RichAnswer {
   const a = value as RichAnswer;
   if (!a || !Array.isArray(a.sections) || a.sections.some(s => !s || !Array.isArray(s.sources))) return false;
   const explanationRefs = new Set(a.sections.filter(s => s.group !== "summary").flatMap(s => s.presentation === "originals" ? s.sources.map(x => x.id) : Array.isArray(s.claims) ? s.claims.flatMap(c => c.refs) : []));
-  return !!a && [3, 4].includes(a.version) && ["en", "ar", "de"].includes(a.language) && a.review === "automatic" && a.complete === true
+  return !!a && [3, 4].includes(a.version) && ["en", "ar", "de"].includes(a.language) && a.review === "automatic" && a.complete === true && (a.checkedHashes === undefined || validCheckedHashes(a.checkedHashes)) && (a.conversational === undefined || a.conversational === "explain" || a.conversational === "look_further")
     && (a.videos === undefined || a.version === 4 && validRelatedVideos(a.videos))
     && (a.version === 3 ? ["ask_specific_followup", "clarify_application", "study_evidence", "learn_steps"].includes(a.guide)
       : a.guide === undefined || validRichGuidance(a.guide, a.language, a.sections?.flatMap(s => s.sources.map(x => x.id)) ?? []))
@@ -154,7 +179,7 @@ export function validResearchContinuation(value: unknown): value is ResearchCont
     && Number.isSafeInteger(c.expires) && c.expires > 0 && typeof c.available === "boolean"
     && (c.reason === undefined || ["expired", "busy", "limit", "billing_uncertain", "cancelled"].includes(c.reason)) && (c.approved === undefined || typeof c.approved === "boolean");
 }
-export type RichStreamState = { requestId: string | null; sequence: number; sections: RichSection[]; progress: RichProgress; withdrawn: boolean; terminal: boolean; result?: unknown; version?: 2 | 3; publication?: PublicationState; revisions?: Partial<Record<RichGroup, number>>; snapshots?: Partial<Record<RichGroup, string>>; cards?: VerifiedQuranCard[]; cardRevisions?: Record<string, number>; continuation?: ResearchContinuation };
+export type RichStreamState = { followUpSearch?: true; conversational?: import("./follow-up").ConversationMode; requestId: string | null; sequence: number; sections: RichSection[]; progress: RichProgress; withdrawn: boolean; terminal: boolean; result?: unknown; version?: 2 | 3; publication?: PublicationState; revisions?: Partial<Record<RichGroup, number>>; snapshots?: Partial<Record<RichGroup, string>>; cards?: VerifiedQuranCard[]; cardRevisions?: Record<string, number>; continuation?: ResearchContinuation };
 export const emptyRichState = (): RichStreamState => ({ requestId: null, sequence: 0, sections: [], progress: "understanding", withdrawn: false, terminal: false });
 /** Display-only merge across a manually resumed stream. Validation still happens
  * on its fresh request state; an invalidation must also remove the old visible text. */
@@ -186,7 +211,7 @@ export function reduceRichEvent(state: RichStreamState, event: RichEvent): RichS
     if (event.version !== 2 || !validResearchContinuation(event.continuation)) throw new Error("invalid_continuation");
     return { ...next, continuation: event.continuation };
   }
-  if (event.type === "progress") { if (!stages.includes(event.stage)) throw new Error("invalid_progress"); return state.sections.some(s => s.outcome === "ready") && event.stage === "understanding" ? next : { ...next, progress: event.stage }; }
+  if (event.type === "progress") { if (!stages.includes(event.stage)) throw new Error("invalid_progress"); return state.sections.some(s => s.outcome === "ready") && event.stage === "understanding" ? next : { ...next, ...(event.stage === "follow_up_search" ? { followUpSearch: true as const, conversational: "look_further" as const } : event.stage === "follow_up_explain" ? { conversational: "explain" as const } : {}), progress: event.stage }; }
   if (event.type === "withdraw") return { ...next, sections: [], cards: [], withdrawn: true };
   if (event.type === "source_card" || event.type === "withdraw_card") {
     if (event.version !== 2 || state.withdrawn) throw new Error("invalid_card_event");
@@ -248,11 +273,11 @@ function reduceStableEvent(state: RichStreamState, event: RichEvent): RichStream
   }
   if (event.type === "progress") {
     if (!stages.includes(event.stage)) throw Error("invalid_progress");
-    return state.sections.some(s => s.outcome === "ready") ? next : { ...next, progress: event.stage };
+    return state.sections.some(s => s.outcome === "ready") ? next : { ...next, ...(event.stage === "follow_up_search" ? { followUpSearch: true as const, conversational: "look_further" as const } : event.stage === "follow_up_explain" ? { conversational: "explain" as const } : {}), progress: event.stage };
   }
   if (event.type !== "terminal") throw Error("unstable_event_in_stable_stream");
   const result = event.result as { status?: string; answer?: RichAnswer } | null;
-  if (!result || !["rich_answer", "incomplete", "cancelled", "failed", "busy", "error", "answer", "clarify", "no_summary", "no_source", "ask_scholar", "out_of_scope"].includes(result.status ?? "")) throw Error("invalid_stable_terminal");
+  if (!result || !["rich_answer", "incomplete", "cancelled", "failed", "busy", "error", "answer", "clarify", "no_summary", "no_source", "ask_scholar", "out_of_scope", "social"].includes(result.status ?? "")) throw Error("invalid_stable_terminal");
   if (result.status === "rich_answer" && (!validRichAnswer(result.answer) || JSON.stringify(result.answer!.sections) !== JSON.stringify(next.sections)
     || RICH_ORDER.some(g => next.publication!.groups[g].notices.length))) throw Error("invalid_stable_completion");
   return { ...next, terminal: true, result: event.result };

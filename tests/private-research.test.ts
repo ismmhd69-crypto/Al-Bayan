@@ -12,7 +12,8 @@ it("signs a browser session identity and rejects forged cookies",()=>{
   const first=privateResearchOwner(null),cookie=first.cookie.split(";")[0];
   expect(privateResearchOwner(cookie).owner).toBe(first.owner);
   expect(privateResearchOwner(cookie.slice(0,-1)+(cookie.endsWith("0")?"1":"0")).owner).not.toBe(first.owner);
-  expect(first.cookie).toContain("HttpOnly");expect(first.cookie).toContain("SameSite=Lax");expect(first.cookie).not.toContain("Max-Age");
+  expect(first.cookie).toContain("HttpOnly");expect(first.cookie).toContain("SameSite=Lax");// Mo, 2026-11-12: the weekly question limit needs the browser identity to outlive a browser restart.
+  expect(first.cookie).toContain("Max-Age=2592000");
 });
 it("normalizes Unicode and whitespace only, retaining meaningful words and case",()=>{
   expect(normalizedResearchText(" e\u0301  question ")).toBe("é question");

@@ -18,6 +18,8 @@ import { runRichAnswer } from "./rich-engine";
 import { abortable } from "./abort";
 import { researchFailure } from "./research-failure";
 import type { ProgressiveCheckpoint } from "./progressive-checkpoint";
+import { FOLLOW_UP_DIAGNOSTICS } from "./diagnostics";
+import { passageRecord } from "./passage-record";
 
 const groups = ["quran", "hadith", "scholar"] as const;
 type Group = typeof groups[number];
@@ -86,6 +88,16 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
   const checkpoint:ProgressiveCheckpoint = original.progressiveCheckpoint ?? { lanes:{},retry:0,meaningApprovals:new Set() };
   checkpoint.frame = structuredClone(frame);
   const state = checkpoint.simple ??= { version:1,recoveryUsed:false,correctionUsed:false,gaps:[],queries:[] };
+  // Explain mode: the candidates are the chat's own sources, already reloaded and hash-checked.
+  // There is no search and no recovery search; selection and the full final review still run.
+  // A search follow-up already has the chat's context: one search round, no recovery round. It keeps
+  // the reply within the session's 9 calls (Arabic "عمدًا" ran out on 2026-11-12).
+  if(original.conversational==="look_further" && !state.candidates && !state.frozen) state.recoveryUsed=true;
+  let freshExplain=false;
+  if(original.explainCandidates?.length && !state.candidates && !state.frozen && !state.terminalNegative) {
+    state.candidates=structuredClone(simpleCandidatePool(frame,original.explainCandidates));
+    state.explain=true;state.recoveryUsed=true;freshExplain=true;
+  }
   const deps:PipelineDeps = { ...original,progressiveCheckpoint:checkpoint,simpleResearch:true,meaningRankCandidates:undefined,
     focusedChecks:false,meaningReview:false,fixedSelectionReferences:true,deriveAuditReasons:true,
     onDiagnostic:(stage,code,elapsed,details)=>{
@@ -103,12 +115,20 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
     return {status:"incomplete",language:frame.language,withdraw:false,sections:state.frozen ?? [],failureKind};
   };
   const fingerprint = (answer:unknown) => hash({policy:"simple-summary-review-5",question,frame,pack:state.pack,answer,
-    writer:deps.writer.id,verifier:deps.verifier.id,context:deps.previousUserMessages ?? []});
+    writer:deps.writer.id,verifier:deps.verifier.id,context:deps.previousUserMessages ?? [], ...(deps.taskContext ? { task_context:deps.taskContext } : {})});
   const refresh = async (pack:EvidencePackage) => {
     if (!deps.revalidateStable) return {unavailable:true,rejectedIds:[] as string[]};
     return deps.revalidateStable(pack.passages,signal);
   };
   const publishFrozen = () => { for(const section of state.frozen ?? []) emit(section); };
+  // The chat's sources cannot answer this message: run the normal search once, in the same
+  // session and allowance. Nothing has been published yet when this is called.
+  const searchInstead = (reason:string):Promise<AskResult> => {
+    original.onDiagnostic?.("retrieval",FOLLOW_UP_DIAGNOSTICS.explainFallback,0,{reason});
+    delete checkpoint.simple;checkpoint.conversational="look_further";
+    original.rich?.onProgress?.("follow_up_search");
+    return runSimplePipeline(question,frame,{...original,progressiveCheckpoint:checkpoint,explainCandidates:undefined,conversational:"look_further"},signal,hints);
+  };
   try {
     if(state.terminalNegative && !state.frozen) return incomplete(state.lastFailure ?? "selection_failure",true);
     if(state.version!==1) return incomplete("checkpoint_incompatible",true);
@@ -178,8 +198,9 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
       let pool=state.candidates;
       // Search problems from the original run stay visible after Continue.
       for(const group of state.searchProblems ?? []) problems.add(group);
-      if(pool?.length) {
+      if(pool?.length && !freshExplain) {
         const recheck=deps.revalidateStable?await deps.revalidateStable(pool,signal):{unavailable:true,rejectedIds:[]};
+        if(state.explain && (recheck.unavailable || recheck.rejectedIds.length)) return searchInstead("reload_unconfirmed");
         if(recheck.unavailable) return incomplete("source_revalidation_unavailable");
         // The saved assessment applies to the exact original candidates. If
         // any changed while interrupted, it cannot safely drive recovery.
@@ -230,7 +251,8 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
       // re-fetched yet. Omit them unless a fresh selection checks them again.
       let assessment=pending ? {...pending.assessment,translations:new Map<string,import("./rich-answer").DisplayTranslation>()} : await selectWithRepair(pool);
       state.gaps=assessment.missingRequirementIds ?? [];
-      if(pending || assessment.missingRequirementIds?.length && !state.recoveryUsed) {
+      if(state.explain && (!assessment.pack || state.gaps.length)) return searchInstead("sources_not_enough");
+      if(pending ||assessment.missingRequirementIds?.length && !state.recoveryUsed) {
         let queries=pending?.queries;
         if(!queries) {
           state.recoveryUsed=true;
@@ -272,7 +294,16 @@ export async function runSimplePipeline(question:string, frame:QuestionFrame, or
       // prove every actual summary concern against these exact frozen originals.
       const {partial:_partial,...selected}=assessment.pack;
       state.pack=structuredClone(selected);
-      const translations=await checkSelectedTranslations(state.pack.passages.filter(p=>p.source.kind!=="quran"),frame.language,deps,signal);
+      // An explain reply repeats no source cards, so it commissions no translation check.
+      // A search follow-up hides cards the earlier answer already showed, so their translations are not
+      // checked again. Only when the signed record proves the original is unchanged; a skipped source simply
+      // shows no translation, which is never an approval (Codex review, 2026-11-12).
+      const shownBefore=new Set((original.followUpContext?.parentRecords ?? []).filter(r=>{
+        const p=state.pack!.passages.find(x=>x.id===r.id);
+        const text=p?.source.kind==="hadith"?p.source.hadith.arabic:p?.source.kind==="scholar"?p.source.quote.arabic:undefined;
+        return !!text && passageRecord({id:r.id,kind:r.kind,original:text})?.original===r.original;
+      }).map(r=>r.id));
+      const translations=state.explain ? new Map<string,import("./rich-answer").DisplayTranslation>() : await checkSelectedTranslations(state.pack.passages.filter(p=>p.source.kind!=="quran" && !shownBefore.has(p.id)),frame.language,deps,signal);
       const sections=await Promise.all(groups.map(async group=>{
         const section=await originalSection(group,state.pack!,frame.language,deps,signal,translations);
         if(!section.sources.length && group!=="quran" && deps.sourceAvailability?.[group]===false) section.outcome="unavailable";

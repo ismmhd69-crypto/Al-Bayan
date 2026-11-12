@@ -276,3 +276,15 @@ it("settles Gemini 3.5 Flash-Lite at its own listed price", async () => {
   expect((await continuationTransport(session, send)(vertexUrl.replace("gemini-3.1-flash-lite", "gemini-3.5-flash-lite"), vertexRequest())).status).toBe(200);
   expect(session.actualUsd).toBeCloseTo((1000 * 0.3 + 300 * 2.5) / 1_000_000, 10);
 });
+it("charges nothing and holds nothing for a Vertex busy refusal with an unreadable body, but still counts the call", async () => {
+  // Codex review, 2026-11-12: an empty or non-JSON 429/503 body must not hold billing.
+  for (const status of [429, 503]) {
+    const { session } = start();
+    expect((await continuationTransport(session, vi.fn(async () => new Response("", { status })))(vertexUrl, vertexRequest())).status).toBe(status);
+    expect(session.actualUsd).toBe(0); expect(session.held).toBeFalsy(); expect(session.calls).toBe(1);
+  }
+  // Any other unreadable answer still holds billing, as before.
+  const { session } = start();
+  await expect(continuationTransport(session, vi.fn(async () => new Response("not json", { status: 200 })))(vertexUrl, vertexRequest())).rejects.toThrow("research_billing_uncertain");
+  expect(session.held).toBe(true);
+});

@@ -309,10 +309,20 @@ function HadithCard({ item, answerLanguage, t, anchor }: { item: HadithItem; ans
 }
 
 function ScholarCard({ item, answerLanguage, t, anchor }: { item: ScholarItem; answerLanguage: AnswerV2["language"]; t: AskText; anchor: (id: string) => string }) {
+  const isArabicTitle = item.title ? /[\u0600-\u06FF]/.test(item.title) : true;
   return (
     <article className="answer-source-card answer-source-card--scholar answer-source-target" id={anchor(item.id)} tabIndex={-1}>
       <h4>{item.scholar_name}</h4>
-      {item.title && <p className="quote-title" lang="ar" dir="rtl" translate="no">{item.title}</p>}
+      {item.title && (
+        <p
+          className="quote-title"
+          lang={isArabicTitle ? "ar" : answerLanguage}
+          dir={isArabicTitle ? "rtl" : "ltr"}
+          translate="no"
+        >
+          {item.title}
+        </p>
+      )}
       {shouldShowScholarTranslation(answerLanguage, item.translation) && <p className="source-language-label">{t.scholarQuote.aiTranslation}</p>}
       <p className="verse-ar" lang="ar" dir="rtl" translate="no">{item.arabic}</p>
       {shouldShowScholarTranslation(answerLanguage, item.translation) && <p className="verse-tr" lang={answerLanguage} dir="ltr">{item.translation}</p>}

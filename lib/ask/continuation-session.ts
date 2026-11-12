@@ -18,6 +18,7 @@ export class ResearchSessionStop extends Error {
 }
 type Attempt = { state: "reserved" | "settled" | "accounted"; reserved: number; cost?: number; body?: string; status?: number; contentType?: string; generation?: string; callerStopped?: boolean };
 export type ContinuationSession = {
+  followUpContext?: import("./follow-up").FollowUpContext;
   protocol: 2 | 3;
   engine: string;
   question: string; language: Locale; history: string[]; checkpoint: ProgressiveCheckpoint;
@@ -39,12 +40,12 @@ function expireWhenIdle(key: string, session: ContinuationSession) {
 const digest = (value: string) => createHash("sha256").update(value).digest("hex");
 // Bump the contract when checking/reuse rules change. Configuration changes also
 // expire existing approvals; credentials themselves never enter the fingerprint.
-export const engineIdentity = () => digest(JSON.stringify({ contract: "progressive-20261027-simple-research-17",
+export const engineIdentity = () => digest(JSON.stringify({ contract: "progressive-20261030-follow-up-18",
   configuration: ["ASK_SIMPLE_PIPELINE", "AI_MODELS", "AI_VERIFIER_MODELS", "AI_PROVIDER", "AI_MODEL", "AI_VERIFIER_MODEL", "AI_FALLBACK_MODEL", "AI_VERIFIER_FALLBACK_MODEL", "OPENROUTER_STRUCTURED_OUTPUTS", "OPENROUTER_REASONING_EFFORT", "ASK_FOCUSED_CHECKS", "ASK_DISTINCT_SELECTION", "ASK_LIBRARY_FLOW", "ASK_MEANING_RANKING", "HADITH_SOURCE", "SCHOLAR_QUOTES", "SCHOLARS_LIVE", "ASK_CORPUS_RETRIEVAL", "QURAN_API_ENV", "QURAN_CHAPTERS"].map(name => [name, process.env[name] ?? ""]),
   doors: [!!process.env.OPENROUTER_API_KEY, !!process.env.VERTEX_API_KEY, !!process.env.GEMINI_API_KEY, !!process.env.NVIDIA_API_KEY] }));
 // Module-local memory intentionally disappears on restart or code reload. No disk,
 // database, browser persistence, background worker, or cross-instance recovery claim.
-export function createContinuationSession(question: string, language: Locale, history: string[], now = Date.now(), protocol: 2 | 3 = 2, profile?: { owner: string; simple: boolean }) {
+export function createContinuationSession(question: string, language: Locale, history: string[], now = Date.now(), protocol: 2 | 3 = 2, profile?: { owner: string; simple: boolean; followUpContext?: import("./follow-up").FollowUpContext }) {
   for (const [key, value] of sessions) if (!value.active && value.expires <= now) sessions.delete(key);
   if (sessions.size >= CONTINUATION_LIMITS.sessions) throw new ResearchSessionStop("limit");
   const token = randomBytes(32).toString("hex");
@@ -200,7 +201,13 @@ export function continuationTransport(session: ContinuationSession, send: ModelT
           chunks.push(chunk.value);
         }
       } finally { reader?.releaseLock(); }
-      const text = Buffer.concat(chunks).toString("utf8"), data = JSON.parse(text);
+      const text = Buffer.concat(chunks).toString("utf8");
+      // Google charges nothing for a request it refused as busy (429/503), whatever its error body looks
+      // like. An unreadable refusal must not hold billing (Codex review, 2026-11-12). Any other unreadable
+      // response still does.
+      const confirmedRefusal = !!vertexPrice && (response.status === 429 || response.status === 503);
+      let data: any;
+      try { data = JSON.parse(text); } catch (error) { if (!confirmedRefusal) throw error; data = {}; }
       // Google does not charge a refused request; a successful one must report its token counts.
       const googleUsage = data?.usageMetadata;
       const cost = !vertexPrice ? data?.usage?.cost : !response.ok ? 0 : typeof googleUsage?.promptTokenCount === "number"

@@ -1,3 +1,6 @@
+import { FOLLOW_UP_DIAGNOSTICS } from "./diagnostics";
+import { expandedPlannerRequest, describePlannerOutput, followUpFailure, followUpPersonalGate, followUpMode, socialMessage, visitorConditionPhrase, type FollowUpContext } from "./follow-up";
+import { reloadCheckedPassages } from "./explain-reload";
 import { approvedContext } from "./approved-context";
 // The automatic answer pipeline (plan section 7), after two Codex code reviews.
 // This file holds the logic only; lib/ask/pipeline.ts plugs in the real AI and Quran source.
@@ -168,9 +171,19 @@ export type AskResult =
   | { status: "error"; language: Locale }
   | { status: "ask_scholar"; language: Locale }
   | { status: "out_of_scope"; language: Locale }
+  | { status: "social"; language: Locale }
   | { status: "clarify"; language: Locale; clarification: { choices: string[] } };
 
 export type PipelineDeps = {
+  /** A related follow-up, answered as a short natural reply. Set by code after the planner; never by a request. */
+  conversational?: import("./follow-up").ConversationMode;
+  /** The parent answer's sources, reloaded by ID and hash-checked. Selection and final review still decide. */
+  explainCandidates?: PassageForSelection[];
+  getStoredHadith?: (uuid: string) => Promise<Hadith | null>;
+  getStoredScholar?: (id: string) => Promise<ScholarQuote | null>;
+  taskContext?: import("./task-context").AskTaskContext;
+  recordCheckedPassages?: boolean;
+  followUpContext?: FollowUpContext;
   rich?: RichCallbacks;
   meaningReview?: boolean; // Narrow independent entailment; never replaces primary checks.
   focusedChecks?: boolean; // Independent preview; never inferred from rich presentation alone.
@@ -708,7 +721,16 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   const libraryFlow = !!deps.rich || deps.libraryFlow === true;
   const history = parseUserHistory(deps.previousUserMessages);
   if (history === null) return refuse("history_invalid", uiLanguage);
-  const understandOnce = (correction?: string, malformedResponseRetry = false) => deps.writer.generateJson({
+  if (deps.progressiveCheckpoint?.taskContext) {
+    deps = { ...deps, taskContext: deps.progressiveCheckpoint.taskContext,
+      ...(deps.progressiveCheckpoint.conversational ? { conversational: deps.progressiveCheckpoint.conversational } : {}) };
+    question = deps.taskContext!.resolved_question;
+  }
+  // Thanks inside a chat is not a question: a fixed reply, with no model call.
+  if (deps.rich && (history.length || deps.followUpContext) && !deps.progressiveCheckpoint?.frame && socialMessage(question)) return { status: "social", language: uiLanguage };
+  const visitorMessage = deps.taskContext?.visitor_message ?? question;
+  const followContext: FollowUpContext | undefined = deps.followUpContext ?? (deps.rich && history.length ? { message: question, history, language: uiLanguage === "ar" ? "ar" : "en", parentUnavailable: false } : undefined);
+  const understandOnce = (correction?: string, malformedResponseRetry = false) => { const request: import("@/lib/ai/types").JsonRequest = {
       ...(deps.rich ? { structuredOutput: true } : {}),
       ...(malformedResponseRetry ? { malformedResponseRetry: true } : {}),
       system: `${deps.rich ? SHARED_QUESTION_RULES : UNDERSTAND_SYSTEM}${tiered ? `\n${TIERED_UNDERSTAND_RULES}` : ""}${libraryFlow ? `\n${LIBRARY_PLAN_RULES}` : ""}${deps.simpleResearch ? "\nAlso plan up to six backup_queries in the same response. Use short English or Arabic source-search phrases for important potentially uncovered concerns, labelled with their R1, R2 etc concern identity and source family. These are alternatives, not additional concerns or answers. Each backup must search a different angle from the main searches (a related event, practice, ruling or chapter-heading concept where the evidence would be stated), never a rewording of them. Hadith backups must be Arabic: the hadith library is searched in Arabic only. German searches must be empty for this flow." : ""}`,
@@ -767,9 +789,58 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
           ...(libraryFlow ? ["interpretations", "clarification_needed"] : []),
         ],
       },
-    });
+    }; return deps.writer.generateJson(followContext ? expandedPlannerRequest(request, followContext) : request); };
   const initialFrameResponse = deps.progressiveCheckpoint?.frame ? undefined : await understandOnce();
-  let frame = deps.progressiveCheckpoint?.frame ?? parseQuestionFrame(initialFrameResponse);
+  const earlyKind = followContext ? parseQuestionFrame(initialFrameResponse) : null;
+  if (earlyKind?.kind === "personal") return { status: "ask_scholar", language: earlyKind.language };
+  if (earlyKind && ["greeting", "off_topic", "harmful"].includes(earlyKind.kind)) return { status: "out_of_scope", language: earlyKind.language };
+  let frame: QuestionFrame | null = null;
+  if (followContext && !deps.progressiveCheckpoint?.frame) {
+    let checked = describePlannerOutput(initialFrameResponse, true, followContext);
+    if (!checked.valid) {
+      const corrected = await understandOnce(`Correct the question checklist. Problem: ${checked.failureReason}. Requirement text must be plain English and at most 16 words. Keep a main Arabic query of at most six words. Resolve bare references as related or ambiguous, not none. Do not introduce premises from parent text. Follow-up conditions require exact user quotes. Preserve user negation and personal details. Never answer the question.`);
+      checked = describePlannerOutput(corrected, true, followContext);
+    }
+    if (checked.frame?.kind === "personal") return { status: "ask_scholar", language: checked.frame.language };
+    if (checked.frame && ["greeting", "off_topic", "harmful"].includes(checked.frame.kind)) return { status: "out_of_scope", language: checked.frame.language };
+    if (!checked.valid) {
+      const fallback = followUpFailure(checked, followContext);
+      if (fallback === "clarify") return { status: "clarify", language: uiLanguage, clarification: { choices: [] } };
+      if (fallback !== "first_question" || !checked.frame) return refuse("question_frame_invalid", uiLanguage);
+    }
+    frame = checked.frame;
+    if (frame) {
+      const related = checked.followUp?.relation === "related";
+      const resolved = related ? checked.followUp!.resolved_question : question;
+      if (related && [visitorMessage, resolved, ...history].some(text => followUpPersonalGate(text))) return { status: "ask_scholar", language: frame.language };
+      deps = { ...deps, taskContext: { visitor_message: visitorMessage, resolved_question: resolved,
+        parent_sentences: followContext.parent?.displayed_sentences ?? [], relevant_user_messages: history } };
+      if (deps.progressiveCheckpoint) deps.progressiveCheckpoint.taskContext = structuredClone(deps.taskContext);
+      if (related) { question = resolved; deps.onDiagnostic?.("frame", FOLLOW_UP_DIAGNOSTICS.search, 0); }
+      if (checked.followUp) deps.onDiagnostic?.("frame", FOLLOW_UP_DIAGNOSTICS[checked.followUp.intent], 0);
+      let mode = followUpMode(checked, followContext);
+      if (mode === "explain") {
+        // Explaining needs the chat's own sources, reloaded and unchanged. Anything else searches.
+        const reloaded = deps.simpleResearch ? await reloadCheckedPassages(followContext.parentRecords!, deps, signal, frame.requirements.map(r => r.id)) : null;
+        if (reloaded) deps = { ...deps, explainCandidates: reloaded };
+        else { mode = "look_further"; deps.onDiagnostic?.("frame", FOLLOW_UP_DIAGNOSTICS.reloadFailed, 0); }
+      }
+      // The visitor's added condition becomes an explicit condition of the question, so search ranking and the
+      // final review both have to account for it (Codex review, 2026-11-12). Only when the planner recorded none.
+      const condition = mode === "look_further" ? visitorConditionPhrase(followContext.message) : null;
+      if (condition && frame.requirements.every(r => !r.essentialConditions?.length)) {
+        frame = { ...frame, requirements: frame.requirements.map(r => ({ ...r, essentialConditions: [condition] })) };
+        deps.onDiagnostic?.("frame", FOLLOW_UP_DIAGNOSTICS.conditionKept, 0);
+      }
+      if (mode) {
+        deps = { ...deps, conversational: mode };
+        if (deps.progressiveCheckpoint) deps.progressiveCheckpoint.conversational = mode;
+        deps.onDiagnostic?.("frame", FOLLOW_UP_DIAGNOSTICS[mode], 0);
+        deps.rich?.onProgress?.(mode === "explain" ? "follow_up_explain" : "follow_up_search");
+      }
+    }
+  } else {
+    frame = deps.progressiveCheckpoint?.frame ?? parseQuestionFrame(initialFrameResponse);
   const frameProblem = (candidate: typeof frame): string | null => {
     if (!candidate) return questionFrameRejection(initialFrameResponse);
     if (deps.simpleResearch && !candidate.backupQueries) return "backup_queries_missing";
@@ -789,6 +860,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
     // The later evidence and answer checks still require direct support for every retained point.
     if (retried && !frameProblem(retried)) frame = retried;
     else if (!frame && retried) frame = retried;
+  }
   }
   step("frame");
   if (!frame) return refuse("question_frame_invalid", uiLanguage);
@@ -814,7 +886,7 @@ export async function runPipeline(question: string, uiLanguage: Locale, deps: Pi
   if (deps.rich && frame.checklistStatus && frame.checklistStatus !== "complete") return clarification();
   if (libraryFlow && frame.clarificationNeeded) return clarification();
   if (!deps.rich && libraryFlow && explicitPointMismatch(question, frame)) return refuse("question_requested_point_missing", frame.language);
-  if (asksKnownUnresolvedView(question, frame.questionType)) {
+  if (asksKnownUnresolvedView(visitorMessage, frame.questionType) || asksKnownUnresolvedView(question, frame.questionType)) {
     return refuse("scholar_difference_unresolved_known_topic", language);
   }
 

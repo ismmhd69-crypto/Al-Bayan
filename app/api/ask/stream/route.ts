@@ -1,3 +1,6 @@
+import { verifyParentReference } from "@/lib/ask/parent-reference";
+import { socialMessage, type FollowUpContext } from "@/lib/ask/follow-up";
+import { admitQuestion } from "@/lib/ask/quota";
 import { recordLocalAskEvent } from "@/lib/ask/local-trace";
 import { randomUUID, createHash } from "node:crypto";
 import { NextResponse } from "next/server";
@@ -5,7 +8,7 @@ import { ask } from "@/lib/ask/pipeline";
 import { privateResearchOwner, privateResearch } from "@/lib/ask/private-research";
 import { askSimplePipeline } from "@/lib/ask/settings";
 import { askRich, askStreaming, askClaimAudit, askTiered, askLibraryFlow, localAskUnhurried } from "@/lib/ask/settings";
-import { diagnosticLogger } from "@/lib/ask/diagnostics";
+import { FOLLOW_UP_DIAGNOSTICS, diagnosticLogger } from "@/lib/ask/diagnostics";
 import { askEnabled, takeSlot, visitorKey, withSlot } from "@/lib/ask/limits";
 import { sameOrigin } from "@/lib/same-origin";
 import { isLocale } from "@/lib/i18n";
@@ -22,6 +25,7 @@ import { CONTINUATION_LIMITS, createContinuationSession, claimContinuationSessio
 
 export const maxDuration = 60;
 export async function POST(request: Request) {
+  let requestParent: FollowUpContext | undefined;
   const started = Date.now(), requestId = randomUUID();
   const headers: Record<string, string> = { "Cache-Control": "no-store", "X-Ask-Request-Id": requestId };
   // Fixed codes and numbers only (lib/ask/diagnostics.ts). No question, prompt or source text.
@@ -39,16 +43,29 @@ export async function POST(request: Request) {
   // Stop and status never start research, so they never use a visitor's request allowance and are
   // never refused because the site is busy. They still require the owner's session below.
   const control = body.continue_token !== undefined && (body.action === "stop" || body.action === "status");
+  const identity = privateResearchOwner(request.headers.get("cookie"));
+  // The browser identity is set on every Ask response, so the question limits can follow a browser.
+  headers["Set-Cookie"] = identity.cookie + (new URL(request.url).protocol === "https:" ? "; Secure" : "");
+  // Thanks inside a chat is answered by code and costs nothing: it uses no limit place (Mo, 2026-11-12).
+  const chatHistory = body.continue_token === undefined ? parseUserHistory(body.previous_user_messages) : null;
+  if (!control && typeof body.question === "string" && chatHistory?.length && socialMessage(body.question)) return reply("social");
   if (!control) {
     const slot = takeSlot(visitorKey(request.headers.get("x-forwarded-for")));
     if (slot !== "ok") return reply("rate_limited", 429);
   }
+  // Daily and weekly limits count each new question. Stop, status, Continue and a replay of an
+  // approved answer are not new questions. A limit that cannot be checked refuses new paid work.
+  if (!control && body.continue_token === undefined && body.reuse_only !== true) {
+    const quota = await admitQuestion({ authorization: request.headers.get("authorization"), browserOwner: identity.owner, forwardedFor: request.headers.get("x-forwarded-for") });
+    if (quota.status !== "ok") {
+      log("request", quota.status === "quota_unavailable" ? "quota_unavailable" : `${quota.status}_${quota.scope}`, Date.now() - started);
+      return NextResponse.json(quota, { status: quota.status === "quota_unavailable" ? 503 : 429, headers });
+    }
+  }
   const stable = body.stream_version === 3;
   const progressive = stable || body.stream_version === 2;
-  const identity = privateResearchOwner(request.headers.get("cookie"));
   const simple = stable && askSimplePipeline();
   if (simple) headers["X-Ask-Pipeline"] = "simple-v1";
-  if (simple) headers["Set-Cookie"] = identity.cookie + (new URL(request.url).protocol === "https:" ? "; Secure" : "");
   let session: ContinuationSession | undefined, token: string | undefined;
   if (body.continue_token !== undefined) {
     if (!progressive || typeof body.continue_token !== "string") return reply("bad_request", 400);
@@ -78,9 +95,13 @@ export async function POST(request: Request) {
     if (typeof body.question !== "string" || !body.question.trim()) return reply("bad_request", 400);
     if (body.question.length > 500) return reply("too_long", 413);
     const history = parseUserHistory(body.previous_user_messages); if (!history) return reply("bad_request", 400);
+    const verified = verifyParentReference(body.parent, body.lang === "ar" ? "ar" : "en");
+    if (verified.parentUnavailable) log("frame", FOLLOW_UP_DIAGNOSTICS.parentUnavailable, Date.now() - started);
+    requestParent = body.parent !== undefined ? { message: body.question.trim(), history, language: body.lang === "ar" ? "ar" : "en", ...verified } : undefined;
     if (progressive) try {
-      const created = simple ? privateResearch(identity.owner, body.question.trim(), body.lang, history)
+      const created = simple ? privateResearch(identity.owner, body.question.trim(), body.lang, history, undefined, requestParent)
         : createContinuationSession(body.question.trim(), body.lang, history, undefined, stable ? 3 : 2);
+      if (requestParent) created.session.followUpContext = requestParent;
       token = created.token;
       // A reuse request only replays an approved answer after rechecking its sources. It never starts or resumes paid research.
       if (body.reuse_only === true && !("mode" in created && created.mode === "approved")) return reply("research_expired", 409);
@@ -118,7 +139,7 @@ export async function POST(request: Request) {
       if (progressive && group) delivered = delivered.filter(s => s.group !== group && s.group !== "summary"); else { delivered = []; withdrawn = true; }
       callbacks.onWithdraw?.(group);
     },
-  }, signal, ...(session ? { checkpoint: session.checkpoint } : {}) }));
+  }, signal, ...((session?.followUpContext ?? requestParent) ? { followUpContext: session?.followUpContext ?? requestParent } : {}), ...(session ? { checkpoint: session.checkpoint } : {}) }));
   const execute = (callbacks: RichCallbacks) => stable ? withResearchRuntime(localAskUnhurried() ? Infinity : CONTINUATION_LIMITS.runMs, () => executeWork(callbacks)) : executeWork(callbacks);
   const run = (callbacks: RichCallbacks) => withAskRequest(requestId, () => withSlot(async () => {
     try {

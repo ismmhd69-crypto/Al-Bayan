@@ -12,7 +12,10 @@ export type ProgressiveLaneCheckpoint = {
 };
 /** Trusted server memory only. Never accept this structure from a request body. */
 export type ProgressiveCheckpoint = {
+  conversational?: import("./follow-up").ConversationMode;
   simple?: { version: 1; candidates?: PassageForSelection[]; pack?: EvidencePackage; recoveryUsed: boolean; reassessmentUsed?: boolean;
+    /** The candidates are the parent answer's reloaded sources, not a search result. */
+    explain?: boolean;
     /** A reassessment dispatched but not yet returned: resumed with the same reason for the same candidates. */
     pendingReassessment?: { reason: string; candidates: string };
     /** Source families whose search failed in the run that built the saved candidate list. */
@@ -24,6 +27,7 @@ export type ProgressiveCheckpoint = {
     } };
     approved?: { answer: import("./rich-answer").RichAnswer; fingerprint: string }; terminalNegative?: boolean };
   frame?: QuestionFrame;
+  taskContext?: import("./task-context").AskTaskContext;
   lanes: Partial<Record<ProgressiveGroup, ProgressiveLaneCheckpoint>>;
   meaningApprovals: Set<string>;
   combined?: { candidatesHash: string; candidateSnapshots?: string[]; pack: EvidencePackage };

@@ -9,7 +9,7 @@ import { getHadith, searchHadithMulti, warmHadithCatalogues } from "@/lib/source
 import { findLibraryHadithByReference, getLibraryHadith, searchLibraryHadith } from "@/lib/sources/hadith-library";
 import { resolveLibraryHadithHint } from "./hadith-hints";
 import { hadithMode } from "@/lib/sources/hadith-mode";
-import { searchScholarQuotes } from "@/lib/sources/scholars";
+import { searchScholarQuotes, getStoredScholarQuote } from "@/lib/sources/scholars";
 import { getMappedScholarQuote, searchScholarsLive } from "@/lib/sources/scholars-live";
 import type { ScholarQuote } from "@/lib/sources/scholar-rules";
 import { searchVideos } from "@/lib/sources/videos";
@@ -104,7 +104,7 @@ export async function askPreparedOnly(question: string, observe?: (provider: Ret
   return answer ? { status: "answer", answer } : null;
 }
 
-export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = [], options?: { rich?: RichCallbacks; signal?: AbortSignal; disableReferenceHints?: boolean; checkpoint?: import("./progressive-checkpoint").ProgressiveCheckpoint }): Promise<AskResult> {
+export async function ask(question: string, uiLanguage: Locale, trace?: Pick<PipelineDeps, "onFrame" | "onRetrieved" | "onCandidates" | "onSelection" | "onCoverage">, previousUserMessages: string[] = [], options?: { followUpContext?: import("./follow-up").FollowUpContext; rich?: RichCallbacks; signal?: AbortSignal; disableReferenceHints?: boolean; checkpoint?: import("./progressive-checkpoint").ProgressiveCheckpoint }): Promise<AskResult> {
   const requestStarted = currentAskStarted() ?? Date.now();
   const debug = process.env.ASK_DEBUG === "true" || localAskTraceEnabled();
   const libraryFlow = !!options?.rich || askLibraryFlow(), claimAudit = askClaimAudit(), tiered = !!options?.rich || askTiered();
@@ -131,7 +131,7 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
     } } : provider;
     return debug ? observedProvider(bounded, role, onDiagnostic, requestStarted, () => `A${++calls}`) : bounded;
   };
-  const skipPrepared = askSimplePipeline() || !!trace || !!options?.checkpoint?.frame || !!(libraryFlow && previousUserMessages.length);
+  const skipPrepared = !!options?.followUpContext || askSimplePipeline() || !!trace || !!options?.checkpoint?.frame || !!(libraryFlow && previousUserMessages.length);
   onDiagnostic("prepared", "reuse_started", Date.now() - requestStarted, { skipped: skipPrepared, prepared_enabled: process.env.PREPARED_PUBLISHING_ENABLED === "true" && process.env.PREPARED_ANSWERS !== "off", approved_topics_enabled: process.env.ASK_APPROVED_TOPICS !== "false" });
   const prepared = skipPrepared ? null : await askPreparedOnly(question, (provider) => observe(provider, "checker"));
   onDiagnostic("prepared", "reuse_finished", Date.now() - requestStarted, { outcome: skipPrepared ? "skipped" : prepared ? "matched" : "miss" });
@@ -232,7 +232,9 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
       ...(options?.rich ? { displayTranslationLookup: lookupDisplayTranslations } : {}),
       claimAudit,
       libraryFlow,
+      recordCheckedPassages: !!options?.rich,
       previousUserMessages,
+      ...(options?.followUpContext ? { followUpContext: options.followUpContext } : {}),
       ...(process.env.ASK_LEAN === "true" ? { candidateLimits: { ...LEAN_CANDIDATE_LIMITS } } : {}),
       // ASK_TIERED=true: Quran, then hadith, then fatwas, then videos (read per question so it can be switched).
       ...(tiered ? { tiered: { videoBudgetMs: askVideoBudgetMs(), maxVideos: askMaxVideos() } } : {}),
@@ -241,6 +243,9 @@ export async function ask(question: string, uiLanguage: Locale, trace?: Pick<Pip
         onDiagnostic("retrieval", `quran_partial_${outcome}`, Date.now() - requestStarted);
       }) : searchQuran,
       getVerse,
+      // Follow-up replies reload the chat's own sources by ID; each loader re-runs its eligibility gates.
+      ...(HADITH_MODE === "library" ? { getStoredHadith: getLibraryHadith } : {}),
+      ...(SCHOLARS_ON ? { getStoredScholar: getStoredScholarQuote } : {}),
       neighbours,
       // Hadith from Sahih al-Bukhari / Sahih Muslim via HadeethEnc (permission requested 2026-09-28).
       // Off unless HADITH_SOURCE=hadeethenc, so it can be switched off instantly.

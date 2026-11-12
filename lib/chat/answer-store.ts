@@ -13,6 +13,10 @@ export type SavedAnswer = AnswerV2 | RichAnswer;
 export function stripAnswer<T extends SavedAnswer>(answer: T): T {
   const copy = structuredClone(answer);
   if ((copy.version === 3 || copy.version === 4)) {
+    // The signed parent reference is kept: it holds hashes only, no text. Reopening the chat renews it
+    // on the server after its signature and the current sources are checked (lib/chat/hydrate.ts).
+    if (typeof copy.parentReference !== "string" || copy.parentReference.length > 8192) delete copy.parentReference;
+    if (copy.checkedHashes && !Object.keys(copy.checkedHashes).length) delete copy.checkedHashes;
     for (const section of copy.sections) for (const source of section.sources) {
       const e = source.evidence;
       if (e.kind === "scholar") continue;

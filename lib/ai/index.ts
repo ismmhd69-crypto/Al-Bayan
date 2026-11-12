@@ -2,6 +2,7 @@ import "server-only";
 import { emitAiTrace } from "@/lib/ask/trace-context";
 import type { AIProvider } from "./types";
 import { createGemini, GoogleBusyError } from "./gemini";
+import { guardedTransport } from "./transport";
 import { createNvidia } from "./nvidia";
 import { createOpenRouter } from "./openrouter";
 
@@ -84,14 +85,17 @@ function withBackup(main: AIProvider, backup: AIProvider): AIProvider {
   return {
     id: main.id,
     async generateJson(request) {
-      if (request.malformedResponseRetry) {
+      // A research session's spending guard refuses every door except priced Vertex models, so a switch
+      // there would only turn "Google is busy" into a false "spending limit" (seen live 2026-11-12).
+      const switchAllowed = !guardedTransport();
+      if (request.malformedResponseRetry && switchAllowed) {
         emitAiTrace("fallback_selected", { model: backup.id, fallback: true });
         return backup.generateJson(request);
       }
       try {
         return await main.generateJson(request);
       } catch (err) {
-        if (!(err instanceof GoogleBusyError) || request.signal?.aborted) throw err;
+        if (!(err instanceof GoogleBusyError) || request.signal?.aborted || !switchAllowed) throw err;
         if (process.env.ASK_DEBUG === "true") console.info(`${main.id} busy, using ${backup.id}`);
         emitAiTrace("fallback_selected", { model: backup.id, fallback: true });
         return backup.generateJson(request);
@@ -186,7 +190,8 @@ const LARGE_STEP_OUTPUT_TOKENS = 4000;
 function withVerifierThinking(verifier: AIProvider): AIProvider {
   const thinkingLevel = process.env.AI_VERIFIER_THINKING_LEVEL?.trim();
   if (!thinkingLevel) return verifier;
-  return { ...verifier, generateJson: (request) => verifier.generateJson((request.maxOutputTokens ?? 0) >= LARGE_STEP_OUTPUT_TOKENS ? { ...request, thinkingLevel } : request) };
+  // A level the caller chose (the "minimal" checker retry) is kept, never overwritten (Codex review, 2026-11-12).
+  return { ...verifier, generateJson: (request) => verifier.generateJson(!request.thinkingLevel && (request.maxOutputTokens ?? 0) >= LARGE_STEP_OUTPUT_TOKENS ? { ...request, thinkingLevel } : request) };
 }
 
 export function getVerifier(): AIProvider {

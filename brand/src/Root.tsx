@@ -48,6 +48,12 @@ import { NearMotion, calculateNearMetadata } from "./NearMotion";
 import { nearMotionTr } from "./hadith/near-motion";
 import { EasyMotion, calculateEasyMetadata } from "./EasyMotion";
 import { easyMotionTr } from "./hadith/easy-motion";
+import { CheerfulFaceMotion, calculateCheerfulFaceMetadata } from "./CheerfulFaceMotion";
+import { cheerfulFaceMotion } from "./hadith/cheerful-face-motion";
+import { SecretDuaMotion, calculateSecretDuaMetadata } from "./SecretDuaMotion";
+import { secretDuaMotion } from "./hadith/secret-dua-motion";
+import { SmallDeedsMotion, calculateSmallDeedsMetadata } from "./SmallDeedsMotion";
+import { smallDeedsMotion } from "./hadith/small-deeds-motion";
 import { dark, light, transparentDark, transparentLight } from "./theme";
 
 export const RemotionRoot: React.FC = () => {
@@ -103,6 +109,9 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="ThreeDeedsMotionTR" component={ThreeDeedsMotion} calculateMetadata={calculateThreeDeedsMetadata} durationInFrames={1800} fps={30} width={1080} height={1920} defaultProps={threeDeedsMotionTr} />
         <Composition id="NearMotionTR" component={NearMotion} calculateMetadata={calculateNearMetadata} durationInFrames={1800} fps={30} width={1080} height={1920} defaultProps={nearMotionTr} />
         <Composition id="EasyMotionTR" component={EasyMotion} calculateMetadata={calculateEasyMetadata} durationInFrames={1800} fps={30} width={1080} height={1920} defaultProps={easyMotionTr} />
+        <Composition id="CheerfulFaceMotion" component={CheerfulFaceMotion} calculateMetadata={calculateCheerfulFaceMetadata} durationInFrames={1800} fps={30} width={1080} height={1920} defaultProps={cheerfulFaceMotion} />
+        <Composition id="SecretDuaMotion" component={SecretDuaMotion} calculateMetadata={calculateSecretDuaMetadata} durationInFrames={1800} fps={30} width={1080} height={1920} defaultProps={secretDuaMotion} />
+        <Composition id="SmallDeedsMotion" component={SmallDeedsMotion} calculateMetadata={calculateSmallDeedsMetadata} durationInFrames={1800} fps={30} width={1080} height={1920} defaultProps={smallDeedsMotion} />
       </Folder>
       <Folder name="Covers">
         {/* One cover per reel. Key content stays inside the 3:4 grid crop (y 240 to 1680). */}
@@ -130,6 +139,9 @@ export const RemotionRoot: React.FC = () => {
         <Still id="Cover-19-UcAmel" component={ReelCover} width={1080} height={1920} defaultProps={{ title: "ÜÇ AMEL", titleSize: 170, arabicTitle: "إِلاَّ مِنْ ثَلاَثَةٍ", source: "Sahih Müslim 1631", art: "three" as const }} />
         <Still id="Cover-20-CennetYakin" component={ReelCover} width={1080} height={1920} defaultProps={{ title: "CENNET YAKIN", titleSize: 130, arabicTitle: "الْجَنَّةُ أَقْرَبُ إِلَى أَحَدِكُمْ مِنْ شِرَاكِ نَعْلِهِ", source: "Sahih Buhârî 6488", art: "near" as const }} />
         <Still id="Cover-21-DinKolayliktir" component={ReelCover} width={1080} height={1920} defaultProps={{ title: "DİN KOLAYLIKTIR", titleSize: 104, arabicTitle: "إِنَّ الدِّينَ يُسْرٌ", source: "Sahih Buhârî 39", art: "easy" as const }} />
+        <Still id="Cover-22-CheerfulFace" component={ReelCover} width={1080} height={1920} defaultProps={{ title: "A CHEERFUL FACE", titleSize: 108, arabicTitle: "بِوَجْهٍ طَلِيقٍ", source: "Sahih Muslim 2626", art: "cheerful" as const }} />
+        <Still id="Cover-23-SecretDua" component={ReelCover} width={1080} height={1920} defaultProps={{ title: "SECRET PRAYER", titleSize: 120, arabicTitle: "بِظَهْرِ الْغَيْبِ", source: "Sahih Muslim 2733", art: "secretdua" as const }} />
+        <Still id="Cover-24-SmallDeeds" component={ReelCover} width={1080} height={1920} defaultProps={{ title: "SMALL DEEDS", titleSize: 130, arabicTitle: "أَدْوَمُهَا وَإِنْ قَلَّ", source: "Sahih al-Bukhari 6464", art: "smalldeeds" as const }} />
       </Folder>
       <Folder name="Dev">
         <Still id="PuppetSheet" component={PuppetSheet} width={2400} height={1500} />

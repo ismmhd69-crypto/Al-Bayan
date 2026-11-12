@@ -9,15 +9,19 @@ export function checkedWording(s: string) {
     || /\p{N}/u.test(chars[i - 1] ?? "") || /\p{N}/u.test(chars[i + 1] ?? "")).join(""));
 }
 export type CitationFailure = { claim_id: string; code: string; rejected_text: string; allowed_source_ids: string[]; clause?: string; source_id?: string; checked_wording?: string };
-export function checkCitationBindings(raw: unknown, items: Claim[], originals: { id: string; arabic: string }[]) {
+/** removable: the caller may allow an extra citation to be removed from a sentence whose every clause is
+ * already proven from its other cited originals (Mo, 2026-11-12: one unproven extra link was deleting whole
+ * proven sentences). It is asked only for a sentence with no other failure, and receives the citations that
+ * carried proof. Nothing is changed here: the caller applies `removed`. Without it, behaviour is unchanged. */
+export function checkCitationBindings(raw: unknown, items: Claim[], originals: { id: string; arabic: string }[], removable?: (index: number, proven: string[]) => boolean) {
   const ids = items.map((_, i) => `C${i + 1}`), rows = (raw as any)?.citation_checks;
-  const failures: CitationFailure[] = [];
+  const failures: CitationFailure[] = [], removed: { index: number; refs: string[] }[] = [];
   const fail = (i: number, code: string, details: Partial<CitationFailure> = {}) => failures.push({ claim_id: ids[i], code,
     rejected_text: items[i].text, allowed_source_ids: [...items[i].refs], ...details });
   if (!Array.isArray(rows) || rows.length !== ids.length || new Set(rows.map(r => r?.claim_id)).size !== ids.length
     || rows.some(r => !ids.includes(r?.claim_id))) {
     items.forEach((_, i) => fail(i, "citation_audit_invalid"));
-    return { blocked: ids, reasons: ["citation_audit_invalid"], failures };
+    return { blocked: ids, reasons: ["citation_audit_invalid"], failures, removed };
   }
   items.forEach((item, i) => {
     const row = rows.find(r => r.claim_id === ids[i]), clauses = row.clauses;
@@ -40,7 +44,9 @@ export function checkCitationBindings(raw: unknown, items: Claim[], originals: {
         used.add(source.id);
       }
     }
-    item.refs.filter(id => !used.has(id)).forEach(source_id => fail(i, "attached_citation_unexplained", { source_id }));
+    const unexplained = item.refs.filter(id => !used.has(id)), proven = item.refs.filter(id => used.has(id));
+    if (unexplained.length && proven.length && !failures.some(f => f.claim_id === ids[i]) && removable?.(i, proven)) removed.push({ index: i, refs: proven });
+    else unexplained.forEach(source_id => fail(i, "attached_citation_unexplained", { source_id }));
   });
-  return { blocked: [...new Set(failures.map(f => f.claim_id))], reasons: failures.length ? ["cited_clause_not_established"] : [], failures };
+  return { blocked: [...new Set(failures.map(f => f.claim_id))], reasons: failures.length ? ["cited_clause_not_established"] : [], failures, removed };
 }

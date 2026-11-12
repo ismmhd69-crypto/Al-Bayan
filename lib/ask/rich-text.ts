@@ -2,6 +2,16 @@ import type { Locale } from "@/lib/i18n";
 
 export const richText = {
   en: {
+    sourceUpdated: "This source has been updated since this answer.",
+    social: "You’re welcome. Ask a follow-up or a new question whenever you like.",
+    quotaDaily: "You’ve reached today’s limit of {limit} questions. You can ask again tomorrow.",
+    quotaWeekly: "You’ve reached this week’s limit of {limit} questions. You can ask again on {date}.",
+    quotaNetwork: "Many questions have come from this network today, so it has reached its limit of {limit}. You can ask again tomorrow.",
+    quotaUnavailable: "Bayan can’t check the question limits right now, so it can’t start a new answer. Please try again in a few minutes.",
+    followUpFailed: "I couldn’t put this into other words reliably. The answer and its sources above still stand. You can ask it another way.",
+    followUpNotFound: "I couldn’t find a checked source that answers this specific point. What was said above still stands. You can ask it another way, or ask a qualified scholar you trust.",
+    followUpStopped: "This reply was stopped before it finished.",
+    newSources: "New sources for this reply",
     checkReceipt: "Check again",
     continuationNotice: "The answer is unfinished. Continue from the checked work above.",
     continuationIssues: { expired: "This attempt can no longer continue. Any checked explanations remain above. You can start a new question.", busy: "This attempt is still running. Please wait.", limit: "This attempt could not finish. Any checked explanations remain above.", billing_uncertain: "This attempt paused before the answer was ready. Check whether it can continue.", cancelled: "This attempt was stopped." },
@@ -38,6 +48,7 @@ export const richText = {
       "The answer is ready, but saving the chat failed. Resume can retry saving without generating another answer.",
     scopeNotice:
       "General information from the sources shown. Individual circumstances may need separate advice.",
+    aiTitle: "AI-translated title",
     aiTranslation:
       "AI display translation, automatically checked against this excerpt",
     humanTranslation:
@@ -88,6 +99,8 @@ export const richText = {
       retrying_selection: "There was a problem selecting sources. We’re checking them again…",
       correcting_summary: "Revising Bayan's conclusion...",
       understanding: "Understanding your question…",
+      follow_up_search: "Checking more sources…",
+      follow_up_explain: "Thinking about how to put this…",
       searching: "Looking for relevant passages in the Quran, Sunnah and approved scholars’ explanations…",
       checking_evidence: "Checking evidence and context…",
       writing_quran: "Preparing the explanations…",
@@ -117,6 +130,16 @@ export const richText = {
     next: "Ask a specific follow-up about the evidence or how it applies to your question. Personal circumstances may need a qualified scholar.",
   },
   ar: {
+    sourceUpdated: "تم تحديث هذا المصدر منذ تقديم هذه الإجابة.",
+    social: "على الرحب والسعة. يمكنك طرح سؤال متابعة أو سؤال جديد متى شئت.",
+    quotaDaily: "وصلت إلى حد اليوم وهو {limit} سؤالًا. يمكنك السؤال مجددًا غدًا.",
+    quotaWeekly: "وصلت إلى حد هذا الأسبوع وهو {limit} سؤال. يمكنك السؤال مجددًا يوم {date}.",
+    quotaNetwork: "وصلت أسئلة كثيرة اليوم من هذه الشبكة، فبلغت حدها وهو {limit} سؤالًا. يمكنك السؤال مجددًا غدًا.",
+    quotaUnavailable: "لا يستطيع بيان التحقق من حدود الأسئلة الآن، لذا لا يمكنه بدء إجابة جديدة. حاول مرة أخرى بعد دقائق.",
+    followUpFailed: "لم أتمكن من إعادة صياغة هذا بصورة موثوقة. الإجابة ومصادرها أعلاه باقية كما هي، ويمكنك طرح السؤال بطريقة أخرى.",
+    followUpNotFound: "لم أجد مصدرًا موثّقًا يجيب عن هذه النقطة تحديدًا. ما ذُكر أعلاه باقٍ كما هو، ويمكنك طرح السؤال بطريقة أخرى أو سؤال عالم مؤهل تثق به.",
+    followUpStopped: "توقّف هذا الرد قبل اكتماله.",
+    newSources: "مصادر جديدة لهذا الرد",
     checkReceipt: "التحقّق مجددًا",
     continuationNotice: "لم تكتمل الإجابة. يمكنك متابعة العمل انطلاقًا مما اجتاز التحقق أعلاه.",
     continuationIssues: { expired: "لم تعد متابعة هذه المحاولة متاحة. تبقى الشروح التي اجتازت التحقق أعلاه، ويمكنك بدء سؤال جديد.", busy: "ما زالت هذه المحاولة جارية. يُرجى الانتظار.", limit: "لم تتمكن هذه المحاولة من إكمال الإجابة. تبقى الشروح التي اجتازت التحقق أعلاه.", billing_uncertain: "توقفت هذه المحاولة قبل اكتمال الإجابة. تحقّق من إمكانية المتابعة.", cancelled: "أُوقفت هذه المحاولة." },
@@ -153,6 +176,7 @@ export const richText = {
       "الإجابة جاهزة، لكن تعذّر حفظ المحادثة. يمكنك استئنافها لإعادة محاولة الحفظ دون إنشاء إجابة أخرى.",
     scopeNotice:
       "معلومات عامة من المصادر المعروضة. وقد تحتاج الظروف الفردية إلى توجيه خاص.",
+    aiTitle: "عنوان مترجم آليًا",
     aiTranslation: "ترجمة آلية للعرض، خضعت لفحص آلي بمقارنتها بهذا المقتطف",
     humanTranslation: "ترجمة بشرية خضعت لفحص آلي بمقارنتها بهذا المقتطف",
     humanReviewedTranslation: "ترجمة راجعها إنسان",
@@ -196,6 +220,8 @@ export const richText = {
       retrying_selection: "حدثت مشكلة أثناء اختيار المصادر، نتحقق منها مرة أخرى…",
       correcting_summary: "نراجع صياغة خلاصة بيان…",
       understanding: "نفهم سؤالك…",
+      follow_up_search: "نتحقق من مصادر إضافية…",
+      follow_up_explain: "نفكّر في صياغة أوضح…",
       searching: "نبحث عن النصوص المرتبطة بسؤالك في القرآن والسنة وشروح العلماء المعتمدين…",
       checking_evidence: "نتحقق من الأدلة وسياقها…",
       writing_quran: "نُعِدّ الشروح…",
@@ -223,6 +249,16 @@ export const richText = {
     next: "اسأل سؤال متابعة محددًا عن الدليل أو صلته بسؤالك. وقد تحتاج ظروفك الشخصية إلى سؤال عالم مؤهل.",
   },
   de: {
+    sourceUpdated: "This source has been updated since this answer.",
+    social: "You’re welcome. Ask a follow-up or a new question whenever you like.",
+    quotaDaily: "You’ve reached today’s limit of {limit} questions. You can ask again tomorrow.",
+    quotaWeekly: "You’ve reached this week’s limit of {limit} questions. You can ask again on {date}.",
+    quotaNetwork: "Many questions have come from this network today, so it has reached its limit of {limit}. You can ask again tomorrow.",
+    quotaUnavailable: "Bayan can’t check the question limits right now, so it can’t start a new answer. Please try again in a few minutes.",
+    followUpFailed: "I couldn’t put this into other words reliably. The answer and its sources above still stand. You can ask it another way.",
+    followUpNotFound: "I couldn’t find a checked source that answers this specific point. What was said above still stands. You can ask it another way, or ask a qualified scholar you trust.",
+    followUpStopped: "This reply was stopped before it finished.",
+    newSources: "New sources for this reply",
     checkReceipt: "Prüfen, ob die Recherche fortgesetzt werden kann",
     continuationNotice: "Geprüfte Abschnitte bleiben erhalten. Fortsetzen bearbeitet offene Schritte mit begrenztem Budget. Diese Möglichkeit läuft nach 20 Minuten ab und kann entfallen, wenn die Verbindung nicht wiederhergestellt werden kann.",
     continuationIssues: { expired: "Diese Recherche kann nicht mehr fortgesetzt werden. Geprüfte Abschnitte bleiben sichtbar. Du kannst eine neue Frage beginnen.", busy: "Diese Recherche läuft noch. Es wurde keine zusätzliche Arbeit gestartet.", limit: "Das Recherchelimit wurde erreicht. Geprüfte Abschnitte bleiben erhalten; es wurde keine weitere Arbeit gestartet.", billing_uncertain: "Die Recherche kann erst fortgesetzt werden, wenn eine frühere Serviceanfrage abgerechnet ist. Geprüfte Abschnitte bleiben erhalten; es wurde keine neue kostenpflichtige Anfrage gesendet.", cancelled: "Diese Recherche wurde gestoppt. Es wurde keine weitere Arbeit gestartet." },
@@ -259,6 +295,7 @@ export const richText = {
       "Die Antwort ist fertig, aber der Chat konnte nicht gespeichert werden. Mit Fortsetzen kannst du das Speichern erneut versuchen, ohne eine weitere Antwort zu erzeugen.",
     scopeNotice:
       "Allgemeine Informationen aus den gezeigten Quellen. Einzelne Umstände können gesonderte Beratung erfordern.",
+    aiTitle: "AI-translated title",
     aiTranslation:
       "KI-Übersetzung zur Anzeige, automatisch mit diesem Auszug abgeglichen",
     humanTranslation:
@@ -310,6 +347,8 @@ export const richText = {
       retrying_selection: "Die Quellen werden erneut geprüft…",
       correcting_summary: "Die Zusammenfassung wird geprüft…",
       understanding: "Deine Frage wird eingeordnet…",
+      follow_up_search: "Checking more sources…",
+      follow_up_explain: "Thinking about how to put this…",
       searching: "Die Quellen werden durchsucht…",
       checking_evidence: "Belege und Zusammenhang werden geprüft…",
       writing_quran: "Die Erklärungen werden vorbereitet…",

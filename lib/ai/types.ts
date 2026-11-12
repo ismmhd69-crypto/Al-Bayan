@@ -13,6 +13,8 @@ export type JsonRequest = {
   prompt: string;
   schema: JsonSchema;
   maxOutputTokens?: number;
+  /** A hard ceiling no provider may raise, so a runaway step stops early (the checker overthinking, 2026-11-12). */
+  hardOutputCap?: boolean;
   /** How much the model may "think" before answering; thinking uses up the output budget. */
   thinking?: "minimal" | "low";
   /** Set only by the verifier chain (AI_VERIFIER_THINKING_LEVEL) on its large steps; Gemini only. */

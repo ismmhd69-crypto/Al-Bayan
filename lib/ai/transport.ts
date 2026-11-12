@@ -19,6 +19,10 @@ export function withModelTransport<T>(dispatch: ModelTransport, work: () => T): 
   return transport.run(dispatch, work);
 }
 
+/** True inside a research session with its spending guard. That guard only allows priced Vertex models,
+ * so switching to another door would always be refused (seen live 2026-11-12) and must not be tried. */
+export const guardedTransport = () => transport.getStore() !== undefined;
+
 export function modelFetch(url: string, init: RequestInit): Promise<Response> {
   // Resolve fetch at call time so the existing experiment spending guard still applies.
   return (transport.getStore() ?? ((target, options) => fetch(target, options)))(url, init);

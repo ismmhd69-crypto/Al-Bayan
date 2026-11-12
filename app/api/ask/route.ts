@@ -12,6 +12,8 @@ import { sameOrigin } from "@/lib/same-origin";
 import { attachScholarTranslations } from "@/lib/ask/display-translations";
 import { MAX_ASK_BODY_BYTES, parseUserHistory } from "@/lib/ask/conversation";
 import { getDictionary } from "@/lib/i18n";
+import { admitQuestion } from "@/lib/ask/quota";
+import { privateResearchOwner } from "@/lib/ask/private-research";
 
 // Privacy (plan section 10): the question text is never logged, stored or put in a URL.
 // Errors are logged without the question.
@@ -61,6 +63,11 @@ export async function POST(request: Request) {
   if (question.length > MAX_QUESTION) return reply("too_long", 413);
   const history = parseUserHistory(previous_user_messages);
   if (history === null) return reply("bad_request", 400);
+  // The same daily and weekly limits as the main Ask route, so this older door is not a way around them.
+  const owner = privateResearchOwner(request.headers.get("cookie"));
+  const quotaHeaders = { ...headers, "Set-Cookie": owner.cookie + (new URL(request.url).protocol === "https:" ? "; Secure" : "") };
+  const quota = await admitQuestion({ authorization: request.headers.get("authorization"), browserOwner: owner.owner, forwardedFor: request.headers.get("x-forwarded-for") });
+  if (quota.status !== "ok") return NextResponse.json(quota, { status: quota.status === "quota_unavailable" ? 503 : 429, headers: quotaHeaders });
 
   try {
     log("request", "request_validated", Date.now() - started, { question_chars: question.trim().length, history_count: history.length, language: lang });

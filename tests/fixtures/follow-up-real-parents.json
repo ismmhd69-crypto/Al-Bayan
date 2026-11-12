@@ -1,0 +1,39 @@
+[
+  {
+    "displayed_sentences": [
+      "Islam is defined as the outward submission to Allah through testifying that there is no god but Allah and that Muhammad is His messenger, establishing prayer, paying zakat, fasting during Ramadan, and performing Hajj if one is able."
+    ],
+    "sources": [
+      {
+        "id": "SHf0ae7b91-9647-48d6-8458-080aa4e451fd",
+        "label": "SHf0ae7b91-9647-48d6-8458-080aa4e451fd",
+        "kind": "hadith"
+      },
+      {
+        "id": "Sedf01f9e-3300-4734-8a29-2d372701b52a",
+        "label": "Shaykh Muhammad ibn Salih al-Uthaymeen",
+        "kind": "scholar"
+      }
+    ],
+    "provenance": {
+      "trace": "7b3ef580-c633-4703-9d8a-14f56f7c876f",
+      "note": "Exact summary sentence from terminal rich_answer in a saved real answer; used as untrusted task context only, not newly verified evidence."
+    }
+  },
+  {
+    "displayed_sentences": [
+      "Shaykh Abdul-Aziz ibn Baz emphasizes that every instance of sincere, honest repentance erases the specific sin that preceded it, meaning one is not held accountable for previously repented actions even if the sin is later repeated."
+    ],
+    "sources": [
+      {
+        "id": "Sab4c7a29-3803-482d-a752-d535a985d112",
+        "label": "Shaykh Abdul-Aziz ibn Baz",
+        "kind": "scholar"
+      }
+    ],
+    "provenance": {
+      "trace": "90a4262e-a6b0-4f4e-946f-0b59a8ef3701",
+      "note": "Exact summary sentence from terminal rich_answer in a saved real answer; used as untrusted task context only, not newly verified evidence."
+    }
+  }
+]

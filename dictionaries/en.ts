@@ -50,7 +50,7 @@ const en = {
     title: "Ask",
     notice:
       "This AI answers only from trusted sources (Quran, authentic hadith and approved scholars), not from its own knowledge. Every answer shows its sources.",
-    placeholder: "Ask your question...",
+    placeholder: "Ask a follow-up or a new question…",
     send: "Send",
     emptyTitle: "What would you like to know?",
     emptySub: "Ask in Arabic, English or German.",
@@ -255,6 +255,7 @@ const en = {
       "Your progress in New to Islam stays on your own device. Your chosen language is kept in a small cookie so the site opens in it next time.",
       "When automatic answers are on, everything you type in your question is sent to our AI provider, currently Google Gemini, to write the answer. Please do not include your name, address, health details or anything else that identifies you or others. Details will be in the full policy.",
       "Our database is hosted in Frankfurt, Germany.",
+      "To keep Ask fair and affordable, each person can ask up to 25 questions a day and 100 a week. To count them, we keep how many questions were asked each day, linked to a code made from a small cookie in your browser (or your account if you are signed in) and from your network. The code cannot be turned back into your address or identity. The counts are deleted after 8 days.",
       "If you sign in with Google, Google tells us your name and email address so we can create your account. Bayan never sees your Google password, and you can delete your account at any time.",
       "Answers and lessons you save stay on your own device. If you are signed in, they are kept in your account instead, so you can see them on other devices. Quran and hadith text is never stored with them; it is loaded fresh when you open a saved answer.",
     ],

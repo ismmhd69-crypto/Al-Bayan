@@ -1,5 +1,5 @@
-import { randomBytes } from "node:crypto";
 import { researchOwners } from "./search-engine/job-owner";
+import { ownerSigningSecret } from "./owner-secret";
 import { createContinuationSession, engineIdentity, readContinuationSession, ResearchSessionStop } from "./continuation-session";
 /** A versioned private record is the question/checkpoint, approval state and its
  * original cumulative dispatch/receipt ledger together, never a separate resettable budget. */
@@ -7,7 +7,8 @@ export type ResearchRecord = import("./continuation-session").ContinuationSessio
 
 import type { Locale } from "@/lib/i18n";
 
-const owners = researchOwners(randomBytes(32).toString("base64"));
+// Stable across server instances and restarts, so a browser keeps one identity for the question limits.
+const owners = researchOwners(ownerSigningSecret());
 export const PRIVATE_RESEARCH_COOKIE = "bayan_ask_session_v1";
 export const normalizedResearchText = (text: string) => text.normalize("NFC").replace(/\s+/gu, " ").trim();
 type RecordIndex = { token: string; owner: string; language: Locale; expires: number; version: 1 };
@@ -16,11 +17,12 @@ const records = new Map<string, RecordIndex>();
 export function privateResearchOwner(cookieHeader: string | null) {
   const existing = cookieHeader?.split(";").map(s => s.trim()).find(s => s.startsWith(`${PRIVATE_RESEARCH_COOKIE}=`))?.slice(PRIVATE_RESEARCH_COOKIE.length + 1);
   const cookie = existing && owners.anonymous(existing) ? existing : owners.mint();
-  return { owner: owners.anonymous(cookie)!, cookie: `${PRIVATE_RESEARCH_COOKIE}=${cookie}; HttpOnly; SameSite=Lax; Path=/` };
+  // 30 days, so the weekly question limit outlives a browser restart. It carries no personal data.
+  return { owner: owners.anonymous(cookie)!, cookie: `${PRIVATE_RESEARCH_COOKIE}=${cookie}; HttpOnly; SameSite=Lax; Path=/; Max-Age=2592000` };
 }
 
 /** Process-local owner-only index. No raw questions or source text in keys/logs. */
-export function privateResearch(owner: string, question: string, language: Locale, history: string[], now = Date.now()) {
+export function privateResearch(owner: string, question: string, language: Locale, history: string[], now = Date.now(), followUpContext?: import("./follow-up").FollowUpContext) {
   for (const [key, record] of records) {
     try {
       const session = readContinuationSession(record.token, record.language, now);
@@ -30,7 +32,7 @@ export function privateResearch(owner: string, question: string, language: Local
     records.delete(key);
   }
   const key = owners.request({ version: 1, owner, question: normalizedResearchText(question), language,
-    history: history.map(normalizedResearchText), policy: engineIdentity() });
+    history: history.map(normalizedResearchText), ...(followUpContext ? { followUpContext } : {}), policy: engineIdentity() });
   const prior = records.get(key);
   if (prior) {
     try {
@@ -44,7 +46,7 @@ export function privateResearch(owner: string, question: string, language: Local
     records.delete(key);
   }
   if (records.size >= 16) throw new ResearchSessionStop("limit");
-  const created = createContinuationSession(question, language, history, now, 3, { owner, simple: true });
+  const created = createContinuationSession(question, language, history, now, 3, { owner, simple: true, ...(followUpContext ? { followUpContext } : {}) });
   records.set(key, { token: created.token, owner, language, expires: now + 20 * 60_000, version: 1 });
   return { ...created, mode: "new" as const };
 }

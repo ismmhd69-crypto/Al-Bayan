@@ -1,3 +1,7 @@
+import { passageRecord } from "@/lib/ask/passage-record";
+import { renewParentReference } from "@/lib/ask/parent-reference";
+import { getStoredScholarQuote } from "@/lib/sources/scholars";
+import { neighbours } from "@/lib/sources/quran";
 import "server-only";
 import { isLocale } from "@/lib/i18n";
 import { toEvidence } from "@/lib/ask/core";
@@ -19,6 +23,8 @@ import type { DisplayTranslation, RichSource } from "@/lib/ask/rich-answer";
 // validator, the answer is not shown (fail closed, like lib/prepared.ts).
 
 export type HydrateDeps = {
+  getScholar?: typeof getStoredScholarQuote;
+  neighbours?: typeof neighbours;
   refreshVideos?: VideoRefresh;
   getVerse: (key: string) => Promise<Verse | undefined>;
   getHadith: (id: string) => Promise<Hadith | null>;
@@ -28,7 +34,7 @@ export type HydrateDeps = {
 };
 export type HydrateResult = { ok: true; answer: SavedAnswer } | { ok: false; reason: string };
 
-const realDeps: HydrateDeps = { getVerse, getHadith, getLibraryHadith, refreshVideos: currentVideos,
+const realDeps: HydrateDeps = { getScholar: id => getStoredScholarQuote(id), neighbours: (...args) => neighbours(...args), getVerse, getHadith, getLibraryHadith, refreshVideos: currentVideos,
   lookupTranslations: (sources, language) => lookupDisplayTranslations(sources, language, AbortSignal.timeout(8000)) };
 const REVIEWS: readonly ReviewLabel[] = ["automatic", "bayan_reviewed", "scholar_reviewed"];
 const VERSE_KEY = /^\d{1,3}:\d{1,3}$/;
@@ -103,13 +109,25 @@ export async function hydrateAnswer(stored: unknown, deps: HydrateDeps = realDep
 async function hydrateRich(stored: unknown, deps: HydrateDeps): Promise<HydrateResult> {
   try {
     const a = structuredClone(stored) as RichAnswer;
+    // Stored text is the visitor's copy, so the stored reference is never trusted as it is.
+    const storedReference: unknown = a.parentReference;
+    delete a.parentReference;
     if (!isLocale(a.language) || !Array.isArray(a.sections) || a.sections.length !== 4) return { ok: false, reason: "shape" };
+    if (a.checkedHashes !== undefined && (!a.checkedHashes || typeof a.checkedHashes !== "object" || Array.isArray(a.checkedHashes))) return { ok: false, reason: "shape" };
+    const checkedHashFor = (id: string) => a.checkedHashes && Object.hasOwn(a.checkedHashes, id) ? a.checkedHashes[id] : undefined;
     const loaded = new Map<string, Promise<ReturnType<typeof toEvidence> | null>>();
     for (const section of a.sections) {
       if (!Array.isArray(section.sources) || section.sources.length > 20) return { ok: false, reason: "shape" };
       for (const source of section.sources) {
         const e = source.evidence;
-        if (e.kind === "scholar") continue;
+        if (e.kind === "scholar") {
+          if (!checkedHashFor(source.id)) continue;
+          if (!loaded.has(source.id)) loaded.set(source.id, (deps.getScholar?.(source.id) ?? Promise.resolve(null)).then(quote => quote ? toEvidence({ kind: "scholar", quote }, a.language) : null));
+          const fresh = await loaded.get(source.id)!;
+          if (!fresh) return { ok: false, reason: "source_unavailable" };
+          source.evidence = fresh;
+          continue;
+        }
         if (!loaded.has(source.id)) {
           let job: Promise<ReturnType<typeof toEvidence> | null>;
           if (e.kind === "quran" && source.id === `Q${e.key}` && VERSE_KEY.test(e.key)) {
@@ -129,15 +147,33 @@ async function hydrateRich(stored: unknown, deps: HydrateDeps): Promise<HydrateR
     // Stored copies replace a hadith translation (which carries the Arabic original) with "not_checked".
     // Look the published translation up again for the exact original just loaded; if it cannot be
     // found, the card shows the Arabic only, as for any hadith without a checked translation.
-    const pending = a.language === "ar" ? [] : a.sections.flatMap((s) => s.sources).filter((s) => s.evidence.kind === "hadith" && s.displayTranslation?.status === "not_checked");
+    const pending = a.language === "ar" ? [] : a.sections.flatMap((s) => s.sources).filter((s) => s.evidence.kind === "hadith" && s.displayTranslation?.status === "not_checked" || !!checkedHashFor(s.id)?.translation);
     if (pending.length) {
       const found = deps.lookupTranslations ? await deps.lookupTranslations(pending, a.language as "en" | "de").catch(() => new Map<string, DisplayTranslation>()) : new Map<string, DisplayTranslation>();
       for (const s of pending) s.displayTranslation = found.get(s.id) ?? { status: "unavailable" };
+    }
+    for (const section of a.sections) for (const source of section.sources) {
+      const checkedHash = checkedHashFor(source.id);
+      if (!checkedHash) continue;
+      const e = source.evidence;
+      const context = e.kind === "quran" && checkedHash.context ? await deps.neighbours?.(e.key, true) : undefined;
+      const current = passageRecord({ id: source.id, kind: e.kind, original: e.arabic,
+        ...(checkedHash.translation && source.displayTranslation?.status === "ready" ? { translation: source.displayTranslation.text } : {}),
+        ...(context ? { context: [...context].filter(v => v.key !== e.key).sort((a, b) => a.key.localeCompare(b.key)).map(v => ({ key: v.key, arabic: v.arabic })) } : {}) });
+      source.sourceUpdated = !current || current.original !== checkedHash.original || current.translation !== checkedHash.translation || current.context !== checkedHash.context;
     }
     if (a.version === 4 && a.videos) {
       const fresh = await refreshRelatedVideos(a.videos, deps.refreshVideos);
       if (fresh) a.videos = fresh; else delete a.videos;
     }
-    return validRichAnswer(a) ? { ok: true, answer: a } : { ok: false, reason: "invalid_rich" };
+    if (!validRichAnswer(a)) return { ok: false, reason: "invalid_rich" };
+    // Continuing a reopened chat: only when every shown source is hash-recorded and unchanged, and the
+    // server's own signature matches these exact sentences. Otherwise follow-ups treat the parent as unavailable.
+    const shown = a.sections.flatMap(s => s.sources);
+    if (storedReference && (a.language === "ar" || a.language === "en") && shown.length && shown.every(s => checkedHashFor(s.id) && s.sourceUpdated === false)) {
+      const renewed = renewParentReference(storedReference, a.sections[3].claims.map(c => c.text), a.language);
+      if (renewed) a.parentReference = renewed;
+    }
+    return { ok: true, answer: a };
   } catch { return { ok: false, reason: "error" }; }
 }

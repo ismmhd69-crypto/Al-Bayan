@@ -89,6 +89,7 @@ export function StableAnswerView({ state, language, text, working, reconnecting,
   const loaderTitle = state.progress === "retrying_selection" ? language === "ar" ? "حدثت مشكلة أثناء اختيار المصادر، نتحقق منها مرة أخرى…" : language === "de" ? "Bei der Auswahl der Quellen gab es ein Problem. Wir prüfen sie erneut…" : "There was a problem selecting sources. We’re checking them again…" : current === "summary" && state.progress === "correcting_summary" ? copy.progress.correcting_summary
     : checking && current === "quran" ? language === "ar" ? "نتحقق من آيات القرآن وسياقها…" : language === "de" ? "Wir prüfen die Koranverse und ihren Zusammenhang…" : "Checking the Quran sources and context…" : ui[current];
   return <div data-research-stage={stage} className={styles.reader}>
+    {state.followUpSearch && working && current !== "summary" && <p role="status">{copy.progress.follow_up_search}</p>}
     <RevealContext.Provider value={{ texts, counts }}>
       <RichAnswerView sections={visible} language={language} text={text} complete={complete} working={!settled} staged guide={complete ? (state.result as { answer?: { guide?: import("@/lib/ask/rich-answer").RichGuide } }).answer?.guide ?? null : null}
         incomplete={settled && !complete} failureKind={richFailureKind(state.result)} publication={publication} saveSlot={saveSlot} />

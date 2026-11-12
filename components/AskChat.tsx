@@ -25,7 +25,7 @@ import { Beacon } from "./Logo";
 import { AnswerV2View } from "./AnswerV2View";
 import { validateAnswerV2 } from "@/lib/ask/answer-v2";
 import { cleanHadithMarkup } from "@/lib/sources/hadith-markup";
-import { previousUserMessages } from "@/lib/ask/conversation";
+import { parentRequestBody, previousUserMessages } from "@/lib/ask/conversation";
 import {
   consumeRichStream,
   emptyRichState,
@@ -40,6 +40,7 @@ import {
 import { richText } from "@/lib/ask/rich-text";
 import { RichAnswerView } from "./RichAnswerView";
 import { StableAnswerView, type RevealMemory } from "./StableAnswerView";
+import { FollowUpReply, conversationalOf } from "./FollowUpReply";
 import { SaveAnswerButton } from "./saved/SaveButtons";
 import type { PatientState } from "@/lib/ask/patient-protocol";
 import type { Locale } from "@/lib/i18n";
@@ -80,6 +81,7 @@ const SAVED_STATUSES = new Set([
   "no_summary",
   "ask_scholar",
   "out_of_scope",
+  "social",
   "clarify",
 ]);
 
@@ -183,15 +185,17 @@ export default function AskChat({
     onCancelReady?.(() => {
       void stop();
     });
-    return () => onCancelReady?.(() => {});
+    return () => onCancelReady?.(() => { });
   }, [onCancelReady, durableEnabled]);
 
   async function stop() {
     if (!durableEnabled) {
       const active = [...messagesRef.current].reverse().find(m => m.role === "bayan" && m.reply.kind === "stable" && !m.reply.state.terminal && m.reply.state.continuation);
       if (active?.role === "bayan" && active.reply.kind === "stable" && active.reply.state.continuation) {
-        void fetch("/api/ask/stream", { method: "POST", keepalive: true, headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ lang, stream_version: 3, action: "stop", continue_token: active.reply.state.continuation.token }) }).catch(() => {});
+        void fetch("/api/ask/stream", {
+          method: "POST", keepalive: true, headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lang, stream_version: 3, action: "stop", continue_token: active.reply.state.continuation.token })
+        }).catch(() => { });
       }
       activeRequest.current?.abort("answer_stopped");
       return;
@@ -314,14 +318,22 @@ export default function AskChat({
     try {
       const owner = messagesRef.current.find(m => m.id === messageId);
       const version = owner?.role === "bayan" && owner.reply.kind === "stable" ? 3 : 2;
-      const response = await fetch("/api/ask/stream", { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ lang, stream_version: version, action: "status", continue_token: token }) });
+      const response = await fetch("/api/ask/stream", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ lang, stream_version: version, action: "status", continue_token: token })
+      });
       const result = await response.json();
       if (owner?.role === "bayan" && owner.reply.kind === "stable" && validResearchContinuation(result.continuation)
         && result.continuation.token === token && result.continuation.approved) reuse = { question: owner.reply.question, initialState: owner.reply.state };
-      setMessages(previous => previous.map(m => m.id === messageId && m.role === "bayan" && (m.reply.kind === "partial" || m.reply.kind === "stable") ? { ...m, reply: { ...m.reply,
-        state: { ...m.reply.state, continuation: validResearchContinuation(result.continuation) ? result.continuation : m.reply.state.continuation
-          ? { ...m.reply.state.continuation, available: false, reason: "expired" } : undefined } } } : m));
+      setMessages(previous => previous.map(m => m.id === messageId && m.role === "bayan" && (m.reply.kind === "partial" || m.reply.kind === "stable") ? {
+        ...m, reply: {
+          ...m.reply,
+          state: {
+            ...m.reply.state, continuation: validResearchContinuation(result.continuation) ? result.continuation : m.reply.state.continuation
+              ? { ...m.reply.state.continuation, available: false, reason: "expired" } : undefined
+          }
+        }
+      } : m));
     } catch { push({ role: "bayan", reply: { kind: "text", text: rt.interrupted } }); }
     finally { sending.current = false; setBusy(false); }
     // The finished answer was approved: fetch it by asking the identical question again. The server
@@ -329,8 +341,10 @@ export default function AskChat({
     if (reuse && alive.current) void send(reuse.question, undefined, { token, messageId, initialState: reuse.initialState, automatic: true, reuse: true });
   }
 
-  async function send(raw: string, restored?: ResearchPending, continuing?: { token: string; messageId: number; initialState?: RichStreamState; automatic?: boolean;
-    /** Ask the identical question again to reuse an approved answer; the server refuses anything else. */ reuse?: boolean }) {
+  async function send(raw: string, restored?: ResearchPending, continuing?: {
+    token: string; messageId: number; initialState?: RichStreamState; automatic?: boolean;
+    /** Ask the identical question again to reuse an approved answer; the server refuses anything else. */ reuse?: boolean
+  }) {
     const question = raw.trim();
     if (!question || sending.current) return;
     if (question.length > MAX) {
@@ -396,8 +410,10 @@ export default function AskChat({
         || RICH_ORDER.some(group => (continuedState.publication?.groups[group].notices.length ?? 0) > 0)) return false;
       setConnection("reconnecting");
       try {
-        const response = await fetch("/api/ask/stream", { method: "POST", signal: controller.signal, headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ lang, stream_version: 3, action: "status", continue_token: previous.token }) });
+        const response = await fetch("/api/ask/stream", {
+          method: "POST", signal: controller.signal, headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ lang, stream_version: 3, action: "status", continue_token: previous.token })
+        });
         const value = await response.json();
         controller.signal.throwIfAborted();
         const eligible = automaticContinuation(value?.continuation, previous.token);
@@ -411,8 +427,12 @@ export default function AskChat({
         }
         if (validResearchContinuation(value?.continuation) && value.continuation.token === previous.token)
           continuedState = { ...continuedState, continuation: value.continuation };
-        else continuedState = { ...continuedState, continuation: { ...previous, available: false,
-          ...(value?.status === "research_expired" ? { reason: "expired" as const } : { reason: undefined }) } };
+        else continuedState = {
+          ...continuedState, continuation: {
+            ...previous, available: false,
+            ...(value?.status === "research_expired" ? { reason: "expired" as const } : { reason: undefined })
+          }
+        };
       } catch {
         // A failed status check cannot establish that a paid retry is safe.
         continuedState = { ...continuedState, continuation: { ...previous, available: false, reason: undefined } };
@@ -437,10 +457,10 @@ export default function AskChat({
             previous.map((m) =>
               m.id === userId
                 ? {
-                    ...m,
-                    exchangeId: job!.locator.id ?? undefined,
-                    researchKey: job!.locator.key,
-                  }
+                  ...m,
+                  exchangeId: job!.locator.id ?? undefined,
+                  researchKey: job!.locator.key,
+                }
                 : m,
             ),
           );
@@ -457,11 +477,20 @@ export default function AskChat({
         state = result.state;
         if (stable && state.publication) { continuedState = state; updateStable(state); }
       } else {
+        // The latest real answer in this chat. A thanks reply, referral or clarification in between
+        // does not make the visitor's "that" point at nothing.
+        const priorAnswer = messages.map(answerOf).filter(Boolean).at(-1);
+        const parent = !continuing && richEnabled && priorAnswer ? {
+          ref: priorAnswer.parentReference ?? "",
+          sentences: priorAnswer.sections.find(s => s.group === "summary")?.claims.map(c => c.text) ?? []
+        } : undefined;
+        // Signed-in visitors are counted by account for the daily and weekly limits.
+        const accessToken = await browserSupabase().auth.getSession().then(r => r.data.session?.access_token ?? null).catch(() => null);
         res = await fetch(richEnabled ? "/api/ask/stream" : "/api/ask", {
           method: "POST",
           signal: controller.signal,
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
+          headers: { "Content-Type": "application/json", ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}) },
+          body: parentRequestBody({
             ...(continuing && !continuing.reuse ? { continue_token: continuing.token } : { question }),
             ...(continuing?.reuse ? { reuse_only: true } : {}),
             lang,
@@ -470,7 +499,7 @@ export default function AskChat({
             // Keep the earlier answer flow until progressive delivery passes
             // end-to-end acceptance. API review tools can exercise v2 separately.
             ...(stable ? { stream_version: 3 } : richEnabled && process.env.NEXT_PUBLIC_ASK_PROGRESSIVE_STREAMING === "true" ? { stream_version: 2 } : {}),
-          }),
+          }, parent),
         });
         if (res.headers.get("content-type")?.startsWith("text/event-stream")) {
           if (!res.body) throw new Error("missing_stream");
@@ -500,8 +529,16 @@ export default function AskChat({
         const reason = data.status.slice(9);
         if (stableId !== null) { updateStable(stableResearchReply(continuedState, reason, data, !!continuing, lang as Locale)); return; }
         if (continuing) setMessages(previous => previous.map(m => m.id === continuing.messageId && m.role === "bayan" && m.reply.kind === "partial"
-          ? { ...m, reply: { ...m.reply, state: { ...m.reply.state, continuation: m.reply.state.continuation ? { ...m.reply.state.continuation, available: false,
-            reason: ["expired", "busy", "limit", "billing_uncertain", "cancelled"].includes(reason) ? reason as "expired" : "expired" } : undefined } } } : m));
+          ? {
+            ...m, reply: {
+              ...m.reply, state: {
+                ...m.reply.state, continuation: m.reply.state.continuation ? {
+                  ...m.reply.state.continuation, available: false,
+                  reason: ["expired", "busy", "limit", "billing_uncertain", "cancelled"].includes(reason) ? reason as "expired" : "expired"
+                } : undefined
+              }
+            }
+          } : m));
         push({ role: "bayan", reply: { kind: "text", text: reason in rt.continuationIssues ? rt.continuationIssues[reason as keyof typeof rt.continuationIssues] : rt.continuationIssues.expired } });
         return;
       }
@@ -558,10 +595,10 @@ export default function AskChat({
             state: data.withdraw
               ? { ...state, sections: [], withdrawn: true }
               : {
-                  ...state,
-                  sections: state.sections.filter((s) => s.group !== "summary"),
-                  result: data,
-                },
+                ...state,
+                sections: state.sections.filter((s) => s.group !== "summary"),
+                result: data,
+              },
           },
         });
         if (durableEnabled) setRecoverable(true);
@@ -584,14 +621,14 @@ export default function AskChat({
           ? { kind: "answer", answer: data.answer }
           : data.status === "clarify"
             ? {
-                kind: "clarify",
-                choices: (data.clarification?.choices ?? [])
-                  .filter(
-                    (choice) =>
-                      typeof choice === "string" && choice.length <= 80,
-                  )
-                  .slice(0, 2),
-              }
+              kind: "clarify",
+              choices: (data.clarification?.choices ?? [])
+                .filter(
+                  (choice) =>
+                    typeof choice === "string" && choice.length <= 80,
+                )
+                .slice(0, 2),
+            }
             : data.status === "not_ready"
               ? { kind: "not_ready" }
               : data.status === "no_source"
@@ -600,15 +637,19 @@ export default function AskChat({
                   ? { kind: "no_summary" }
                   : data.status === "ask_scholar"
                     ? { kind: "text", text: t.personal }
-                    : data.status === "out_of_scope"
-                      ? { kind: "text", text: t.outOfScope }
-                      : data.status === "rate_limited"
-                        ? { kind: "text", text: t.rateLimited }
-                        : data.status === "busy"
-                          ? { kind: "text", text: t.busy }
-                          : data.status === "too_long"
-                            ? { kind: "text", text: t.tooLong }
-                            : { kind: "text", text: t.error };
+                    : data.status === "social"
+                      ? { kind: "text", text: rt.social }
+                      : data.status === "quota_daily" || data.status === "quota_weekly" || data.status === "quota_unavailable"
+                        ? { kind: "text", text: quotaText(rt, lang as Locale, data as { status: string; scope?: string; limit?: number; retry_on?: string }) }
+                        : data.status === "out_of_scope"
+                          ? { kind: "text", text: t.outOfScope }
+                          : data.status === "rate_limited"
+                            ? { kind: "text", text: t.rateLimited }
+                            : data.status === "busy"
+                              ? { kind: "text", text: t.busy }
+                              : data.status === "too_long"
+                                ? { kind: "text", text: t.tooLong }
+                                : { kind: "text", text: t.error };
       // During Continue the card already holds checked sources: never remove it. Its saved
       // Continue link stays usable, and the reply (for example "rate limited") is shown below it.
       if (stableId !== null && removeCardOnReply(!!continuing)) setMessages(previous => previous.filter(m => m.id !== stableId));
@@ -672,14 +713,14 @@ export default function AskChat({
             : "connection_interrupted";
         setRecoverable(
           !!researcher.current?.current() &&
-            !changed &&
-            !stopped &&
-            [
-              "connection_interrupted",
-              "submission_uncertain",
-              "network_error",
-              "research_unavailable",
-            ].includes(code),
+          !changed &&
+          !stopped &&
+          [
+            "connection_interrupted",
+            "submission_uncertain",
+            "network_error",
+            "research_unavailable",
+          ].includes(code),
         );
         if (stopped) {
           push({
@@ -754,7 +795,7 @@ export default function AskChat({
               ? controller.signal.aborted
                 ? rt.stopped
                 : error instanceof TypeError &&
-                    /fetch|network|load failed/i.test(error.message)
+                  /fetch|network|load failed/i.test(error.message)
                   ? rt.interrupted
                   : rt.checkFailure
               : t.error,
@@ -789,10 +830,10 @@ export default function AskChat({
           reply,
           job && job.locator.id
             ? {
-                exchangeId: job.locator.id,
-                chatId: job.locator.chatId,
-                position: job.locator.position,
-              }
+              exchangeId: job.locator.id,
+              chatId: job.locator.chatId,
+              position: job.locator.position,
+            }
             : undefined,
         );
       }
@@ -868,8 +909,11 @@ export default function AskChat({
             <div key={m.id} className="msg msg-bayan">
               <span className="sr-only">{t.bayan}: </span>
               {m.reply.kind === "stable" ? <>
-                <StableAnswerView state={m.reply.state} language={streamedAnswerLanguage(m.reply.state, m.reply.question, lang as Locale)} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current}
-                  saveSlot={(() => { const result = m.reply.state.result as { status?: string; answer?: import("@/lib/ask/rich-answer").RichAnswer } | undefined; return result?.status === "rich_answer" && result.answer ? <SaveAnswerButton lang={lang as Locale} question={m.reply.question} answer={result.answer} /> : undefined; })()} />
+                {conversationalOf(m.reply.state) ? <FollowUpReply state={m.reply.state} mode={conversationalOf(m.reply.state)!} language={streamedAnswerLanguage(m.reply.state, m.reply.question, lang as Locale)} text={t}
+                  working={busy && stableMessage.current === m.id} repeated={sourceIdsBefore(messages, index)}
+                  saveSlot={(() => { const result = m.reply.state.result as { status?: string; answer?: RichAnswer } | undefined; return result?.status === "rich_answer" && result.answer ? <SaveAnswerButton lang={lang as Locale} question={m.reply.question} answer={result.answer} /> : undefined; })()} />
+                  : <StableAnswerView state={m.reply.state} language={streamedAnswerLanguage(m.reply.state, m.reply.question, lang as Locale)} text={t} working={busy && stableMessage.current === m.id} reconnecting={busy && stableMessage.current === m.id && connection === "reconnecting"} memory={revealMemory.current}
+                    saveSlot={(() => { const result = m.reply.state.result as { status?: string; answer?: import("@/lib/ask/rich-answer").RichAnswer } | undefined; return result?.status === "rich_answer" && result.answer ? <SaveAnswerButton lang={lang as Locale} question={m.reply.question} answer={result.answer} /> : undefined; })()} />}
                 {busy && stableMessage.current === m.id ? <button type="button" className="chip" onClick={() => void stop()}>{rt.stop}</button>
                   : m.reply.state.continuation?.available && !RICH_ORDER.some(g => m.reply.kind === "stable" && m.reply.state.publication?.groups[g].notices.length) ? <button type="button" className="btn btn-primary" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id }); }}>{rt.continueResearch}</button>
                     : m.reply.state.continuation && ["billing_uncertain", "busy", ""].includes(m.reply.state.continuation.reason ?? "") ? <button type="button" className="chip" onClick={() => { if (m.reply.kind === "stable" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token); }}>{rt.checkReceipt}</button> : null}
@@ -881,6 +925,7 @@ export default function AskChat({
                   guide={m.reply.answer.guide ?? null}
                   videos={m.reply.answer.videos}
                   complete
+                  conversational={m.reply.answer.conversational ? { repeated: sourceIdsBefore(messages, index) } : undefined}
                   saveSlot={<SaveAnswerButton lang={lang as Locale} question={questionBefore(messages, index)} answer={m.reply.answer} />}
                 />
               ) : m.reply.kind === "patient" ? (
@@ -888,27 +933,27 @@ export default function AskChat({
                   language={lang as Locale} text={t} patient={m.reply.state} />
               ) : m.reply.kind === "partial" ? (
                 <>
-                <RichAnswerView
-                  sections={m.reply.state.sections}
-                  language={lang as Locale}
-                  text={t}
-                  incomplete={continuationTarget !== m.id}
-                  working={busy && continuationTarget === m.id}
-                  withdrawn={m.reply.state.withdrawn}
-                  technicalFailure={richFailureKind(m.reply.state.result) === "checker_failure"}
-                  failureKind={richFailureKind(m.reply.state.result)}
-                  cards={m.reply.state.cards}
-                />
-                {m.reply.state.continuation && <div role="status">
-                  {m.reply.state.continuation.available && m.reply.state.continuation.remaining > 0 && m.reply.question
-                    ? <><p>{rt.continuationNotice}</p><button type="button" className="btn btn-primary" disabled={busy} onClick={() => {
-                      if (m.reply.kind === "partial" && m.reply.state.continuation && m.reply.question) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id });
-                    }}>{rt.continueResearch}</button></>
-                    : <><p>{rt.continuationIssues[m.reply.state.continuation.reason ?? "limit"]}</p>
-                      {["billing_uncertain", "busy"].includes(m.reply.state.continuation.reason ?? "") && <button type="button" className="btn btn-ghost" disabled={busy} onClick={() => {
-                        if (m.reply.kind === "partial" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token);
-                      }}>{rt.checkReceipt}</button>}</>}
-                </div>}
+                  <RichAnswerView
+                    sections={m.reply.state.sections}
+                    language={lang as Locale}
+                    text={t}
+                    incomplete={continuationTarget !== m.id}
+                    working={busy && continuationTarget === m.id}
+                    withdrawn={m.reply.state.withdrawn}
+                    technicalFailure={richFailureKind(m.reply.state.result) === "checker_failure"}
+                    failureKind={richFailureKind(m.reply.state.result)}
+                    cards={m.reply.state.cards}
+                  />
+                  {m.reply.state.continuation && <div role="status">
+                    {m.reply.state.continuation.available && m.reply.state.continuation.remaining > 0 && m.reply.question
+                      ? <><p>{rt.continuationNotice}</p><button type="button" className="btn btn-primary" disabled={busy} onClick={() => {
+                        if (m.reply.kind === "partial" && m.reply.state.continuation && m.reply.question) void send(m.reply.question, undefined, { token: m.reply.state.continuation.token, messageId: m.id });
+                      }}>{rt.continueResearch}</button></>
+                      : <><p>{rt.continuationIssues[m.reply.state.continuation.reason ?? "limit"]}</p>
+                        {["billing_uncertain", "busy"].includes(m.reply.state.continuation.reason ?? "") && <button type="button" className="btn btn-ghost" disabled={busy} onClick={() => {
+                          if (m.reply.kind === "partial" && m.reply.state.continuation) void checkReceipt(m.id, m.reply.state.continuation.token);
+                        }}>{rt.checkReceipt}</button>}</>}
+                  </div>}
                 </>
               ) : m.reply.kind === "text" ? (
                 <p role="status">{m.reply.text}</p>
@@ -1149,6 +1194,25 @@ function NotReady({ t }: { t: AskText }) {
 
 const dirOf = (l: string) => (l === "ar" ? "rtl" : "ltr");
 /** The visitor question an answer replies to: the nearest user message before it. */
+/** The fair-use limit message, with the limit that actually applied and the day it resets (UTC). */
+function quotaText(rt: (typeof richText)[Locale], lang: Locale, data: { status: string; scope?: string; limit?: number; retry_on?: string }) {
+  if (data.status === "quota_unavailable" || !Number.isInteger(data.limit) || !/^\d{4}-\d{2}-\d{2}$/.test(data.retry_on ?? "")) return rt.quotaUnavailable;
+  const day = new Date(`${data.retry_on}T00:00:00Z`).toLocaleDateString(lang === "ar" ? "ar" : lang === "de" ? "de" : "en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "UTC" });
+  const text = data.scope === "network" ? rt.quotaNetwork : data.status === "quota_weekly" ? rt.quotaWeekly : rt.quotaDaily;
+  return text.replace("{limit}", String(data.limit)).replace("{date}", day);
+}
+const answerOf = (m: NewMessage): RichAnswer | undefined => m.role !== "bayan" ? undefined : m.reply.kind === "rich" ? m.reply.answer
+  : m.reply.kind === "stable" ? (m.reply.state.result as { status?: string; answer?: RichAnswer } | undefined)?.answer : undefined;
+/** Sources whose cards an earlier reply in this chat already shows. A follow-up links to them and does not repeat them. */
+const sourceIdsBefore = (messages: NewMessage[], index: number) => {
+  const ids = new Set<string>();
+  for (const m of messages.slice(0, index)) {
+    if (m.role !== "bayan") continue;
+    const sections = answerOf(m)?.sections ?? (m.reply.kind === "stable" || m.reply.kind === "partial" ? m.reply.state.sections : []);
+    for (const section of sections) for (const source of section.sources) ids.add(source.id);
+  }
+  return ids;
+};
 const questionBefore = (messages: { role: string; text?: string }[], index: number) => {
   for (let i = index - 1; i >= 0; i--) if (messages[i].role === "user") return messages[i].text ?? "";
   return "";
@@ -1273,9 +1337,9 @@ export function AnswerView({
                     <span>
                       {[
                         e.numbers.bukhari &&
-                          `${t.hadith.numberBukhari} ${e.numbers.bukhari}`,
+                        `${t.hadith.numberBukhari} ${e.numbers.bukhari}`,
                         e.numbers.muslim &&
-                          `${t.hadith.numberMuslim} ${e.numbers.muslim}`,
+                        `${t.hadith.numberMuslim} ${e.numbers.muslim}`,
                       ]
                         .filter(Boolean)
                         .join(" · ")}
@@ -1361,8 +1425,8 @@ export function AnswerView({
                   {e.title && (
                     <p
                       className="quote-title"
-                      lang="ar"
-                      dir="rtl"
+                      lang={/[\u0600-\u06FF]/.test(e.title) ? "ar" : a.language}
+                      dir={/[\u0600-\u06FF]/.test(e.title) ? "rtl" : "ltr"}
                       translate="no"
                     >
                       {e.title}

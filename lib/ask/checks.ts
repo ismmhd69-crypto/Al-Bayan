@@ -227,7 +227,7 @@ export function parseStructuredDraft(raw: unknown, citable: SourceText[], langua
       return { ok: false, reason: "missing_requirement" };
     }
     // "The Quran says" must rest on a verse, never on a hadith or a scholar's words.
-    if (answer.claims.some((claim) => sourceKindMismatch(claim.text, claim.refs))) return { ok: false, reason: "source_attribution" };
+    if (answer.claims.some((claim) => sourceKindMismatch(claim.text, claim.refs, citable))) return { ok: false, reason: "source_attribution" };
     return { ok: true, answer };
   };
   // Older checked draft records and pipeline fixtures have a flat claim array (at most 4 claims):
@@ -361,9 +361,15 @@ const QURAN_WORD_IN_TEXT = /\b(quran|qur'an|koran)\b|القرآن|القران/i
 const PROPHET_ATTRIBUTION = /\b(?:the\s+)?(?:prophet|messenger)(?:\s+muhammad)?\s+(?:taught|said|stated|reported|instructed|commanded|forbade|prohibited|allowed|permitted|explained)\b|\b(?:der\s+)?prophet\s+(?:lehrte|sagte|erklärte|berichtete|befahl|verbot|erlaubte)\b|(?:قال|بيّن|بين|أوضح|علّم|علم|أمر|نهى)\s+(?:النبي|الرسول)/iu;
 const SCHOLAR_ATTRIBUTION = /\b(?:shaykh|sheikh|scheich)\b.{0,80}\b(?:explained|said|stated|ruled|held|taught|erklärte|sagte|urteilte|lehrte)\b|(?:قال|بيّن|بين|أوضح|أفتى|ذكر)\s+الشيخ/iu;
 
-export function sourceKindMismatch(text: string, refs: string[]): boolean {
+// Mo, 2026-11-12: a sentence may report that a NAMED scholar attributes a teaching to the Prophet ﷺ when that
+// scholar's own cited text mentions the Prophet ﷺ. In Bayan's own voice it still needs a cited hadith.
+const NAMED_REPORTER = /\b(?:shaykh|sheikh|imam|ibn\s+\p{L}+|al-\p{L}+)\b|الشيخ|الإمام|ابن\s+\p{L}+/iu;
+const PROPHET_IN_ORIGINAL = /النبي|رسول\s+الله|الرسول|ﷺ|صلى\s+الله\s+عليه\s+وسلم/u;
+/** scholarOriginals: the cited scholar sources' own text. Without it, the old strict rule applies. */
+export function sourceKindMismatch(text: string, refs: string[], scholarOriginals?: { id: string; arabic: string }[]): boolean {
   if (QURAN_WORD_IN_TEXT.test(text) && !refs.some((id) => /^Q\d{1,3}:\d{1,3}$/.test(id))) return true;
-  if (PROPHET_ATTRIBUTION.test(text) && !refs.some((id) => /^(HE\d+|SH[0-9a-f-]{36})$/.test(id))) return true;
+  if (PROPHET_ATTRIBUTION.test(text) && !refs.some((id) => /^(HE\d+|SH[0-9a-f-]{36})$/.test(id))
+    && !(NAMED_REPORTER.test(text) && scholarOriginals?.some(s => refs.includes(s.id) && /^S(?!H)/.test(s.id) && PROPHET_IN_ORIGINAL.test(s.arabic)))) return true;
   return SCHOLAR_ATTRIBUTION.test(text) && !refs.some((id) => /^S(?!H)/.test(id));
 }
 
@@ -452,7 +458,7 @@ export function sourceCopyMatch(text: string, sources: SourceText[]): SourceCopy
         const sourcePairs = grams(vs, 2);
         const claimPairs = [...grams(ar, 2)];
         if (ar.length >= 12 && claimPairs.length > 0
-          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.7) return { sourceId: s.id, language: "ar", rule: "near_copy" };
+          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.7) return { sourceId: s.id, language: "ar", rule: "near_copy", normalizedMatch: claimPairs.filter((group) => sourcePairs.has(group)).slice(0, 6).join(" | ") };
       } else {
         const clauseLength = s.kind === "hadith" ? 6 : 4;
         if (vs.length < clauseLength) {
@@ -465,7 +471,7 @@ export function sourceCopyMatch(text: string, sources: SourceText[]): SourceCopy
         const sourcePairs = grams(vs, 2);
         const claimPairs = [...grams(ar, 2)];
         if (claimPairs.length >= 4
-          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.6) return { sourceId: s.id, language: "ar", rule: "near_copy" };
+          && claimPairs.filter((group) => sourcePairs.has(group)).length / claimPairs.length > 0.6) return { sourceId: s.id, language: "ar", rule: "near_copy", normalizedMatch: claimPairs.filter((group) => sourcePairs.has(group)).slice(0, 6).join(" | ") };
       }
     }
     for (const [language, tr] of Object.entries(s.translations)) {

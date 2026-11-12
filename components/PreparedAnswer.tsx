@@ -177,7 +177,14 @@ function SourceCard({ e, a, t, anchorId, title }: { e: Evidence; a: Answer; t: A
       </p>
 
       {e.kind === "scholar" && e.title && (
-        <p className="quote-title" lang="ar" dir="rtl" translate="no">{e.title}</p>
+        <p
+          className="quote-title"
+          lang={/[\u0600-\u06FF]/.test(e.title) ? "ar" : a.language}
+          dir={/[\u0600-\u06FF]/.test(e.title) ? "rtl" : "ltr"}
+          translate="no"
+        >
+          {e.title}
+        </p>
       )}
       <p className={e.kind === "scholar" ? "pa-quote" : "verse-ar"} lang="ar" dir="rtl" translate="no">
         {e.kind === "scholar" && <Quote aria-hidden="true" className="pa-quote-mark" />}

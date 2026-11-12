@@ -24,7 +24,7 @@ export type ReelCoverProps = {
   title: string; // big English word, e.g. "INTENTIONS"
   arabicTitle: string; // short Arabic line, e.g. the hadith opening
   source: string; // e.g. "Sahih al-Bukhari 1"
-  art: "intention" | "anger" | "speak" | "mother" | "quran" | "onebody" | "salam" | "brother" | "tree" | "dog" | "thorn" | "five" | "night" | "patience" | "truth" | "twowords" | "tawba" | "gheeba" | "three" | "near" | "easy"; // which illustration to draw (add more per video)
+  art: "intention" | "anger" | "speak" | "mother" | "quran" | "onebody" | "salam" | "brother" | "tree" | "dog" | "thorn" | "five" | "night" | "patience" | "truth" | "twowords" | "tawba" | "gheeba" | "three" | "near" | "easy" | "cheerful" | "secretdua" | "smalldeeds"; // which illustration to draw (add more per video)
   titleSize?: number; // shrink long titles so they fit one line (default 168)
 };
 
@@ -465,6 +465,51 @@ const Art: React.FC<{ kind: ReelCoverProps["art"] }> = ({ kind }) => {
         </div>
         <div style={{ position: "relative", zIndex: 1 }}>
           <Man pose={POSES.speak} size={760} heart={{ color: theme.gold, glow: 1.1, scale: 1.4 }} />
+        </div>
+      </div>
+    );
+  }
+  if (kind === "cheerful") {
+    return (
+      <div style={{ position: "relative", width: 1080, height: 820, display: "flex", justifyContent: "center", alignItems: "flex-end" }}>
+        <div style={{ position: "absolute", left: "50%", top: 380, transform: "translate(-50%, -50%)" }}>
+          <Rays size={720} spin={10} opacity={0.55} />
+        </div>
+        <div style={{ position: "absolute", left: 320, bottom: 0, zIndex: 1 }}>
+          <Man pose={POSES.stand} size={720} />
+        </div>
+        <div style={{ position: "absolute", left: 760, bottom: 0, zIndex: 1 }}>
+          <Man pose={{ ...POSES.give, lean: -4 }} style={MAN_GREY} size={720} />
+        </div>
+        <div style={{ position: "absolute", left: "50%", top: 380, transform: "translate(-50%, -50%)", zIndex: 2 }}>
+          <Heart size={180} color={theme.gold} glow={1.4} />
+        </div>
+      </div>
+    );
+  }
+  if (kind === "secretdua") {
+    return (
+      <div style={{ position: "relative", width: 1080, height: 820, display: "flex", justifyContent: "center", alignItems: "flex-end" }}>
+        <div style={{ position: "absolute", left: "50%", top: 320, transform: "translate(-50%, -50%)" }}>
+          <Rays size={780} spin={12} opacity={0.6} />
+          <div style={{ position: "absolute", left: "50%", top: "50%", transform: "translate(-50%, -50%)" }}>
+            <Star size={160} color={theme.gold} />
+          </div>
+        </div>
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <Man pose={POSES.takbir} size={760} heart={{ color: theme.gold, glow: 1.2, scale: 1.5 }} />
+        </div>
+      </div>
+    );
+  }
+  if (kind === "smalldeeds") {
+    return (
+      <div style={{ position: "relative", width: 1080, height: 820, display: "flex", justifyContent: "center", alignItems: "flex-end" }}>
+        <div style={{ position: "absolute", left: "50%", top: 360, transform: "translate(-50%, -50%)" }}>
+          <Rays size={700} spin={14} opacity={0.5} />
+        </div>
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <Man pose={POSES.stand} size={760} heart={{ color: theme.gold, glow: 1.3, scale: 1.5 }} />
         </div>
       </div>
     );

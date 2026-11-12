@@ -11,7 +11,8 @@ function positiveInt(value: string | undefined, fallback: number): number {
   return Number.isInteger(n) && n > 0 ? n : fallback;
 }
 
-const PER_VISITOR = positiveInt(process.env.ASK_LIMIT_PER_10_MIN, 8);
+// 15 leaves room for a chat with follow-ups (Mo, 2026-11-12). Daily and weekly limits are in quota.ts.
+const PER_VISITOR = positiveInt(process.env.ASK_LIMIT_PER_10_MIN, 15);
 const PER_DAY = positiveInt(process.env.ASK_DAILY_LIMIT, 200);
 const MAX_CONCURRENT = positiveInt(process.env.ASK_MAX_CONCURRENT, 4);
 const WINDOW_MS = 10 * 60 * 1000;

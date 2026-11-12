@@ -6,6 +6,8 @@ import { handleResearchJob, type ResearchAction } from "./job-api";
 import { researchOwners } from "./job-owner";
 import { researchEngineRevision } from "./job-policy";
 import { serverResearchJobs } from "./server-jobs";
+import { admitQuestion } from "@/lib/ask/quota";
+import { privateResearchOwner } from "@/lib/ask/private-research";
 
 export async function researchJobRoute(
   request: Request,
@@ -42,6 +44,12 @@ export async function researchJobRoute(
           fetch(input, { ...init, signal: AbortSignal.timeout(8000) }),
       },
     });
+    // Background jobs are another way to start a question, so they take the same daily and weekly limits.
+    if (action === "start") {
+      const quota = await admitQuestion({ authorization: request.headers.get("authorization"),
+        browserOwner: privateResearchOwner(request.headers.get("cookie")).owner, forwardedFor: request.headers.get("x-forwarded-for") });
+      if (quota.status !== "ok") return new Response(JSON.stringify(quota), { status: quota.status === "quota_unavailable" ? 503 : 429, headers });
+    }
     const { serverJobFreshness } = await import("./server-job-freshness");
     const store = serverResearchJobs();
     return await handleResearchJob(request, action, {

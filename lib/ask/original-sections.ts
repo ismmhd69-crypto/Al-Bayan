@@ -1,7 +1,8 @@
 import type { Locale } from "@/lib/i18n";
 import { toEvidence, type PipelineDeps } from "./core";
 import type { EvidencePackage } from "./retrieval";
-import { validRichSection, validDisplayTranslation, hasDisplayTranslation, type RichSection } from "./rich-answer";
+import { validRichSection, validDisplayTranslation, hasDisplayTranslation, type RichSection, type RichSource } from "./rich-answer";
+import { fatwaTitleTranslation } from "./fatwa-titles";
 import { displayAlignmentRequest, parseDisplayAlignment } from "./focused-checks";
 import { abortable } from "./abort";
 
@@ -15,6 +16,8 @@ export async function originalSection(group: "quran" | "hadith" | "scholar", pac
   }));
   const section: RichSection = { group, outcome: sources.length ? "ready" : "no_direct_evidence",
     ...(sources.length ? { presentation: "originals" as const } : {}), claims: [], sources };
+  // English and German readers see the fatwa's heading in their language, labelled as an AI translation.
+  if (group === "scholar") for (const s of section.sources) { const title = fatwaTitleTranslation(s.id, language); if (title) (s as RichSource).displayTitle = title; }
   if (group !== "quran" && language !== "ar" && checkedTranslations) {
     for (const s of section.sources) if (hasDisplayTranslation(s)) s.displayTranslation = checkedTranslations.get(s.id) ?? { status: "unavailable" };
   }
