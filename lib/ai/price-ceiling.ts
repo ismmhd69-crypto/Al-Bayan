@@ -4,6 +4,8 @@
 export const modelPriceCeiling = (model: string) => model === "vertex/gemini-3.1-flash-lite" ? { prompt: 0.3, completion: 1.8, request: 0 }
   : model === "vertex/gemini-2.5-flash-lite" ? { prompt: 0.15, completion: 0.6, request: 0 }
   : model === "vertex/gemini-3.5-flash-lite" ? { prompt: 0.36, completion: 3, request: 0 }
+  // Gemini 3.8 Flash as the checker (Mo, 2026-11-12). Its 2027 list price, plus headroom.
+  : model === "vertex/gemini-3.8-flash" ? { prompt: 1.8, completion: 9, request: 0 }
   : model === "openai/gpt-6-luna"
   ? { prompt: 0.25, completion: 1, request: 0 }
   // Haiku's >100K tier is $0.50/$2.50; include regional routing headroom.
@@ -17,6 +19,9 @@ export const VERTEX_PRICES: Record<string, { prompt: number; completion: number 
   "gemini-3.1-flash-lite": { prompt: 0.25, completion: 1.5 },
   "gemini-2.5-flash-lite": { prompt: 0.1, completion: 0.4 },
   "gemini-3.5-flash-lite": { prompt: 0.3, completion: 2.5 },
+  // Introductory $0.75/$3.75 until 2026-12-31, then $1.50/$7.50 (third-party price pages, 2026-11-12; Google's own page
+  // not confirmed). Counted at the higher price so the session guard never under-counts.
+  "gemini-3.8-flash": { prompt: 1.5, completion: 7.5 },
 };
 export function modelReservation(body: { model: string; messages: unknown; max_tokens: number }, price = modelPriceCeiling(body.model)) {
   const maximum = modelPriceCeiling(body.model);
