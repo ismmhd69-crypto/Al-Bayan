@@ -60,5 +60,6 @@ This protocol governs the production of the 3 daily Al-Bayan videos.
 ### Step 6: Delivery to Google Drive
 - Create `G:\My Drive\Al-bayan\Day <N>\` folder.
 - Move/copy all rendered MP4s and cover images into the folder.
+- Create `day-<N>-captions.txt` containing the 3 ready-to-post Instagram captions with verified authentic sources, scholar links, askbayan.org, closing hadith, and hashtags.
 - Confirm delivery to the user with direct links.
 
