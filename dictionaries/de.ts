@@ -26,6 +26,7 @@ const de: typeof en = {
     support: "Bayan unterstützen",
   },
   home: {
+    hadithOfTheDay: "Hadith des Tages",
     title: "Frag alles über den Islam.",
     sub: "Antworten nur aus dem Koran, authentischen Hadithen und vertrauenswürdigen Gelehrten, mit einer Quelle für jeden Punkt.",
     placeholder: "Deine Frage eingeben...",

@@ -1055,6 +1055,56 @@ a.list-row:hover {
   padding: 4px 10px;
   font-size: var(--fs-xs);
 }
+.daily-hadith {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px 10px;
+  padding-block: 10px;
+  padding-inline: 14px;
+  border-radius: 12px;
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-line);
+  font-size: var(--fs-sm);
+  line-height: 1.5;
+  text-align: center;
+}
+.daily-hadith-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding-block: 2px;
+  padding-inline: 9px;
+  border-radius: 999px;
+  background: var(--tonal-bg);
+  color: var(--tonal-ink);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.daily-hadith-icon {
+  inline-size: 13px;
+  block-size: 13px;
+  flex: none;
+}
+.daily-hadith-text {
+  color: var(--ink);
+  font-weight: 500;
+}
+.daily-hadith-source {
+  color: var(--ink-3);
+  font-size: var(--fs-xs);
+  white-space: nowrap;
+}
+@media (min-width: 960px) {
+  .daily-hadith {
+    justify-self: center;
+    max-inline-size: 52rem;
+    padding-block: 9px;
+    padding-inline: 18px;
+  }
+}
 .home-hero {
   display: grid;
   justify-items: center;

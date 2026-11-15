@@ -24,6 +24,7 @@ const en = {
     support: "Support Bayan",
   },
   home: {
+    hadithOfTheDay: "Hadith of the Day",
     title: "Ask anything about Islam.",
     sub: "Answers from the Quran, authentic hadith and trusted scholars only, with a source for every point.",
     placeholder: "Type your question...",

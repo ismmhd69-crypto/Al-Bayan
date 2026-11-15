@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bayan – Hadith of the Day (Mobile Mockup & 35 Curated Hadiths)</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --line: #e3e7ed;
+    --ink: #141b26;
+    --mute: #5b6678;
+    --accent: #27408b;
+    --accent-hover: #1e3270;
+    --accent-soft: #edf1fa;
+    --on-accent: #ffffff;
+    --tonal-bg: #dce3f7;
+    --tonal-ink: #1b2f6b;
+    --gold: #a77b2b;
+    --gold-soft: #fbf5e8;
+    --gold-border: rgba(167, 123, 43, 0.28);
+    --gold-ink: #7a5716;
+    --f-display: "Iowan Old Style", "Source Serif 4", Georgia, serif;
+    --f-body: "Segoe UI", system-ui, -apple-system, sans-serif;
+    --f-ar: "Amiri", "Scheherazade New", "Geeza Pro", "Traditional Arabic", serif;
+    --shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
+  }
+  [data-theme="dark"] {
+    --bg: #0b0f17;
+    --surface: #151d2d;
+    --line: #222d42;
+    --ink: #f0f4fc;
+    --mute: #9aa7bd;
+    --accent: #6b8fe6;
+    --accent-hover: #86a6f5;
+    --accent-soft: rgba(107, 143, 230, 0.14);
+    --on-accent: #ffffff;
+    --tonal-bg: #26365c;
+    --tonal-ink: #dbe4ff;
+    --gold: #d4a852;
+    --gold-soft: rgba(212, 168, 82, 0.10);
+    --gold-border: rgba(212, 168, 82, 0.28);
+    --gold-ink: #f5d38a;
+    --shadow: 0 28px 70px rgba(0, 0, 0, 0.55);
+  }
+
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    font-family: var(--f-body);
+    background: #eef1f6;
+    color: #141b26;
+    min-height: 100vh;
+    padding: 28px 20px 56px;
+  }
+  [data-theme="dark"] body {
+    background: #06090f;
+    color: #f0f4fc;
+  }
+
+  /* Studio Header & Controls */
+  .studio {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 420px minmax(0, 1fr);
+    gap: 36px;
+    align-items: start;
+  }
+  .studio.is-pc {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 960px) {
+    .studio { grid-template-columns: 1fr; justify-items: center; }
+  }
+
+  .panel-header {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(128,140,160,0.22);
+  }
+  .panel-title h1 {
+    font: 700 22px/1.2 var(--f-display);
+    margin-bottom: 4px;
+  }
+  .panel-title p {
+    font-size: 14px;
+    opacity: 0.72;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+  .seg {
+    display: inline-flex;
+    background: rgba(128,140,160,0.14);
+    padding: 4px;
+    border-radius: 999px;
+    gap: 2px;
+  }
+  .seg button {
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: 600 13px/1 var(--f-body);
+    padding: 8px 13px;
+    border-radius: 999px;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: all 0.15s ease;
+  }
+  .seg button.active {
+    background: var(--accent);
+    color: #fff;
+    opacity: 1;
+  }
+
+  /* Phone Frame */
+  .phone-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    position: sticky;
+    top: 20px;
+  }
+  @media (max-width: 960px) {
+    .phone-col { position: static; }
+  }
+  .phone {
+    width: 390px;
+    max-width: 100%;
+    height: 812px;
+    background: var(--bg);
+    color: var(--ink);
+    border-radius: 46px;
+    border: 10px solid #1b2230;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
+  [data-theme="dark"] .phone {
+    border-color: #252f42;
+  }
+
+  .status-bar {
+    height: 44px;
+    padding: 12px 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    flex: none;
+  }
+  .notch {
+    width: 112px;
+    height: 24px;
+    background: #1b2230;
+    border-radius: 999px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .studio.is-pc .phone-col {
+    position: static;
+    width: 100%;
+  }
+  .phone.pc-mode {
+    width: 100%;
+    max-width: 1120px;
+    height: 660px;
+    border-radius: 18px;
+    border: 1px solid var(--line);
+  }
+  .phone.pc-mode .notch,
+  .phone.pc-mode .status-bar,
+  .phone.pc-mode .app-top,
+  .phone.pc-mode .tabbar {
+    display: none;
+  }
+  .pc-chrome {
+    display: none;
+    height: 40px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--line);
+    padding: 0 16px;
+    align-items: center;
+    gap: 12px;
+    flex: none;
+  }
+  .phone.pc-mode .pc-chrome {
+    display: flex;
+  }
+  .pc-dots {
+    display: flex;
+    gap: 6px;
+  }
+  .pc-dots span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--line);
+  }
+  .pc-url {
+    flex: 1;
+    max-width: 360px;
+    margin: 0 auto;
+    background: var(--bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--mute);
+    text-align: center;
+  }
+  .pc-shell {
+    flex: 1;
+    display: flex;
+    min-height: 0;
+  }
+  .pc-side {
+    display: none;
+    width: 230px;
+    border-inline-end: 1px solid var(--line);
+    background: var(--surface);
+    padding: 18px 14px;
+    flex-direction: column;
+    gap: 6px;
+    flex: none;
+  }
+  .phone.pc-mode .pc-side {
+    display: flex;
+  }
+  .pc-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--mute);
+  }
+  .pc-nav-item.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .pc-side-spacer { flex: 1; }
+  .pc-side-langs {
+    display: flex;
+    gap: 4px;
+  }
+  .pc-side-langs button {
+    flex: 1;
+    border: 0;
+    border-radius: 999px;
+    padding: 7px 0;
+    font-size: 12px;
+    font-weight: 600;
+    background: var(--tonal-bg);
+    color: var(--tonal-ink);
+    cursor: pointer;
+  }
+  .pc-side-langs button.active {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+  .phone.pc-mode .app-body {
+    padding: 36px 48px;
+    align-items: center;
+  }
+  .phone.pc-mode .app-body > * {
+    width: 100%;
+    max-width: 680px;
+  }
+  .phone.pc-mode .hero h2 {
+    font-size: 32px;
+  }
+
+  /* Bayan Mobile App Shell */
+  .app-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 18px;
+    border-bottom: 1px solid var(--line);
+    flex: none;
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font: 700 20px var(--f-display);
+    color: var(--ink);
+  }
+  .brand small {
+    font: 400 16px var(--f-ar);
+    color: var(--mute);
+  }
+  .lang-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 11px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .app-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .app-body[dir="rtl"] {
+    font-family: var(--f-ar);
+  }
+
+  /* HADITH OF THE DAY — VARIANT A: HIGHLIGHT PILL ("Today's sales" style) */
+  .hadith-line {
+    background: var(--gold-soft);
+    border: 1px solid var(--gold-border);
+    border-radius: 12px;
+    padding: 9px 13px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 8px;
+    font-size: 13.5px;
+    line-height: 1.48;
+  }
+  .hadith-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+    background: rgba(167, 123, 43, 0.14);
+    padding: 2px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  [dir="rtl"] .hadith-badge {
+    letter-spacing: 0;
+    font-size: 12.5px;
+  }
+  .hadith-line-text {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  [dir="rtl"] .hadith-line-text {
+    font-size: 15.5px;
+    line-height: 1.6;
+  }
+  .hadith-line-source {
+    font-size: 12px;
+    color: var(--mute);
+    white-space: nowrap;
+  }
+
+  /* HADITH OF THE DAY — VARIANT B: TOP ANNOUNCEMENT RIBBON */
+  .hadith-card {
+    background: var(--gold-soft);
+    border-top: 1px solid var(--gold-border);
+    border-bottom: 1px solid var(--gold-border);
+    border-radius: 0;
+    margin: -16px -18px 0;
+    padding: 9px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    text-align: center;
+    gap: 4px 8px;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+  .phone.pc-mode .hadith-card {
+    margin: -36px -48px 8px;
+    max-width: none;
+    width: calc(100% + 96px);
+    padding: 10px 24px;
+  }
+
+  /* Main Page Hero (Simplified Bayan Home) */
+  .hero {
+    padding: 6px 2px 2px;
+  }
+  .hero h2 {
+    font: 700 24px/1.22 var(--f-display);
+    margin-bottom: 6px;
+  }
+  [dir="rtl"] .hero h2 {
+    font-family: var(--f-ar);
+    font-size: 26px;
+  }
+  .hero p {
+    font-size: 14px;
+    line-height: 1.55;
+    color: var(--mute);
+  }
+
+  /* Ask Box */
+  .ask-box {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 12px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+  }
+  .ask-placeholder {
+    font-size: 14.5px;
+    color: var(--mute);
+    min-height: 44px;
+  }
+  .ask-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ask-hint {
+    font-size: 12px;
+    color: var(--mute);
+  }
+  .ask-send {
+    background: var(--accent);
+    color: var(--on-accent);
+    border: 0;
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* Quick Topics */
+  .section-label {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--mute);
+    margin-bottom: 8px;
+  }
+  [dir="rtl"] .section-label { letter-spacing: 0; }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .chip {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 8px 13px;
+    font-size: 13px;
+    color: var(--ink);
+  }
+
+  /* Bottom Tab Bar */
+  .tabbar {
+    height: 68px;
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 4px 8px 12px;
+    flex: none;
+  }
+  .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: 11px;
+    color: var(--mute);
+  }
+  .tab.active {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .tab svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* Right Column: Curated 35 Hadiths List */
+  .library {
+    background: var(--surface);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .library-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .library-head h3 {
+    font: 700 18px var(--f-display);
+  }
+  .library-sub {
+    font-size: 13px;
+    color: var(--mute);
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    font: 14px var(--f-body);
+  }
+  .hadith-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-height: 640px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+  .hadith-item {
+    text-align: start;
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+    border-radius: 14px;
+    padding: 12px 14px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 0.15s ease;
+  }
+  .hadith-item:hover {
+    border-color: var(--accent);
+  }
+  .hadith-item.selected {
+    background: var(--gold-soft);
+    border-color: var(--gold);
+  }
+  .hadith-item-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11.5px;
+    color: var(--mute);
+  }
+  .hadith-item-tag {
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .hadith-item.selected .hadith-item-tag {
+    background: rgba(167, 123, 43, 0.18);
+    color: var(--gold-ink);
+  }
+  .hadith-item-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .hadith-item-text[dir="rtl"] {
+    font-family: var(--f-ar);
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div class="studio" id="studio">
+  <div class="panel-header">
+    <div class="panel-title">
+      <h1>Bayan — "Hadith of the Day" Main Page Mockup</h1>
+      <p>Preview how a short, uplifting daily hadith looks on Phone and PC across all 4 Bayan languages.</p>
+    </div>
+    <div class="controls">
+      <div class="seg" id="deviceControls" aria-label="Device">
+        <button data-device="phone" class="active">Phone</button>
+        <button data-device="pc">PC</button>
+      </div>
+      <div class="seg" id="langControls" aria-label="Language">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="ar">AR</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="de">DE</button>
+      </div>
+      <div class="seg" id="variantControls" aria-label="Style">
+        <button data-variant="line" class="active">Highlight Pill</button>
+        <button data-variant="card">Top Ribbon</button>
+      </div>
+      <div class="seg" id="themeControls" aria-label="Theme">
+        <button data-theme="light" class="active">Light</button>
+        <button data-theme="dark">Dark</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHONE / PC MOCKUP -->
+  <div class="phone-col">
+    <div class="phone" id="phone">
+      <div class="pc-chrome">
+        <div class="pc-dots"><span></span><span></span><span></span></div>
+        <div class="pc-url">bayan.app</div>
+      </div>
+      <div class="notch"></div>
+      <div class="status-bar">
+        <span>9:41</span>
+        <span>5G • 100%</span>
+      </div>
+
+      <div class="app-top">
+        <div class="brand">Bayan <small>بيان</small></div>
+        <button class="lang-pill" id="phoneLangBtn" title="Cycle language">🌐 <span id="phoneLangCode">EN</span></button>
+      </div>
+
+      <div class="pc-shell" id="pcShell">
+        <aside class="pc-side">
+          <div class="brand" style="padding:2px 10px 14px">Bayan <small>بيان</small></div>
+          <div class="pc-nav-item active" id="pcNavHome">Home</div>
+          <div class="pc-nav-item" id="pcNavLearn">Learn</div>
+          <div class="pc-nav-item" id="pcNavSaved">Saved</div>
+          <div class="pc-nav-item" id="pcNavMore">Settings</div>
+          <div class="pc-side-spacer"></div>
+          <div class="pc-side-langs" id="pcSideLangs">
+            <button data-lang="en" class="active">EN</button>
+            <button data-lang="ar">AR</button>
+            <button data-lang="fr">FR</button>
+            <button data-lang="de">DE</button>
+          </div>
+        </aside>
+
+        <div class="app-body" id="appBody">
+        <!-- HADITH OF THE DAY HIGHLIGHT -->
+        <div id="hadithSlot" class="hadith-line">
+          <span class="hadith-badge" id="uiHadithLabel">✦ Hadith of the Day</span>
+          <span class="hadith-line-text" id="hadithText"></span>
+          <span class="hadith-line-source" id="hadithSource"></span>
+        </div>
+
+        <!-- MAIN PAGE HERO -->
+        <div class="hero">
+          <h2 id="uiHeroTitle">Ask anything about Islam, clearly.</h2>
+          <p id="uiHeroSub">Grounded answers from the Qur'an and authentic Sunnah, in plain language.</p>
+        </div>
+
+        <!-- ASK INPUT -->
+        <div class="ask-box">
+          <div class="ask-placeholder" id="uiPlaceholder">How do I pray Witr? What does Sabr mean?</div>
+          <div class="ask-actions">
+            <span class="ask-hint" id="uiAskHint">Authentic sources</span>
+            <button class="ask-send" id="uiAskBtn" type="button">Ask Bayan</button>
+          </div>
+        </div>
+
+        <!-- QUICK TOPICS -->
+        <div>
+          <div class="section-label" id="uiTopicsLabel">Explore</div>
+          <div class="chips" id="uiChips">
+            <span class="chip">Who is Allah?</span>
+            <span class="chip">Daily Du'as</span>
+            <span class="chip">Prayer Guide</span>
+            <span class="chip">Character &amp; Kindness</span>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="tabbar" id="tabbar">
+        <div class="tab active">
+          <svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>
+          <span id="uiNavHome">Home</span>
+        </div>
+        <div class="tab">
+          <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span id="uiNavLearn">Learn</span>
+        </div>
+        <div class="tab">
+          <svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+          <span id="uiNavSaved">Saved</span>
+        </div>
+        <div class="tab">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.6.77 1 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <span id="uiNavMore">Settings</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 35 CURATED HADITHS PICKER -->
+  <div class="library">
+    <div class="library-head">
+      <div>
+        <h3>35 Short, Uplifting Hadiths</h3>
+        <div class="library-sub">Click any hadith below to preview it on the phone in the selected language.</div>
+      </div>
+      <span class="hadith-item-tag" id="countBadge">35 / 35</span>
+    </div>
+    <input class="search-input" id="searchBox" type="search" placeholder="Filter by keyword or topic (e.g., smile, mercy, ease, prayer)...">
+    <div class="hadith-grid" id="hadithList"></div>
+  </div>
+</div>
+
+<script>
+const UI = {
+  en: {
+    dir: "ltr",
+    hadithLabel: "✦ Hadith of the Day",
+    next: "Next →",
+    heroTitle: "Ask anything about Islam, clearly.",
+    heroSub: "Grounded answers from the Qur'an and authentic Sunnah, in plain language.",
+    placeholder: "How do I pray Witr? What does Sabr mean?",
+    hint: "Authentic sources",
+    askBtn: "Ask Bayan",
+    topicsLabel: "Explore",
+    chips: ["Who is Allah?", "Daily Du'as", "Prayer Guide", "Character & Kindness"],
+    nav: ["Home", "Learn", "Saved", "Settings"]
+  },
+  ar: {
+    dir: "rtl",
+    hadithLabel: "✦ حديث اليوم",
+    next: "التالي ←",
+    heroTitle: "اسأل عن الإسلام بوضوح واطمئنان.",
+    heroSub: "إجابات موثوقة من القرآن الكريم والسنة الصحيحة بأسلوب ميسّر.",
+    placeholder: "كيف أصلي الوتر؟ ما معنى الصبر؟",
+    hint: "مصادر موثوقة",
+    askBtn: "اسأل بيان",
+    topicsLabel: "استكشف",
+    chips: ["من هو الله؟", "أدعية يومية", "دليل الصلاة", "الأخلاق والرحمة"],
+    nav: ["الرئيسية", "تعلّم", "المحفوظات", "الإعدادات"]
+  },
+  fr: {
+    dir: "ltr",
+    hadithLabel: "✦ Hadith du jour",
+    next: "Suivant →",
+    heroTitle: "Posez vos questions sur l'Islam, simplement.",
+    heroSub: "Des réponses claires fondées sur le Coran et la Sunna authentique.",
+    placeholder: "Comment prier le Witr ? Que signifie Sabr ?",
+    hint: "Sources authentiques",
+    askBtn: "Demander",
+    topicsLabel: "Explorer",
+    chips: ["Qui est Allah ?", "Douas du jour", "Guide de prière", "Bon caractère"],
+    nav: ["Accueil", "Apprendre", "Favoris", "Réglages"]
+  },
+  de: {
+    dir: "ltr",
+    hadithLabel: "✦ Hadith des Tages",
+    next: "Weiter →",
+    heroTitle: "Frag klar und einfach über den Islam.",
+    heroSub: "Verlässliche Antworten aus dem Koran und der authentischen Sunna.",
+    placeholder: "Wie bete ich Witr? Was bedeutet Sabr?",
+    hint: "Authentische Quellen",
+    askBtn: "Bayan fragen",
+    topicsLabel: "Entdecken",
+    chips: ["Wer ist Allah?", "Tägliche Bittgebete", "Gebetsanleitung", "Guter Charakter"],
+    nav: ["Start", "Lernen", "Gespeichert", "Einstellungen"]
+  }
+};
+
+const HADITHS = [
+  {
+    id: 1,
+    topic: "Kindness",
+    source: "At-Tirmidhi",
+    en: "Your smile for your brother is charity.",
+    ar: "تَبَسُّمُكَ فِي وَجْهِ أَخِيكَ لَكَ صَدَقَةٌ.",
+    fr: "Ton sourire à ton frère est une aumône.",
+    de: "Dein Lächeln für deinen Bruder ist eine Wohltat (Sadaqa)."
+  },
+  {
+    id: 2,
+    topic: "Character",
+    source: "Sahih al-Bukhari",
+    en: "The best among you are those who have the best manners and character.",
+    ar: "إِنَّ مِنْ خِيَارِكُمْ أَحْسَنَكُمْ أَخْلَاقًا.",
+    fr: "Les meilleurs d'entre vous sont ceux qui ont le meilleur caractère.",
+    de: "Die Besten unter euch sind jene mit dem besten Charakter."
+  },
+  {
+    id: 3,
+    topic: "Sincerity",
+    source: "Sahih Muslim",
+    en: "Allah does not look at your appearance or wealth, but He looks at your hearts and your deeds.",
+    ar: "إِنَّ اللَّهَ لَا يَنْظُرُ إِلَى صُوَرِكُمْ وَأَمْوَالِكُمْ، وَلَكِنْ يَنْظُرُ إِلَى قُلُوبِكُمْ وَأَعْمَالِكُمْ.",
+    fr: "Allah ne regarde ni votre apparence ni vos biens, mais Il regarde vos cœurs et vos actes.",
+    de: "Allah schaut nicht auf euer Äußeres oder euren Besitz, sondern auf eure Herzen und Taten."
+  },
+  {
+    id: 4,
+    topic: "Ease",
+    source: "Sahih al-Bukhari",
+    en: "Make things easy and do not make them difficult; give glad tidings and do not drive people away.",
+    ar: "يَسِّرُوا وَلَا تُعَسِّرُوا، وَبَشِّرُوا وَلَا تُنَفِّرُوا.",
+    fr: "Facilitez les choses et ne les rendez pas difficiles ; annoncez de bonnes nouvelles et ne faites pas fuir les gens.",
+    de: "Macht es leicht und nicht schwer; überbringt frohe Botschaft und schreckt nicht ab."
+  },
+  {
+    id: 5,
+    topic: "Speech",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "A good word is charity.",
+    ar: "وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ.",
+    fr: "Une bonne parole est une aumône.",
+    de: "Ein gutes Wort ist eine Wohltat."
+  },
+  {
+    id: 6,
+    topic: "Mercy",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "Whoever is not merciful to others will not be shown mercy.",
+    ar: "مَنْ لَا يَرْحَمْ لَا يُرْحَمْ.",
+    fr: "Celui qui ne fait pas miséricorde ne recevra pas de miséricorde.",
+    de: "Wer keine Barmherzigkeit zeigt, dem wird keine Barmherzigkeit zuteil."
+  },
+  {
+    id: 7,
+    topic: "Consistency",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "The most beloved deeds to Allah are those done consistently, even if they are small.",
+    ar: "أَحَبُّ الْأَعْمَالِ إِلَى اللَّهِ أَدْوَمُهَا وَإِنْ قَلَّ.",
+    fr: "Les œuvres les plus aimées d'Allah sont les plus régulières, même si elles sont modestes.",
+    de: "Die bei Allah beliebtesten Taten sind die beständigen, auch wenn sie klein sind."
+  },
+  {
+    id: 8,
+    topic: "Gratitude",
+    source: "At-Tirmidhi",
+    en: "He who does not thank people does not thank Allah.",
+    ar: "مَنْ لَا يَشْكُرُ النَّاسَ لَا يَشْكُرُ اللَّهَ.",
+    fr: "Celui qui ne remercie pas les gens ne remercie pas Allah.",
+    de: "Wer den Menschen nicht dankt, dankt Allah nicht."
+  },
+  {
+    id: 9,
+    topic: "Contentment",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "True richness is not having many possessions, but contentment of the soul.",
+    ar: "لَيْسَ الْغِنَى عَنْ كَثْرَةِ الْعَرَضِ، وَلَكِنَّ الْغِنَى غِنَى النَّفْسِ.",
+    fr: "La vraie richesse ne réside pas dans l'abondance des biens, mais dans la richesse du cœur.",
+    de: "Wahrer Reichtum liegt nicht in vielem Besitz, sondern in der Zufriedenheit der Seele."
+  },
+  {
+    id: 10,
+    topic: "Patience",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "The strong person is not the one who wins by force, but the one who controls himself when angry.",
+    ar: "لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ.",
+    fr: "Le fort n'est pas celui qui terrasse les autres, mais celui qui se maîtrise dans la colère.",
+    de: "Stark ist nicht, wer andere bezwingt, sondern wer sich im Zorn beherrscht."
+  },
+  {
+    id: 11,
+    topic: "Brotherhood",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "None of you truly believes until he loves for his brother what he loves for himself.",
+    ar: "لَا يُؤْمِنُ أَحَدُكُمْ حَتَّى يُحِبَّ لِأَخِيهِ مَا يُحِبُّ لِنَفْسِهِ.",
+    fr: "Aucun de vous ne croit vraiment tant qu'il n'aime pas pour son frère ce qu'il aime pour lui-même.",
+    de: "Keiner von euch glaubt wahrhaftig, bis er seinem Bruder wünscht, was er sich selbst wünscht."
+  },
+  {
+    id: 12,
+    topic: "Helping Others",
+    source: "Sahih Muslim",
+    en: "Whoever relieves a believer's hardship in this world, Allah will relieve his hardship on the Day of Resurrection.",
+    ar: "مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا، نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ.",
+    fr: "Quiconque soulage un croyant d'une peine ici-bas, Allah le soulagera d'une peine au Jour de la Résurrection.",
+    de: "Wer einem Gläubigen eine Sorge im Diesseits nimmt, dem nimmt Allah eine Sorge am Tag der Auferstehung."
+  },
+  {
+    id: 13,
+    topic: "Kindness",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "Every act of kindness is charity.",
+    ar: "كُلُّ مَعْرُوفٍ صَدَقَةٌ.",
+    fr: "Tout acte de bonté est une aumône.",
+    de: "Jede gute Tat ist eine Wohltat."
+  },
+  {
+    id: 14,
+    topic: "Gentleness",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "Allah is Gentle and loves gentleness in all matters.",
+    ar: "إِنَّ اللَّهَ رَفِيقٌ يُحِبُّ الرِّفْقَ فِي الْأَمْرِ كُلِّهِ.",
+    fr: "Allah est Doux et Il aime la douceur en toute chose.",
+    de: "Allah ist sanftmütig und liebt die Sanftmut in allen Dingen."
+  },
+  {
+    id: 15,
+    topic: "Speech",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "Whoever believes in Allah and the Last Day should speak good or remain silent.",
+    ar: "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ.",
+    fr: "Que celui qui croit en Allah et au Jour dernier dise du bien ou garde le silence.",
+    de: "Wer an Allah und den Jüngsten Tag glaubt, soll Gutes sprechen oder schweigen."
+  },
+  {
+    id: 16,
+    topic: "Warmth",
+    source: "Sahih Muslim",
+    en: "Do not belittle any good deed, even meeting your brother with a cheerful face.",
+    ar: "لَا تَحْقِرَنَّ مِنَ الْمَعْرُوفِ شَيْئًا، وَلَوْ أَنْ تَلْقَى أَخَاكَ بِوَجْهٍ طَلْقٍ.",
+    fr: "Ne méprise aucune bonne action, ne serait-ce que d'accueillir ton frère avec un visage souriant.",
+    de: "Unterschätze keine gute Tat, sei es auch nur, deinem Bruder mit einem freundlichen Gesicht zu begegnen."
+  },
+  {
+    id: 17,
+    topic: "Cleanliness",
+    source: "Sahih Muslim",
+    en: "Cleanliness is half of faith.",
+    ar: "الطُّهُورُ شَطْرُ الْإِيمَانِ.",
+    fr: "La pureté est la moitié de la foi.",
+    de: "Reinheit ist die Hälfte des Glaubens."
+  },
+  {
+    id: 18,
+    topic: "Modesty",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "Modesty brings nothing but good.",
+    ar: "الْحَيَاءُ لَا يَأْتِي إِلَّا بِخَيْرٍ.",
+    fr: "La pudeur n'apporte que du bien.",
+    de: "Schamhaftigkeit bringt nichts als Gutes."
+  },
+  {
+    id: 19,
+    topic: "Guidance",
+    source: "Sahih Muslim",
+    en: "Whoever guides someone to goodness will have a reward like the one who did it.",
+    ar: "مَنْ دَلَّ عَلَى خَيْرٍ فَلَهُ مِثْلُ أَجْرِ فَاعِلِهِ.",
+    fr: "Celui qui guide vers un bien aura la même récompense que celui qui l'accomplit.",
+    de: "Wer jemanden zum Guten führt, erhält denselben Lohn wie derjenige, der es tut."
+  },
+  {
+    id: 20,
+    topic: "Prayer",
+    source: "Sahih Muslim",
+    en: "The closest a servant is to his Lord is while he is in prostration, so increase your supplication.",
+    ar: "أَقْرَبُ مَا يَكُونُ الْعَبْدُ مِنْ رَبِّهِ وَهُوَ سَاجِدٌ، فَأَكْثِرُوا الدُّعَاءَ.",
+    fr: "Le moment où le serviteur est le plus proche de son Seigneur est lorsqu'il est prosterné ; multipliez donc les invocations.",
+    de: "Am nächsten ist der Diener seinem Herrn in der Niederwerfung; so vermehrt dort das Bittgebet."
+  },
+  {
+    id: 21,
+    topic: "Charity",
+    source: "Sahih Muslim",
+    en: "Charity never decreases wealth.",
+    ar: "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ.",
+    fr: "L'aumône ne diminue jamais la richesse.",
+    de: "Almosen mindert niemals den Besitz."
+  },
+  {
+    id: 22,
+    topic: "Love of Allah",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "When Allah loves a servant, He calls Gabriel and says: 'I love so-and-so, so love him.'",
+    ar: "إِذَا أَحَبَّ اللَّهُ عَبْدًا نَادَى جِبْرِيلَ: إِنِّي أُحِبُّ فُلَانًا فَأَحِبَّهُ.",
+    fr: "Lorsque Allah aime un serviteur, Il appelle Gabriel et dit : « J'aime un tel, aime-le donc. »",
+    de: "Wenn Allah einen Diener liebt, ruft Er Gabriel und sagt: ‚Ich liebe diesen Menschen, so liebe ihn auch.‘"
+  },
+  {
+    id: 23,
+    topic: "Gratitude",
+    source: "Sahih Muslim",
+    en: "Look at those who have less than you, and not at those who have more—so you appreciate Allah's blessings.",
+    ar: "انْظُرُوا إِلَى مَنْ هُوَ أَسْفَلَ مِنْكُمْ، وَلَا تَنْظُرُوا إِلَى مَنْ هُوَ فَوْقَكُمْ، فَهُوَ أَجْدَرُ أَنْ لَا تَزْدَرُوا نِعْمَةَ اللَّهِ.",
+    fr: "Regardez ceux qui ont moins que vous, et non ceux qui ont plus, afin de ne pas mépriser les bienfaits d'Allah.",
+    de: "Schaut auf jene, die weniger haben als ihr, und nicht auf jene über euch, damit ihr Allahs Gaben nicht geringschätzt."
+  },
+  {
+    id: 24,
+    topic: "Knowledge",
+    source: "Sahih Muslim",
+    en: "Whoever treads a path seeking knowledge, Allah makes easy for him a path to Paradise.",
+    ar: "مَنْ سَلَكَ طَرِيقًا يَلْتَمِسُ فِيهِ عِلْمًا، سَهَّلَ اللَّهُ لَهُ بِهِ طَرِيقًا إِلَى الْجَنَّةِ.",
+    fr: "Celui qui emprunte un chemin pour rechercher la science, Allah lui facilite un chemin vers le Paradis.",
+    de: "Wer einen Weg beschreitet, um Wissen zu suchen, dem erleichtert Allah einen Weg ins Paradies."
+  },
+  {
+    id: 25,
+    topic: "Mercy",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "Allah says: 'My mercy prevails over My wrath.'",
+    ar: "إِنَّ رَحْمَتِي تَغْلِبُ غَضَبِي.",
+    fr: "Allah dit : « Ma miséricorde l'emporte sur Ma colère. »",
+    de: "Allah sagt: ‚Meine Barmherzigkeit überwiegt Meinen Zorn.‘"
+  },
+  {
+    id: 26,
+    topic: "Service",
+    source: "Al-Mu'jam al-Awsat",
+    en: "The best of people are those who are most beneficial to people.",
+    ar: "خَيْرُ النَّاسِ أَنْفَعُهُمْ لِلنَّاسِ.",
+    fr: "Les meilleurs des gens sont les plus utiles aux autres.",
+    de: "Die besten Menschen sind jene, die den Menschen am nützlichsten sind."
+  },
+  {
+    id: 27,
+    topic: "Faith & Hope",
+    source: "Sahih Muslim",
+    en: "How wonderful is the believer's affair! In good times he is grateful, and in hardship he is patient—both are good for him.",
+    ar: "عَجَبًا لِأَمْرِ الْمُؤْمِنِ، إِنَّ أَمْرَهُ كُلَّهُ خَيْرٌ: إِنْ أَصَابَتْهُ سَرَّاءُ شَكَرَ فَكَانَ خَيْرًا لَهُ، وَإِنْ أَصَابَتْهُ ضَرَّاءُ صَبَرَ فَكَانَ خَيْرًا لَهُ.",
+    fr: "Étonnante est l'affaire du croyant : tout est un bien pour lui. Dans l'aisance il remercie, et dans l'épreuve il patiente.",
+    de: "Wunderbar ist die Lage des Gläubigen! Alles ist gut für ihn: Im Glück ist er dankbar, und in der Prüfung ist er geduldig."
+  },
+  {
+    id: 28,
+    topic: "Compassion",
+    source: "Sahih al-Bukhari",
+    en: "Feed the hungry, visit the sick, and help those in distress.",
+    ar: "أَطْعِمُوا الطَّعَامَ، وَعُودُوا الْمَرِيضَ، وَفُكُّوا الْعَانِيَ.",
+    fr: "Nourrissez les affamés, rendez visite aux malades et secourez ceux qui sont en détresse.",
+    de: "Speist die Hungrigen, besucht die Kranken und helft den Bedrängten."
+  },
+  {
+    id: 29,
+    topic: "Remembrance",
+    source: "At-Tirmidhi",
+    en: "The best remembrance is 'La ilaha illallah', and the best supplication is 'Alhamdulillah'.",
+    ar: "أَفْضَلُ الذِّكْرِ لَا إِلَهَ إِلَّا اللَّهُ، وَأَفْضَلُ الدُّعَاءِ الْحَمْدُ لِلَّهِ.",
+    fr: "Le meilleur rappel est « La ilaha illallah », et la meilleure invocation est « Alhamdulillah ».",
+    de: "Das beste Gedenken ist ‚La ilaha illallah‘, und das beste Bittgebet ist ‚Alhamdulillah‘."
+  },
+  {
+    id: 30,
+    topic: "Love & Peace",
+    source: "Al-Adab al-Mufrad",
+    en: "Exchange gifts, and you will love one another.",
+    ar: "تَهَادَوْا تَحَابُّوا.",
+    fr: "Offrez-vous des cadeaux, vous vous aimerez les uns les autres.",
+    de: "Macht einander Geschenke, so werdet ihr einander lieben."
+  },
+  {
+    id: 31,
+    topic: "Peacefulness",
+    source: "Sahih al-Bukhari & Muslim",
+    en: "A true Muslim is the one from whose tongue and hand people are safe.",
+    ar: "الْمُسْلِمُ مَنْ سَلِمَ الْمُسْلِمُونَ مِنْ لِسَانِهِ وَيَدِهِ.",
+    fr: "Le vrai musulman est celui dont les gens sont à l'abri de la langue et de la main.",
+    de: "Ein wahrer Muslim ist der, vor dessen Zunge und Hand die Menschen sicher sind."
+  },
+  {
+    id: 32,
+    topic: "Fresh Start",
+    source: "Sahih Muslim",
+    en: "Sincere repentance wipes away what came before it.",
+    ar: "التَّوْبَةُ تَهْدِمُ مَا كَانَ قَبْلَهَا.",
+    fr: "Le repentir sincère efface ce qui l'a précédé.",
+    de: "Aufrichtige Reue löscht das aus, was ihr vorausging."
+  },
+  {
+    id: 33,
+    topic: "Du'a",
+    source: "At-Tirmidhi",
+    en: "Supplication (Du'a) is the very essence of worship.",
+    ar: "الدُّعَاءُ هُوَ الْعِبَادَةُ.",
+    fr: "L'invocation (Doua) est l'essence même de l'adoration.",
+    de: "Das Bittgebet (Du'a) ist das Wesen des Gottesdienstes."
+  },
+  {
+    id: 34,
+    topic: "Friendship",
+    source: "Abu Dawud",
+    en: "A believer is a mirror to his fellow believer.",
+    ar: "الْمُؤْمِنُ مِرْآةُ الْمُؤْمِنِ.",
+    fr: "Le croyant est le miroir du croyant.",
+    de: "Der Gläubige ist der Spiegel des Gläubigen."
+  },
+  {
+    id: 35,
+    topic: "Gratitude",
+    source: "Al-Hakim",
+    en: "Make the most of five before five: your youth before old age, your health before sickness, your wealth before poverty, your free time before being busy, and your life before death.",
+    ar: "اغْتَنِمْ خَمْسًا قَبْلَ خَمْسٍ: شَبَابَكَ قَبْلَ هَرَمِكَ، وَصِحَّتَكَ قَبْلَ سَقَمِكَ، وَغِنَاكَ قَبْلَ فَقْرِكَ، وَفَرَاغَكَ قَبْلَ شُغْلِكَ، وَحَيَاتَكَ قَبْلَ مَوْتِكَ.",
+    fr: "Profite de cinq choses avant cinq autres : ta jeunesse avant ta vieillesse, ta santé avant ta maladie, ta richesse avant ta pauvreté, ton temps libre avant d'être occupé, et ta vie avant ta mort.",
+    de: "Nutze fünf Dinge vor fünf anderen: deine Jugend vor dem Alter, deine Gesundheit vor Krankheit, deinen Reichtum vor Armut, deine freie Zeit vor Beschäftigung und dein Leben vor dem Tod."
+  }
+];
+
+let state = { device: "phone", lang: "en", variant: "line", theme: "light", index: 0, filter: "" };
+
+function render() {
+  const ui = UI[state.lang];
+  const h = HADITHS[state.index];
+
+  document.documentElement.setAttribute("data-theme", state.theme);
+  document.getElementById("studio").classList.toggle("is-pc", state.device === "pc");
+  document.getElementById("phone").classList.toggle("pc-mode", state.device === "pc");
+  document.getElementById("phoneLangCode").textContent = state.lang.toUpperCase();
+
+  document.getElementById("pcShell").setAttribute("dir", ui.dir);
+  const body = document.getElementById("appBody");
+  body.setAttribute("dir", ui.dir);
+
+  const slot = document.getElementById("hadithSlot");
+  slot.className = state.variant === "line" ? "hadith-line" : "hadith-card";
+
+  document.getElementById("uiHadithLabel").textContent = ui.hadithLabel;
+  document.getElementById("hadithText").textContent = `“${h[state.lang]}”`;
+  document.getElementById("hadithSource").textContent = `— ${h.source}`;
+
+  document.getElementById("uiHeroTitle").textContent = ui.heroTitle;
+  document.getElementById("uiHeroSub").textContent = ui.heroSub;
+  document.getElementById("uiPlaceholder").textContent = ui.placeholder;
+  document.getElementById("uiAskHint").textContent = ui.hint;
+  document.getElementById("uiAskBtn").textContent = ui.askBtn;
+  document.getElementById("uiTopicsLabel").textContent = ui.topicsLabel;
+
+  document.getElementById("uiChips").innerHTML = ui.chips
+    .map(c => `<span class="chip">${c}</span>`)
+    .join("");
+
+  document.getElementById("uiNavHome").textContent = ui.nav[0];
+  document.getElementById("uiNavLearn").textContent = ui.nav[1];
+  document.getElementById("uiNavSaved").textContent = ui.nav[2];
+  document.getElementById("uiNavMore").textContent = ui.nav[3];
+
+  document.getElementById("pcNavHome").textContent = ui.nav[0];
+  document.getElementById("pcNavLearn").textContent = ui.nav[1];
+  document.getElementById("pcNavSaved").textContent = ui.nav[2];
+  document.getElementById("pcNavMore").textContent = ui.nav[3];
+
+  document.querySelectorAll("#langControls button, #pcSideLangs button").forEach(x => {
+    x.classList.toggle("active", x.dataset.lang === state.lang);
+  });
+
+  renderList();
+}
+
+function renderList() {
+  const q = state.filter.trim().toLowerCase();
+  const list = document.getElementById("hadithList");
+  const filtered = HADITHS.filter(h =>
+    !q ||
+    h.en.toLowerCase().includes(q) ||
+    h.fr.toLowerCase().includes(q) ||
+    h.de.toLowerCase().includes(q) ||
+    h.ar.includes(q) ||
+    h.topic.toLowerCase().includes(q) ||
+    h.source.toLowerCase().includes(q)
+  );
+  document.getElementById("countBadge").textContent = `${filtered.length} / ${HADITHS.length}`;
+
+  list.innerHTML = filtered.map(h => {
+    const idx = HADITHS.indexOf(h);
+    const active = idx === state.index ? "selected" : "";
+    const dir = state.lang === "ar" ? "rtl" : "ltr";
+    return `
+      <button type="button" class="hadith-item ${active}" data-idx="${idx}">
+        <div class="hadith-item-meta">
+          <span>#${h.id} • ${h.source}</span>
+          <span class="hadith-item-tag">${h.topic}</span>
+        </div>
+        <div class="hadith-item-text" dir="${dir}">${h[state.lang]}</div>
+      </button>
+    `;
+  }).join("");
+
+  list.querySelectorAll(".hadith-item").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.index = Number(btn.dataset.idx);
+      render();
+    });
+  });
+}
+
+document.querySelectorAll("#deviceControls button").forEach(b => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll("#deviceControls button").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    state.device = b.dataset.device;
+    render();
+  });
+});
+
+document.querySelectorAll("#langControls button, #pcSideLangs button").forEach(b => {
+  b.addEventListener("click", () => {
+    state.lang = b.dataset.lang;
+    render();
+  });
+});
+
+document.querySelectorAll("#variantControls button").forEach(b => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll("#variantControls button").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    state.variant = b.dataset.variant;
+    render();
+  });
+});
+
+document.querySelectorAll("#themeControls button").forEach(b => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll("#themeControls button").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    state.theme = b.dataset.theme;
+    render();
+  });
+});
+
+document.getElementById("phoneLangBtn").addEventListener("click", () => {
+  const order = ["en", "ar", "fr", "de"];
+  state.lang = order[(order.indexOf(state.lang) + 1) % order.length];
+  document.querySelectorAll("#langControls button").forEach(x => {
+    x.classList.toggle("active", x.dataset.lang === state.lang);
+  });
+  render();
+});
+
+document.getElementById("searchBox").addEventListener("input", (e) => {
+  state.filter = e.target.value;
+  renderList();
+});
+
+render();
+</script>
+</body>
+</html>

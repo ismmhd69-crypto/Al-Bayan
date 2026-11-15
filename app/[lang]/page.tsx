@@ -5,6 +5,7 @@ import { ArrowRight, BookOpen, ChevronRight, Compass, Heart, Link2, ShieldCheck 
 import { getDictionary, isLocale } from "@/lib/i18n";
 import { getPopularQuestions, getReviewDecisions, getScholarNames, getTopics } from "@/lib/content";
 import AskLauncher from "@/components/AskLauncher";
+import DailyHadithHighlight from "@/components/DailyHadithHighlight";
 import LangSwitch from "@/components/LangSwitch";
 import { Beacon } from "@/components/Logo";
 import { buildCanonicalUrl, buildLanguageAlternates } from "@/lib/seo";
@@ -51,6 +52,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
       <div className="home-lang">
         <LangSwitch lang={lang} label={t.more.language} />
       </div>
+
+      <DailyHadithHighlight lang={lang} label={h.hadithOfTheDay} />
 
       <div className="home-hero">
         <Beacon size={88} />
